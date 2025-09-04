@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>DMRG cond-mat</title>
+    <link>http://quattro.phys.sci.kobe-u.ac.jp/dmrg/condmat.html</link>
+    <description>Aggregated feed from DMRG cond-mat page, includes abstracts and authors from arXiv (sorted by publication date, newest first)</description>
+    <ns0:link href="http://quattro.phys.sci.kobe-u.ac.jp/dmrg/condmat.html" rel="self" />
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 04 Sep 2025 05:44:53 +0000</lastBuildDate>
+    <item>
+      <title>Probing Non-Fermi-Liquid Behaviour of Composite Fermi Liquid via   Efficient Thermal Simulations</title>
+      <link>http://arxiv.org/abs/2509.02218</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Bin-Bin Chen, Hongyu Lu, Zi Yang Meng&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; The two-dimensional electron gas in a perpendicular magnetic field, i.e., the quantum Hall system, is remarkably rich. At half filling of the lowest Landau level, it has been predicted that ``composite fermions'' -- emergent quasiparticle of an electron with two magnetic flux quanta -- can experience zero net magnetic field and form a Fermi sea, dubbed composite Fermi liquid (CFL). However, the seemingly simple appearance of CFL is a strongly correlated quantum many-body state in disguise, and to solve it in a controlled manner is extremely difficult, to the level that the thermodynamic properties of CFL is still largely unknown. In this work, we perform state-of-the-art thermal tensor network simulations on the $\nu=1/2$ Landau level systems, and observe low-temperature power-law behaviour of the specific heat, signaling the gapless nature of CFL. More importantly, the power is extracted to be closed to $2/3$, clearly deviated from the ordinary linear-$T$ Fermi liquid behaviour, suggesting the coupling between the CFs and the dynamical emergent gauge field and therefore revealed the quantum many-body aspect of the CFL state. Relevance of our methodology to other quantum Hall settings and moir\'e systems is discussed.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2509.02218'&gt;arXiv:2509.02218&lt;/a&gt;] Published Tue, 02 Sep 2025 11:39:17 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2509.02218</guid>
+      <pubDate>Tue, 02 Sep 2025 11:39:17 +0000</pubDate>
+    <dc:creator>Bin-Bin Chen, Hongyu Lu, Zi Yang Meng</dc:creator></item>
+    <item>
+      <title>Fermion Discretization Effects in the Two-Flavor Lattice Schwinger   Model: A Study with Matrix Product States</title>
+      <link>http://arxiv.org/abs/2509.02329</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Tim Schwägerl, Karl Jansen, Stefan Kühn&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We present a comprehensive tensor network study of staggered, Wilson, and twisted mass fermions in the Hamiltonian formulation, using the massive two-flavor Schwinger model as a benchmark. Particular emphasis is placed on twisted mass fermions, whose properties in this context have not been systematically explored before. We confirm the expected O(a) improvement in the free theory and observe that this improvement persists in the interacting case. By leveraging an electric-field-based method for mass renormalization, we reliably tune to maximal twist and establish the method's applicability in the two-flavor model. Once mass renormalization is included, the pion mass exhibits rapid convergence to the continuum limit. Finite-volume effects are addressed using two complementary approaches: dispersion relation fits and finite-volume scaling. Our results show excellent agreement with semiclassical predictions and reveal a milder volume dependence for twisted mass fermions compared to staggered and Wilson discretizations. In addition, we observe clear isospin-breaking effects, suggesting intriguing parallels with lattice QCD. These findings highlight the advantages of twisted mass fermions for Hamiltonian simulations and motivate their further exploration, particularly in view of future applications to higher-dimensional lattice gauge theories.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2509.02329'&gt;arXiv:2509.02329&lt;/a&gt;] Published Tue, 02 Sep 2025 13:58:48 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2509.02329</guid>
+      <pubDate>Tue, 02 Sep 2025 13:58:48 +0000</pubDate>
+    <dc:creator>Tim Schwägerl, Karl Jansen, Stefan Kühn</dc:creator></item>
+  </channel>
+</rss>

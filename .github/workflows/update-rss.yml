@@ -1,0 +1,269 @@
+name: Auto Update DMRG RSS Feed
+
+on:
+  schedule:
+    # Run every 2 hours
+    - cron: '0 */2 * * *'
+  # Support manual trigger
+  workflow_dispatch:
+    inputs:
+      force_full_sync:
+        description: 'Force full re-sync'
+        required: false
+        default: 'false'
+        type: boolean
+
+permissions:
+  contents: write
+
+env:
+  PYTHON_VERSION: '3.11'
+
+jobs:
+  update-rss:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Create docs directory
+        run: mkdir -p docs
+
+      - name: Check existing RSS file
+        id: check_existing
+        run: |
+          if [ -f "docs/rss.xml" ]; then
+            echo "✅ Existing RSS file found"
+            file_size=$(du -h docs/rss.xml | cut -f1)
+            byte_size=$(stat -f%z docs/rss.xml 2>/dev/null || stat -c%s docs/rss.xml)
+            existing_count=$(grep -c '<item>' docs/rss.xml || echo '0')
+            
+            echo "Current file size: $file_size ($byte_size bytes)"
+            echo "Current number of entries: $existing_count"
+            
+            # Check if file is empty or corrupted
+            if [ "$byte_size" -lt 100 ]; then
+              echo "⚠️  RSS file appears to be empty or corrupted"
+              echo "RSS_FILE_STATUS=corrupted" >> $GITHUB_OUTPUT
+            else
+              echo "RSS_FILE_STATUS=ok" >> $GITHUB_OUTPUT
+            fi
+            
+            echo "EXISTING_COUNT=$existing_count" >> $GITHUB_OUTPUT
+            echo "EXISTING_SIZE=$file_size" >> $GITHUB_OUTPUT
+            echo "RSS_EXISTS=true" >> $GITHUB_OUTPUT
+          else
+            echo "📝 RSS file not found, will create a new one"
+            echo "EXISTING_COUNT=0" >> $GITHUB_OUTPUT
+            echo "EXISTING_SIZE=0B" >> $GITHUB_OUTPUT
+            echo "RSS_EXISTS=false" >> $GITHUB_OUTPUT
+            echo "RSS_FILE_STATUS=missing" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Handle force sync option
+        if: github.event.inputs.force_full_sync == 'true'
+        run: |
+          echo "🔄 Force full sync requested - backing up existing RSS"
+          if [ -f "docs/rss.xml" ]; then
+            cp docs/rss.xml docs/rss.xml.backup
+            echo "📋 Backup created: docs/rss.xml.backup"
+          fi
+
+      - name: Run RSS update
+        id: run_sync
+        run: |
+          echo "🚀 Starting RSS sync..."
+          echo "SYNC_START_TIME=$(date -u +%Y-%m-%dT%H:%M:%SZ)" >> $GITHUB_OUTPUT
+          
+          # Run Python script and capture output
+          if python generate_rss.py; then
+            echo "✅ RSS sync completed successfully"
+            echo "SYNC_STATUS=success" >> $GITHUB_OUTPUT
+          else
+            echo "❌ RSS sync failed"
+            echo "SYNC_STATUS=failed" >> $GITHUB_OUTPUT
+            exit 1
+          fi
+
+      - name: Validate RSS output
+        id: validate
+        run: |
+          if [ -f "docs/rss.xml" ]; then
+            echo "✅ RSS file generated successfully"
+            
+            # Check file size and entry count
+            new_size=$(du -h docs/rss.xml | cut -f1)
+            new_count=$(grep -c '<item>' docs/rss.xml || echo '0')
+            byte_size=$(stat -f%z docs/rss.xml 2>/dev/null || stat -c%s docs/rss.xml)
+            
+            echo "Updated file size: $new_size ($byte_size bytes)"
+            echo "Updated number of entries: $new_count"
+            echo "Previous number of entries: ${{ steps.check_existing.outputs.EXISTING_COUNT }}"
+            
+            # Calculate new entries
+            prev_count=${{ steps.check_existing.outputs.EXISTING_COUNT }}
+            if [ "$new_count" -ge "$prev_count" ]; then
+              new_entries=$((new_count - prev_count))
+            else
+              new_entries=0
+              echo "⚠️  Entry count decreased (possibly removed obsolete entries)"
+            fi
+            
+            echo "Number of new/updated entries: $new_entries"
+            
+            # Validate RSS format
+            if [ "$byte_size" -lt 100 ]; then
+              echo "❌ RSS file is too small, likely empty or corrupted"
+              echo "VALIDATION_STATUS=failed" >> $GITHUB_OUTPUT
+              exit 1
+            fi
+            
+            # Simple XML format check
+            if grep -q "<rss" docs/rss.xml && grep -q "</rss>" docs/rss.xml; then
+              echo "✅ RSS format validation passed"
+              echo "VALIDATION_STATUS=passed" >> $GITHUB_OUTPUT
+            else
+              echo "❌ RSS format validation failed"
+              echo "VALIDATION_STATUS=failed" >> $GITHUB_OUTPUT
+              exit 1
+            fi
+            
+            # Output environment variables
+            echo "NEW_COUNT=$new_count" >> $GITHUB_OUTPUT
+            echo "NEW_ENTRIES=$new_entries" >> $GITHUB_OUTPUT
+            echo "RSS_SIZE=$new_size" >> $GITHUB_OUTPUT
+            echo "RSS_BYTES=$byte_size" >> $GITHUB_OUTPUT
+            
+          else
+            echo "❌ RSS file not generated"
+            echo "VALIDATION_STATUS=failed" >> $GITHUB_OUTPUT
+            exit 1
+          fi
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git add docs/rss.xml logs/sync.log
+          
+          if git diff --cached --quiet; then
+            echo "📝 No changes detected in RSS content"
+            echo "HAS_CHANGES=false" >> $GITHUB_OUTPUT
+          else
+            echo "📝 Changes detected in RSS content"
+            echo "HAS_CHANGES=true" >> $GITHUB_OUTPUT
+            
+            # Show change statistics
+            git diff --cached --stat docs/rss.xml
+          fi
+
+      - name: Commit and push RSS XML
+        if: steps.check_changes.outputs.HAS_CHANGES == 'true'
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Build commit message
+          timestamp=$(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M:%S')
+          
+          if [ "${{ steps.validate.outputs.NEW_ENTRIES }}" -gt 0 ]; then
+            commit_msg="🤖 RSS sync: +${{ steps.validate.outputs.NEW_ENTRIES }} entries (total: ${{ steps.validate.outputs.NEW_COUNT }}) - $timestamp CST"
+          else
+            commit_msg="🤖 RSS sync: updated (total: ${{ steps.validate.outputs.NEW_COUNT }} entries) - $timestamp CST"
+          fi
+          
+          # Add force sync marker if applicable
+          if [ "${{ github.event.inputs.force_full_sync }}" == "true" ]; then
+            commit_msg="$commit_msg [FORCE_SYNC]"
+          fi
+          
+          git commit -m "$commit_msg"
+          git push
+          echo "✅ RSS feed updated and pushed to repository"
+
+      - name: Upload logs and artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: rss-sync-logs-${{ github.run_number }}
+          path: |
+            logs/sync.log
+            docs/rss.xml.backup
+          retention-days: 7
+
+      - name: Create detailed summary
+        if: always()
+        run: |
+          echo "## 📊 DMRG RSS Update Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          # Basic information
+          echo "### ℹ️ Basic Information" >> $GITHUB_STEP_SUMMARY
+          echo "- **Sync Time**: $(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M:%S') CST" >> $GITHUB_STEP_SUMMARY
+          echo "- **Trigger**: ${{ github.event_name }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Status**: ${{ steps.run_sync.outputs.SYNC_STATUS }}" >> $GITHUB_STEP_SUMMARY
+          
+          if [ "${{ github.event.inputs.force_full_sync }}" == "true" ]; then
+            echo "- **Mode**: Force Full Sync 🔄" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "- **Mode**: Incremental Sync ⚡" >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          # Statistics
+          echo "### 📈 Statistics" >> $GITHUB_STEP_SUMMARY
+          echo "- **Previous Entries**: ${{ steps.check_existing.outputs.EXISTING_COUNT }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Current Entries**: ${{ steps.validate.outputs.NEW_COUNT }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **New/Updated**: ${{ steps.validate.outputs.NEW_ENTRIES }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **File Size**: ${{ steps.validate.outputs.RSS_SIZE }} (${{ steps.validate.outputs.RSS_BYTES }} bytes)" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          # Change status
+          echo "### 🔄 Changes" >> $GITHUB_STEP_SUMMARY
+          if [ "${{ steps.check_changes.outputs.HAS_CHANGES }}" == "true" ]; then
+            echo "- ✅ Changes detected and committed" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "- 📝 No changes (RSS already up to date)" >> $GITHUB_STEP_SUMMARY
+          fi
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          # File links
+          echo "### 📄 Files" >> $GITHUB_STEP_SUMMARY
+          echo "- **RSS Feed**: [docs/rss.xml](./docs/rss.xml)" >> $GITHUB_STEP_SUMMARY
+          echo "- **Sync Logs**: [rss-sync-logs-${{ github.run_number }}](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})" >> $GITHUB_STEP_SUMMARY
+          
+          # Add error information if applicable
+          if [ "${{ steps.run_sync.outputs.SYNC_STATUS }}" == "failed" ]; then
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "### ❌ Error Information" >> $GITHUB_STEP_SUMMARY
+            echo "The sync process failed. Please check the logs for details." >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "*Last updated: $(date -u '+%Y-%m-%d %H:%M:%S') UTC*" >> $GITHUB_STEP_SUMMARY
+
+      - name: Cleanup on failure
+        if: failure()
+        run: |
+          echo "🧹 Cleaning up after failure..."
+          
+          # If backup exists and main file is corrupted, restore from backup
+          if [ -f "docs/rss.xml.backup" ] && [ ! -s "docs/rss.xml" ]; then
+            echo "📋 Restoring from backup..."
+            mv docs/rss.xml.backup docs/rss.xml
+          fi
