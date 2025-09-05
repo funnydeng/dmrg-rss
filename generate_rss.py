@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import os
+import re
 import sys
 import time
 import logging
@@ -67,10 +68,12 @@ def fetch_arxiv_details(arxiv_url, retry_count=3):
             # Extract title
             title_el = entry.find(".//{http://www.w3.org/2005/Atom}title")
             title = title_el.text.strip().replace("\n", " ") if title_el is not None else ""
+            title = re.sub(r'\s+', ' ', title)
 
             # Extract abstract
             abstract_el = entry.find(".//{http://www.w3.org/2005/Atom}summary")
             abstract = abstract_el.text.strip().replace("\n", " ") if abstract_el is not None else ""
+            abstract = re.sub(r'\s+', ' ', abstract)
 
             # Extract publication date
             published_el = entry.find(".//{http://www.w3.org/2005/Atom}published")
@@ -89,7 +92,7 @@ def fetch_arxiv_details(arxiv_url, retry_count=3):
             # Extract authors
             authors_list = entry.findall(".//{http://www.w3.org/2005/Atom}author")
             authors = ", ".join([
-                a.findtext("{http://www.w3.org/2005/Atom}name", "") 
+                re.sub(r'\s+', ' ', a.findtext("{http://www.w3.org/2005/Atom}name", "").strip())
                 for a in authors_list
             ])
 
@@ -468,7 +471,7 @@ def main():
             sys.exit(1)
 
         # For testing: limit to first N entries
-        # dmrg_entries = dmrg_entries[:2]
+        # dmrg_entries = dmrg_entries[:10]
         # logging.info(f"Limited to first {len(dmrg_entries)} entries for testing")
 
         # 3. Load existing entries
