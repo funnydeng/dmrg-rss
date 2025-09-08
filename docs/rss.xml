@@ -8,35 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 08 Sep 2025 08:22:07 +0000</lastBuildDate>
-    <item>
-      <title>Symmetric entanglers for non-invertible SPT phases</title>
-      <link>http://arxiv.org/abs/2509.04581</link>
-      <description>&lt;b&gt;Author(s):&lt;/b&gt; Minyoung You&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; It has been suggested that non-invertible symmetry protected topological phases (SPT), due to the lack of a stacking structure, do not have symmetric entanglers (globally symmetric finite-depth quantum circuits) connecting them. Using topological holography, we argue that a symmetric entangler should in fact exist for $1+1$d systems whenever the non-invertible symmetry has SPT phases connected by fixed-charge dualities (FCD). Moreover, we construct an explicit example of a symmetric entangler for the two SPT phases with $\mathrm{Rep}(A_4)$-symmetry, as a matrix product unitary (MPU).&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2509.04581'&gt;arXiv:2509.04581&lt;/a&gt;] Published Thu, 04 Sep 2025 18:03:57 UTC&lt;/b&gt;</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2509.04581</guid>
-      <pubDate>Thu, 04 Sep 2025 18:03:57 +0000</pubDate>
-    <dc:creator>Minyoung You</dc:creator></item>
-    <item>
-      <title>A systematic search for conformal field theories in very small spaces</title>
-      <link>http://arxiv.org/abs/2509.04596</link>
-      <description>&lt;b&gt;Author(s):&lt;/b&gt; Xiang Li, Ting-Chun Lin, John McGreevy&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; Groundstates of 1+1d conformal field theories (CFTs) satisfy a local entropic condition called the vector fixed point equation. This condition is surprisingly well satisfied by groundstates of quantum critical lattice models even at small system sizes. We perform a search in the space of states of very small systems (four qubits and four qutrits) and examine the states that satisfy this condition. By reconstructing a local Hamiltonian from each state, we are able to identify many of these solutions with known CFTs; others are gapped fixed points, or involve large relevant perturbations, and others are CFTs we have not yet identified. These ideas are also useful for identifying continuous quantum phase transitions in a given family of Hamiltonians, and for identifying the nature of the critical theory in small systems.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2509.04596'&gt;arXiv:2509.04596&lt;/a&gt;] Published Thu, 04 Sep 2025 18:20:07 UTC&lt;/b&gt;</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2509.04596</guid>
-      <pubDate>Thu, 04 Sep 2025 18:20:07 +0000</pubDate>
-    <dc:creator>Xiang Li, Ting-Chun Lin, John McGreevy</dc:creator></item>
-    <item>
-      <title>Note on searching for critical lattice models as entropy critical points from strange correlator</title>
-      <link>http://arxiv.org/abs/2509.04947</link>
-      <description>&lt;b&gt;Author(s):&lt;/b&gt; Anran Jin, Ling-Yan Hung&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; An entropy function is proposed in [Phys. Rev. Lett. 131, 251602] as a way to detect criticality even when the system size is small. In this note we apply this strategy in the search for criticality of lattice transfer matrices constructed based on the topological holographic principle. We find that the combination of strategy is indeed a cost-effective and efficient way of identifying critical boundary conditions, estimating central charges and moreover, plotting entire phase diagrams in a multi-dimensional phase space.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2509.04947'&gt;arXiv:2509.04947&lt;/a&gt;] Published Fri, 05 Sep 2025 09:14:50 UTC&lt;/b&gt;</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2509.04947</guid>
-      <pubDate>Fri, 05 Sep 2025 09:14:50 +0000</pubDate>
-    <dc:creator>Anran Jin, Ling-Yan Hung</dc:creator></item>
-    <item>
-      <title>Efficient iPEPS Simulation on the Honeycomb Lattice via QR-based CTMRG</title>
-      <link>http://arxiv.org/abs/2509.05090</link>
-      <description>&lt;b&gt;Author(s):&lt;/b&gt; Qi Yang, Philippe Corboz&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We develop a QR-based corner transfer matrix renormalization group (CTMRG) framework for contracting infinite projected entangled-pair states (iPEPS) on honeycomb lattices. Our method explicitly uses the lattice's native C3v symmetry at each site, generalizing QR-based acceleration (previously limited to square lattices) to enable efficient and stable contractions. This approach achieves order-of-magnitude speedups over conventional singular value decomposition (SVD)-based CTMRG while maintaining high numerical precision. Comprehensive benchmark calculations for the spin-1/2 Heisenberg and Kitaev models demonstrate higher computational efficiency without sacrificing accuracy. We further employ our method to study the Kitaev-Heisenberg model, where we provide numerical evidence for the universal 1/r^4 decay of the dimer-dimer correlation function within the quantum spin liquid (QSL) phase. Our work establishes a framework for extending QR-based CTMRG to other lattice geometries, opening new avenues for studying exotic quantum phases with tensor networks.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2509.05090'&gt;arXiv:2509.05090&lt;/a&gt;] Published Fri, 05 Sep 2025 13:29:46 UTC&lt;/b&gt;</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2509.05090</guid>
-      <pubDate>Fri, 05 Sep 2025 13:29:46 +0000</pubDate>
-    <dc:creator>Qi Yang, Philippe Corboz</dc:creator></item>
+    <lastBuildDate>Mon, 08 Sep 2025 10:17:25 +0000</lastBuildDate>
     <item>
       <title>The surface code beyond Pauli channels: Logical noise coherence, information-theoretic measures, and errorfield-double phenomenology</title>
       <link>http://arxiv.org/abs/2412.21055</link>
@@ -5700,5 +5672,33 @@
       <guid isPermaLink="false">http://arxiv.org/abs/2509.04440</guid>
       <pubDate>Thu, 04 Sep 2025 17:55:33 +0000</pubDate>
     <dc:creator>Igor Vorotnikov, Fedor Romashov, Nikita Rybin, Maxim Rakhuba, Ivan S. Novikov</dc:creator></item>
+    <item>
+      <title>Symmetric entanglers for non-invertible SPT phases</title>
+      <link>http://arxiv.org/abs/2509.04581</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Minyoung You&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; It has been suggested that non-invertible symmetry protected topological phases (SPT), due to the lack of a stacking structure, do not have symmetric entanglers (globally symmetric finite-depth quantum circuits) connecting them. Using topological holography, we argue that a symmetric entangler should in fact exist for $1+1$d systems whenever the non-invertible symmetry has SPT phases connected by fixed-charge dualities (FCD). Moreover, we construct an explicit example of a symmetric entangler for the two SPT phases with $\mathrm{Rep}(A_4)$-symmetry, as a matrix product unitary (MPU).&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2509.04581'&gt;arXiv:2509.04581&lt;/a&gt;] Published Thu, 04 Sep 2025 18:03:57 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2509.04581</guid>
+      <pubDate>Thu, 04 Sep 2025 18:03:57 +0000</pubDate>
+    <dc:creator>Minyoung You</dc:creator></item>
+    <item>
+      <title>A systematic search for conformal field theories in very small spaces</title>
+      <link>http://arxiv.org/abs/2509.04596</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Xiang Li, Ting-Chun Lin, John McGreevy&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; Groundstates of 1+1d conformal field theories (CFTs) satisfy a local entropic condition called the vector fixed point equation. This condition is surprisingly well satisfied by groundstates of quantum critical lattice models even at small system sizes. We perform a search in the space of states of very small systems (four qubits and four qutrits) and examine the states that satisfy this condition. By reconstructing a local Hamiltonian from each state, we are able to identify many of these solutions with known CFTs; others are gapped fixed points, or involve large relevant perturbations, and others are CFTs we have not yet identified. These ideas are also useful for identifying continuous quantum phase transitions in a given family of Hamiltonians, and for identifying the nature of the critical theory in small systems.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2509.04596'&gt;arXiv:2509.04596&lt;/a&gt;] Published Thu, 04 Sep 2025 18:20:07 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2509.04596</guid>
+      <pubDate>Thu, 04 Sep 2025 18:20:07 +0000</pubDate>
+    <dc:creator>Xiang Li, Ting-Chun Lin, John McGreevy</dc:creator></item>
+    <item>
+      <title>Note on searching for critical lattice models as entropy critical points from strange correlator</title>
+      <link>http://arxiv.org/abs/2509.04947</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Anran Jin, Ling-Yan Hung&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; An entropy function is proposed in [Phys. Rev. Lett. 131, 251602] as a way to detect criticality even when the system size is small. In this note we apply this strategy in the search for criticality of lattice transfer matrices constructed based on the topological holographic principle. We find that the combination of strategy is indeed a cost-effective and efficient way of identifying critical boundary conditions, estimating central charges and moreover, plotting entire phase diagrams in a multi-dimensional phase space.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2509.04947'&gt;arXiv:2509.04947&lt;/a&gt;] Published Fri, 05 Sep 2025 09:14:50 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2509.04947</guid>
+      <pubDate>Fri, 05 Sep 2025 09:14:50 +0000</pubDate>
+    <dc:creator>Anran Jin, Ling-Yan Hung</dc:creator></item>
+    <item>
+      <title>Efficient iPEPS Simulation on the Honeycomb Lattice via QR-based CTMRG</title>
+      <link>http://arxiv.org/abs/2509.05090</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Qi Yang, Philippe Corboz&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We develop a QR-based corner transfer matrix renormalization group (CTMRG) framework for contracting infinite projected entangled-pair states (iPEPS) on honeycomb lattices. Our method explicitly uses the lattice's native C3v symmetry at each site, generalizing QR-based acceleration (previously limited to square lattices) to enable efficient and stable contractions. This approach achieves order-of-magnitude speedups over conventional singular value decomposition (SVD)-based CTMRG while maintaining high numerical precision. Comprehensive benchmark calculations for the spin-1/2 Heisenberg and Kitaev models demonstrate higher computational efficiency without sacrificing accuracy. We further employ our method to study the Kitaev-Heisenberg model, where we provide numerical evidence for the universal 1/r^4 decay of the dimer-dimer correlation function within the quantum spin liquid (QSL) phase. Our work establishes a framework for extending QR-based CTMRG to other lattice geometries, opening new avenues for studying exotic quantum phases with tensor networks.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2509.05090'&gt;arXiv:2509.05090&lt;/a&gt;] Published Fri, 05 Sep 2025 13:29:46 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2509.05090</guid>
+      <pubDate>Fri, 05 Sep 2025 13:29:46 +0000</pubDate>
+    <dc:creator>Qi Yang, Philippe Corboz</dc:creator></item>
   </channel>
 </rss>
