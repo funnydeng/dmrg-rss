@@ -8,7 +8,28 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 11 Sep 2025 04:18:53 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Sep 2025 06:23:31 +0000</lastBuildDate>
+    <item>
+      <title>Quantum complexity of topological phases. Or lack thereof</title>
+      <link>http://arxiv.org/abs/2509.08053</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Alberto Giuseppe Catalano, Sven Benjamin Kožić, Gianpaolo Torre, Carola Ciaramelletti, Simone Paganelli, Fabio Franchini, Salvatore Marco Giampaolo&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; Topological phases are expected to carry enhanced computational power, stemming from the long-range entanglement that characterizes them. Here we investigate whether this advantage is reflected in quantum magic, quantified through stabilizer R\'enyi entropies (SREs). We analyze one-dimensional models with an exact duality between a symmetry-protected topological phase and a trivial one. Surprisingly, a finite (parameters dependent) asymmetry appears only when boundary conditions break the duality, and emerges as well in the transverse-field Ising chain, which lacks topological order. These results show that magic is unable to detect topological phases, indicating that either an additional resource is required to capture their unique quantum contribution, or that not all forms of long-range entanglement constitute a genuine computational resource.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2509.08053'&gt;arXiv:2509.08053&lt;/a&gt;] Published Tue, 09 Sep 2025 18:00:07 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2509.08053</guid>
+      <pubDate>Tue, 09 Sep 2025 18:00:07 +0000</pubDate>
+    <dc:creator>Alberto Giuseppe Catalano, Sven Benjamin Kožić, Gianpaolo Torre, Carola Ciaramelletti, Simone Paganelli, Fabio Franchini, Salvatore Marco Giampaolo</dc:creator></item>
+    <item>
+      <title>Tensor-Train Operator Inference</title>
+      <link>http://arxiv.org/abs/2509.08071</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Engin Danis, Duc Truong, Kim Ø. Rasmussen§, Boian S. Alexandrov&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; In this study, we present a tensor--train framework for nonintrusive operator inference aimed at learning discrete operators and using them to predict solutions of physical governing equations. Our framework comprises three approaches: full--order tensor--train operator inference, full--order quantized tensor--train operator inference, and reduced--order tensor--train operator inference. In each case, snapshot data is represented in tensor--train format--either through compression or cross interpolation--enabling the efficient handling of extremely large datasets with significantly reduced computational effort compared to standard methods. The effectiveness of each approach is demonstrated through numerical experiments related to Computational Fluid Dynamics and benchmarked against the standard reduced--order operator inference method, highlighting the advantages of the tensor--train representations in both accuracy and scalability.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2509.08071'&gt;arXiv:2509.08071&lt;/a&gt;] Published Tue, 09 Sep 2025 18:18:56 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2509.08071</guid>
+      <pubDate>Tue, 09 Sep 2025 18:18:56 +0000</pubDate>
+    <dc:creator>Engin Danis, Duc Truong, Kim Ø. Rasmussen§, Boian S. Alexandrov</dc:creator></item>
+    <item>
+      <title>Kitaev-derived Gapless Spin Liquid in the $K$-$J$-$Γ$-$Γ'$ Quantum Magnet Na$_2$Co$_2$TeO$_6$</title>
+      <link>http://arxiv.org/abs/2509.08821</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Han Li, Xu-Guang Zhou, Gang Su, Wei Li&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; The realization of quantum spin liquids (QSLs) in Kitaev magnets represents an intriguing topic in frustrated quantum magnetism. Despite prediction in the pure Kitaev honeycomb model, realization of QSLs in realistic systems and materials remain scarce. The recent discovery of cobalt-based compound Na$_2$Co$_2$TeO$_6$ has raised significant research interest. By establishing a realistic $K$-$J$-$\Gamma$-$\Gamma'$ model for Na$_2$Co$_2$TeO$_6$ -- with a dominant antiferromagnetic (AFM) Kitaev interaction ($K&gt;0$) that quantitatively explains its thermodynamics measurements -- we reveal an intermediate gapless QSL phase under [111] magnetic fields with tensor-network calculations. We confirm the QSL nature of this phase by demonstrating its adiabatic connection to the intensively studied intermediate QSL of the pure AFM Kitaev model under out-of-plane fields. Our results show excellent agreement with recent high-field experiments, thereby explaining the intermediate-field phase in Na$_2$Co$_2$TeO$_6$. These findings bridge the gap between theoretical proposals for a Kitaev-derived QSL and experimental realization, opening new avenues for exploring exotic quantum states of matter in realistic Kitaev materials.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2509.08821'&gt;arXiv:2509.08821&lt;/a&gt;] Published Wed, 10 Sep 2025 17:53:07 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2509.08821</guid>
+      <pubDate>Wed, 10 Sep 2025 17:53:07 +0000</pubDate>
+    <dc:creator>Han Li, Xu-Guang Zhou, Gang Su, Wei Li</dc:creator></item>
     <item>
       <title>The surface code beyond Pauli channels: Logical noise coherence, information-theoretic measures, and errorfield-double phenomenology</title>
       <link>http://arxiv.org/abs/2412.21055</link>
