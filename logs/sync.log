@@ -1,110 +1,110 @@
-2025-09-12 12:30:41,655 [INFO] === DMRG RSS Full Sync Started ===
-2025-09-12 12:30:41,655 [INFO] Fetching page: http://quattro.phys.sci.kobe-u.ac.jp/dmrg/condmat.html
-2025-09-12 12:30:42,659 [INFO] Successfully fetched page, size: 214970 bytes
-2025-09-12 12:30:42,872 [INFO] Found 834 bold tags to check
-2025-09-12 12:30:42,872 [INFO] Processed 10 bold tags, found 2 arXiv links so far
-2025-09-12 12:30:42,873 [INFO] Processed 20 bold tags, found 12 arXiv links so far
-2025-09-12 12:30:42,873 [INFO] Processed 30 bold tags, found 22 arXiv links so far
-2025-09-12 12:30:42,873 [INFO] Processed 40 bold tags, found 32 arXiv links so far
-2025-09-12 12:30:42,874 [INFO] Processed 50 bold tags, found 42 arXiv links so far
-2025-09-12 12:30:42,874 [INFO] Processed 60 bold tags, found 52 arXiv links so far
-2025-09-12 12:30:42,874 [INFO] Processed 70 bold tags, found 62 arXiv links so far
-2025-09-12 12:30:42,874 [INFO] Processed 80 bold tags, found 72 arXiv links so far
-2025-09-12 12:30:42,875 [INFO] Processed 90 bold tags, found 82 arXiv links so far
-2025-09-12 12:30:42,875 [INFO] Processed 100 bold tags, found 92 arXiv links so far
-2025-09-12 12:30:42,875 [INFO] Processed 110 bold tags, found 102 arXiv links so far
-2025-09-12 12:30:42,875 [INFO] Processed 120 bold tags, found 112 arXiv links so far
-2025-09-12 12:30:42,876 [INFO] Processed 130 bold tags, found 122 arXiv links so far
-2025-09-12 12:30:42,876 [INFO] Processed 140 bold tags, found 132 arXiv links so far
-2025-09-12 12:30:42,876 [INFO] Processed 150 bold tags, found 142 arXiv links so far
-2025-09-12 12:30:42,876 [INFO] Processed 160 bold tags, found 152 arXiv links so far
-2025-09-12 12:30:42,876 [INFO] Processed 170 bold tags, found 162 arXiv links so far
-2025-09-12 12:30:42,877 [INFO] Processed 180 bold tags, found 172 arXiv links so far
-2025-09-12 12:30:42,877 [INFO] Processed 190 bold tags, found 182 arXiv links so far
-2025-09-12 12:30:42,877 [INFO] Processed 200 bold tags, found 192 arXiv links so far
-2025-09-12 12:30:42,878 [INFO] Processed 210 bold tags, found 202 arXiv links so far
-2025-09-12 12:30:42,878 [INFO] Processed 220 bold tags, found 212 arXiv links so far
-2025-09-12 12:30:42,878 [INFO] Processed 230 bold tags, found 222 arXiv links so far
-2025-09-12 12:30:42,879 [INFO] Processed 240 bold tags, found 232 arXiv links so far
-2025-09-12 12:30:42,879 [INFO] Processed 250 bold tags, found 242 arXiv links so far
-2025-09-12 12:30:42,879 [INFO] Processed 260 bold tags, found 252 arXiv links so far
-2025-09-12 12:30:42,880 [INFO] Processed 270 bold tags, found 262 arXiv links so far
-2025-09-12 12:30:42,880 [INFO] Processed 280 bold tags, found 272 arXiv links so far
-2025-09-12 12:30:42,880 [INFO] Processed 290 bold tags, found 282 arXiv links so far
-2025-09-12 12:30:42,880 [INFO] Processed 300 bold tags, found 292 arXiv links so far
-2025-09-12 12:30:42,881 [INFO] Processed 310 bold tags, found 302 arXiv links so far
-2025-09-12 12:30:42,881 [INFO] Processed 320 bold tags, found 312 arXiv links so far
-2025-09-12 12:30:42,881 [INFO] Processed 330 bold tags, found 322 arXiv links so far
-2025-09-12 12:30:42,881 [INFO] Processed 340 bold tags, found 332 arXiv links so far
-2025-09-12 12:30:42,882 [INFO] Processed 350 bold tags, found 342 arXiv links so far
-2025-09-12 12:30:42,882 [INFO] Processed 360 bold tags, found 352 arXiv links so far
-2025-09-12 12:30:42,882 [INFO] Processed 370 bold tags, found 362 arXiv links so far
-2025-09-12 12:30:42,883 [INFO] Processed 380 bold tags, found 372 arXiv links so far
-2025-09-12 12:30:42,883 [INFO] Processed 390 bold tags, found 382 arXiv links so far
-2025-09-12 12:30:42,883 [INFO] Processed 400 bold tags, found 392 arXiv links so far
-2025-09-12 12:30:42,883 [INFO] Processed 410 bold tags, found 402 arXiv links so far
-2025-09-12 12:30:42,884 [INFO] Processed 420 bold tags, found 412 arXiv links so far
-2025-09-12 12:30:42,884 [INFO] Processed 430 bold tags, found 422 arXiv links so far
-2025-09-12 12:30:42,884 [INFO] Processed 440 bold tags, found 432 arXiv links so far
-2025-09-12 12:30:42,884 [INFO] Processed 450 bold tags, found 442 arXiv links so far
-2025-09-12 12:30:42,885 [INFO] Processed 460 bold tags, found 452 arXiv links so far
-2025-09-12 12:30:42,885 [INFO] Processed 470 bold tags, found 462 arXiv links so far
-2025-09-12 12:30:42,885 [INFO] Processed 480 bold tags, found 472 arXiv links so far
-2025-09-12 12:30:42,885 [INFO] Processed 490 bold tags, found 482 arXiv links so far
-2025-09-12 12:30:42,886 [INFO] Processed 500 bold tags, found 492 arXiv links so far
-2025-09-12 12:30:42,886 [INFO] Processed 510 bold tags, found 502 arXiv links so far
-2025-09-12 12:30:42,886 [INFO] Processed 520 bold tags, found 512 arXiv links so far
-2025-09-12 12:30:42,886 [INFO] Processed 530 bold tags, found 522 arXiv links so far
-2025-09-12 12:30:42,887 [INFO] Processed 540 bold tags, found 532 arXiv links so far
-2025-09-12 12:30:42,887 [INFO] Processed 550 bold tags, found 542 arXiv links so far
-2025-09-12 12:30:42,887 [INFO] Processed 560 bold tags, found 552 arXiv links so far
-2025-09-12 12:30:42,887 [INFO] Processed 570 bold tags, found 562 arXiv links so far
-2025-09-12 12:30:42,888 [INFO] Processed 580 bold tags, found 572 arXiv links so far
-2025-09-12 12:30:42,888 [INFO] Processed 590 bold tags, found 582 arXiv links so far
-2025-09-12 12:30:42,888 [INFO] Processed 600 bold tags, found 592 arXiv links so far
-2025-09-12 12:30:42,888 [INFO] Processed 610 bold tags, found 602 arXiv links so far
-2025-09-12 12:30:42,889 [INFO] Processed 620 bold tags, found 612 arXiv links so far
-2025-09-12 12:30:42,889 [INFO] Processed 630 bold tags, found 622 arXiv links so far
-2025-09-12 12:30:42,889 [INFO] Processed 640 bold tags, found 632 arXiv links so far
-2025-09-12 12:30:42,890 [INFO] Processed 650 bold tags, found 642 arXiv links so far
-2025-09-12 12:30:42,890 [INFO] Processed 660 bold tags, found 652 arXiv links so far
-2025-09-12 12:30:42,890 [INFO] Processed 670 bold tags, found 662 arXiv links so far
-2025-09-12 12:30:42,890 [INFO] Processed 680 bold tags, found 672 arXiv links so far
-2025-09-12 12:30:42,891 [INFO] Processed 690 bold tags, found 682 arXiv links so far
-2025-09-12 12:30:42,891 [INFO] Processed 700 bold tags, found 692 arXiv links so far
-2025-09-12 12:30:42,891 [INFO] Processed 710 bold tags, found 702 arXiv links so far
-2025-09-12 12:30:42,891 [INFO] Processed 720 bold tags, found 712 arXiv links so far
-2025-09-12 12:30:42,892 [INFO] Processed 730 bold tags, found 722 arXiv links so far
-2025-09-12 12:30:42,892 [INFO] Processed 740 bold tags, found 732 arXiv links so far
-2025-09-12 12:30:42,892 [INFO] Processed 750 bold tags, found 742 arXiv links so far
-2025-09-12 12:30:42,892 [INFO] Processed 760 bold tags, found 752 arXiv links so far
-2025-09-12 12:30:42,893 [INFO] Processed 770 bold tags, found 762 arXiv links so far
-2025-09-12 12:30:42,893 [INFO] Processed 780 bold tags, found 772 arXiv links so far
-2025-09-12 12:30:42,893 [INFO] Processed 790 bold tags, found 782 arXiv links so far
-2025-09-12 12:30:42,893 [INFO] Processed 800 bold tags, found 792 arXiv links so far
-2025-09-12 12:30:42,894 [INFO] Processed 810 bold tags, found 802 arXiv links so far
-2025-09-12 12:30:42,894 [INFO] Processed 820 bold tags, found 812 arXiv links so far
-2025-09-12 12:30:42,894 [INFO] Processed 830 bold tags, found 822 arXiv links so far
-2025-09-12 12:30:42,894 [INFO] Total arXiv entries found: 825
-2025-09-12 12:30:42,894 [INFO] Loading existing RSS file: docs/rss.xml
-2025-09-12 12:30:42,911 [INFO] Found 825 existing entries
-2025-09-12 12:30:43,102 [INFO] Successfully loaded 825 existing entries
-2025-09-12 12:30:43,103 [INFO] Filtered existing entries: 820 (no obsolete entries)
-2025-09-12 12:30:43,104 [INFO] Entries analysis: 825 complete, 0 need fetching
-2025-09-12 12:30:43,104 [INFO] All entries are complete, no fetching needed
-2025-09-12 12:30:43,104 [INFO] Entries sorted by date: newest (2025-09-10) to oldest (2024-12-30)
-2025-09-12 12:30:43,104 [INFO] Final sync result: 825 total entries
-2025-09-12 12:30:43,104 [INFO] - 825 existing complete entries
-2025-09-12 12:30:43,104 [INFO] - 0 newly fetched/updated entries
-2025-09-12 12:30:43,104 [INFO] Generating RSS with 825 entries (newest first)
-2025-09-12 12:30:43,104 [INFO] Entry 1 date: 2025-09-10
-2025-09-12 12:30:43,105 [INFO] Entry 2 date: 2025-09-09
-2025-09-12 12:30:43,105 [INFO] Entry 3 date: 2025-09-09
-2025-09-12 12:30:43,424 [INFO] RSS successfully written to docs/rss.xml
-2025-09-12 12:30:43,424 [INFO] File size: 1562437 bytes, entries added: 825
-2025-09-12 12:30:43,424 [INFO] RSS entries are ordered from newest to oldest publication date
-2025-09-12 12:30:43,425 [INFO] === Sync Statistics ===
-2025-09-12 12:30:43,425 [INFO] Total execution time: 1.77 seconds
-2025-09-12 12:30:43,425 [INFO] Total entries in RSS: 825
-2025-09-12 12:30:43,425 [INFO] New or updated entries: 5
-2025-09-12 12:30:43,425 [INFO] === Full Sync Complete ===
+2025-09-12 14:14:48,290 [INFO] === DMRG RSS Full Sync Started ===
+2025-09-12 14:14:48,290 [INFO] Fetching page: http://quattro.phys.sci.kobe-u.ac.jp/dmrg/condmat.html
+2025-09-12 14:14:49,635 [INFO] Successfully fetched page, size: 214970 bytes
+2025-09-12 14:14:49,933 [INFO] Found 834 bold tags to check
+2025-09-12 14:14:49,934 [INFO] Processed 10 bold tags, found 2 arXiv links so far
+2025-09-12 14:14:49,934 [INFO] Processed 20 bold tags, found 12 arXiv links so far
+2025-09-12 14:14:49,935 [INFO] Processed 30 bold tags, found 22 arXiv links so far
+2025-09-12 14:14:49,935 [INFO] Processed 40 bold tags, found 32 arXiv links so far
+2025-09-12 14:14:49,935 [INFO] Processed 50 bold tags, found 42 arXiv links so far
+2025-09-12 14:14:49,936 [INFO] Processed 60 bold tags, found 52 arXiv links so far
+2025-09-12 14:14:49,936 [INFO] Processed 70 bold tags, found 62 arXiv links so far
+2025-09-12 14:14:49,936 [INFO] Processed 80 bold tags, found 72 arXiv links so far
+2025-09-12 14:14:49,937 [INFO] Processed 90 bold tags, found 82 arXiv links so far
+2025-09-12 14:14:49,937 [INFO] Processed 100 bold tags, found 92 arXiv links so far
+2025-09-12 14:14:49,937 [INFO] Processed 110 bold tags, found 102 arXiv links so far
+2025-09-12 14:14:49,938 [INFO] Processed 120 bold tags, found 112 arXiv links so far
+2025-09-12 14:14:49,938 [INFO] Processed 130 bold tags, found 122 arXiv links so far
+2025-09-12 14:14:49,938 [INFO] Processed 140 bold tags, found 132 arXiv links so far
+2025-09-12 14:14:49,939 [INFO] Processed 150 bold tags, found 142 arXiv links so far
+2025-09-12 14:14:49,939 [INFO] Processed 160 bold tags, found 152 arXiv links so far
+2025-09-12 14:14:49,939 [INFO] Processed 170 bold tags, found 162 arXiv links so far
+2025-09-12 14:14:49,940 [INFO] Processed 180 bold tags, found 172 arXiv links so far
+2025-09-12 14:14:49,940 [INFO] Processed 190 bold tags, found 182 arXiv links so far
+2025-09-12 14:14:49,940 [INFO] Processed 200 bold tags, found 192 arXiv links so far
+2025-09-12 14:14:49,941 [INFO] Processed 210 bold tags, found 202 arXiv links so far
+2025-09-12 14:14:49,941 [INFO] Processed 220 bold tags, found 212 arXiv links so far
+2025-09-12 14:14:49,941 [INFO] Processed 230 bold tags, found 222 arXiv links so far
+2025-09-12 14:14:49,942 [INFO] Processed 240 bold tags, found 232 arXiv links so far
+2025-09-12 14:14:49,942 [INFO] Processed 250 bold tags, found 242 arXiv links so far
+2025-09-12 14:14:49,942 [INFO] Processed 260 bold tags, found 252 arXiv links so far
+2025-09-12 14:14:49,943 [INFO] Processed 270 bold tags, found 262 arXiv links so far
+2025-09-12 14:14:49,943 [INFO] Processed 280 bold tags, found 272 arXiv links so far
+2025-09-12 14:14:49,943 [INFO] Processed 290 bold tags, found 282 arXiv links so far
+2025-09-12 14:14:49,944 [INFO] Processed 300 bold tags, found 292 arXiv links so far
+2025-09-12 14:14:49,944 [INFO] Processed 310 bold tags, found 302 arXiv links so far
+2025-09-12 14:14:49,944 [INFO] Processed 320 bold tags, found 312 arXiv links so far
+2025-09-12 14:14:49,945 [INFO] Processed 330 bold tags, found 322 arXiv links so far
+2025-09-12 14:14:49,945 [INFO] Processed 340 bold tags, found 332 arXiv links so far
+2025-09-12 14:14:49,945 [INFO] Processed 350 bold tags, found 342 arXiv links so far
+2025-09-12 14:14:49,946 [INFO] Processed 360 bold tags, found 352 arXiv links so far
+2025-09-12 14:14:49,946 [INFO] Processed 370 bold tags, found 362 arXiv links so far
+2025-09-12 14:14:49,946 [INFO] Processed 380 bold tags, found 372 arXiv links so far
+2025-09-12 14:14:49,947 [INFO] Processed 390 bold tags, found 382 arXiv links so far
+2025-09-12 14:14:49,947 [INFO] Processed 400 bold tags, found 392 arXiv links so far
+2025-09-12 14:14:49,947 [INFO] Processed 410 bold tags, found 402 arXiv links so far
+2025-09-12 14:14:49,948 [INFO] Processed 420 bold tags, found 412 arXiv links so far
+2025-09-12 14:14:49,948 [INFO] Processed 430 bold tags, found 422 arXiv links so far
+2025-09-12 14:14:49,948 [INFO] Processed 440 bold tags, found 432 arXiv links so far
+2025-09-12 14:14:49,948 [INFO] Processed 450 bold tags, found 442 arXiv links so far
+2025-09-12 14:14:49,949 [INFO] Processed 460 bold tags, found 452 arXiv links so far
+2025-09-12 14:14:49,949 [INFO] Processed 470 bold tags, found 462 arXiv links so far
+2025-09-12 14:14:49,949 [INFO] Processed 480 bold tags, found 472 arXiv links so far
+2025-09-12 14:14:49,950 [INFO] Processed 490 bold tags, found 482 arXiv links so far
+2025-09-12 14:14:49,950 [INFO] Processed 500 bold tags, found 492 arXiv links so far
+2025-09-12 14:14:49,950 [INFO] Processed 510 bold tags, found 502 arXiv links so far
+2025-09-12 14:14:49,951 [INFO] Processed 520 bold tags, found 512 arXiv links so far
+2025-09-12 14:14:49,951 [INFO] Processed 530 bold tags, found 522 arXiv links so far
+2025-09-12 14:14:49,951 [INFO] Processed 540 bold tags, found 532 arXiv links so far
+2025-09-12 14:14:49,952 [INFO] Processed 550 bold tags, found 542 arXiv links so far
+2025-09-12 14:14:49,952 [INFO] Processed 560 bold tags, found 552 arXiv links so far
+2025-09-12 14:14:49,952 [INFO] Processed 570 bold tags, found 562 arXiv links so far
+2025-09-12 14:14:49,953 [INFO] Processed 580 bold tags, found 572 arXiv links so far
+2025-09-12 14:14:49,953 [INFO] Processed 590 bold tags, found 582 arXiv links so far
+2025-09-12 14:14:49,953 [INFO] Processed 600 bold tags, found 592 arXiv links so far
+2025-09-12 14:14:49,954 [INFO] Processed 610 bold tags, found 602 arXiv links so far
+2025-09-12 14:14:49,954 [INFO] Processed 620 bold tags, found 612 arXiv links so far
+2025-09-12 14:14:49,954 [INFO] Processed 630 bold tags, found 622 arXiv links so far
+2025-09-12 14:14:49,955 [INFO] Processed 640 bold tags, found 632 arXiv links so far
+2025-09-12 14:14:49,955 [INFO] Processed 650 bold tags, found 642 arXiv links so far
+2025-09-12 14:14:49,955 [INFO] Processed 660 bold tags, found 652 arXiv links so far
+2025-09-12 14:14:49,956 [INFO] Processed 670 bold tags, found 662 arXiv links so far
+2025-09-12 14:14:49,956 [INFO] Processed 680 bold tags, found 672 arXiv links so far
+2025-09-12 14:14:49,956 [INFO] Processed 690 bold tags, found 682 arXiv links so far
+2025-09-12 14:14:49,957 [INFO] Processed 700 bold tags, found 692 arXiv links so far
+2025-09-12 14:14:49,957 [INFO] Processed 710 bold tags, found 702 arXiv links so far
+2025-09-12 14:14:49,957 [INFO] Processed 720 bold tags, found 712 arXiv links so far
+2025-09-12 14:14:49,958 [INFO] Processed 730 bold tags, found 722 arXiv links so far
+2025-09-12 14:14:49,958 [INFO] Processed 740 bold tags, found 732 arXiv links so far
+2025-09-12 14:14:49,958 [INFO] Processed 750 bold tags, found 742 arXiv links so far
+2025-09-12 14:14:49,959 [INFO] Processed 760 bold tags, found 752 arXiv links so far
+2025-09-12 14:14:49,959 [INFO] Processed 770 bold tags, found 762 arXiv links so far
+2025-09-12 14:14:49,959 [INFO] Processed 780 bold tags, found 772 arXiv links so far
+2025-09-12 14:14:49,959 [INFO] Processed 790 bold tags, found 782 arXiv links so far
+2025-09-12 14:14:49,960 [INFO] Processed 800 bold tags, found 792 arXiv links so far
+2025-09-12 14:14:49,960 [INFO] Processed 810 bold tags, found 802 arXiv links so far
+2025-09-12 14:14:49,960 [INFO] Processed 820 bold tags, found 812 arXiv links so far
+2025-09-12 14:14:49,961 [INFO] Processed 830 bold tags, found 822 arXiv links so far
+2025-09-12 14:14:49,961 [INFO] Total arXiv entries found: 825
+2025-09-12 14:14:49,961 [INFO] Loading existing RSS file: docs/rss.xml
+2025-09-12 14:14:49,979 [INFO] Found 825 existing entries
+2025-09-12 14:14:50,166 [INFO] Successfully loaded 825 existing entries
+2025-09-12 14:14:50,167 [INFO] Filtered existing entries: 820 (no obsolete entries)
+2025-09-12 14:14:50,168 [INFO] Entries analysis: 825 complete, 0 need fetching
+2025-09-12 14:14:50,169 [INFO] All entries are complete, no fetching needed
+2025-09-12 14:14:50,169 [INFO] Entries sorted by date: newest (2025-09-10) to oldest (2024-12-30)
+2025-09-12 14:14:50,169 [INFO] Final sync result: 825 total entries
+2025-09-12 14:14:50,169 [INFO] - 825 existing complete entries
+2025-09-12 14:14:50,169 [INFO] - 0 newly fetched/updated entries
+2025-09-12 14:14:50,169 [INFO] Generating RSS with 825 entries (newest first)
+2025-09-12 14:14:50,169 [INFO] Entry 1 date: 2025-09-10
+2025-09-12 14:14:50,170 [INFO] Entry 2 date: 2025-09-09
+2025-09-12 14:14:50,170 [INFO] Entry 3 date: 2025-09-09
+2025-09-12 14:14:50,496 [INFO] RSS successfully written to docs/rss.xml
+2025-09-12 14:14:50,496 [INFO] File size: 1562437 bytes, entries added: 825
+2025-09-12 14:14:50,496 [INFO] RSS entries are ordered from newest to oldest publication date
+2025-09-12 14:14:50,498 [INFO] === Sync Statistics ===
+2025-09-12 14:14:50,498 [INFO] Total execution time: 2.21 seconds
+2025-09-12 14:14:50,498 [INFO] Total entries in RSS: 825
+2025-09-12 14:14:50,498 [INFO] New or updated entries: 5
+2025-09-12 14:14:50,498 [INFO] === Full Sync Complete ===
