@@ -8,7 +8,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 25 Sep 2025 06:24:15 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Sep 2025 08:21:09 +0000</lastBuildDate>
+    <item>
+      <title>Automatic Structure Identification for Highly Nonlinear MIMO Volterra Tensor Networks</title>
+      <link>http://arxiv.org/abs/2509.19627</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Eva Memmel, Kim Batselier&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; The Volterra Tensor Network lifts the curse of dimensionality for truncated, discrete times Volterra models, enabling scalable representation of highly nonlinear system. This scalability comes at the cost of introducing randomness through initialization, and leaves open the challenge of how to efficiently determine the hyperparameters model order and memory length. In this paper, we present a unified framework that simultaneously addresses both challenges: We derive two algorithms that incrementally increase the model order and memory length along. Further we proof that the updates are performed along conjugate directions by establishing a mathematical equivalence between our proposed algorithms and equality constrained least squares systems. We present several strategies how to use our proposed algorithms for initialization and hyperparameter selection. In numerical experiments, we demonstrate that our proposed algorithms are more accurate and efficient than the state-of-the-art Volterra Tensor Network and achieve competitive results to several state-of-the-art Volterra models.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2509.19627'&gt;arXiv:2509.19627&lt;/a&gt;] Published Tue, 23 Sep 2025 22:37:00 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2509.19627</guid>
+      <pubDate>Tue, 23 Sep 2025 22:37:00 +0000</pubDate>
+    <dc:creator>Eva Memmel, Kim Batselier</dc:creator></item>
+    <item>
+      <title>Computational complexity of injective projected entangled pair states</title>
+      <link>http://arxiv.org/abs/2509.19963</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Dylan Harley, Freek Witteveen, Daniel Malz&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; Projected entangled pair states (PEPS) constitute a variational family of quantum states with area-law entanglement. PEPS are particularly relevant and successful for studying ground states of spatially local Hamiltonians. However, computing local expectation values in these states is known to be postBQP-hard. Injective PEPS, where all constituent tensors fulfil an injectivity constraint, are generally believed to be better behaved, because they are unique ground states of spatially local Hamiltonians. In this work, we therefore examine how the computational hardness of contraction depends on the injectivity. We establish that below a constant positive injectivity threshold, evaluating local observables remains postBQP-complete, while above a different constant nontrivial threshold there exists an efficient classical algorithm for the task. This resolves an open question from (Anshu et al., STOC `24).&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2509.19963'&gt;arXiv:2509.19963&lt;/a&gt;] Published Wed, 24 Sep 2025 10:17:23 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2509.19963</guid>
+      <pubDate>Wed, 24 Sep 2025 10:17:23 +0000</pubDate>
+    <dc:creator>Dylan Harley, Freek Witteveen, Daniel Malz</dc:creator></item>
     <item>
       <title>The surface code beyond Pauli channels: Logical noise coherence, information-theoretic measures, and errorfield-double phenomenology</title>
       <link>http://arxiv.org/abs/2412.21055</link>
@@ -5014,13 +5028,6 @@
       <guid isPermaLink="false">http://arxiv.org/abs/2508.05736</guid>
       <pubDate>Thu, 07 Aug 2025 18:00:00 +0000</pubDate>
     <dc:creator>Yizhuo Tian, N. S. Srivatsa, Kaidi Xu, Jesse J. Osborne, Umberto Borla, Jad C. Halimeh</dc:creator></item>
-    <item>
-      <title>Classical simulation of noisy quantum circuits via locally entanglement-optimal unravelings</title>
-      <link>http://arxiv.org/abs/2508.05745</link>
-      <description>&lt;b&gt;Author(s):&lt;/b&gt; Simon Cichy, Paul K. Faehrmann, Lennart Bittel, Jens Eisert, Hakop Pashayan&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; Classical simulations of noisy quantum circuits is instrumental to our understanding of the behavior of real world quantum systems and the identification of regimes where one expects quantum advantage. In this work, we present a highly parallelizable tensor-network-based classical algorithm -- equipped with rigorous accuracy guarantees -- for simulating $n$-qubit quantum circuits with arbitrary single-qubit noise. Our algorithm represents the state of a noisy quantum system by a particular ensemble of matrix product states from which we stochastically sample. Each single qubit noise process acting on a pure state is then represented by the ensemble of states that achieve the minimal average entanglement (the entanglement of formation) between the noisy qubit and the remainder. This approach lets us use a more compact representation of the quantum state for a given accuracy requirement and noise level. For a given maximum bond dimension $\chi$ and circuit, our algorithm comes with an upper bound on the simulation error, runs in poly$(n,\chi)$-time and improves upon related prior work (1) in scope: by extending from the three commonly considered noise models to general single qubit noise (2) in performance: by employing a state-dependent locally-entanglement-optimal unraveling and (3) in conceptual contribution: by showing that the fixed unraveling used in prior work becomes equivalent to our choice of unraveling in the special case of depolarizing and dephasing noise acting on a maximally entangled state.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2508.05745'&gt;arXiv:2508.05745&lt;/a&gt;] Published Thu, 07 Aug 2025 18:00:20 UTC&lt;/b&gt;</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2508.05745</guid>
-      <pubDate>Thu, 07 Aug 2025 18:00:20 +0000</pubDate>
-    <dc:creator>Simon Cichy, Paul K. Faehrmann, Lennart Bittel, Jens Eisert, Hakop Pashayan</dc:creator></item>
     <item>
       <title>Classical simulation of noisy quantum circuits via locally entanglement-optimal unravelings</title>
       <link>http://arxiv.org/abs/2508.05745</link>
