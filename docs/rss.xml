@@ -8,7 +8,28 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 02 Oct 2025 04:18:24 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Oct 2025 06:23:28 +0000</lastBuildDate>
+    <item>
+      <title>Dimerization in the SU(4) Heisenberg model on the cubic lattice: iPEPS study</title>
+      <link>http://arxiv.org/abs/2510.00284</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Illia Lukin, Andrii Sotnikov&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We study SU(4)-symmetric Heisenberg model on the cubic lattice with spatially anisotropic magnetic couplings. We utilize several approaches based on the tensor-network representation of the many-body wave functions, which enable accurate analysis of ground-state properties of the model in different regimes of spatial anisotropy including fully isotropic three-dimensional case. Our results point to the persistence of the dimerized color-ordered phase throughout whole range of magnetic couplings excluding only the limit of completely decoupled one-dimensional chains.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2510.00284'&gt;arXiv:2510.00284&lt;/a&gt;] Published Tue, 30 Sep 2025 21:04:38 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2510.00284</guid>
+      <pubDate>Tue, 30 Sep 2025 21:04:38 +0000</pubDate>
+    <dc:creator>Illia Lukin, Andrii Sotnikov</dc:creator></item>
+    <item>
+      <title>Efficient Probabilistic Tensor Networks</title>
+      <link>http://arxiv.org/abs/2510.00382</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Marawan Gamal Abdel Hameed, Guillaume Rabusseau&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; Tensor networks (TNs) enable compact representations of large tensors through shared parameters. Their use in probabilistic modeling is particularly appealing, as probabilistic tensor networks (PTNs) allow for tractable computation of marginals. However, existing approaches for learning parameters of PTNs are either computationally demanding and not fully compatible with automatic differentiation frameworks, or numerically unstable. In this work, we propose a conceptually simple approach for learning PTNs efficiently, that is numerically stable. We show our method provides significant improvements in time and space complexity, achieving 10x reduction in latency for generative modeling on the MNIST dataset. Furthermore, our approach enables learning of distributions with 10x more variables than previous approaches when applied to a variety of density estimation benchmarks. Our code is publicly available at github.com/marawangamal/ptn.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2510.00382'&gt;arXiv:2510.00382&lt;/a&gt;] Published Wed, 01 Oct 2025 00:52:51 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2510.00382</guid>
+      <pubDate>Wed, 01 Oct 2025 00:52:51 +0000</pubDate>
+    <dc:creator>Marawan Gamal Abdel Hameed, Guillaume Rabusseau</dc:creator></item>
+    <item>
+      <title>Block-Encoding Tensor Networks and QUBO Embeddings</title>
+      <link>http://arxiv.org/abs/2510.00935</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Sebastian Issel&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We give an algorithm that converts any tensor network (TN) into a sequence of local unitaries whose composition block-encodes the network contraction, suitable for Quantum Eigenvalue / Singularvalue Transformation (QET/QSVT). The construction embeds each TN as a local isometry and dilates it to a unitary. Performing this step for every site of the tensor, allows the full network to be block-encoded. The theory is agnostic to virtual-bond sizes; for qubit resource counts and examples we assume global power-of-two padding. Further, we present a deterministic sweep that maps Quadratic Unconstrained Binary Optimization (QUBO) / Ising Hamiltonians into Matrix Product Operators (MPOs) and general TN. We provide formal statements, pseudo-code, resource formulae, and a discussion of the use for state preparation and learning of general quantum operators.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2510.00935'&gt;arXiv:2510.00935&lt;/a&gt;] Published Wed, 01 Oct 2025 14:15:22 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2510.00935</guid>
+      <pubDate>Wed, 01 Oct 2025 14:15:22 +0000</pubDate>
+    <dc:creator>Sebastian Issel</dc:creator></item>
     <item>
       <title>The surface code beyond Pauli channels: Logical noise coherence, information-theoretic measures, and errorfield-double phenomenology</title>
       <link>http://arxiv.org/abs/2412.21055</link>
