@@ -8,35 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 20 Oct 2025 08:22:27 +0000</lastBuildDate>
-    <item>
-      <title>Sequence Modeling with Spectral Mean Flows</title>
-      <link>http://arxiv.org/abs/2510.15366</link>
-      <description>&lt;b&gt;Author(s):&lt;/b&gt; Jinwoo Kim, Max Beier, Petar Bevanda, Nayun Kim, Seunghoon Hong&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; A key question in sequence modeling with neural networks is how to represent and learn highly nonlinear and probabilistic state dynamics. Operator theory views such dynamics as linear maps on Hilbert spaces containing mean embedding vectors of distributions, offering an appealing but currently overlooked perspective. We propose a new approach to sequence modeling based on an operator-theoretic view of a hidden Markov model (HMM). Instead of materializing stochastic recurrence, we embed the full sequence distribution as a tensor in the product Hilbert space. A generative process is then defined as maximum mean discrepancy (MMD) gradient flow in the space of sequences. To overcome challenges with large tensors and slow sampling convergence, we introduce spectral mean flows, a novel tractable algorithm integrating two core concepts. First, we propose a new neural architecture by leveraging spectral decomposition of linear operators to derive a scalable tensor network decomposition of sequence mean embeddings. Second, we extend MMD gradient flows to time-dependent Hilbert spaces and connect them to flow matching via the continuity equation, enabling simulation-free learning and faster sampling. We demonstrate competitive results on a range of time-series modeling datasets. Code is available at https://github.com/jw9730/spectral-mean-flow.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2510.15366'&gt;arXiv:2510.15366&lt;/a&gt;] Published Fri, 17 Oct 2025 06:56:57 UTC&lt;/b&gt;</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2510.15366</guid>
-      <pubDate>Fri, 17 Oct 2025 06:56:57 +0000</pubDate>
-    <dc:creator>Jinwoo Kim, Max Beier, Petar Bevanda, Nayun Kim, Seunghoon Hong</dc:creator></item>
-    <item>
-      <title>Fractional Quantum Hall Wedding Cakes</title>
-      <link>http://arxiv.org/abs/2510.15472</link>
-      <description>&lt;b&gt;Author(s):&lt;/b&gt; Chloé Van Bastelaere, Felix A. Palm, Botao Wang, Nathan Goldman, Laurens Vanderstraeten&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; This work investigates the coexistence of distinct topologically ordered phases within a single setup. We demonstrate this concept through tensor network simulations of the Hofstadter-Bose-Hubbard model under a spatially modulated chemical potential. Focusing on cylindrical geometries, we realize regions exhibiting the Laughlin-1/2 phase and its particle-hole conjugate, and confirm their topological character via the local St\v{r}eda's response and Laughlin's flux insertion protocol. Our approach offers a new pathway for experimentally and numerically charting entire phase diagrams within a single system, possibly eliminating the need for independent parameter scans.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2510.15472'&gt;arXiv:2510.15472&lt;/a&gt;] Published Fri, 17 Oct 2025 09:30:50 UTC&lt;/b&gt;</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2510.15472</guid>
-      <pubDate>Fri, 17 Oct 2025 09:30:50 +0000</pubDate>
-    <dc:creator>Chloé Van Bastelaere, Felix A. Palm, Botao Wang, Nathan Goldman, Laurens Vanderstraeten</dc:creator></item>
-    <item>
-      <title>Adaptive quantum channel discrimination using methods of quantum metrology</title>
-      <link>http://arxiv.org/abs/2510.15506</link>
-      <description>&lt;b&gt;Author(s):&lt;/b&gt; Stanisław Sieniawski, Rafał Demkowicz-Dobrzański&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We present an efficient tensor-network based algorithm for finding the optimal adaptive quantum channel discrimination strategies inspired by recently developed numerical methods in quantum metrology to find the optimal adaptive channel estimation protocols. We examine the connection between channel discrimination and estimation problems, highlighting in particular an appealing structural similarity between models that admit Heisenberg scaling estimation performance, and models that admit perfect channel discrimination in finite--number of channel uses.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2510.15506'&gt;arXiv:2510.15506&lt;/a&gt;] Published Fri, 17 Oct 2025 10:19:29 UTC&lt;/b&gt;</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2510.15506</guid>
-      <pubDate>Fri, 17 Oct 2025 10:19:29 +0000</pubDate>
-    <dc:creator>Stanisław Sieniawski, Rafał Demkowicz-Dobrzański</dc:creator></item>
-    <item>
-      <title>High order Tensor-Train-Based Schemes for High-Dimensional Mean Field Games</title>
-      <link>http://arxiv.org/abs/2510.15603</link>
-      <description>&lt;b&gt;Author(s):&lt;/b&gt; Elisabetta Carlini, Luca Saluzzi&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We introduce a fully discrete scheme to solve a class of high-dimensional Mean Field Games systems. Our approach couples semi-Lagrangian (SL) time discretizations with Tensor-Train (TT) decompositions to tame the curse of dimensionality. By reformulating the classical Hamilton-Jacobi-Bellman and Fokker-Planck equations as a sequence of advection-diffusion-reaction subproblems within a smoothed policy iteration, we construct both first and second order in time SL schemes. The TT format and appropriate quadrature rules reduce storage and computational cost from exponential to polynomial in the dimension. Numerical experiments demonstrate that our TT-accelerated SL methods achieve their theoretical convergence rates, exhibit modest growth in memory usage and runtime with dimension, and significantly outperform grid-based SL in accuracy per CPU second.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2510.15603'&gt;arXiv:2510.15603&lt;/a&gt;] Published Fri, 17 Oct 2025 12:49:39 UTC&lt;/b&gt;</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2510.15603</guid>
-      <pubDate>Fri, 17 Oct 2025 12:49:39 +0000</pubDate>
-    <dc:creator>Elisabetta Carlini, Luca Saluzzi</dc:creator></item>
+    <lastBuildDate>Mon, 20 Oct 2025 10:18:22 +0000</lastBuildDate>
     <item>
       <title>The surface code beyond Pauli channels: Logical noise coherence, information-theoretic measures, and errorfield-double phenomenology</title>
       <link>http://arxiv.org/abs/2412.21055</link>
@@ -6834,5 +6806,33 @@
       <guid isPermaLink="false">http://arxiv.org/abs/2510.07125</guid>
       <pubDate>Wed, 08 Oct 2025 15:19:33 +0000</pubDate>
     <dc:creator>Yibin Guo, Manuel Schneider, Takis Angelides, Karl Jansen, C. -J. David Lin, Yao Ting Su</dc:creator></item>
+    <item>
+      <title>Sequence Modeling with Spectral Mean Flows</title>
+      <link>http://arxiv.org/abs/2510.15366</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Jinwoo Kim, Max Beier, Petar Bevanda, Nayun Kim, Seunghoon Hong&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; A key question in sequence modeling with neural networks is how to represent and learn highly nonlinear and probabilistic state dynamics. Operator theory views such dynamics as linear maps on Hilbert spaces containing mean embedding vectors of distributions, offering an appealing but currently overlooked perspective. We propose a new approach to sequence modeling based on an operator-theoretic view of a hidden Markov model (HMM). Instead of materializing stochastic recurrence, we embed the full sequence distribution as a tensor in the product Hilbert space. A generative process is then defined as maximum mean discrepancy (MMD) gradient flow in the space of sequences. To overcome challenges with large tensors and slow sampling convergence, we introduce spectral mean flows, a novel tractable algorithm integrating two core concepts. First, we propose a new neural architecture by leveraging spectral decomposition of linear operators to derive a scalable tensor network decomposition of sequence mean embeddings. Second, we extend MMD gradient flows to time-dependent Hilbert spaces and connect them to flow matching via the continuity equation, enabling simulation-free learning and faster sampling. We demonstrate competitive results on a range of time-series modeling datasets. Code is available at https://github.com/jw9730/spectral-mean-flow.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2510.15366'&gt;arXiv:2510.15366&lt;/a&gt;] Published Fri, 17 Oct 2025 06:56:57 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2510.15366</guid>
+      <pubDate>Fri, 17 Oct 2025 06:56:57 +0000</pubDate>
+    <dc:creator>Jinwoo Kim, Max Beier, Petar Bevanda, Nayun Kim, Seunghoon Hong</dc:creator></item>
+    <item>
+      <title>Fractional Quantum Hall Wedding Cakes</title>
+      <link>http://arxiv.org/abs/2510.15472</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Chloé Van Bastelaere, Felix A. Palm, Botao Wang, Nathan Goldman, Laurens Vanderstraeten&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; This work investigates the coexistence of distinct topologically ordered phases within a single setup. We demonstrate this concept through tensor network simulations of the Hofstadter-Bose-Hubbard model under a spatially modulated chemical potential. Focusing on cylindrical geometries, we realize regions exhibiting the Laughlin-1/2 phase and its particle-hole conjugate, and confirm their topological character via the local St\v{r}eda's response and Laughlin's flux insertion protocol. Our approach offers a new pathway for experimentally and numerically charting entire phase diagrams within a single system, possibly eliminating the need for independent parameter scans.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2510.15472'&gt;arXiv:2510.15472&lt;/a&gt;] Published Fri, 17 Oct 2025 09:30:50 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2510.15472</guid>
+      <pubDate>Fri, 17 Oct 2025 09:30:50 +0000</pubDate>
+    <dc:creator>Chloé Van Bastelaere, Felix A. Palm, Botao Wang, Nathan Goldman, Laurens Vanderstraeten</dc:creator></item>
+    <item>
+      <title>Adaptive quantum channel discrimination using methods of quantum metrology</title>
+      <link>http://arxiv.org/abs/2510.15506</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Stanisław Sieniawski, Rafał Demkowicz-Dobrzański&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We present an efficient tensor-network based algorithm for finding the optimal adaptive quantum channel discrimination strategies inspired by recently developed numerical methods in quantum metrology to find the optimal adaptive channel estimation protocols. We examine the connection between channel discrimination and estimation problems, highlighting in particular an appealing structural similarity between models that admit Heisenberg scaling estimation performance, and models that admit perfect channel discrimination in finite--number of channel uses.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2510.15506'&gt;arXiv:2510.15506&lt;/a&gt;] Published Fri, 17 Oct 2025 10:19:29 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2510.15506</guid>
+      <pubDate>Fri, 17 Oct 2025 10:19:29 +0000</pubDate>
+    <dc:creator>Stanisław Sieniawski, Rafał Demkowicz-Dobrzański</dc:creator></item>
+    <item>
+      <title>High order Tensor-Train-Based Schemes for High-Dimensional Mean Field Games</title>
+      <link>http://arxiv.org/abs/2510.15603</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Elisabetta Carlini, Luca Saluzzi&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We introduce a fully discrete scheme to solve a class of high-dimensional Mean Field Games systems. Our approach couples semi-Lagrangian (SL) time discretizations with Tensor-Train (TT) decompositions to tame the curse of dimensionality. By reformulating the classical Hamilton-Jacobi-Bellman and Fokker-Planck equations as a sequence of advection-diffusion-reaction subproblems within a smoothed policy iteration, we construct both first and second order in time SL schemes. The TT format and appropriate quadrature rules reduce storage and computational cost from exponential to polynomial in the dimension. Numerical experiments demonstrate that our TT-accelerated SL methods achieve their theoretical convergence rates, exhibit modest growth in memory usage and runtime with dimension, and significantly outperform grid-based SL in accuracy per CPU second.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2510.15603'&gt;arXiv:2510.15603&lt;/a&gt;] Published Fri, 17 Oct 2025 12:49:39 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2510.15603</guid>
+      <pubDate>Fri, 17 Oct 2025 12:49:39 +0000</pubDate>
+    <dc:creator>Elisabetta Carlini, Luca Saluzzi</dc:creator></item>
   </channel>
 </rss>
