@@ -2,15 +2,15 @@ name: Auto Update DMRG RSS Feed
 
 on:
   schedule:
-    # Run every 2 hours
-    - cron: '0 */2 * * *'
+    # Run every 12 hours (at 00:00 and 12:00 UTC)
+    - cron: '0 0,12 * * *'
   # Support manual trigger
   workflow_dispatch:
     inputs:
       force_full_sync:
         description: 'Force full re-sync'
         required: false
-        default: 'false'
+        default: false
         type: boolean
 
 permissions:
@@ -154,24 +154,55 @@ jobs:
             echo "VALIDATION_STATUS=failed" >> $GITHUB_OUTPUT
             exit 1
           fi
+          
+          # Check HTML file
+          if [ -f "docs/rss.html" ]; then
+            echo "✅ HTML file generated successfully"
+            html_size=$(du -h docs/rss.html | cut -f1)
+            html_bytes=$(stat -f%z docs/rss.html 2>/dev/null || stat -c%s docs/rss.html)
+            
+            echo "HTML file size: $html_size ($html_bytes bytes)"
+            
+            # Simple HTML format check
+            if grep -q "<html" docs/rss.html && grep -q "</html>" docs/rss.html; then
+              echo "✅ HTML format validation passed"
+              echo "HTML_VALIDATION_STATUS=passed" >> $GITHUB_OUTPUT
+            else
+              echo "❌ HTML format validation failed"
+              echo "HTML_VALIDATION_STATUS=failed" >> $GITHUB_OUTPUT
+            fi
+            
+            echo "HTML_SIZE=$html_size" >> $GITHUB_OUTPUT
+            echo "HTML_BYTES=$html_bytes" >> $GITHUB_OUTPUT
+          else
+            echo "⚠️  HTML file not generated"
+            echo "HTML_VALIDATION_STATUS=missing" >> $GITHUB_OUTPUT
+          fi
 
       - name: Check for changes
         id: check_changes
         run: |
-          git add docs/rss.xml logs/sync.log
+          git add docs/rss.xml docs/rss.html docs/entries_cache.json docs/index.html logs/sync.log
           
           if git diff --cached --quiet; then
-            echo "📝 No changes detected in RSS content"
+            echo "📝 No changes detected in RSS/HTML content"
             echo "HAS_CHANGES=false" >> $GITHUB_OUTPUT
           else
-            echo "📝 Changes detected in RSS content"
+            echo "📝 Changes detected in RSS/HTML content"
             echo "HAS_CHANGES=true" >> $GITHUB_OUTPUT
             
             # Show change statistics
-            git diff --cached --stat docs/rss.xml
+            echo "RSS changes:"
+            git diff --cached --stat docs/rss.xml || echo "No RSS changes"
+            echo "HTML changes:"
+            git diff --cached --stat docs/rss.html || echo "No HTML changes"
+            echo "Cache changes:"
+            git diff --cached --stat docs/entries_cache.json || echo "No cache changes"
+            echo "Index changes:"
+            git diff --cached --stat docs/index.html || echo "No index changes"
           fi
 
-      - name: Commit and push RSS XML
+      - name: Commit and push RSS XML and HTML
         if: steps.check_changes.outputs.HAS_CHANGES == 'true'
         run: |
           git config --local user.name "github-actions[bot]"
@@ -181,9 +212,9 @@ jobs:
           timestamp=$(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M:%S')
           
           if [ "${{ steps.validate.outputs.NEW_ENTRIES }}" -gt 0 ]; then
-            commit_msg="🤖 RSS sync: +${{ steps.validate.outputs.NEW_ENTRIES }} entries (total: ${{ steps.validate.outputs.NEW_COUNT }}) - $timestamp CST"
+            commit_msg="🤖 RSS/HTML sync: +${{ steps.validate.outputs.NEW_ENTRIES }} entries (total: ${{ steps.validate.outputs.NEW_COUNT }}) - $timestamp CST"
           else
-            commit_msg="🤖 RSS sync: updated (total: ${{ steps.validate.outputs.NEW_COUNT }} entries) - $timestamp CST"
+            commit_msg="🤖 RSS/HTML sync: updated (total: ${{ steps.validate.outputs.NEW_COUNT }} entries) - $timestamp CST"
           fi
           
           # Add force sync marker if applicable
@@ -193,7 +224,7 @@ jobs:
           
           git commit -m "$commit_msg"
           git push
-          echo "✅ RSS feed updated and pushed to repository"
+          echo "✅ RSS feed and HTML page updated and pushed to repository"
 
       - name: Upload logs and artifacts
         if: always()
@@ -245,6 +276,10 @@ jobs:
           # File links
           echo "### 📄 Files" >> $GITHUB_STEP_SUMMARY
           echo "- **RSS Feed**: [docs/rss.xml](./docs/rss.xml)" >> $GITHUB_STEP_SUMMARY
+          if [ "${{ steps.validate.outputs.HTML_VALIDATION_STATUS }}" == "passed" ]; then
+            echo "- **HTML Page**: [docs/rss.html](./docs/rss.html) (${{ steps.validate.outputs.HTML_SIZE }})" >> $GITHUB_STEP_SUMMARY
+          fi
+          echo "- **GitHub Pages**: [View Live Site](https://${{ github.repository_owner }}.github.io/dmrg-rss/)" >> $GITHUB_STEP_SUMMARY
           echo "- **Sync Logs**: [rss-sync-logs-${{ github.run_number }}](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})" >> $GITHUB_STEP_SUMMARY
           
           # Add error information if applicable
