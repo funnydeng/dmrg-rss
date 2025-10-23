@@ -27,6 +27,7 @@
             border-bottom: 3px solid #3498db;
             padding-bottom: 10px;
             text-align: center;
+            font-size: 2.2em;
         }
         
         .description {
@@ -90,15 +91,72 @@
             margin-bottom: 0.5em;
         }
         
+        /* Mobile phones */
         @media (max-width: 600px) {
+            body {
+                padding: 15px;
+            }
+            
+            .container {
+                padding: 1.5em;
+            }
+            
+            h1 {
+                font-size: 1.8em;
+            }
+            
+            .description {
+                font-size: 1em;
+                margin-bottom: 1.5em;
+            }
+            
             .links {
                 flex-direction: column;
                 align-items: center;
+                gap: 1.5em;
             }
             
             .link-card {
                 width: 100%;
                 max-width: 300px;
+                min-width: auto;
+                padding: 1.2em;
+            }
+            
+            .link-card h3 {
+                font-size: 1.2em;
+            }
+            
+            .link-card p {
+                font-size: 0.95em;
+            }
+            
+            .footer {
+                font-size: 0.85em;
+            }
+        }
+        
+        /* Tablets */
+        @media (max-width: 768px) and (min-width: 601px) {
+            body {
+                padding: 18px;
+                max-width: 95%;
+            }
+            
+            .container {
+                padding: 1.8em;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            .links {
+                gap: 1.8em;
+            }
+            
+            .link-card {
+                min-width: 180px;
             }
         }
     </style>
@@ -130,7 +188,7 @@
         
         <div class="footer">
             <p>
-                Updated automatically every 2 hours via GitHub Actions<br>
+                Updated automatically every 12 hours via GitHub Actions<br>
                 <a href="https://github.com/funnydeng/dmrg-rss" style="color: #3498db;">View on GitHub</a>
             </p>
         </div>

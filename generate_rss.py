@@ -96,16 +96,69 @@ def save_entries_cache(entries_dict, cache_path):
     except Exception as e:
         logging.error(f"Error saving cache file: {e}")
 
+def preprocess_latex_formula(formula):
+    """Preprocess LaTeX formula to handle KaTeX unsupported commands"""
+    if not formula:
+        return formula
+    
+    processed_formula = formula
+    
+    # Handle unicode characters first
+    processed_formula = re.sub(r'\\unicode\{x2014\}', r'\\text{---}', processed_formula)  # em dash
+    processed_formula = re.sub(r'\\unicode\{x2013\}', r'\\text{--}', processed_formula)   # en dash
+    
+    # Handle common unsupported commands
+    processed_formula = re.sub(r'\\cross\b', r'\\times', processed_formula)               # cross product
+    processed_formula = re.sub(r'\\Cross\b', r'\\times', processed_formula)               # cross product variant
+    processed_formula = re.sub(r'\\vector\{([^}]+)\}', r'\\vec{\\1}', processed_formula) # vector notation
+    processed_formula = re.sub(r'\\mbox\{([^}]*)\}', r'\\text{\\1}', processed_formula)  # mbox to text
+    
+    # Handle other unsupported commands
+    processed_formula = re.sub(r'\\varnothing\b', r'\\emptyset', processed_formula)       # empty set
+    processed_formula = re.sub(r'\\complement\b', r'\\mathsf{c}', processed_formula)      # complement
+    processed_formula = re.sub(r'\\Bold\b', r'\\mathbf', processed_formula)               # bold text
+    processed_formula = re.sub(r'\\gcd\b', r'\\text{gcd}', processed_formula)             # greatest common divisor
+    processed_formula = re.sub(r'\\lcm\b', r'\\text{lcm}', processed_formula)             # least common multiple
+    processed_formula = re.sub(r'\\Pr\b', r'\\text{Pr}', processed_formula)               # probability
+    processed_formula = re.sub(r'\\argmax\b', r'\\text{argmax}', processed_formula)       # argmax
+    processed_formula = re.sub(r'\\argmin\b', r'\\text{argmin}', processed_formula)       # argmin
+    
+    # Handle limit functions
+    processed_formula = re.sub(r'\\limsup\b', r'\\overline{\\lim}', processed_formula)    # limit superior
+    processed_formula = re.sub(r'\\liminf\b', r'\\underline{\\lim}', processed_formula)   # limit inferior
+    processed_formula = re.sub(r'\\varlimsup\b', r'\\overline{\\lim}', processed_formula) # variant limit superior
+    processed_formula = re.sub(r'\\varliminf\b', r'\\underline{\\lim}', processed_formula)# variant limit inferior
+    
+    return processed_formula
+
 def render_katex_formula_safe(formula, display_mode=False):
     """Use KaTeX CLI to safely render a single LaTeX formula"""
     try:
+        # Skip empty or very short formulas
+        if not formula or len(formula.strip()) < 2:
+            return f"${formula}$" if not display_mode else f"$${formula}$$"
+        
+        # Preprocess formula to handle unsupported commands
+        processed_formula = preprocess_latex_formula(formula)
+        
+        # Additional check for problematic patterns that can't be easily fixed
+        problematic_patterns = [
+            r'\\[0-9]',  # commands like \1, \2, etc.
+            r'\\[^a-zA-Z]',  # commands with non-alphabetic characters
+        ]
+        
+        for pattern in problematic_patterns:
+            if re.search(pattern, processed_formula):
+                logging.info(f"[KaTeX Skip] Skipping problematic formula: {formula}")
+                return f"${formula}$" if not display_mode else f"$${formula}$$"
+        
         cmd = ["katex"]
         if display_mode:
             cmd.append("--display-mode")
         
         result = subprocess.run(
             cmd,
-            input=formula.strip().encode("utf-8"),
+            input=processed_formula.strip().encode("utf-8"),
             capture_output=True,
             check=True,
             timeout=10
@@ -125,7 +178,12 @@ def render_katex_formula_safe(formula, display_mode=False):
     except subprocess.CalledProcessError as e:
         logging.warning(f"[KaTeX Error] Failed to render formula: {formula}")
         if e.stderr:
-            logging.warning(f"Error: {e.stderr.decode('utf-8')}")
+            error_msg = e.stderr.decode('utf-8')
+            logging.warning(f"Error details: {error_msg}")
+        # Try to provide a fallback with plain text representation
+        fallback = preprocess_latex_formula(formula)
+        if fallback != formula:
+            logging.info(f"[KaTeX Fallback] Falling back to plain text: {fallback}")
         return f"${formula}$" if not display_mode else f"$${formula}$$"
     except FileNotFoundError:
         # KaTeX CLI not available, return original formula
@@ -586,8 +644,7 @@ def generate_html(entries, output_path):
     # Start building HTML content
     html_content = []
     
-    # Add header
-    html_content.append(f"<h1>DMRG cond-mat Papers</h1>")
+    # Add generation info (header with title is now in template)
     html_content.append(f"<p><em>Generated on {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}</em></p>")
     html_content.append(f"<p>Total papers: {len(complete_entries)}")
     if incomplete_entries:
@@ -661,6 +718,7 @@ def generate_html(entries, output_path):
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DMRG cond-mat Papers</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
     <style>
@@ -677,17 +735,20 @@ def generate_html(entries, output_path):
             color: #2c3e50;
             border-bottom: 3px solid #3498db;
             padding-bottom: 10px;
+            font-size: 2.2em;
         }}
         
         h2 {{ 
             color: #34495e;
             border-bottom: 1px solid #bdc3c7;
             padding-bottom: 5px;
+            font-size: 1.5em;
         }}
         
         h3 {{ 
             color: #2980b9;
             margin-bottom: 0.5em;
+            font-size: 1.2em;
         }}
         
         .paper-entry {{ 
@@ -711,6 +772,7 @@ def generate_html(entries, output_path):
         a {{ 
             color: #3498db;
             text-decoration: none;
+            word-break: break-word;
         }}
         
         a:hover {{ 
@@ -727,6 +789,7 @@ def generate_html(entries, output_path):
         .katex-display {{ 
             margin: 1.5em 0 !important;
             text-align: center !important;
+            overflow-x: auto;
         }}
         
         .katex-inline {{
@@ -737,6 +800,122 @@ def generate_html(entries, output_path):
             font-size: 1.1em;
         }}
         
+        /* Mobile responsiveness - Phones */
+        @media screen and (max-width: 600px) {{
+            body {{
+                padding: 12px;
+                max-width: 100%;
+                font-size: 14px;
+            }}
+            
+            h1 {{
+                font-size: 1.6em;
+                text-align: center;
+                margin-bottom: 1em;
+            }}
+            
+            h2 {{
+                font-size: 1.2em;
+            }}
+            
+            h3 {{
+                font-size: 1.0em;
+                line-height: 1.3;
+                word-break: break-word;
+            }}
+            
+            .paper-entry {{
+                padding: 0.7em;
+                margin-bottom: 1.2em;
+                border-radius: 3px;
+            }}
+            
+            .meta {{
+                font-size: 0.8em;
+                line-height: 1.3;
+                margin: 0.3em 0;
+            }}
+            
+            .abstract {{
+                text-align: left;
+                font-size: 0.9em;
+                line-height: 1.4;
+            }}
+            
+            .katex {{
+                font-size: 0.9em;
+            }}
+            
+            .katex-display {{
+                overflow-x: auto;
+                overflow-y: hidden;
+                font-size: 0.85em;
+            }}
+            
+            a {{
+                word-break: break-all;
+            }}
+        }}
+        
+        /* Tablets */
+        @media screen and (min-width: 601px) and (max-width: 768px) {{
+            body {{
+                padding: 15px;
+                max-width: 100%;
+                font-size: 15px;
+            }}
+            
+            h1 {{
+                font-size: 1.9em;
+                text-align: center;
+            }}
+            
+            h2 {{
+                font-size: 1.4em;
+            }}
+            
+            h3 {{
+                font-size: 1.1em;
+                line-height: 1.4;
+            }}
+            
+            .paper-entry {{
+                padding: 0.8em;
+                margin-bottom: 1.5em;
+            }}
+            
+            .meta {{
+                font-size: 0.85em;
+                line-height: 1.4;
+            }}
+            
+            .abstract {{
+                text-align: justify;
+                font-size: 0.95em;
+            }}
+            
+            .katex {{
+                font-size: 1em;
+            }}
+            
+            .katex-display {{
+                overflow-x: auto;
+                overflow-y: hidden;
+            }}
+        }}
+        
+        /* Large tablets/small desktops */
+        @media screen and (min-width: 769px) and (max-width: 1024px) {{
+            body {{
+                padding: 18px;
+                max-width: 95%;
+            }}
+            
+            h1 {{
+                font-size: 2em;
+            }}
+        }}
+        
         @media print {{
             body {{ 
                 max-width: none;
@@ -744,10 +923,96 @@ def generate_html(entries, output_path):
                 padding: 15mm;
             }}
         }}
+        
+        /* Header styles */
+        .header {{
+            text-align: center;
+            margin-bottom: 2em;
+            padding-bottom: 1em;
+            border-bottom: 2px solid #ecf0f1;
+        }}
+        
+        .header h1 {{
+            margin-bottom: 0.5em;
+        }}
+        
+        .header .description {{
+            color: #7f8c8d;
+            font-size: 1.1em;
+            margin-bottom: 1em;
+        }}
+        
+        .header .nav-links {{
+            display: flex;
+            justify-content: center;
+            gap: 2em;
+            flex-wrap: wrap;
+        }}
+        
+        .header .nav-links a {{
+            color: #3498db;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 0.5em 1em;
+            border: 1px solid #3498db;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }}
+        
+        .header .nav-links a:hover {{
+            background-color: #3498db;
+            color: white;
+        }}
+        
+        /* Footer styles */
+        .footer {{
+            margin-top: 3em;
+            padding-top: 2em;
+            border-top: 2px solid #ecf0f1;
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }}
+        
+        .footer a {{
+            color: #3498db;
+        }}
+        
+        /* Mobile adjustments for header/footer */
+        @media screen and (max-width: 600px) {{
+            .header .nav-links {{
+                flex-direction: column;
+                gap: 1em;
+            }}
+            
+            .header .nav-links a {{
+                width: 80%;
+                text-align: center;
+            }}
+        }}
     </style>
 </head>
 <body>
+    <div class="header">
+        <h1>🔬 DMRG cond-mat Papers</h1>
+        <p class="description">
+            Condensed matter physics papers from the DMRG research group with abstracts and LaTeX rendering
+        </p>
+        <div class="nav-links">
+            <a href="index.html">← Home</a>
+            <a href="rss.xml">📡 RSS Feed</a>
+            <a href="https://github.com/funnydeng/dmrg-rss">🔧 GitHub</a>
+        </div>
+    </div>
+    
 {chr(10).join(html_content)}
+
+    <div class="footer">
+        <p>
+            Updated automatically every 12 hours via GitHub Actions<br>
+            <a href="https://github.com/funnydeng/dmrg-rss">View Source Code on GitHub</a>
+        </p>
+    </div>
 </body>
 </html>"""
     
