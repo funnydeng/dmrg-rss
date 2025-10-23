@@ -8,7 +8,7 @@ from datetime import datetime
 from html import escape
 
 from latex_renderer import LaTeXRenderer
-from text_utils import is_entry_complete
+from text_utils import is_entry_complete, latex_to_unicode
 from config import HTML_TITLE, HTML_DESCRIPTION
 
 
@@ -599,7 +599,11 @@ class HTMLGenerator:
                     except:
                         display_date = str(pubdate)
                 
-                # Render LaTeX in title and abstract
+                # Convert LaTeX accents to Unicode and render LaTeX formulas
+                title = latex_to_unicode(title)
+                abstract = latex_to_unicode(abstract)
+                authors = latex_to_unicode(authors)
+                
                 title_with_latex = self.latex_renderer.render_in_html(title)
                 abstract_with_latex = self.latex_renderer.render_in_html(abstract)
                 

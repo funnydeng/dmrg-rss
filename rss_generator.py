@@ -10,7 +10,7 @@ from feedgen.feed import FeedGenerator
 from email.utils import parsedate_to_datetime
 from bs4 import BeautifulSoup
 
-from text_utils import format_date_for_rss
+from text_utils import format_date_for_rss, latex_to_unicode
 from config import RSS_TITLE, RSS_DESCRIPTION, RSS_LANGUAGE, TARGET_URL
 
 
@@ -124,14 +124,17 @@ class RSSGenerator:
         added_count = 0
         for i, entry in enumerate(entries):
             try:
+                # Convert LaTeX accents to Unicode
+                title = latex_to_unicode(entry.get("title", "Untitled"))
+                authors = latex_to_unicode(entry.get("authors", "Unknown"))
+                abstract = latex_to_unicode(entry.get("abstract", "No abstract available"))
+                
                 fe = fg.add_entry()
-                fe.title(entry.get("title", "Untitled"))
+                fe.title(title)
                 fe.link(href=entry["link"])
                 
                 # Build description
                 arxiv_id = entry["link"].rsplit("/", 1)[-1]
-                authors = entry.get("authors", "Unknown")
-                abstract = entry.get("abstract", "No abstract available")
                 
                 # Handle publication date
                 pubdate = entry.get("pubdate")
