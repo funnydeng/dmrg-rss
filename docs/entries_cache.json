@@ -1,5 +1,54 @@
 {
+  "last_updated": "2025-10-23T09:25:57.813918+00:00",
   "entries": {
+    "a2bf8c75ccf95a7a4428ac8f053bd304": {
+      "id": "a2bf8c75ccf95a7a4428ac8f053bd304",
+      "link": "http://arxiv.org/abs/2510.19189",
+      "title": "Calculating the Luttinger liquid parameter for an interacting Kitaev chain quantum simulator",
+      "abstract": "In this work, we introduce a solid-state platform for building quantum simulators using implanted spin centers in solid-state materials. We build upon the proposal for an $S=1$ chain of spin centers coupled through the magnetic dipole-dipole interaction and subjected to an external magnetic field as a quantum simulator for critical floating phases. We introduce another magnetic field and map the system to the interacting Kitaev chain. This setup, tunable through the applied fields and the orientation of the spin centers within the crystal, exhibits a variety of rich quantum behavior which notably includes floating phases, a $Z_2$ symmetry-breaking phase, and lines of both Berezinskii-Kosterlitz-Thouless (BKT) and Pokrovsky-Talapov transitions. Furthermore, we employ several novel methods to calculate the Luttinger liquid parameter in our model with incommensurate correlations. We find that these methods provide a route to identify BKT transitions with less computational resources than utilizing entanglement entropy and central charge.",
+      "pubdate": "Wed, 22 Oct 2025 02:50:22 +0000",
+      "authors": "Troy Losey, Jin Zhang, S. -W. Tsai"
+    },
+    "dd8d12f383c44db88fb302078d8dd097": {
+      "id": "dd8d12f383c44db88fb302078d8dd097",
+      "link": "http://arxiv.org/abs/2510.19483",
+      "title": "Discrete Shift and Polarization from Response to Symmetry Defects in Interacting Topological Phases",
+      "abstract": "We extend the previous study of extracting crystalline symmetry-protected topological invariants to the correlated regime. We construct the interacting Hofstadter model defined on square lattice with the rotation and translation symmetry defects: disclination and dislocation. The model realizes Chern insulator and the charge density wave state as one tunes interactions. Employing the density matrix renormalization group (DMRG) method, we calculate the excess charge around the defects and find that the topological invariants remain quantized in both phases, with the topological quantity extracted to great precision. This study paves the way for utilizing matrix product state, and potentially other quantum many-body computation methods, to efficiently study crystalline symmetry defects on 2D interacting lattice systems.",
+      "pubdate": "Wed, 22 Oct 2025 11:21:14 +0000",
+      "authors": "Lu Zhang, Min Long, Yuxuan Zhang, Zi Yang Meng, Xue-Yang Song"
+    },
+    "05d02d31a05cc2417a88a555790e86fa": {
+      "id": "05d02d31a05cc2417a88a555790e86fa",
+      "link": "http://arxiv.org/abs/2510.19428",
+      "title": "Lattice-reflection symmetry in tensor-network renormalization group with entanglement filtering in two and three dimensions",
+      "abstract": "Tensor-network renormalization group (TNRG) is an efficient real-space renormalization group method for studying the criticality in both classical and quantum lattice systems. Exploiting symmetries of a system in a TNRG algorithm can simplify the implementation of the algorithm and can help produce correct tensor RG flows. Although a general framework for considering a global on-site symmetry has been established, it is still unclear how to incorporate a lattice symmetry like rotation or reflection in TNRG. As a first step for lattice symmetries, we propose a method to incorporate the lattice-reflection symmetry in the context of a TNRG with entanglement filtering in both two and three dimensions (2D and 3D). To achieve this, we write down a general definition of lattice-reflection symmetry in tensor-network language. Then, we introduce a transposition trick for exploiting and imposing the lattice-reflection symmetry in two basic TNRG operators: projective truncations and entanglement filtering. Using the transposition trick, the detailed algorithms of the TNRG map in both 2D and 3D are laid out, where the lattice-reflection symmetry is preserved and imposed. Finally, we demonstrate how to construct the linearization of the TNRG maps in a given lattice-reflection sector, with the help of which it becomes possible to extract scaling dimensions in each sector separately. Our work paves the way for understanding the lattice-rotation symmetry in TNRG.",
+      "pubdate": "Wed, 22 Oct 2025 09:54:41 +0000",
+      "authors": "Xinliang Lyu, Naoki Kawashima"
+    },
+    "5de84c26332969c9e017dafc2bc4e0a8": {
+      "id": "5de84c26332969c9e017dafc2bc4e0a8",
+      "link": "http://arxiv.org/abs/2510.19219",
+      "title": "Hybrid Quantum-Classical Eigensolver with Real-Space Sampling and Symmetric Subspace Measurements",
+      "abstract": "We propose a hybrid quantum-classical eigensolver to address the computational challenges of simulating strongly correlated quantum many-body systems, where the exponential growth of the Hilbert space and extensive entanglement render classical methods intractable. Our approach combines real-space sampling of tensor-network-bridged quantum circuits with symmetric subspace measurements, effectively constraining the wavefunction within a substaintially reduced Hilbert space for efficient and scalable simulations of versatile target states. The system is partitioned into equal-sized subsystems, where quantum circuits capture local entanglement and tensor networks reconnect them to recover global correlations, thereby overcoming partition-induced limitations. Symmetric subspace measurements exploit point-group symmetries through a many-to-one mapping that aggregates equivalent real-space configurations into a single symmetric state, effectively enhancing real-space bipartition entanglement while elimilating redundant degrees of freedom. The tensor network further extends this connectivity across circuits, restoring global entanglement and correlation, while simultaneously enabling generative sampling for efficient optimization. As a proof of concept, we apply the method to the periodic $J_1\\!-\\!J_2$ antiferromagnetic Heisenberg model in one and two dimensions, incorporating translation, reflection, and inversion symmetries. With a small matrix product state bond dimension of up to 6, the method achieves an absolute energy error of $10^{-5}$ for a 64-site periodic chain and a $6\\times6$ torus after bond-dimension extrapolation. These results validate the accuracy and efficiency of the hybrid eigensolver and demonstrate its strong potential for scalable quantum simulations of strongly correlated systems.",
+      "pubdate": "Wed, 22 Oct 2025 04:03:40 +0000",
+      "authors": "Lei Xu, Ling Wang"
+    },
+    "3135007ad72434a99cb6dba7f5beec70": {
+      "id": "3135007ad72434a99cb6dba7f5beec70",
+      "link": "http://arxiv.org/abs/2510.18967",
+      "title": "On the stabilizer complexity of Hawking radiation",
+      "abstract": "We study the complexity of Hawking radiation for an evaporating black hole from the perspective of the stabilizer theory of quantum computation. Specifically, we calculate Wigner negativity -- a magic monotone which can be interpreted as a measure of the stabilizer complexity, or equivalently, the complexity of classical simulation -- in various toy models for evaporating black holes. We first calculate the Wigner negativity of Hawking radiation in the PSSY model directly using the gravitational path integral, and show that the negativity is $O(1)$ before the Page transition, but becomes exponentially large past the Page transition. We also derive a universal, information theoretic formula for the negativity which interpolates between the two extremes. We then study the Wigner negativity of radiation in a dynamical model of black hole evaporation. In this case, the negativity shows a sharp spike at early times resulting from the coupling between the black hole and the radiation system, but at late times when the system settles down, we find that the negativity satisfies the same universal formula as in the PSSY model. Finally, we also propose a geometric formula for Wigner negativity in general holographic states using intuition from fixed area states and random tensor networks, and argue that a python's lunch in the entanglement wedge implies a stabilizer complexity which is exponentially large in $\\frac{1}{8G_N}$ times the difference between the areas corresponding to the outermost and minimal extremal surfaces.",
+      "pubdate": "Tue, 21 Oct 2025 18:00:04 +0000",
+      "authors": "Ritam Basu, Onkar Parrikar, Suprakash Paul, Harshit Rajgadia"
+    },
+    "143ece5e7f761aad389704a8bc9aa800": {
+      "id": "143ece5e7f761aad389704a8bc9aa800",
+      "link": "http://arxiv.org/abs/2510.18954",
+      "title": "Haerter-Shastry kinetic magnetism and metallicity in the triangular Hubbard model",
+      "abstract": "The fermionic Hubbard model, when combined with the ingredient of frustration, associated with the breaking of particle-hole symmetry, harbors a rich phase diagram. Aspects of theoretical findings associated with the nature of magnetism and metallicity, in a diverse set of parameter regimes, are now being actively investigated in triangular Hubbard cold atom and solid-state (moir\\'e) based emulators. Building on the theoretical work of Haerter and Shastry [Phys. Rev. Lett. 95,087202 (2005)], we explore the impact of kinetically frustrated magnetism, a phenomenon where antiferromagnetic order emerges without any underlying magnetic interactions, at finite hole density. We numerically study the infinite-$U$ triangular Hubbard model using the density matrix renormalization group algorithm and estimate the extent of stability of the kinetically induced $120^{\\circ}$ antiferromagnetic state to hole doping. Beyond the Haerter-Shastry regime, we find an intermediate phase with multimer (involving multiple correlated spins) stripes that eventually gives way to a paramagnet. We also find evidence of gapless charge excitations (metallicity) throughout the phase diagram for finite hole density. We discuss the implications at large, but finite and realistic values of $U/t$, and investigate whether kinetic magnetism and superexchange collaborate or compete.",
+      "pubdate": "Tue, 21 Oct 2025 18:00:01 +0000",
+      "authors": "Sogoud Sherif, Prakash Sharma, Aman Kumar, Hitesh J. Changlani"
+    },
     "a68d03ca44c240b18480bc64831d1509": {
       "id": "a68d03ca44c240b18480bc64831d1509",
       "title": "Growth and collapse of subsystem complexity under random unitary circuits",
@@ -2746,11 +2795,11 @@
     },
     "aaaefb60763865888edaf2f91435a16d": {
       "id": "aaaefb60763865888edaf2f91435a16d",
-      "title": "Irrational CFTs from coupled anyon chains with non-invertible symmetries?",
-      "authors": "António Antunes, Junchen Rong",
       "link": "http://arxiv.org/abs/2507.14280",
-      "abstract": "Irrational CFTs in 1+1d with a discrete spectrum and no conserved currents other than the stress-tensor are expected to be generic, unsolvable by standard methods, and hard to construct explicitly. We introduce a lattice model that realizes a candidate for such a CFT as a conformal phase of matter without fine-tuning. The model is constructed by coupling $N\\geq2$ golden anyon chains together, preserving $N$ copies of the Fibonacci non-invertible symmetry. We use the MPS/DMRG approach to study this model numerically, which allows us to calculate the corresponding conformal data, obtaining hints of its irrationality. As a byproduct of our analysis, we provide an extensive list of rational CFTs with $1",
-      "pubdate": "Fri, 18 Jul 2025 18:00:00 +0000"
+      "title": "Irrational CFTs from coupled anyon chains with non-invertible symmetries?",
+      "abstract": "Irrational CFTs in 1+1d with a discrete spectrum and no conserved currents other than the stress-tensor are expected to be generic, unsolvable by standard methods, and hard to construct explicitly. We introduce a lattice model that realizes a candidate for such a CFT as a conformal phase of matter without fine-tuning. The model is constructed by coupling $N\\geq2$ golden anyon chains together, preserving $N$ copies of the Fibonacci non-invertible symmetry. We use the MPS/DMRG approach to study this model numerically, which allows us to calculate the corresponding conformal data, obtaining hints of its irrationality. As a byproduct of our analysis, we provide an extensive list of rational CFTs with $1<c<2.1$.",
+      "pubdate": "Fri, 18 Jul 2025 18:00:00 +0000",
+      "authors": "António Antunes, Junchen Rong"
     },
     "583bdbceda21c02d13ea7f1d9a676fdb": {
       "id": "583bdbceda21c02d13ea7f1d9a676fdb",
@@ -4506,11 +4555,11 @@
     },
     "0126d439faac29aea910b3703103e2e0": {
       "id": "0126d439faac29aea910b3703103e2e0",
-      "title": "Lévy Light Cones and Critical Causality in Fractional Multiscale Quantum Ising Models",
-      "authors": "Joshua M Lewis, Zhexuan Gong, Lincoln D Carr",
       "link": "http://arxiv.org/abs/2505.05645",
-      "abstract": "We study causality and criticality in a one-dimensional fractional multiscale transverse-field Ising model, where fractional derivatives generate long range interactions beyond the scope of standard power laws. Such fractional responses are common in classical systems including the anomalous stress-strain behaviour of viscoelastic polymers, L\\'evy-like contaminant transport in heterogeneous porous media, and the non-Debye dielectric relaxation of glassy dielectrics. Furthermore, these unique interactions can be implemented in current quantum information architectures, with intriguing consequences for the many-body dynamics. Using a truncated Jordan-Wigner approach, we show that in the long wavelength limit of the mean field, the dynamical critical exponent is set by the fractional order q as $z=q/2$. To probe genuine many-body dynamics, we apply matrix-product-state simulations with the time-dependent variational principle adapted to nonlocal couplings. Tracking the entanglement-entropy light cone and performing finite-size scaling of the many-body gap for $0",
-      "pubdate": "Thu, 08 May 2025 21:00:47 +0000"
+      "title": "Lévy Light Cones and Critical Causality in Fractional Multiscale Quantum Ising Models",
+      "abstract": "We study causality and criticality in a one-dimensional fractional multiscale transverse-field Ising model, where fractional derivatives generate long range interactions beyond the scope of standard power laws. Such fractional responses are common in classical systems including the anomalous stress-strain behaviour of viscoelastic polymers, L\\'evy-like contaminant transport in heterogeneous porous media, and the non-Debye dielectric relaxation of glassy dielectrics. Furthermore, these unique interactions can be implemented in current quantum information architectures, with intriguing consequences for the many-body dynamics. Using a truncated Jordan-Wigner approach, we show that in the long wavelength limit of the mean field, the dynamical critical exponent is set by the fractional order q as $z=q/2$. To probe genuine many-body dynamics, we apply matrix-product-state simulations with the time-dependent variational principle adapted to nonlocal couplings. Tracking the entanglement-entropy light cone and performing finite-size scaling of the many-body gap for $0<q<2.5$, we confirm a continuously tunable exponent $z(q)$: for $q<2$ the entanglement front broadens with a sublinear light cone; for $2<q<2.5$ we observe a faint superlinear cone indicative of $z<1$; and for $q \\gtrsim 2.5$ the system reverts to the ballistic nearest-neighbour regime with $z=1$. The correspondence between quantum entanglement fronts that spread as $t^{1/z}$ and classical L\\'evy flights whose mean-square displacement grows as $t^{2/q}$ provides a direct physical link between fractional interactions and L\\'evy statistics. Fractional derivatives therefore offer a unified framework in which short-range, power-law, and frustrated long-range interactions emerge as limiting cases, enabling controlled exploration of nonlocal causality bounds and exotic entanglement dynamics within current quantum information platforms.",
+      "pubdate": "Thu, 08 May 2025 21:00:47 +0000",
+      "authors": "Joshua M Lewis, Zhexuan Gong, Lincoln D Carr"
     },
     "7044c8ed8cf4494d58854efac3b6a7d9": {
       "id": "7044c8ed8cf4494d58854efac3b6a7d9",
@@ -7824,7 +7873,5 @@
       "abstract": "We consider the surface code under errors featuring both coherent and incoherent components and study the coherence of the corresponding logical noise channel and how this impacts information-theoretic measures of code performance, namely coherent information and quantum relative entropy. Using numerical simulations and a phenomenological field theory, focusing on the most general single-qubit X-error channel, we show that, for any nonzero incoherent noise component, the coherence of the logical noise is exponentially suppressed with the code distance. We also find that the information-theoretic measures require this suppression to detect optimal thresholds for Pauli recovery; they thus require increasingly large distances for increasing error coherence and ultimately break down for fully coherent errors. To obtain our results, we develop a statistical mechanics mapping and a corresponding matrix-product-state algorithm for approximate syndrome sampling. These methods enable the large-scale simulation of these non-Pauli errors, including their maximum-likelihood thresholds, away from the limits captured by previous approaches.",
       "pubdate": "Mon, 30 Dec 2024 16:14:55 +0000"
     }
-  },
-  "timestamp": "2025-10-23T05:01:38.598261+00:00",
-  "total_entries": 978
+  }
 }
