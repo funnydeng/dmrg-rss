@@ -10,8 +10,8 @@ from feedgen.feed import FeedGenerator
 from email.utils import parsedate_to_datetime
 from bs4 import BeautifulSoup
 
-from text_utils import format_date_for_rss, latex_to_unicode
-from config import RSS_TITLE, RSS_DESCRIPTION, RSS_LANGUAGE, TARGET_URL
+from ..utils.text_utils import format_date_for_rss, latex_to_unicode, generate_entry_id
+from ..config import RSS_TITLE, RSS_DESCRIPTION, RSS_LANGUAGE, TARGET_URL
 
 
 class RSSGenerator:
@@ -52,7 +52,6 @@ class RSSGenerator:
                     link_elem = item.find("link")
                     if link_elem is not None and link_elem.text:
                         link = link_elem.text.strip()
-                        from text_utils import generate_entry_id
                         entry_id = generate_entry_id(link)
                         
                         title = item.findtext("title", "").strip()

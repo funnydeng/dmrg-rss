@@ -7,9 +7,9 @@ import logging
 from datetime import datetime
 from html import escape
 
-from latex_renderer import LaTeXRenderer
-from text_utils import is_entry_complete, latex_to_unicode
-from config import HTML_TITLE, HTML_DESCRIPTION
+from .latex_renderer import LaTeXRenderer
+from ..utils.text_utils import is_entry_complete, latex_to_unicode
+from ..config import HTML_TITLE, HTML_DESCRIPTION
 
 
 class HTMLGenerator:
@@ -659,7 +659,7 @@ class HTMLGenerator:
 <body>
     <!-- Theme toggle button -->
     <button class="theme-toggle" id="themeToggle" title="Toggle dark/light mode" aria-label="Toggle dark/light mode">
-        <span id="themeIcon"><i class="fa-solid fa-moon"></i></span>
+        <span id="themeIcon"><i class="fa-solid fa-circle-half-stroke"></i></span>
     </button>
     <div class="header">
         <h1><img src="images/ITensorMan_square_alpha.png" alt="DMRG" style="height: 40px; vertical-align: middle; margin-right: 10px;"> {HTML_TITLE}</h1>
@@ -690,7 +690,7 @@ class HTMLGenerator:
         
         function updateThemeIcon() {{
             const isDark = htmlElement.classList.contains('dark-theme');
-            themeIcon.innerHTML = isDark ? '<i class="fa-solid fa-sun"></i>' : '<i class="fa-solid fa-moon"></i>';
+            themeIcon.innerHTML = isDark ? '<i class="fa-solid fa-circle-half-stroke"></i>' : '<i class="fa-solid fa-circle-half-stroke"></i>';
         }}
         
         function toggleTheme() {{

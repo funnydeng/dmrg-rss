@@ -18,14 +18,14 @@ import logging
 import requests
 
 # Import our modular components
-from config import (
+from .config import (
     TARGET_URL, OUTPUT_RSS_PATH, OUTPUT_HTML_PATH, CACHE_PATH, USER_AGENT
 )
-from arxiv_processor import ArXivProcessor, DMRGPageParser
-from cache_manager import CacheManager
-from entry_sync import EntrySync
-from rss_generator import RSSGenerator
-from html_generator import HTMLGenerator
+from .utils.arxiv_processor import ArXivProcessor, DMRGPageParser
+from .utils.cache_manager import CacheManager
+from .utils.entry_sync import EntrySync
+from .generators.rss_generator import RSSGenerator
+from .generators.html_generator import HTMLGenerator
 
 
 class DMRGRSSApplication:

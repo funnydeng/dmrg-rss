@@ -5,7 +5,7 @@ This file maintains backward compatibility by importing and running the new modu
 """
 
 # Import the new modular application
-from main import main
+from src.main import main
 
 if __name__ == "__main__":
     # Run the main application

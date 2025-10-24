@@ -5,7 +5,7 @@ Entry synchronization module for managing data consistency between sources.
 import time
 import logging
 
-from text_utils import is_entry_complete
+from .text_utils import is_entry_complete
 
 
 class EntrySync:

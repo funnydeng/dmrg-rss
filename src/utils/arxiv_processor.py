@@ -9,8 +9,8 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from bs4 import BeautifulSoup
 
-from text_utils import clean_text, generate_entry_id
-from config import ARXIV_API_TIMEOUT, ARXIV_RETRY_COUNT, ARXIV_DELAY_SECONDS
+from .text_utils import clean_text, generate_entry_id
+from ..config import ARXIV_API_TIMEOUT, ARXIV_RETRY_COUNT, ARXIV_DELAY_SECONDS
 
 
 class ArXivProcessor:
