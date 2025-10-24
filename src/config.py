@@ -5,16 +5,16 @@ Contains all configuration constants and settings.
 
 File naming strategy:
   ALL internal files (JSON/XML/HTML) use year suffix for versioning.
-  Publishing layer (symlinks) provides clean URLs without suffix.
+  Publishing layer uses canonical copies for clean URLs (no symlinks).
 
 Dynamic path generation from TARGET_URL:
 - TARGET_URL = "http://quattro.phys.sci.kobe-u.ac.jp/dmrg/condmat.html"
   → All files use current year: entries25.json, condmat25.xml, condmat25.html
-  → Symlinks: condmat.xml → condmat25.xml (for publishing)
+  → Canonical published copies: docs/condmat.xml -> docs/condmat25.xml
 
 - TARGET_URL = "http://quattro.phys.sci.kobe-u.ac.jp/dmrg/condmat24.html"
   → Files use 24: entries24.json, condmat24.xml, condmat24.html
-  → Symlinks: condmat.xml → condmat24.xml (for publishing)
+  → Canonical published copies: docs/condmat.xml -> docs/condmat24.xml
 """
 import os
 import re
@@ -64,9 +64,9 @@ OUTPUT_RSS_PATH = f"docs/{_base_name}{_year}.xml"
 OUTPUT_HTML_PATH = f"docs/{_base_name}{_year}.html"
 CACHE_PATH = f"docs/entries{_year}.json"
 
-# Auto-create publishing symlinks only when TARGET_URL has NO year suffix
-# (i.e., when using current year data)
-AUTO_CREATE_SYMLINKS = _url_year is None
+# Publishing behavior: generator will create canonical copies of the latest
+# versioned files for publishing (e.g., docs/condmat.xml -> docs/condmat25.xml).
+# Symlink-related settings have been removed; copies are always used.
 
 # Clean up temporary variables
 del _base_name, _url_year, _year

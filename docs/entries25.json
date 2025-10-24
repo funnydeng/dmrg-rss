@@ -1,6 +1,46 @@
 {
-  "last_updated": "2025-10-24T21:14:14.790460+00:00",
+  "last_updated": "2025-10-24T23:22:23.669869+00:00",
   "entries": {
+    "767038605fcd9aec8a43eafae8aeda18": {
+      "id": "767038605fcd9aec8a43eafae8aeda18",
+      "link": "http://arxiv.org/abs/2510.20633",
+      "title": "Systematic study of multi-magnon binding energies in the FM-AFM $J_1$-$J_2$ chain",
+      "abstract": "We present a systematic study of multi-magnon bound states (MBSs) in the spin-$\\tfrac{1}{2}$ FM-AFM $J_1$-$J_2$ chain under magnetic fields using the density-matrix renormalization group method. As a quantitative measure of stability, we compute the magnon binding energy $E_{\\rm b}(M,p)$ for bound clusters of size $p$ over wide ranges of the frustration ratio $J_2/|J_1|$ and the normalized magnetization $M/M_{\\rm s}$. Near saturation, we benchmark our data against the analytic two-magnon result and map out a clear hierarchy of $p$-magnon states, whose phase boundaries follow an empirical scaling $J_{2,{\\rm c}}(p;p\\!+\\!1)/|J_1|\\!\\approx\\!0.34\\,p^{-2.3}$ for large $p$. We further quantify the relation between the most stable $p$ and the zero-field pitch angle $\\theta$, verifying the conjectured inequality $1/p>\\theta/\\pi>1/(p+1)$ up to $p \\lesssim 9$. The binding energy shows pronounced suppression as $J_2/|J_1|\\!\\to\\!1/4^+$ and, for some frustration values, attains a maximum below full saturation, indicating that partial depolarization enhances bound-magnon mobility. Close to the FM instability, $E_{\\rm b}(M_{\\rm s},p)$ exhibits an empirical power-law vanishing consistent with a quantum-Lifshitz scenario. Our results provide a comprehensive, experimentally relevant map of MBS stability across field and frustration, offering concrete guidance for inelastic probes in quasi-one-dimensional magnets.",
+      "pubdate": "Thu, 23 Oct 2025 15:04:56 +0000",
+      "authors": "Satoshi Nishimoto"
+    },
+    "779e3e9fb82c4212e1bcfc3a5c8e9923": {
+      "id": "779e3e9fb82c4212e1bcfc3a5c8e9923",
+      "link": "http://arxiv.org/abs/2510.20613",
+      "title": "Temperley-Lieb categories with coloured regions and Jones-Wenzl projectors",
+      "abstract": "Generalised Temperley-Lieb categories with regions labelled by elements of a commutative algebra were introduced by M. Khovanov and the second author in [Pure Appl. Math. Q. 19 (2023), no. 5]. We consider the case where the regions are labelled by colours, corresponding to a complete set of orthogonal idempotents of a semisimple commutative algebra. We determine when these generalised Temperley-Lieb categories are semisimple and find the direct sum decompositions of tensor products of simple objects. As the main tool we introduce two-variable versions of Chebychev polynomials and construct analogues of Jones-Wenzl projectors. As a consequence, we prove a conjecture of M. Khovanov and the second author on Gram determinants and non-degeneracy of trace pairings for the associated Temperley-Lieb algebras with coloured regions.",
+      "pubdate": "Thu, 23 Oct 2025 14:44:52 +0000",
+      "authors": "Cameron Howat, Robert Laugwitz, Martin Ray"
+    },
+    "39f9819cbdaa571809229a3f703f63b7": {
+      "id": "39f9819cbdaa571809229a3f703f63b7",
+      "link": "http://arxiv.org/abs/2510.20063",
+      "title": "Computing excited states with isometric tensor networks in two-dimensions",
+      "abstract": "We present a new subspace iteration method for computing low-lying eigenpairs (excited states) of high-dimensional quantum many-body Hamiltonians with nearest neighbor interactions on two-dimensional lattices. The method is based on a new block isometric projected entangled pair state (block-isoPEPS) ansatz that generalizes the block matrix product state (MPS) framework, widely used for Hamiltonians defined on one-dimensional chains, to two-dimensions. The proposed block-isoPEPS ansatz offers several attractive features for PEPS-based algorithms, including exact block orthogonalization, controlled local truncation via singular value decompositions, and efficient evaluation of observables. We demonstrate the proposed inexact subspace iteration for block-isoPEPS by computing excitations of the two-dimensional transverse-field Ising and Heisenberg models and compare our results with existing PEPS methods. Our results demonstrate that block isometric tensor networks provide a scalable framework for studying excitations in quantum many-body systems beyond one dimension.",
+      "pubdate": "Wed, 22 Oct 2025 22:27:00 +0000",
+      "authors": "Alec Dektor, Runze Chi, Roel Van Beeumen, Chao Yang"
+    },
+    "bad15f0ea4cfa7755807f5fc6ed8adbb": {
+      "id": "bad15f0ea4cfa7755807f5fc6ed8adbb",
+      "link": "http://arxiv.org/abs/2510.19907",
+      "title": "Quantum Hall to Chiral Spin Liquid transition in a Triangular Lattice Hofstadter-Hubbard Model",
+      "abstract": "We investigate the weak interaction integer quantum Hall (IQH) phase, the intermediate interaction phase identified as a chiral spin liquid (CSL) and the transition between them in the triangular lattice Hofstadter-Hubbard model at a density of one electron per site in an orbital magnetic field corresponding to one-quarter flux per plaquette. Our primary tool is the finite system density matrix renormalization group (DMRG) method with both interaction-strength scan and fixed interaction techniques for cylinders of circumference 3, 5, and 7 and lengths up to 240. For the IQH phase, we use single particle exact diagonalization to clarify finite size effects, including an excess charge on the edges of our cylinders, and the limitations of entanglement spectra degeneracies on small circumference cylinders. For both phases, we use DMRG to study the entanglement spectra, the entanglement entropy, and the effect of flux insertion on charge and spin pumping, all of which show key differences between the two phases. To study the transition, we use interaction-strength scans extending between the two phases, and apply a scaling data collapse of a bond-dimerization order parameter to extract critical exponents. We also extract critical behavior from the divergence of correlation lengths on the IQH side, measuring decay away from edges of both the dimerization order parameter and transverse edge currents. The critical behavior and exponents are consistent with an Ising transition in 1+1 dimensions. Finally, we obtain excited states in various quantum number sectors finding that the gap to a charge neutral momentum $\\pi$ excitation corresponding to fluctuations of the dimerization order parameter closes in the vicinity of the critical point but gaps to other excitations remain large.",
+      "pubdate": "Wed, 22 Oct 2025 18:00:01 +0000",
+      "authors": "Cesar A. Gallegos, Rafael M. Magaldi, Andrew Millis, Steven R. White"
+    },
+    "78a491f6b17a7288180f1d3884bcf70d": {
+      "id": "78a491f6b17a7288180f1d3884bcf70d",
+      "link": "http://arxiv.org/abs/2510.19835",
+      "title": "A Quantum-Inspired Algorithm for Solving Sudoku Puzzles and the MaxCut Problem",
+      "abstract": "We propose and evaluate a quantum-inspired algorithm for solving Quadratic Unconstrained Binary Optimization (QUBO) problems, which are mathematically equivalent to finding ground states of Ising spin-glass Hamiltonians. The algorithm employs Matrix Product States (MPS) to compactly represent large superpositions of spin configurations and utilizes a discrete driving schedule to guide the MPS toward the ground state. At each step, a driver Hamiltonian -- incorporating a transverse magnetic field -- is combined with the problem Hamiltonian to enable spin flips and facilitate quantum tunneling. The MPS is updated using the standard Density Matrix Renormalization Group (DMRG) method, which iteratively minimizes the system's energy via multiple sweeps across the spin chain. Despite its heuristic nature, the algorithm reliably identifies global minima, not merely near-optimal solutions, across diverse QUBO instances. We first demonstrate its effectiveness on intermediate-level Sudoku puzzles from publicly available sources, involving over $200$ Ising spins with long-range couplings dictated by constraint satisfaction. We then apply the algorithm to MaxCut problems from the Biq Mac library, successfully solving instances with up to $251$ nodes and $3,265$ edges. We discuss the advantages of this quantum-inspired approach, including its scalability, generalizability, and suitability for industrial-scale QUBO applications.",
+      "pubdate": "Fri, 10 Oct 2025 14:24:14 +0000",
+      "authors": "Max B. Zhao, Fei Li"
+    },
     "a2bf8c75ccf95a7a4428ac8f053bd304": {
       "id": "a2bf8c75ccf95a7a4428ac8f053bd304",
       "link": "http://arxiv.org/abs/2510.19189",
@@ -7872,46 +7912,6 @@
       "link": "http://arxiv.org/abs/2412.21055",
       "abstract": "We consider the surface code under errors featuring both coherent and incoherent components and study the coherence of the corresponding logical noise channel and how this impacts information-theoretic measures of code performance, namely coherent information and quantum relative entropy. Using numerical simulations and a phenomenological field theory, focusing on the most general single-qubit X-error channel, we show that, for any nonzero incoherent noise component, the coherence of the logical noise is exponentially suppressed with the code distance. We also find that the information-theoretic measures require this suppression to detect optimal thresholds for Pauli recovery; they thus require increasingly large distances for increasing error coherence and ultimately break down for fully coherent errors. To obtain our results, we develop a statistical mechanics mapping and a corresponding matrix-product-state algorithm for approximate syndrome sampling. These methods enable the large-scale simulation of these non-Pauli errors, including their maximum-likelihood thresholds, away from the limits captured by previous approaches.",
       "pubdate": "Mon, 30 Dec 2024 16:14:55 +0000"
-    },
-    "767038605fcd9aec8a43eafae8aeda18": {
-      "id": "767038605fcd9aec8a43eafae8aeda18",
-      "link": "http://arxiv.org/abs/2510.20633",
-      "title": "Systematic study of multi-magnon binding energies in the FM-AFM $J_1$-$J_2$ chain",
-      "abstract": "We present a systematic study of multi-magnon bound states (MBSs) in the spin-$\\tfrac{1}{2}$ FM-AFM $J_1$-$J_2$ chain under magnetic fields using the density-matrix renormalization group method. As a quantitative measure of stability, we compute the magnon binding energy $E_{\\rm b}(M,p)$ for bound clusters of size $p$ over wide ranges of the frustration ratio $J_2/|J_1|$ and the normalized magnetization $M/M_{\\rm s}$. Near saturation, we benchmark our data against the analytic two-magnon result and map out a clear hierarchy of $p$-magnon states, whose phase boundaries follow an empirical scaling $J_{2,{\\rm c}}(p;p\\!+\\!1)/|J_1|\\!\\approx\\!0.34\\,p^{-2.3}$ for large $p$. We further quantify the relation between the most stable $p$ and the zero-field pitch angle $\\theta$, verifying the conjectured inequality $1/p>\\theta/\\pi>1/(p+1)$ up to $p \\lesssim 9$. The binding energy shows pronounced suppression as $J_2/|J_1|\\!\\to\\!1/4^+$ and, for some frustration values, attains a maximum below full saturation, indicating that partial depolarization enhances bound-magnon mobility. Close to the FM instability, $E_{\\rm b}(M_{\\rm s},p)$ exhibits an empirical power-law vanishing consistent with a quantum-Lifshitz scenario. Our results provide a comprehensive, experimentally relevant map of MBS stability across field and frustration, offering concrete guidance for inelastic probes in quasi-one-dimensional magnets.",
-      "pubdate": "Thu, 23 Oct 2025 15:04:56 +0000",
-      "authors": "Satoshi Nishimoto"
-    },
-    "779e3e9fb82c4212e1bcfc3a5c8e9923": {
-      "id": "779e3e9fb82c4212e1bcfc3a5c8e9923",
-      "link": "http://arxiv.org/abs/2510.20613",
-      "title": "Temperley-Lieb categories with coloured regions and Jones-Wenzl projectors",
-      "abstract": "Generalised Temperley-Lieb categories with regions labelled by elements of a commutative algebra were introduced by M. Khovanov and the second author in [Pure Appl. Math. Q. 19 (2023), no. 5]. We consider the case where the regions are labelled by colours, corresponding to a complete set of orthogonal idempotents of a semisimple commutative algebra. We determine when these generalised Temperley-Lieb categories are semisimple and find the direct sum decompositions of tensor products of simple objects. As the main tool we introduce two-variable versions of Chebychev polynomials and construct analogues of Jones-Wenzl projectors. As a consequence, we prove a conjecture of M. Khovanov and the second author on Gram determinants and non-degeneracy of trace pairings for the associated Temperley-Lieb algebras with coloured regions.",
-      "pubdate": "Thu, 23 Oct 2025 14:44:52 +0000",
-      "authors": "Cameron Howat, Robert Laugwitz, Martin Ray"
-    },
-    "39f9819cbdaa571809229a3f703f63b7": {
-      "id": "39f9819cbdaa571809229a3f703f63b7",
-      "link": "http://arxiv.org/abs/2510.20063",
-      "title": "Computing excited states with isometric tensor networks in two-dimensions",
-      "abstract": "We present a new subspace iteration method for computing low-lying eigenpairs (excited states) of high-dimensional quantum many-body Hamiltonians with nearest neighbor interactions on two-dimensional lattices. The method is based on a new block isometric projected entangled pair state (block-isoPEPS) ansatz that generalizes the block matrix product state (MPS) framework, widely used for Hamiltonians defined on one-dimensional chains, to two-dimensions. The proposed block-isoPEPS ansatz offers several attractive features for PEPS-based algorithms, including exact block orthogonalization, controlled local truncation via singular value decompositions, and efficient evaluation of observables. We demonstrate the proposed inexact subspace iteration for block-isoPEPS by computing excitations of the two-dimensional transverse-field Ising and Heisenberg models and compare our results with existing PEPS methods. Our results demonstrate that block isometric tensor networks provide a scalable framework for studying excitations in quantum many-body systems beyond one dimension.",
-      "pubdate": "Wed, 22 Oct 2025 22:27:00 +0000",
-      "authors": "Alec Dektor, Runze Chi, Roel Van Beeumen, Chao Yang"
-    },
-    "bad15f0ea4cfa7755807f5fc6ed8adbb": {
-      "id": "bad15f0ea4cfa7755807f5fc6ed8adbb",
-      "link": "http://arxiv.org/abs/2510.19907",
-      "title": "Quantum Hall to Chiral Spin Liquid transition in a Triangular Lattice Hofstadter-Hubbard Model",
-      "abstract": "We investigate the weak interaction integer quantum Hall (IQH) phase, the intermediate interaction phase identified as a chiral spin liquid (CSL) and the transition between them in the triangular lattice Hofstadter-Hubbard model at a density of one electron per site in an orbital magnetic field corresponding to one-quarter flux per plaquette. Our primary tool is the finite system density matrix renormalization group (DMRG) method with both interaction-strength scan and fixed interaction techniques for cylinders of circumference 3, 5, and 7 and lengths up to 240. For the IQH phase, we use single particle exact diagonalization to clarify finite size effects, including an excess charge on the edges of our cylinders, and the limitations of entanglement spectra degeneracies on small circumference cylinders. For both phases, we use DMRG to study the entanglement spectra, the entanglement entropy, and the effect of flux insertion on charge and spin pumping, all of which show key differences between the two phases. To study the transition, we use interaction-strength scans extending between the two phases, and apply a scaling data collapse of a bond-dimerization order parameter to extract critical exponents. We also extract critical behavior from the divergence of correlation lengths on the IQH side, measuring decay away from edges of both the dimerization order parameter and transverse edge currents. The critical behavior and exponents are consistent with an Ising transition in 1+1 dimensions. Finally, we obtain excited states in various quantum number sectors finding that the gap to a charge neutral momentum $\\pi$ excitation corresponding to fluctuations of the dimerization order parameter closes in the vicinity of the critical point but gaps to other excitations remain large.",
-      "pubdate": "Wed, 22 Oct 2025 18:00:01 +0000",
-      "authors": "Cesar A. Gallegos, Rafael M. Magaldi, Andrew Millis, Steven R. White"
-    },
-    "78a491f6b17a7288180f1d3884bcf70d": {
-      "id": "78a491f6b17a7288180f1d3884bcf70d",
-      "link": "http://arxiv.org/abs/2510.19835",
-      "title": "A Quantum-Inspired Algorithm for Solving Sudoku Puzzles and the MaxCut Problem",
-      "abstract": "We propose and evaluate a quantum-inspired algorithm for solving Quadratic Unconstrained Binary Optimization (QUBO) problems, which are mathematically equivalent to finding ground states of Ising spin-glass Hamiltonians. The algorithm employs Matrix Product States (MPS) to compactly represent large superpositions of spin configurations and utilizes a discrete driving schedule to guide the MPS toward the ground state. At each step, a driver Hamiltonian -- incorporating a transverse magnetic field -- is combined with the problem Hamiltonian to enable spin flips and facilitate quantum tunneling. The MPS is updated using the standard Density Matrix Renormalization Group (DMRG) method, which iteratively minimizes the system's energy via multiple sweeps across the spin chain. Despite its heuristic nature, the algorithm reliably identifies global minima, not merely near-optimal solutions, across diverse QUBO instances. We first demonstrate its effectiveness on intermediate-level Sudoku puzzles from publicly available sources, involving over $200$ Ising spins with long-range couplings dictated by constraint satisfaction. We then apply the algorithm to MaxCut problems from the Biq Mac library, successfully solving instances with up to $251$ nodes and $3,265$ edges. We discuss the advantages of this quantum-inspired approach, including its scalability, generalizability, and suitability for industrial-scale QUBO applications.",
-      "pubdate": "Fri, 10 Oct 2025 14:24:14 +0000",
-      "authors": "Max B. Zhao, Fei Li"
     }
   }
 }

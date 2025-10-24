@@ -115,21 +115,35 @@ jobs:
         run: |
           # If the generator produced versioned files (e.g. condmat24.xml), copy the
           # newest one to docs/condmat.xml/docs/condmat.html so we avoid symlink
-          # dereference issues in downstream steps and ensure the files are real files
+          # dereference issues in downstream steps and ensure the files are real files.
+          # If the destination already resolves to the same file (e.g., a symlink
+          # pointing to the same versioned file), skip copying to avoid "same file" errors.
           set -e
           latest_xml=$(ls -1 docs/condmat[0-9][0-9].xml 2>/dev/null | sort | tail -n1 || true)
           latest_html=$(ls -1 docs/condmat[0-9][0-9].html 2>/dev/null | sort | tail -n1 || true)
 
           if [ -n "$latest_xml" ]; then
-            cp -f "$latest_xml" docs/condmat.xml
-            echo "Copied $latest_xml -> docs/condmat.xml"
+            src_real=$(readlink -f "$latest_xml" 2>/dev/null || true)
+            dest_real=$(readlink -f docs/condmat.xml 2>/dev/null || true)
+            if [ "$src_real" = "$dest_real" ] && [ -n "$src_real" ]; then
+              echo "docs/condmat.xml already matches $latest_xml (same file); skipping copy"
+            else
+              cp -f "$latest_xml" docs/condmat.xml
+              echo "Copied $latest_xml -> docs/condmat.xml"
+            fi
           else
             echo "No versioned RSS XML found to publish"
           fi
 
           if [ -n "$latest_html" ]; then
-            cp -f "$latest_html" docs/condmat.html
-            echo "Copied $latest_html -> docs/condmat.html"
+            src_real=$(readlink -f "$latest_html" 2>/dev/null || true)
+            dest_real=$(readlink -f docs/condmat.html 2>/dev/null || true)
+            if [ "$src_real" = "$dest_real" ] && [ -n "$src_real" ]; then
+              echo "docs/condmat.html already matches $latest_html (same file); skipping copy"
+            else
+              cp -f "$latest_html" docs/condmat.html
+              echo "Copied $latest_html -> docs/condmat.html"
+            fi
           else
             echo "No versioned HTML found to publish"
           fi

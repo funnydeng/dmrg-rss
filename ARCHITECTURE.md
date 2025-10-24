@@ -7,7 +7,7 @@ A modular system for generating RSS feeds and HTML pages from DMRG condensed mat
 **Key Features:**
 - Dynamic configuration from URL (one source of truth)
 - Year-versioned file management
-- Automatic symlink creation for clean publishing URLs
+- Automatic canonical copy creation for clean publishing URLs
 - Efficient caching with incremental updates
 - arXiv API integration with smart batching
 
@@ -53,7 +53,7 @@ src/
 - `OUTPUT_RSS_PATH` - Auto-generated versioned RSS file path
 - `OUTPUT_HTML_PATH` - Auto-generated versioned HTML file path
 - `CACHE_PATH` - Auto-generated versioned cache file path
-- `AUTO_CREATE_SYMLINKS` - Whether to create clean-URL symlinks
+- `PUBLISH_CANONICAL_COPIES` - Whether to create canonical publishing copies (default: True)
 - `MAX_ENTRIES` - Entry limit for testing (None = all entries)
 
 **Design Philosophy:** All paths derive from `TARGET_URL`. Change one URL and everything updates automatically.
@@ -86,11 +86,10 @@ src/
 - Instantiates: `DMRGPageParser`, `ArXivProcessor`, `CacheManager`, `EntrySync`
 - Instantiates: `RSSGenerator`, `HTMLGenerator`
 
-#### `create_publishing_symlinks()`
-- Triggered only if `AUTO_CREATE_SYMLINKS = True` AND URL has no year suffix
-- Reads current system date to determine year
-- Creates symlinks: `docs/condmat.xml → docs/condmat25.xml`
-- Allows clean URLs for web publishing
+#### `create_publishing_copies()`
+- Creates canonical publishing copies of the latest versioned files
+- Copies e.g. `docs/condmat25.xml` -> `docs/condmat.xml` and similarly for HTML
+- Symlink behavior was removed earlier to avoid CI/publishing inconsistencies
 
 #### `run_full_sync()` - Main Pipeline
 **Steps:**
@@ -101,11 +100,11 @@ src/
 5. **Save Cache** - Update entries{YY}.json file
 6. **Generate RSS** - Create condmat{YY}.xml
 7. **Generate HTML** - Create condmat{YY}.html
-8. **Create Symlinks** - If enabled, create clean URLs (optional)
+8. **Create canonical copies** - Create clean URLs by copying latest versioned files
 
 #### `log_sync_statistics(all_entries, updated_cache, execution_time)`
 - Logs summary: total entries, new entries, cache size, execution time
-- Displays file paths and symlink status
+- Displays file paths and publishing copy status
 
 #### `get_status()`
 - Returns status dict with cache stats and file info
@@ -287,7 +286,7 @@ all_entries (complete metadata)
 [RSSGenerator] → Generate condmat{YY}.xml
 [HTMLGenerator] → Generate condmat{YY}.html
     ↓
-[create_publishing_symlinks] → condmat.xml, condmat.html (if enabled)
+[create_publishing_copies] → condmat.xml, condmat.html
     ↓
 Done! Ready for web serving
 ```
@@ -305,9 +304,9 @@ _extract_year_from_url() → "24"
 OUTPUT_RSS_PATH = "docs/condmat24.xml"
 OUTPUT_HTML_PATH = "docs/condmat24.html"
 CACHE_PATH = "docs/entries24.json"
-AUTO_CREATE_SYMLINKS = False (has year suffix)
+PUBLISH_CANONICAL_COPIES = True (canonical copies will be created)
     ↓
-Generate versioned files without creating symlinks
+Generate versioned files and create canonical publishing copies (e.g., docs/condmat.xml -> docs/condmat24.xml)
 ```
 
 ```
@@ -320,22 +319,17 @@ current_year = "25"
 OUTPUT_RSS_PATH = "docs/condmat25.xml"
 OUTPUT_HTML_PATH = "docs/condmat25.html"
 CACHE_PATH = "docs/entries25.json"
-AUTO_CREATE_SYMLINKS = True (no year suffix)
-    ↓
-Generate versioned files AND create symlinks:
-  condmat.xml → condmat25.xml
-  condmat.html → condmat25.html
+PUBLISH_CANONICAL_COPIES = True (canonical copies will be created)
+        ↓
+Generate versioned files and create canonical publishing copies:
+    docs/condmat.xml <- docs/condmat25.xml
+    docs/condmat.html <- docs/condmat25.html
 ```
 
 ---
 
 ## Error Handling
 
-- **Network errors:** Retry with exponential backoff
-- **arXiv API failures:** Skip entry, log error, continue
-- **Cache read/write errors:** Log and continue (non-fatal)
-- **LaTeX rendering errors:** Fall back to plain text
-- **Missing files for symlink:** Log error, don't create symlink
 
 ---
 
@@ -371,7 +365,7 @@ TARGET_URL = "http://quattro.phys.sci.kobe-u.ac.jp/dmrg/condmat24.html"
 - [ ] Set `MAX_ENTRIES = None` (process all entries)
 - [ ] Set `TARGET_URL` to desired source
 - [ ] Verify `OUTPUT_RSS_PATH`, `OUTPUT_HTML_PATH` are correct
-- [ ] Test symlink creation if `AUTO_CREATE_SYMLINKS = True`
+- [ ] Test publishing copy creation (ensure canonical copies are produced)
 - [ ] Set up cron job for regular execution
 - [ ] Configure web server to serve `docs/` directory
 - [ ] Monitor `logs/sync.log` for errors

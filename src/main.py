@@ -19,8 +19,7 @@ import requests
 
 # Import our modular components
 from .config import (
-    TARGET_URL, OUTPUT_RSS_PATH, OUTPUT_HTML_PATH, CACHE_PATH, USER_AGENT, MAX_ENTRIES,
-    AUTO_CREATE_SYMLINKS
+    TARGET_URL, OUTPUT_RSS_PATH, OUTPUT_HTML_PATH, CACHE_PATH, USER_AGENT, MAX_ENTRIES
 )
 from .utils.arxiv_processor import ArXivProcessor, DMRGPageParser
 from .utils.cache_manager import CacheManager
@@ -74,14 +73,13 @@ class DMRGRSSApplication:
         
         logging.info("All application components initialized successfully")
     
-    def create_publishing_symlinks(self):
+    def create_publishing_copies(self):
         """
-        Create symlinks for publishing layer (URLs without year suffix).
-        Only called when TARGET_URL has no year suffix (using current year).
-        
-        Maps versioned files to clean URLs:
-        - docs/condmat.xml → docs/condmat25.xml (symlink)
-        - docs/condmat.html → docs/condmat25.html (symlink)
+        Publish canonical copies for the publishing layer (clean URLs).
+
+        This function copies the versioned output files (e.g. docs/condmat25.xml)
+        to the canonical publishing paths (e.g. docs/condmat.xml). Symlink
+        creation was removed earlier; this routine always uses file copies.
         """
         try:
             import re
@@ -89,7 +87,7 @@ class DMRGRSSApplication:
             # Extract base name and versioned file names
             match = re.search(r'/([^/]+)\.html$', TARGET_URL)
             if not match:
-                logging.warning("Could not extract base name from TARGET_URL for symlink creation")
+                logging.warning("Could not extract base name from TARGET_URL for publishing canonical copies")
                 return
             
             base_name = match.group(1).rstrip('0123456789')
@@ -100,27 +98,32 @@ class DMRGRSSApplication:
             publish_xml = f"docs/{base_name}.xml"
             publish_html = f"docs/{base_name}.html"
             
-            # Remove old symlinks if they exist
-            for link_path in [publish_xml, publish_html]:
-                if os.path.lexists(link_path):
-                    old_target = os.readlink(link_path) if os.path.islink(link_path) else "file"
-                    os.remove(link_path)
-                    logging.info(f"Removed existing {link_path} (was → {old_target})")
-            
-            # Create new symlinks (relative paths for portability)
-            symlinks = [
-                (os.path.basename(versioned_xml), publish_xml, "RSS"),
-                (os.path.basename(versioned_html), publish_html, "HTML")
-            ]
-            
-            for target_basename, link_path, name in symlinks:
-                os.symlink(target_basename, link_path)
-                logging.info(f"Created {name} symlink: {link_path} → {target_basename}")
-            
-            logging.info("✓ Publishing symlinks created successfully")
-            
+            import shutil
+
+            # Always copy versioned files to canonical publishing paths
+            for src, dest, name in [
+                (versioned_xml, publish_xml, 'RSS'),
+                (versioned_html, publish_html, 'HTML')
+            ]:
+                try:
+                    # If dest exists (symlink or file), remove it first
+                    if os.path.lexists(dest):
+                        old_target = os.readlink(dest) if os.path.islink(dest) else 'file'
+                        os.remove(dest)
+                        logging.info(f"Removed existing {dest} (was → {old_target})")
+
+                    # Ensure destination directory exists
+                    os.makedirs(os.path.dirname(dest), exist_ok=True)
+                    shutil.copy2(src, dest)
+                    logging.info(f"Copied {src} -> {dest} for publishing ({name})")
+
+                except Exception as e:
+                    logging.error(f"Failed to publish {name} file ({src} -> {dest}): {e}")
+
+            logging.info("✓ Publishing canonical copies created successfully")
+
         except Exception as e:
-            logging.error(f"Failed to create publishing symlinks: {e}")
+            logging.error(f"Failed to create publishing canonical copies: {e}")
             # Non-fatal error - continue with file output
     
     def run_full_sync(self):
@@ -162,9 +165,8 @@ class DMRGRSSApplication:
             if not self.html_generator.generate_html(all_entries):
                 raise RuntimeError("Failed to generate HTML page")
 
-            # Step 7: Create publishing symlinks (if TARGET_URL has no year suffix)
-            if AUTO_CREATE_SYMLINKS:
-                self.create_publishing_symlinks()
+            # Step 7: Publish canonical copies for clean URLs
+            self.create_publishing_copies()
 
             # Success summary
             execution_time = time.time() - start_time
@@ -200,7 +202,7 @@ class DMRGRSSApplication:
         logging.info(f"  RSS: {OUTPUT_RSS_PATH}")
         logging.info(f"  HTML: {OUTPUT_HTML_PATH}")
         logging.info(f"  Cache: {CACHE_PATH}")
-        logging.info("Note: Publishing symlinks managed by separate update_publish.py script")
+    logging.info("Note: Publishing canonical copies are created for clean URLs")
     
     def get_status(self):
         """
