@@ -249,10 +249,11 @@ jobs:
             echo "Cache changes:"
             git diff --cached --stat docs/entries[0-9][0-9].json || echo "No cache changes"
           fi
-            git diff --cached --stat docs/entries[0-9][0-9].json || echo "No cache changes"
-            echo "Index changes:"
-            git diff --cached --stat docs/index.html || echo "No index changes"
-          fi
+          
+          # Additional index/file change stats (not required for logic)
+          echo "Index changes:"
+          git diff --cached --stat docs/index.html || echo "No index changes"
+          
 
       - name: Commit and push RSS XML and HTML
         if: steps.check_changes.outputs.HAS_CHANGES == 'true'
