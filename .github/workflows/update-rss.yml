@@ -41,6 +41,16 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Setup Node.js (for KaTeX)
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install KaTeX CLI
+        run: |
+          # Install KaTeX CLI globally so the generator can render LaTeX formulas
+          npm install -g katex || true
+
       - name: Create docs directory
         run: mkdir -p docs
 
@@ -50,7 +60,8 @@ jobs:
           if [ -f "docs/condmat.xml" ]; then
             echo "✅ Existing RSS file found"
             file_size=$(du -h docs/condmat.xml | cut -f1)
-            byte_size=$(stat -f%z docs/condmat.xml 2>/dev/null || stat -c%s docs/condmat.xml)
+            # Use -L to follow symlinks and get target file size when possible
+            byte_size=$(stat -L -c%s docs/condmat.xml 2>/dev/null || stat -c%s docs/condmat.xml)
             existing_count=$(grep -c '<item>' docs/condmat.xml || echo '0')
             
             echo "Current file size: $file_size ($byte_size bytes)"
@@ -100,6 +111,29 @@ jobs:
             exit 1
           fi
 
+      - name: Ensure canonical publish files (copy latest versioned outputs)
+        run: |
+          # If the generator produced versioned files (e.g. condmat24.xml), copy the
+          # newest one to docs/condmat.xml/docs/condmat.html so we avoid symlink
+          # dereference issues in downstream steps and ensure the files are real files
+          set -e
+          latest_xml=$(ls -1 docs/condmat[0-9][0-9].xml 2>/dev/null | sort | tail -n1 || true)
+          latest_html=$(ls -1 docs/condmat[0-9][0-9].html 2>/dev/null | sort | tail -n1 || true)
+
+          if [ -n "$latest_xml" ]; then
+            cp -f "$latest_xml" docs/condmat.xml
+            echo "Copied $latest_xml -> docs/condmat.xml"
+          else
+            echo "No versioned RSS XML found to publish"
+          fi
+
+          if [ -n "$latest_html" ]; then
+            cp -f "$latest_html" docs/condmat.html
+            echo "Copied $latest_html -> docs/condmat.html"
+          else
+            echo "No versioned HTML found to publish"
+          fi
+
       - name: Validate RSS output
         id: validate
         run: |
@@ -109,7 +143,8 @@ jobs:
             # Check file size and entry count
             new_size=$(du -h docs/condmat.xml | cut -f1)
             new_count=$(grep -c '<item>' docs/condmat.xml || echo '0')
-            byte_size=$(stat -f%z docs/condmat.xml 2>/dev/null || stat -c%s docs/condmat.xml)
+            # Follow symlink to get actual file size
+            byte_size=$(stat -L -c%s docs/condmat.xml 2>/dev/null || stat -c%s docs/condmat.xml)
             
             echo "Updated file size: $new_size ($byte_size bytes)"
             echo "Updated number of entries: $new_count"

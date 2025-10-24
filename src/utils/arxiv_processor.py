@@ -161,7 +161,8 @@ class DMRGPageParser:
             entry_id = generate_entry_id(href)
             entries.append({"id": entry_id, "link": href})
             
-            if (i + 1) % 10 == 0:  # Log progress every 10 entries
+            # Log progress less frequently to reduce noise in logs (every 200 entries)
+            if (i + 1) % 200 == 0:
                 logging.info(f"Processed {i + 1} bold tags, found {len(entries)} arXiv links so far")
         
         logging.info(f"Total arXiv entries found: {len(entries)}")

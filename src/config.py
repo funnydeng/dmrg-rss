@@ -21,7 +21,7 @@ import re
 from datetime import datetime
 
 # URL and file paths
-TARGET_URL = "http://quattro.phys.sci.kobe-u.ac.jp/dmrg/condmat24.html"
+TARGET_URL = "http://quattro.phys.sci.kobe-u.ac.jp/dmrg/condmat.html"
 
 # Get current year (last 2 digits)
 current_year_2digit = str(datetime.now().year)[-2:]
