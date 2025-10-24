@@ -7,7 +7,7 @@ RSS feed and HTML pages for DMRG cond-mat articles.
 ## 🌐 Access the Papers
 
 - **📖 Web Interface**: [https://funnydeng.github.io/dmrg-rss/](https://funnydeng.github.io/dmrg-rss/)
-- **📡 RSS Feed**: [https://funnydeng.github.io/dmrg-rss/rss.xml](https://funnydeng.github.io/dmrg-rss/rss.xml)
+- **📡 RSS Feed**: [https://funnydeng.github.io/dmrg-rss/condmat.xml](https://funnydeng.github.io/dmrg-rss/condmat.xml)
 
 ## 📋 Features
 
@@ -20,7 +20,9 @@ RSS feed and HTML pages for DMRG cond-mat articles.
 ## 🔧 Technical Details
 
 The script `generate_rss.py` fetches papers from the DMRG cond-mat page, enriches them with metadata from arXiv API, and generates both:
-- `docs/rss.xml` - RSS 2.0 feed with DC creator metadata
-- `docs/rss.html` - Responsive HTML webpage with paper listings
+- `docs/condmat.xml` - RSS 2.0 feed with paper metadata (symlink to versioned file)
+- `docs/condmat.html` - Responsive HTML webpage with paper listings (symlink to versioned file)
+- `docs/condmat{YY}.xml/html` - Year-versioned files for historical data
+- `docs/entries{YY}.json` - Cached metadata for incremental updates
 
 Both files are automatically deployed to GitHub Pages for easy access.
