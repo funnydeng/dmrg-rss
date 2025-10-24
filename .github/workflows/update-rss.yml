@@ -182,7 +182,8 @@ jobs:
       - name: Check for changes
         id: check_changes
         run: |
-          git add docs/rss.xml docs/rss.html docs/entries_cache.json docs/index.html logs/sync.log
+          # Add both latest cache and yearly backup
+          git add docs/rss.xml docs/rss.html docs/entries_latest.json docs/entries_*.json docs/index.html logs/sync.log
           
           if git diff --cached --quiet; then
             echo "📝 No changes detected in RSS/HTML content"
@@ -197,7 +198,7 @@ jobs:
             echo "HTML changes:"
             git diff --cached --stat docs/rss.html || echo "No HTML changes"
             echo "Cache changes:"
-            git diff --cached --stat docs/entries_cache.json || echo "No cache changes"
+            git diff --cached --stat docs/entries_latest.json docs/entries_*.json || echo "No cache changes"
             echo "Index changes:"
             git diff --cached --stat docs/index.html || echo "No index changes"
           fi

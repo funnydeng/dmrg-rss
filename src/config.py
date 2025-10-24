@@ -8,6 +8,7 @@ Contains all configuration constants and settings.
 TARGET_URL = "http://quattro.phys.sci.kobe-u.ac.jp/dmrg/condmat.html"
 OUTPUT_RSS_PATH = "docs/rss.xml"
 OUTPUT_HTML_PATH = "docs/rss.html"
+# Cache path (will be split into entries_latest.json and entries_YYYY.json)
 CACHE_PATH = "docs/entries_cache.json"
 
 # HTTP settings
