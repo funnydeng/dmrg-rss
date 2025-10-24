@@ -133,7 +133,8 @@ docs/
 
 ## 注意事项
 
-- 每年1月1日首次运行时，会创建新的 `entries_YYYY.json`
-- 旧年份的文件（如 `entries_2024.json`）保留不动
-- 如需清除所有缓存，删除 `entries_latest.json` 即可（会从年份备份恢复）
+- 每次运行都会自动保存到当年的备份文件 `entries_YYYY.json`
+- 跨年时（如1月1日首次运行），会自动创建新年份文件（如 `entries_2026.json`）
+- 旧年份的文件（如 `entries_2024.json`、`entries_2025.json`）自动保留不动
+- 如需清除所有缓存，删除 `entries_latest.json` 即可（会从当年备份自动恢复）
 - 配置中的 `CACHE_PATH` 仍然指向 `docs/entries_cache.json`，但实际会自动转换为 `entries_latest.json`
