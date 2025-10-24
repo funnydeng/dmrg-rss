@@ -14,67 +14,124 @@ class CacheManager:
     
     def __init__(self, cache_path):
         """
-        Initialize cache manager.
+        Initialize cache manager with intelligent year detection.
         
         Args:
-            cache_path (str): Path to the main cache JSON file (entries_latest.json)
+            cache_path (str): Path to the main cache JSON file
+                - "docs/entries25.json" → current data (dual files: entries25.json + entries25.json)
+                - "docs/entries24.json" → year-specific data (keep as entries24.json)
         """
-        # Main cache file (always entries_latest.json)
         self.cache_dir = os.path.dirname(cache_path) if os.path.dirname(cache_path) else "."
-        self.cache_path = os.path.join(self.cache_dir, "entries_latest.json")
+        cache_filename = os.path.basename(cache_path)
         
-        # Yearly backup cache file (entries_YYYY.json)
-        current_year = datetime.now().year
-        self.yearly_cache_path = os.path.join(self.cache_dir, f"entries_{current_year}.json")
+        # Detect if this is a year-specific cache (entries{YY}.json)
+        # Pattern: entriesYYYY.json or entriesYY.json where YY/YYYY are digits
+        self.is_year_specific = False
+        self.target_year = None
+        self.current_year_2digit = str(datetime.now().year)[-2:]
+        
+        if cache_filename.startswith("entries") and cache_filename.endswith(".json"):
+            # Extract the middle part (e.g., "24" from "entries24.json")
+            middle_part = cache_filename[7:-5]  # Remove "entries" and ".json"
+            if middle_part.isdigit():
+                # It's a year cache file
+                year_2digit = middle_part[-2:] if len(middle_part) >= 2 else middle_part
+                
+                # Check if this is a different year (year-specific mode)
+                if year_2digit != self.current_year_2digit:
+                    self.is_year_specific = True
+                    self.target_year = year_2digit
+                    self.cache_path = cache_path  # Use the specified year-specific file
+                else:
+                    # Current year, use as latest
+                    self.cache_path = cache_path
+                    self.yearly_cache_path = cache_path  # Same file
+            else:
+                # Invalid format, use current year
+                self.cache_path = os.path.join(self.cache_dir, f"entries{self.current_year_2digit}.json")
+                self.yearly_cache_path = self.cache_path
+        else:
+            # Default to current year cache
+            self.cache_path = os.path.join(self.cache_dir, f"entries{self.current_year_2digit}.json")
+            self.yearly_cache_path = self.cache_path
     
     def load_cache(self):
         """
-        Load entries from latest cache file.
-        Priority: entries_latest.json > entries_YYYY.json
+        Load entries from cache file with intelligent fallback.
+        
+        Year-specific mode (entries24.json when current year is 25):
+        - Try: entries24.json (year-specific)
+        - Fallback: entries25.json (current year)
+        
+        Latest mode (entries25.json and current year is 25):
+        - Try: entries25.json (current)
+        - No fallback needed (same file)
         
         Returns:
             dict: Dictionary of cached entries with metadata
         """
-        # Try loading from entries_latest.json first
-        if os.path.exists(self.cache_path):
-            try:
-                with open(self.cache_path, 'r', encoding='utf-8') as f:
-                    cache_data = json.load(f)
-                
-                entries = cache_data.get('entries', {})
-                last_updated = cache_data.get('last_updated', 'unknown')
-                
-                logging.info(f"Loaded {len(entries)} entries from latest cache (last updated: {last_updated})")
-                return entries
-                
-            except Exception as e:
-                logging.error(f"Error loading latest cache file: {e}")
-        
-        # Fallback: Try loading from yearly cache if latest doesn't exist
-        if os.path.exists(self.yearly_cache_path):
-            try:
-                with open(self.yearly_cache_path, 'r', encoding='utf-8') as f:
-                    cache_data = json.load(f)
-                
-                entries = cache_data.get('entries', {})
-                last_updated = cache_data.get('last_updated', 'unknown')
-                
-                logging.info(f"Loaded {len(entries)} entries from yearly cache: {self.yearly_cache_path} (last updated: {last_updated})")
-                return entries
-                
-            except Exception as e:
-                logging.error(f"Error loading yearly cache file: {e}")
+        if self.is_year_specific:
+            # Year-specific mode: try year file first, then current year as fallback
+            if os.path.exists(self.cache_path):
+                try:
+                    with open(self.cache_path, 'r', encoding='utf-8') as f:
+                        cache_data = json.load(f)
+                    
+                    entries = cache_data.get('entries', {})
+                    last_updated = cache_data.get('last_updated', 'unknown')
+                    
+                    logging.info(f"Loaded {len(entries)} entries from year-specific cache: {self.cache_path} (last updated: {last_updated})")
+                    return entries
+                    
+                except Exception as e:
+                    logging.error(f"Error loading year-specific cache file: {e}")
+            
+            # Fallback: try current year cache
+            current_year_file = os.path.join(self.cache_dir, f"entries{self.current_year_2digit}.json")
+            if os.path.exists(current_year_file):
+                try:
+                    with open(current_year_file, 'r', encoding='utf-8') as f:
+                        cache_data = json.load(f)
+                    
+                    entries = cache_data.get('entries', {})
+                    last_updated = cache_data.get('last_updated', 'unknown')
+                    
+                    logging.info(f"Loaded {len(entries)} entries from current year cache (fallback): {current_year_file} (last updated: {last_updated})")
+                    return entries
+                    
+                except Exception as e:
+                    logging.error(f"Error loading current year cache: {e}")
+        else:
+            # Latest mode: try the specified file
+            if os.path.exists(self.cache_path):
+                try:
+                    with open(self.cache_path, 'r', encoding='utf-8') as f:
+                        cache_data = json.load(f)
+                    
+                    entries = cache_data.get('entries', {})
+                    last_updated = cache_data.get('last_updated', 'unknown')
+                    
+                    logging.info(f"Loaded {len(entries)} entries from cache (last updated: {last_updated})")
+                    return entries
+                    
+                except Exception as e:
+                    logging.error(f"Error loading cache file: {e}")
         
         # No cache files found
-        logging.info(f"No cache files found. Latest path: {self.cache_path}, Yearly path: {self.yearly_cache_path}")
+        logging.info(f"No cache files found at {self.cache_path}")
         return {}
     
     def save_cache(self, entries_dict):
         """
-        Save entries to both latest and yearly cache files.
+        Save entries to cache files based on detection mode.
         
-        - entries_latest.json: Current working cache (always updated)
-        - entries_YYYY.json: Yearly backup (updated yearly)
+        Year-specific mode (entries24.json when current year is 25):
+        - Primary: entries24.json (the year-specific file)
+        - No backup (keep separate from current year)
+        
+        Latest mode (entries25.json and current year is 25):
+        - Primary: entries25.json (current year)
+        - No separate backup (same file)
         
         Args:
             entries_dict (dict): Dictionary of entries to cache
@@ -89,15 +146,14 @@ class CacheManager:
             # Ensure directory exists
             os.makedirs(self.cache_dir, exist_ok=True)
             
-            # Save to entries_latest.json (always)
+            # Save to the cache path (year-specific or current year)
             with open(self.cache_path, 'w', encoding='utf-8') as f:
                 json.dump(cache_data, f, ensure_ascii=False, indent=2)
             
-            logging.info(f"Saved {len(entries_dict)} entries to latest cache: {self.cache_path}")
+            logging.info(f"Saved {len(entries_dict)} entries to cache: {self.cache_path}")
             
-            # Save to yearly backup (entries_YYYY.json)
-            with open(self.yearly_cache_path, 'w', encoding='utf-8') as f:
-                json.dump(cache_data, f, ensure_ascii=False, indent=2)
+        except Exception as e:
+            logging.error(f"Error saving cache files: {e}")
             
             logging.info(f"Saved {len(entries_dict)} entries to yearly backup: {self.yearly_cache_path}")
             

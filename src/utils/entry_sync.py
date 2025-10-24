@@ -11,14 +11,16 @@ from .text_utils import is_entry_complete
 class EntrySync:
     """Manages synchronization of entries from multiple sources."""
     
-    def __init__(self, arxiv_processor):
+    def __init__(self, arxiv_processor, max_entries=None):
         """
         Initialize entry synchronizer.
         
         Args:
             arxiv_processor (ArXivProcessor): Processor for fetching arXiv data
+            max_entries (int, optional): Maximum number of entries to process (None = all)
         """
         self.arxiv_processor = arxiv_processor
+        self.max_entries = max_entries
     
     def sync_entries(self, dmrg_entries, existing_entries, cached_entries):
         """
@@ -32,6 +34,12 @@ class EntrySync:
         Returns:
             tuple: (all_entries, updated_cache) - ordered by DMRG page
         """
+        # Apply max_entries limit if configured
+        if self.max_entries and len(dmrg_entries) > self.max_entries:
+            original_count = len(dmrg_entries)
+            dmrg_entries = dmrg_entries[:self.max_entries]
+            logging.info(f"LIMITED entries from {original_count} to {self.max_entries} (MAX_ENTRIES={self.max_entries})")
+        
         logging.info(f"DMRG page entries: {len(dmrg_entries)}")
         logging.info(f"JSON cache entries: {len(cached_entries)}")
 

@@ -47,11 +47,11 @@ jobs:
       - name: Check existing RSS file
         id: check_existing
         run: |
-          if [ -f "docs/rss.xml" ]; then
+          if [ -f "docs/condmat.xml" ]; then
             echo "✅ Existing RSS file found"
-            file_size=$(du -h docs/rss.xml | cut -f1)
-            byte_size=$(stat -f%z docs/rss.xml 2>/dev/null || stat -c%s docs/rss.xml)
-            existing_count=$(grep -c '<item>' docs/rss.xml || echo '0')
+            file_size=$(du -h docs/condmat.xml | cut -f1)
+            byte_size=$(stat -f%z docs/condmat.xml 2>/dev/null || stat -c%s docs/condmat.xml)
+            existing_count=$(grep -c '<item>' docs/condmat.xml || echo '0')
             
             echo "Current file size: $file_size ($byte_size bytes)"
             echo "Current number of entries: $existing_count"
@@ -79,9 +79,9 @@ jobs:
         if: github.event.inputs.force_full_sync == 'true'
         run: |
           echo "🔄 Force full sync requested - backing up existing RSS"
-          if [ -f "docs/rss.xml" ]; then
-            cp docs/rss.xml docs/rss.xml.backup
-            echo "📋 Backup created: docs/rss.xml.backup"
+          if [ -f "docs/condmat.xml" ]; then
+            cp docs/condmat.xml docs/condmat.xml.backup
+            echo "📋 Backup created: docs/condmat.xml.backup"
           fi
 
       - name: Run RSS update
@@ -103,13 +103,13 @@ jobs:
       - name: Validate RSS output
         id: validate
         run: |
-          if [ -f "docs/rss.xml" ]; then
+          if [ -f "docs/condmat.xml" ]; then
             echo "✅ RSS file generated successfully"
             
             # Check file size and entry count
-            new_size=$(du -h docs/rss.xml | cut -f1)
-            new_count=$(grep -c '<item>' docs/rss.xml || echo '0')
-            byte_size=$(stat -f%z docs/rss.xml 2>/dev/null || stat -c%s docs/rss.xml)
+            new_size=$(du -h docs/condmat.xml | cut -f1)
+            new_count=$(grep -c '<item>' docs/condmat.xml || echo '0')
+            byte_size=$(stat -f%z docs/condmat.xml 2>/dev/null || stat -c%s docs/condmat.xml)
             
             echo "Updated file size: $new_size ($byte_size bytes)"
             echo "Updated number of entries: $new_count"
@@ -134,7 +134,7 @@ jobs:
             fi
             
             # Simple XML format check
-            if grep -q "<rss" docs/rss.xml && grep -q "</rss>" docs/rss.xml; then
+            if grep -q "<rss" docs/condmat.xml && grep -q "</rss>" docs/condmat.xml; then
               echo "✅ RSS format validation passed"
               echo "VALIDATION_STATUS=passed" >> $GITHUB_OUTPUT
             else
@@ -156,15 +156,15 @@ jobs:
           fi
           
           # Check HTML file
-          if [ -f "docs/rss.html" ]; then
+          if [ -f "docs/condmat.html" ]; then
             echo "✅ HTML file generated successfully"
-            html_size=$(du -h docs/rss.html | cut -f1)
-            html_bytes=$(stat -f%z docs/rss.html 2>/dev/null || stat -c%s docs/rss.html)
+            html_size=$(du -h docs/condmat.html | cut -f1)
+            html_bytes=$(stat -f%z docs/condmat.html 2>/dev/null || stat -c%s docs/condmat.html)
             
             echo "HTML file size: $html_size ($html_bytes bytes)"
             
             # Simple HTML format check
-            if grep -q "<html" docs/rss.html && grep -q "</html>" docs/rss.html; then
+            if grep -q "<html" docs/condmat.html && grep -q "</html>" docs/condmat.html; then
               echo "✅ HTML format validation passed"
               echo "HTML_VALIDATION_STATUS=passed" >> $GITHUB_OUTPUT
             else
@@ -182,8 +182,8 @@ jobs:
       - name: Check for changes
         id: check_changes
         run: |
-          # Add both latest cache and yearly backup
-          git add docs/rss.xml docs/rss.html docs/entries_latest.json docs/entries_*.json docs/index.html logs/sync.log
+          # Add output files and year-based cache files (entries25.json, entries24.json, etc.)
+          git add docs/condmat.xml docs/condmat.html docs/entries[0-9][0-9].json docs/index.html logs/sync.log
           
           if git diff --cached --quiet; then
             echo "📝 No changes detected in RSS/HTML content"
@@ -194,11 +194,13 @@ jobs:
             
             # Show change statistics
             echo "RSS changes:"
-            git diff --cached --stat docs/rss.xml || echo "No RSS changes"
+            git diff --cached --stat docs/condmat.xml || echo "No RSS changes"
             echo "HTML changes:"
-            git diff --cached --stat docs/rss.html || echo "No HTML changes"
+            git diff --cached --stat docs/condmat.html || echo "No HTML changes"
             echo "Cache changes:"
-            git diff --cached --stat docs/entries_latest.json docs/entries_*.json || echo "No cache changes"
+            git diff --cached --stat docs/entries[0-9][0-9].json || echo "No cache changes"
+          fi
+            git diff --cached --stat docs/entries[0-9][0-9].json || echo "No cache changes"
             echo "Index changes:"
             git diff --cached --stat docs/index.html || echo "No index changes"
           fi
@@ -234,7 +236,7 @@ jobs:
           name: rss-sync-logs-${{ github.run_number }}
           path: |
             logs/sync.log
-            docs/rss.xml.backup
+            docs/condmat.xml.backup
           retention-days: 7
 
       - name: Create detailed summary
@@ -276,9 +278,9 @@ jobs:
           
           # File links
           echo "### 📄 Files" >> $GITHUB_STEP_SUMMARY
-          echo "- **RSS Feed**: [docs/rss.xml](./docs/rss.xml)" >> $GITHUB_STEP_SUMMARY
+          echo "- **RSS Feed**: [docs/condmat.xml](./docs/condmat.xml)" >> $GITHUB_STEP_SUMMARY
           if [ "${{ steps.validate.outputs.HTML_VALIDATION_STATUS }}" == "passed" ]; then
-            echo "- **HTML Page**: [docs/rss.html](./docs/rss.html) (${{ steps.validate.outputs.HTML_SIZE }})" >> $GITHUB_STEP_SUMMARY
+            echo "- **HTML Page**: [docs/condmat.html](./docs/condmat.html) (${{ steps.validate.outputs.HTML_SIZE }})" >> $GITHUB_STEP_SUMMARY
           fi
           echo "- **GitHub Pages**: [View Live Site](https://${{ github.repository_owner }}.github.io/dmrg-rss/)" >> $GITHUB_STEP_SUMMARY
           echo "- **Sync Logs**: [rss-sync-logs-${{ github.run_number }}](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})" >> $GITHUB_STEP_SUMMARY
@@ -299,7 +301,7 @@ jobs:
           echo "🧹 Cleaning up after failure..."
           
           # If backup exists and main file is corrupted, restore from backup
-          if [ -f "docs/rss.xml.backup" ] && [ ! -s "docs/rss.xml" ]; then
+          if [ -f "docs/condmat.xml.backup" ] && [ ! -s "docs/condmat.xml" ]; then
             echo "📋 Restoring from backup..."
-            mv docs/rss.xml.backup docs/rss.xml
+            mv docs/condmat.xml.backup docs/condmat.xml
           fi

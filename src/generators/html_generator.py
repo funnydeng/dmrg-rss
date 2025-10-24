@@ -15,14 +15,26 @@ from ..config import HTML_TITLE, HTML_DESCRIPTION
 class HTMLGenerator:
     """Generator for mobile-responsive HTML paper listings."""
     
-    def __init__(self, output_path, skip_numeric_prices=False):
+    def __init__(self, output_path, skip_numeric_prices=False, rss_path=None):
         """
         Initialize HTML generator.
         
         Args:
             output_path (str): Path where HTML file will be saved
+            rss_path (str): Path to corresponding RSS file (if None, auto-derived from output_path)
         """
         self.output_path = output_path
+        
+        # Auto-derive RSS path if not provided
+        if rss_path is None:
+            # Replace .html with .xml in the same directory
+            self.rss_path = output_path.rsplit('.', 1)[0] + '.xml' if '.' in output_path else output_path + '.xml'
+        else:
+            self.rss_path = rss_path
+        
+        # Extract just the filename for the HTML link (e.g., "condmat.xml" from "docs/condmat.xml")
+        self.rss_filename = self.rss_path.split('/')[-1]
+        
         # Pass configuration into LaTeXRenderer
         self.latex_renderer = LaTeXRenderer()
         # Honor caller preference for skipping numeric/price-like $...$
@@ -668,7 +680,7 @@ class HTMLGenerator:
         </p>
         <div class="nav-links">
             <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
-            <a href="rss.xml"><i class="fas fa-rss"></i> RSS Feed</a>
+            <a href="{self.rss_filename}"><i class="fas fa-rss"></i> RSS Feed</a>
             <a href="https://github.com/funnydeng/dmrg-rss"><i class="fa-brands fa-github"></i> GitHub</a>
         </div>
     </div>

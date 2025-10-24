@@ -19,7 +19,8 @@ import requests
 
 # Import our modular components
 from .config import (
-    TARGET_URL, OUTPUT_RSS_PATH, OUTPUT_HTML_PATH, CACHE_PATH, USER_AGENT
+    TARGET_URL, OUTPUT_RSS_PATH, OUTPUT_HTML_PATH, CACHE_PATH, USER_AGENT, MAX_ENTRIES,
+    AUTO_CREATE_SYMLINKS
 )
 from .utils.arxiv_processor import ArXivProcessor, DMRGPageParser
 from .utils.cache_manager import CacheManager
@@ -65,13 +66,62 @@ class DMRGRSSApplication:
         self.dmrg_parser = DMRGPageParser(self.session)
         self.arxiv_processor = ArXivProcessor(self.session)
         self.cache_manager = CacheManager(CACHE_PATH)
-        self.entry_sync = EntrySync(self.arxiv_processor)
+        self.entry_sync = EntrySync(self.arxiv_processor, max_entries=MAX_ENTRIES)
         
         # Output generators
         self.rss_generator = RSSGenerator(OUTPUT_RSS_PATH)
         self.html_generator = HTMLGenerator(OUTPUT_HTML_PATH, skip_numeric_prices=False)
         
         logging.info("All application components initialized successfully")
+    
+    def create_publishing_symlinks(self):
+        """
+        Create symlinks for publishing layer (URLs without year suffix).
+        Only called when TARGET_URL has no year suffix (using current year).
+        
+        Maps versioned files to clean URLs:
+        - docs/condmat.xml → docs/condmat25.xml (symlink)
+        - docs/condmat.html → docs/condmat25.html (symlink)
+        """
+        try:
+            import re
+            
+            # Extract base name and versioned file names
+            match = re.search(r'/([^/]+)\.html$', TARGET_URL)
+            if not match:
+                logging.warning("Could not extract base name from TARGET_URL for symlink creation")
+                return
+            
+            base_name = match.group(1).rstrip('0123456789')
+            
+            # Get the versioned filenames from config
+            versioned_xml = OUTPUT_RSS_PATH
+            versioned_html = OUTPUT_HTML_PATH
+            publish_xml = f"docs/{base_name}.xml"
+            publish_html = f"docs/{base_name}.html"
+            
+            # Remove old symlinks if they exist
+            for link_path in [publish_xml, publish_html]:
+                if os.path.lexists(link_path):
+                    old_target = os.readlink(link_path) if os.path.islink(link_path) else "file"
+                    os.remove(link_path)
+                    logging.info(f"Removed existing {link_path} (was → {old_target})")
+            
+            # Create new symlinks (relative paths for portability)
+            symlinks = [
+                (os.path.basename(versioned_xml), publish_xml, "RSS"),
+                (os.path.basename(versioned_html), publish_html, "HTML")
+            ]
+            
+            for target_basename, link_path, name in symlinks:
+                os.symlink(target_basename, link_path)
+                logging.info(f"Created {name} symlink: {link_path} → {target_basename}")
+            
+            logging.info("✓ Publishing symlinks created successfully")
+            
+        except Exception as e:
+            logging.error(f"Failed to create publishing symlinks: {e}")
+            # Non-fatal error - continue with file output
     
     def run_full_sync(self):
         """
@@ -94,12 +144,11 @@ class DMRGRSSApplication:
                 raise RuntimeError("No arXiv entries found on DMRG page")
 
             # Step 2: Load existing data
-            existing_rss_entries = self.rss_generator.load_existing_entries()
             cached_entries = self.cache_manager.load_cache()
 
             # Step 3: Synchronize entries
             all_entries, updated_cache = self.entry_sync.sync_entries(
-                dmrg_entries, existing_rss_entries, cached_entries
+                dmrg_entries, {}, cached_entries  # existing_rss_entries no longer used
             )
 
             # Step 4: Save updated cache
@@ -112,6 +161,10 @@ class DMRGRSSApplication:
             # Step 6: Generate HTML page
             if not self.html_generator.generate_html(all_entries):
                 raise RuntimeError("Failed to generate HTML page")
+
+            # Step 7: Create publishing symlinks (if TARGET_URL has no year suffix)
+            if AUTO_CREATE_SYMLINKS:
+                self.create_publishing_symlinks()
 
             # Success summary
             execution_time = time.time() - start_time
@@ -143,7 +196,11 @@ class DMRGRSSApplication:
         logging.info(f"New or updated entries: {max(0, new_count)}")
         logging.info(f"Cache entries: {cache_count}")
         logging.info("=== Full Sync Complete ===")
-        logging.info(f"Generated both RSS ({OUTPUT_RSS_PATH}) and HTML ({OUTPUT_HTML_PATH}) files")
+        logging.info(f"Generated versioned files:")
+        logging.info(f"  RSS: {OUTPUT_RSS_PATH}")
+        logging.info(f"  HTML: {OUTPUT_HTML_PATH}")
+        logging.info(f"  Cache: {CACHE_PATH}")
+        logging.info("Note: Publishing symlinks managed by separate update_publish.py script")
     
     def get_status(self):
         """
