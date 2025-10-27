@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-27T01:55:46.033158+00:00",
+  "last_updated": "2025-10-27T12:50:32.280026+00:00",
   "entries": {
     "767038605fcd9aec8a43eafae8aeda18": {
       "id": "767038605fcd9aec8a43eafae8aeda18",
@@ -7912,6 +7912,62 @@
       "link": "http://arxiv.org/abs/2412.21055",
       "abstract": "We consider the surface code under errors featuring both coherent and incoherent components and study the coherence of the corresponding logical noise channel and how this impacts information-theoretic measures of code performance, namely coherent information and quantum relative entropy. Using numerical simulations and a phenomenological field theory, focusing on the most general single-qubit X-error channel, we show that, for any nonzero incoherent noise component, the coherence of the logical noise is exponentially suppressed with the code distance. We also find that the information-theoretic measures require this suppression to detect optimal thresholds for Pauli recovery; they thus require increasingly large distances for increasing error coherence and ultimately break down for fully coherent errors. To obtain our results, we develop a statistical mechanics mapping and a corresponding matrix-product-state algorithm for approximate syndrome sampling. These methods enable the large-scale simulation of these non-Pauli errors, including their maximum-likelihood thresholds, away from the limits captured by previous approaches.",
       "pubdate": "Mon, 30 Dec 2024 16:14:55 +0000"
+    },
+    "0a2a0ddde28cf70ae7cffb13c4115fc6": {
+      "id": "0a2a0ddde28cf70ae7cffb13c4115fc6",
+      "link": "http://arxiv.org/abs/2510.21599",
+      "title": "SHAP Meets Tensor Networks: Provably Tractable Explanations with Parallelism",
+      "abstract": "Although Shapley additive explanations (SHAP) can be computed in polynomial time for simple models like decision trees, they unfortunately become NP-hard to compute for more expressive black-box models like neural networks - where generating explanations is often most critical. In this work, we analyze the problem of computing SHAP explanations for *Tensor Networks (TNs)*, a broader and more expressive class of models than those for which current exact SHAP algorithms are known to hold, and which is widely used for neural network abstraction and compression. First, we introduce a general framework for computing provably exact SHAP explanations for general TNs with arbitrary structures. Interestingly, we show that, when TNs are restricted to a *Tensor Train (TT)* structure, SHAP computation can be performed in *poly-logarithmic* time using *parallel* computation. Thanks to the expressiveness power of TTs, this complexity result can be generalized to many other popular ML models such as decision trees, tree ensembles, linear models, and linear RNNs, therefore tightening previously reported complexity results for these families of models. Finally, by leveraging reductions of binarized neural networks to Tensor Network representations, we demonstrate that SHAP computation can become *efficiently tractable* when the network's *width* is fixed, while it remains computationally hard even with constant *depth*. This highlights an important insight: for this class of models, width - rather than depth - emerges as the primary computational bottleneck in SHAP computation.",
+      "pubdate": "Fri, 24 Oct 2025 16:02:51 +0000",
+      "authors": "Reda Marzouk, Shahaf Bassan, Guy Katz"
+    },
+    "67d814398fb757cc8713985df593c857": {
+      "id": "67d814398fb757cc8713985df593c857",
+      "link": "http://arxiv.org/abs/2510.21269",
+      "title": "Tensor Renormalization-Group study of the surface critical behavior of a frustrated two-layer Ising model",
+      "abstract": "Two replicas of a 2D Ising model are coupled by frustrated spin-spin interactions. It is known that this inter-layer coupling is marginal and that the bulk critical behavior belongs to the Ashkin-Teller (AT) universality class, as the $J_1$-$J_2$ Ising model. In this work, the surface critical behavior is studied numerically by Tensor Renormalization-Group calculations. The Bond-Weight Tensor Renormalization Group algorithm is extended to tackle systems with boundaries. It is observed that the two-fold degeneracy of the surface magnetic scaling dimension of the AT model is lifted in the frustrated two-layer Ising model (F2LIM). The splitting is explained by the breaking of the ${\\mathbb Z}_2$-symmetry under spin reversal of a single Ising replica in the F2LIM. The two distinct surface magnetic scaling dimensions $x_1^s$ and $x_2^s$ of the F2LIM satisfies a simple duality relation $x_1^s=1/4x_2^s$.",
+      "pubdate": "Fri, 24 Oct 2025 09:02:23 +0000",
+      "authors": "Christophe Chatelain"
+    },
+    "bc1a5dcc77e9734396a21d40be0d40c4": {
+      "id": "bc1a5dcc77e9734396a21d40be0d40c4",
+      "link": "http://arxiv.org/abs/2510.20939",
+      "title": "Tensor-Network study of Ising model on infinite hyperbolic dodecahedral lattice",
+      "abstract": "We propose a tensor-network-based algorithm to study the classical Ising model on an infinitely large hyperbolic lattice with a regular 3D tesselation of identical dodecahedra. We reformulate the corner transfer matrix renormalization group (CTMRG) algorithm from 2D to 3D to reproduce the known results on the cubic lattice. Consequently, we generalize the CTMRG to the hyperbolic dodecahedral lattice, which is an infinite-dimensional lattice. We analyze the spontaneous magnetization, von Neumann entropy, and correlation length to find a continuous non-critical phase transition on the dodecahedral lattice. The phase transition temperature is estimated to be $T_{\\rm pt} \\approx 4.66$. We find the magnetic critical exponents $\\beta= 0.4999$ and $\\delta=3.007$ that confirm the mean-field universality class in accord with predictions of Monte Carlo and high-temperature series expansions. The algorithm can be applied to arbitrary multi-state spin models.",
+      "pubdate": "Thu, 23 Oct 2025 19:00:25 +0000",
+      "authors": "Matej Mosko, Andrej Gendiar"
+    },
+    "6335f65b2da4675eb821c2ca0a68e3f2": {
+      "id": "6335f65b2da4675eb821c2ca0a68e3f2",
+      "link": "http://arxiv.org/abs/2510.20908",
+      "title": "Local-to-Global Entanglement Dynamics by Periodically Driving Impurities",
+      "abstract": "We study the entanglement dynamics of a one-dimensional spin chain subject to a local Floquet drive of a two-site impurity. We uncover a sharp transition in the entanglement dynamics as a function of the driving frequency. For large drive periods $T$, we observe a linear growth in entanglement entropy (EE), indicating a heating phase with volume law entanglement. Surprisingly, for driving periods below a critical value $T_\\ast$, the EE grows subextensively with time, characteristic of a local quantum quench. In the non-interacting limit, we analytically trace the origin of this phenomenon to a transition in the single-particle Floquet quasi-energy spectrum. We also find that for $T>T_*$, the so-called ``average energy\" operator develops non-local, rainbow-like couplings that are responsible for the rapid entanglement growth in the heating phase, but remains local for $T<T_*$. Using extensive matrix-product-state simulations, we show that the non-heating phase and the subextensive entanglement growth persist in the presence of weak interactions for numerically accessible timescales. Our results establish that local Floquet engineering can generate emergent bulk phenomena, shedding new light on energy localization and thermalization in driven many-body systems.",
+      "pubdate": "Thu, 23 Oct 2025 18:02:22 +0000",
+      "authors": "Zhi-Xing Lin, Abhinav Prem, Shinsei Ryu, Bastien Lapierre"
+    },
+    "31d793bb82339746b1c1924a04de4001": {
+      "id": "31d793bb82339746b1c1924a04de4001",
+      "link": "http://arxiv.org/abs/2510.05988",
+      "title": "Commensurate-incommensurate Mott transition without magnetic field: emergence of nematic Luttinger liquid in XXZ chain",
+      "abstract": "We investigate the zero-magnetization phase diagram of a spin-1/2 chain with competing ferromagnetic nearest-neighbor and antiferromagnetic next-nearest-neighbor exchange couplings in the strongly interacting regime. Using density matrix renormalization group (DMRG) simulations, we discover two successive commensurate-incommensurate transitions of the non-conformal Pokrovsky-Talapov universality class, occurring (even) at zero magnetic field. The first transition marks the condensation of bound pairs of magnons into a critical phase with central charge $c=2$, emerging from a gapped period-4 phase. At the second transition, an incommensurate quadrupolar (or nematic) Luttinger liquid forms out of a gapped phase separation state, via the pairwise condensation of domain walls. We argue that both transitions involve the same underlying incommensurate nematic Luttinger liquid, and that the $c=2$ phase can be understood as a coexistence of a conventional (single-magnon type) and quadrupolar (two-magnon type) Luttinger liquids. Our results demonstrate that frustration alone is sufficient to drive continuous commensurate-incommensurate transitions of Mott type and stabilise incommensurate quasi-long-range order without doping.",
+      "pubdate": "Tue, 07 Oct 2025 14:48:50 +0000",
+      "authors": "Julien Fitouchi, Natalia Chepiga"
+    },
+    "abf2a0d29a95d414c9050691f6128841": {
+      "id": "abf2a0d29a95d414c9050691f6128841",
+      "link": "http://arxiv.org/abs/2510.05647",
+      "title": "Tensor Network Loop Cluster Expansions for Quantum Many-Body Problems",
+      "abstract": "We analyze the tensor network loop cluster expansion, introduced in arXiv:2504.07344 as a systematic correction to belief propagation, in the context of general quantum many-body problems. We provide numerical examples of the accuracy and practical applicability of the approach for the computation of ground-state observables for high bond dimension tensor networks, in two- and three-dimensions, with open and periodic boundary conditions, and for spin and fermion problems.",
+      "pubdate": "Tue, 07 Oct 2025 07:48:10 +0000",
+      "authors": "Johnnie Gray, Gunhee Park, Glen Evenbly, Nicola Pancotti, Garnet Kin-Lic Chan"
+    },
+    "f05b477054ceb2bb33c14538cbf59b59": {
+      "id": "f05b477054ceb2bb33c14538cbf59b59",
+      "link": "http://arxiv.org/abs/2510.05227",
+      "title": "TeMFpy: a Python library for converting fermionic mean-field states into tensor networks",
+      "abstract": "We introduce TeMFpy, a Python library for converting fermionic mean-field states to finite or infinite matrix product state (MPS) form. TeMFpy includes new, efficient, and easy-to-understand algorithms for both Slater determinants and Pfaffian states. Together with Gutzwiller projection, these also allow the user to build variational wave functions for various strongly correlated electron systems, such as quantum spin liquids. We present all implemented algorithms in detail and describe how they can be accessed through TeMFpy, including full example workflows. TeMFpy is built on top of TeNPy and, therefore, integrates seamlessly with existing MPS-based algorithms.",
+      "pubdate": "Mon, 06 Oct 2025 18:00:49 +0000",
+      "authors": "Simon H. Hille, Attila Szabó"
     }
   }
 }
