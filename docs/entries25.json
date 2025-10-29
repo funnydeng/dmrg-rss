@@ -1,6 +1,110 @@
 {
-  "last_updated": "2025-10-28T12:48:07.625657+00:00",
+  "last_updated": "2025-10-29T01:52:21.956349+00:00",
   "entries": {
+    "f04833ee41d8a62ef74bc124ae2230e1": {
+      "id": "f04833ee41d8a62ef74bc124ae2230e1",
+      "link": "http://arxiv.org/abs/2510.23555",
+      "title": "Prediction of a topological phase transition in exchange alternating spin-1 nanographene chains",
+      "abstract": "The use of magnetic nanographenes as building blocks for artificial spin lattices is enabling the exploration of flagship model Hamiltonians of one-dimensional quantum magnetism with an unprecedented degree of control. The spin-1 Heisenberg model, incorporating both linear and quadratic exchange interactions, was first realized using [3]-triangulenes, where the hallmark Haldane phase with spin fractionalization was observed. Later, the spin-1/2 Heisenberg Hamiltonian with exchange alternation was realized with Clar's goblets, where two additional topological phases were identified. Here we show that spin-1 nanographenes can also be used to explore the topological phase transition between the Haldane phase and a dimerized phase predicted for spin-1 chains with bond-alternation. We first study how the boundary of the phase transition is modified by non-linear exchange, known to be present in spin-1 nanographenes, using density matrix renormalization group (DMRG). Combining multiconfigurational with first-principles calculations, we propose two candidates to realize different topological phases of the model: a recently synthesized extended Clar's goblet, and a passivated [4]-triangulene. Moreover, we show how these two phases can be identified experimentally using inelastic electron tunneling spectroscopy (IETS). This work paves the way for the experimental realization of these topological phases, which can be locally probed with scanning tunneling microscopy.",
+      "pubdate": "Mon, 27 Oct 2025 17:29:24 +0000",
+      "authors": "João C. G. Henriques, Yelko del Castillo, Ricardo Segundo, Jan Phillips, Joaquín Fernández-Rossier"
+    },
+    "a81c747c91fde914c60b8a6d63d0230c": {
+      "id": "a81c747c91fde914c60b8a6d63d0230c",
+      "link": "http://arxiv.org/abs/2510.23546",
+      "title": "Variational Thermal State Preparation on Digital Quantum Processors Assisted by Matrix Product States",
+      "abstract": "The preparation of quantum Gibbs states at finite temperatures is a cornerstone of quantum computation, enabling applications in quantum simulation of many-body systems, machine learning via quantum Boltzmann machines, and optimization through thermal sampling techniques. In this work, we introduce a variational framework that leverages matrix product states for the efficient classical evaluation of the Helmholtz free energy, combining scalable entanglement entropy computation with a hardware efficient ansatz to accurately approximate thermal states in one- and two-dimensional systems. We conduct extensive benchmarking on key observables, including energy density, susceptibility, specific heat, and two-point correlations, comparing against exact analytical results for 1D systems and quantum Monte Carlo simulations for 2D lattices across various temperatures and ansatz configurations. Our large-scale numerical simulations demonstrate the capability to prepare high-quality Gibbs states for 1D lattice models with up to 30 sites and 2D systems with up to 6x6 sites, using up to 42 qubits. Finally, we demonstrate the framework's practical viability on a 156-qubit IBM Heron processor by preparing the approximate Gibbs state of a 30-site transverse-field Ising model. Leveraging a combination of error mitigation techniques, we reduce the relative errors in energy and susceptibility measurements by over 50% compared to unmitigated results.",
+      "pubdate": "Mon, 27 Oct 2025 17:22:02 +0000",
+      "authors": "Rui-Hao Li, Semeon Valgushev, Khadijeh Najafi"
+    },
+    "697f769f89b5ae64854625f0b997d6dc": {
+      "id": "697f769f89b5ae64854625f0b997d6dc",
+      "link": "http://arxiv.org/abs/2510.23412",
+      "title": "Quantum fluctuations determine the spin-flop transition in hematite",
+      "abstract": "Magnetic phase transitions between ordered phases are often understood on the basis of semi-classical spin models. Deviations from the classical description due to the quantum nature of the atomic spins as well as quantum fluctuations are usually treated as negligible if long-range order is preserved, and are rarely quantified for actual materials. Here, we demonstrate that a fully quantum-mechanical framework is required for a quantitatively correct description of the spin-flop transition in the insulating altermagnet hematite between the collinear antiferromagnetic and the weakly ferromagnetic spin-flop phase at low temperature. By applying both exact diagonalization and density-matrix renormalization group theory to the quantum Heisenberg Hamiltonian, we show how a quantum-mechanical treatment of an ab initio parametrized spin model can significantly improve the predicted low-temperature spin-flop field over a classical description when compared to measurements. Our results imply that quantum fluctuations have a measurable influence on selecting the ground state of a system out of competing ordered magnetic phases at low temperature.",
+      "pubdate": "Mon, 27 Oct 2025 15:15:46 +0000",
+      "authors": "Tobias Dannegger, Imre Hagymási, Levente Rózsa, Ulrich Nowak"
+    },
+    "acd29394ffe00e2b0f21148e231bacb5": {
+      "id": "acd29394ffe00e2b0f21148e231bacb5",
+      "link": "http://arxiv.org/abs/2510.23376",
+      "title": "Ground-state phase diagram of S = 1/2 Heisenberg model on 2D square-hexagon-octagon lattice",
+      "abstract": "Using stochastic series expansion quantum Monte Carlo method and density matrix renormalization group, we study the ground-state phase diagram of $S=1/2$ Heisenberg model on 2D square-hexagon-octagon (SHO) lattice. In this model, we consider two kinds of nearest-neighbor interaction (intra-hexagon interaction $J_1$ and inter-hexagon $J_2$) and the selected third nearest-neighbor interaction $J_3$ along $x$ direction. From our calculations, there are five phases in the parameters regime $0<\\lambda_1=J_2/J_1<4, 0<\\lambda_2=J_3/J_1<4$, including a Néel antiferromagentic phase, a Haldane-like symmetry protected topological phase, a hexagon phase and two dimer phases. In the Haldane-like SPT phase, we characterized its topological nature using the degeneracy of ground-state energy under open boundary condition and the entanglement spectrum. To characterize the phase boundaries, we use spin stiffness and Binder cumulant to do the comprehensive finite-size scalings. From data collapse, the critical behaviors of all the nonmagnetic phases to the antiferromagnetic phase belong to the 3D $O(3)$ Heisenberg universality class. As a theoretical exploration, our work establishes a foundational framework for understanding 2D magnetism on the SHO lattice.",
+      "pubdate": "Mon, 27 Oct 2025 14:23:39 +0000",
+      "authors": "Yumeng Luo, Yuehong Li, Mengfan Jiang, Muwei Wu, Jian-Jian Yang, Dao-Xin Yao, Han-Qing Wu"
+    },
+    "284b0cb078cd3b6c0ebde7610fc7abf8": {
+      "id": "284b0cb078cd3b6c0ebde7610fc7abf8",
+      "link": "http://arxiv.org/abs/2510.23135",
+      "title": "Universal Relations in Long-range Quantum Spin Chains",
+      "abstract": "Understanding the emergence of novel collective behaviors in strongly interacting systems lies at the heart of quantum many-body physics. Valuable insight comes from examining how few-body correlations manifest in many-body systems, embodying the ``from few to many'' philosophy. An intriguing example is the set of universal relations in ultracold atomic gases, which connect a wide range of observables to a single quantity known as the contact. In this Letter, we demonstrate that universal relations manifest in a distinct class of quantum many-body systems, long-range quantum spin chains, which belong to a completely new universality class. Using effective field theory and the operator product expansion, we establish connections between the asymptotic behavior of equal-time spin correlation functions, the dynamical structure factor, and the contact density. The theoretical predictions for equal-time correlators are explicitly verified through numerical simulations based on matrix product states. Our results could be readily tested in state-of-the-art trapped-ion systems.",
+      "pubdate": "Mon, 27 Oct 2025 09:16:10 +0000",
+      "authors": "Ning Sun, Lei Feng, Pengfei Zhang"
+    },
+    "250730096d08ed20e65b7c25fbe118a3": {
+      "id": "250730096d08ed20e65b7c25fbe118a3",
+      "link": "http://arxiv.org/abs/2510.23089",
+      "title": "Tensor network methods for quantum-inspired image processing and classical optics",
+      "abstract": "Tensor network methods strike a middle ground between fully-fledged quantum computing and classical computing, as they take inspiration from quantum systems to significantly speed up certain classical operations. Their strength lies in their compressive power and the wide variety of efficient algorithms that operate within this compressed space. In this work, we focus on applying these methods to fundamental problems in image processing and classical optics such as wave-front propagation and optical image formation, by using directly or indirectly parallels with quantum mechanics and computation. These quantum-inspired methods are expected to yield faster algorithms with applications ranging from astronomy and earth observation to microscopy and classical imaging more broadly.",
+      "pubdate": "Mon, 27 Oct 2025 07:51:40 +0000",
+      "authors": "Nicolas Allegra"
+    },
+    "c4c74b30c7bd2cb68cbe342eb4101015": {
+      "id": "c4c74b30c7bd2cb68cbe342eb4101015",
+      "link": "http://arxiv.org/abs/2510.22596",
+      "title": "Pinched geometries in $\\mathbf{2}$D Lorentzian quantum Regge calculus",
+      "abstract": "We investigate pinched geometries in a two-dimensional Lorentzian model of quantum Regge calculus (QRC) using the tensor renormalization group (TRG) method. A pinched geometry refers to a configuration with an infinitely long temporal extent, even when the total spacetime area is fixed. We examine several choices of integration measures and triangulations to study whether such geometries can dominate in the limit of infinitely many triangles. Our results indicate that pinched geometries are strongly suppressed, and this suppression is observed across different integral measures and triangulations. These results suggest the possible emergence of smooth geometries as well as a sort of universality for infinitely many triangles.",
+      "pubdate": "Sun, 26 Oct 2025 09:29:21 +0000",
+      "authors": "Yoshiyasu Ito, Daisuke Kadoh, Yuki Sato"
+    },
+    "7a726ea4c893ff3332a8810e416641b2": {
+      "id": "7a726ea4c893ff3332a8810e416641b2",
+      "link": "http://arxiv.org/abs/2510.22506",
+      "title": "Accelerated Tensor Completion via Trace-Regularized Fully-Connected Tensor Network",
+      "abstract": "The fully-connected tensor network (FCTN) decomposition has gained prominence in the field of tensor completion owing to its powerful capacity to capture the low-rank characteristics of tensors. Nevertheless, the recovery of local details in the reconstructed tensor still leaves scope for enhancement. In this paper, we propose efficient tensor completion model that incorporates trace regularization within the FCTN decomposition framework. The trace regularization is constructed based on the mode-$k$ unfolding of the FCTN factors combined with periodically modified negative laplacian. The trace regularization promotes the smoothness of the FCTN factors through discrete second-order derivative penalties, thereby enhancing the continuity and local recovery performance of the reconstructed tensor. To solve the proposed model, we develop an efficient algorithm within the proximal alternating minimization (PAM) framework and theoretically prove its convergence. To reduce the runtime of the proposed algorithm, we design an intermediate tensor reuse mechanism that can decrease runtime by 10\\%-30\\% without affecting image recovery, with more significant improvements for larger-scale data. A comprehensive complexity analysis reveals that the mechanism attains a reduced computational complexity. Numerical experiments demonstrate that the proposed method outperforms existing approaches.",
+      "pubdate": "Sun, 26 Oct 2025 03:08:54 +0000",
+      "authors": "Wenchao Xie, Qingsong Wang, Chengcheng Yan, Zheng Peng"
+    },
+    "bddd537e56d907a38bcfa49fd03c8058": {
+      "id": "bddd537e56d907a38bcfa49fd03c8058",
+      "link": "http://arxiv.org/abs/2510.22311",
+      "title": "Pauli Propagation: Simulating Quantum Spin Dynamics via Operator Complexity",
+      "abstract": "Simulating real-time quantum dynamics in interacting spin systems is a fundamental challenge, where exact diagonalization suffers from exponential Hilbert-space growth and tensor-network methods face entanglement barriers. In this work, we introduce a scalable Pauli propagation approach that evolves local observables directly in the Heisenberg picture. Theoretically, we derive a priori error bounds governed by the Operator Stabilizer Rényi entropy (OSE) $\\mathcal{S}^\\alpha(O)$, which explicitly links the truncation accuracy to operator complexity and prescribes a suitable Top-$K$ truncation strategy. For the 1D Heisenberg model with $J_z = 0$, we prove the number of non-zero Pauli coefficients scales quadratically in Trotter steps, establishing the compressibility of Heisenberg-evolved operators. Numerically, we validate the framework on XXZ Heisenberg chain benchmarks, showing high accuracy with small $K$ in free regimes ($J_z = 0$) and competitive performance against tensor-network methods (e.g., TDVP) in interacting cases ($J_z = 0.5$). These results establish an observable-centric simulator whose cost is governed by operator complexity rather than entanglement, offering a practical alternative for studying non-equilibrium dynamics in quantum many-body systems.",
+      "pubdate": "Sat, 25 Oct 2025 14:24:12 +0000",
+      "authors": "Yuguo Shao, Song Cheng, Zhengwei Liu"
+    },
+    "fb155b54cb12cc9b876fe5e957bb4d8b": {
+      "id": "fb155b54cb12cc9b876fe5e957bb4d8b",
+      "link": "http://arxiv.org/abs/2510.22138",
+      "title": "Tractable Shapley Values and Interactions via Tensor Networks",
+      "abstract": "We show how to replace the O(2^n) coalition enumeration over n features behind Shapley values and Shapley-style interaction indices with a few-evaluation scheme on a tensor-network (TN) surrogate: TN-SHAP. The key idea is to represent a predictor's local behavior as a factorized multilinear map, so that coalitional quantities become linear probes of a coefficient tensor. TN-SHAP replaces exhaustive coalition sweeps with just a small number of targeted evaluations to extract order-k Shapley interactions. In particular, both order-1 (single-feature) and order-2 (pairwise) computations have cost O(n*poly(chi) + n^2), where chi is the TN's maximal cut rank. We provide theoretical guarantees on the approximation error and tractability of TN-SHAP. On UCI datasets, our method matches enumeration on the fitted surrogate while reducing evaluation by orders of magnitude and achieves 25-1000x wall-clock speedups over KernelSHAP-IQ at comparable accuracy, while amortizing training across local cohorts.",
+      "pubdate": "Sat, 25 Oct 2025 03:21:20 +0000",
+      "authors": "Farzaneh Heidari, Chao Li, Farzaneh Heidari"
+    },
+    "f78c329b9a169494669d92f4c4922466": {
+      "id": "f78c329b9a169494669d92f4c4922466",
+      "link": "http://arxiv.org/abs/2510.21927",
+      "title": "Temporal Complexity Hierarchies in Solvable Quantum Many-Body Dynamics",
+      "abstract": "The influence matrix (IM) provides a powerful framework for characterizing nonequilibrium quantum many-body dynamics by encoding multitime correlations into tensor-network states. Understanding how its computational complexity relates to underlying dynamics is crucial for both theoretical insight and practical utility, yet remains largely unexplored despite a few case studies. Here, we address this question for a family of brickwork quantum circuits ranging from integrable to chaotic regimes. Using tools from geometric group theory, we identify three qualitatively distinct scalings of temporal entanglement entropy, establishing a hierarchy of computational resources required for accurate tensor-network representations of the IM for these models. We further analyze the memory structure of the IM and distinguish between classical and quantum temporal correlations. In particular, for certain examples, we identify effectively classical IMs that admit an efficient Monte Carlo algorithm for computing multitime correlations. In more generic settings without an explicit classical description of the IM, we introduce an operational measure of quantum memory with an experimental protocol, and discuss examples exhibiting long-time genuinely quantum correlations. Our results establish a new connection between quantum many-body dynamics and group theory, providing fresh insights into the complexity of the IM and its intricate connection to the physical characteristics of the dynamics.",
+      "pubdate": "Fri, 24 Oct 2025 18:00:08 +0000",
+      "authors": "He-Ran Wang, Ilya Vilkoviskiy, Dmitry A. Abanin"
+    },
+    "af6fe441c53ff51bfb04ab879c760f6f": {
+      "id": "af6fe441c53ff51bfb04ab879c760f6f",
+      "link": "http://arxiv.org/abs/2510.21844",
+      "title": "KARIPAP: Quantum-Inspired Tensor Network Compression of Large Language Models Using Infinite Projected Entangled Pair States and Tensor Renormalization Group",
+      "abstract": "Large Language Models (LLMs) like ChatGPT and LLaMA drive rapid progress in generative AI, yet their huge parameter scales create severe computational and environmental burdens. High training costs, energy use, and limited device deployment hinder accessibility. Existing compression - pruning, distillation, low-rank, and quantization - reduces size but ignores complex inter-layer correlations. We propose KARIPAP, a quantum-inspired tensor network compression using Infinite Projected Entangled Pair States (iPEPS) and Tensor Renormalization Group (TRG) contraction. Unlike 1D Matrix Product States, iPEPS captures multi-directional entanglement in attention and deep transformer layers. TRG ensures polynomial-time contraction, making tensorization feasible while preserving key correlation geometry. Experiments on LLaMA-2 7B show up to 93% memory and 70% parameter reduction, with 50% faster training, 25% faster inference, and only 2-3% accuracy loss. Layer-wise entanglement profiling reveals redundancy in deeper layers, confirming their suitability for tensor factorization. KARIPAP demonstrates that modern LLMs occupy low-dimensional entanglement manifolds, enabling scalable, energy-efficient, and quantum-aware AI architectures.",
+      "pubdate": "Wed, 22 Oct 2025 15:43:09 +0000",
+      "authors": "Azree Nazri"
+    },
+    "3b311a86329f090b70186f24ca1ea605": {
+      "id": "3b311a86329f090b70186f24ca1ea605",
+      "link": "http://arxiv.org/abs/2510.21767",
+      "title": "Quantum-inspired space-time PDE solver and dynamic mode decomposition",
+      "abstract": "Numerical solutions of partial differential equations (PDEs) are central to the understanding of dynamical systems. Standard approaches involving time-stepping schemes compute the solution at each time step, which becomes too costly when simulating long-term dynamics. Alternatively, space-time methods that treat the combined space-time domain simultaneously promise better stability and accuracy. Interestingly, data-driven approaches for learning and predicting dynamics, such as dynamic mode decomposition (DMD), also employ a combined space-time representation. However, the curse of dimensionality often limits the practical benefits of space-time methods. In this work, we investigate quantum-inspired methods for space-time approaches, both for solving PDEs and for making DMD predictions. We achieve this goal by treating both spatial and temporal dimensions within a single matrix product state (MPS) encoding. First, we benchmark our MPS space-time solver for both linear and nonlinear PDEs, observing that the MPS ansatz accurately captures the underlying spatio-temporal correlations while having significantly fewer degrees of freedom. Second, we develop an MPS-DMD algorithm to make accurate long-term predictions of nonlinear systems, with runtime scaling logarithmically in both spatial and temporal resolution. This research highlights the role of tensor networks in developing effective and interpretable models, bridging the gap between numerical methods and data-driven approaches.",
+      "pubdate": "Wed, 15 Oct 2025 14:39:44 +0000",
+      "authors": "Raghavendra Dheeraj Peddinti, Stefano Pisoni, Narsimha Rapaka, Mohamed K. Riahi, Egor Tiunov, Leandro Aolita"
+    },
     "0a2a0ddde28cf70ae7cffb13c4115fc6": {
       "id": "0a2a0ddde28cf70ae7cffb13c4115fc6",
       "link": "http://arxiv.org/abs/2510.21599",
@@ -7968,110 +8072,6 @@
       "link": "http://arxiv.org/abs/2412.21055",
       "abstract": "We consider the surface code under errors featuring both coherent and incoherent components and study the coherence of the corresponding logical noise channel and how this impacts information-theoretic measures of code performance, namely coherent information and quantum relative entropy. Using numerical simulations and a phenomenological field theory, focusing on the most general single-qubit X-error channel, we show that, for any nonzero incoherent noise component, the coherence of the logical noise is exponentially suppressed with the code distance. We also find that the information-theoretic measures require this suppression to detect optimal thresholds for Pauli recovery; they thus require increasingly large distances for increasing error coherence and ultimately break down for fully coherent errors. To obtain our results, we develop a statistical mechanics mapping and a corresponding matrix-product-state algorithm for approximate syndrome sampling. These methods enable the large-scale simulation of these non-Pauli errors, including their maximum-likelihood thresholds, away from the limits captured by previous approaches.",
       "pubdate": "Mon, 30 Dec 2024 16:14:55 +0000"
-    },
-    "f04833ee41d8a62ef74bc124ae2230e1": {
-      "id": "f04833ee41d8a62ef74bc124ae2230e1",
-      "link": "http://arxiv.org/abs/2510.23555",
-      "title": "Prediction of a topological phase transition in exchange alternating spin-1 nanographene chains",
-      "abstract": "The use of magnetic nanographenes as building blocks for artificial spin lattices is enabling the exploration of flagship model Hamiltonians of one-dimensional quantum magnetism with an unprecedented degree of control. The spin-1 Heisenberg model, incorporating both linear and quadratic exchange interactions, was first realized using [3]-triangulenes, where the hallmark Haldane phase with spin fractionalization was observed. Later, the spin-1/2 Heisenberg Hamiltonian with exchange alternation was realized with Clar's goblets, where two additional topological phases were identified. Here we show that spin-1 nanographenes can also be used to explore the topological phase transition between the Haldane phase and a dimerized phase predicted for spin-1 chains with bond-alternation. We first study how the boundary of the phase transition is modified by non-linear exchange, known to be present in spin-1 nanographenes, using density matrix renormalization group (DMRG). Combining multiconfigurational with first-principles calculations, we propose two candidates to realize different topological phases of the model: a recently synthesized extended Clar's goblet, and a passivated [4]-triangulene. Moreover, we show how these two phases can be identified experimentally using inelastic electron tunneling spectroscopy (IETS). This work paves the way for the experimental realization of these topological phases, which can be locally probed with scanning tunneling microscopy.",
-      "pubdate": "Mon, 27 Oct 2025 17:29:24 +0000",
-      "authors": "João C. G. Henriques, Yelko del Castillo, Ricardo Segundo, Jan Phillips, Joaquín Fernández-Rossier"
-    },
-    "a81c747c91fde914c60b8a6d63d0230c": {
-      "id": "a81c747c91fde914c60b8a6d63d0230c",
-      "link": "http://arxiv.org/abs/2510.23546",
-      "title": "Variational Thermal State Preparation on Digital Quantum Processors Assisted by Matrix Product States",
-      "abstract": "The preparation of quantum Gibbs states at finite temperatures is a cornerstone of quantum computation, enabling applications in quantum simulation of many-body systems, machine learning via quantum Boltzmann machines, and optimization through thermal sampling techniques. In this work, we introduce a variational framework that leverages matrix product states for the efficient classical evaluation of the Helmholtz free energy, combining scalable entanglement entropy computation with a hardware efficient ansatz to accurately approximate thermal states in one- and two-dimensional systems. We conduct extensive benchmarking on key observables, including energy density, susceptibility, specific heat, and two-point correlations, comparing against exact analytical results for 1D systems and quantum Monte Carlo simulations for 2D lattices across various temperatures and ansatz configurations. Our large-scale numerical simulations demonstrate the capability to prepare high-quality Gibbs states for 1D lattice models with up to 30 sites and 2D systems with up to 6x6 sites, using up to 42 qubits. Finally, we demonstrate the framework's practical viability on a 156-qubit IBM Heron processor by preparing the approximate Gibbs state of a 30-site transverse-field Ising model. Leveraging a combination of error mitigation techniques, we reduce the relative errors in energy and susceptibility measurements by over 50% compared to unmitigated results.",
-      "pubdate": "Mon, 27 Oct 2025 17:22:02 +0000",
-      "authors": "Rui-Hao Li, Semeon Valgushev, Khadijeh Najafi"
-    },
-    "697f769f89b5ae64854625f0b997d6dc": {
-      "id": "697f769f89b5ae64854625f0b997d6dc",
-      "link": "http://arxiv.org/abs/2510.23412",
-      "title": "Quantum fluctuations determine the spin-flop transition in hematite",
-      "abstract": "Magnetic phase transitions between ordered phases are often understood on the basis of semi-classical spin models. Deviations from the classical description due to the quantum nature of the atomic spins as well as quantum fluctuations are usually treated as negligible if long-range order is preserved, and are rarely quantified for actual materials. Here, we demonstrate that a fully quantum-mechanical framework is required for a quantitatively correct description of the spin-flop transition in the insulating altermagnet hematite between the collinear antiferromagnetic and the weakly ferromagnetic spin-flop phase at low temperature. By applying both exact diagonalization and density-matrix renormalization group theory to the quantum Heisenberg Hamiltonian, we show how a quantum-mechanical treatment of an ab initio parametrized spin model can significantly improve the predicted low-temperature spin-flop field over a classical description when compared to measurements. Our results imply that quantum fluctuations have a measurable influence on selecting the ground state of a system out of competing ordered magnetic phases at low temperature.",
-      "pubdate": "Mon, 27 Oct 2025 15:15:46 +0000",
-      "authors": "Tobias Dannegger, Imre Hagymási, Levente Rózsa, Ulrich Nowak"
-    },
-    "acd29394ffe00e2b0f21148e231bacb5": {
-      "id": "acd29394ffe00e2b0f21148e231bacb5",
-      "link": "http://arxiv.org/abs/2510.23376",
-      "title": "Ground-state phase diagram of S = 1/2 Heisenberg model on 2D square-hexagon-octagon lattice",
-      "abstract": "Using stochastic series expansion quantum Monte Carlo method and density matrix renormalization group, we study the ground-state phase diagram of $S=1/2$ Heisenberg model on 2D square-hexagon-octagon (SHO) lattice. In this model, we consider two kinds of nearest-neighbor interaction (intra-hexagon interaction $J_1$ and inter-hexagon $J_2$) and the selected third nearest-neighbor interaction $J_3$ along $x$ direction. From our calculations, there are five phases in the parameters regime $0<\\lambda_1=J_2/J_1<4, 0<\\lambda_2=J_3/J_1<4$, including a Néel antiferromagentic phase, a Haldane-like symmetry protected topological phase, a hexagon phase and two dimer phases. In the Haldane-like SPT phase, we characterized its topological nature using the degeneracy of ground-state energy under open boundary condition and the entanglement spectrum. To characterize the phase boundaries, we use spin stiffness and Binder cumulant to do the comprehensive finite-size scalings. From data collapse, the critical behaviors of all the nonmagnetic phases to the antiferromagnetic phase belong to the 3D $O(3)$ Heisenberg universality class. As a theoretical exploration, our work establishes a foundational framework for understanding 2D magnetism on the SHO lattice.",
-      "pubdate": "Mon, 27 Oct 2025 14:23:39 +0000",
-      "authors": "Yumeng Luo, Yuehong Li, Mengfan Jiang, Muwei Wu, Jian-Jian Yang, Dao-Xin Yao, Han-Qing Wu"
-    },
-    "284b0cb078cd3b6c0ebde7610fc7abf8": {
-      "id": "284b0cb078cd3b6c0ebde7610fc7abf8",
-      "link": "http://arxiv.org/abs/2510.23135",
-      "title": "Universal Relations in Long-range Quantum Spin Chains",
-      "abstract": "Understanding the emergence of novel collective behaviors in strongly interacting systems lies at the heart of quantum many-body physics. Valuable insight comes from examining how few-body correlations manifest in many-body systems, embodying the ``from few to many'' philosophy. An intriguing example is the set of universal relations in ultracold atomic gases, which connect a wide range of observables to a single quantity known as the contact. In this Letter, we demonstrate that universal relations manifest in a distinct class of quantum many-body systems, long-range quantum spin chains, which belong to a completely new universality class. Using effective field theory and the operator product expansion, we establish connections between the asymptotic behavior of equal-time spin correlation functions, the dynamical structure factor, and the contact density. The theoretical predictions for equal-time correlators are explicitly verified through numerical simulations based on matrix product states. Our results could be readily tested in state-of-the-art trapped-ion systems.",
-      "pubdate": "Mon, 27 Oct 2025 09:16:10 +0000",
-      "authors": "Ning Sun, Lei Feng, Pengfei Zhang"
-    },
-    "250730096d08ed20e65b7c25fbe118a3": {
-      "id": "250730096d08ed20e65b7c25fbe118a3",
-      "link": "http://arxiv.org/abs/2510.23089",
-      "title": "Tensor network methods for quantum-inspired image processing and classical optics",
-      "abstract": "Tensor network methods strike a middle ground between fully-fledged quantum computing and classical computing, as they take inspiration from quantum systems to significantly speed up certain classical operations. Their strength lies in their compressive power and the wide variety of efficient algorithms that operate within this compressed space. In this work, we focus on applying these methods to fundamental problems in image processing and classical optics such as wave-front propagation and optical image formation, by using directly or indirectly parallels with quantum mechanics and computation. These quantum-inspired methods are expected to yield faster algorithms with applications ranging from astronomy and earth observation to microscopy and classical imaging more broadly.",
-      "pubdate": "Mon, 27 Oct 2025 07:51:40 +0000",
-      "authors": "Nicolas Allegra"
-    },
-    "c4c74b30c7bd2cb68cbe342eb4101015": {
-      "id": "c4c74b30c7bd2cb68cbe342eb4101015",
-      "link": "http://arxiv.org/abs/2510.22596",
-      "title": "Pinched geometries in $\\mathbf{2}$D Lorentzian quantum Regge calculus",
-      "abstract": "We investigate pinched geometries in a two-dimensional Lorentzian model of quantum Regge calculus (QRC) using the tensor renormalization group (TRG) method. A pinched geometry refers to a configuration with an infinitely long temporal extent, even when the total spacetime area is fixed. We examine several choices of integration measures and triangulations to study whether such geometries can dominate in the limit of infinitely many triangles. Our results indicate that pinched geometries are strongly suppressed, and this suppression is observed across different integral measures and triangulations. These results suggest the possible emergence of smooth geometries as well as a sort of universality for infinitely many triangles.",
-      "pubdate": "Sun, 26 Oct 2025 09:29:21 +0000",
-      "authors": "Yoshiyasu Ito, Daisuke Kadoh, Yuki Sato"
-    },
-    "7a726ea4c893ff3332a8810e416641b2": {
-      "id": "7a726ea4c893ff3332a8810e416641b2",
-      "link": "http://arxiv.org/abs/2510.22506",
-      "title": "Accelerated Tensor Completion via Trace-Regularized Fully-Connected Tensor Network",
-      "abstract": "The fully-connected tensor network (FCTN) decomposition has gained prominence in the field of tensor completion owing to its powerful capacity to capture the low-rank characteristics of tensors. Nevertheless, the recovery of local details in the reconstructed tensor still leaves scope for enhancement. In this paper, we propose efficient tensor completion model that incorporates trace regularization within the FCTN decomposition framework. The trace regularization is constructed based on the mode-$k$ unfolding of the FCTN factors combined with periodically modified negative laplacian. The trace regularization promotes the smoothness of the FCTN factors through discrete second-order derivative penalties, thereby enhancing the continuity and local recovery performance of the reconstructed tensor. To solve the proposed model, we develop an efficient algorithm within the proximal alternating minimization (PAM) framework and theoretically prove its convergence. To reduce the runtime of the proposed algorithm, we design an intermediate tensor reuse mechanism that can decrease runtime by 10\\%-30\\% without affecting image recovery, with more significant improvements for larger-scale data. A comprehensive complexity analysis reveals that the mechanism attains a reduced computational complexity. Numerical experiments demonstrate that the proposed method outperforms existing approaches.",
-      "pubdate": "Sun, 26 Oct 2025 03:08:54 +0000",
-      "authors": "Wenchao Xie, Qingsong Wang, Chengcheng Yan, Zheng Peng"
-    },
-    "bddd537e56d907a38bcfa49fd03c8058": {
-      "id": "bddd537e56d907a38bcfa49fd03c8058",
-      "link": "http://arxiv.org/abs/2510.22311",
-      "title": "Pauli Propagation: Simulating Quantum Spin Dynamics via Operator Complexity",
-      "abstract": "Simulating real-time quantum dynamics in interacting spin systems is a fundamental challenge, where exact diagonalization suffers from exponential Hilbert-space growth and tensor-network methods face entanglement barriers. In this work, we introduce a scalable Pauli propagation approach that evolves local observables directly in the Heisenberg picture. Theoretically, we derive a priori error bounds governed by the Operator Stabilizer Rényi entropy (OSE) $\\mathcal{S}^\\alpha(O)$, which explicitly links the truncation accuracy to operator complexity and prescribes a suitable Top-$K$ truncation strategy. For the 1D Heisenberg model with $J_z = 0$, we prove the number of non-zero Pauli coefficients scales quadratically in Trotter steps, establishing the compressibility of Heisenberg-evolved operators. Numerically, we validate the framework on XXZ Heisenberg chain benchmarks, showing high accuracy with small $K$ in free regimes ($J_z = 0$) and competitive performance against tensor-network methods (e.g., TDVP) in interacting cases ($J_z = 0.5$). These results establish an observable-centric simulator whose cost is governed by operator complexity rather than entanglement, offering a practical alternative for studying non-equilibrium dynamics in quantum many-body systems.",
-      "pubdate": "Sat, 25 Oct 2025 14:24:12 +0000",
-      "authors": "Yuguo Shao, Song Cheng, Zhengwei Liu"
-    },
-    "fb155b54cb12cc9b876fe5e957bb4d8b": {
-      "id": "fb155b54cb12cc9b876fe5e957bb4d8b",
-      "link": "http://arxiv.org/abs/2510.22138",
-      "title": "Tractable Shapley Values and Interactions via Tensor Networks",
-      "abstract": "We show how to replace the O(2^n) coalition enumeration over n features behind Shapley values and Shapley-style interaction indices with a few-evaluation scheme on a tensor-network (TN) surrogate: TN-SHAP. The key idea is to represent a predictor's local behavior as a factorized multilinear map, so that coalitional quantities become linear probes of a coefficient tensor. TN-SHAP replaces exhaustive coalition sweeps with just a small number of targeted evaluations to extract order-k Shapley interactions. In particular, both order-1 (single-feature) and order-2 (pairwise) computations have cost O(n*poly(chi) + n^2), where chi is the TN's maximal cut rank. We provide theoretical guarantees on the approximation error and tractability of TN-SHAP. On UCI datasets, our method matches enumeration on the fitted surrogate while reducing evaluation by orders of magnitude and achieves 25-1000x wall-clock speedups over KernelSHAP-IQ at comparable accuracy, while amortizing training across local cohorts.",
-      "pubdate": "Sat, 25 Oct 2025 03:21:20 +0000",
-      "authors": "Farzaneh Heidari, Chao Li, Farzaneh Heidari"
-    },
-    "f78c329b9a169494669d92f4c4922466": {
-      "id": "f78c329b9a169494669d92f4c4922466",
-      "link": "http://arxiv.org/abs/2510.21927",
-      "title": "Temporal Complexity Hierarchies in Solvable Quantum Many-Body Dynamics",
-      "abstract": "The influence matrix (IM) provides a powerful framework for characterizing nonequilibrium quantum many-body dynamics by encoding multitime correlations into tensor-network states. Understanding how its computational complexity relates to underlying dynamics is crucial for both theoretical insight and practical utility, yet remains largely unexplored despite a few case studies. Here, we address this question for a family of brickwork quantum circuits ranging from integrable to chaotic regimes. Using tools from geometric group theory, we identify three qualitatively distinct scalings of temporal entanglement entropy, establishing a hierarchy of computational resources required for accurate tensor-network representations of the IM for these models. We further analyze the memory structure of the IM and distinguish between classical and quantum temporal correlations. In particular, for certain examples, we identify effectively classical IMs that admit an efficient Monte Carlo algorithm for computing multitime correlations. In more generic settings without an explicit classical description of the IM, we introduce an operational measure of quantum memory with an experimental protocol, and discuss examples exhibiting long-time genuinely quantum correlations. Our results establish a new connection between quantum many-body dynamics and group theory, providing fresh insights into the complexity of the IM and its intricate connection to the physical characteristics of the dynamics.",
-      "pubdate": "Fri, 24 Oct 2025 18:00:08 +0000",
-      "authors": "He-Ran Wang, Ilya Vilkoviskiy, Dmitry A. Abanin"
-    },
-    "af6fe441c53ff51bfb04ab879c760f6f": {
-      "id": "af6fe441c53ff51bfb04ab879c760f6f",
-      "link": "http://arxiv.org/abs/2510.21844",
-      "title": "KARIPAP: Quantum-Inspired Tensor Network Compression of Large Language Models Using Infinite Projected Entangled Pair States and Tensor Renormalization Group",
-      "abstract": "Large Language Models (LLMs) like ChatGPT and LLaMA drive rapid progress in generative AI, yet their huge parameter scales create severe computational and environmental burdens. High training costs, energy use, and limited device deployment hinder accessibility. Existing compression - pruning, distillation, low-rank, and quantization - reduces size but ignores complex inter-layer correlations. We propose KARIPAP, a quantum-inspired tensor network compression using Infinite Projected Entangled Pair States (iPEPS) and Tensor Renormalization Group (TRG) contraction. Unlike 1D Matrix Product States, iPEPS captures multi-directional entanglement in attention and deep transformer layers. TRG ensures polynomial-time contraction, making tensorization feasible while preserving key correlation geometry. Experiments on LLaMA-2 7B show up to 93% memory and 70% parameter reduction, with 50% faster training, 25% faster inference, and only 2-3% accuracy loss. Layer-wise entanglement profiling reveals redundancy in deeper layers, confirming their suitability for tensor factorization. KARIPAP demonstrates that modern LLMs occupy low-dimensional entanglement manifolds, enabling scalable, energy-efficient, and quantum-aware AI architectures.",
-      "pubdate": "Wed, 22 Oct 2025 15:43:09 +0000",
-      "authors": "Azree Nazri"
-    },
-    "3b311a86329f090b70186f24ca1ea605": {
-      "id": "3b311a86329f090b70186f24ca1ea605",
-      "link": "http://arxiv.org/abs/2510.21767",
-      "title": "Quantum-inspired space-time PDE solver and dynamic mode decomposition",
-      "abstract": "Numerical solutions of partial differential equations (PDEs) are central to the understanding of dynamical systems. Standard approaches involving time-stepping schemes compute the solution at each time step, which becomes too costly when simulating long-term dynamics. Alternatively, space-time methods that treat the combined space-time domain simultaneously promise better stability and accuracy. Interestingly, data-driven approaches for learning and predicting dynamics, such as dynamic mode decomposition (DMD), also employ a combined space-time representation. However, the curse of dimensionality often limits the practical benefits of space-time methods. In this work, we investigate quantum-inspired methods for space-time approaches, both for solving PDEs and for making DMD predictions. We achieve this goal by treating both spatial and temporal dimensions within a single matrix product state (MPS) encoding. First, we benchmark our MPS space-time solver for both linear and nonlinear PDEs, observing that the MPS ansatz accurately captures the underlying spatio-temporal correlations while having significantly fewer degrees of freedom. Second, we develop an MPS-DMD algorithm to make accurate long-term predictions of nonlinear systems, with runtime scaling logarithmically in both spatial and temporal resolution. This research highlights the role of tensor networks in developing effective and interpretable models, bridging the gap between numerical methods and data-driven approaches.",
-      "pubdate": "Wed, 15 Oct 2025 14:39:44 +0000",
-      "authors": "Raghavendra Dheeraj Peddinti, Stefano Pisoni, Narsimha Rapaka, Mohamed K. Riahi, Egor Tiunov, Leandro Aolita"
     }
   }
 }
