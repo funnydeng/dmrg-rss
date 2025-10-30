@@ -1,6 +1,70 @@
 {
-  "last_updated": "2025-10-29T12:50:36.890826+00:00",
+  "last_updated": "2025-10-30T01:51:48.121693+00:00",
   "entries": {
+    "28c0b3ca0bdebc8e46e08c2a7665f5a7": {
+      "id": "28c0b3ca0bdebc8e46e08c2a7665f5a7",
+      "link": "http://arxiv.org/abs/2510.24713",
+      "title": "Distinct Types of Parent Hamiltonians for Quantum States: Insights from the $W$ State as a Quantum Many-Body Scar",
+      "abstract": "The construction of parent Hamiltonians that possess a given state as their ground state is a well-studied problem. In this work, we generalize this notion by considering simple quantum states and examining the local Hamiltonians that have these states as exact eigenstates.These states often correspond to Quantum Many-Body Scars (QMBS) of their respective parent Hamiltonians.Motivated by earlier works on Hamiltonians with QMBS, in this work we formalize the differences between three distinct types of parent Hamiltonians, which differ in their decompositions into strictly local terms with the same eigenstates. We illustrate this classification using the $W$ state as the primary example, for which we rigorously derive the complete set of local parent Hamiltonians, which also allows us to establish general results such as the existence of asymptotic QMBS, and distinct dynamical signatures associated with the different parent Hamiltonian types. Finally, we derive more general results on the parent Hamiltonian types that allow us to obtain some immediate results for simple quantum states such as product states, where only a single type exists, and for short-range-entangled states, for which we identify constraints on the admissible types. Altogether, our work opens the door to classifying the rich structures and dynamical properties of parent Hamiltonians that arise from the interplay between locality and QMBS.",
+      "pubdate": "Tue, 28 Oct 2025 17:59:12 +0000",
+      "authors": "Lei Gioia, Sanjay Moudgalya, Olexei I. Motrunich"
+    },
+    "81f201b55c2d234ce51cd21e3360cbfe": {
+      "id": "81f201b55c2d234ce51cd21e3360cbfe",
+      "link": "http://arxiv.org/abs/2510.24681",
+      "title": "Renormalization-group-based preparation of matrix product states on up to 80 qubits",
+      "abstract": "A key challenge for quantum computers is the efficient preparation of many-body entangled states across many qubits. In this work, we demonstrate the preparation of matrix product states (MPS) using a renormalization-group(RG)-based quantum algorithm on superconducting quantum hardware. Compared to sequential generation, it has been shown that the RG-based protocol asymptotically prepares short-range correlated MPS with an exponentially shallower circuit depth (when scaling system size), but it is not yet clear for which system sizes it starts to convey an advantage. We thus apply this algorithm to prepare a class of MPS exhibiting a phase transition between a symmetry-protected topological (SPT) and a trivial phase for systems of up to 80 qubits. We find that the reduced depth of the RG-based circuits makes them more resilient to noise, and that they generally outperform the sequential circuits for large systems, as we showcase by measuring string-order-like local expectation values and energy densities. We thus demonstrate that the RG-based protocol enables large-scale preparation of MPS and, in particular, SPT-ordered states beyond the fixed point.",
+      "pubdate": "Tue, 28 Oct 2025 17:45:48 +0000",
+      "authors": "Moritz Scheer, Alberto Baiardi, Elisa Bäumer Marty, Zhi-Yuan Wei, Daniel Malz"
+    },
+    "ef0078e8026e8e011ded96b48814aac5": {
+      "id": "ef0078e8026e8e011ded96b48814aac5",
+      "link": "http://arxiv.org/abs/2510.24270",
+      "title": "Signatures of superconducting pairing driven by electron-electron interactions in moiré WSe$_2$/WSe$_2$ homobilayer modelled by Hubbard Hamiltonian",
+      "abstract": "Strong evidence of unconventional superconductivity has been very recently reported experimentally in twisted transition metal dichalcogenide bilayer and gathered a significant amount of interest. Here we consider the Hubbard model on a triangular lattice describing the hole-doped moiré superlattice emerging in WSe$_{2}$/WSe$_{2}$ twisted homobilayer in the moderately correlated regime. By applying the Density Matrix Renormalization Group, we diagonalize the spin-valley-polarized Hamiltonian and show signatures of coexisting singlet and triplet pairings in the range of hole dopings and displacement fields reported in the experiments. In this view, we show that the superconductivity in the WSe$_{2}$/WSe$_{2}$ twisted homobilayer is likely to be induced by electronic correlations and has a mixed-symmetry character. These predictions can shed light on the nature of the superconducting state observed in the twisted homobilayer of WSe$_{2}$/WSe$_{2}$. We also identify the emerging superconducting orders, which are $d_{xy}(d_{x^2-y^2} \\pm id_{xy} )$ and $p_y(p_{x}\\mp ip_{y})$ for the singlet and triplet channels in the cylinder of width three(four), respectively.",
+      "pubdate": "Tue, 28 Oct 2025 10:30:10 +0000",
+      "authors": "Andrzej Biborski, Michał Zegrodnik"
+    },
+    "aef5bbb4a08b891db55bb73ecd18730d": {
+      "id": "aef5bbb4a08b891db55bb73ecd18730d",
+      "link": "http://arxiv.org/abs/2510.24218",
+      "title": "Pilot-Wave Simulator: Exact Classical Sampling from Ideal and Noisy Quantum Circuits up to Hundreds of Qubits",
+      "abstract": "Quantum circuit simulators running on classical computers offer a vital platform for designing, testing, and optimizing quantum algorithms, driving innovation despite limited access to real quantum hardware. However, their scalability is inherently constrained by exponential memory and computational overhead, which restricts accurate simulation of large-scale quantum circuits and often results in approximate output distributions. Here, we propose an exact sampling algorithm that integrates tensor network contraction techniques with a Markov process, wherein a classical state evolves according to the local structure of the quantum circuit. As a demonstration, we target the challenge of generating samples from ideal and noisy QAOA circuits with up to 476 qubits, incorporating both depolarizing and amplitude damping noise models. These results enable further validation of several assumptions and conjectures at a scale previously out of reach, significantly expanding the scope of classical simulation in quantum algorithm research.",
+      "pubdate": "Tue, 28 Oct 2025 09:33:11 +0000",
+      "authors": "Gleb Kalachev, Pavel Mosharev, Zuoheng Zou, Pavel Panteleev, Man-Hong Yung"
+    },
+    "7ca4bae287e241bd8ef2b56d5735dce3": {
+      "id": "7ca4bae287e241bd8ef2b56d5735dce3",
+      "link": "http://arxiv.org/abs/2510.24137",
+      "title": "Matrix product state approach to lossy boson sampling and noisy IQP sampling",
+      "abstract": "Sampling problems have emerged as a central avenue for demonstrating quantum advantage on noisy intermediate-scale quantum devices. However, physical noise can fundamentally alter their computational complexity, often making them classically tractable. Motivated by the recent success of matrix product state (MPS)-based classical simulation of Gaussian boson sampling (Oh et al., 2024), we extend this framework to investigate the classical simulability of other noisy quantum sampling models. We develop MPS-based classical algorithms for lossy boson sampling and noisy instantaneous quantum polynomial-time (IQP) sampling, both of which retain the tunable accuracy characteristic of the MPS approach through the bond dimension. Our approach constructs pure-state decompositions of noisy or lossy input states whose components remain weakly entangled after circuit evolution, thereby providing a means to systematically explore the boundary between quantum-hard and classically-simulable regimes. For boson sampling, we analyze single-photon, Fock, and cat-state inputs, showing that classical simulability emerges at transmission rates scaling as $O(1/\\sqrt{N})$, reaching the known boundary of quantum advantage with a tunable and scalable method. Beyond reproducing previous thresholds, our algorithm offers significantly improved control over the accuracy-efficiency trade-off. It further extends the applicability of MPS-based simulation to broader classes of noisy quantum sampling models, including IQP circuits.",
+      "pubdate": "Tue, 28 Oct 2025 07:23:10 +0000",
+      "authors": "Sojeong Park, Changhun Oh"
+    },
+    "d1de116e11d2a2f5713a00cc5ed0a987": {
+      "id": "d1de116e11d2a2f5713a00cc5ed0a987",
+      "link": "http://arxiv.org/abs/2510.23919",
+      "title": "Thermal nature of confining strings",
+      "abstract": "We investigate the quantum statistical properties of the confining string connecting a static fermion-antifermion pair in the massive Schwinger model. By analyzing the reduced density matrix of the subsystem located in between the fermion and antifermion, we demonstrate that as the interfermion separation approaches the string-breaking distance, the overlap between the microscopic density matrix and an effective thermal density matrix exhibits a pronounced, narrow peak, approaching unity at the onset of string breaking. This behavior reveals that the confining flux tube evolves toward a genuinely thermal state as the separation between the charges grows, even in the absence of an external heat bath. In other words, one cannot tell whether a reduced state of the subsystem arises from a surrounding heat bath or from entanglement with the rest of the system. The entanglement spectrum near the critical string-breaking distance exhibits a rapid transition from the dominance of a single state describing the confining electric string towards a strongly entangled state containing virtual fermion-antifermion pairs. Our findings establish a quantitative link between confinement, entanglement, and emergent thermality, and suggest that string breaking corresponds to a microscopic thermalization transition within the flux tube.",
+      "pubdate": "Mon, 27 Oct 2025 23:03:16 +0000",
+      "authors": "Sebastian Grieninger, Dmitri E. Kharzeev, Eliana Marroquin"
+    },
+    "41907884b04b16e1787121ab5a8e2b2e": {
+      "id": "41907884b04b16e1787121ab5a8e2b2e",
+      "link": "http://arxiv.org/abs/2510.23720",
+      "title": "Chiral gapped states are universally non-topological",
+      "abstract": "We propose an operator generalization of the Li-Haldane conjecture regarding the entanglement Hamiltonian of a disk in a 2+1D chiral gapped groundstate. The logic applies to regions with sharp corners, from which we derive several universal properties regarding corner entanglement. These universal properties follow from a set of locally-checkable conditions on the wavefunction. We also define a quantity $(\\mathfrak{c}_{\\text{tot}})_{\\text{min}}$ that reflects the robustness of corner entanglement contributions, and show that it provides an obstruction to a gapped boundary. One reward from our analysis is that we can construct a local gapped Hamiltonian within the same chiral gapped phase from a given wavefunction; we conjecture that it is closer to the low-energy renormalization group fixed point than the original parent Hamiltonian. Our analysis of corner entanglement reveals the emergence of a universal conformal geometry encoded in the entanglement structure of bulk regions of chiral gapped states that is not visible in topological field theory.",
+      "pubdate": "Mon, 27 Oct 2025 18:00:20 +0000",
+      "authors": "Xiang Li, Ting-Chun Lin, Yahya Alavirad, John McGreevy"
+    },
+    "1063ea25fd93bbf88ee01ceb1bb866df": {
+      "id": "1063ea25fd93bbf88ee01ceb1bb866df",
+      "link": "http://arxiv.org/abs/2510.23618",
+      "title": "Repulsively Bound Hadrons in a $\\mathbb{Z}_2$ Lattice Gauge Theory",
+      "abstract": "A paradigmatic model, the $\\mathbb{Z}_2$ lattice gauge theory exhibits confinement mediated by the gauge field that binds pairs of particles into mesons, drawing connections to quantum chromodynamics. In the absence of any additional attractive interactions between particles, mesons are not known to bind in this model. Here, we show that resonant pair-production terms give rise to an additional repulsive binding mechanism that forms a stable ``hadron'' bound state of two mesons. A high-energy state, the hadron is stabilized by being off-resonantly coupled to a continuum. We study the dynamical formation of this bound state starting from local excitations. We use matrix product state techniques based on the time-evolving block decimation algorithm to perform our numerical simulations and analyze the effect of model parameters on hadron formation. Furthermore, we derive an effective model that explains its formation. Our findings are amenable to experimental observation on modern quantum hardware from superconducting qubits to trapped ions.",
+      "pubdate": "Tue, 21 Oct 2025 18:00:03 +0000",
+      "authors": "Sayak Guha Roy, Vaibhav Sharma, Kaidi Xu, Umberto Borla, Jad C. Halimeh, Kaden R. A. Hazzard"
+    },
     "f04833ee41d8a62ef74bc124ae2230e1": {
       "id": "f04833ee41d8a62ef74bc124ae2230e1",
       "link": "http://arxiv.org/abs/2510.23555",
@@ -8072,70 +8136,6 @@
       "link": "http://arxiv.org/abs/2412.21055",
       "abstract": "We consider the surface code under errors featuring both coherent and incoherent components and study the coherence of the corresponding logical noise channel and how this impacts information-theoretic measures of code performance, namely coherent information and quantum relative entropy. Using numerical simulations and a phenomenological field theory, focusing on the most general single-qubit X-error channel, we show that, for any nonzero incoherent noise component, the coherence of the logical noise is exponentially suppressed with the code distance. We also find that the information-theoretic measures require this suppression to detect optimal thresholds for Pauli recovery; they thus require increasingly large distances for increasing error coherence and ultimately break down for fully coherent errors. To obtain our results, we develop a statistical mechanics mapping and a corresponding matrix-product-state algorithm for approximate syndrome sampling. These methods enable the large-scale simulation of these non-Pauli errors, including their maximum-likelihood thresholds, away from the limits captured by previous approaches.",
       "pubdate": "Mon, 30 Dec 2024 16:14:55 +0000"
-    },
-    "28c0b3ca0bdebc8e46e08c2a7665f5a7": {
-      "id": "28c0b3ca0bdebc8e46e08c2a7665f5a7",
-      "link": "http://arxiv.org/abs/2510.24713",
-      "title": "Distinct Types of Parent Hamiltonians for Quantum States: Insights from the $W$ State as a Quantum Many-Body Scar",
-      "abstract": "The construction of parent Hamiltonians that possess a given state as their ground state is a well-studied problem. In this work, we generalize this notion by considering simple quantum states and examining the local Hamiltonians that have these states as exact eigenstates.These states often correspond to Quantum Many-Body Scars (QMBS) of their respective parent Hamiltonians.Motivated by earlier works on Hamiltonians with QMBS, in this work we formalize the differences between three distinct types of parent Hamiltonians, which differ in their decompositions into strictly local terms with the same eigenstates. We illustrate this classification using the $W$ state as the primary example, for which we rigorously derive the complete set of local parent Hamiltonians, which also allows us to establish general results such as the existence of asymptotic QMBS, and distinct dynamical signatures associated with the different parent Hamiltonian types. Finally, we derive more general results on the parent Hamiltonian types that allow us to obtain some immediate results for simple quantum states such as product states, where only a single type exists, and for short-range-entangled states, for which we identify constraints on the admissible types. Altogether, our work opens the door to classifying the rich structures and dynamical properties of parent Hamiltonians that arise from the interplay between locality and QMBS.",
-      "pubdate": "Tue, 28 Oct 2025 17:59:12 +0000",
-      "authors": "Lei Gioia, Sanjay Moudgalya, Olexei I. Motrunich"
-    },
-    "81f201b55c2d234ce51cd21e3360cbfe": {
-      "id": "81f201b55c2d234ce51cd21e3360cbfe",
-      "link": "http://arxiv.org/abs/2510.24681",
-      "title": "Renormalization-group-based preparation of matrix product states on up to 80 qubits",
-      "abstract": "A key challenge for quantum computers is the efficient preparation of many-body entangled states across many qubits. In this work, we demonstrate the preparation of matrix product states (MPS) using a renormalization-group(RG)-based quantum algorithm on superconducting quantum hardware. Compared to sequential generation, it has been shown that the RG-based protocol asymptotically prepares short-range correlated MPS with an exponentially shallower circuit depth (when scaling system size), but it is not yet clear for which system sizes it starts to convey an advantage. We thus apply this algorithm to prepare a class of MPS exhibiting a phase transition between a symmetry-protected topological (SPT) and a trivial phase for systems of up to 80 qubits. We find that the reduced depth of the RG-based circuits makes them more resilient to noise, and that they generally outperform the sequential circuits for large systems, as we showcase by measuring string-order-like local expectation values and energy densities. We thus demonstrate that the RG-based protocol enables large-scale preparation of MPS and, in particular, SPT-ordered states beyond the fixed point.",
-      "pubdate": "Tue, 28 Oct 2025 17:45:48 +0000",
-      "authors": "Moritz Scheer, Alberto Baiardi, Elisa Bäumer Marty, Zhi-Yuan Wei, Daniel Malz"
-    },
-    "ef0078e8026e8e011ded96b48814aac5": {
-      "id": "ef0078e8026e8e011ded96b48814aac5",
-      "link": "http://arxiv.org/abs/2510.24270",
-      "title": "Signatures of superconducting pairing driven by electron-electron interactions in moiré WSe$_2$/WSe$_2$ homobilayer modelled by Hubbard Hamiltonian",
-      "abstract": "Strong evidence of unconventional superconductivity has been very recently reported experimentally in twisted transition metal dichalcogenide bilayer and gathered a significant amount of interest. Here we consider the Hubbard model on a triangular lattice describing the hole-doped moiré superlattice emerging in WSe$_{2}$/WSe$_{2}$ twisted homobilayer in the moderately correlated regime. By applying the Density Matrix Renormalization Group, we diagonalize the spin-valley-polarized Hamiltonian and show signatures of coexisting singlet and triplet pairings in the range of hole dopings and displacement fields reported in the experiments. In this view, we show that the superconductivity in the WSe$_{2}$/WSe$_{2}$ twisted homobilayer is likely to be induced by electronic correlations and has a mixed-symmetry character. These predictions can shed light on the nature of the superconducting state observed in the twisted homobilayer of WSe$_{2}$/WSe$_{2}$. We also identify the emerging superconducting orders, which are $d_{xy}(d_{x^2-y^2} \\pm id_{xy} )$ and $p_y(p_{x}\\mp ip_{y})$ for the singlet and triplet channels in the cylinder of width three(four), respectively.",
-      "pubdate": "Tue, 28 Oct 2025 10:30:10 +0000",
-      "authors": "Andrzej Biborski, Michał Zegrodnik"
-    },
-    "aef5bbb4a08b891db55bb73ecd18730d": {
-      "id": "aef5bbb4a08b891db55bb73ecd18730d",
-      "link": "http://arxiv.org/abs/2510.24218",
-      "title": "Pilot-Wave Simulator: Exact Classical Sampling from Ideal and Noisy Quantum Circuits up to Hundreds of Qubits",
-      "abstract": "Quantum circuit simulators running on classical computers offer a vital platform for designing, testing, and optimizing quantum algorithms, driving innovation despite limited access to real quantum hardware. However, their scalability is inherently constrained by exponential memory and computational overhead, which restricts accurate simulation of large-scale quantum circuits and often results in approximate output distributions. Here, we propose an exact sampling algorithm that integrates tensor network contraction techniques with a Markov process, wherein a classical state evolves according to the local structure of the quantum circuit. As a demonstration, we target the challenge of generating samples from ideal and noisy QAOA circuits with up to 476 qubits, incorporating both depolarizing and amplitude damping noise models. These results enable further validation of several assumptions and conjectures at a scale previously out of reach, significantly expanding the scope of classical simulation in quantum algorithm research.",
-      "pubdate": "Tue, 28 Oct 2025 09:33:11 +0000",
-      "authors": "Gleb Kalachev, Pavel Mosharev, Zuoheng Zou, Pavel Panteleev, Man-Hong Yung"
-    },
-    "7ca4bae287e241bd8ef2b56d5735dce3": {
-      "id": "7ca4bae287e241bd8ef2b56d5735dce3",
-      "link": "http://arxiv.org/abs/2510.24137",
-      "title": "Matrix product state approach to lossy boson sampling and noisy IQP sampling",
-      "abstract": "Sampling problems have emerged as a central avenue for demonstrating quantum advantage on noisy intermediate-scale quantum devices. However, physical noise can fundamentally alter their computational complexity, often making them classically tractable. Motivated by the recent success of matrix product state (MPS)-based classical simulation of Gaussian boson sampling (Oh et al., 2024), we extend this framework to investigate the classical simulability of other noisy quantum sampling models. We develop MPS-based classical algorithms for lossy boson sampling and noisy instantaneous quantum polynomial-time (IQP) sampling, both of which retain the tunable accuracy characteristic of the MPS approach through the bond dimension. Our approach constructs pure-state decompositions of noisy or lossy input states whose components remain weakly entangled after circuit evolution, thereby providing a means to systematically explore the boundary between quantum-hard and classically-simulable regimes. For boson sampling, we analyze single-photon, Fock, and cat-state inputs, showing that classical simulability emerges at transmission rates scaling as $O(1/\\sqrt{N})$, reaching the known boundary of quantum advantage with a tunable and scalable method. Beyond reproducing previous thresholds, our algorithm offers significantly improved control over the accuracy-efficiency trade-off. It further extends the applicability of MPS-based simulation to broader classes of noisy quantum sampling models, including IQP circuits.",
-      "pubdate": "Tue, 28 Oct 2025 07:23:10 +0000",
-      "authors": "Sojeong Park, Changhun Oh"
-    },
-    "d1de116e11d2a2f5713a00cc5ed0a987": {
-      "id": "d1de116e11d2a2f5713a00cc5ed0a987",
-      "link": "http://arxiv.org/abs/2510.23919",
-      "title": "Thermal nature of confining strings",
-      "abstract": "We investigate the quantum statistical properties of the confining string connecting a static fermion-antifermion pair in the massive Schwinger model. By analyzing the reduced density matrix of the subsystem located in between the fermion and antifermion, we demonstrate that as the interfermion separation approaches the string-breaking distance, the overlap between the microscopic density matrix and an effective thermal density matrix exhibits a pronounced, narrow peak, approaching unity at the onset of string breaking. This behavior reveals that the confining flux tube evolves toward a genuinely thermal state as the separation between the charges grows, even in the absence of an external heat bath. In other words, one cannot tell whether a reduced state of the subsystem arises from a surrounding heat bath or from entanglement with the rest of the system. The entanglement spectrum near the critical string-breaking distance exhibits a rapid transition from the dominance of a single state describing the confining electric string towards a strongly entangled state containing virtual fermion-antifermion pairs. Our findings establish a quantitative link between confinement, entanglement, and emergent thermality, and suggest that string breaking corresponds to a microscopic thermalization transition within the flux tube.",
-      "pubdate": "Mon, 27 Oct 2025 23:03:16 +0000",
-      "authors": "Sebastian Grieninger, Dmitri E. Kharzeev, Eliana Marroquin"
-    },
-    "41907884b04b16e1787121ab5a8e2b2e": {
-      "id": "41907884b04b16e1787121ab5a8e2b2e",
-      "link": "http://arxiv.org/abs/2510.23720",
-      "title": "Chiral gapped states are universally non-topological",
-      "abstract": "We propose an operator generalization of the Li-Haldane conjecture regarding the entanglement Hamiltonian of a disk in a 2+1D chiral gapped groundstate. The logic applies to regions with sharp corners, from which we derive several universal properties regarding corner entanglement. These universal properties follow from a set of locally-checkable conditions on the wavefunction. We also define a quantity $(\\mathfrak{c}_{\\text{tot}})_{\\text{min}}$ that reflects the robustness of corner entanglement contributions, and show that it provides an obstruction to a gapped boundary. One reward from our analysis is that we can construct a local gapped Hamiltonian within the same chiral gapped phase from a given wavefunction; we conjecture that it is closer to the low-energy renormalization group fixed point than the original parent Hamiltonian. Our analysis of corner entanglement reveals the emergence of a universal conformal geometry encoded in the entanglement structure of bulk regions of chiral gapped states that is not visible in topological field theory.",
-      "pubdate": "Mon, 27 Oct 2025 18:00:20 +0000",
-      "authors": "Xiang Li, Ting-Chun Lin, Yahya Alavirad, John McGreevy"
-    },
-    "1063ea25fd93bbf88ee01ceb1bb866df": {
-      "id": "1063ea25fd93bbf88ee01ceb1bb866df",
-      "link": "http://arxiv.org/abs/2510.23618",
-      "title": "Repulsively Bound Hadrons in a $\\mathbb{Z}_2$ Lattice Gauge Theory",
-      "abstract": "A paradigmatic model, the $\\mathbb{Z}_2$ lattice gauge theory exhibits confinement mediated by the gauge field that binds pairs of particles into mesons, drawing connections to quantum chromodynamics. In the absence of any additional attractive interactions between particles, mesons are not known to bind in this model. Here, we show that resonant pair-production terms give rise to an additional repulsive binding mechanism that forms a stable ``hadron'' bound state of two mesons. A high-energy state, the hadron is stabilized by being off-resonantly coupled to a continuum. We study the dynamical formation of this bound state starting from local excitations. We use matrix product state techniques based on the time-evolving block decimation algorithm to perform our numerical simulations and analyze the effect of model parameters on hadron formation. Furthermore, we derive an effective model that explains its formation. Our findings are amenable to experimental observation on modern quantum hardware from superconducting qubits to trapped ions.",
-      "pubdate": "Tue, 21 Oct 2025 18:00:03 +0000",
-      "authors": "Sayak Guha Roy, Vaibhav Sharma, Kaidi Xu, Umberto Borla, Jad C. Halimeh, Kaden R. A. Hazzard"
     }
   }
 }
