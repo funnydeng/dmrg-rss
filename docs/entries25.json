@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-30T01:51:48.121693+00:00",
+  "last_updated": "2025-10-30T12:48:23.547075+00:00",
   "entries": {
     "28c0b3ca0bdebc8e46e08c2a7665f5a7": {
       "id": "28c0b3ca0bdebc8e46e08c2a7665f5a7",
@@ -8136,6 +8136,22 @@
       "link": "http://arxiv.org/abs/2412.21055",
       "abstract": "We consider the surface code under errors featuring both coherent and incoherent components and study the coherence of the corresponding logical noise channel and how this impacts information-theoretic measures of code performance, namely coherent information and quantum relative entropy. Using numerical simulations and a phenomenological field theory, focusing on the most general single-qubit X-error channel, we show that, for any nonzero incoherent noise component, the coherence of the logical noise is exponentially suppressed with the code distance. We also find that the information-theoretic measures require this suppression to detect optimal thresholds for Pauli recovery; they thus require increasingly large distances for increasing error coherence and ultimately break down for fully coherent errors. To obtain our results, we develop a statistical mechanics mapping and a corresponding matrix-product-state algorithm for approximate syndrome sampling. These methods enable the large-scale simulation of these non-Pauli errors, including their maximum-likelihood thresholds, away from the limits captured by previous approaches.",
       "pubdate": "Mon, 30 Dec 2024 16:14:55 +0000"
+    },
+    "e210973d4658d904ce7955ef67ccf01b": {
+      "id": "e210973d4658d904ce7955ef67ccf01b",
+      "link": "http://arxiv.org/abs/2510.25022",
+      "title": "Finite-Temperature Study of the Hubbard Model via Enhanced Exponential Tensor Renormalization Group",
+      "abstract": "The two-dimensional (2D) Hubbard model has long attracted interest for its rich phase diagram and its relevance to high-$T_c$ superconductivity. However, reliable finite-temperature studies remain challenging due to the exponential complexity of many-body interactions. Here, we introduce an enhanced $1\\text{s}^+$ eXponential Tensor Renormalization Group algorithm that enables efficient finite-temperature simulations of the 2D Hubbard model. By exploring an expanded space, our approach achieves two-site update accuracy at the computational cost of a one-site update, and delivers up to 50% acceleration for Hubbard-like systems, which enables simulations down to $T\\!\\approx\\!0.004t$. This advance permits a direct investigation of superconducting order over a wide temperature range and facilitates a comparison with zero-temperature infinite Projected Entangled Pair State simulations. Finally, we compile a comprehensive dataset of snapshots spanning the relevant region of the phase diagram, providing a valuable reference for Artificial Intelligence-driven analyses of the Hubbard model and a comparison with cold-atom experiments.",
+      "pubdate": "Tue, 28 Oct 2025 22:40:36 +0000",
+      "authors": "Changkai Zhang, Jan von Delft"
+    },
+    "9f30493afacee1df7e251e1f90fc11be": {
+      "id": "9f30493afacee1df7e251e1f90fc11be",
+      "link": "http://arxiv.org/abs/2510.25358",
+      "title": "Entanglement-enhanced correlation propagation in the one-dimensional SU($N$) Fermi-Hubbard model",
+      "abstract": "We investigate the dynamics of correlation propagation in the one-dimensional Fermi-Hubbard model with SU($N$) symmetry when the replusive-interaction strength is quenched from a large value, at which the ground state is a Mott-insulator with $1/N$ filling, to an intermediate value. From approximate analytical insights based on a simple model that captures the essential physics of the doublon excitations, we show that entanglement in the initial state leads to collective enhancement of the propagation velocity $v_{\\text{SU}(N)}$ when $N>2$, becoming equal to the velocity of the Bose-Hubbard model in the large-$N$ limit. These results are supported by numerical calculations of the density-density correlation in the quench dynamics for $N=2,3,4,$ and $6$.",
+      "pubdate": "Wed, 29 Oct 2025 10:23:33 +0000",
+      "authors": "Mathias Mikkelsen, Ippei Danshita"
     }
   }
 }
