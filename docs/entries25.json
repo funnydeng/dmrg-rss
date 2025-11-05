@@ -1,6 +1,14 @@
 {
-  "last_updated": "2025-11-05T01:50:21.888869+00:00",
+  "last_updated": "2025-11-05T12:49:32.255940+00:00",
   "entries": {
+    "9194fdb976d08d43c3ffe5591f073f75": {
+      "id": "9194fdb976d08d43c3ffe5591f073f75",
+      "link": "http://arxiv.org/abs/2510.26859",
+      "title": "A Non-Variational Quantum Approach to the Job Shop Scheduling Problem",
+      "abstract": "Quantum heuristics offer a potential advantage for combinatorial optimization but are constrained by near-term hardware limitations. We introduce Iterative-QAOA, a variant of QAOA designed to mitigate these constraints. The algorithm combines a non-variational, shallow-depth circuit approach using fixed-parameter schedules with an iterative warm-starting process. We benchmark the algorithm on Just-in-Time Job Shop Scheduling Problem (JIT-JSSP) instances on IonQ Forte Generation QPUs, representing some of the largest such problems ever executed on quantum hardware. We compare the performance of the algorithm against both the Variational Quantum Imaginary Time Evolution (VarQITE) algorithm and the non-variational Linear Ramp (LR) QAOA algorithm. We find that Iterative-QAOA robustly converges to find optimal solutions as well as high-quality, near-optimal solutions for all problem instances evaluated. We evaluate the algorithm on larger problem instances up to 97 qubits using tensor network simulations. The scaling behavior of the algorithm indicates potential for solving industrial-scale problems on fault-tolerant quantum computers.",
+      "pubdate": "Thu, 30 Oct 2025 16:14:13 +0000",
+      "authors": "Miguel Angel Lopez-Ruiz, Emily L. Tucker, Emma M. Arnold, Evgeny Epifanovsky, Ananth Kaushik, Martin Roetteler"
+    },
     "9e7f9af6ac793b94fab8b5ea73a55c96": {
       "id": "9e7f9af6ac793b94fab8b5ea73a55c96",
       "link": "http://arxiv.org/abs/2511.01845",
@@ -80,14 +88,6 @@
       "abstract": "Artificial Intelligence (AI) has become an exceptionally powerful tool for analyzing scientific data. In particular, attention-based architectures have demonstrated a remarkable capability to capture complex correlations and to furnish interpretable insights into latent, otherwise inconspicuous patterns. This progress motivates the application of AI techniques to the analysis of strongly correlated electrons, which remain notoriously challenging to study using conventional theoretical approaches. Here, we propose novel AI workflows for analyzing snapshot datasets from tensor-network simulations of the two-dimensional (2D) Hubbard model over a broad range of temperature and doping. The 2D Hubbard model is an archetypal strongly correlated system, hosting diverse intriguing phenomena including Mott insulators, anomalous metals, and high-$T_c$ superconductivity. Our AI techniques yield fresh perspectives on the intricate quantum correlations underpinning these phenomena and facilitate universal omnimetry for ultracold-atom simulations of the corresponding strongly correlated systems.",
       "pubdate": "Thu, 30 Oct 2025 17:05:02 +0000",
       "authors": "Changkai Zhang, Jan von Delft"
-    },
-    "9194fdb976d08d43c3ffe5591f073f75": {
-      "id": "9194fdb976d08d43c3ffe5591f073f75",
-      "link": "http://arxiv.org/abs/2510.26859",
-      "title": "A Non-Variational Quantum Approach to the Job Shop Scheduling Problem",
-      "abstract": "Quantum heuristics offer a potential advantage for combinatorial optimization but are constrained by near-term hardware limitations. We introduce Iterative-QAOA, a variant of QAOA designed to mitigate these constraints. The algorithm combines a non-variational, shallow-depth circuit approach using fixed-parameter schedules with an iterative warm-starting process. We benchmark the algorithm on Just-in-Time Job Shop Scheduling Problem (JIT-JSSP) instances on IonQ Forte Generation QPUs, representing some of the largest such problems ever executed on quantum hardware. We compare the performance of the algorithm against both the Variational Quantum Imaginary Time Evolution (VarQITE) algorithm and the non-variational Linear Ramp (LR) QAOA algorithm. We find that Iterative-QAOA robustly converges to find optimal solutions as well as high-quality, near-optimal solutions for all problem instances evaluated. We evaluate the algorithm on larger problem instances up to 97 qubits using tensor network simulations. The scaling behavior of the algorithm indicates potential for solving industrial-scale problems on fault-tolerant quantum computers.",
-      "pubdate": "Thu, 30 Oct 2025 16:14:13 +0000",
-      "authors": "Miguel Angel Lopez-Ruiz, Emily L. Tucker, Emma M. Arnold, Evgeny Epifanovsky, Ananth Kaushik, Martin Roetteler"
     },
     "b86a9b2ba93563d3592420591198bbd1": {
       "id": "b86a9b2ba93563d3592420591198bbd1",
@@ -8336,6 +8336,14 @@
       "link": "http://arxiv.org/abs/2412.21055",
       "abstract": "We consider the surface code under errors featuring both coherent and incoherent components and study the coherence of the corresponding logical noise channel and how this impacts information-theoretic measures of code performance, namely coherent information and quantum relative entropy. Using numerical simulations and a phenomenological field theory, focusing on the most general single-qubit X-error channel, we show that, for any nonzero incoherent noise component, the coherence of the logical noise is exponentially suppressed with the code distance. We also find that the information-theoretic measures require this suppression to detect optimal thresholds for Pauli recovery; they thus require increasingly large distances for increasing error coherence and ultimately break down for fully coherent errors. To obtain our results, we develop a statistical mechanics mapping and a corresponding matrix-product-state algorithm for approximate syndrome sampling. These methods enable the large-scale simulation of these non-Pauli errors, including their maximum-likelihood thresholds, away from the limits captured by previous approaches.",
       "pubdate": "Mon, 30 Dec 2024 16:14:55 +0000"
+    },
+    "6453644b39979f5348c46f90155bbfc9": {
+      "id": "6453644b39979f5348c46f90155bbfc9",
+      "link": "http://arxiv.org/abs/2511.02809",
+      "title": "Majorana string simulation of nonequilibrium dynamics in two-dimensional lattice fermion systems",
+      "abstract": "The study of real-time dynamics of fermions remains one of the last frontiers beyond the reach of classical simulations and is key to our understanding of quantum behavior in chemistry and materials, with implications for quantum technology. Here we introduce a Heisenberg-picture algorithm that propagates observables expressed in a Majorana-string basis using a truncation scheme that preserves Trotter accuracy and aims at maintaining computational efficiency. The framework is exact for quadratic Hamiltonians--remaining restricted to a fixed low-weight sector determined by the physical observable--admits variational initial states, and can be extended to interacting regimes via systematically controlled truncations. We benchmark our approach on one- and two-dimensional Fermi-Hubbard quenches, comparing against tensor network methods (MPS and fPEPS) and recent experimental data. The method achieves high accuracy on timescales comparable to state-of-the-art variational techniques and experiments, demonstrating that controlled Majorana-string truncation is a practical tool for simulating two-dimensional fermionic dynamics.",
+      "pubdate": "Tue, 04 Nov 2025 18:30:35 +0000",
+      "authors": "Matteo D'Anna, Jannes Nys, Juan Carrasquilla"
     }
   }
 }
