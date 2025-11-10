@@ -8,7 +8,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Nov 2025 01:54:40 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Nov 2025 12:50:00 +0000</lastBuildDate>
+    <item>
+      <title>Exact strong zero modes in quantum circuits and spin chains with non-diagonal boundary conditions</title>
+      <link>http://arxiv.org/abs/2511.05490</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Sascha Gehrmann, Fabian H. L. Essler&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We construct exact strong zero mode operators (ESZM) in integrable quantum circuits and the spin-1/2 XXZ chain for general open boundary conditions, which break the bulk U(1) symmetry of the time evolution operators. We show that the ESZM is localized around one of the boundaries induces infinite boundary coherence times. Finally we prove that the ESZM becomes spatially non-local under the map that relates the spin-1/2 XXZ chain to the asymmetric simple exclusion process, which suggests that it does not play a significant role in the dynamics of the latter.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2511.05490'&gt;arXiv:2511.05490&lt;/a&gt;] Published Fri, 07 Nov 2025 18:59:11 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2511.05490</guid>
+      <pubDate>Fri, 07 Nov 2025 18:59:11 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <title>Quantum Tensor Representation via Circuit Partitioning and Reintegration</title>
+      <link>http://arxiv.org/abs/2511.05492</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Ziqing Guo, Jan Balewski, Kewen Xiao, Ziwen Pan&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; Quantum computing enables faster computations than clas-sical algorithms through superposition and entanglement. Circuit cutting and knitting are effective techniques for ame-liorating current noisy quantum processing unit (QPUs) er-rors via a divide-and-conquer approach that splits quantum circuits into subcircuits and recombines them using classical post-processing. The development of circuit partitioning and recomposing has focused on tailoring the simulation frame-work by replacing generic non-local gates with probabilistic local gates and measuring the classical communication com-plexity. Designing a protocol that supports algorithms and non-all-to-all qubit-connected physical hardware remains underdeveloped owing to the convoluted properties of cut-ting compact controlled unitary gates and hardware topology. In this study, we introduce shardQ, a method that leverages the SparseCut algorithm with matrix product state (MPS) compilation and a global knitting technique. This method elucidates the optimal trade-off between the computational time and error rate for quantum encoding with a theoretical proof, evidenced by an ablation analysis using an IBM Mar-rakesh superconducting-type QPU. This study also presents the results regarding application readiness.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2511.05492'&gt;arXiv:2511.05492&lt;/a&gt;] Published Fri, 07 Nov 2025 18:59:58 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2511.05492</guid>
+      <pubDate>Fri, 07 Nov 2025 18:59:58 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
     <item>
       <title>The surface code beyond Pauli channels: Logical noise coherence, information-theoretic measures, and errorfield-double phenomenology</title>
       <link>http://arxiv.org/abs/2412.21055</link>

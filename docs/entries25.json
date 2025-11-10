@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-10T01:54:40.181796+00:00",
+  "last_updated": "2025-11-10T12:50:00.307338+00:00",
   "entries": {
     "3cd50565495e071d801501b5ce7c0680": {
       "id": "3cd50565495e071d801501b5ce7c0680",
@@ -8416,6 +8416,22 @@
       "link": "http://arxiv.org/abs/2412.21055",
       "abstract": "We consider the surface code under errors featuring both coherent and incoherent components and study the coherence of the corresponding logical noise channel and how this impacts information-theoretic measures of code performance, namely coherent information and quantum relative entropy. Using numerical simulations and a phenomenological field theory, focusing on the most general single-qubit X-error channel, we show that, for any nonzero incoherent noise component, the coherence of the logical noise is exponentially suppressed with the code distance. We also find that the information-theoretic measures require this suppression to detect optimal thresholds for Pauli recovery; they thus require increasingly large distances for increasing error coherence and ultimately break down for fully coherent errors. To obtain our results, we develop a statistical mechanics mapping and a corresponding matrix-product-state algorithm for approximate syndrome sampling. These methods enable the large-scale simulation of these non-Pauli errors, including their maximum-likelihood thresholds, away from the limits captured by previous approaches.",
       "pubdate": "Mon, 30 Dec 2024 16:14:55 +0000"
+    },
+    "72df72c97a96c7b59aae32a5f59db69a": {
+      "id": "72df72c97a96c7b59aae32a5f59db69a",
+      "link": "http://arxiv.org/abs/2511.05492",
+      "title": "Quantum Tensor Representation via Circuit Partitioning and Reintegration",
+      "abstract": "Quantum computing enables faster computations than clas-sical algorithms through superposition and entanglement. Circuit cutting and knitting are effective techniques for ame-liorating current noisy quantum processing unit (QPUs) er-rors via a divide-and-conquer approach that splits quantum circuits into subcircuits and recombines them using classical post-processing. The development of circuit partitioning and recomposing has focused on tailoring the simulation frame-work by replacing generic non-local gates with probabilistic local gates and measuring the classical communication com-plexity. Designing a protocol that supports algorithms and non-all-to-all qubit-connected physical hardware remains underdeveloped owing to the convoluted properties of cut-ting compact controlled unitary gates and hardware topology. In this study, we introduce shardQ, a method that leverages the SparseCut algorithm with matrix product state (MPS) compilation and a global knitting technique. This method elucidates the optimal trade-off between the computational time and error rate for quantum encoding with a theoretical proof, evidenced by an ablation analysis using an IBM Mar-rakesh superconducting-type QPU. This study also presents the results regarding application readiness.",
+      "pubdate": "Fri, 07 Nov 2025 18:59:58 +0000",
+      "authors": "Ziqing Guo, Jan Balewski, Kewen Xiao, Ziwen Pan"
+    },
+    "f2a55bfd6ed0d1723ae22c4e3a75a39a": {
+      "id": "f2a55bfd6ed0d1723ae22c4e3a75a39a",
+      "link": "http://arxiv.org/abs/2511.05490",
+      "title": "Exact strong zero modes in quantum circuits and spin chains with non-diagonal boundary conditions",
+      "abstract": "We construct exact strong zero mode operators (ESZM) in integrable quantum circuits and the spin-1/2 XXZ chain for general open boundary conditions, which break the bulk U(1) symmetry of the time evolution operators. We show that the ESZM is localized around one of the boundaries induces infinite boundary coherence times. Finally we prove that the ESZM becomes spatially non-local under the map that relates the spin-1/2 XXZ chain to the asymmetric simple exclusion process, which suggests that it does not play a significant role in the dynamics of the latter.",
+      "pubdate": "Fri, 07 Nov 2025 18:59:11 +0000",
+      "authors": "Sascha Gehrmann, Fabian H. L. Essler"
     }
   }
 }
