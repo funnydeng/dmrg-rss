@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-11T01:51:10.485736+00:00",
+  "last_updated": "2025-11-11T12:49:18.779478+00:00",
   "entries": {
     "72df72c97a96c7b59aae32a5f59db69a": {
       "id": "72df72c97a96c7b59aae32a5f59db69a",
@@ -8432,6 +8432,94 @@
       "link": "http://arxiv.org/abs/2412.21055",
       "abstract": "We consider the surface code under errors featuring both coherent and incoherent components and study the coherence of the corresponding logical noise channel and how this impacts information-theoretic measures of code performance, namely coherent information and quantum relative entropy. Using numerical simulations and a phenomenological field theory, focusing on the most general single-qubit X-error channel, we show that, for any nonzero incoherent noise component, the coherence of the logical noise is exponentially suppressed with the code distance. We also find that the information-theoretic measures require this suppression to detect optimal thresholds for Pauli recovery; they thus require increasingly large distances for increasing error coherence and ultimately break down for fully coherent errors. To obtain our results, we develop a statistical mechanics mapping and a corresponding matrix-product-state algorithm for approximate syndrome sampling. These methods enable the large-scale simulation of these non-Pauli errors, including their maximum-likelihood thresholds, away from the limits captured by previous approaches.",
       "pubdate": "Mon, 30 Dec 2024 16:14:55 +0000"
+    },
+    "9a661d2a4b42d793d3e9570421c11c5f": {
+      "id": "9a661d2a4b42d793d3e9570421c11c5f",
+      "link": "http://arxiv.org/abs/2511.07415",
+      "title": "Topological and Trivial Valence-Bond Orders in Higher-Spin Kitaev Models",
+      "abstract": "We investigate the quantum phases of higher-spin Kitaev models using tensor network methods. Our results reveal distinct bond-ordered phases for spin-1, spin-$\\tfrac{3}{2}$, and spin-2 models. In all cases, we find translational symmetry breaking with unit cells being tripled by forming valence-bond orders. However, these three phases are distinct, forming plaquette order, topological dimer order, and non-topological dimer order, respectively. Our findings are based on a cross-validation between variational two-dimensional tensor network calculations: an unrestricted exploration of symmetry-broken states versus the detection of symmetry breaking from cat-state behavior in symmetry-restricted states. The origin of different orders can also be understood from a theoretical analysis. Our work sheds light upon the interplay between topological and symmetry-breaking orders as well as their detection via tensor networks.",
+      "pubdate": "Mon, 10 Nov 2025 18:59:05 +0000",
+      "authors": "Xing-Yu Zhang, Qi Yang, Philippe Corboz, Jutho Haegeman, Yuchi He"
+    },
+    "503f81a57278e314dc8bc53060e57e7c": {
+      "id": "503f81a57278e314dc8bc53060e57e7c",
+      "link": "http://arxiv.org/abs/2511.07331",
+      "title": "Characterizing Mott Insulators in the Interacting One-Body Picture",
+      "abstract": "We present a framework to characterize Mott insulating phases within the interacting one-body picture, focusing on the Hubbard diamond chain featuring both Hubbard interactions and spin-orbit coupling simulated within cellular dynamical mean field theory. Using symmetry analysis of the single-particle Green's function, we classify spectral functions by irreducible representations at high-symmetry points of the Brillouin zone. Complementarily, we calculate the one-body reduced density matrix which allows us to reach both a qualitative description of charge distribution and an analysis of the state purity. Moreover, within the Tensor Network framework, we employ a Density Matrix Renormalization Group approach to confirm the presence of three distinct phases and their corresponding phase transitions. Our results highlight how symmetry-labelled spectral functions and effective orbital analysis provide accessible single-particle tools for probing correlation-driven insulating phases.",
+      "pubdate": "Mon, 10 Nov 2025 17:35:05 +0000",
+      "authors": "Theo N. Dionne, Santiago Villodre, Mikel Iraola, Maia G. Vergniory"
+    },
+    "8d9e015d41c5d0a07ad19bbc8df12b37": {
+      "id": "8d9e015d41c5d0a07ad19bbc8df12b37",
+      "link": "http://arxiv.org/abs/2511.07303",
+      "title": "Thermal Tensor Network Simulations of Fermions with a Fixed Filling",
+      "abstract": "Numerical simulations of strongly correlated fermions at finite temperature are essential for studying high-temperature superconductivity and other quantum many-body phenomena. The recently developed tangent-space tensor renormalization group (tanTRG) provides an efficient and accurate framework by representing thermal density operators as matrix product operators. However, the particle number generally varies during the cooling process. The conventional strategy of fine-tuning chemical potentials to reach a target filling is computationally demanding. Here we propose a fixed-$N$ tanTRG algorithm that stabilizes the average particle number by adaptively tuning the chemical potential within the imaginary-time evolution. We benchmark its accuracy on exactly solvable free fermions, and further apply it to the square-lattice Hubbard model. For hole-doped cases, we study the temperature evolution of charge and spin correlations, identifying several characteristic temperature scales for stripe formation. Our results establish fixed-$N$ tanTRG as an efficient and reliable tool for finite-temperature studies of correlated fermion systems.",
+      "pubdate": "Mon, 10 Nov 2025 17:07:00 +0000",
+      "authors": "Qiaoyi Li, Dai-Wei Qu, Bin-Bin Chen, Tao Shi, Wei Li"
+    },
+    "6db56a1c1ca47d8e0e9ec77495d0c084": {
+      "id": "6db56a1c1ca47d8e0e9ec77495d0c084",
+      "link": "http://arxiv.org/abs/2511.07212",
+      "title": "Matrix-product state skeletons in Onsager-integrable quantum chains",
+      "abstract": "Matrix-product state (MPS) skeletons are connected networks of Hamiltonians with exact MPS ground states that underlie a phase diagram. Such skeletons have previously been found in classes of free-fermion models. For the translation-invariant BDI and AIII free-fermion classes, it has been shown that the underlying skeleton is dense, giving an analytic approach to MPS approximation of ground states anywhere in the class. In this paper, we partially expose the skeleton in certain interacting spin chains: the $N$-state Onsager-integrable chiral clock families. We construct MPS that form a dense MPS skeleton in the gapped regions surrounding a sequence of fixed-point Hamiltonians (the generators of the Onsager algebra). Outside these gapped regions, these MPS remain eigenstates, but no longer give the many-body ground state. Rather, they are ground states in particular sectors of the spectrum. Our methods also allow us to find further MPS eigenstates; these correspond to low-lying excited states within the aforementioned gapped regions. This set of MPS excited states goes beyond the previous analysis of ground states on the $N=2$ free-fermion MPS skeleton. As an application of our results, we find a closed form for the disorder parameter in a family of interacting models. Finally, we remark that many of our results use only the Onsager algebra and are not specific to the chiral clock model representation.",
+      "pubdate": "Mon, 10 Nov 2025 15:38:08 +0000",
+      "authors": "Imogen Camp, Nick G. Jones"
+    },
+    "39d43bca2c1651fed560ac74b733c4fe": {
+      "id": "39d43bca2c1651fed560ac74b733c4fe",
+      "link": "http://arxiv.org/abs/2511.07211",
+      "title": "Optimal phase estimation in the presence of correlated dephasing",
+      "abstract": "We investigate optimal metrological protocols for phase estimation in the presence of correlated dephasing noise, including spin-squeezed states sensing strategies as well as parallel and adaptive protocols optimized using tensor-network based numerical methods. The results are benchmarked against fundamental bounds obtained either via a latest quantum comb extension method or an optimized classical simulation method. We find that the spin-squeezed offer practically optimal performance in the regime where phase fluctuations are positively correlated, but can be outperformed by tensor-network optimized strategies for negatively correlated fluctuations.",
+      "pubdate": "Mon, 10 Nov 2025 15:37:51 +0000",
+      "authors": "Srijon Ghosh, Arkadiusz Kobus, Stanisław Kurdziałek, Rafał Demkowicz-Dobrzański"
+    },
+    "7af973a9772cd3fa00c248037c0ee896": {
+      "id": "7af973a9772cd3fa00c248037c0ee896",
+      "link": "http://arxiv.org/abs/2511.06672",
+      "title": "GCAMPS: A Scalable Classical Simulator for Qudit Systems",
+      "abstract": "Classical simulations of quantum systems are notoriously difficult computational problems, with conventional state vector and tensor network methods restricted to quantum systems that feature only a small number of qudits. The recently introduced Clifford Augmented Matrix Product State (CAMPS) method offer scalability and efficiency by combining both tensor network and stabilizer simulation techniques and leveraging their complementary advantages. This hybrid simulation method has indeed demonstrated significant improvements in simulation performance for qubit circuits. Our work generalises the CAMPS method to higher quantum degrees of freedom -- qudit simulation, resulting in a generalised CAMPS (GCAMPS). Benchmarking this extended simulator on quantum systems with three degrees of freedom, i.e. qutrits, we show that similar to the case of qubits, qutrit systems also benefit from a comparable speedup using these techniques. Indeed, we see a greater improvement with qutrit simulation compared to qubit simulation on the same $T$-doped random Clifford benchmarking circuit as a result of the increased difficulty of conventional qutrit simulation using tensor networks. This extension allows for the classical simulation of problems that were previously intractable without access to a quantum device and will open new avenues to study complex many-body physics and to develop efficient methods for quantum information processing.",
+      "pubdate": "Mon, 10 Nov 2025 03:39:23 +0000",
+      "authors": "Ben Harper, Azar C. Nakhl, Thomas Quella, Martin Sevior, Muhammad Usman"
+    },
+    "699964aa9cb430172fd5a5fb278335bf": {
+      "id": "699964aa9cb430172fd5a5fb278335bf",
+      "link": "http://arxiv.org/abs/2511.06527",
+      "title": "Efficient Approximation of Volterra Series for High-Dimensional Systems",
+      "abstract": "The identification of high-dimensional nonlinear dynamical systems via the Volterra series has significant potential, but has been severely hindered by the curse of dimensionality. Tensor Network (TN) methods such as the Modified Alternating Linear Scheme (MVMALS) have been a breakthrough for the field, offering a tractable approach by exploiting the low-rank structure in Volterra kernels. However, these techniques still encounter prohibitive computational and memory bottlenecks due to high-order polynomial scaling with respect to input dimension. To overcome this barrier, we introduce the Tensor Head Averaging (THA) algorithm, which significantly reduces complexity by constructing an ensemble of localized MVMALS models trained on small subsets of the input space. In this paper, we present a theoretical foundation for the THA algorithm. We establish observable, finite-sample bounds on the error between the THA ensemble and a full MVMALS model, and we derive an exact decomposition of the squared error. This decomposition is used to analyze the manner in which subset models implicitly compensate for omitted dynamics. We quantify this effect, and prove that correlation between the included and omitted dynamics creates an optimization incentive which drives THA's performance toward accuracy superior to a simple truncation of a full MVMALS model. THA thus offers a scalable and theoretically grounded approach for identifying previously intractable high-dimensional systems.",
+      "pubdate": "Sun, 09 Nov 2025 20:31:39 +0000",
+      "authors": "Navin Khoshnan, Claudia K Petritsch, Bryce-Allen Bagley"
+    },
+    "1f2b65f8d50f904b4837125aa8fd9233": {
+      "id": "1f2b65f8d50f904b4837125aa8fd9233",
+      "link": "http://arxiv.org/abs/2511.06423",
+      "title": "Phase transitions in the spin-1/2 Heisenberg antiferromagnet on the square lattice",
+      "abstract": "The nature of the intermediate ground-state phase in the spin-1/2 frustrated square lattice model has long been debated. Using cluster density matrix embedding theory, we investigate the phase diagram of this model. The Neel phase is directly identified for J2<0.45 and the collinear phase for J2>0.65 based on the ground state. Although no direct evidence of an internal phase transition is found within the intermediate phase from the ground state, analysis of the first excited state wave function reveals a continuous quantum phase transition in this region, with a critical point at J2=0.55. This critical point divides the intermediate phase into PVBS and CVBS.",
+      "pubdate": "Sun, 09 Nov 2025 15:31:40 +0000",
+      "authors": "Jie Qiao, Shu-Hao Zhang, Jing-Bo Qin, Xiao-Long Zhao, Qiang Cheng"
+    },
+    "ad5acdef6da770ecf06c5e0860361590": {
+      "id": "ad5acdef6da770ecf06c5e0860361590",
+      "link": "http://arxiv.org/abs/2511.06127",
+      "title": "Simulating Clifford Circuits with Gaussian Elimination",
+      "abstract": "Quantum circuits are considered more powerful than classical circuits and require exponential resources to simulate classically. Clifford circuits are a special class of quantum circuits that can be simulated in polynomial time but still show important quantum effects such as entanglement. In this work, we present an algorithm that simulates Clifford circuits by performing Gaussian elimination on a modified adjacency matrix derived from the circuit structure. Our work builds on an ZX-calculus tensor network representation of Clifford circuits that reduces to quantum graph states. We give a concise formula of amplitudes of graph states based on the LDL decomposition of matrices over GF(2), and use it to get efficient algorithms for strong and weak simulation of Clifford circuits using tree-decomposition-based fast LDL algorithm. The complexity of our algorithm matches the state of art for weak graph state simulation and improves the state of art for strong graph state simulation by taking advantage of Strassen-like fast matrix multiplication. Our algorithm is also efficient when computing many amplitudes or samples of a Clifford circuit. Further, our amplitudes formula provides a new characterization of locally Clifford equivalent graph states as well as an efficient protocol to learn graph states with low-rank adjacency matrices.",
+      "pubdate": "Sat, 08 Nov 2025 20:37:49 +0000",
+      "authors": "Yuchen Pang, Edgar Solomonik"
+    },
+    "6cb03a5293bedc18afed900600724403": {
+      "id": "6cb03a5293bedc18afed900600724403",
+      "link": "http://arxiv.org/abs/2511.06012",
+      "title": "Beyond Penrose tensor diagrams with the ZX calculus: Applications to quantum computing, quantum machine learning, condensed matter physics, and quantum gravity",
+      "abstract": "We introduce the Spin-ZX calculus as an elevation of Penrose's diagrams and associated binor calculus to the level of a formal diagrammatic language. The power of doing so is illustrated by the variety of scientific areas we apply it to: permutational quantum computing, quantum machine learning, condensed matter physics, and quantum gravity. Respectively, we analyse permutational computing transition amplitudes, evaluate barren plateaus for SU(2) symmetric ansätze, study properties of AKLT states, and derive the minimum quantised volume in loop quantum gravity. Our starting point is the mixed-dimensional ZX calculus, a purely diagrammatic language that has been proven to be complete for finite-dimensional Hilbert spaces. That is, any equation that can be derived in the Hilbert space formalism, can also be derived in the mixed-dimensional ZX calculus. We embed the Spin-ZX calculus inside the mixed-dimensional ZX calculus, rendering it a quantum information flavoured diagrammatic language for the quantum theory of angular momentum, i.e. SU(2) representation theory. We diagrammatically derive the fundamental spin coupling objects - such as Clebsch-Gordan coefficients, symmetrising mappings between qubits and spin spaces, and spin Hamiltonians - under this embedding. Our results establish the Spin-ZX calculus as a powerful tool for representing and computing with SU(2) systems graphically, offering new insights into foundational relationships and paving the way for new diagrammatic algorithms for theoretical physics.",
+      "pubdate": "Sat, 08 Nov 2025 13:42:53 +0000",
+      "authors": "Quanlong Wang, Richard D. P. East, Razin A. Shaikh, Lia Yeh, Boldizsár Poór, Bob Coecke"
+    },
+    "15926a09367d9b0d16c74093299e8b7e": {
+      "id": "15926a09367d9b0d16c74093299e8b7e",
+      "link": "http://arxiv.org/abs/2511.05719",
+      "title": "Color code thresholds under circuit-level noise beyond the Pauli framework",
+      "abstract": "A quantum error correction code is assessed over its ability to correct errors in noisy quantum circuits. This task requires extensive simulations of faulty quantum circuits, which are often made tractable by considering stochastic Pauli noise models, as they are compatible with efficient classical simulation techniques. However, such noise models do not fully capture the variety of physical error mechanisms encountered in realistic quantum platforms. In this work, we extend circuit-level noise modeling beyond the Pauli framework by estimating the threshold of the color code under more general noise models. Specifically, we consider two representative non-Pauli error channels: a systematic $X$-rotation model that introduces coherent over-rotations, and an amplitude damping channel that captures relaxation processes. These models are incorporated at the circuit level into color code circuits using a Tree Tensor Network ansatz. Our simulations demonstrate that tensor network simulations enable accurate threshold estimation under non-Pauli noise for color codes up to distance $d=7$ (73 qubits). Comparing our results with the Pauli twirling approximations of the noise models, we find that coherent over-rotations yield systematically higher error rates, deviating from the Pauli twirling approximation as the code distance increases.",
+      "pubdate": "Fri, 07 Nov 2025 21:24:51 +0000",
+      "authors": "Francesco Pio Barone, Daniel Jaschke, Ilaria Siloi, Simone Montangero"
     }
   }
 }
