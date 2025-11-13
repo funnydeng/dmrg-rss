@@ -1,6 +1,30 @@
 {
-  "last_updated": "2025-11-12T12:50:18.019845+00:00",
+  "last_updated": "2025-11-13T01:51:59.429011+00:00",
   "entries": {
+    "2b83c5f6d56057d3ef489c3e40fcef95": {
+      "id": "2b83c5f6d56057d3ef489c3e40fcef95",
+      "link": "http://arxiv.org/abs/2511.08407",
+      "title": "Exploring the performance of superposition of product states: from 1D to 3D quantum spin systems",
+      "abstract": "Tensor networks (TNs) are one of the best available tools to study many-body quantum systems. TNs are particularly suitable for one-dimensional local Hamiltonians, while their performance for generic geometries is mainly limited by two aspects: the limitation in expressive power and the approximate extraction of information. Here we investigate the performance of superposition-of-product-states (SPS) ansatz, a variational framework structurally related to canonical polyadic tensor decomposition. The ansatz does not compress information as effectively as tensor networks, but it has the advantages (i) of allowing accurate extraction of information, (ii) of being structurally independent of the geometry of the system, (iii) of being readily parallelizable, and (iv) of allowing analytical shortcuts. We first study the typical properties of the SPS ansatz for spin-$1/2$ systems, including its entanglement entropy, and its trainability. We then use this ansatz for ground state search in tilted Ising models--including one-dimensional and three-dimensional with short- and long-range interaction, and a random network--demonstrating that SPS can attain high accuracy.",
+      "pubdate": "Tue, 11 Nov 2025 16:22:40 +0000",
+      "authors": "Apimuk Sornsaeng, Itai Arad, Dario Poletti"
+    },
+    "afd80db9c9e6a17f0c25b8b354f47fe4": {
+      "id": "afd80db9c9e6a17f0c25b8b354f47fe4",
+      "link": "http://arxiv.org/abs/2511.08404",
+      "title": "Multistart Large Neighborhood Search for the liquefied natural gas transportation and trading over long-term time horizons",
+      "abstract": "Liquefied Natural Gas (LNG) transportation is a critical component of the energy industry. It enables the efficient and large-scale movement of natural gas across vast distances by converting it into a liquid form, thereby addressing global demand and connecting suppliers with consumers. In this study, we present the Multistart Large Neighborhood Search heuristic for the LNG transportation problem, which involves hundreds of contracts and a planning horizon of two to three years. Our model incorporates several fuel types, LNG sloshing in the tank, and speed- and load-dependent consumption rates. We also consider flexible contracts with LNG volume variability, enabling volume optimizations and multiple discharges. A tensor-train optimizer defines the parameters of Mixed Integer Programming (MIP) models, allowing better solution space exploration. On the historic and artificially generated data, our approach outperforms the baseline linear-programming model by 35% and 44%, respectively, while the time overhead is only several minutes.",
+      "pubdate": "Tue, 11 Nov 2025 16:18:51 +0000",
+      "authors": "S. Iudin, M. Veshchezerova, K. Tsarova, G. Tadumadze, V. Shete, J. -K. Hao, M. Perelshtein"
+    },
+    "c43588736cbab0847a729d316378561c": {
+      "id": "c43588736cbab0847a729d316378561c",
+      "link": "http://arxiv.org/abs/2511.07769",
+      "title": "Local spreading of stabilizer Rényi entropy in a brickwork random Clifford circuit",
+      "abstract": "Nonstabilizerness, or magic, constitutes a fundamental resource for quantum computation and a crucial ingredient for quantum advantage. Recent progress has substantially advanced the characterization of magic in many-body quantum systems, with stabilizer Rényi entropy (SRE) emerging as a computable and experimentally accessible measure. In this work, we investigate the spreading of SRE in terms of single-qubit reduced density matrices, where an initial product state that contains magic in a local region evolves under brickwork random Clifford circuits. For the case with Haar-random local Clifford gates, we find that the spreading profile exhibits a diffusive structure within a ballistic light cone when viewed through a normalized version of single-qubit SRE, despite the absence of explicit conserved charges. We further examine the robustness of this non-ballistic behavior of the normalized single-qubit SRE spreading by extending the analysis to a restricted Clifford circuit, where we unveil a superdiffusive spreading.",
+      "pubdate": "Tue, 11 Nov 2025 02:38:44 +0000",
+      "authors": "Somnath Maity, Ryusuke Hamazaki"
+    },
     "9a661d2a4b42d793d3e9570421c11c5f": {
       "id": "9a661d2a4b42d793d3e9570421c11c5f",
       "link": "http://arxiv.org/abs/2511.07415",
@@ -8520,30 +8544,6 @@
       "link": "http://arxiv.org/abs/2412.21055",
       "abstract": "We consider the surface code under errors featuring both coherent and incoherent components and study the coherence of the corresponding logical noise channel and how this impacts information-theoretic measures of code performance, namely coherent information and quantum relative entropy. Using numerical simulations and a phenomenological field theory, focusing on the most general single-qubit X-error channel, we show that, for any nonzero incoherent noise component, the coherence of the logical noise is exponentially suppressed with the code distance. We also find that the information-theoretic measures require this suppression to detect optimal thresholds for Pauli recovery; they thus require increasingly large distances for increasing error coherence and ultimately break down for fully coherent errors. To obtain our results, we develop a statistical mechanics mapping and a corresponding matrix-product-state algorithm for approximate syndrome sampling. These methods enable the large-scale simulation of these non-Pauli errors, including their maximum-likelihood thresholds, away from the limits captured by previous approaches.",
       "pubdate": "Mon, 30 Dec 2024 16:14:55 +0000"
-    },
-    "2b83c5f6d56057d3ef489c3e40fcef95": {
-      "id": "2b83c5f6d56057d3ef489c3e40fcef95",
-      "link": "http://arxiv.org/abs/2511.08407",
-      "title": "Exploring the performance of superposition of product states: from 1D to 3D quantum spin systems",
-      "abstract": "Tensor networks (TNs) are one of the best available tools to study many-body quantum systems. TNs are particularly suitable for one-dimensional local Hamiltonians, while their performance for generic geometries is mainly limited by two aspects: the limitation in expressive power and the approximate extraction of information. Here we investigate the performance of superposition-of-product-states (SPS) ansatz, a variational framework structurally related to canonical polyadic tensor decomposition. The ansatz does not compress information as effectively as tensor networks, but it has the advantages (i) of allowing accurate extraction of information, (ii) of being structurally independent of the geometry of the system, (iii) of being readily parallelizable, and (iv) of allowing analytical shortcuts. We first study the typical properties of the SPS ansatz for spin-$1/2$ systems, including its entanglement entropy, and its trainability. We then use this ansatz for ground state search in tilted Ising models--including one-dimensional and three-dimensional with short- and long-range interaction, and a random network--demonstrating that SPS can attain high accuracy.",
-      "pubdate": "Tue, 11 Nov 2025 16:22:40 +0000",
-      "authors": "Apimuk Sornsaeng, Itai Arad, Dario Poletti"
-    },
-    "afd80db9c9e6a17f0c25b8b354f47fe4": {
-      "id": "afd80db9c9e6a17f0c25b8b354f47fe4",
-      "link": "http://arxiv.org/abs/2511.08404",
-      "title": "Multistart Large Neighborhood Search for the liquefied natural gas transportation and trading over long-term time horizons",
-      "abstract": "Liquefied Natural Gas (LNG) transportation is a critical component of the energy industry. It enables the efficient and large-scale movement of natural gas across vast distances by converting it into a liquid form, thereby addressing global demand and connecting suppliers with consumers. In this study, we present the Multistart Large Neighborhood Search heuristic for the LNG transportation problem, which involves hundreds of contracts and a planning horizon of two to three years. Our model incorporates several fuel types, LNG sloshing in the tank, and speed- and load-dependent consumption rates. We also consider flexible contracts with LNG volume variability, enabling volume optimizations and multiple discharges. A tensor-train optimizer defines the parameters of Mixed Integer Programming (MIP) models, allowing better solution space exploration. On the historic and artificially generated data, our approach outperforms the baseline linear-programming model by 35% and 44%, respectively, while the time overhead is only several minutes.",
-      "pubdate": "Tue, 11 Nov 2025 16:18:51 +0000",
-      "authors": "S. Iudin, M. Veshchezerova, K. Tsarova, G. Tadumadze, V. Shete, J. -K. Hao, M. Perelshtein"
-    },
-    "c43588736cbab0847a729d316378561c": {
-      "id": "c43588736cbab0847a729d316378561c",
-      "link": "http://arxiv.org/abs/2511.07769",
-      "title": "Local spreading of stabilizer Rényi entropy in a brickwork random Clifford circuit",
-      "abstract": "Nonstabilizerness, or magic, constitutes a fundamental resource for quantum computation and a crucial ingredient for quantum advantage. Recent progress has substantially advanced the characterization of magic in many-body quantum systems, with stabilizer Rényi entropy (SRE) emerging as a computable and experimentally accessible measure. In this work, we investigate the spreading of SRE in terms of single-qubit reduced density matrices, where an initial product state that contains magic in a local region evolves under brickwork random Clifford circuits. For the case with Haar-random local Clifford gates, we find that the spreading profile exhibits a diffusive structure within a ballistic light cone when viewed through a normalized version of single-qubit SRE, despite the absence of explicit conserved charges. We further examine the robustness of this non-ballistic behavior of the normalized single-qubit SRE spreading by extending the analysis to a restricted Clifford circuit, where we unveil a superdiffusive spreading.",
-      "pubdate": "Tue, 11 Nov 2025 02:38:44 +0000",
-      "authors": "Somnath Maity, Ryusuke Hamazaki"
     }
   }
 }
