@@ -1,6 +1,94 @@
 {
-  "last_updated": "2025-11-14T12:48:32.234581+00:00",
+  "last_updated": "2025-11-15T01:46:55.797655+00:00",
   "entries": {
+    "27358f4ad12c056ef7b9f3adf4bce64d": {
+      "id": "27358f4ad12c056ef7b9f3adf4bce64d",
+      "link": "http://arxiv.org/abs/2511.10503",
+      "title": "From One to Two Dimensions: Magnetic Phases in Weakly Coupled Spin Ladders",
+      "abstract": "A large variety of materials can be approximately described by means of spin-1/2 Heisenberg ladders. Here, the Density Matrix Renormalization Group (DMRG) algorithm together with a previously established numerical self-consistent mean-field approximation is used to investigate the magnetic properties of spin ladders coupled in a second dimension. The full ground state phase diagram including spin-gapped, antiferromagnetic, ferrimagnetic and fully polarized phases is presented as a function of interladder and intraladder coupling and magnetic field. Measurement of the dependence of magnetization on applied magnetic field is shown to enable location of a material on the phase diagram and determination of the Hamiltonian parameters. These results provide a practical route toward identifying and characterizing magnetic materials composed of coupled spin ladders.",
+      "pubdate": "Thu, 13 Nov 2025 17:10:00 +0000",
+      "authors": "Mateo Cárdenes Wuttig, Andrew J. Millis"
+    },
+    "438806d44ff330206310a10a78e73f72": {
+      "id": "438806d44ff330206310a10a78e73f72",
+      "link": "http://arxiv.org/abs/2511.10189",
+      "title": "Continuum limit of gauged tensor network states",
+      "abstract": "It is well known that all physically relevant states of gauge theories lie in the sectors of the Hilbert space which satisfy the Gauss law. On the lattice, the manifeslty gauge invariant subspace is known to be exactly spanned by gauged tensor networks. In this work, we demonstrate that the continuum limit of certain types of gauged tensor networks is well defined and leads to a new class of states that may be helpful for the non-perturbative study of gauge theories directly in the continuum.",
+      "pubdate": "Thu, 13 Nov 2025 10:59:33 +0000",
+      "authors": "Gertian Roose, Erez Zohar"
+    },
+    "1906fa9705a3fec95c11ca39c4dc9900": {
+      "id": "1906fa9705a3fec95c11ca39c4dc9900",
+      "link": "http://arxiv.org/abs/2511.10080",
+      "title": "The zipper condition for $4$-tensors in two-dimensional topological order and the higher relative commutants of a subfactor arising from a commuting square",
+      "abstract": "They recently study two-dimensional topological order in condensed matter physics in terms of tensor networks involving certain 3- and 4-tensors. Their 3-tensors satisfying the ``zipper condition'' play an important role there. We identify their 4-tensors with bi-unitary connections in Jones' subfactor theory in operator algebras with precise normalization constants. Then we prove that their tensors satisfying the zipper condition are the same as flat fields of strings in subfactor theory which correspond to elements in the higher relative commutants of the subfactor arising from the bi-unitary connection. This is what we expect, since the zipper condition is a kind of pentagon relations, but we clarify what conditions are exactly needed for this -- we do not need the flatness or the finite depth condition for the bi-unitary connection. We actually generalize their 4-tensors so that the four index sets of the 4-tensors can be all different and work on a ``half-version'' of the zipper condition.",
+      "pubdate": "Thu, 13 Nov 2025 08:33:55 +0000",
+      "authors": "Yasuyuki Kawahigashi"
+    },
+    "4faa896bcaa0886012a18137bce623a6": {
+      "id": "4faa896bcaa0886012a18137bce623a6",
+      "link": "http://arxiv.org/abs/2511.09943",
+      "title": "SeQuant Framework for Symbolic and Numerical Tensor Algebra. I. Core Capabilities",
+      "abstract": "SeQuant is an open-source library for symbolic algebra of tensors over commutative (scalar) and non-commutative (operator) rings. The key innovation supporting most of its functionality is a graph-theoretic tensor network (TN) canonicalizer that can handle tensor networks with symmetries faster than their standard group-theoretic counterparts. The TN canonicalizer is used for routine simplification of conventional tensor expressions, for optimizing application of Wick's theorem (used to canonicalize products of tensors over operator fields), and for manipulation of the intermediate representation leading to the numerical evaluation. Notable features of SeQuant include support for noncovariant tensor networks (which often arise from tensor decompositions) and for tensors with modes that depend parametrically on indices of other tensor modes (such dependencies between degrees of freedom are naturally viewed as nesting of tensors, \"tensors of tensors\" arising in block-wise data compressions in data science and modern quantum simulation). SeQuant blurs the line between pure symbolic manipulation/code generation and numerical evaluation by including compiler-like components to optimize and directly interpret tensor expressions using external numerical tensor algebra frameworks. The SeQuant source code is available at https://github.com/ValeevGroup/SeQuant.",
+      "pubdate": "Thu, 13 Nov 2025 04:17:05 +0000",
+      "authors": "Bimal Gaudel, Robert G. Adam, Ajay Melekamburath, Conner Masteran, Nakul Teke, Azam Besharatnik, Andreas Köhn, Edward F. Valeev"
+    },
+    "69b92efdc61ec6576ea0fc7af68cb6f4": {
+      "id": "69b92efdc61ec6576ea0fc7af68cb6f4",
+      "link": "http://arxiv.org/abs/2511.09916",
+      "title": "Implicit Multiple Tensor Decomposition",
+      "abstract": "Recently, triple decomposition has attracted increasing attention for decomposing third-order tensors into three factor tensors. However, this approach is limited to third-order tensors and enforces uniformity in the lower dimensions across all factor tensors, which restricts its flexibility and applicability. To address these issues, we propose the Multiple decomposition, a novel framework that generalizes triple decomposition to arbitrary order tensors and allows the short dimensions of the factor tensors to differ. We establish its connections with other classical tensor decompositions. Furthermore, implicit neural representation (INR) is employed to continuously represent the factor tensors in Multiple decomposition, enabling the method to generalize to non-grid data. We refer to this INR-based Multiple decomposition as Implicit Multiple Tensor Decomposition (IMTD). Then, the Proximal Alternating Least Squares (PALS) algorithm is utilized to solve the IMTD-based tensor reconstruction models. Since the objective function in IMTD-based models often lacks the Kurdyka-Lojasiewicz (KL) property, we establish a KL-free convergence analysis for the algorithm. Finally, extensive numerical experiments further validate the effectiveness of the proposed method.",
+      "pubdate": "Thu, 13 Nov 2025 03:30:12 +0000",
+      "authors": "Kunjing Yang, Libin Zheng, Minru Bai"
+    },
+    "1dee21265614c834b8dab17f8a032bf5": {
+      "id": "1dee21265614c834b8dab17f8a032bf5",
+      "link": "http://arxiv.org/abs/2511.09546",
+      "title": "Accelerating two-dimensional tensor network optimization by preconditioning",
+      "abstract": "We revisit gradient-based optimization for infinite projected entangled pair states (iPEPS), a tensor network ansatz for simulating many-body quantum systems. This approach is hindered by two major challenges: the high computational cost of evaluating energies and gradients, and an ill-conditioned optimization landscape that slows convergence. To reduce the number of optimization steps, we introduce an efficient preconditioner derived from the leading term of the metric tensor. We benchmark our method against standard optimization techniques on the Heisenberg and Kitaev models, demonstrating substantial improvements in overall computational efficiency. Our approach is broadly applicable across various contraction schemes, unit cell sizes, and Hamiltonians, highlighting the potential of preconditioned optimization to advance tensor network algorithms for strongly correlated systems.",
+      "pubdate": "Wed, 12 Nov 2025 18:50:24 +0000",
+      "authors": "Xing-Yu Zhang, Qi Yang, Philippe Corboz, Jutho Haegeman, Wei Tang"
+    },
+    "f088457af1d6426d462a86b2572e23bf": {
+      "id": "f088457af1d6426d462a86b2572e23bf",
+      "link": "http://arxiv.org/abs/2511.09315",
+      "title": "A Tensor Residual Circuit Neural Network Factorized with Matrix Product Operation",
+      "abstract": "It is challenging to reduce the complexity of neural networks while maintaining their generalization ability and robustness, especially for practical applications. Conventional solutions for this problem incorporate quantum-inspired neural networks with Kronecker products and hybrid tensor neural networks with MPO factorization and fully-connected layers. Nonetheless, the generalization power and robustness of the fully-connected layers are not as outstanding as circuit models in quantum computing. In this paper, we propose a novel tensor circuit neural network (TCNN) that takes advantage of the characteristics of tensor neural networks and residual circuit models to achieve generalization ability and robustness with low complexity. The proposed activation operation and parallelism of the circuit in complex number field improves its non-linearity and efficiency for feature learning. Moreover, since the feature information exists in the parameters in both the real and imaginary parts in TCNN, an information fusion layer is proposed for merging features stored in those parameters to enhance the generalization capability. Experimental results confirm that TCNN showcases more outstanding generalization and robustness with its average accuracies on various datasets 2\\%-3\\% higher than those of the state-of-the-art compared models. More significantly, while other models fail to learn features under noise parameter attacking, TCNN still showcases prominent learning capability owing to its ability to prevent gradient explosion. Furthermore, it is comparable to the compared models on the number of trainable parameters and the CPU running time. An ablation study also indicates the advantage of the activation operation, the parallelism architecture and the information fusion layer.",
+      "pubdate": "Wed, 12 Nov 2025 13:24:02 +0000",
+      "authors": "Andi Chen"
+    },
+    "75bea8e457c043cdedb889d27217292a": {
+      "id": "75bea8e457c043cdedb889d27217292a",
+      "link": "http://arxiv.org/abs/2511.09301",
+      "title": "Infinite-component $BF$ field theory: Nexus of fracton order, Toeplitz braiding, and non-Hermitian amplification",
+      "abstract": "Building on the recent study of Toeplitz braiding by Li et al. [Phys. Rev. B 110, 205108 (2024)], we introduce \\textit{infinite-component} $BF$ (i$BF$) theories by stacking topological $BF$ theories along a fourth ($w$) spatial direction and coupling them in a translationally invariant manner. The i$BF$ framework captures the low-energy physics of 4D fracton topological orders in which both particle and loop excitations exhibit restricted mobility along the stacking direction, and their particle-loop braiding statistics are encoded in asymmetric, integer-valued Toeplitz $K$ matrices. We identify a novel form of particle-loop braiding, termed \\textit{Toeplitz braiding}, originating from boundary zero singular modes (ZSMs) of the $K$ matrix. In the thermodynamic limit, nontrivial braiding phases persist even when the particle and loop reside on opposite 3D boundaries, as the boundary ZSMs dominate the nonvanishing off-diagonal elements of $K^{-1}$ and govern boundary-driven braiding behavior. Analytical and numerical studies of i$BF$ theories with Hatano-Nelson-type and non-Hermitian Su-Schrieffer-Heeger-type Toeplitz $K$ matrices confirm the correspondence between ZSMs and Toeplitz braiding. The i$BF$ construction thus forges a bridge between strongly correlated topological field theory and noninteracting non-Hermitian physics, where ZSMs underlie the non-Hermitian amplification effect. Possible extensions include 3-loop and Borromean-rings Toeplitz braiding induced by twisted topological terms, generalized entanglement renormalization, and foliation structures within i$BF$ theories. An intriguing analogy to the scenario of parallel universes is also briefly discussed.",
+      "pubdate": "Wed, 12 Nov 2025 13:12:12 +0000",
+      "authors": "Bo-Xi Li, Peng Ye"
+    },
+    "ccdaea122827537129d0ab1966b24de8": {
+      "id": "ccdaea122827537129d0ab1966b24de8",
+      "link": "http://arxiv.org/abs/2511.09233",
+      "title": "Tensor Network Framework for Forecasting Nonlinear and Chaotic Dynamics",
+      "abstract": "We present a tensor network model (TNM) for forecasting nonlinear and chaotic dynamics, bridging quantum many-body methods with classical complex systems. The TNM leverages hierarchical tensor contractions to encode non-Markovian temporal correlations and multiscale structures, enabling compact and interpretable representations of chaotic flows. Using the Lorenz and Rössler systems as benchmarks, we show that the TNM accurately reconstructs short-term trajectories and faithfully captures the attractor geometry. The model enables robust short-term forecasting beyond several Lyapunov times, offering a meaningful horizon for data-driven prediction under chaos. Inhomogeneous parametrization of weight tensors improves convergence and robustness compared to homogeneous parametrization, while scaling with bond dimension reveals saturation beyond modest values, consistent with the low intrinsic dimensionality of the chaotic attractor. This work establishes tensor networks as a universal paradigm for data-driven modeling of complex dynamical systems, offering physically motivated control of model expressivity and opening pathways toward applications in climate systems and hybrid quantum-classical simulations.",
+      "pubdate": "Wed, 12 Nov 2025 11:49:38 +0000",
+      "authors": "Jia-Bin You, Jian Feng Kong, Jun Ye"
+    },
+    "4184b39ce5563280c3a46182f6eb58e4": {
+      "id": "4184b39ce5563280c3a46182f6eb58e4",
+      "link": "http://arxiv.org/abs/2511.09097",
+      "title": "Evidence for spontaneous breaking of a continuous symmetry at a non-conformal quantum critical point",
+      "abstract": "In this work, we present evidence for the spontaneous breaking of a continuous symmetry in a nearest-neighbour interacting spin-1 chain tuned to a quantum critical point at $T=0$ between two XY quasi-long-range order phases differing by the spontaneous breaking of a $\\mathbb{Z}_2$ symmetry. Despite the one-dimensional nature of the system, which typically prevents such a continuous symmetry breaking due to the Hohenberg-Mermin-Wagner theorem, the presence of a Berry phase term in the quantum model allows us to observe, using matrix product state methods, a finite perpendicular magnetization. Moreover, the quasi-long-range decay of the correlation function becomes truly long-range order, and the dynamical structure factor displays a characteristic Bragg peak together with sharp gapless modes. Our results imply the quantum phase transition has an anomalous dimension of $η\\simeq 1$ together with the dynamical critical exponent $z\\simeq 3/2$, known from the Kardar-Parisi-Zhang universality class in one dimension. We perform a perturbative renormalization group calculation about the upper critical dimension $d_c=2$ that we could close at second loop order. We find an interacting fixed point with critical exponents distinct from the Ising ones. Together, our findings suggest the nature of the fixed point to be non-perturbative. We propose a field-theory that we believe to improve the quantitative results.",
+      "pubdate": "Wed, 12 Nov 2025 08:11:39 +0000",
+      "authors": "R. Flores-Calderón, M. Zündel"
+    },
+    "3e98232972b50c7cda7b914281f915b5": {
+      "id": "3e98232972b50c7cda7b914281f915b5",
+      "link": "http://arxiv.org/abs/2511.08754",
+      "title": "Exact Floquet dynamics of strongly damped driven quantum systems",
+      "abstract": "We present an approach for efficiently simulating strongly damped quantum systems subjected to periodic driving, employing a periodic matrix product operator representation of the influence functional. This representation enables the construction of a numerically exact Floquet propagator that captures the non-Markovian open system dynamics, thus providing a dissipative analogue to the Floquet Hamiltonian of driven isolated quantum systems. We apply this method to study the asymptotic heating of a reservoir in spin-boson models, characterizing the deviation from equilibrium conditions. Moreover, we show how a local driving of two qubits can be utilized to stabilize a transient entanglement buildup of the qubits originating from the interaction with a common environment. Our results make it possible to directly study both stationary and transient dynamics of strongly damped and driven quantum systems within a transparent theoretical and numerical framework.",
+      "pubdate": "Tue, 11 Nov 2025 20:15:13 +0000",
+      "authors": "Konrad Mickiewicz, Valentin Link, Walter T. Strunz"
+    },
     "2b83c5f6d56057d3ef489c3e40fcef95": {
       "id": "2b83c5f6d56057d3ef489c3e40fcef95",
       "link": "http://arxiv.org/abs/2511.08407",
@@ -8544,94 +8632,6 @@
       "link": "http://arxiv.org/abs/2412.21055",
       "abstract": "We consider the surface code under errors featuring both coherent and incoherent components and study the coherence of the corresponding logical noise channel and how this impacts information-theoretic measures of code performance, namely coherent information and quantum relative entropy. Using numerical simulations and a phenomenological field theory, focusing on the most general single-qubit X-error channel, we show that, for any nonzero incoherent noise component, the coherence of the logical noise is exponentially suppressed with the code distance. We also find that the information-theoretic measures require this suppression to detect optimal thresholds for Pauli recovery; they thus require increasingly large distances for increasing error coherence and ultimately break down for fully coherent errors. To obtain our results, we develop a statistical mechanics mapping and a corresponding matrix-product-state algorithm for approximate syndrome sampling. These methods enable the large-scale simulation of these non-Pauli errors, including their maximum-likelihood thresholds, away from the limits captured by previous approaches.",
       "pubdate": "Mon, 30 Dec 2024 16:14:55 +0000"
-    },
-    "27358f4ad12c056ef7b9f3adf4bce64d": {
-      "id": "27358f4ad12c056ef7b9f3adf4bce64d",
-      "link": "http://arxiv.org/abs/2511.10503",
-      "title": "From One to Two Dimensions: Magnetic Phases in Weakly Coupled Spin Ladders",
-      "abstract": "A large variety of materials can be approximately described by means of spin-1/2 Heisenberg ladders. Here, the Density Matrix Renormalization Group (DMRG) algorithm together with a previously established numerical self-consistent mean-field approximation is used to investigate the magnetic properties of spin ladders coupled in a second dimension. The full ground state phase diagram including spin-gapped, antiferromagnetic, ferrimagnetic and fully polarized phases is presented as a function of interladder and intraladder coupling and magnetic field. Measurement of the dependence of magnetization on applied magnetic field is shown to enable location of a material on the phase diagram and determination of the Hamiltonian parameters. These results provide a practical route toward identifying and characterizing magnetic materials composed of coupled spin ladders.",
-      "pubdate": "Thu, 13 Nov 2025 17:10:00 +0000",
-      "authors": "Mateo Cárdenes Wuttig, Andrew J. Millis"
-    },
-    "438806d44ff330206310a10a78e73f72": {
-      "id": "438806d44ff330206310a10a78e73f72",
-      "link": "http://arxiv.org/abs/2511.10189",
-      "title": "Continuum limit of gauged tensor network states",
-      "abstract": "It is well known that all physically relevant states of gauge theories lie in the sectors of the Hilbert space which satisfy the Gauss law. On the lattice, the manifeslty gauge invariant subspace is known to be exactly spanned by gauged tensor networks. In this work, we demonstrate that the continuum limit of certain types of gauged tensor networks is well defined and leads to a new class of states that may be helpful for the non-perturbative study of gauge theories directly in the continuum.",
-      "pubdate": "Thu, 13 Nov 2025 10:59:33 +0000",
-      "authors": "Gertian Roose, Erez Zohar"
-    },
-    "1906fa9705a3fec95c11ca39c4dc9900": {
-      "id": "1906fa9705a3fec95c11ca39c4dc9900",
-      "link": "http://arxiv.org/abs/2511.10080",
-      "title": "The zipper condition for $4$-tensors in two-dimensional topological order and the higher relative commutants of a subfactor arising from a commuting square",
-      "abstract": "They recently study two-dimensional topological order in condensed matter physics in terms of tensor networks involving certain 3- and 4-tensors. Their 3-tensors satisfying the ``zipper condition'' play an important role there. We identify their 4-tensors with bi-unitary connections in Jones' subfactor theory in operator algebras with precise normalization constants. Then we prove that their tensors satisfying the zipper condition are the same as flat fields of strings in subfactor theory which correspond to elements in the higher relative commutants of the subfactor arising from the bi-unitary connection. This is what we expect, since the zipper condition is a kind of pentagon relations, but we clarify what conditions are exactly needed for this -- we do not need the flatness or the finite depth condition for the bi-unitary connection. We actually generalize their 4-tensors so that the four index sets of the 4-tensors can be all different and work on a ``half-version'' of the zipper condition.",
-      "pubdate": "Thu, 13 Nov 2025 08:33:55 +0000",
-      "authors": "Yasuyuki Kawahigashi"
-    },
-    "4faa896bcaa0886012a18137bce623a6": {
-      "id": "4faa896bcaa0886012a18137bce623a6",
-      "link": "http://arxiv.org/abs/2511.09943",
-      "title": "SeQuant Framework for Symbolic and Numerical Tensor Algebra. I. Core Capabilities",
-      "abstract": "SeQuant is an open-source library for symbolic algebra of tensors over commutative (scalar) and non-commutative (operator) rings. The key innovation supporting most of its functionality is a graph-theoretic tensor network (TN) canonicalizer that can handle tensor networks with symmetries faster than their standard group-theoretic counterparts. The TN canonicalizer is used for routine simplification of conventional tensor expressions, for optimizing application of Wick's theorem (used to canonicalize products of tensors over operator fields), and for manipulation of the intermediate representation leading to the numerical evaluation. Notable features of SeQuant include support for noncovariant tensor networks (which often arise from tensor decompositions) and for tensors with modes that depend parametrically on indices of other tensor modes (such dependencies between degrees of freedom are naturally viewed as nesting of tensors, \"tensors of tensors\" arising in block-wise data compressions in data science and modern quantum simulation). SeQuant blurs the line between pure symbolic manipulation/code generation and numerical evaluation by including compiler-like components to optimize and directly interpret tensor expressions using external numerical tensor algebra frameworks. The SeQuant source code is available at https://github.com/ValeevGroup/SeQuant.",
-      "pubdate": "Thu, 13 Nov 2025 04:17:05 +0000",
-      "authors": "Bimal Gaudel, Robert G. Adam, Ajay Melekamburath, Conner Masteran, Nakul Teke, Azam Besharatnik, Andreas Köhn, Edward F. Valeev"
-    },
-    "69b92efdc61ec6576ea0fc7af68cb6f4": {
-      "id": "69b92efdc61ec6576ea0fc7af68cb6f4",
-      "link": "http://arxiv.org/abs/2511.09916",
-      "title": "Implicit Multiple Tensor Decomposition",
-      "abstract": "Recently, triple decomposition has attracted increasing attention for decomposing third-order tensors into three factor tensors. However, this approach is limited to third-order tensors and enforces uniformity in the lower dimensions across all factor tensors, which restricts its flexibility and applicability. To address these issues, we propose the Multiple decomposition, a novel framework that generalizes triple decomposition to arbitrary order tensors and allows the short dimensions of the factor tensors to differ. We establish its connections with other classical tensor decompositions. Furthermore, implicit neural representation (INR) is employed to continuously represent the factor tensors in Multiple decomposition, enabling the method to generalize to non-grid data. We refer to this INR-based Multiple decomposition as Implicit Multiple Tensor Decomposition (IMTD). Then, the Proximal Alternating Least Squares (PALS) algorithm is utilized to solve the IMTD-based tensor reconstruction models. Since the objective function in IMTD-based models often lacks the Kurdyka-Lojasiewicz (KL) property, we establish a KL-free convergence analysis for the algorithm. Finally, extensive numerical experiments further validate the effectiveness of the proposed method.",
-      "pubdate": "Thu, 13 Nov 2025 03:30:12 +0000",
-      "authors": "Kunjing Yang, Libin Zheng, Minru Bai"
-    },
-    "1dee21265614c834b8dab17f8a032bf5": {
-      "id": "1dee21265614c834b8dab17f8a032bf5",
-      "link": "http://arxiv.org/abs/2511.09546",
-      "title": "Accelerating two-dimensional tensor network optimization by preconditioning",
-      "abstract": "We revisit gradient-based optimization for infinite projected entangled pair states (iPEPS), a tensor network ansatz for simulating many-body quantum systems. This approach is hindered by two major challenges: the high computational cost of evaluating energies and gradients, and an ill-conditioned optimization landscape that slows convergence. To reduce the number of optimization steps, we introduce an efficient preconditioner derived from the leading term of the metric tensor. We benchmark our method against standard optimization techniques on the Heisenberg and Kitaev models, demonstrating substantial improvements in overall computational efficiency. Our approach is broadly applicable across various contraction schemes, unit cell sizes, and Hamiltonians, highlighting the potential of preconditioned optimization to advance tensor network algorithms for strongly correlated systems.",
-      "pubdate": "Wed, 12 Nov 2025 18:50:24 +0000",
-      "authors": "Xing-Yu Zhang, Qi Yang, Philippe Corboz, Jutho Haegeman, Wei Tang"
-    },
-    "f088457af1d6426d462a86b2572e23bf": {
-      "id": "f088457af1d6426d462a86b2572e23bf",
-      "link": "http://arxiv.org/abs/2511.09315",
-      "title": "A Tensor Residual Circuit Neural Network Factorized with Matrix Product Operation",
-      "abstract": "It is challenging to reduce the complexity of neural networks while maintaining their generalization ability and robustness, especially for practical applications. Conventional solutions for this problem incorporate quantum-inspired neural networks with Kronecker products and hybrid tensor neural networks with MPO factorization and fully-connected layers. Nonetheless, the generalization power and robustness of the fully-connected layers are not as outstanding as circuit models in quantum computing. In this paper, we propose a novel tensor circuit neural network (TCNN) that takes advantage of the characteristics of tensor neural networks and residual circuit models to achieve generalization ability and robustness with low complexity. The proposed activation operation and parallelism of the circuit in complex number field improves its non-linearity and efficiency for feature learning. Moreover, since the feature information exists in the parameters in both the real and imaginary parts in TCNN, an information fusion layer is proposed for merging features stored in those parameters to enhance the generalization capability. Experimental results confirm that TCNN showcases more outstanding generalization and robustness with its average accuracies on various datasets 2\\%-3\\% higher than those of the state-of-the-art compared models. More significantly, while other models fail to learn features under noise parameter attacking, TCNN still showcases prominent learning capability owing to its ability to prevent gradient explosion. Furthermore, it is comparable to the compared models on the number of trainable parameters and the CPU running time. An ablation study also indicates the advantage of the activation operation, the parallelism architecture and the information fusion layer.",
-      "pubdate": "Wed, 12 Nov 2025 13:24:02 +0000",
-      "authors": "Andi Chen"
-    },
-    "75bea8e457c043cdedb889d27217292a": {
-      "id": "75bea8e457c043cdedb889d27217292a",
-      "link": "http://arxiv.org/abs/2511.09301",
-      "title": "Infinite-component $BF$ field theory: Nexus of fracton order, Toeplitz braiding, and non-Hermitian amplification",
-      "abstract": "Building on the recent study of Toeplitz braiding by Li et al. [Phys. Rev. B 110, 205108 (2024)], we introduce \\textit{infinite-component} $BF$ (i$BF$) theories by stacking topological $BF$ theories along a fourth ($w$) spatial direction and coupling them in a translationally invariant manner. The i$BF$ framework captures the low-energy physics of 4D fracton topological orders in which both particle and loop excitations exhibit restricted mobility along the stacking direction, and their particle-loop braiding statistics are encoded in asymmetric, integer-valued Toeplitz $K$ matrices. We identify a novel form of particle-loop braiding, termed \\textit{Toeplitz braiding}, originating from boundary zero singular modes (ZSMs) of the $K$ matrix. In the thermodynamic limit, nontrivial braiding phases persist even when the particle and loop reside on opposite 3D boundaries, as the boundary ZSMs dominate the nonvanishing off-diagonal elements of $K^{-1}$ and govern boundary-driven braiding behavior. Analytical and numerical studies of i$BF$ theories with Hatano-Nelson-type and non-Hermitian Su-Schrieffer-Heeger-type Toeplitz $K$ matrices confirm the correspondence between ZSMs and Toeplitz braiding. The i$BF$ construction thus forges a bridge between strongly correlated topological field theory and noninteracting non-Hermitian physics, where ZSMs underlie the non-Hermitian amplification effect. Possible extensions include 3-loop and Borromean-rings Toeplitz braiding induced by twisted topological terms, generalized entanglement renormalization, and foliation structures within i$BF$ theories. An intriguing analogy to the scenario of parallel universes is also briefly discussed.",
-      "pubdate": "Wed, 12 Nov 2025 13:12:12 +0000",
-      "authors": "Bo-Xi Li, Peng Ye"
-    },
-    "ccdaea122827537129d0ab1966b24de8": {
-      "id": "ccdaea122827537129d0ab1966b24de8",
-      "link": "http://arxiv.org/abs/2511.09233",
-      "title": "Tensor Network Framework for Forecasting Nonlinear and Chaotic Dynamics",
-      "abstract": "We present a tensor network model (TNM) for forecasting nonlinear and chaotic dynamics, bridging quantum many-body methods with classical complex systems. The TNM leverages hierarchical tensor contractions to encode non-Markovian temporal correlations and multiscale structures, enabling compact and interpretable representations of chaotic flows. Using the Lorenz and Rössler systems as benchmarks, we show that the TNM accurately reconstructs short-term trajectories and faithfully captures the attractor geometry. The model enables robust short-term forecasting beyond several Lyapunov times, offering a meaningful horizon for data-driven prediction under chaos. Inhomogeneous parametrization of weight tensors improves convergence and robustness compared to homogeneous parametrization, while scaling with bond dimension reveals saturation beyond modest values, consistent with the low intrinsic dimensionality of the chaotic attractor. This work establishes tensor networks as a universal paradigm for data-driven modeling of complex dynamical systems, offering physically motivated control of model expressivity and opening pathways toward applications in climate systems and hybrid quantum-classical simulations.",
-      "pubdate": "Wed, 12 Nov 2025 11:49:38 +0000",
-      "authors": "Jia-Bin You, Jian Feng Kong, Jun Ye"
-    },
-    "4184b39ce5563280c3a46182f6eb58e4": {
-      "id": "4184b39ce5563280c3a46182f6eb58e4",
-      "link": "http://arxiv.org/abs/2511.09097",
-      "title": "Evidence for spontaneous breaking of a continuous symmetry at a non-conformal quantum critical point",
-      "abstract": "In this work, we present evidence for the spontaneous breaking of a continuous symmetry in a nearest-neighbour interacting spin-1 chain tuned to a quantum critical point at $T=0$ between two XY quasi-long-range order phases differing by the spontaneous breaking of a $\\mathbb{Z}_2$ symmetry. Despite the one-dimensional nature of the system, which typically prevents such a continuous symmetry breaking due to the Hohenberg-Mermin-Wagner theorem, the presence of a Berry phase term in the quantum model allows us to observe, using matrix product state methods, a finite perpendicular magnetization. Moreover, the quasi-long-range decay of the correlation function becomes truly long-range order, and the dynamical structure factor displays a characteristic Bragg peak together with sharp gapless modes. Our results imply the quantum phase transition has an anomalous dimension of $η\\simeq 1$ together with the dynamical critical exponent $z\\simeq 3/2$, known from the Kardar-Parisi-Zhang universality class in one dimension. We perform a perturbative renormalization group calculation about the upper critical dimension $d_c=2$ that we could close at second loop order. We find an interacting fixed point with critical exponents distinct from the Ising ones. Together, our findings suggest the nature of the fixed point to be non-perturbative. We propose a field-theory that we believe to improve the quantitative results.",
-      "pubdate": "Wed, 12 Nov 2025 08:11:39 +0000",
-      "authors": "R. Flores-Calderón, M. Zündel"
-    },
-    "3e98232972b50c7cda7b914281f915b5": {
-      "id": "3e98232972b50c7cda7b914281f915b5",
-      "link": "http://arxiv.org/abs/2511.08754",
-      "title": "Exact Floquet dynamics of strongly damped driven quantum systems",
-      "abstract": "We present an approach for efficiently simulating strongly damped quantum systems subjected to periodic driving, employing a periodic matrix product operator representation of the influence functional. This representation enables the construction of a numerically exact Floquet propagator that captures the non-Markovian open system dynamics, thus providing a dissipative analogue to the Floquet Hamiltonian of driven isolated quantum systems. We apply this method to study the asymptotic heating of a reservoir in spin-boson models, characterizing the deviation from equilibrium conditions. Moreover, we show how a local driving of two qubits can be utilized to stabilize a transient entanglement buildup of the qubits originating from the interaction with a common environment. Our results make it possible to directly study both stationary and transient dynamics of strongly damped and driven quantum systems within a transparent theoretical and numerical framework.",
-      "pubdate": "Tue, 11 Nov 2025 20:15:13 +0000",
-      "authors": "Konrad Mickiewicz, Valentin Link, Walter T. Strunz"
     }
   }
 }
