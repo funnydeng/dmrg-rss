@@ -8,7 +8,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 17 Nov 2025 01:51:50 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Nov 2025 12:49:39 +0000</lastBuildDate>
+    <item>
+      <title>Probing universal imaginary-time relaxation critical dynamics with infinite projected entangled pair states</title>
+      <link>http://arxiv.org/abs/2511.10934</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; He-Yu Lin, Shuai Yin, Z. Y. Xie, Zhong-Yi Lu&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We investigate the imaginary-time relaxation critical dynamics of the two-dimensional transverse-field Ising model using infinite projected entangled pair states (iPEPS) with the full-update strategy. Simulating directly in the thermodynamic limit, we explore the relaxation process near the critical point with two types of initial states: a fully polarized state and a product state with a small magnetization. For the fully polarized state, the magnetization shows a power law scaling $M\propto τ^{-β/(νz)}$ in the imaginary-time evolution, from which both the critical point and critical exponent can be determined with high accuracy. For the nearly paramagnetic state, the relaxation process exhibits a behavior of $M\propto τ^θ$ with $θ=0.1958$ being the critical initial-slip exponent, which is in good agreement with that obtained from the dynamic scaling of the self-correlation in quantum Monte Carlo method. These universal features emerge well before the system converges to the ground state, demonstrating the efficiency of imaginary-time evolution for probing quantum criticality. Our results demonstrate that iPEPS can serve as a robust and scalable method for studying dynamical critical phenomena in two-dimensional quantum many-body systems.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2511.10934'&gt;arXiv:2511.10934&lt;/a&gt;] Published Fri, 14 Nov 2025 03:41:38 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2511.10934</guid>
+      <pubDate>Fri, 14 Nov 2025 03:41:38 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <title>Fast and Expressive Multi-Token Prediction with Probabilistic Circuits</title>
+      <link>http://arxiv.org/abs/2511.11346</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Andreas Grivas, Lorenzo Loconte, Emile van Krieken, Piotr Nawrot, Yu Zhao, Euan Wielewski, Pasquale Minervini, Edoardo Ponti, Antonio Vergari&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; Multi-token prediction (MTP) is a prominent strategy to significantly speed up generation in large language models (LLMs), including byte-level LLMs, which are tokeniser-free but prohibitively slow. However, existing MTP methods often sacrifice expressiveness by assuming independence between future tokens. In this work, we investigate the trade-off between expressiveness and latency in MTP within the framework of probabilistic circuits (PCs). Our framework, named MTPC, allows one to explore different ways to encode the joint distributions over future tokens by selecting different circuit architectures, generalising classical models such as (hierarchical) mixture models, hidden Markov models and tensor networks. We show the efficacy of MTPC by retrofitting existing byte-level LLMs, such as EvaByte. Our experiments show that, when combined with speculative decoding, MTPC significantly speeds up generation compared to MTP with independence assumptions, while guaranteeing to retain the performance of the original verifier LLM. We also rigorously study the optimal trade-off between expressiveness and latency when exploring the possible parameterisations of MTPC, such as PC architectures and partial layer sharing between the verifier and draft LLMs.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2511.11346'&gt;arXiv:2511.11346&lt;/a&gt;] Published Fri, 14 Nov 2025 14:33:14 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2511.11346</guid>
+      <pubDate>Fri, 14 Nov 2025 14:33:14 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
     <item>
       <title>The surface code beyond Pauli channels: Logical noise coherence, information-theoretic measures, and errorfield-double phenomenology</title>
       <link>http://arxiv.org/abs/2412.21055</link>

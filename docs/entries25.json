@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-17T01:51:50.218661+00:00",
+  "last_updated": "2025-11-17T12:49:39.380516+00:00",
   "entries": {
     "27358f4ad12c056ef7b9f3adf4bce64d": {
       "id": "27358f4ad12c056ef7b9f3adf4bce64d",
@@ -8632,6 +8632,22 @@
       "link": "http://arxiv.org/abs/2412.21055",
       "abstract": "We consider the surface code under errors featuring both coherent and incoherent components and study the coherence of the corresponding logical noise channel and how this impacts information-theoretic measures of code performance, namely coherent information and quantum relative entropy. Using numerical simulations and a phenomenological field theory, focusing on the most general single-qubit X-error channel, we show that, for any nonzero incoherent noise component, the coherence of the logical noise is exponentially suppressed with the code distance. We also find that the information-theoretic measures require this suppression to detect optimal thresholds for Pauli recovery; they thus require increasingly large distances for increasing error coherence and ultimately break down for fully coherent errors. To obtain our results, we develop a statistical mechanics mapping and a corresponding matrix-product-state algorithm for approximate syndrome sampling. These methods enable the large-scale simulation of these non-Pauli errors, including their maximum-likelihood thresholds, away from the limits captured by previous approaches.",
       "pubdate": "Mon, 30 Dec 2024 16:14:55 +0000"
+    },
+    "b30a5ff49b8fac0eae974df1a76112d3": {
+      "id": "b30a5ff49b8fac0eae974df1a76112d3",
+      "link": "http://arxiv.org/abs/2511.11346",
+      "title": "Fast and Expressive Multi-Token Prediction with Probabilistic Circuits",
+      "abstract": "Multi-token prediction (MTP) is a prominent strategy to significantly speed up generation in large language models (LLMs), including byte-level LLMs, which are tokeniser-free but prohibitively slow. However, existing MTP methods often sacrifice expressiveness by assuming independence between future tokens. In this work, we investigate the trade-off between expressiveness and latency in MTP within the framework of probabilistic circuits (PCs). Our framework, named MTPC, allows one to explore different ways to encode the joint distributions over future tokens by selecting different circuit architectures, generalising classical models such as (hierarchical) mixture models, hidden Markov models and tensor networks. We show the efficacy of MTPC by retrofitting existing byte-level LLMs, such as EvaByte. Our experiments show that, when combined with speculative decoding, MTPC significantly speeds up generation compared to MTP with independence assumptions, while guaranteeing to retain the performance of the original verifier LLM. We also rigorously study the optimal trade-off between expressiveness and latency when exploring the possible parameterisations of MTPC, such as PC architectures and partial layer sharing between the verifier and draft LLMs.",
+      "pubdate": "Fri, 14 Nov 2025 14:33:14 +0000",
+      "authors": "Andreas Grivas, Lorenzo Loconte, Emile van Krieken, Piotr Nawrot, Yu Zhao, Euan Wielewski, Pasquale Minervini, Edoardo Ponti, Antonio Vergari"
+    },
+    "d1fa7fcfa9aa435aa92092c58a586220": {
+      "id": "d1fa7fcfa9aa435aa92092c58a586220",
+      "link": "http://arxiv.org/abs/2511.10934",
+      "title": "Probing universal imaginary-time relaxation critical dynamics with infinite projected entangled pair states",
+      "abstract": "We investigate the imaginary-time relaxation critical dynamics of the two-dimensional transverse-field Ising model using infinite projected entangled pair states (iPEPS) with the full-update strategy. Simulating directly in the thermodynamic limit, we explore the relaxation process near the critical point with two types of initial states: a fully polarized state and a product state with a small magnetization. For the fully polarized state, the magnetization shows a power law scaling $M\\propto τ^{-β/(νz)}$ in the imaginary-time evolution, from which both the critical point and critical exponent can be determined with high accuracy. For the nearly paramagnetic state, the relaxation process exhibits a behavior of $M\\propto τ^θ$ with $θ=0.1958$ being the critical initial-slip exponent, which is in good agreement with that obtained from the dynamic scaling of the self-correlation in quantum Monte Carlo method. These universal features emerge well before the system converges to the ground state, demonstrating the efficiency of imaginary-time evolution for probing quantum criticality. Our results demonstrate that iPEPS can serve as a robust and scalable method for studying dynamical critical phenomena in two-dimensional quantum many-body systems.",
+      "pubdate": "Fri, 14 Nov 2025 03:41:38 +0000",
+      "authors": "He-Yu Lin, Shuai Yin, Z. Y. Xie, Zhong-Yi Lu"
     }
   }
 }
