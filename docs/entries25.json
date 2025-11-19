@@ -1,6 +1,46 @@
 {
-  "last_updated": "2025-11-18T12:49:50.006343+00:00",
+  "last_updated": "2025-11-19T01:49:51.609285+00:00",
   "entries": {
+    "3ac9feb63446255c851261e2727ee39b": {
+      "id": "3ac9feb63446255c851261e2727ee39b",
+      "link": "http://arxiv.org/abs/2511.13667",
+      "title": "Quantum complexity across thermal phase transition in the transverse field Ising chain with long-range couplings",
+      "abstract": "We investigate the behavior of the Schmidt gap, the von Neumann entanglement entropy, and the non-stabiliserness in proximity to the classical phase transition of the one-dimensional long-range transverse-field Ising model (LRTFIM). Leveraging the time-dependent variational principle (TDVP) within a tensor-network formulation, we simulate thermal states through their purified tensor-network representations. Our results show that these observables, typically regarded as hallmarks of quantum criticality, exhibit pronounced and coherent signatures even at a classical thermal transition, highlighting the emergence of quantum complexity as the system nears thermal criticality.",
+      "pubdate": "Mon, 17 Nov 2025 18:21:29 +0000",
+      "authors": "Meghadeepa Adhikary, Nishan Ranabhat, Mario Collura"
+    },
+    "43d7a1ba3622d6e7f5380fcf7b67dd54": {
+      "id": "43d7a1ba3622d6e7f5380fcf7b67dd54",
+      "link": "http://arxiv.org/abs/2511.13514",
+      "title": "A Quantum Tensor Network-Based Viewpoint for Modeling and Analysis of Time Series Data",
+      "abstract": "Accurate uncertainty quantification is a critical challenge in machine learning. While neural networks are highly versatile and capable of learning complex patterns, they often lack interpretability due to their ``black box'' nature. On the other hand, probabilistic ``white box'' models, though interpretable, often suffer from a significant performance gap when compared to neural networks. To address this, we propose a novel quantum physics-based ``white box'' method that offers both accurate uncertainty quantification and enhanced interpretability. By mapping the kernel mean embedding (KME) of a time series data vector to a reproducing kernel Hilbert space (RKHS), we construct a tensor network-inspired 1D spin chain Hamiltonian, with the KME as one of its eigen-functions or eigen-modes. We then solve the associated Schr{ö}dinger equation and apply perturbation theory to quantify uncertainty, thereby improving the interpretability of tasks performed with the quantum tensor network-based model. We demonstrate the effectiveness of this methodology, compared to state-of-the-art ``white box\" models, in change point detection and time series clustering, providing insights into the uncertainties associated with decision-making throughout the process.",
+      "pubdate": "Mon, 17 Nov 2025 15:49:17 +0000",
+      "authors": "Pragatheeswaran Vipulananthan, Kamal Premaratne, Dilip Sarkar, Manohar N. Murthi"
+    },
+    "b1dd789e540dc0cfcf8d4452e39c958f": {
+      "id": "b1dd789e540dc0cfcf8d4452e39c958f",
+      "link": "http://arxiv.org/abs/2511.13346",
+      "title": "Projection-based DMRG-in-DFT embedding corrected by non-additive exchange-correlation",
+      "abstract": "The projection-based wave function (WF)-in-DFT embedding enables an efficient description of both the energetics and properties of large and complex chemical systems, with accuracy exceeding that of pure DFT. Recently, we have proposed using the density matrix renormalization group (DMRG) as the WF method for molecules containing strongly correlated fragments [Beran, P. et al. J. Phys. Chem. Lett. 2023, 14, 3, 716-722]. In this work, we demonstrate that the accuracy of the DMRG-in-DFT approach is primarily limited by the approximate treatment of the coupling between the active component and its environment through nonadditive exchange-correlation functionals. To address this issue, we combine exact exchange to reduce the nonadditive exchange error with a multireference adiabatic connection (AC) scheme to recover nonadditive correlation. The performance of the improved DMRG-in-DFT embedding is illustrated on two prototypical strongly correlated systems: the dissociation of the H20 chain and the cleavage of a triple CN bond in propionitrile.",
+      "pubdate": "Mon, 17 Nov 2025 13:11:41 +0000",
+      "authors": "Enzo Monino, Daria Drwal, Pavel Beran, Michał Hapka, Libor Veis, Katarzyna Pernal"
+    },
+    "5ca3df81044bceab378ed82b2d3fc169": {
+      "id": "5ca3df81044bceab378ed82b2d3fc169",
+      "link": "http://arxiv.org/abs/2511.13218",
+      "title": "Numerical renormalization group integrated Hamiltonian truncation: Toward generic deformation of integrable lattice models",
+      "abstract": "We present a hybrid lattice Hamiltonian truncation method that integrates the numerical renormalization group (NRG) with a truncated lattice integrable spectrum. The technique is tailored for generic deformations of integrable lattice models, where the NRG enables a controlled incorporation of high-energy states. The method extends the basis set more effectively and efficiently than brute-force truncation, meanwhile significantly reducing errors. We show its capability on two paradigmatic models: an Ising chain in a magnetic field and a quantum Ising ladder. The resulting dynamical structure factors accurately capture the essential low-energy physics, including the $E_8$ and $\\mathcal{D}_8^{(1)}$ excitations of the former and later models, respectively, demonstrating the approach's computational efficiency and high performance.",
+      "pubdate": "Mon, 17 Nov 2025 10:32:16 +0000",
+      "authors": "Xiaodong He, Xiao Wang, Jianda Wu"
+    },
+    "e14bb61d11a0328b69b9bbfd0024ca00": {
+      "id": "e14bb61d11a0328b69b9bbfd0024ca00",
+      "link": "http://arxiv.org/abs/2511.12000",
+      "title": "Measurement-Based Quantum Computation Using the Spin-1 XXZ Model with Uniaxial Anisotropy",
+      "abstract": "We demonstrate that the ground state of a spin-1 XXZ chain with uniaxial anisotropies, single-ion anisotropy $D$ and Ising anisotropy $J$, within the Haldane phase can serve as a resource state for measurement-based quantum computation implementing single-qubit gates. The gate fidelity of both elementary rotation gates and general single-qubit unitary gates composed of rotations about the $x$-, $y$-, and $z$-axes is evaluated, and is found to exceed 0.99 when $D$ or $J$ is appropriately tuned. Furthermore, we derive an analytic expression for the rotation-gate fidelity under the assumption that the state lies within the $\\mathbb Z_2\\times\\mathbb Z_2$-protected Haldane phase, showing that it is determined by the post-measurement spin-spin correlation function and the failure probability. The observed enhancement of gate fidelity in the spin-1 XXZ chain originates from the strengthening of antiferromagnetic (AFM) correlations near the AFM phase, which effectively suppresses failure states.",
+      "pubdate": "Sat, 15 Nov 2025 02:38:34 +0000",
+      "authors": "Hiroki Ohta, Aaron Merlin Müller, Shunji Tsuchiya"
+    },
     "b30a5ff49b8fac0eae974df1a76112d3": {
       "id": "b30a5ff49b8fac0eae974df1a76112d3",
       "link": "http://arxiv.org/abs/2511.11346",
@@ -8648,46 +8688,6 @@
       "link": "http://arxiv.org/abs/2412.21055",
       "abstract": "We consider the surface code under errors featuring both coherent and incoherent components and study the coherence of the corresponding logical noise channel and how this impacts information-theoretic measures of code performance, namely coherent information and quantum relative entropy. Using numerical simulations and a phenomenological field theory, focusing on the most general single-qubit X-error channel, we show that, for any nonzero incoherent noise component, the coherence of the logical noise is exponentially suppressed with the code distance. We also find that the information-theoretic measures require this suppression to detect optimal thresholds for Pauli recovery; they thus require increasingly large distances for increasing error coherence and ultimately break down for fully coherent errors. To obtain our results, we develop a statistical mechanics mapping and a corresponding matrix-product-state algorithm for approximate syndrome sampling. These methods enable the large-scale simulation of these non-Pauli errors, including their maximum-likelihood thresholds, away from the limits captured by previous approaches.",
       "pubdate": "Mon, 30 Dec 2024 16:14:55 +0000"
-    },
-    "3ac9feb63446255c851261e2727ee39b": {
-      "id": "3ac9feb63446255c851261e2727ee39b",
-      "link": "http://arxiv.org/abs/2511.13667",
-      "title": "Quantum complexity across thermal phase transition in the transverse field Ising chain with long-range couplings",
-      "abstract": "We investigate the behavior of the Schmidt gap, the von Neumann entanglement entropy, and the non-stabiliserness in proximity to the classical phase transition of the one-dimensional long-range transverse-field Ising model (LRTFIM). Leveraging the time-dependent variational principle (TDVP) within a tensor-network formulation, we simulate thermal states through their purified tensor-network representations. Our results show that these observables, typically regarded as hallmarks of quantum criticality, exhibit pronounced and coherent signatures even at a classical thermal transition, highlighting the emergence of quantum complexity as the system nears thermal criticality.",
-      "pubdate": "Mon, 17 Nov 2025 18:21:29 +0000",
-      "authors": "Meghadeepa Adhikary, Nishan Ranabhat, Mario Collura"
-    },
-    "43d7a1ba3622d6e7f5380fcf7b67dd54": {
-      "id": "43d7a1ba3622d6e7f5380fcf7b67dd54",
-      "link": "http://arxiv.org/abs/2511.13514",
-      "title": "A Quantum Tensor Network-Based Viewpoint for Modeling and Analysis of Time Series Data",
-      "abstract": "Accurate uncertainty quantification is a critical challenge in machine learning. While neural networks are highly versatile and capable of learning complex patterns, they often lack interpretability due to their ``black box'' nature. On the other hand, probabilistic ``white box'' models, though interpretable, often suffer from a significant performance gap when compared to neural networks. To address this, we propose a novel quantum physics-based ``white box'' method that offers both accurate uncertainty quantification and enhanced interpretability. By mapping the kernel mean embedding (KME) of a time series data vector to a reproducing kernel Hilbert space (RKHS), we construct a tensor network-inspired 1D spin chain Hamiltonian, with the KME as one of its eigen-functions or eigen-modes. We then solve the associated Schr{ö}dinger equation and apply perturbation theory to quantify uncertainty, thereby improving the interpretability of tasks performed with the quantum tensor network-based model. We demonstrate the effectiveness of this methodology, compared to state-of-the-art ``white box\" models, in change point detection and time series clustering, providing insights into the uncertainties associated with decision-making throughout the process.",
-      "pubdate": "Mon, 17 Nov 2025 15:49:17 +0000",
-      "authors": "Pragatheeswaran Vipulananthan, Kamal Premaratne, Dilip Sarkar, Manohar N. Murthi"
-    },
-    "b1dd789e540dc0cfcf8d4452e39c958f": {
-      "id": "b1dd789e540dc0cfcf8d4452e39c958f",
-      "link": "http://arxiv.org/abs/2511.13346",
-      "title": "Projection-based DMRG-in-DFT embedding corrected by non-additive exchange-correlation",
-      "abstract": "The projection-based wave function (WF)-in-DFT embedding enables an efficient description of both the energetics and properties of large and complex chemical systems, with accuracy exceeding that of pure DFT. Recently, we have proposed using the density matrix renormalization group (DMRG) as the WF method for molecules containing strongly correlated fragments [Beran, P. et al. J. Phys. Chem. Lett. 2023, 14, 3, 716-722]. In this work, we demonstrate that the accuracy of the DMRG-in-DFT approach is primarily limited by the approximate treatment of the coupling between the active component and its environment through nonadditive exchange-correlation functionals. To address this issue, we combine exact exchange to reduce the nonadditive exchange error with a multireference adiabatic connection (AC) scheme to recover nonadditive correlation. The performance of the improved DMRG-in-DFT embedding is illustrated on two prototypical strongly correlated systems: the dissociation of the H20 chain and the cleavage of a triple CN bond in propionitrile.",
-      "pubdate": "Mon, 17 Nov 2025 13:11:41 +0000",
-      "authors": "Enzo Monino, Daria Drwal, Pavel Beran, Michał Hapka, Libor Veis, Katarzyna Pernal"
-    },
-    "5ca3df81044bceab378ed82b2d3fc169": {
-      "id": "5ca3df81044bceab378ed82b2d3fc169",
-      "link": "http://arxiv.org/abs/2511.13218",
-      "title": "Numerical renormalization group integrated Hamiltonian truncation: Toward generic deformation of integrable lattice models",
-      "abstract": "We present a hybrid lattice Hamiltonian truncation method that integrates the numerical renormalization group (NRG) with a truncated lattice integrable spectrum. The technique is tailored for generic deformations of integrable lattice models, where the NRG enables a controlled incorporation of high-energy states. The method extends the basis set more effectively and efficiently than brute-force truncation, meanwhile significantly reducing errors. We show its capability on two paradigmatic models: an Ising chain in a magnetic field and a quantum Ising ladder. The resulting dynamical structure factors accurately capture the essential low-energy physics, including the $E_8$ and $\\mathcal{D}_8^{(1)}$ excitations of the former and later models, respectively, demonstrating the approach's computational efficiency and high performance.",
-      "pubdate": "Mon, 17 Nov 2025 10:32:16 +0000",
-      "authors": "Xiaodong He, Xiao Wang, Jianda Wu"
-    },
-    "e14bb61d11a0328b69b9bbfd0024ca00": {
-      "id": "e14bb61d11a0328b69b9bbfd0024ca00",
-      "link": "http://arxiv.org/abs/2511.12000",
-      "title": "Measurement-Based Quantum Computation Using the Spin-1 XXZ Model with Uniaxial Anisotropy",
-      "abstract": "We demonstrate that the ground state of a spin-1 XXZ chain with uniaxial anisotropies, single-ion anisotropy $D$ and Ising anisotropy $J$, within the Haldane phase can serve as a resource state for measurement-based quantum computation implementing single-qubit gates. The gate fidelity of both elementary rotation gates and general single-qubit unitary gates composed of rotations about the $x$-, $y$-, and $z$-axes is evaluated, and is found to exceed 0.99 when $D$ or $J$ is appropriately tuned. Furthermore, we derive an analytic expression for the rotation-gate fidelity under the assumption that the state lies within the $\\mathbb Z_2\\times\\mathbb Z_2$-protected Haldane phase, showing that it is determined by the post-measurement spin-spin correlation function and the failure probability. The observed enhancement of gate fidelity in the spin-1 XXZ chain originates from the strengthening of antiferromagnetic (AFM) correlations near the AFM phase, which effectively suppresses failure states.",
-      "pubdate": "Sat, 15 Nov 2025 02:38:34 +0000",
-      "authors": "Hiroki Ohta, Aaron Merlin Müller, Shunji Tsuchiya"
     }
   }
 }
