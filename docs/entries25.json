@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-20T01:48:35.202493+00:00",
+  "last_updated": "2025-11-20T12:48:40.592805+00:00",
   "entries": {
     "88d77dbc1ad21cd82f5ba71ae0e10784": {
       "id": "88d77dbc1ad21cd82f5ba71ae0e10784",
@@ -8720,6 +8720,46 @@
       "link": "http://arxiv.org/abs/2412.21055",
       "abstract": "We consider the surface code under errors featuring both coherent and incoherent components and study the coherence of the corresponding logical noise channel and how this impacts information-theoretic measures of code performance, namely coherent information and quantum relative entropy. Using numerical simulations and a phenomenological field theory, focusing on the most general single-qubit X-error channel, we show that, for any nonzero incoherent noise component, the coherence of the logical noise is exponentially suppressed with the code distance. We also find that the information-theoretic measures require this suppression to detect optimal thresholds for Pauli recovery; they thus require increasingly large distances for increasing error coherence and ultimately break down for fully coherent errors. To obtain our results, we develop a statistical mechanics mapping and a corresponding matrix-product-state algorithm for approximate syndrome sampling. These methods enable the large-scale simulation of these non-Pauli errors, including their maximum-likelihood thresholds, away from the limits captured by previous approaches.",
       "pubdate": "Mon, 30 Dec 2024 16:14:55 +0000"
+    },
+    "7ba79a48212fcb7df74fab6b4dfe8d38": {
+      "id": "7ba79a48212fcb7df74fab6b4dfe8d38",
+      "link": "http://arxiv.org/abs/2511.15697",
+      "title": "Real-time Scattering in φ^4 Theory using Matrix Product States",
+      "abstract": "We investigate the critical behavior and real-time scattering dynamics of the interacting $φ^4$ quantum field theory in $(1+1)$ dimensions using uniform matrix product states and the time-dependent variational principle. A finite-entanglement scaling analysis at $λ= 0.8$ bounds the critical mass-squared to $μ_c^2 \\in [-0.3190,-0.3185]$ and provides a quantitative map of the symmetric, near-critical, weakly broken, and deeply broken regimes. Using these ground states as asymptotic vacua, we simulate two-particle collisions in a sandwich geometry and extract the elastic scattering probability $P_{11\\to 11}(E)$ and Wigner time delay $Δt(E)$ following the prescription of Jha et al. [Phys. Rev. Research 7, 023266 (2025)]. We find strongly inelastic scattering in the symmetric phase ($P_{11\\to 11} \\simeq 0.63$, $Δt \\simeq -180$ for $μ^2 = 0.2$), almost perfectly elastic collisions in the spontaneously broken phase ($P_{11\\to 11} \\simeq 0.998$, $Δt \\simeq -270$ for $μ^2=-0.2$ and $P_{11\\to 11} \\simeq 1$, $Δt \\simeq -177.781$ for $μ^2=-0.5$), and a breakdown of the sandwich evolution precisely at the critical coupling, which provides a dynamical signature of the quantum critical point. These results demonstrate that TDVP-based uniform matrix product states can probe nonperturbative scattering and critical dynamics in lattice $φ^4$ theory with controlled entanglement truncation.",
+      "pubdate": "Wed, 19 Nov 2025 18:55:00 +0000",
+      "authors": "Bahaa Al Sayegh, Wissam Chemissany"
+    },
+    "9c59a59aae98c4331132be776ec6141f": {
+      "id": "9c59a59aae98c4331132be776ec6141f",
+      "link": "http://arxiv.org/abs/2511.15674",
+      "title": "Efficient quantum state preparation of multivariate functions using tensor networks",
+      "abstract": "For the preparation of high-dimensional functions on quantum computers, we introduce tensor network algorithms that are efficient with regard to dimensionality, optimize circuits composed of hardware-native gates and take gate errors into account during the optimization. To avoid the notorious barren plateau problem of vanishing gradients in the circuit optimization, we smoothly transform the circuit from an easy-to-prepare initial function into the desired target function. We show that paradigmatic multivariate functions can be accurately prepared such as, by numerical simulations, a 17-dimensional Gaussian encoded in the state of 102 qubits and, through experiments, a 9-dimensional Gaussian realized using 54 qubits on Quantinuum's H2 quantum processor.",
+      "pubdate": "Wed, 19 Nov 2025 18:18:27 +0000",
+      "authors": "Marco Ballarin, Juan José García-Ripoll, David Hayes, Michael Lubasch"
+    },
+    "0393df1f5885fd3ebbdcbcab15afb9f6": {
+      "id": "0393df1f5885fd3ebbdcbcab15afb9f6",
+      "link": "http://arxiv.org/abs/2511.15608",
+      "title": "Magnetic electron-hole asymmetry in cuprates: a computational revisit",
+      "abstract": "In this work, we revisit the electron-hole asymmetry of antiferromagnetism in cuprates by studying the three-band Emery model. Using parameters relevant to La$_2$CuO$_4$, we benchmark the anti-ferromagnetic response for a large range of dopings with variational Monte Carlo, determinant quantum Monte Carlo, constrained-path auxiliary-field quantum Monte Carlo, density-matrix embedding theory, and the Gutzwiller approximation. Across methods and accessible sizes/temperatures, we find no significant electron-hole asymmetry if we consider only Neel anti-ferronagnetic response and ignore other possible orders such as stripe state. This result is robust to a moderate oxygen-site repulsion $U_p$ and to parameter sets of Nd$_2$CuO$_4$. Incorporating dopant-induced local potentials reveals an extrinsic route to asymmetry: Cu-site defects enhance AFM on the electron-doped side, whereas O-site defects suppress it on the hole-doped side. These results indicate that dopant-driven effects make a non-negligible contribution to apparent electron-hole asymmetry in the general phase diagram of cuprates and should be included when analyzing competing orders in cuprates.",
+      "pubdate": "Wed, 19 Nov 2025 16:55:05 +0000",
+      "authors": "Jiong Mei, Shao-Hang Shi, Ping Xu, Ziyan Chen, Hui-Ke Jin, Mingpu Qin, Zi-Xiang Li, Kun Jiang"
+    },
+    "33e73edab0ba141548303aa9d1eda999": {
+      "id": "33e73edab0ba141548303aa9d1eda999",
+      "link": "http://arxiv.org/abs/2511.15452",
+      "title": "Spinon excitations and spin correlations in the one-dimensional quantum magnet $β$-VOSO$_4$ probed by Raman spectroscopy",
+      "abstract": "Fractionalized excitations such as spinons and anyons have emerged as a central theme in condensed matter physics with broad implications for superconductivity, quantum statistics, and quantum computation. The nearly ideal one-dimensional $S=1/2$ system $β$-VOSO$_4$ without long-range order down to 85 mK provides a promising platform to experimentally explore such fractionalized excitations. Here, we employ Raman spectroscopy to probe magnetic excitations and the evolution of spin correlations in $β$-VOSO$_4$. Spinon signatures are found along the chain direction, evidenced by a broad, gapless scattering continuum at low temperatures. The temperature dependence of the spinon spectral weight aligns considerably with numerical density matrix renormalization group calculations. By comparing the experimental spinon spectral weight with calculated results and evaluating the associated quantum Fisher information (QFI) therefrom, we observe a steep increase in QFI upon cooling, indicating rapidly growing correlation lengths. Our study showcases QFI as a probe of spin correlations in quantum magnets.",
+      "pubdate": "Wed, 19 Nov 2025 14:09:35 +0000",
+      "authors": "Dirk Wulferding, Diana Lucia Quintero-Castro, Pontus Laurell, Gonzalo Alvarez, Elbio Dagotto, Kwang-Yong Choi"
+    },
+    "21c9bd77ebfabdac198674fdca1c6043": {
+      "id": "21c9bd77ebfabdac198674fdca1c6043",
+      "link": "http://arxiv.org/abs/2511.15295",
+      "title": "Tensor-network approach to quantum optical state evolution beyond the Fock basis",
+      "abstract": "Understanding the quantum evolution of light in nonlinear media is central to the development of next-generation quantum technologies. Yet modeling these processes remains computationally demanding, as the required resources grow rapidly with photon number and phase-space resolution. Here we introduce a tensor-network approach that efficiently captures the dynamics of nonlinear optical systems in a continuous-variable representation. Using the matrix product state (MPS) formalism, both quantum states and operators are encoded in a highly compressed form, enabling direct numerical integration of the Schrödinger equation. We demonstrate the method by simulating degenerate spontaneous parametric down-conversion (SPDC) and show that it accurately reproduces established theoretical benchmarks - energy conservation, pump depletion, and quadrature squeezing - even in regimes where conventional Fock-basis simulations become infeasible. For high-intensity pump fields ($α= 100$), the MPS representation achieves compression ratios above $3\\cdot 10^3$ while preserving physical fidelity. This framework opens a scalable route to modeling multimode quantum light and nonlinear optical phenomena beyond the reach of traditional methods.",
+      "pubdate": "Wed, 19 Nov 2025 09:58:18 +0000",
+      "authors": "Nikolay Kapridov, Egor Tiunov, Dmitry Chermoshentsev"
     }
   }
 }
