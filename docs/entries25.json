@@ -1,6 +1,38 @@
 {
-  "last_updated": "2025-11-21T12:47:10.090879+00:00",
+  "last_updated": "2025-11-22T01:45:36.599349+00:00",
   "entries": {
+    "7d0b44c88e9c87a9ae17ccfbec56a6ac": {
+      "id": "7d0b44c88e9c87a9ae17ccfbec56a6ac",
+      "link": "http://arxiv.org/abs/2511.16641",
+      "title": "Stabilizing Fractional Chern States in Twisted MoTe2: Multi-band Correlations via Non-perturbative Renormalization Group",
+      "abstract": "The observation of fraction quantum Hall states in twisted MoTe2 has sparked a lof of interest in this phenomenon. Most theoretical works to date rely on the brute-force exact diagonalization which is limited to the one partially occupied band. In this work, we present strong evidence that the effect of higher lying bands cannot be ignored due to strong interband interactions. To tackle these effects, we introduce a non-perturbative driven similarity renormalization group (DSRG) method, originally developed for problems in quantum chemistry. We apply this methodology to twisted MoTe2 at fractional hole fillings of ν = 1/3 and 2/3 across a spectrum of twist angles. Our results show that at ν = 1/3, the many-body excitation energy gaps are substantially reduced compared to the one-band treatment. For ν = 2/3, we find that the dynamic correlations stemming from interband interactions stabilize fractional Chern insulating phases at larger twist angles, consistent with the experimental findings. By examining the correlated orbitals and their single-particle topological features, we demonstrate that this stabilization at higher twist angles arises predominantly from the dynamic correlations, rather than conditions on the single-particle quantum geometric tensor.",
+      "pubdate": "Thu, 20 Nov 2025 18:48:05 +0000",
+      "authors": "Run Hou, Andriy H. Nevidomskyy"
+    },
+    "26dd57363b94db16278519646b5411ef": {
+      "id": "26dd57363b94db16278519646b5411ef",
+      "link": "http://arxiv.org/abs/2511.16585",
+      "title": "OpenQudit: Extensible and Accelerated Numerical Quantum Compilation via a JIT-Compiled DSL",
+      "abstract": "High-performance numerical quantum compilers rely on classical optimization, but are limited by slow numerical evaluations and a design that makes extending them with new instructions a difficult, error-prone task for domain experts. This paper introduces OpenQudit, a compilation framework that solves these problems by allowing users to define quantum operations symbolically in the Qudit Gate Language (QGL), a mathematically natural DSL. OpenQudit's ahead-of-time compiler uses a tensor network representation and an e-graph-based pass for symbolic simplification before a runtime tensor network virtual machine (TNVM) JIT-compiles the expressions into high-performance native code. The evaluation shows that this symbolic approach is highly effective, accelerating the core instantiation task by up to $\\mathtt{\\sim}20\\times$ on common quantum circuit synthesis problems compared to state-of-the-art tools.",
+      "pubdate": "Thu, 20 Nov 2025 17:37:42 +0000",
+      "authors": "Ed Younis"
+    },
+    "80d6910436e526f0cbe083c59ba547c9": {
+      "id": "80d6910436e526f0cbe083c59ba547c9",
+      "link": "http://arxiv.org/abs/2511.16429",
+      "title": "Order-by-disorder from Schwinger bosons in a frustrated honeycomb ferromagnet",
+      "abstract": "The cobalt-based honeycomb magnet BaCo$_2$(AsO$_4$)$_2$ (BCAO) has recently emerged as a promising platform for studying frustrated magnetism beyond conventional paradigms. Neutron-scattering experiments and first-principles calculations have revealed an unexpected double-zigzag (dZZ) magnetically ordered ground state, whose microscopic origin remains under active debate. Here, we investigate the emergence of such dZZ phase in a ferro-antiferromagnetic $J_1$-$J_3$ Heisenberg model on the honeycomb lattice, using a generalized Schwinger boson mean-field theory ($g$-SBMFT) that treats ferromagnetic and antiferromagnetic interactions on equal footing. Based on $g$-SBMFT and exact-diagonalization (ED) techniques, we find that the dZZ is selected by an order-by-disorder mechanism in a narrow $J_3/|J_1|$ range, in agreement with recent density-matrix renormalization-group calculations. The magnetic excitation spectra within the dZZ phase displays a distinctive smearing out in momentum space due to quantum fluctuations which may be probed through inelastic neutron-scattering experiments.",
+      "pubdate": "Thu, 20 Nov 2025 14:55:30 +0000",
+      "authors": "Arnaud Ralko, Jaime Merino"
+    },
+    "bc327ef534543173569bf834abc0e784": {
+      "id": "bc327ef534543173569bf834abc0e784",
+      "link": "http://arxiv.org/abs/2511.16358",
+      "title": "iFCTN: Folding-Free Fully-Connected Tensor Network Decomposition for Tensor Completion",
+      "abstract": "The fully-connected tensor network (FCTN) decomposition has recently exhibited strong modeling capabilities by connecting every pair of tensor factors, thereby capturing rich cross-mode correlations and maintaining invariance under mode transpositions. However, this advantage comes with an inherent limitation: updating the factors typically requires reconstructing auxiliary sub-networks, which entails extensive and cumbersome (un)folding. In this study, we propose intra-block FCTN (iFCTN) decomposition, a novel (un)folding-free variant of FCTN decomposition that streamlines computation. We parameterize each FCTN factor through Khatri-Rao products, which significantly reduces the complexity of reconstructing intermediate sub-networks and yields subproblems with well-structured coefficient matrices. Furthermore, we deploy the proposed iFCTN decomposition on the representative task of tensor completion and design an efficient proximal alternating minimization algorithm while retaining convergence guarantees. Extensive experiments demonstrate that iFCTN outperforms or matches state-of-the-art methods with comparable computational cost.",
+      "pubdate": "Thu, 20 Nov 2025 13:44:09 +0000",
+      "authors": "Ziyi Gan, Chunfeng Cui"
+    },
     "7ba79a48212fcb7df74fab6b4dfe8d38": {
       "id": "7ba79a48212fcb7df74fab6b4dfe8d38",
       "link": "http://arxiv.org/abs/2511.15697",
@@ -8760,38 +8792,6 @@
       "link": "http://arxiv.org/abs/2412.21055",
       "abstract": "We consider the surface code under errors featuring both coherent and incoherent components and study the coherence of the corresponding logical noise channel and how this impacts information-theoretic measures of code performance, namely coherent information and quantum relative entropy. Using numerical simulations and a phenomenological field theory, focusing on the most general single-qubit X-error channel, we show that, for any nonzero incoherent noise component, the coherence of the logical noise is exponentially suppressed with the code distance. We also find that the information-theoretic measures require this suppression to detect optimal thresholds for Pauli recovery; they thus require increasingly large distances for increasing error coherence and ultimately break down for fully coherent errors. To obtain our results, we develop a statistical mechanics mapping and a corresponding matrix-product-state algorithm for approximate syndrome sampling. These methods enable the large-scale simulation of these non-Pauli errors, including their maximum-likelihood thresholds, away from the limits captured by previous approaches.",
       "pubdate": "Mon, 30 Dec 2024 16:14:55 +0000"
-    },
-    "7d0b44c88e9c87a9ae17ccfbec56a6ac": {
-      "id": "7d0b44c88e9c87a9ae17ccfbec56a6ac",
-      "link": "http://arxiv.org/abs/2511.16641",
-      "title": "Stabilizing Fractional Chern States in Twisted MoTe2: Multi-band Correlations via Non-perturbative Renormalization Group",
-      "abstract": "The observation of fraction quantum Hall states in twisted MoTe2 has sparked a lof of interest in this phenomenon. Most theoretical works to date rely on the brute-force exact diagonalization which is limited to the one partially occupied band. In this work, we present strong evidence that the effect of higher lying bands cannot be ignored due to strong interband interactions. To tackle these effects, we introduce a non-perturbative driven similarity renormalization group (DSRG) method, originally developed for problems in quantum chemistry. We apply this methodology to twisted MoTe2 at fractional hole fillings of ν = 1/3 and 2/3 across a spectrum of twist angles. Our results show that at ν = 1/3, the many-body excitation energy gaps are substantially reduced compared to the one-band treatment. For ν = 2/3, we find that the dynamic correlations stemming from interband interactions stabilize fractional Chern insulating phases at larger twist angles, consistent with the experimental findings. By examining the correlated orbitals and their single-particle topological features, we demonstrate that this stabilization at higher twist angles arises predominantly from the dynamic correlations, rather than conditions on the single-particle quantum geometric tensor.",
-      "pubdate": "Thu, 20 Nov 2025 18:48:05 +0000",
-      "authors": "Run Hou, Andriy H. Nevidomskyy"
-    },
-    "26dd57363b94db16278519646b5411ef": {
-      "id": "26dd57363b94db16278519646b5411ef",
-      "link": "http://arxiv.org/abs/2511.16585",
-      "title": "OpenQudit: Extensible and Accelerated Numerical Quantum Compilation via a JIT-Compiled DSL",
-      "abstract": "High-performance numerical quantum compilers rely on classical optimization, but are limited by slow numerical evaluations and a design that makes extending them with new instructions a difficult, error-prone task for domain experts. This paper introduces OpenQudit, a compilation framework that solves these problems by allowing users to define quantum operations symbolically in the Qudit Gate Language (QGL), a mathematically natural DSL. OpenQudit's ahead-of-time compiler uses a tensor network representation and an e-graph-based pass for symbolic simplification before a runtime tensor network virtual machine (TNVM) JIT-compiles the expressions into high-performance native code. The evaluation shows that this symbolic approach is highly effective, accelerating the core instantiation task by up to $\\mathtt{\\sim}20\\times$ on common quantum circuit synthesis problems compared to state-of-the-art tools.",
-      "pubdate": "Thu, 20 Nov 2025 17:37:42 +0000",
-      "authors": "Ed Younis"
-    },
-    "80d6910436e526f0cbe083c59ba547c9": {
-      "id": "80d6910436e526f0cbe083c59ba547c9",
-      "link": "http://arxiv.org/abs/2511.16429",
-      "title": "Order-by-disorder from Schwinger bosons in a frustrated honeycomb ferromagnet",
-      "abstract": "The cobalt-based honeycomb magnet BaCo$_2$(AsO$_4$)$_2$ (BCAO) has recently emerged as a promising platform for studying frustrated magnetism beyond conventional paradigms. Neutron-scattering experiments and first-principles calculations have revealed an unexpected double-zigzag (dZZ) magnetically ordered ground state, whose microscopic origin remains under active debate. Here, we investigate the emergence of such dZZ phase in a ferro-antiferromagnetic $J_1$-$J_3$ Heisenberg model on the honeycomb lattice, using a generalized Schwinger boson mean-field theory ($g$-SBMFT) that treats ferromagnetic and antiferromagnetic interactions on equal footing. Based on $g$-SBMFT and exact-diagonalization (ED) techniques, we find that the dZZ is selected by an order-by-disorder mechanism in a narrow $J_3/|J_1|$ range, in agreement with recent density-matrix renormalization-group calculations. The magnetic excitation spectra within the dZZ phase displays a distinctive smearing out in momentum space due to quantum fluctuations which may be probed through inelastic neutron-scattering experiments.",
-      "pubdate": "Thu, 20 Nov 2025 14:55:30 +0000",
-      "authors": "Arnaud Ralko, Jaime Merino"
-    },
-    "bc327ef534543173569bf834abc0e784": {
-      "id": "bc327ef534543173569bf834abc0e784",
-      "link": "http://arxiv.org/abs/2511.16358",
-      "title": "iFCTN: Folding-Free Fully-Connected Tensor Network Decomposition for Tensor Completion",
-      "abstract": "The fully-connected tensor network (FCTN) decomposition has recently exhibited strong modeling capabilities by connecting every pair of tensor factors, thereby capturing rich cross-mode correlations and maintaining invariance under mode transpositions. However, this advantage comes with an inherent limitation: updating the factors typically requires reconstructing auxiliary sub-networks, which entails extensive and cumbersome (un)folding. In this study, we propose intra-block FCTN (iFCTN) decomposition, a novel (un)folding-free variant of FCTN decomposition that streamlines computation. We parameterize each FCTN factor through Khatri-Rao products, which significantly reduces the complexity of reconstructing intermediate sub-networks and yields subproblems with well-structured coefficient matrices. Furthermore, we deploy the proposed iFCTN decomposition on the representative task of tensor completion and design an efficient proximal alternating minimization algorithm while retaining convergence guarantees. Extensive experiments demonstrate that iFCTN outperforms or matches state-of-the-art methods with comparable computational cost.",
-      "pubdate": "Thu, 20 Nov 2025 13:44:09 +0000",
-      "authors": "Ziyi Gan, Chunfeng Cui"
     }
   }
 }
