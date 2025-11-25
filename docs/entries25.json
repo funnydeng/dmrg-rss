@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-25T01:51:42.567589+00:00",
+  "last_updated": "2025-11-25T12:50:44.824845+00:00",
   "entries": {
     "99afdd81f929be20d790b0107517a974": {
       "id": "99afdd81f929be20d790b0107517a974",
@@ -8832,6 +8832,46 @@
       "link": "http://arxiv.org/abs/2412.21055",
       "abstract": "We consider the surface code under errors featuring both coherent and incoherent components and study the coherence of the corresponding logical noise channel and how this impacts information-theoretic measures of code performance, namely coherent information and quantum relative entropy. Using numerical simulations and a phenomenological field theory, focusing on the most general single-qubit X-error channel, we show that, for any nonzero incoherent noise component, the coherence of the logical noise is exponentially suppressed with the code distance. We also find that the information-theoretic measures require this suppression to detect optimal thresholds for Pauli recovery; they thus require increasingly large distances for increasing error coherence and ultimately break down for fully coherent errors. To obtain our results, we develop a statistical mechanics mapping and a corresponding matrix-product-state algorithm for approximate syndrome sampling. These methods enable the large-scale simulation of these non-Pauli errors, including their maximum-likelihood thresholds, away from the limits captured by previous approaches.",
       "pubdate": "Mon, 30 Dec 2024 16:14:55 +0000"
+    },
+    "41afb30bbb7934524ef322881af55f7a": {
+      "id": "41afb30bbb7934524ef322881af55f7a",
+      "link": "http://arxiv.org/abs/2511.19340",
+      "title": "Simulating dynamics of the two-dimensional transverse-field Ising model: a comparative study of large-scale classical numerics",
+      "abstract": "The quantum dynamics of many-qubit systems is an outstanding problem that has recently driven significant advances in both numerical methods and programmable quantum processing units. In this work, we employ a comprehensive toolbox of state-of-the-art numerical approaches to classically simulate the dynamics of the two-dimensional transverse field Ising model. Our methods include three different tensor network techniques -- matrix product states, tree-tensor networks, and two-dimensional tensor-networks under the belief propagation approximation -- as well as time-dependent variational Monte Carlo with Neural Quantum States. We focus on two paradigmatic dynamical protocols: (i) quantum annealing through a critical point and (ii) post-quench dynamics. Our extensive results show the quantitative predictions of various state-of-the-art numerical methods providing a benchmark for future numerical investigations and experimental studies with the aim to push the limitations on classical and QPUs. In particular, our work connects classical simulability to different regimes associated with quantum dynamics in Rydberg arrays - namely, quasi-adiabatic dynamics, the Kibble-Zurek mechanism, and quantum quenches.",
+      "pubdate": "Mon, 24 Nov 2025 17:39:29 +0000",
+      "authors": "Joseph Vovrosh, Sergi Julià-Farré, Wladislaw Krinitsin, Michael Kaicher, Fergus Hayes, Emmanuel Gottlob, Augustine Kshetrimayum, Kemal Bidzhiev, Simon B. Jäger, Markus Schmitt, Joseph Tindall, Constantin Dalyac, Tiago Mendes-Santos, Alexandre Dauphin"
+    },
+    "746080ba62695d0a4493fca0157a40df": {
+      "id": "746080ba62695d0a4493fca0157a40df",
+      "link": "http://arxiv.org/abs/2511.18644",
+      "title": "Competition between charge-density-wave and superconducting orders on eight-leg square Hubbard cylinders",
+      "abstract": "The issue of whether $d$-wave superconductivity (SC) occurs in the square-lattice Hubbard model with $U$ of order of the bandwidth has been one of the most debated issues to emerge from the study of high temperature SC. Here, we report variational results on eight-leg cylinders with next-nearest-neighbor hopping in the range $-0.5 t \\leq t'\\leq 0.25 t$ with $U = 8t$ and $12t$ and doped hole concentrations $δ=1/12$ and $1/8$. For $t'\\leq 0$, the ground-state appears to be a charge-density wave (CDW) of one sort or another with SC correlations that are extremely short-ranged. In contrast, in some cases, the local magnetic order has a correlation length greater than half the cylinder width - suggestive that magnetic order might also arise in the 2D limit. For $t'>0$, our results depend more strongly on boundary conditions (periodic vs antiperiodic), making it still harder to correctly guess whether SC or CDW correlations dominate in the 2D limit. These results were obtained employing matrix-product states with bond dimensions large enough that energy differences as small as $10^{-3}t$ per site can be resolved.",
+      "pubdate": "Sun, 23 Nov 2025 23:03:12 +0000",
+      "authors": "Hong-Chen Jiang, Thomas P. Devereaux, Steven A. Kivelson"
+    },
+    "a68307602de3e07aea394c8a5c7b93db": {
+      "id": "a68307602de3e07aea394c8a5c7b93db",
+      "link": "http://arxiv.org/abs/2511.17971",
+      "title": "Comprehensive Design Space Exploration for Tensorized Neural Network Hardware Accelerators",
+      "abstract": "High-order tensor decomposition has been widely adopted to obtain compact deep neural networks for edge deployment. However, existing studies focus primarily on its algorithmic advantages such as accuracy and compression ratio-while overlooking the hardware deployment efficiency. Such hardware-unaware designs often obscure the potential latency and energy benefits of tensorized models. Although several works attempt to reduce computational cost by optimizing the contraction sequence based on the number of multiply-accumulate operations, they typically neglect the underlying hardware characteristics, resulting in suboptimal real-world performance. We observe that the contraction path, hardware architecture, and dataflow mapping are tightly coupled and must be optimized jointly within a unified design space to maximize deployment efficiency on real devices. To this end, we propose a co-exploration framework that unifies these dimensions within a unified design space for efficient training and inference of tensorized neural networks on edge platforms. The framework formulates a latency oriented search objective and solves it via a global latency-driven exploration across the unified design space to achieve end-to-end model efficiency. The optimized configurations are implemented on a configurable FPGA kernel, achieving up to 4 and 3.85 lower inference and training latency compared with the dense baseline.",
+      "pubdate": "Sat, 22 Nov 2025 08:18:40 +0000",
+      "authors": "Jinsong Zhang, Minghe Li, Jiayi Tian, Jinming Lu, Zheng Zhang"
+    },
+    "957bddbecdcfe2402b9a73339c79496c": {
+      "id": "957bddbecdcfe2402b9a73339c79496c",
+      "link": "http://arxiv.org/abs/2511.17835",
+      "title": "Kicked-Ising Quantum Battery",
+      "abstract": "Quantum batteries (QBs) have emerged as promising candidates capable of outperforming classical counterparts by utilizing entangled operators. Spin chains, in particular, exhibit unique {charging} properties across diverse settings. Here, we introduce the kicked-Ising model as a QB and analytically characterize its charging dynamics within the self-dual operator regime, valid for arbitrary system sizes and Floquet cycles. Using Clifford quantum cellular automata and momentum-space Floquet analysis with the Cayley-Hamilton theorem, we obtain exact expressions for energy injection, uncovering the influence of boundary conditions and spin-chain parity on charging performance. The kicked-Ising QB achieves maximal charging while exhibiting remarkable robustness against disorder. We further propose an intensified protocol within a fixed time window that enables faster and more efficient energy injection, while non-uniform kick schedules enhance experimental flexibility. Spin correlators analysis further shows that low-frequency driving boosts energy injection, highlighting a clear connection between charging, scrambling, and kick-induced delocalization. Our theoretical framework are supported by tensor-network simulations and finally verified on IBM quantum hardware. Accounting for platform-specific constraints, we demonstrate that the kicked-Ising QB offers a scalable, disorder-resilient protocol and testbed to assess quantum platforms.",
+      "pubdate": "Fri, 21 Nov 2025 23:08:54 +0000",
+      "authors": "Sebastián V. Romero, Xi Chen, Yue Ban"
+    },
+    "c2d32906f370d6eae92bca3e2f607777": {
+      "id": "c2d32906f370d6eae92bca3e2f607777",
+      "link": "http://arxiv.org/abs/2511.17752",
+      "title": "Tensor network simulations of quasi-GPDs in the massive Schwinger model",
+      "abstract": "Generalized Parton Distribution functions (GPDs) are off-diagonal light-cone matrix elements that encode the internal structure of hadrons in terms of quark and gluon degrees of freedom. In this work, we present the first nonperturbative study of quasi-GPDs in the massive Schwinger model, quantum electrodynamics in 1+1 dimensions (QED2), within the Hamiltonian formulation of lattice field theory. Quasi-distributions are spatial correlation functions of boosted states, which approach the relevant light-cone distributions in the luminal limit. Using tensor networks, we prepare the first excited state in the strongly coupled regime and boost it to close to the light-cone on lattices of up to 400 lattice sites. We compute both quasi-parton distribution functions and, for the first time, quasi-GPDs, and study their convergence for increasingly boosted states. In addition, we perform analytic calculations of GPDs in the two-particle Fock-space approximation and in the Reggeized limit, providing qualitative benchmarks for the tensor network results. Our analysis establishes computational benchmarks for accessing partonic observables in low-dimensional gauge theories, offering a starting point for future extensions to higher dimensions, non-Abelian theories, and quantum simulations.",
+      "pubdate": "Fri, 21 Nov 2025 20:06:09 +0000",
+      "authors": "Sebastian Grieninger, Jake Montgomery, Felix Ringer, Ismail Zahed"
     }
   }
 }
