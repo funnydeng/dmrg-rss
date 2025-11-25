@@ -1,6 +1,46 @@
 {
-  "last_updated": "2025-11-24T12:52:25.847259+00:00",
+  "last_updated": "2025-11-25T01:51:42.567589+00:00",
   "entries": {
+    "99afdd81f929be20d790b0107517a974": {
+      "id": "99afdd81f929be20d790b0107517a974",
+      "link": "http://arxiv.org/abs/2511.17218",
+      "title": "Teaching quantum computing to computer science students: Review of a hands-on quantum circuit simulation practical",
+      "abstract": "We present a practical course targeting graduate students with prior knowledge of the basics of quantum computing. The practical aims to deepen students' understanding of fundamental concepts in quantum computing by implementing quantum circuit simulators. Through hands-on experience, students learn about different methods to simulate quantum computing, including state vectors, density matrices, the stabilizer formalism, and matrix product states. By implementing the simulation methods themselves, students develop a more in-depth understanding of fundamental concepts in quantum computing, including superposition, entanglement, and the effects of noise on quantum systems. This hands-on experience prepares students to do research in the field of quantum computing and equips them with the knowledge and skills necessary to tackle complex research projects in the field. In this work, we describe our teaching approach and the structure of our practical, and we discuss evaluations and lessons learned.",
+      "pubdate": "Fri, 21 Nov 2025 12:58:34 +0000",
+      "authors": "Florian Krötz, Xiao-Ting Michelle To, Korbinian Staudacher, Dieter Kranzlmüller"
+    },
+    "4e2e11df79ec6e62b3db4d8f60b98592": {
+      "id": "4e2e11df79ec6e62b3db4d8f60b98592",
+      "link": "http://arxiv.org/abs/2511.17173",
+      "title": "Probing Boundary Spins in the Su-Schrieffer-Heeger-Hubbard model",
+      "abstract": "Studying boundary excitations provides a powerful approach to probe correlations in topological phases. We propose that localized spins near the ends of a Su-Schrieffer-Heeger-Hubbard chain embedded in an insulating environment can be detected experimentally using scanning tunneling microscopy (STM) combined with electron spin resonance (ESR). When the STM tip is in the contact regime, the tip-end-spin coupling realizes an effective Anderson impurity problem, giving rise to a Kondo peak at low bias. Spatially resolving the Kondo resonance width as the STM tip approaches the chain ends provides an indirect yet clear signature of these localized spins. To support this proposal, we use density-matrix renormalization group (DMRG) to calculate the spin gap and spin projection of end states for chains of various lengths and interaction strengths $U$ at half-filling. In the non-interacting limit ($U=0$), we derive simple analytical expressions that reproduce the numerical results for sufficiently long chains. We also discuss how the correlated phase of the isolated chain is characterized by boundary zeros in its single-particle Green's function, and briefly comment on their localization properties in relation to the boundary spins.",
+      "pubdate": "Fri, 21 Nov 2025 11:47:03 +0000",
+      "authors": "Armando A. Aligia, Alejandro M. Lobos, Lucila Peralta Gavensky, Claudio J. Gazza"
+    },
+    "a5f1bf8df639a2a53bfe988f6760a169": {
+      "id": "a5f1bf8df639a2a53bfe988f6760a169",
+      "link": "http://arxiv.org/abs/2511.17032",
+      "title": "Pair scattering from time-modulated impurity in the Bose-Hubbard model",
+      "abstract": "We investigate scattering phenomena in a one-dimensional attractive Bose-Hubbard model with a time-periodically modulated impurity. We analyze both single-particle and pair (doublon) transmission, exploring a range of interaction strengths and drive amplitudes. Our exact numerical results reveal excellent quantitative agreement with analytical predictions in the high-frequency limit. At intermediate and weak attractive interactions, we observe significant pair dissociation and the emergence of dynamically localized single-particle modes. These features are reminiscent of Floquet Bound States in the Continuum (BICs). These findings provide new avenues for engineering controllable quantum transport and localized states in ultracold atom experiments.",
+      "pubdate": "Fri, 21 Nov 2025 08:20:45 +0000",
+      "authors": "Neda Ahmadi, Ameneh Sheikhan, Corinna Kollath"
+    },
+    "dffc38f89b4a7ed5a57358b2b91d12e0": {
+      "id": "dffc38f89b4a7ed5a57358b2b91d12e0",
+      "link": "http://arxiv.org/abs/2511.16746",
+      "title": "Excited states from local effective Hamiltonians of matrix product states and their entanglement spectrum transition",
+      "abstract": "Solving excited states is a challenging task for interacting systems. For one-dimensional critical systems, however, excited states can be directly accessed from the eigenvectors of the local effective Hamiltonian that is constructed from the ground state obtained by variational matrix product state (MPS) optimization. Despite its numerical success, the theoretical mechanism underlying this method has remained largely unexplored. In this work, we provide a conformal field theory (CFT) perspective that helps elucidate this connection. The key insight is that this construction effectively uses a truncated basis of ground-state Schmidt vectors to represent excited states, where the contribution of each Schmidt vector can be expressed as a CFT correlation function and shown to decay with increasing Schmidt index. The CFT analysis further predicts an entanglement-spectrum transition of excited states as the ratio of the subsystem size to the total system size is varied. Our numerical results support this picture and demonstrate a reorganization of the entanglement spectrum into distinct conformal towers as this ratio changes.",
+      "pubdate": "Thu, 20 Nov 2025 19:00:38 +0000",
+      "authors": "Denise Cocchiarella, Mingru Yang, Yueshui Zhang, Mari Carmen Bañuls, Hong-Hao Tu, Yuhan Liu"
+    },
+    "3397f37ed45671930438d22bab0c22a5": {
+      "id": "3397f37ed45671930438d22bab0c22a5",
+      "link": "http://arxiv.org/abs/2511.16739",
+      "title": "Conserved quantities enable the quantum Mpemba effect in weakly open systems",
+      "abstract": "Observation of the quantum Mpemba effect has spurred much interest in its enabling conditions and its relation to the classical counterpart. Here, we consider weakly open many-body quantum systems initialized in different thermal states and examine when the initially farther state relaxes to the (non-equilibrium) steady state faster. We claim that the number of conserved quantities in the unitary part plays a crucial role: the Mpemba effect is possible only when the Hamiltonian commutes with other extensive operators or is integrable. The reason lies in the dynamical evolution happening in spaces of different dimensions. When energy is the only approximately conserved quantity, dissipation pushes the dynamics within a single-parameter manifold of different thermal states. In contrast, for Hamiltonians with several conserved quantities, the dynamics drift in the multi-dimensional space of generalized Gibbs ensembles, whose distance to the steady state is less trivial. We provide numerical results for large system sizes using tensor networks and free-fermion techniques, thereby supporting our claim.",
+      "pubdate": "Thu, 20 Nov 2025 19:00:04 +0000",
+      "authors": "Iris Ulčakar, Rustem Sharipov, Gianluca Lagnese, Zala Lenarčič"
+    },
     "7d0b44c88e9c87a9ae17ccfbec56a6ac": {
       "id": "7d0b44c88e9c87a9ae17ccfbec56a6ac",
       "link": "http://arxiv.org/abs/2511.16641",
@@ -8792,46 +8832,6 @@
       "link": "http://arxiv.org/abs/2412.21055",
       "abstract": "We consider the surface code under errors featuring both coherent and incoherent components and study the coherence of the corresponding logical noise channel and how this impacts information-theoretic measures of code performance, namely coherent information and quantum relative entropy. Using numerical simulations and a phenomenological field theory, focusing on the most general single-qubit X-error channel, we show that, for any nonzero incoherent noise component, the coherence of the logical noise is exponentially suppressed with the code distance. We also find that the information-theoretic measures require this suppression to detect optimal thresholds for Pauli recovery; they thus require increasingly large distances for increasing error coherence and ultimately break down for fully coherent errors. To obtain our results, we develop a statistical mechanics mapping and a corresponding matrix-product-state algorithm for approximate syndrome sampling. These methods enable the large-scale simulation of these non-Pauli errors, including their maximum-likelihood thresholds, away from the limits captured by previous approaches.",
       "pubdate": "Mon, 30 Dec 2024 16:14:55 +0000"
-    },
-    "99afdd81f929be20d790b0107517a974": {
-      "id": "99afdd81f929be20d790b0107517a974",
-      "link": "http://arxiv.org/abs/2511.17218",
-      "title": "Teaching quantum computing to computer science students: Review of a hands-on quantum circuit simulation practical",
-      "abstract": "We present a practical course targeting graduate students with prior knowledge of the basics of quantum computing. The practical aims to deepen students' understanding of fundamental concepts in quantum computing by implementing quantum circuit simulators. Through hands-on experience, students learn about different methods to simulate quantum computing, including state vectors, density matrices, the stabilizer formalism, and matrix product states. By implementing the simulation methods themselves, students develop a more in-depth understanding of fundamental concepts in quantum computing, including superposition, entanglement, and the effects of noise on quantum systems. This hands-on experience prepares students to do research in the field of quantum computing and equips them with the knowledge and skills necessary to tackle complex research projects in the field. In this work, we describe our teaching approach and the structure of our practical, and we discuss evaluations and lessons learned.",
-      "pubdate": "Fri, 21 Nov 2025 12:58:34 +0000",
-      "authors": "Florian Krötz, Xiao-Ting Michelle To, Korbinian Staudacher, Dieter Kranzlmüller"
-    },
-    "4e2e11df79ec6e62b3db4d8f60b98592": {
-      "id": "4e2e11df79ec6e62b3db4d8f60b98592",
-      "link": "http://arxiv.org/abs/2511.17173",
-      "title": "Probing Boundary Spins in the Su-Schrieffer-Heeger-Hubbard model",
-      "abstract": "Studying boundary excitations provides a powerful approach to probe correlations in topological phases. We propose that localized spins near the ends of a Su-Schrieffer-Heeger-Hubbard chain embedded in an insulating environment can be detected experimentally using scanning tunneling microscopy (STM) combined with electron spin resonance (ESR). When the STM tip is in the contact regime, the tip-end-spin coupling realizes an effective Anderson impurity problem, giving rise to a Kondo peak at low bias. Spatially resolving the Kondo resonance width as the STM tip approaches the chain ends provides an indirect yet clear signature of these localized spins. To support this proposal, we use density-matrix renormalization group (DMRG) to calculate the spin gap and spin projection of end states for chains of various lengths and interaction strengths $U$ at half-filling. In the non-interacting limit ($U=0$), we derive simple analytical expressions that reproduce the numerical results for sufficiently long chains. We also discuss how the correlated phase of the isolated chain is characterized by boundary zeros in its single-particle Green's function, and briefly comment on their localization properties in relation to the boundary spins.",
-      "pubdate": "Fri, 21 Nov 2025 11:47:03 +0000",
-      "authors": "Armando A. Aligia, Alejandro M. Lobos, Lucila Peralta Gavensky, Claudio J. Gazza"
-    },
-    "a5f1bf8df639a2a53bfe988f6760a169": {
-      "id": "a5f1bf8df639a2a53bfe988f6760a169",
-      "link": "http://arxiv.org/abs/2511.17032",
-      "title": "Pair scattering from time-modulated impurity in the Bose-Hubbard model",
-      "abstract": "We investigate scattering phenomena in a one-dimensional attractive Bose-Hubbard model with a time-periodically modulated impurity. We analyze both single-particle and pair (doublon) transmission, exploring a range of interaction strengths and drive amplitudes. Our exact numerical results reveal excellent quantitative agreement with analytical predictions in the high-frequency limit. At intermediate and weak attractive interactions, we observe significant pair dissociation and the emergence of dynamically localized single-particle modes. These features are reminiscent of Floquet Bound States in the Continuum (BICs). These findings provide new avenues for engineering controllable quantum transport and localized states in ultracold atom experiments.",
-      "pubdate": "Fri, 21 Nov 2025 08:20:45 +0000",
-      "authors": "Neda Ahmadi, Ameneh Sheikhan, Corinna Kollath"
-    },
-    "dffc38f89b4a7ed5a57358b2b91d12e0": {
-      "id": "dffc38f89b4a7ed5a57358b2b91d12e0",
-      "link": "http://arxiv.org/abs/2511.16746",
-      "title": "Excited states from local effective Hamiltonians of matrix product states and their entanglement spectrum transition",
-      "abstract": "Solving excited states is a challenging task for interacting systems. For one-dimensional critical systems, however, excited states can be directly accessed from the eigenvectors of the local effective Hamiltonian that is constructed from the ground state obtained by variational matrix product state (MPS) optimization. Despite its numerical success, the theoretical mechanism underlying this method has remained largely unexplored. In this work, we provide a conformal field theory (CFT) perspective that helps elucidate this connection. The key insight is that this construction effectively uses a truncated basis of ground-state Schmidt vectors to represent excited states, where the contribution of each Schmidt vector can be expressed as a CFT correlation function and shown to decay with increasing Schmidt index. The CFT analysis further predicts an entanglement-spectrum transition of excited states as the ratio of the subsystem size to the total system size is varied. Our numerical results support this picture and demonstrate a reorganization of the entanglement spectrum into distinct conformal towers as this ratio changes.",
-      "pubdate": "Thu, 20 Nov 2025 19:00:38 +0000",
-      "authors": "Denise Cocchiarella, Mingru Yang, Yueshui Zhang, Mari Carmen Bañuls, Hong-Hao Tu, Yuhan Liu"
-    },
-    "3397f37ed45671930438d22bab0c22a5": {
-      "id": "3397f37ed45671930438d22bab0c22a5",
-      "link": "http://arxiv.org/abs/2511.16739",
-      "title": "Conserved quantities enable the quantum Mpemba effect in weakly open systems",
-      "abstract": "Observation of the quantum Mpemba effect has spurred much interest in its enabling conditions and its relation to the classical counterpart. Here, we consider weakly open many-body quantum systems initialized in different thermal states and examine when the initially farther state relaxes to the (non-equilibrium) steady state faster. We claim that the number of conserved quantities in the unitary part plays a crucial role: the Mpemba effect is possible only when the Hamiltonian commutes with other extensive operators or is integrable. The reason lies in the dynamical evolution happening in spaces of different dimensions. When energy is the only approximately conserved quantity, dissipation pushes the dynamics within a single-parameter manifold of different thermal states. In contrast, for Hamiltonians with several conserved quantities, the dynamics drift in the multi-dimensional space of generalized Gibbs ensembles, whose distance to the steady state is less trivial. We provide numerical results for large system sizes using tensor networks and free-fermion techniques, thereby supporting our claim.",
-      "pubdate": "Thu, 20 Nov 2025 19:00:04 +0000",
-      "authors": "Iris Ulčakar, Rustem Sharipov, Gianluca Lagnese, Zala Lenarčič"
     }
   }
 }
