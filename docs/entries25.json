@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-27T01:49:23.832831+00:00",
+  "last_updated": "2025-11-27T12:50:29.476962+00:00",
   "entries": {
     "910f6025f0863f54c18c86ec4735c8e1": {
       "id": "910f6025f0863f54c18c86ec4735c8e1",
@@ -8920,6 +8920,38 @@
       "link": "http://arxiv.org/abs/2412.21055",
       "abstract": "We consider the surface code under errors featuring both coherent and incoherent components and study the coherence of the corresponding logical noise channel and how this impacts information-theoretic measures of code performance, namely coherent information and quantum relative entropy. Using numerical simulations and a phenomenological field theory, focusing on the most general single-qubit X-error channel, we show that, for any nonzero incoherent noise component, the coherence of the logical noise is exponentially suppressed with the code distance. We also find that the information-theoretic measures require this suppression to detect optimal thresholds for Pauli recovery; they thus require increasingly large distances for increasing error coherence and ultimately break down for fully coherent errors. To obtain our results, we develop a statistical mechanics mapping and a corresponding matrix-product-state algorithm for approximate syndrome sampling. These methods enable the large-scale simulation of these non-Pauli errors, including their maximum-likelihood thresholds, away from the limits captured by previous approaches.",
       "pubdate": "Mon, 30 Dec 2024 16:14:55 +0000"
+    },
+    "ea210e75b5637e1793c81da8527ad231": {
+      "id": "ea210e75b5637e1793c81da8527ad231",
+      "link": "http://arxiv.org/abs/2511.21685",
+      "title": "Holographically Emergent Gauge Theory in Symmetric Quantum Circuits",
+      "abstract": "We develop a novel holographic framework for mixed-state phases in random quantum circuits, both unitary and non-unitary, with a global symmetry $G$. Viewing the circuit as a tensor network, we decompose it into two parts: a symmetric layer, which defines an emergent gauge wavefunction in one higher dimension, and a random non-symmetric layer, which consists of random multiplicity tensors. For unitarity circuits, the bulk gauge state is deconfined, but under a generic non-unitary circuit (e.g. channels), the bulk gauge theory can undergo a decoherence-induced phase transition: for $G\\,{=}\\,\\mathbb{Z}_N$ with local symmetric noise, the circuit can act as a quantum error-correcting code with a distinguished logical subspace inheriting the $\\mathbb{Z}_N$-surface code's topological protection. We then identify that the charge sharpening transition from the measurement side is complementary to a decodability transition in the bulk: noise of the bulk can be interpreted as measurement from the environment. For $N\\,{\\leq}\\,4$, weak measurements drive a single transition from a charge-fuzzy phase with sharpening time $t_{\\#}\\sim e^{L}$ to a charge-sharp phase with $t_{\\#}\\sim \\mathcal{O}(1)$, corresponding to confinement that destroys logical information. For $N>4$, measurements generically generate an intermediate quasi-long-range ordered Coulomb phase with gapless photons and purification time $t_{\\#}\\sim \\mathcal{O}(L)$.",
+      "pubdate": "Wed, 26 Nov 2025 18:58:11 +0000",
+      "authors": "Akash Vijay, Jong Yeon Lee"
+    },
+    "46a04890f032a6a72edbbd01e26c90f3": {
+      "id": "46a04890f032a6a72edbbd01e26c90f3",
+      "link": "http://arxiv.org/abs/2511.21651",
+      "title": "Rapid ground state energy estimation with a Sparse Pauli Dynamics-enabled Variational Double Bracket Flow",
+      "abstract": "Ground state energy estimation for strongly correlated quantum systems remains a central challenge in computational physics and chemistry. While tensor network methods like DMRG provide efficient solutions for one-dimensional systems, higher-dimensional problems remain difficult. Here we present a variational double bracket flow (vDBF) algorithm that leverages Sparse Pauli Dynamics, a technique originally developed for classical simulation of quantum circuits, to efficiently approximate ground state energies. By combining greedy operator selection with coefficient truncation and energy-variance extrapolation, the method achieves less than 1% error relative to DMRG benchmarks for both Heisenberg and Hubbard models in one and two dimensions. For a 10x10 Heisenberg lattice (100 qubits), vDBF obtains accurate results in approximately 10 minutes on a single CPU thread, compared to over 50 hours on 64 threads for DMRG. For an 8x8 Hubbard model (128 qubits), the speedup is even more pronounced. These results demonstrate that classical simulation techniques developed in the context of quantum advantage benchmarking can provide practical tools for many-body physics.",
+      "pubdate": "Wed, 26 Nov 2025 18:22:13 +0000",
+      "authors": "Chinmay Shrikhande, Arnab Bachhar, Aaron Rodriguez Jimenez, Nicholas J. Mayhall"
+    },
+    "8dd69d5ae603a7bcca630f832be90390": {
+      "id": "8dd69d5ae603a7bcca630f832be90390",
+      "link": "http://arxiv.org/abs/2511.21231",
+      "title": "Non-semisimple CFT/TFT correspondence I: General setup",
+      "abstract": "We extend the TFT construction of CFT correlators of [arXiv:hep-th/0204148] to so-called finite logarithmic CFTs for which the algebraic input data is no longer semisimple but still finite. More specifically, starting from the data of a chiral CFT given in the form of a not necessarily semisimple modular tensor category C we use a three dimensional topological field theory with surface defects based on the surgery TFT of [arXiv:1912.02063] to construct a full CFT as a braided monoidal oplax natural transformation. We make our construction explicit in the example of the transparent surface defect, resulting in the so-called Cardy case. In particular, we consider topological line defects and their action on bulk fields in these logarithmic CFTs, providing a source of examples for non-invertible and non-semisimple topological symmetries.",
+      "pubdate": "Wed, 26 Nov 2025 09:59:50 +0000",
+      "authors": "Aaron Hofer, Ingo Runkel"
+    },
+    "8b160a6ca1096fa688158a884533dde5": {
+      "id": "8b160a6ca1096fa688158a884533dde5",
+      "link": "http://arxiv.org/abs/2511.20762",
+      "title": "Multi-Field Relativistic Continuous Matrix Product States",
+      "abstract": "Relativistic continuous matrix product states (RCMPS) are a powerful variational ansatz for quantum field theories of a single field. However, they inherit a property of their non-relativistic counterpart that makes them divergent for models with multiple fields, unless a regularity condition is satisfied. This has so far restricted the use of RCMPS to toy models with a single self-interacting field. We address this long standing problem by introducing a Riemannian optimization framework, that allows to minimize the energy density over the regular submanifold of multi-field RCMPS, and thus to retain purely variational results. We demonstrate its power on a model of two interacting scalar fields in $1+1$ dimensions. The method captures distinct symmetry-breaking phases, and the signature of a Berezinskii-Kosterlitz-Thouless (BKT) transition along an $O(2)$-symmetric parameter line. This makes RCMPS usable for a far larger class of problems than before.",
+      "pubdate": "Tue, 25 Nov 2025 19:00:07 +0000",
+      "authors": "Karan Tiwana, Antoine Tilloy"
     }
   }
 }
