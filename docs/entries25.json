@@ -1,6 +1,54 @@
 {
-  "last_updated": "2025-11-26T12:51:46.380510+00:00",
+  "last_updated": "2025-11-27T01:49:23.832831+00:00",
   "entries": {
+    "910f6025f0863f54c18c86ec4735c8e1": {
+      "id": "910f6025f0863f54c18c86ec4735c8e1",
+      "link": "http://arxiv.org/abs/2511.20619",
+      "title": "Extracting conserved operators from a projected entangled pair state",
+      "abstract": "Given a tensor network state, how can we determine conserved operators (including Hamiltonians) for which the state is an eigenstate? We answer this question by presenting a method to extract geometrically $k$-local conserved operators that have the given infinite projected entangled pair state (iPEPS) in 2D as an (approximate) eigenstate. The key ingredient is the evaluation of the static structure factors of multi-site operators through differentiating the generating function. Despite the approximation errors, we show that our method is still able to extract from exact or variational iPEPS to good precision both frustration-free and non-frustration-free parent Hamiltonians that are beyond the standard construction and obtain better locality. In particular, we find a 4-site-plaquette local Hamiltonian that approximately has the short-range RVB state as the ground state. Moreover, we find a Hamiltonian that has the deformed toric code state at any string tension as excited eigenstates at the same energy, which might be potential candidates for quantum many-body scars.",
+      "pubdate": "Tue, 25 Nov 2025 18:43:47 +0000",
+      "authors": "Wen-Tao Xu, Miguel Frías Pérez, Mingru Yang"
+    },
+    "2ce797cbe486e1d41898a59bd524e486": {
+      "id": "2ce797cbe486e1d41898a59bd524e486",
+      "link": "http://arxiv.org/abs/2511.20457",
+      "title": "A Fully Probabilistic Tensor Network for Regularized Volterra System Identification",
+      "abstract": "Modeling nonlinear systems with Volterra series is challenging because the number of kernel coefficients grows exponentially with the model order. This work introduces Bayesian Tensor Network Volterra kernel machines (BTN-V), extending the Bayesian Tensor Network framework to Volterra system identification. BTN-V represents Volterra kernels using canonical polyadic decomposition, reducing model complexity from O(I^D) to O(DIR). By treating all tensor components and hyperparameters as random variables, BTN-V provides predictive uncertainty estimation at no additional computational cost. Sparsity-inducing hierarchical priors enable automatic rank determination and the learning of fading-memory behavior directly from data, improving interpretability and preventing overfitting. Empirical results demonstrate competitive accuracy, enhanced uncertainty quantification, and reduced computational cost.",
+      "pubdate": "Tue, 25 Nov 2025 16:24:52 +0000",
+      "authors": "Afra Kilic, Kim Batselier"
+    },
+    "02c05db024049db794f4826e23bfb39c": {
+      "id": "02c05db024049db794f4826e23bfb39c",
+      "link": "http://arxiv.org/abs/2511.20388",
+      "title": "Resource assessment of classical and quantum hardware for post-quench dynamics",
+      "abstract": "We estimate the run-time and energy consumption of simulating non-equilibrium dynamics on neutral atom quantum computers in analog mode, directly comparing their performance to state-of-the-art classical methods, namely Matrix Product States and Neural Quantum States. By collecting both experimental data from a quantum processing unit (QPU) in analog mode and numerical benchmarks, we enable accurate predictions of run-time and energy consumption for large-scale simulations on both QPUs and classical systems through fitting of theoretical scaling laws. Our analysis shows that neutral atom devices are already operating in a competitive regime, achieving comparable or superior performance to classical approaches while consuming significantly less energy. These results demonstrate the potential of analog neutral atom quantum computing for energy-efficient simulation and highlight a viable path toward sustainable computational strategies.",
+      "pubdate": "Tue, 25 Nov 2025 15:08:52 +0000",
+      "authors": "Joseph Vovrosh, Tiago Mendes-Santos, Hadriel Mamann, Kemal Bidzhiev, Fergus Hayes, Bruno Ximenez, Lucas Béguin, Constantin Dalyac, Alexandre Dauphin"
+    },
+    "786f13d8ee08963e2dd8424e9d04437e": {
+      "id": "786f13d8ee08963e2dd8424e9d04437e",
+      "link": "http://arxiv.org/abs/2511.20261",
+      "title": "Disentangling Kitaev Quantum Spin Liquid",
+      "abstract": "In this work, we investigate the Kitaev honeycomb model employing the recently developed Clifford Circuits Augmented Matrix Product States (CAMPS) method. While the model in the gapped phase is known to reduce to the toric code model - whose ground state is entirely constructible from Clifford circuits - we demonstrate that the very different gapless quantum spin liquid (QSL) phase can also be significantly disentangled with Clifford circuits. Specifically, CAMPS simulations reveal that approximately two-thirds of the entanglement entropy in the isotropic point arises from Clifford-circuit contributions, enabling dramatically more efficient computations compared to conventional matrix product state (MPS) methods. Crucially, this finding implies that the Kitaev QSL state retains significant Clifford-simulatable structure, even in the gapless phase with non-abelian anyon excitations when time reversal symmetry is broken. This property not only enhances classical simulation efficiency significantly but also suggests substantial resource reduction for preparing such states on quantum devices. As an application, we leverage CAMPS to study the Kitaev-Heisenberg model and determine the most accurate phase boundary between the anti-ferromagnetic phase and the Kitaev QSL phase in the model. Our results highlight how Clifford circuits can effectively disentangle the intricate entanglement of Kitaev QSLs, opening avenues for efficiently simulating related and similar strongly correlated models.",
+      "pubdate": "Tue, 25 Nov 2025 12:42:06 +0000",
+      "authors": "Xiang Li, Xiangjian Qian, Mingpu Qin"
+    },
+    "0a5caf4b9267cfb6689396a9331eab24": {
+      "id": "0a5caf4b9267cfb6689396a9331eab24",
+      "link": "http://arxiv.org/abs/2511.19612",
+      "title": "No-go theorems for sequential preparation of two-dimensional chiral states via channel-state correspondence",
+      "abstract": "We investigate whether sequential unitary circuits can prepare two-dimensional chiral states, using a correspondence between sequentially prepared states, isometric tensor network states, and one-dimensional quantum channel circuits. We establish two no-go theorems, one for Gaussian fermion systems and one for generic interacting systems. In Gaussian fermion systems, the correspondence relates the defining features of chiral wave functions in their entanglement spectrum to the algebraic decaying correlations in the steady state of channel dynamics. We establish the no-go theorem by proving that local channel dynamics with translational invariance cannot support such correlations. As a direct implication, two-dimensional Gaussian fermion isometric tensor network states cannot support algebraically decaying correlations in all directions or represent a chiral state. In generic interacting systems, we establish a no-go theorem by showing that the state prepared by sequential circuits cannot host the tripartite entanglement of a chiral state due to the constraints from causality.",
+      "pubdate": "Mon, 24 Nov 2025 19:00:05 +0000",
+      "authors": "Ruihua Fan, Yantao Wu, Yimu Bao, Zhehao Dai"
+    },
+    "18a8d7534761865f71701044aabf8826": {
+      "id": "18a8d7534761865f71701044aabf8826",
+      "link": "http://arxiv.org/abs/2511.19597",
+      "title": "Holographic duality between bulk topological order and boundary mixed-state order",
+      "abstract": "We introduce a holographic framework for analyzing the steady states of repeated quantum channels with strong symmetries. Using channel-state duality, we show that the steady state of a $d$-dimensional quantum channel is holographically mapped to the boundary reduced density matrix of a $(d+1)$-dimensional wavefunction generated by a sequential unitary circuit. From this perspective, strong-to-weak spontaneous symmetry breaking (SWSSB) in the steady state arises from the anyon condensation on the boundary of a topological order in one higher dimension. The conditional mutual information (CMI) associated with SWSSB is then inherited from the bulk topological entanglement entropy. We make this duality explicit using isometric tensor network states (isoTNS) by identifying the channel's time evolution with the transfer matrix of a higher-dimensional isoTNS. Built on isoTNS, we further construct continuously tunable quantum channels that exhibit distinct mixed-state phases and transitions in the steady states.",
+      "pubdate": "Mon, 24 Nov 2025 19:00:01 +0000",
+      "authors": "Tsung-Cheng Lu, Yu-Jie Liu, Sarang Gopalakrishnan, Yizhi You"
+    },
     "41afb30bbb7934524ef322881af55f7a": {
       "id": "41afb30bbb7934524ef322881af55f7a",
       "link": "http://arxiv.org/abs/2511.19340",
@@ -8872,54 +8920,6 @@
       "link": "http://arxiv.org/abs/2412.21055",
       "abstract": "We consider the surface code under errors featuring both coherent and incoherent components and study the coherence of the corresponding logical noise channel and how this impacts information-theoretic measures of code performance, namely coherent information and quantum relative entropy. Using numerical simulations and a phenomenological field theory, focusing on the most general single-qubit X-error channel, we show that, for any nonzero incoherent noise component, the coherence of the logical noise is exponentially suppressed with the code distance. We also find that the information-theoretic measures require this suppression to detect optimal thresholds for Pauli recovery; they thus require increasingly large distances for increasing error coherence and ultimately break down for fully coherent errors. To obtain our results, we develop a statistical mechanics mapping and a corresponding matrix-product-state algorithm for approximate syndrome sampling. These methods enable the large-scale simulation of these non-Pauli errors, including their maximum-likelihood thresholds, away from the limits captured by previous approaches.",
       "pubdate": "Mon, 30 Dec 2024 16:14:55 +0000"
-    },
-    "910f6025f0863f54c18c86ec4735c8e1": {
-      "id": "910f6025f0863f54c18c86ec4735c8e1",
-      "link": "http://arxiv.org/abs/2511.20619",
-      "title": "Extracting conserved operators from a projected entangled pair state",
-      "abstract": "Given a tensor network state, how can we determine conserved operators (including Hamiltonians) for which the state is an eigenstate? We answer this question by presenting a method to extract geometrically $k$-local conserved operators that have the given infinite projected entangled pair state (iPEPS) in 2D as an (approximate) eigenstate. The key ingredient is the evaluation of the static structure factors of multi-site operators through differentiating the generating function. Despite the approximation errors, we show that our method is still able to extract from exact or variational iPEPS to good precision both frustration-free and non-frustration-free parent Hamiltonians that are beyond the standard construction and obtain better locality. In particular, we find a 4-site-plaquette local Hamiltonian that approximately has the short-range RVB state as the ground state. Moreover, we find a Hamiltonian that has the deformed toric code state at any string tension as excited eigenstates at the same energy, which might be potential candidates for quantum many-body scars.",
-      "pubdate": "Tue, 25 Nov 2025 18:43:47 +0000",
-      "authors": "Wen-Tao Xu, Miguel Frías Pérez, Mingru Yang"
-    },
-    "2ce797cbe486e1d41898a59bd524e486": {
-      "id": "2ce797cbe486e1d41898a59bd524e486",
-      "link": "http://arxiv.org/abs/2511.20457",
-      "title": "A Fully Probabilistic Tensor Network for Regularized Volterra System Identification",
-      "abstract": "Modeling nonlinear systems with Volterra series is challenging because the number of kernel coefficients grows exponentially with the model order. This work introduces Bayesian Tensor Network Volterra kernel machines (BTN-V), extending the Bayesian Tensor Network framework to Volterra system identification. BTN-V represents Volterra kernels using canonical polyadic decomposition, reducing model complexity from O(I^D) to O(DIR). By treating all tensor components and hyperparameters as random variables, BTN-V provides predictive uncertainty estimation at no additional computational cost. Sparsity-inducing hierarchical priors enable automatic rank determination and the learning of fading-memory behavior directly from data, improving interpretability and preventing overfitting. Empirical results demonstrate competitive accuracy, enhanced uncertainty quantification, and reduced computational cost.",
-      "pubdate": "Tue, 25 Nov 2025 16:24:52 +0000",
-      "authors": "Afra Kilic, Kim Batselier"
-    },
-    "02c05db024049db794f4826e23bfb39c": {
-      "id": "02c05db024049db794f4826e23bfb39c",
-      "link": "http://arxiv.org/abs/2511.20388",
-      "title": "Resource assessment of classical and quantum hardware for post-quench dynamics",
-      "abstract": "We estimate the run-time and energy consumption of simulating non-equilibrium dynamics on neutral atom quantum computers in analog mode, directly comparing their performance to state-of-the-art classical methods, namely Matrix Product States and Neural Quantum States. By collecting both experimental data from a quantum processing unit (QPU) in analog mode and numerical benchmarks, we enable accurate predictions of run-time and energy consumption for large-scale simulations on both QPUs and classical systems through fitting of theoretical scaling laws. Our analysis shows that neutral atom devices are already operating in a competitive regime, achieving comparable or superior performance to classical approaches while consuming significantly less energy. These results demonstrate the potential of analog neutral atom quantum computing for energy-efficient simulation and highlight a viable path toward sustainable computational strategies.",
-      "pubdate": "Tue, 25 Nov 2025 15:08:52 +0000",
-      "authors": "Joseph Vovrosh, Tiago Mendes-Santos, Hadriel Mamann, Kemal Bidzhiev, Fergus Hayes, Bruno Ximenez, Lucas Béguin, Constantin Dalyac, Alexandre Dauphin"
-    },
-    "786f13d8ee08963e2dd8424e9d04437e": {
-      "id": "786f13d8ee08963e2dd8424e9d04437e",
-      "link": "http://arxiv.org/abs/2511.20261",
-      "title": "Disentangling Kitaev Quantum Spin Liquid",
-      "abstract": "In this work, we investigate the Kitaev honeycomb model employing the recently developed Clifford Circuits Augmented Matrix Product States (CAMPS) method. While the model in the gapped phase is known to reduce to the toric code model - whose ground state is entirely constructible from Clifford circuits - we demonstrate that the very different gapless quantum spin liquid (QSL) phase can also be significantly disentangled with Clifford circuits. Specifically, CAMPS simulations reveal that approximately two-thirds of the entanglement entropy in the isotropic point arises from Clifford-circuit contributions, enabling dramatically more efficient computations compared to conventional matrix product state (MPS) methods. Crucially, this finding implies that the Kitaev QSL state retains significant Clifford-simulatable structure, even in the gapless phase with non-abelian anyon excitations when time reversal symmetry is broken. This property not only enhances classical simulation efficiency significantly but also suggests substantial resource reduction for preparing such states on quantum devices. As an application, we leverage CAMPS to study the Kitaev-Heisenberg model and determine the most accurate phase boundary between the anti-ferromagnetic phase and the Kitaev QSL phase in the model. Our results highlight how Clifford circuits can effectively disentangle the intricate entanglement of Kitaev QSLs, opening avenues for efficiently simulating related and similar strongly correlated models.",
-      "pubdate": "Tue, 25 Nov 2025 12:42:06 +0000",
-      "authors": "Xiang Li, Xiangjian Qian, Mingpu Qin"
-    },
-    "0a5caf4b9267cfb6689396a9331eab24": {
-      "id": "0a5caf4b9267cfb6689396a9331eab24",
-      "link": "http://arxiv.org/abs/2511.19612",
-      "title": "No-go theorems for sequential preparation of two-dimensional chiral states via channel-state correspondence",
-      "abstract": "We investigate whether sequential unitary circuits can prepare two-dimensional chiral states, using a correspondence between sequentially prepared states, isometric tensor network states, and one-dimensional quantum channel circuits. We establish two no-go theorems, one for Gaussian fermion systems and one for generic interacting systems. In Gaussian fermion systems, the correspondence relates the defining features of chiral wave functions in their entanglement spectrum to the algebraic decaying correlations in the steady state of channel dynamics. We establish the no-go theorem by proving that local channel dynamics with translational invariance cannot support such correlations. As a direct implication, two-dimensional Gaussian fermion isometric tensor network states cannot support algebraically decaying correlations in all directions or represent a chiral state. In generic interacting systems, we establish a no-go theorem by showing that the state prepared by sequential circuits cannot host the tripartite entanglement of a chiral state due to the constraints from causality.",
-      "pubdate": "Mon, 24 Nov 2025 19:00:05 +0000",
-      "authors": "Ruihua Fan, Yantao Wu, Yimu Bao, Zhehao Dai"
-    },
-    "18a8d7534761865f71701044aabf8826": {
-      "id": "18a8d7534761865f71701044aabf8826",
-      "link": "http://arxiv.org/abs/2511.19597",
-      "title": "Holographic duality between bulk topological order and boundary mixed-state order",
-      "abstract": "We introduce a holographic framework for analyzing the steady states of repeated quantum channels with strong symmetries. Using channel-state duality, we show that the steady state of a $d$-dimensional quantum channel is holographically mapped to the boundary reduced density matrix of a $(d+1)$-dimensional wavefunction generated by a sequential unitary circuit. From this perspective, strong-to-weak spontaneous symmetry breaking (SWSSB) in the steady state arises from the anyon condensation on the boundary of a topological order in one higher dimension. The conditional mutual information (CMI) associated with SWSSB is then inherited from the bulk topological entanglement entropy. We make this duality explicit using isometric tensor network states (isoTNS) by identifying the channel's time evolution with the transfer matrix of a higher-dimensional isoTNS. Built on isoTNS, we further construct continuously tunable quantum channels that exhibit distinct mixed-state phases and transitions in the steady states.",
-      "pubdate": "Mon, 24 Nov 2025 19:00:01 +0000",
-      "authors": "Tsung-Cheng Lu, Yu-Jie Liu, Sarang Gopalakrishnan, Yizhi You"
     }
   }
 }
