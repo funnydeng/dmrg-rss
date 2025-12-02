@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-02T01:53:32.450143+00:00",
+  "last_updated": "2025-12-02T12:52:53.508655+00:00",
   "entries": {
     "2bcc0db2196ace19128d047b85904040": {
       "id": "2bcc0db2196ace19128d047b85904040",
@@ -9008,6 +9008,46 @@
       "link": "http://arxiv.org/abs/2412.21055",
       "abstract": "We consider the surface code under errors featuring both coherent and incoherent components and study the coherence of the corresponding logical noise channel and how this impacts information-theoretic measures of code performance, namely coherent information and quantum relative entropy. Using numerical simulations and a phenomenological field theory, focusing on the most general single-qubit X-error channel, we show that, for any nonzero incoherent noise component, the coherence of the logical noise is exponentially suppressed with the code distance. We also find that the information-theoretic measures require this suppression to detect optimal thresholds for Pauli recovery; they thus require increasingly large distances for increasing error coherence and ultimately break down for fully coherent errors. To obtain our results, we develop a statistical mechanics mapping and a corresponding matrix-product-state algorithm for approximate syndrome sampling. These methods enable the large-scale simulation of these non-Pauli errors, including their maximum-likelihood thresholds, away from the limits captured by previous approaches.",
       "pubdate": "Mon, 30 Dec 2024 16:14:55 +0000"
+    },
+    "be3e0522d6d155a89a88a118a714737a": {
+      "id": "be3e0522d6d155a89a88a118a714737a",
+      "link": "http://arxiv.org/abs/2512.01781",
+      "title": "Efficient Time Evolution of 2D Open-Quantum Lattice Models with Long-Range Interactions using Tensor Networks",
+      "abstract": "Simulating many-body open quantum systems is an extremely challenging problem, with methods often restricted to either models with nearest-neighbor interactions or semi-classical approximations. In particular, modeling two-dimensional systems with realistic long-range interactions, in addition to dissipation, is of vital importance to the development of modern quantum computing and simulation platforms. In this paper, we present a construction of the time-evolution operator, as a projected entangled pair operator (denoted tePEPO), that can be used to evolve a tensor network ansatz through time. Interactions beyond nearest-neighbor, including interactions between sites not collinear in the lattice, can be represented efficiently as a tePEPO. Furthermore, we obtain approximations to realistic radial long-range interactions decaying with a power-law, that give accurate results with small tePEPO bond dimension. Finally, we consider a physical example of a Rydberg atom Hamiltonian with long-range dipolar interactions, and show evidence of a dipole-dipole blockading effect in presence of dissipation. This work demonstrates the applicability of tensor networks to two-dimensional systems widely studied in experiments, but previously inaccessible to non-semi-classical methods.",
+      "pubdate": "Mon, 01 Dec 2025 15:21:55 +0000",
+      "authors": "Jack Dunham, Marzena H. Szymańska"
+    },
+    "7b040380c730fb533a244a52ba8ff4ae": {
+      "id": "7b040380c730fb533a244a52ba8ff4ae",
+      "link": "http://arxiv.org/abs/2512.01674",
+      "title": "Floquet-induced $p_x+ip_y$ bosonic pair condensate",
+      "abstract": "In this study, we propose a dynamical pairing mechanism other than the pair-wise interactions. Starting from a two-dimensional hard-core boson model with periodically modulated hopping amplitude, we derive an effective Floquet Hamiltonian with three-site interactions that are responsible for unconventional pairing between adjacent bosons. By performing a density matrix renormalization group study on this three-site interacting Hamiltonian, we reveal a bosonic pair condensate with $p_x+ ip_y$ symmetry, while the single-particle Bose-Einstein condensate is completely depleted. The experimental implementations of the proposed model on polar molecular systems and superconducting quantum circuit have also been discussed.",
+      "pubdate": "Mon, 01 Dec 2025 13:41:39 +0000",
+      "authors": "Zhizhen Chen, Jiale Huang, Mingpu Qin, Zi Cai"
+    },
+    "5e2dfde212c0a459af32cdcc27302856": {
+      "id": "5e2dfde212c0a459af32cdcc27302856",
+      "link": "http://arxiv.org/abs/2512.01016",
+      "title": "A Provably Efficient Method for Tensor Ring Decomposition and Its Applications",
+      "abstract": "We present the first deterministic, finite-step algorithm for exact tensor ring (TR) decomposition, addressing an open question about the existence of such procedures. Our method leverages blockwise simultaneous diagonalization to recover TR-cores from a limited number of tensor observations, providing both algebraic insight and practical efficiency. We extend the approach to the symmetric TR setting, where parameter complexity is significantly reduced and applications arise naturally in physics-based modeling and exchangeable data analysis. To handle noisy observations, we develop a robust recovery scheme that couples our initialization with alternating least squares, achieving faster convergence and improved accuracy compared to classic methods. As applications, we obtain new algorithms for questions in other domains where tensor ring decomposition is a key primitive, namely matrix product state tomography in quantum information, and provable learning of pushforward distributions in the foundations of machine learning. These contributions advance the algorithmic foundations of TR decomposition and open new opportunities for scalable tensor network computation.",
+      "pubdate": "Sun, 30 Nov 2025 18:20:59 +0000",
+      "authors": "Han Chen, Sitan Chen, Anru R. Zhang"
+    },
+    "a49219b55b3c52aa162a5b0d813fd411": {
+      "id": "a49219b55b3c52aa162a5b0d813fd411",
+      "link": "http://arxiv.org/abs/2512.00987",
+      "title": "Exact quantum dynamics of Fermi--Hubbard systems using the Gaussian phase-space representation with diffusion gauges",
+      "abstract": "We use the Gaussian Phase-Space Representation to solve the real-time dynamic of interacting fermions in 1D, 2D, and 3D systems. The method is exact up to a spiking point, which represents a limit on the practical simulation time. The spiking can be delayed, and the practical simulation time extended, by adjusting the gauges of the representation, resulting in different equivalent stochastic differential equations. Here, we work on the so-called diffusion gauge and propose an algorithm to find efficiently new implementations of the noise terms. Compared with our initial results [F. Rousse \\textit{et al.} 2024, J. Phys. A: Math. Theor. \\textbf{57}, 015303], the new method achieves a significantly longer practical simulation time and can be applied to significantly larger systems.",
+      "pubdate": "Sun, 30 Nov 2025 17:16:51 +0000",
+      "authors": "F Rousse, M Fasi, A Dmytryshyn, M Gulliksson, J F Corney, M Ogren"
+    },
+    "ecc86640d45e7f1fef4159c40a08c39e": {
+      "id": "ecc86640d45e7f1fef4159c40a08c39e",
+      "link": "http://arxiv.org/abs/2512.00649",
+      "title": "Scaling of a Mutual-Information Distance in One-dimensional Quantum Spin Chains",
+      "abstract": "We introduce a geometric scaling relation that characterizes the local scale behavior of correlations using the informational distance $d_E = K_0/\\sqrt{I}$, where $I$ is the mutual information. We define a geometric conversion factor, $G \\equiv \\partial_r d_E$, which quantifies the local scale. We show that $G$ relates directly to $I$ via $G \\propto I^κ$. For systems with power-law correlations $I(r) \\sim r^{-X}$, the metric scaling exponent is $κ= 1/X - 1/2$. A key consequence is that the geometric scale $G$ is uniform (position-independent) if and only if $κ= 0$, which occurs precisely at $X = 2$. This identifies $X = 2$ as the unique condition for a uniform and metric informational distance. We validate this relation using DMRG simulations of the 1D XXZ chain and exact results for the XX model. We demonstrate two falsifiable diagnostics: (i) $G(r)$ is flat in the bulk at criticality ($X \\approx 2$) but varies strongly when gapped; (ii) a coordinate-agnostic slope test of $\\log G$ versus $\\log I$ at the XX benchmark ($X = 2$) yields $κ\\simeq 0$. This approach provides a coordinate-independent method for identifying scaling regimes that helps to reduce ambiguity from non-universal amplitudes and from the fitting choices in standard power-law analyses, and defines a simple post-processing pipeline that can be applied directly to numerical or experimental mutual-information data.",
+      "pubdate": "Sat, 29 Nov 2025 22:09:00 +0000",
+      "authors": "Beau Leighton-Trudel"
     }
   }
 }
