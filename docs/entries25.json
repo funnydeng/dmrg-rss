@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-04T01:54:28.172235+00:00",
+  "last_updated": "2025-12-04T12:53:00.581721+00:00",
   "entries": {
     "d58a0959df0090b24aa71acd842e8a60": {
       "id": "d58a0959df0090b24aa71acd842e8a60",
@@ -9120,6 +9120,30 @@
       "link": "http://arxiv.org/abs/2412.21055",
       "abstract": "We consider the surface code under errors featuring both coherent and incoherent components and study the coherence of the corresponding logical noise channel and how this impacts information-theoretic measures of code performance, namely coherent information and quantum relative entropy. Using numerical simulations and a phenomenological field theory, focusing on the most general single-qubit X-error channel, we show that, for any nonzero incoherent noise component, the coherence of the logical noise is exponentially suppressed with the code distance. We also find that the information-theoretic measures require this suppression to detect optimal thresholds for Pauli recovery; they thus require increasingly large distances for increasing error coherence and ultimately break down for fully coherent errors. To obtain our results, we develop a statistical mechanics mapping and a corresponding matrix-product-state algorithm for approximate syndrome sampling. These methods enable the large-scale simulation of these non-Pauli errors, including their maximum-likelihood thresholds, away from the limits captured by previous approaches.",
       "pubdate": "Mon, 30 Dec 2024 16:14:55 +0000"
+    },
+    "0ca04c95312f36112c44a69ed3dc0d58": {
+      "id": "0ca04c95312f36112c44a69ed3dc0d58",
+      "link": "http://arxiv.org/abs/2512.03395",
+      "title": "Tensor renormalization group calculations of partition-function ratios",
+      "abstract": "The behavior of dimensionless quantities defined as ratios of partition functions is analyzed to investigate phase transitions and critical phenomena. At criticality, the universal values of these ratios can be predicted from conformal field theory (CFT) through the modular-invariant partition functions on a torus. We perform numerical calculations using the bond-weighted tensor renormalization group for three two-dimensional models belonging to different universality classes: the Ising model, the three-state Potts model, and the four-state Potts model. The partition-function ratios obey the same finite-size scaling form as the Binder parameter, and their critical values agree well with the universal values predicted by CFT. In the four-state Potts model, we observe logarithmic corrections in the system-size dependence of these ratios.",
+      "pubdate": "Wed, 03 Dec 2025 03:03:46 +0000",
+      "authors": "Satoshi Morita, Naoki Kawashima"
+    },
+    "ab911d13674142c44412bfda7d30ee09": {
+      "id": "ab911d13674142c44412bfda7d30ee09",
+      "link": "http://arxiv.org/abs/2512.03333",
+      "title": "Sketch Tomography: Hybridizing Classical Shadow and Matrix Product State",
+      "abstract": "We introduce Sketch Tomography, an efficient procedure for quantum state tomography based on the classical shadow protocol used for quantum observable estimations. The procedure applies to the case where the ground truth quantum state is a matrix product state (MPS). The density matrix of the ground truth state admits a tensor train ansatz as a result of the MPS assumption, and we estimate the tensor components of the ansatz through a series of observable estimations, thus outputting an approximation of the density matrix. The procedure is provably convergent with a sample complexity that scales quadratically in the system size. We conduct extensive numerical experiments to show that the procedure outputs an accurate approximation to the quantum state. For observable estimation tasks involving moderately large subsystems, we show that our procedure gives rise to a more accurate estimation than the classical shadow protocol. We also show that sketch tomography is more accurate in observable estimation than quantum states trained from the maximum likelihood estimation formulation.",
+      "pubdate": "Wed, 03 Dec 2025 00:54:00 +0000",
+      "authors": "Xun Tang, Haoxuan Chen, Yuehaw Khoo, Lexing Ying"
+    },
+    "859480c6850daa1164942a9fb1f9cdf1": {
+      "id": "859480c6850daa1164942a9fb1f9cdf1",
+      "link": "http://arxiv.org/abs/2512.03177",
+      "title": "Magic of the Well: assessing quantum resources of fluid dynamics data",
+      "abstract": "We investigate the quantum resource requirements of a dataset generated from simulations of two-dimensional, periodic, incompressible shear flow, aimed at training machine learning models. By measuring entanglement and non-stabilizerness on MPS-encoded functions, we estimate the computational complexity encountered by a stabilizer or a tensor network solver applied to Computational Fluid Dynamics (CFD) simulations across different flow regimes. Our analysis reveals that, under specific initial conditions, the shear width identifies a transition between resource-efficient and resource-intensive regimes for non-trivial evolution. Furthermore, we find that the two resources qualitatively track each other in time, and that the mesh resolution along with the sign structure play a crucial role in determining the resource content of the encoded state. These findings offer useful guidelines for the development of scalable, quantum-inspired approaches to fluid dynamics.",
+      "pubdate": "Tue, 02 Dec 2025 19:23:46 +0000",
+      "authors": "Antonio Francesco Mello, Mario Collura, E. Miles Stoudenmire, Ryan Levy"
     }
   }
 }
