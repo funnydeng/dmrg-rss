@@ -1,6 +1,22 @@
 {
-  "last_updated": "2025-12-05T12:50:26.066003+00:00",
+  "last_updated": "2025-12-06T01:47:57.779700+00:00",
   "entries": {
+    "a91c667153055864b270e2e2f72135b3": {
+      "id": "a91c667153055864b270e2e2f72135b3",
+      "link": "http://arxiv.org/abs/2512.04216",
+      "title": "Maestro: Intelligent Execution for Quantum Circuit Simulation",
+      "abstract": "Quantum circuit simulation remains essential for developing and validating quantum algorithms, especially as current quantum hardware is limited in scale and quality. However, the growing diversity of simulation methods and software tools creates a high barrier to selecting the most suitable backend for a given circuit. We introduce Maestro, a unified interface for quantum circuit simulation that integrates multiple simulation paradigms - state vector, MPS, tensor network, stabilizer, GPU-accelerated, and p-block methods - under a single API. Maestro includes a predictive runtime model that automatically selects the optimal simulator based on circuit structure and available hardware, and applies backend-specific optimizations such as multiprocessing, GPU execution, and improved sampling. Benchmarks across heterogeneous workloads demonstrate that Maestro outperforms individual simulators in both single-circuit and large batched settings, particularly in high-performance computing environments. Maestro provides a scalable, extensible platform for quantum algorithm research, hybrid quantum-classical workflows, and emerging distributed quantum computing architectures.",
+      "pubdate": "Wed, 03 Dec 2025 19:39:51 +0000",
+      "authors": "Oriol Bertomeu, Hamzah Ghayas, Adrian Roman, Stephen DiAdamo"
+    },
+    "c9684cf0ccdab4daf4138aae57bd164a": {
+      "id": "c9684cf0ccdab4daf4138aae57bd164a",
+      "link": "http://arxiv.org/abs/2512.04180",
+      "title": "2D Helical Twist Controls Tricritical Point in an Interacting Majorana Chain",
+      "abstract": "We analyze a series of interacting Majorana Fermion chains with finite range pair interactions with coupling strength $g$ that all exhibit a tri-critical point that separates an Ising critical phase from a supersymmetric gapped phase. We first notice that the interacting models exhibit an even-odd asymmetry depending on the number of sites, $δ$, over which the interaction ranges. The even case exhibits competing order, thereby making it numerically untractable while the odd case exhibits an exactly solvable point at $g=-0.5$ where the entanglement entropy vanishes. By introducing a swirling geometrical twist, we map our 1D $δ$-range chains to a series of 2D $δ/2$-width models. Our new 2D models possess a unique helical boundary condition, constructed from 1D chains with the end of one connected to the start of another. We propose that the phase transition in the 1D system can be understood as a finite-system size transition in 2D. That is, the $g_c-δ$ behavior is controlled by a 2D tri-critical universality class at $δ\\to\\infty$ limit and is predicted by finite-size scaling theory.",
+      "pubdate": "Wed, 03 Dec 2025 19:00:18 +0000",
+      "authors": "Hekai Zhao, Philip Phillips"
+    },
     "0ca04c95312f36112c44a69ed3dc0d58": {
       "id": "0ca04c95312f36112c44a69ed3dc0d58",
       "link": "http://arxiv.org/abs/2512.03395",
@@ -9144,22 +9160,6 @@
       "link": "http://arxiv.org/abs/2412.21055",
       "abstract": "We consider the surface code under errors featuring both coherent and incoherent components and study the coherence of the corresponding logical noise channel and how this impacts information-theoretic measures of code performance, namely coherent information and quantum relative entropy. Using numerical simulations and a phenomenological field theory, focusing on the most general single-qubit X-error channel, we show that, for any nonzero incoherent noise component, the coherence of the logical noise is exponentially suppressed with the code distance. We also find that the information-theoretic measures require this suppression to detect optimal thresholds for Pauli recovery; they thus require increasingly large distances for increasing error coherence and ultimately break down for fully coherent errors. To obtain our results, we develop a statistical mechanics mapping and a corresponding matrix-product-state algorithm for approximate syndrome sampling. These methods enable the large-scale simulation of these non-Pauli errors, including their maximum-likelihood thresholds, away from the limits captured by previous approaches.",
       "pubdate": "Mon, 30 Dec 2024 16:14:55 +0000"
-    },
-    "a91c667153055864b270e2e2f72135b3": {
-      "id": "a91c667153055864b270e2e2f72135b3",
-      "link": "http://arxiv.org/abs/2512.04216",
-      "title": "Maestro: Intelligent Execution for Quantum Circuit Simulation",
-      "abstract": "Quantum circuit simulation remains essential for developing and validating quantum algorithms, especially as current quantum hardware is limited in scale and quality. However, the growing diversity of simulation methods and software tools creates a high barrier to selecting the most suitable backend for a given circuit. We introduce Maestro, a unified interface for quantum circuit simulation that integrates multiple simulation paradigms - state vector, MPS, tensor network, stabilizer, GPU-accelerated, and p-block methods - under a single API. Maestro includes a predictive runtime model that automatically selects the optimal simulator based on circuit structure and available hardware, and applies backend-specific optimizations such as multiprocessing, GPU execution, and improved sampling. Benchmarks across heterogeneous workloads demonstrate that Maestro outperforms individual simulators in both single-circuit and large batched settings, particularly in high-performance computing environments. Maestro provides a scalable, extensible platform for quantum algorithm research, hybrid quantum-classical workflows, and emerging distributed quantum computing architectures.",
-      "pubdate": "Wed, 03 Dec 2025 19:39:51 +0000",
-      "authors": "Oriol Bertomeu, Hamzah Ghayas, Adrian Roman, Stephen DiAdamo"
-    },
-    "c9684cf0ccdab4daf4138aae57bd164a": {
-      "id": "c9684cf0ccdab4daf4138aae57bd164a",
-      "link": "http://arxiv.org/abs/2512.04180",
-      "title": "2D Helical Twist Controls Tricritical Point in an Interacting Majorana Chain",
-      "abstract": "We analyze a series of interacting Majorana Fermion chains with finite range pair interactions with coupling strength $g$ that all exhibit a tri-critical point that separates an Ising critical phase from a supersymmetric gapped phase. We first notice that the interacting models exhibit an even-odd asymmetry depending on the number of sites, $δ$, over which the interaction ranges. The even case exhibits competing order, thereby making it numerically untractable while the odd case exhibits an exactly solvable point at $g=-0.5$ where the entanglement entropy vanishes. By introducing a swirling geometrical twist, we map our 1D $δ$-range chains to a series of 2D $δ/2$-width models. Our new 2D models possess a unique helical boundary condition, constructed from 1D chains with the end of one connected to the start of another. We propose that the phase transition in the 1D system can be understood as a finite-system size transition in 2D. That is, the $g_c-δ$ behavior is controlled by a 2D tri-critical universality class at $δ\\to\\infty$ limit and is predicted by finite-size scaling theory.",
-      "pubdate": "Wed, 03 Dec 2025 19:00:18 +0000",
-      "authors": "Hekai Zhao, Philip Phillips"
     }
   }
 }
