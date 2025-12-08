@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-08T01:55:14.522062+00:00",
+  "last_updated": "2025-12-08T12:51:27.285130+00:00",
   "entries": {
     "a91c667153055864b270e2e2f72135b3": {
       "id": "a91c667153055864b270e2e2f72135b3",
@@ -9160,6 +9160,38 @@
       "link": "http://arxiv.org/abs/2412.21055",
       "abstract": "We consider the surface code under errors featuring both coherent and incoherent components and study the coherence of the corresponding logical noise channel and how this impacts information-theoretic measures of code performance, namely coherent information and quantum relative entropy. Using numerical simulations and a phenomenological field theory, focusing on the most general single-qubit X-error channel, we show that, for any nonzero incoherent noise component, the coherence of the logical noise is exponentially suppressed with the code distance. We also find that the information-theoretic measures require this suppression to detect optimal thresholds for Pauli recovery; they thus require increasingly large distances for increasing error coherence and ultimately break down for fully coherent errors. To obtain our results, we develop a statistical mechanics mapping and a corresponding matrix-product-state algorithm for approximate syndrome sampling. These methods enable the large-scale simulation of these non-Pauli errors, including their maximum-likelihood thresholds, away from the limits captured by previous approaches.",
       "pubdate": "Mon, 30 Dec 2024 16:14:55 +0000"
+    },
+    "8edf14c1b0a31dd893a340d40acb0af3": {
+      "id": "8edf14c1b0a31dd893a340d40acb0af3",
+      "link": "http://arxiv.org/abs/2512.05901",
+      "title": "Interplay of Rashba and Dresselhaus Spin-Orbit Couplings on the Stability of Topological FFLO Phases in 1D Fermi Gases",
+      "abstract": "We investigate the stabilization of topological Fulde-Ferrell-Larkin-Ovchinnikov (FFLO) phases, with a specific emphasis on the intraband FFLO phase, in a one-dimensional (1D) Fermi gas subjected to an external magnetic field. This research highlights the crucial role of the interplay between Rashba spin-orbit coupling (RSOC) and Dresselhaus spin-orbit coupling (DSOC). Employing a Fermi-Hubbard model alongside the density matrix renormalization group (DMRG) method, we examine the combined effects of RSOC and DSOC on these exotic superfluid phases, taking into account attractive fermionic interactions. Our principal finding reveals that while RSOC primarily stabilizes conventional zero-momentum pairing, DSOC performs a distinct and crucial role in selectively stabilizing the intraband FFLO phase. This stabilization is achieved by enhancing spin polarization within a single helicity band and suppressing interband coherence, thereby facilitating the formation of finite-momentum FFLO pairs within the same band and resulting in the emergence of a topologically nontrivial superfluid. This targeted control of intraband FFLO pairing paves the way for new strategies in the manipulation of superfluid phases in spin-orbit coupled systems and offers essential insights for experimental realizations in ultracold atomic gases, with implications for topological quantum computing and Majorana fermions.",
+      "pubdate": "Fri, 05 Dec 2025 17:29:19 +0000",
+      "authors": "Hamid Mosadeq, Mohammad-Hossein Zare, Reza Asgari"
+    },
+    "ba28596fc12f583c2d79276156ffbd37": {
+      "id": "ba28596fc12f583c2d79276156ffbd37",
+      "link": "http://arxiv.org/abs/2512.05851",
+      "title": "Lattice field theory for superconducting circuits",
+      "abstract": "Large superconducting quantum circuits have a number of important applications in quantum computing. Accurately predicting the performance of these devices from first principles is challenging, as it requires solving the many-body Schrödinger equation. This work introduces a new, general ab-initio method for analyzing large quantum circuits based on lattice field theory, a tool commonly applied in nuclear and particle physics. This method is competitive with state-of-the-art techniques such as tensor networks, but avoids introducing systematic errors due to truncation of the infinite-dimensional Hilbert space associated with superconducting phases. The approach is applied to fluxonium, a specific many-component superconducting qubit with favorable qualities for quantum computation. A systematic study of the influence of impedance on fluxonium is conducted that parallels previous experimental studies, and ground capacitance effects are explored. The qubit frequency and charge noise dephasing rate are extracted from statistical analyses of charge noise, where thousands of instantiations of charge disorder in the Josephson junction array of a fixed fluxonium qubit are explicitly averaged over at the microscopic level. This is difficult to achieve with any other existing method.",
+      "pubdate": "Fri, 05 Dec 2025 16:26:18 +0000",
+      "authors": "Joshua Lin, Max Hays, Stephen Sorokanich, Julian Bender, Phiala E. Shanahan, Neill C. Warrington"
+    },
+    "bc35d3f70241ccaeceb6e5a60e36c12a": {
+      "id": "bc35d3f70241ccaeceb6e5a60e36c12a",
+      "link": "http://arxiv.org/abs/2512.05185",
+      "title": "Investigating a Quantum-Inspired Method for Quantum Dynamics",
+      "abstract": "Building on recent advances in quantum algorithms which measure and reuse qubits and in efficient classical simulation leveraging projective measurements, we extend these frameworks to real-time dynamics of quantum many-body systems undergoing discrete-time and continuous-time Hamiltonian evolution, and find improvements that significantly reduce sampling overhead. The approach exploits causal light-cone structure by interleaving time and space evolution and applying projective measurements as soon as local subsystems reach the target physical time, suppressing entanglement growth. Comparing to time-evolving block decimation, the method reaches longer times per sample for the same resources. We also gain the ability to study dynamics of entanglement that would be occurring on quantum hardware when following similar protocols, such as the holographic quantum dynamics simulation framework. We show how to efficiently obtain local observables as well as equal-time and time-dependent correlation functions. Our findings show how optimizations for quantum hardware can benefit classical tensor network simulations and how such classical methods can yield insights into the utility of quantum simulations.",
+      "pubdate": "Thu, 04 Dec 2025 19:00:01 +0000",
+      "authors": "Bo Xiao, Benedikt Kloss, E. Miles Stoudenmire"
+    },
+    "f6fe8149b8eb79fb5bb6decb1fe33dc7": {
+      "id": "f6fe8149b8eb79fb5bb6decb1fe33dc7",
+      "link": "http://arxiv.org/abs/2512.05183",
+      "title": "Quantum compilation framework for data loading",
+      "abstract": "Efficient encoding of classical data into quantum circuits is a critical challenge that directly impacts the scalability of quantum algorithms. In this work, we present an automated compilation framework for resource-aware quantum data loading tailored to a given input vector and target error tolerance. By explicitly exploiting the trade-off between exact and approximate state preparation, our approach systematically partitions the total error budget between precision and approximation errors, thereby minimizing quantum resource costs. The framework supports a comprehensive suite of state-of-the-art methods, including multiplexer-based loaders, quantum read-only memory (QROM) constructions, sparse encodings, matrix product states (MPS), Fourier series loaders (FSL), and Walsh transform-based diagonal operators. We demonstrate the effectiveness of our framework across several applications, where it consistently uncovers non-obvious, resource-efficient strategies enabled by controlled approximation. In particular, we analyze a computational fluid dynamics workflow where the automated selection of MPS state preparation and Walsh transform-based encoding, combined with a novel Walsh-based measurement technique, leads to resource reductions of over four orders of magnitude compared to previous approaches. We also introduce two independent advances developed through the framework: a more efficient circuit for d-diagonal matrices, and an optimized block encoding for kinetic energy operators. Our results underscore the indispensable role of automated, approximation-aware compilation in making large-scale quantum algorithms feasible on resource-constrained hardware.",
+      "pubdate": "Thu, 04 Dec 2025 19:00:01 +0000",
+      "authors": "Guillermo Alonso-Linaje, Utkarsh Azad, Jay Soni, Jarrett Smalley, Leigh Lapworth, Juan Miguel Arrazola"
     }
   }
 }
