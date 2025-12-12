@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-12T01:57:09.878421+00:00",
+  "last_updated": "2025-12-12T12:52:25.630638+00:00",
   "entries": {
     "3fe2119a3c699a3af96368ff5100c30c": {
       "id": "3fe2119a3c699a3af96368ff5100c30c",
@@ -9400,6 +9400,54 @@
       "link": "http://arxiv.org/abs/2412.21055",
       "abstract": "We consider the surface code under errors featuring both coherent and incoherent components and study the coherence of the corresponding logical noise channel and how this impacts information-theoretic measures of code performance, namely coherent information and quantum relative entropy. Using numerical simulations and a phenomenological field theory, focusing on the most general single-qubit X-error channel, we show that, for any nonzero incoherent noise component, the coherence of the logical noise is exponentially suppressed with the code distance. We also find that the information-theoretic measures require this suppression to detect optimal thresholds for Pauli recovery; they thus require increasingly large distances for increasing error coherence and ultimately break down for fully coherent errors. To obtain our results, we develop a statistical mechanics mapping and a corresponding matrix-product-state algorithm for approximate syndrome sampling. These methods enable the large-scale simulation of these non-Pauli errors, including their maximum-likelihood thresholds, away from the limits captured by previous approaches.",
       "pubdate": "Mon, 30 Dec 2024 16:14:55 +0000"
+    },
+    "b4720998ffac1b3b38f15015dad46986": {
+      "id": "b4720998ffac1b3b38f15015dad46986",
+      "link": "http://arxiv.org/abs/2512.10910",
+      "title": "Partitioned Expansions for Approximate Tensor Network Contractions",
+      "abstract": "We propose a method for approximating the contraction of a tensor network by partitioning the network into a sum of computationally cheaper networks. This method, which we call a partitioned network expansion (PNE), builds upon recent work that systematically improves belief propagation (BP) approximations using loop corrections. However, in contrast to previous approaches, our expansion does not require a known BP fixed point to be implemented and can still yield accurate results even in cases where BP fails entirely. The flexibility of our approach is demonstrated through applications to a variety of example networks, including finite 2D and 3D networks, infinite networks, networks with open indices, and networks with degenerate BP fixed points. Benchmark numerical results for networks composed of Ising, AKLT, and random tensors typically show an improvement in accuracy over BP by several orders of magnitude (when BP solutions are obtainable) and also demonstrate improved performance over traditional network approximations based on singular value decomposition (SVD) for certain tasks.",
+      "pubdate": "Thu, 11 Dec 2025 18:39:44 +0000",
+      "authors": "Glen Evenbly, Johnnie Gray, Garnet Kin-Lic Chan"
+    },
+    "e3cc6b319c050f9c79e24745db816b8e": {
+      "id": "e3cc6b319c050f9c79e24745db816b8e",
+      "link": "http://arxiv.org/abs/2512.10899",
+      "title": "Hybrid quantum-classical matrix-product state and Lanczos methods for electron-phonon systems with strong electronic correlations: Application to disordered systems coupled to Einstein phonons",
+      "abstract": "We present two quantum-classical hybrid methods for simulating the time-dependence of electron-phonon systems that treat electronic correlations numerically exactly and optical-phonon degrees of freedom classically. These are a time-dependent Lanczos and a matrix-product state method, each combined with the multi-trajectory Ehrenfest approach. Due to the approximations, reliable results are expected for the adiabatic regime of small phonon frequencies. We discuss the convergence properties of both methods for a system of interacting spinless fermions in one dimension and provide a benchmark for the Holstein chain. As a first application, we study the decay of charge density wave order in a system of interacting spinless fermions coupled to Einstein oscillators and in the presence of quenched disorder. We investigate the dependence of the relaxation dynamics on the electron-phonon coupling strength and provide numerical evidence that the coupling of strongly disordered systems to classical oscillators leads to delocalization, thus destabilizing the (finite-size) many-body localization in this system.",
+      "pubdate": "Thu, 11 Dec 2025 18:26:51 +0000",
+      "authors": "Heiko Georg Menzler, Suman Mondal, Fabian Heidrich-Meisner"
+    },
+    "559d284531e97cc41f5ac78ca4c066cd": {
+      "id": "559d284531e97cc41f5ac78ca4c066cd",
+      "link": "http://arxiv.org/abs/2512.10755",
+      "title": "Phase structure of the one-dimensional $\\mathbb{Z}_2$ lattice gauge theory with second nearest-neighbor interactions",
+      "abstract": "We investigate the ground-state phase diagram of a one-dimensional $\\mathbb{Z}_2$ lattice gauge theory (LGT) model with hard-core bosons at half-filling, extending previous studies by including second nearest-neighbor (2NN) interactions. Using matrix product state techniques within the density matrix renormalization group, we compute charge gap, static structure factor, and pair-pair correlation functions for various interaction strengths and field parameters. We analyze two representative neatest-neighbor interaction strengths ($V_1$) that correspond to the Luttinger liquid (LL) and Mott insulator (MI) phases in the absence of the 2NN interactions. We introduce the 2NN coupling $V_2$ and investigate its impact on the system. Our results reveal very rich behavior. As the 2NN repulsion increases, in the case of small $V_1$, we observe a direct transition from the LL phase to a charge-ordered insulator (COI) phase, whereas for large $V_1$, we observe a transition from the MI phase (previously found with only $V_1$ included), going through an intermediate LL region, and finally reaching the COI regime. Additionally, the inclusion of 2NN interactions enhances charge order and suppresses pair coherence, evidenced by sharp peaks in the structure factor and rapid decay in pair-pair correlators. Our work extends the well-studied phase structure of 1D $\\mathbb{Z}_2$ LGT models and demonstrates the interplay between gauge fields, confinement, and extended interactions.",
+      "pubdate": "Thu, 11 Dec 2025 15:46:18 +0000",
+      "authors": "Yeimer Zambrano, Aleksey Alekseev, Konrad J. Kapcia, Krzysztof Cichy, Agnieszka Cichy"
+    },
+    "898de45a5dba3b028afed54cff97fa93": {
+      "id": "898de45a5dba3b028afed54cff97fa93",
+      "link": "http://arxiv.org/abs/2512.10643",
+      "title": "Efficient simulation of low-entanglement bosonic Gaussian states in polynomial time",
+      "abstract": "Bosonic Gaussian states appear ubiquitously in quantum optics and condensed matter physics but remain difficult to simulate classically due to the hafnian bottleneck. We present an efficient algorithm that converts pure bosonic Gaussian states into matrix product states (MPSs), with a computational cost governed solely by the entanglement and not by the number of bosonic modes. Our method combines a Gaussian singular value decomposition with a projected-creation-operator mapping that constructs local MPS tensors without computing hafnians. Benchmarking on covariance matrices from the Jiuzhang 2.0 and Jiuzhang 4.0 Gaussian boson sampling experiments demonstrates substantial speedups over previous tensor-network approaches in the low-entanglement regime relevant to lossy devices. The method provides a scalable classical simulation framework for bosonic Gaussian states with limited entanglement and extends the applicability of MPS-based methods to a broad range of bosonic systems.",
+      "pubdate": "Thu, 11 Dec 2025 13:51:03 +0000",
+      "authors": "Tong Liu, Hui-Ke Jin, Tao Xiang, Hong-Hao Tu"
+    },
+    "5d8ea5017184c60b9008e48ce129740c": {
+      "id": "5d8ea5017184c60b9008e48ce129740c",
+      "link": "http://arxiv.org/abs/2512.10642",
+      "title": "Stability of the symmetry-protected topological phase and Ising transitions in a disordered U(1) quantum link model on a ladder",
+      "abstract": "We revisit the U(1) quantum link model in a ladder geometry, finding, by finite-size scaling, that the critical exponent $ν=1$ and the central charge $c=1/2$ are consistent with the Ising universality class for all phase transitions observed. A blind application of the Harris criterion would suggest that this criticality is lost in the presence of the disorder. It turns out not to be the case. For the disorder affecting ladder's rung hoppings only, we have found that the transitions survive disappearing only for quite strong disorder. The disorder in the ladder's legs destroys the nonzero mass phase criticality, while the symmetry-protected topological phase for zero mass survives a small disorder. The observed robustness against disorder is explained qualitatively using field-theoretic arguments.",
+      "pubdate": "Thu, 11 Dec 2025 13:50:55 +0000",
+      "authors": "Mykhailo V. Rakov, Luca Tagliacozzo, Maciej Lewenstein, Jakub Zakrzewski, Titas Chanda"
+    },
+    "b0c84a828dc241f7369e0864021c9771": {
+      "id": "b0c84a828dc241f7369e0864021c9771",
+      "link": "http://arxiv.org/abs/2512.10309",
+      "title": "Tracking large chemical reaction networks and rare events by neural networks",
+      "abstract": "Chemical reaction networks are widely used to model stochastic dynamics in chemical kinetics, systems biology and epidemiology. Solving the chemical master equation that governs these systems poses a significant challenge due to the large state space exponentially growing with system sizes. The development of autoregressive neural networks offers a flexible framework for this problem; however, its efficiency is limited especially for high-dimensional systems and in scenarios with rare events. Here, we push the frontier of neural-network approach by exploiting faster optimizations such as natural gradient descent and time-dependent variational principle, achieving a 5- to 22-fold speedup, and by leveraging enhanced-sampling strategies to capture rare events. We demonstrate reduced computational cost and higher accuracy over the previous neural-network method in challenging reaction networks, including the mitogen-activated protein kinase (MAPK) cascade network, the hitherto largest biological network handled by the previous approaches of solving the chemical master equation. We further apply the approach to spatially extended reaction-diffusion systems, the Schlögl model with rare events, on two-dimensional lattices, beyond the recent tensor-network approach that handles one-dimensional lattices. The present approach thus enables efficient modeling of chemical reaction networks in general.",
+      "pubdate": "Thu, 11 Dec 2025 05:55:44 +0000",
+      "authors": "Jiayu Weng, Xinyi Zhu, Jing Liu, Linyuan Lü, Pan Zhang, Ying Tang"
     }
   }
 }
