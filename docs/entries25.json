@@ -1,6 +1,22 @@
 {
-  "last_updated": "2025-12-15T12:55:26.537113+00:00",
+  "last_updated": "2025-12-16T01:57:38.317994+00:00",
   "entries": {
+    "d6af7f5cb3c09a22fd1fb5e6ebec5bad": {
+      "id": "d6af7f5cb3c09a22fd1fb5e6ebec5bad",
+      "link": "http://arxiv.org/abs/2512.11314",
+      "title": "Spatiotemporal scales of dynamical quantum phase transitions in the Bose-Hubbard model",
+      "abstract": "We investigate the spatial and temporal scales of dynamical quantum phase transitions in the one-dimensional Bose-Hubbard model in the strong interaction limit. Using Jordan-Wigner transformation, we obtain the time-dependent wavefunction and therefore the subsystem Loschmidt echo, and systematically investigate how its properties vary with subsystem size. It is found that when the subsystem is sufficiently large, it exhibits logarithmic divergence identical to that of the full system Loschmidt echo, yielding a critical exponent of zero. We also obtain the required subsystem size and temporal resolution for detecting dynamical quantum phase transitions using the subsystem Loschmidt echo. It is expected that the present results provide a reliable foundation for further experimental investigations.",
+      "pubdate": "Fri, 12 Dec 2025 06:30:58 +0000",
+      "authors": "Jia Li, Yajiang Hao"
+    },
+    "ccabff7ed6d22679c6d118ab63b4ef4d": {
+      "id": "ccabff7ed6d22679c6d118ab63b4ef4d",
+      "link": "http://arxiv.org/abs/2512.11216",
+      "title": "Symmetry-protected topological scar subspaces",
+      "abstract": "We propose a framework that extends the notion of symmetry-protected topological properties beyond the ground-state paradigm to dynamically isolated subspaces formed by exceptional non-thermal energy eigenstates of non-integrable systems, known as quantum many-body scars (QMBS). We introduce the concept of a symmetry-protected topological (SPT) scar subspace -- a Hilbert subspace stabilized by a restricted spectrum-generating algebra (rSGA) while being protected by on-site, inversion, and time-reversal symmetries. QMBS often admit a non-interacting quasiparticle description, which enables matrix-product representations with small bond dimension. Although individual QMBS do not necessarily retain the protecting symmetries of the Hamiltonian, we show that the subspace formed by the symmetry-connected QMBS does retain them, giving rise to consistently emerging topological properties across the entire scar subspace. Using the spin-$1$ Affleck--Kennedy--Lieb--Tasaki (AKLT) model, we demonstrate that its bimagnon scar subspace reflects the topological properties of the SPT ground state, as evidenced by the appropriate bond-space symmetry representations, the expected topological response, and the numerically verified long-range string order. Our findings indicate that scar subspaces can inherit -- and in inhomogeneous cases systematically modify -- the topological character of the SPT ground state, offering a new and experimentally accessible platform for probing symmetry-protected topology beyond the ground-state regime.",
+      "pubdate": "Fri, 12 Dec 2025 01:48:36 +0000",
+      "authors": "Chihiro Matsui, Thomas Quella, Naoto Tsuji"
+    },
     "b4720998ffac1b3b38f15015dad46986": {
       "id": "b4720998ffac1b3b38f15015dad46986",
       "link": "http://arxiv.org/abs/2512.10910",
@@ -9448,22 +9464,6 @@
       "link": "http://arxiv.org/abs/2412.21055",
       "abstract": "We consider the surface code under errors featuring both coherent and incoherent components and study the coherence of the corresponding logical noise channel and how this impacts information-theoretic measures of code performance, namely coherent information and quantum relative entropy. Using numerical simulations and a phenomenological field theory, focusing on the most general single-qubit X-error channel, we show that, for any nonzero incoherent noise component, the coherence of the logical noise is exponentially suppressed with the code distance. We also find that the information-theoretic measures require this suppression to detect optimal thresholds for Pauli recovery; they thus require increasingly large distances for increasing error coherence and ultimately break down for fully coherent errors. To obtain our results, we develop a statistical mechanics mapping and a corresponding matrix-product-state algorithm for approximate syndrome sampling. These methods enable the large-scale simulation of these non-Pauli errors, including their maximum-likelihood thresholds, away from the limits captured by previous approaches.",
       "pubdate": "Mon, 30 Dec 2024 16:14:55 +0000"
-    },
-    "d6af7f5cb3c09a22fd1fb5e6ebec5bad": {
-      "id": "d6af7f5cb3c09a22fd1fb5e6ebec5bad",
-      "link": "http://arxiv.org/abs/2512.11314",
-      "title": "Spatiotemporal scales of dynamical quantum phase transitions in the Bose-Hubbard model",
-      "abstract": "We investigate the spatial and temporal scales of dynamical quantum phase transitions in the one-dimensional Bose-Hubbard model in the strong interaction limit. Using Jordan-Wigner transformation, we obtain the time-dependent wavefunction and therefore the subsystem Loschmidt echo, and systematically investigate how its properties vary with subsystem size. It is found that when the subsystem is sufficiently large, it exhibits logarithmic divergence identical to that of the full system Loschmidt echo, yielding a critical exponent of zero. We also obtain the required subsystem size and temporal resolution for detecting dynamical quantum phase transitions using the subsystem Loschmidt echo. It is expected that the present results provide a reliable foundation for further experimental investigations.",
-      "pubdate": "Fri, 12 Dec 2025 06:30:58 +0000",
-      "authors": "Jia Li, Yajiang Hao"
-    },
-    "ccabff7ed6d22679c6d118ab63b4ef4d": {
-      "id": "ccabff7ed6d22679c6d118ab63b4ef4d",
-      "link": "http://arxiv.org/abs/2512.11216",
-      "title": "Symmetry-protected topological scar subspaces",
-      "abstract": "We propose a framework that extends the notion of symmetry-protected topological properties beyond the ground-state paradigm to dynamically isolated subspaces formed by exceptional non-thermal energy eigenstates of non-integrable systems, known as quantum many-body scars (QMBS). We introduce the concept of a symmetry-protected topological (SPT) scar subspace -- a Hilbert subspace stabilized by a restricted spectrum-generating algebra (rSGA) while being protected by on-site, inversion, and time-reversal symmetries. QMBS often admit a non-interacting quasiparticle description, which enables matrix-product representations with small bond dimension. Although individual QMBS do not necessarily retain the protecting symmetries of the Hamiltonian, we show that the subspace formed by the symmetry-connected QMBS does retain them, giving rise to consistently emerging topological properties across the entire scar subspace. Using the spin-$1$ Affleck--Kennedy--Lieb--Tasaki (AKLT) model, we demonstrate that its bimagnon scar subspace reflects the topological properties of the SPT ground state, as evidenced by the appropriate bond-space symmetry representations, the expected topological response, and the numerically verified long-range string order. Our findings indicate that scar subspaces can inherit -- and in inhomogeneous cases systematically modify -- the topological character of the SPT ground state, offering a new and experimentally accessible platform for probing symmetry-protected topology beyond the ground-state regime.",
-      "pubdate": "Fri, 12 Dec 2025 01:48:36 +0000",
-      "authors": "Chihiro Matsui, Thomas Quella, Naoto Tsuji"
     }
   }
 }
