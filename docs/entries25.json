@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-17T01:53:19.553506+00:00",
+  "last_updated": "2025-12-17T12:53:49.879628+00:00",
   "entries": {
     "26ea2af5b326e15d530edb64e0161670": {
       "id": "26ea2af5b326e15d530edb64e0161670",
@@ -9528,6 +9528,62 @@
       "link": "http://arxiv.org/abs/2412.21055",
       "abstract": "We consider the surface code under errors featuring both coherent and incoherent components and study the coherence of the corresponding logical noise channel and how this impacts information-theoretic measures of code performance, namely coherent information and quantum relative entropy. Using numerical simulations and a phenomenological field theory, focusing on the most general single-qubit X-error channel, we show that, for any nonzero incoherent noise component, the coherence of the logical noise is exponentially suppressed with the code distance. We also find that the information-theoretic measures require this suppression to detect optimal thresholds for Pauli recovery; they thus require increasingly large distances for increasing error coherence and ultimately break down for fully coherent errors. To obtain our results, we develop a statistical mechanics mapping and a corresponding matrix-product-state algorithm for approximate syndrome sampling. These methods enable the large-scale simulation of these non-Pauli errors, including their maximum-likelihood thresholds, away from the limits captured by previous approaches.",
       "pubdate": "Mon, 30 Dec 2024 16:14:55 +0000"
+    },
+    "24d0d89a3eec3df533a3b4f315489ec4": {
+      "id": "24d0d89a3eec3df533a3b4f315489ec4",
+      "link": "http://arxiv.org/abs/2512.14414",
+      "title": "A single-layer framework of variational tensor network states",
+      "abstract": "We propose a single-layer tensor network framework for the variational determination of ground states in two-dimensional quantum lattice models. By combining the nested tensor network method [Phys. Rev. B 96, 045128 (2017)] with the automatic differentiation technique, our approach can reduce the computational cost by three orders of magnitude in bond dimension, and therefore enables highly efficient variational ground-state calculations. We demonstrate the capability of this framework through two quantum spin models: the antiferromagnetic Heisenberg model on a square lattice and the frustrated Shastry-Sutherland model. Even without GPU acceleration or symmetry implimention, we have achieved the bond dimension of 9 and obtained accurate ground-state energy and consistent order parameters compared to prior studies. In particular, we confirm the existence of an intermediate empty-plaquette valence bond solid ground state in the Shastry-Sutherland model. We have further discussed the convergence of the algorithm and its potential improvements. Our work provides a promising route for large-scale tensor network calculations of two-dimensional quantum systems.",
+      "pubdate": "Tue, 16 Dec 2025 13:58:24 +0000",
+      "authors": "Hongyu Chen, Yangfeng Fu, Weiqiang Yu, Rong Yu, Z. Y. Xie"
+    },
+    "8596d8e7fd3842246887f37bd1a38fde": {
+      "id": "8596d8e7fd3842246887f37bd1a38fde",
+      "link": "http://arxiv.org/abs/2512.14149",
+      "title": "A sine-square deformation approach to quantum critical points in one-dimensional systems",
+      "abstract": "We propose a method to determine the quantum phase boundaries of one-dimensional systems using sine-square deformation (SSD). Based on the proposition, supported by several exactly solved cases though not proven in full generality, that ``if a one-dimensional system is gapless, then the expectation value of any local observable in the ground state of the Hamiltonian with SSD exhibits translational symmetry in the thermodynamic limit,\" we determine the quantum critical point as the location where a local observable becomes site-independent, identified through finite-size scaling analysis. As case studies, we consider two models: the antiferromagnetic Ising chain in mixed transverse and longitudinal magnetic fields with nearest-neighbor and long-range interactions. We calculate the ground state of these Hamiltonians with SSD using the density-matrix renormalization-group algorithm and evaluate the local transverse magnetization. For the nearest-neighbor model, we show that the quantum critical point can be accurately estimated by our procedure with systems of up to 84 sites, or even smaller, in good agreement with results from the literature. For the long-range model, we find that the phase boundary between the antiferromagnetic and paramagnetic phases is slightly shifted relative to the nearest-neighbor case, leading to a reduced region of antiferromagnetic order. Moreover, we propose an experimental procedure to implement the antiferromagnetic $J_1$-$J_2$ Ising couplings with SSD using Rydberg atom arrays in optical tweezers, which can be achieved within a very good approximation. Because multiple independent scaling conditions naturally emerge, our approach enables precise determination of quantum critical points and possibly even the extraction of additional critical phenomena, such as critical exponents, from relatively small system sizes.",
+      "pubdate": "Tue, 16 Dec 2025 07:14:32 +0000",
+      "authors": "Yuki Miyazaki, Shiori Tanigawa, Giacomo Marmorini, Nobuo Furukawa, Daisuke Yamamoto"
+    },
+    "b8e15bfb7526eb8c55aff3b72ac43c20": {
+      "id": "b8e15bfb7526eb8c55aff3b72ac43c20",
+      "link": "http://arxiv.org/abs/2512.14173",
+      "title": "Simplex Crystal Ground State and Magnetization Plateaus in the Spin-$1/2$ Heisenberg Model on the Ruby Lattice",
+      "abstract": "We investigate the spin-$1/2$ Heisenberg antiferromagnet on the ruby lattice with uniform first- and second-neighbor interactions, which forms a two-dimensional network of corner-sharing tetrahedra. Using infinite projected entangled pair states (iPEPS), we study the ground state of the system to find that it assumes a gapped threefold-degenerate simplex crystal ground state, with strong singlets formed on pairs of neighboring triangles. We argue that the formation of the simplex singlet ground state at the isotropic point relates to the weak inter-triangle coupling limit where an effective spin-chirality Hamiltonian on the honeycomb lattice exhibits an extensively degenerate ground state manifold of singlet coverings at the mean-field level. Under an applied Zeeman field, the iPEPS simulations uncover magnetization plateaus at $m/m_s = 0, 1/3, 1/2,$ and $2/3$, separated by intermediate supersolid phases, all breaking the sixfold rotational symmetry of the lattice. Unlike the checkerboard lattice, these plateaus cannot be described by strongly localized magnons.",
+      "pubdate": "Tue, 16 Dec 2025 08:06:40 +0000",
+      "authors": "Pratyay Ghosh, Frédéric Mila"
+    },
+    "8ceae1c4762e556c48e05a116bc0d33d": {
+      "id": "8ceae1c4762e556c48e05a116bc0d33d",
+      "link": "http://arxiv.org/abs/2512.14075",
+      "title": "Correlation functions at the topological quantum phase transition in the S=1 XXZ chain with single-ion anisotropy",
+      "abstract": "We study the one-dimensional S=1 XXZ spin model with single-ion anisotropy. It is known that at the transition points between the Haldane and large-D phases, the model exhibits a quantum criticality described by the Gaussian theory, i.e., a conformal field theory with the central charge c=1. Using the bosonization approach, we investigate various correlation functions at the phase transition and derive their asymptotic forms. This allows us to clarify their peculiar behavior: the longitudinal (transverse) two-point spin correlation function has components that decay algebraically only in the uniform (staggered) sector. These theoretical predictions are verified by the numerical calculations using the density-matrix renormalization group method. The effect of weak bond alternation on the critical ground state at the phase transition is also discussed. It is shown that the bond alternation induces the missing power-law components in the correlation functions.",
+      "pubdate": "Tue, 16 Dec 2025 04:26:07 +0000",
+      "authors": "Toshiya Hikihara, Akira Furusaki"
+    },
+    "bb7d5c15ff79fa68dd2201c299f9d8dc": {
+      "id": "bb7d5c15ff79fa68dd2201c299f9d8dc",
+      "link": "http://arxiv.org/abs/2512.13812",
+      "title": "Algorithmic aspects of gauged Gaussian fermionic projected entangled pair states",
+      "abstract": "Lattice gauge theories (LGTs) provide a powerful framework for studying non-perturbative phenomena in gauge theories. However, conventional approaches such as Monte Carlo (MC) simulations in imaginary time are limited, as they do not allow real time evolution and suffer from a sign problem in many important cases. Using Gauged Gaussian fermionic projected entangled pair states (GGFPEPS) as a variational ground state ansatz offers an alternative for studying LGTs through a sign-problem-free variational MC. As this method is extended to larger and more complex systems, understanding its numerical behavior becomes essential. While conventional action based MC has been extensively studied, the performance and characteristics of non-action-based MC within the GGFPEPS framework are far less explored. In this work, we investigate these algorithmic aspects, identifying an optimal update size for GGFPEPS-based MC simulations for $\\mathbb{Z}_2$ in $2+1$ dimensions. We show that gauge fixing generally slows convergence, and demonstrate that not exploiting the translation-invariance can, in some cases, improve the computational time scaling of error convergence. We expect that these improvements will allow advancing the simulation to larger and more complex systems.",
+      "pubdate": "Mon, 15 Dec 2025 19:01:02 +0000",
+      "authors": "Itay Gomelski, Jonathan Elyovich, Ariel Kelman, Erez Zohar, Patrick Emonts"
+    },
+    "f80c6f5dd670f173cda677271a8114bb": {
+      "id": "f80c6f5dd670f173cda677271a8114bb",
+      "link": "http://arxiv.org/abs/2512.13800",
+      "title": "Non-hermitian Density Matrices from Time-like Entanglement and Wormholes",
+      "abstract": "We extensively explore the connections between time-like entanglement and non-hermitian density matrices in quantum many-body systems. We classify setups where we encounter non-hermitian density matrices into two types: one is due to causal influences under unitary evolutions, and the other is due to non-unitary evolutions in non-hermitian systems. We provide various examples of these setups including interacting harmonic oscillators, two dimensional conformal field theories and holographic dualities. In them, we compute the time-like entanglement entropy and imagitivity, which measures how much density matrices are non-hermitian. In both two classes, typical holographic examples are given by traversable AdS wormholes. We explain how causal influences in a wormhole dual to a pair of non-hermitian quantum systems is possible even without interactions between them. We argue that to realize a traversable wormhole we need not only ordinary quantum entanglement but also time-like entanglement.",
+      "pubdate": "Mon, 15 Dec 2025 19:00:05 +0000",
+      "authors": "Jonathan Harper, Taishi Kawamoto, Ryota Maeda, Nanami Nakamura, Tadashi Takayanagi"
+    },
+    "1fb501ecbef863239f7e786d31420754": {
+      "id": "1fb501ecbef863239f7e786d31420754",
+      "link": "http://arxiv.org/abs/2512.13793",
+      "title": "Magnetism and superconductivity in bilayer nickelate",
+      "abstract": "The discovery of high-temperature superconductivity in bilayer nickelate La$_{3}$Ni$_{2}$O$_{7}$ necessitates a minimal theoretical model that unifies the superconducting phase with the spin-density-wave (SDW) phase without external pressure or strain. We propose a model where half-filled $d_{z^{2}}$ local moments interact with itinerant $d_{x^{2}-y^{2}}$ electrons via strong Hund's coupling $J_H$, which reduces to a bilayer type-II t-J model in the large $J_H$ limit. Using iDMRG calculations on an $L_y=4, L_z=2$ cylinder, we demonstrate that the competition between double-exchange ferromagnetism and in-plane superexchange generates period-4 stripe-like SDW order-a feature absent in one-orbital t-J model with only $d_{x^2-y^2}$ orbital. Furthermore, increasing the interlayer exchange coupling suppresses magnetic order and stabilizes interlayer s-wave superconductivity. These results identify the type-II t-J model as a minimal framework for capturing the interplay of magnetism and superconductivity in bilayer nickelates.",
+      "pubdate": "Mon, 15 Dec 2025 19:00:02 +0000",
+      "authors": "Hui Yang, Ya-Hui Zhang"
     }
   }
 }
