@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-18T01:53:39.498331+00:00",
+  "last_updated": "2025-12-18T12:51:59.514688+00:00",
   "entries": {
     "24d0d89a3eec3df533a3b4f315489ec4": {
       "id": "24d0d89a3eec3df533a3b4f315489ec4",
@@ -9584,6 +9584,54 @@
       "link": "http://arxiv.org/abs/2412.21055",
       "abstract": "We consider the surface code under errors featuring both coherent and incoherent components and study the coherence of the corresponding logical noise channel and how this impacts information-theoretic measures of code performance, namely coherent information and quantum relative entropy. Using numerical simulations and a phenomenological field theory, focusing on the most general single-qubit X-error channel, we show that, for any nonzero incoherent noise component, the coherence of the logical noise is exponentially suppressed with the code distance. We also find that the information-theoretic measures require this suppression to detect optimal thresholds for Pauli recovery; they thus require increasingly large distances for increasing error coherence and ultimately break down for fully coherent errors. To obtain our results, we develop a statistical mechanics mapping and a corresponding matrix-product-state algorithm for approximate syndrome sampling. These methods enable the large-scale simulation of these non-Pauli errors, including their maximum-likelihood thresholds, away from the limits captured by previous approaches.",
       "pubdate": "Mon, 30 Dec 2024 16:14:55 +0000"
+    },
+    "39f28604defe755250d933037e873372": {
+      "id": "39f28604defe755250d933037e873372",
+      "link": "http://arxiv.org/abs/2512.15714",
+      "title": "Large Isolated Stripes on Short 18-leg $t$-$J$ Cylinders",
+      "abstract": "Spin-charge stripes belong to the most prominent low-temperature orders besides superconductivity in high-temperature superconductors. This phase is particularly challenging to study numerically due to finite-size effects. By investigating the formation of long, isolated stripes, we offer a perspective complementary to typical finite-doping phase diagrams. We use the density-matrix renormalization group algorithm to extract the ground states of an 18-leg cylindrical strip geometry, making the diameter significantly wider than in previous works. This approach allows us to map out the range of possible stripe filling fractions on the electron versus hole-doped side. We find good agreement with established results, suggesting that the spread of filling fractions observed in the literature is governed by the physics of a single stripe. Taking a microscopic look at stripe formation, we reveal two separate regimes - a high-filling regime captured by a simplified squeezed-space model and a low-filling regime characterized by the structure of individual pairs of dopants. Thereby, we trace back the phenomenology of the striped phase to its microscopic constituents and highlight the different challenges for observing the two regimes in quantum simulation experiments.",
+      "pubdate": "Wed, 17 Dec 2025 18:59:56 +0000",
+      "authors": "Tizian Blatz, Sebastian Paeckel, Ulrich Schollwöck, Fabian Grusdt, Annabelle Bohrdt"
+    },
+    "bb7bf141cff918fd92408a5801afdec5": {
+      "id": "bb7bf141cff918fd92408a5801afdec5",
+      "link": "http://arxiv.org/abs/2512.15703",
+      "title": "Time integration of quantized tensor trains using the interpolative dynamical low-rank approximation",
+      "abstract": "Quantized tensor trains (QTTs) are a low-rank and multiscale framework that allows for efficient approximation and manipulation of multi-dimensional, high resolution data. One area of active research is their use in numerical simulation of hyperbolic systems such as the Navier-Stokes equations and the Vlasov equations. One popular time integration scheme is the dynamical low-rank approximation (DLRA), in which the time integration is constrained to a low-rank manifold. However, until recently, DLRA has typically used orthogonal projectors to project the original dynamical system into a reduced space, which is only well-suited for linear systems. DLRA has also mostly been investigated in the context of non-quantized tensor trains. This work investigates interpolative DLRA schemes in which the low-rank manifold is constructed from aptly chosen interpolation points and interpolating polynomials, in the context of QTTs. Through various examples, its performance is compared to its orthogonal counterpart. This work demonstrates how interpolative DLRA is suitable for nonlinear systems and time integrators requiring nonlinear element-wise operations, such as upwind time integration schemes.",
+      "pubdate": "Wed, 17 Dec 2025 18:55:25 +0000",
+      "authors": "Erika Ye, Chao Yang"
+    },
+    "15db6d4b0d17a2ffad2c52fb9e51a6a6": {
+      "id": "15db6d4b0d17a2ffad2c52fb9e51a6a6",
+      "link": "http://arxiv.org/abs/2512.15689",
+      "title": "Error mitigation for logical circuits using decoder confidence",
+      "abstract": "Fault-tolerant quantum computers use decoders to monitor for errors and find a plausible correction. A decoder may provide a decoder confidence score (DCS) to gauge its success. We adopt a swim distance DCS, computed from the shortest path between syndrome clusters. By contracting tensor networks, we compare its performance to the well-known complementary gap and find that both reliably estimate the logical error probability (LEP) in a decoding window. We explore ways to use this to mitigate the LEP in entire circuits. For shallow circuits, we just abort if any decoding window produces an exceptionally low DCS: for a distance-13 surface code, rejecting a mere 0.1% of possible DCS values improves the entire circuit's LEP by more than 5 orders of magnitude. For larger algorithms comprising up to trillions of windows, DCS-based rejection remains effective for enhancing observable estimation. Moreover, one can use DCS to assign each circuit's output a unique LEP, and use it as a basis for maximum likelihood inference. This can reduce the effects of noise by an order of magnitude at no quantum cost; methods can be combined for further improvements.",
+      "pubdate": "Wed, 17 Dec 2025 18:45:27 +0000",
+      "authors": "Maria Dincă, Tim Chan, Simon C. Benjamin"
+    },
+    "fe3fe00d6ee48b91fd33bc8b466acfa4": {
+      "id": "fe3fe00d6ee48b91fd33bc8b466acfa4",
+      "link": "http://arxiv.org/abs/2512.15631",
+      "title": "Space-Time Spectral Collocation Tensor-Network Approach for Maxwell's Equations",
+      "abstract": "In this work, we develop a space--time Chebyshev spectral collocation method for three-dimensional Maxwell's equations and combine it with tensor-network techniques in Tensor-Train (TT) format. Under constant material parameters, the Maxwell system is reduced to a vector wave equation for the electric field, which we discretize globally in space and time using a staggered spectral collocation scheme. The staggered polynomial spaces are designed so that the discrete curl and divergence operators preserve the divergence-free constraint on the magnetic field. The magnetic field is then recovered in a space--time post-processing step via a discrete version of Faraday's law. The global space--time formulation yields a large but highly structured linear system, which we approximate in low-rank TT-format directly from the operator and data, without assuming that the forcing is separable in space and time. We derive condition-number bounds for the resulting operator and prove spectral convergence estimates for both the electric and magnetic fields. Numerical experiments for three-dimensional electromagnetic test problems confirm the theoretical convergence rates and show that the TT-based solver maintains accuracy with approximately linear complexity in the number of grid points in space and time.",
+      "pubdate": "Wed, 17 Dec 2025 17:42:12 +0000",
+      "authors": "Dibyendu Adak, Rujeko Chinomona, Duc P. Truong, Oleg Korobkin, Kim Ø. Rasmussen, Boian S. Alexandrov"
+    },
+    "ceaf26f8a3baec77e910c5c7bf5647ba": {
+      "id": "ceaf26f8a3baec77e910c5c7bf5647ba",
+      "link": "http://arxiv.org/abs/2512.15041",
+      "title": "Fractional quantization by interaction of arbitrary strength in gapless flat bands with divergent quantum geometry",
+      "abstract": "Fractional quantum anomalous Hall (FQAH) effect, a lattice analogue of fractional quantum Hall effect, offers a unique pathway toward fault-tolerant quantum computation and deep insights into the interplay of topology and strong correlations. The exploration has been successfully guided by the paradigm of ideal flat Chern bands, which mimic Landau levels in both band topology and local quantum geometry. Yet, given the near-infinite possibilities for Bloch bands in lattices, it remains a major open question whether FQAH states can emerge in scenarios fundamentally different from this paradigm. Here we turn to a class of gapless flat bands, featuring divergent quantum geometry at singular band touching, non-integer Berry flux threading the Brillouin zone (BZ), and ill-defined band topology. Our exact diagonalization and density matrix renormalization group calculations unambiguously demonstrate FQAH phase that is virtually independent of the interaction strength, persisting from the weak-interaction to the strong-interaction limit. We find the stability of the FQAH states does not uniquely correlate with the singularity strength or the BZ-averaged quantum geometric fluctuations. Instead, the many-body topological order can adapt to the singular and fluctuating quantum geometric landscape by spontaneously developing an inhomogeneous carrier distribution, while its quenching accompanies the drop in the occupation-weighted Berry flux. Our work reveals a profound interplay between quantum geometry and many-body correlation, and significantly expands the design space for exploring FQAH effect and flat-band correlation phenomena in general.",
+      "pubdate": "Wed, 17 Dec 2025 03:13:00 +0000",
+      "authors": "Wenqi Yang, Dawei Zhai, Wang Yao"
+    },
+    "8cfbaf3939156a1fefabe3b851cb96f8": {
+      "id": "8cfbaf3939156a1fefabe3b851cb96f8",
+      "link": "http://arxiv.org/abs/2512.14950",
+      "title": "Dynamical Tensor Train Approximation for Kinetic Equations",
+      "abstract": "The numerical solution of kinetic equations is challenging due to the high dimensionality of the underlying phase space. In this paper, we develop a dynamical low-rank method based on the projector-splitting integrator in tensor-train (TT) format. The key idea is to discretize the three-dimensional velocity variable using tensor trains while treating the spatial variable as a parameter, thereby exploiting the low-rank structure of the distribution function in velocity space. In contrast to the standard step-and-truncate approach, this method updates the tensor cores through a sweeping procedure, allowing the use of relatively small TT-ranks and leading to substantial reductions in memory usage and computational cost. We demonstrate the effectiveness of the proposed approach on several representative kinetic equations.",
+      "pubdate": "Tue, 16 Dec 2025 22:29:43 +0000",
+      "authors": "Geshuo Wang, Jingwei Hu"
     }
   }
 }
