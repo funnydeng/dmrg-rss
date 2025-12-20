@@ -1,6 +1,62 @@
 {
-  "last_updated": "2025-12-19T12:50:29.939172+00:00",
+  "last_updated": "2025-12-20T01:50:33.191575+00:00",
   "entries": {
+    "076f612a497c295dc2cd2a89f3adcae5": {
+      "id": "076f612a497c295dc2cd2a89f3adcae5",
+      "link": "http://arxiv.org/abs/2512.16823",
+      "title": "Numerically exact open quantum system work statistics with process tensors",
+      "abstract": "Accurately quantifying the thermodynamic work costs of quantum operations is essential for the continued development and optimisation of emerging quantum technologies. This present a significant challenge in regimes of rapid control within complex, non-equilibrium environments - conditions under which many contemporary quantum devices operate and conventional approximations break down. Here, we introduce a process tensor framework that enables the computation of the full numerically exact quantum work statistics of driven open quantum systems. We demonstrate the utility of our approach by applying it to a Landauer erasure protocol operating beyond the weak-coupling, Markovian, and slow-driving limits. The resulting work probability distributions reveal distinct quantum signatures that are missed by low-order moments yet significantly impact the erasure fidelity of the protocol. Our framework delivers non-perturbative accuracy and detail in characterising energy-exchange fluctuations in driven open quantum systems, establishing a powerful and versatile tool for exploring thermodynamics and control in the operating regimes of both near-term and future quantum devices.",
+      "pubdate": "Thu, 18 Dec 2025 18:04:18 +0000",
+      "authors": "Mike Shubrook, Moritz Cygorek, Erik Gauger, Jake Iles-Smith, Ahsan Nazir"
+    },
+    "eb18227905f3d31f9a29b50d76089eed": {
+      "id": "eb18227905f3d31f9a29b50d76089eed",
+      "link": "http://arxiv.org/abs/2512.16673",
+      "title": "Topological magic response in quantum spin chains",
+      "abstract": "Topological matter provides natural platforms for robust, non-local information storage, central to quantum error correction. Yet, while the relation between entanglement and topology is well established, little is known about the role of nonstabilizerness (or magic), a pivotal concept in fault-tolerant quantum computation, in topological phases. We introduce the concept of topological magic response, the ability of a state to spread over stabilizer space when perturbed by finite-depth non-Clifford circuits. Unlike a topological invariant or order parameter, this response function probes how a phase reacts to non-Clifford perturbations, revealing the presence of non-local quantum correlations. In Ising-type spin chains, we show that symmetry-broken and paramagnetic phases lack such a response, whereas symmetry-protected topological (SPT) phases always display it. To capture this, we utilize a combination of stabilizer Rényi entropies that, in analogy with topological entanglement entropy, isolates non-locally stored information. Using exact analytic computations and matrix product states simulations based on an algorithmic technique we introduce, we show that SPT phases doped with $T$ gates support robust topological magic response, while trivial phases remain featureless.",
+      "pubdate": "Thu, 18 Dec 2025 15:43:03 +0000",
+      "authors": "Ritu Nehra, Poetri Sonya Tarabunga, Martina Frau, Mario Collura, Emanuele Tirrito, Marcello Dalmonte"
+    },
+    "26ab813f99c57eba591c4e132e63036b": {
+      "id": "26ab813f99c57eba591c4e132e63036b",
+      "link": "http://arxiv.org/abs/2512.16173",
+      "title": "Tunable Topological Phases in an Organic One-Dimensional Mott Chain: Odd-Haldane (S = 1/2) and Haldane (S = 1)",
+      "abstract": "Establishing symmetry-protected topological (SPT) phases with interactions in chemically realistic systems remains an open challenge. We show that a single, synthetically plausible organic one-dimensional chain, tunable via chemical modification of its radical sites, hosts two such phases: an odd-Haldane phase of a dimerized $S=\\tfrac{1}{2}$ Heisenberg chain and a Haldane phase of an $S=1$ chain realized when Hund coupling locks two $S=\\tfrac{1}{2}$ spins per monomer into $S=1$. Density-functional theory places the active manifold deep in the Mott regime ($U/t\\!\\approx\\!126$), justifying a spin-only Heisenberg description; a compact $(t,U)\\!\\to\\!J$ mapping then fixes exchange couplings. Exact diagonalization and DMRG reveal a consistent SPT fingerprint across both phases, including a quantized many-body Zak phase, even-degenerate entanglement spectrum, protected edge spins, and characteristic triplon/Haldane features in $S^{+-}(q,ω)$. Our results identify a chemically programmable molecular platform for interacting SPT physics in one dimension and suggest concrete spectroscopic routes to organic Haldane spin chains for nanoscale quantum devices.",
+      "pubdate": "Thu, 18 Dec 2025 04:48:03 +0000",
+      "authors": "Khalid N. Anindya, Hong Guo"
+    },
+    "ac93f7ad3cedc9453b08db40e98005e5": {
+      "id": "ac93f7ad3cedc9453b08db40e98005e5",
+      "link": "http://arxiv.org/abs/2512.15924",
+      "title": "Tensor network approaches for plasma dynamics",
+      "abstract": "The dynamics of plasmas are governed by a set of non-linear differential equations which remain challenging to solve directly for large 2D and 3D problems. Here we investigate how tensor networks could be applied to plasmas described by the Vlasov-Maxwell system of equations and investigate parameter regimes which show promise for efficient simulations. We show for low-dimensional problems that the simplest form of tensor networks known as a Matrix Product State performs sufficiently well, however in regimes with a strong permanent magnetic field or high-dimensional problems one may need to consider alternative tensor network geometries. We conclude the study of the Vlasov-Maxwell system with the application of tensor networks to an industrially relevant test case and validate our results against state of the art plasma solvers based on Particle-In-Cell codes. We also extend the application of tensor networks to the alternative plasma description of Magnetohydrodynamics and outline how this can be encoded using Matrix Product States.",
+      "pubdate": "Wed, 17 Dec 2025 19:39:44 +0000",
+      "authors": "Ryan J. J. Connor, Preetma Soin, Callum W. Duncan, Andrew J. Daley"
+    },
+    "2fe0c1716e3b8d42d690c0e35cca78f8": {
+      "id": "2fe0c1716e3b8d42d690c0e35cca78f8",
+      "link": "http://arxiv.org/abs/2512.15880",
+      "title": "Anticoncentration and State Design of Doped Real Clifford Circuits and Tensor Networks",
+      "abstract": "We investigate the statistical properties of orthogonal, or real, Clifford circuits doped with magic and imaginary resources. By developing the Weingarten calculus for the real Clifford group, we derive the exact overlap distribution of real stabilizer states, identifying a new universality class: the orthogonal Clifford Porter-Thomas distribution. We prove that local real architectures recover this global statistic in logarithmic depth. Furthermore, we uncover a sharp hierarchy in resource requirements: while retrieving Haar statistics necessitates a polylogarithmic amount of magic states, recovering the full unitary Clifford statistics requires only a single phase gate.",
+      "pubdate": "Wed, 17 Dec 2025 19:00:33 +0000",
+      "authors": "Beatrice Magni, Markus Heinrich, Lorenzo Leone, Xhek Turkeshi"
+    },
+    "30702079fee0d23d37ea2f4dccbc786d": {
+      "id": "30702079fee0d23d37ea2f4dccbc786d",
+      "link": "http://arxiv.org/abs/2512.15875",
+      "title": "Tree Tensor Networks Methods for Efficient Calculation of Molecular Vibrational Spectra",
+      "abstract": "We develop and employ general Tree Tensor Networks (TTNs) to compute the vibrational spectra for two model systems: a set of 64-dimensional coupled oscillators and acetonitrile. We explore various tree architectures, ranging from the simple linear structure of Matrix Product States (MPS), to trees where only the leaf nodes carry a physical leg -- as seen in the underlying ansatz of the Multilayer Multiconfiguration Time-Dependent Hartree (ML-MCTDH) method -- and further to more general trees in which all nodes are allowed to possess a physical leg. In addition, we implement Locally Optimal Block Preconditioned Conjugate Gradient (LOBPCG) methods and Inverse Iteration methods as eigensolvers. By means of comprehensive benchmarking of runtime and accuracy, we demonstrate that sub-wavenumber accuracy in vibrational spectra is achievable with all TTN structures. MPS and three-legged tree tensor network states (T3NS) have similar runtimes, whereas leaf-only trees require significantly more time. All numerical simulations were performed using PyTreeNet, a Python package designed for flexible tensor network computations.",
+      "pubdate": "Wed, 17 Dec 2025 19:00:08 +0000",
+      "authors": "Shuo Sun, Richard M. Milbradt, Stefan Knecht, Chandan Kumar, Christian B. Mendl"
+    },
+    "745c99fab3d1ad067fdb0a808f8a5abc": {
+      "id": "745c99fab3d1ad067fdb0a808f8a5abc",
+      "link": "http://arxiv.org/abs/2512.15871",
+      "title": "Solvable Quantum Circuits from Spacetime Lattices",
+      "abstract": "In recent years dual-unitary circuits and their multi-unitary generalizations have emerged as exactly solvable yet chaotic models of quantum many-body dynamics. However, a systematic picture for the solvability of multi-unitary dynamics remains missing. We present a framework encompassing a large class of such non-integrable models with exactly solvable dynamics, which we term \\emph{completely reducible} circuits. In these circuits, the entanglement membrane determining operator growth and entanglement dynamics can be characterized analytically. Completely reducible circuits extend the notion of space-time symmetry to more general lattice geometries, breaking dual-unitarity globally but not locally, and allow for a rich phenomenology going beyond dual-unitarity. As example, we introduce circuits that support four and five directions of information flow. We derive a general expression for the entanglement line tension in terms of the pattern of information flow in spacetime. The solvability is shown to be related to the absence of knots of this information flow, connecting entanglement dynamics to the Kauffman bracket as knot invariant. Building on these results, we propose that in general non-integrable dynamics the curvature of the entanglement line tension can be interpreted as a density of information transport. Our results provide a new and unified framework for exactly solvable models of many-body quantum chaos, encompassing and extending known constructions.",
+      "pubdate": "Wed, 17 Dec 2025 19:00:05 +0000",
+      "authors": "Michael A. Rampp, Suhail A. Rather, Pieter W. Claeys"
+    },
     "39f28604defe755250d933037e873372": {
       "id": "39f28604defe755250d933037e873372",
       "link": "http://arxiv.org/abs/2512.15714",
@@ -9632,62 +9688,6 @@
       "link": "http://arxiv.org/abs/2412.21055",
       "abstract": "We consider the surface code under errors featuring both coherent and incoherent components and study the coherence of the corresponding logical noise channel and how this impacts information-theoretic measures of code performance, namely coherent information and quantum relative entropy. Using numerical simulations and a phenomenological field theory, focusing on the most general single-qubit X-error channel, we show that, for any nonzero incoherent noise component, the coherence of the logical noise is exponentially suppressed with the code distance. We also find that the information-theoretic measures require this suppression to detect optimal thresholds for Pauli recovery; they thus require increasingly large distances for increasing error coherence and ultimately break down for fully coherent errors. To obtain our results, we develop a statistical mechanics mapping and a corresponding matrix-product-state algorithm for approximate syndrome sampling. These methods enable the large-scale simulation of these non-Pauli errors, including their maximum-likelihood thresholds, away from the limits captured by previous approaches.",
       "pubdate": "Mon, 30 Dec 2024 16:14:55 +0000"
-    },
-    "076f612a497c295dc2cd2a89f3adcae5": {
-      "id": "076f612a497c295dc2cd2a89f3adcae5",
-      "link": "http://arxiv.org/abs/2512.16823",
-      "title": "Numerically exact open quantum system work statistics with process tensors",
-      "abstract": "Accurately quantifying the thermodynamic work costs of quantum operations is essential for the continued development and optimisation of emerging quantum technologies. This present a significant challenge in regimes of rapid control within complex, non-equilibrium environments - conditions under which many contemporary quantum devices operate and conventional approximations break down. Here, we introduce a process tensor framework that enables the computation of the full numerically exact quantum work statistics of driven open quantum systems. We demonstrate the utility of our approach by applying it to a Landauer erasure protocol operating beyond the weak-coupling, Markovian, and slow-driving limits. The resulting work probability distributions reveal distinct quantum signatures that are missed by low-order moments yet significantly impact the erasure fidelity of the protocol. Our framework delivers non-perturbative accuracy and detail in characterising energy-exchange fluctuations in driven open quantum systems, establishing a powerful and versatile tool for exploring thermodynamics and control in the operating regimes of both near-term and future quantum devices.",
-      "pubdate": "Thu, 18 Dec 2025 18:04:18 +0000",
-      "authors": "Mike Shubrook, Moritz Cygorek, Erik Gauger, Jake Iles-Smith, Ahsan Nazir"
-    },
-    "eb18227905f3d31f9a29b50d76089eed": {
-      "id": "eb18227905f3d31f9a29b50d76089eed",
-      "link": "http://arxiv.org/abs/2512.16673",
-      "title": "Topological magic response in quantum spin chains",
-      "abstract": "Topological matter provides natural platforms for robust, non-local information storage, central to quantum error correction. Yet, while the relation between entanglement and topology is well established, little is known about the role of nonstabilizerness (or magic), a pivotal concept in fault-tolerant quantum computation, in topological phases. We introduce the concept of topological magic response, the ability of a state to spread over stabilizer space when perturbed by finite-depth non-Clifford circuits. Unlike a topological invariant or order parameter, this response function probes how a phase reacts to non-Clifford perturbations, revealing the presence of non-local quantum correlations. In Ising-type spin chains, we show that symmetry-broken and paramagnetic phases lack such a response, whereas symmetry-protected topological (SPT) phases always display it. To capture this, we utilize a combination of stabilizer Rényi entropies that, in analogy with topological entanglement entropy, isolates non-locally stored information. Using exact analytic computations and matrix product states simulations based on an algorithmic technique we introduce, we show that SPT phases doped with $T$ gates support robust topological magic response, while trivial phases remain featureless.",
-      "pubdate": "Thu, 18 Dec 2025 15:43:03 +0000",
-      "authors": "Ritu Nehra, Poetri Sonya Tarabunga, Martina Frau, Mario Collura, Emanuele Tirrito, Marcello Dalmonte"
-    },
-    "26ab813f99c57eba591c4e132e63036b": {
-      "id": "26ab813f99c57eba591c4e132e63036b",
-      "link": "http://arxiv.org/abs/2512.16173",
-      "title": "Tunable Topological Phases in an Organic One-Dimensional Mott Chain: Odd-Haldane (S = 1/2) and Haldane (S = 1)",
-      "abstract": "Establishing symmetry-protected topological (SPT) phases with interactions in chemically realistic systems remains an open challenge. We show that a single, synthetically plausible organic one-dimensional chain, tunable via chemical modification of its radical sites, hosts two such phases: an odd-Haldane phase of a dimerized $S=\\tfrac{1}{2}$ Heisenberg chain and a Haldane phase of an $S=1$ chain realized when Hund coupling locks two $S=\\tfrac{1}{2}$ spins per monomer into $S=1$. Density-functional theory places the active manifold deep in the Mott regime ($U/t\\!\\approx\\!126$), justifying a spin-only Heisenberg description; a compact $(t,U)\\!\\to\\!J$ mapping then fixes exchange couplings. Exact diagonalization and DMRG reveal a consistent SPT fingerprint across both phases, including a quantized many-body Zak phase, even-degenerate entanglement spectrum, protected edge spins, and characteristic triplon/Haldane features in $S^{+-}(q,ω)$. Our results identify a chemically programmable molecular platform for interacting SPT physics in one dimension and suggest concrete spectroscopic routes to organic Haldane spin chains for nanoscale quantum devices.",
-      "pubdate": "Thu, 18 Dec 2025 04:48:03 +0000",
-      "authors": "Khalid N. Anindya, Hong Guo"
-    },
-    "ac93f7ad3cedc9453b08db40e98005e5": {
-      "id": "ac93f7ad3cedc9453b08db40e98005e5",
-      "link": "http://arxiv.org/abs/2512.15924",
-      "title": "Tensor network approaches for plasma dynamics",
-      "abstract": "The dynamics of plasmas are governed by a set of non-linear differential equations which remain challenging to solve directly for large 2D and 3D problems. Here we investigate how tensor networks could be applied to plasmas described by the Vlasov-Maxwell system of equations and investigate parameter regimes which show promise for efficient simulations. We show for low-dimensional problems that the simplest form of tensor networks known as a Matrix Product State performs sufficiently well, however in regimes with a strong permanent magnetic field or high-dimensional problems one may need to consider alternative tensor network geometries. We conclude the study of the Vlasov-Maxwell system with the application of tensor networks to an industrially relevant test case and validate our results against state of the art plasma solvers based on Particle-In-Cell codes. We also extend the application of tensor networks to the alternative plasma description of Magnetohydrodynamics and outline how this can be encoded using Matrix Product States.",
-      "pubdate": "Wed, 17 Dec 2025 19:39:44 +0000",
-      "authors": "Ryan J. J. Connor, Preetma Soin, Callum W. Duncan, Andrew J. Daley"
-    },
-    "2fe0c1716e3b8d42d690c0e35cca78f8": {
-      "id": "2fe0c1716e3b8d42d690c0e35cca78f8",
-      "link": "http://arxiv.org/abs/2512.15880",
-      "title": "Anticoncentration and State Design of Doped Real Clifford Circuits and Tensor Networks",
-      "abstract": "We investigate the statistical properties of orthogonal, or real, Clifford circuits doped with magic and imaginary resources. By developing the Weingarten calculus for the real Clifford group, we derive the exact overlap distribution of real stabilizer states, identifying a new universality class: the orthogonal Clifford Porter-Thomas distribution. We prove that local real architectures recover this global statistic in logarithmic depth. Furthermore, we uncover a sharp hierarchy in resource requirements: while retrieving Haar statistics necessitates a polylogarithmic amount of magic states, recovering the full unitary Clifford statistics requires only a single phase gate.",
-      "pubdate": "Wed, 17 Dec 2025 19:00:33 +0000",
-      "authors": "Beatrice Magni, Markus Heinrich, Lorenzo Leone, Xhek Turkeshi"
-    },
-    "30702079fee0d23d37ea2f4dccbc786d": {
-      "id": "30702079fee0d23d37ea2f4dccbc786d",
-      "link": "http://arxiv.org/abs/2512.15875",
-      "title": "Tree Tensor Networks Methods for Efficient Calculation of Molecular Vibrational Spectra",
-      "abstract": "We develop and employ general Tree Tensor Networks (TTNs) to compute the vibrational spectra for two model systems: a set of 64-dimensional coupled oscillators and acetonitrile. We explore various tree architectures, ranging from the simple linear structure of Matrix Product States (MPS), to trees where only the leaf nodes carry a physical leg -- as seen in the underlying ansatz of the Multilayer Multiconfiguration Time-Dependent Hartree (ML-MCTDH) method -- and further to more general trees in which all nodes are allowed to possess a physical leg. In addition, we implement Locally Optimal Block Preconditioned Conjugate Gradient (LOBPCG) methods and Inverse Iteration methods as eigensolvers. By means of comprehensive benchmarking of runtime and accuracy, we demonstrate that sub-wavenumber accuracy in vibrational spectra is achievable with all TTN structures. MPS and three-legged tree tensor network states (T3NS) have similar runtimes, whereas leaf-only trees require significantly more time. All numerical simulations were performed using PyTreeNet, a Python package designed for flexible tensor network computations.",
-      "pubdate": "Wed, 17 Dec 2025 19:00:08 +0000",
-      "authors": "Shuo Sun, Richard M. Milbradt, Stefan Knecht, Chandan Kumar, Christian B. Mendl"
-    },
-    "745c99fab3d1ad067fdb0a808f8a5abc": {
-      "id": "745c99fab3d1ad067fdb0a808f8a5abc",
-      "link": "http://arxiv.org/abs/2512.15871",
-      "title": "Solvable Quantum Circuits from Spacetime Lattices",
-      "abstract": "In recent years dual-unitary circuits and their multi-unitary generalizations have emerged as exactly solvable yet chaotic models of quantum many-body dynamics. However, a systematic picture for the solvability of multi-unitary dynamics remains missing. We present a framework encompassing a large class of such non-integrable models with exactly solvable dynamics, which we term \\emph{completely reducible} circuits. In these circuits, the entanglement membrane determining operator growth and entanglement dynamics can be characterized analytically. Completely reducible circuits extend the notion of space-time symmetry to more general lattice geometries, breaking dual-unitarity globally but not locally, and allow for a rich phenomenology going beyond dual-unitarity. As example, we introduce circuits that support four and five directions of information flow. We derive a general expression for the entanglement line tension in terms of the pattern of information flow in spacetime. The solvability is shown to be related to the absence of knots of this information flow, connecting entanglement dynamics to the Kauffman bracket as knot invariant. Building on these results, we propose that in general non-integrable dynamics the curvature of the entanglement line tension can be interpreted as a density of information transport. Our results provide a new and unified framework for exactly solvable models of many-body quantum chaos, encompassing and extending known constructions.",
-      "pubdate": "Wed, 17 Dec 2025 19:00:05 +0000",
-      "authors": "Michael A. Rampp, Suhail A. Rather, Pieter W. Claeys"
     }
   }
 }
