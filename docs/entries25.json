@@ -1,14 +1,6 @@
 {
-  "last_updated": "2025-12-22T02:02:49.457560+00:00",
+  "last_updated": "2025-12-22T12:51:18.174033+00:00",
   "entries": {
-    "076f612a497c295dc2cd2a89f3adcae5": {
-      "id": "076f612a497c295dc2cd2a89f3adcae5",
-      "link": "http://arxiv.org/abs/2512.16823",
-      "title": "Numerically exact open quantum system work statistics with process tensors",
-      "abstract": "Accurately quantifying the thermodynamic work costs of quantum operations is essential for the continued development and optimisation of emerging quantum technologies. This present a significant challenge in regimes of rapid control within complex, non-equilibrium environments - conditions under which many contemporary quantum devices operate and conventional approximations break down. Here, we introduce a process tensor framework that enables the computation of the full numerically exact quantum work statistics of driven open quantum systems. We demonstrate the utility of our approach by applying it to a Landauer erasure protocol operating beyond the weak-coupling, Markovian, and slow-driving limits. The resulting work probability distributions reveal distinct quantum signatures that are missed by low-order moments yet significantly impact the erasure fidelity of the protocol. Our framework delivers non-perturbative accuracy and detail in characterising energy-exchange fluctuations in driven open quantum systems, establishing a powerful and versatile tool for exploring thermodynamics and control in the operating regimes of both near-term and future quantum devices.",
-      "pubdate": "Thu, 18 Dec 2025 18:04:18 +0000",
-      "authors": "Mike Shubrook, Moritz Cygorek, Erik Gauger, Jake Iles-Smith, Ahsan Nazir"
-    },
     "eb18227905f3d31f9a29b50d76089eed": {
       "id": "eb18227905f3d31f9a29b50d76089eed",
       "link": "http://arxiv.org/abs/2512.16673",
@@ -16,6 +8,14 @@
       "abstract": "Topological matter provides natural platforms for robust, non-local information storage, central to quantum error correction. Yet, while the relation between entanglement and topology is well established, little is known about the role of nonstabilizerness (or magic), a pivotal concept in fault-tolerant quantum computation, in topological phases. We introduce the concept of topological magic response, the ability of a state to spread over stabilizer space when perturbed by finite-depth non-Clifford circuits. Unlike a topological invariant or order parameter, this response function probes how a phase reacts to non-Clifford perturbations, revealing the presence of non-local quantum correlations. In Ising-type spin chains, we show that symmetry-broken and paramagnetic phases lack such a response, whereas symmetry-protected topological (SPT) phases always display it. To capture this, we utilize a combination of stabilizer Rényi entropies that, in analogy with topological entanglement entropy, isolates non-locally stored information. Using exact analytic computations and matrix product states simulations based on an algorithmic technique we introduce, we show that SPT phases doped with $T$ gates support robust topological magic response, while trivial phases remain featureless.",
       "pubdate": "Thu, 18 Dec 2025 15:43:03 +0000",
       "authors": "Ritu Nehra, Poetri Sonya Tarabunga, Martina Frau, Mario Collura, Emanuele Tirrito, Marcello Dalmonte"
+    },
+    "076f612a497c295dc2cd2a89f3adcae5": {
+      "id": "076f612a497c295dc2cd2a89f3adcae5",
+      "link": "http://arxiv.org/abs/2512.16823",
+      "title": "Numerically exact open quantum system work statistics with process tensors",
+      "abstract": "Accurately quantifying the thermodynamic work costs of quantum operations is essential for the continued development and optimisation of emerging quantum technologies. This present a significant challenge in regimes of rapid control within complex, non-equilibrium environments - conditions under which many contemporary quantum devices operate and conventional approximations break down. Here, we introduce a process tensor framework that enables the computation of the full numerically exact quantum work statistics of driven open quantum systems. We demonstrate the utility of our approach by applying it to a Landauer erasure protocol operating beyond the weak-coupling, Markovian, and slow-driving limits. The resulting work probability distributions reveal distinct quantum signatures that are missed by low-order moments yet significantly impact the erasure fidelity of the protocol. Our framework delivers non-perturbative accuracy and detail in characterising energy-exchange fluctuations in driven open quantum systems, establishing a powerful and versatile tool for exploring thermodynamics and control in the operating regimes of both near-term and future quantum devices.",
+      "pubdate": "Thu, 18 Dec 2025 18:04:18 +0000",
+      "authors": "Mike Shubrook, Moritz Cygorek, Erik Gauger, Jake Iles-Smith, Ahsan Nazir"
     },
     "26ab813f99c57eba591c4e132e63036b": {
       "id": "26ab813f99c57eba591c4e132e63036b",
@@ -9688,6 +9688,30 @@
       "link": "http://arxiv.org/abs/2412.21055",
       "abstract": "We consider the surface code under errors featuring both coherent and incoherent components and study the coherence of the corresponding logical noise channel and how this impacts information-theoretic measures of code performance, namely coherent information and quantum relative entropy. Using numerical simulations and a phenomenological field theory, focusing on the most general single-qubit X-error channel, we show that, for any nonzero incoherent noise component, the coherence of the logical noise is exponentially suppressed with the code distance. We also find that the information-theoretic measures require this suppression to detect optimal thresholds for Pauli recovery; they thus require increasingly large distances for increasing error coherence and ultimately break down for fully coherent errors. To obtain our results, we develop a statistical mechanics mapping and a corresponding matrix-product-state algorithm for approximate syndrome sampling. These methods enable the large-scale simulation of these non-Pauli errors, including their maximum-likelihood thresholds, away from the limits captured by previous approaches.",
       "pubdate": "Mon, 30 Dec 2024 16:14:55 +0000"
+    },
+    "1fdc802817804fcb89f72eda799c7589": {
+      "id": "1fdc802817804fcb89f72eda799c7589",
+      "link": "http://arxiv.org/abs/2512.17596",
+      "title": "Charge fluctuations and topological phases in Kitaev-Heisenberg ladders",
+      "abstract": "We investigate the stability of topological phases in doped Kitaev-Heisenberg ladders by studying the competition with itinerant electrons and the associated charge fluctuations in a Hubbard model on a honeycomb ribbon geometry. We analyze the evolution of string order parameters, spin correlations, and charge fluctuations as functions of hopping amplitude and interaction strength in a half-filled band. Our results from density matrix renormalization group (DMRG) calculations show that increasing electron bandwidth progressively suppresses the topological phases, shifting and narrowing their stability regions in the phase diagram. We identify the critical values of hopping where string order vanishes and characterize the interplay between magnetic order and charge fluctuations. These findings provide insight into the robustness of topological phases against doping and charge dynamics, with implications for candidate Kitaev materials and engineered quantum systems.",
+      "pubdate": "Fri, 19 Dec 2025 14:03:28 +0000",
+      "authors": "M. G. Sousa, O. Ávalos-Ovando, E. Vernek, S. E. Ulloa"
+    },
+    "6025ccfba3bb89e8437170c566e2bffe": {
+      "id": "6025ccfba3bb89e8437170c566e2bffe",
+      "link": "http://arxiv.org/abs/2512.17141",
+      "title": "Evaluating Sample-Based Krylov Quantum Diagonalization for Heisenberg Models with Applications to Materials Science",
+      "abstract": "We evaluate the Sample-based Krylov Quantum Diagonalization (SKQD) algorithm on one- and two-dimensional Heisenberg models, including strongly correlated regimes in which the ground state is dense. Using problem-informed initial states and magnetization-sector sweeps, SKQD accurately reproduces ground-state energies and field-dependent magnetization across a range of anisotropies. Benchmarks against DMRG and exact diagonalization show consistent qualitative agreement, with accuracy improving systematically in more anisotropic regimes. We further demonstrate SKQD on quantum hardware by implementing 18- and 30-qubit Heisenberg chains, obtaining magnetization curves that match theoretical expectations. Simulations on small 2D square-lattice systems further demonstrate that the method applies effectively beyond 1D geometries.",
+      "pubdate": "Fri, 19 Dec 2025 00:29:06 +0000",
+      "authors": "Roman Firt, Neel Misciasci, Jonathan E. Mueller, Triet Friedhoff, Chinonso Onah, Aaron Schulze, Sarah Mostame"
+    },
+    "4740dd6a075690312093b77cd7b2ab98": {
+      "id": "4740dd6a075690312093b77cd7b2ab98",
+      "link": "http://arxiv.org/abs/2512.17090",
+      "title": "How to Square Tensor Networks and Circuits Without Squaring Them",
+      "abstract": "Squared tensor networks (TNs) and their extension as computational graphs--squared circuits--have been used as expressive distribution estimators, yet supporting closed-form marginalization. However, the squaring operation introduces additional complexity when computing the partition function or marginalizing variables, which hinders their applicability in ML. To solve this issue, canonical forms of TNs are parameterized via unitary matrices to simplify the computation of marginals. However, these canonical forms do not apply to circuits, as they can represent factorizations that do not directly map to a known TN. Inspired by the ideas of orthogonality in canonical forms and determinism in circuits enabling tractable maximization, we show how to parameterize squared circuits to overcome their marginalization overhead. Our parameterizations unlock efficient marginalization even in factorizations different from TNs, but encoded as circuits, whose structure would otherwise make marginalization computationally hard. Finally, our experiments on distribution estimation show how our proposed conditions in squared circuits come with no expressiveness loss, while enabling more efficient learning.",
+      "pubdate": "Thu, 18 Dec 2025 21:36:54 +0000",
+      "authors": "Lorenzo Loconte, Adrián Javaloy, Antonio Vergari"
     }
   }
 }
