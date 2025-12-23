@@ -8,7 +8,103 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 23 Dec 2025 01:58:03 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Dec 2025 12:59:15 +0000</lastBuildDate>
+    <item>
+      <title>Approximation and learning with compositional tensor trains</title>
+      <link>http://arxiv.org/abs/2512.18059</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Martin Eigel, Charles Miranda, Anthony Nouy, David Sommer&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We introduce compositional tensor trains (CTTs) for the approximation of multivariate functions, a class of models obtained by composing low-rank functions in the tensor-train format. This format can encode standard approximation tools, such as (sparse) polynomials, deep neural networks (DNNs) with fixed width, or tensor networks with arbitrary permutation of the inputs, or more general affine coordinate transformations, with similar complexities. This format can be viewed as a DNN with width exponential in the input dimension and structured weights matrices. Compared to DNNs, this format enables controlled compression at the layer level using efficient tensor algebra. On the optimization side, we derive a layerwise algorithm inspired by natural gradient descent, allowing to exploit efficient low-rank tensor algebra. This relies on low-rank estimations of Gram matrices, and tensor structured random sketching. Viewing the format as a discrete dynamical system, we also derive an optimization algorithm inspired by numerical methods in optimal control. Numerical experiments on regression tasks demonstrate the expressivity of the new format and the relevance of the proposed optimization algorithms. Overall, CTTs combine the expressivity of compositional models with the algorithmic efficiency of tensor algebra, offering a scalable alternative to standard deep neural networks.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2512.18059'&gt;arXiv:2512.18059&lt;/a&gt;] Published Fri, 19 Dec 2025 20:59:48 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2512.18059</guid>
+      <pubDate>Fri, 19 Dec 2025 20:59:48 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <title>Quantum simulation of deep inelastic scattering in the Schwinger model</title>
+      <link>http://arxiv.org/abs/2512.18062</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Kazuki Ikeda, Zhong-Bo Kang, Dmitri E. Kharzeev, Wenyang Qian&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; Hadronic tensors encode the nonperturbative structure of hadrons probed in deep inelastic scattering (DIS), yet their direct evaluation requires real-time evolution that presents a challenge for traditional Euclidean lattice approaches. In this work, we present the first study of the hadronic tensors in DIS using quantum simulation in the Schwinger model, i.e (1+1)-dimensional QED. Using two complementary quantum-simulation strategies -- quantum-circuit and tensor-network methods -- we compute the real-time current-current correlator directly on the lattice and validate our results against exact diagonalization where applicable. From this correlator, we compute the hadronic tensor and determine the longitudinal structure function, the sole nonvanishing DIS observable in two space-time dimensions. Our study demonstrates that quantum simulation offers a viable complementary pathway towards the evaluation of real-time observables relevant for hadronic structure. It also provides a foundation for extending the calculations from Schwinger model to other gauge theories.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2512.18062'&gt;arXiv:2512.18062&lt;/a&gt;] Published Fri, 19 Dec 2025 21:02:01 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2512.18062</guid>
+      <pubDate>Fri, 19 Dec 2025 21:02:01 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <title>Momentum-resolved spectral functions of super-moiré systems using tensor networks</title>
+      <link>http://arxiv.org/abs/2512.18397</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Anouar Moustaj, Yitao Sun, Tiago V. C. Antao, Jose L. Lado&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; Computing spectral functions in large, non-periodic super-moiré systems remains an open problem due to the exceptionally large system size that must be considered. Here, we establish a tensor network methodology that allows computing momentum-resolved spectral functions of non-interacting and interacting super-moiré systems at an atomistic level. Our methodology relies on encoding an exponentially large tight-binding problem as an auxiliary quantum many-body problem, solved with a many-body kernel polynomial tensor network algorithm combined with a quantum Fourier transform tensor network. We demonstrate the method for one and two-dimensional super-moiré systems, including super-moiré with non-uniform strain, interactions treated at the mean-field level, and quasicrystalline super-moiré patterns. Furthermore, we demonstrate that our methodology allows us to compute momentum-resolved spectral functions restricted to selected regions of a super-moiré, enabling direct imaging of position-dependent electronic structure and minigaps in super-moiré systems with non-uniform strain. Our results establish a powerful methodology to compute momentum-resolved spectral functions in exceptionally large super-moiré systems, providing a tool to directly model scanning twisting microscope tunneling experiments in twisted van der Waals heterostructures.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2512.18397'&gt;arXiv:2512.18397&lt;/a&gt;] Published Sat, 20 Dec 2025 15:24:39 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2512.18397</guid>
+      <pubDate>Sat, 20 Dec 2025 15:24:39 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <title>Topological edge states in two-dimensional $\mathbb{Z}_4$ Potts paramagnet protected by the $\mathbb{Z}_4^{\times 3}$ symmetry</title>
+      <link>http://arxiv.org/abs/2512.18460</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Hrant Topchyan, Tigran Hakobyan, Mkhitar Mirumyan, Tigran A. Sedrakyan, Ara Sedrakyan&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We construct a two-dimensional bosonic symmetry-protected topological (SPT) paramagnet protected by an on-site $G=\mathbb{Z}_4^{\times 3}$ symmetry, starting from a three-component $\mathbb{Z}_4$ Potts paramagnet on a triangular lattice. Within the group-cohomology framework, $H^{3}(G,U(1))\cong \mathbb{Z}_4^{\times 7}$, we focus on a "colorless" cocycle representative obtained by antisymmetrizing the basic $\mathbb{Z}_4$ three-cocycle, and generate the corresponding SPT Hamiltonian via a cocycle-induced nonlocal unitary transformation followed by symmetry averaging. For open geometry, we derive the boundary theory explicitly: one color sector decouples, while the nontrivial edge reduces to an interacting $\mathbb{Z}_4$ chain with next-to-nearest-neighbor constraints that admits a compact dressed-Potts form. Using DMRG we show that the boundary model is gapless, with the lowest gap scaling as $1/L$ and an entanglement-entropy scaling consistent with a conformal field theory of central charge $c=2.191(4)\simeq 11/5$. The rational value $c=11/5$ matches the coset $SU(3)_3/SU(2)_3$, making it a candidate for the continuum description of the $\mathbb{Z}_4^{\times 3}$ edge; we outline spectral and symmetry-resolved diagnostics needed to test this identification at the level of conformal towers beyond the central charge.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2512.18460'&gt;arXiv:2512.18460&lt;/a&gt;] Published Sat, 20 Dec 2025 18:26:24 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2512.18460</guid>
+      <pubDate>Sat, 20 Dec 2025 18:26:24 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <link>http://arxiv.org/abs/2512.18642</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2512.18642'&gt;arXiv:2512.18642&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2512.18642</guid>
+      <pubDate>Tue, 23 Dec 2025 12:59:16 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <link>http://arxiv.org/abs/2512.18695</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2512.18695'&gt;arXiv:2512.18695&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2512.18695</guid>
+      <pubDate>Tue, 23 Dec 2025 12:59:16 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <title>Dynamical Spectral Function of the Kagome Quantum Spin Liquid</title>
+      <link>http://arxiv.org/abs/2512.18831</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Jiahang Hu, Runze Chi, Yibin Guo, B. Normand, Hai-Jun Liao, T. Xiang&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; Quantum spin liquids (QSLs) host exotic fractionalized magnetic and gauge-field excitations whose microscopic origins and experimental verification remain frustratingly elusive. In the absence of static magnetic order, the spin excitation spectrum constitutes the crucial probe of QSL behavior, but its theoretical computation remains a serious challenge. Here we employ state-of-the-art tensor-network methods to obtain the full dynamical spectral function of the $J_1$-$J_2$ kagome Heisenberg model and benchmark our results by tracking their evolution across the magnetically ordered and QSL phases. Reducing $|J_2|/J_1$ causes increasingly strong spin-wave renormalization, flattening these modes then merging them into a continuum characteristic of deconfined spinons at all finite energies in the QSL. The low-energy continuum and the occurrence of gap closure at multiple high-symmetry points identify this gapless QSL as the U(1) Dirac spin liquid. These results establish a unified understanding of spin excitations in highly frustrated quantum magnets and provide clear spectral fingerprints for experimental detection in candidate kagome QSL materials.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2512.18831'&gt;arXiv:2512.18831&lt;/a&gt;] Published Sun, 21 Dec 2025 17:28:35 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2512.18831</guid>
+      <pubDate>Sun, 21 Dec 2025 17:28:35 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <title>El Agente Cuántico: Automating quantum simulations</title>
+      <link>http://arxiv.org/abs/2512.18847</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Ignacio Gustin, Luis Mantilla Calderón, Juan B. Pérez-Sánchez, Jérôme F. Gonthier, Yuma Nakamura, Karthik Panicker, Manav Ramprasad, Zijian Zhang, Yunheng Zou, Varinia Bernales, Alán Aspuru-Guzik&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; Quantum simulation is central to understanding and designing quantum systems across physics and chemistry. Yet it has barriers to access from both computational complexity and computational perspectives, due to the exponential growth of Hilbert space and the complexity of modern software tools. Here we introduce{\cinzel El Agente Cuántico}, a multi-agent AI system that automates quantum-simulation workflows by translating natural-language scientific intent into executed and validated computations across heterogeneous quantum-software frameworks. By reasoning directly over library documentation and APIs, our agentic system dynamically assembles end-to-end simulations spanning state preparation, closed- and open-system dynamics, tensor-network methods, quantum control, quantum error correction, and quantum resource estimation. The developed system unifies traditionally distinct simulation paradigms behind a single natural-language interface. Beyond reducing technical barriers, this approach opens a path toward scalable, adaptive, and increasingly autonomous quantum simulation, enabling faster exploration of physical models, rapid hypothesis testing, and closer integration between theory, simulation, and emerging quantum hardware.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2512.18847'&gt;arXiv:2512.18847&lt;/a&gt;] Published Sun, 21 Dec 2025 18:32:30 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2512.18847</guid>
+      <pubDate>Sun, 21 Dec 2025 18:32:30 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <link>http://arxiv.org/abs/2512.18995</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2512.18995'&gt;arXiv:2512.18995&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2512.18995</guid>
+      <pubDate>Tue, 23 Dec 2025 12:59:16 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <link>http://arxiv.org/abs/2512.19389</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2512.19389'&gt;arXiv:2512.19389&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2512.19389</guid>
+      <pubDate>Tue, 23 Dec 2025 12:59:16 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <link>http://arxiv.org/abs/2512.19452</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2512.19452'&gt;arXiv:2512.19452&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2512.19452</guid>
+      <pubDate>Tue, 23 Dec 2025 12:59:16 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <link>http://arxiv.org/abs/2512.19523</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2512.19523'&gt;arXiv:2512.19523&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2512.19523</guid>
+      <pubDate>Tue, 23 Dec 2025 12:59:16 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <link>http://arxiv.org/abs/2512.19594</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2512.19594'&gt;arXiv:2512.19594&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2512.19594</guid>
+      <pubDate>Tue, 23 Dec 2025 12:59:16 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <link>http://arxiv.org/abs/2512.19596</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2512.19596'&gt;arXiv:2512.19596&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2512.19596</guid>
+      <pubDate>Tue, 23 Dec 2025 12:59:16 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <link>http://arxiv.org/abs/2512.19616</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2512.19616'&gt;arXiv:2512.19616&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2512.19616</guid>
+      <pubDate>Tue, 23 Dec 2025 12:59:16 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
     <item>
       <title>The surface code beyond Pauli channels: Logical noise coherence, information-theoretic measures, and errorfield-double phenomenology</title>
       <link>http://arxiv.org/abs/2412.21055</link>
