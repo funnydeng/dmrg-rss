@@ -1,6 +1,54 @@
 {
-  "last_updated": "2025-12-23T12:59:15.351573+00:00",
+  "last_updated": "2025-12-24T01:56:39.836714+00:00",
   "entries": {
+    "a3f0121843d36828d2d3a67387aa2093": {
+      "id": "a3f0121843d36828d2d3a67387aa2093",
+      "link": "http://arxiv.org/abs/2512.18847",
+      "title": "El Agente Cuántico: Automating quantum simulations",
+      "abstract": "Quantum simulation is central to understanding and designing quantum systems across physics and chemistry. Yet it has barriers to access from both computational complexity and computational perspectives, due to the exponential growth of Hilbert space and the complexity of modern software tools. Here we introduce{\\cinzel El Agente Cuántico}, a multi-agent AI system that automates quantum-simulation workflows by translating natural-language scientific intent into executed and validated computations across heterogeneous quantum-software frameworks. By reasoning directly over library documentation and APIs, our agentic system dynamically assembles end-to-end simulations spanning state preparation, closed- and open-system dynamics, tensor-network methods, quantum control, quantum error correction, and quantum resource estimation. The developed system unifies traditionally distinct simulation paradigms behind a single natural-language interface. Beyond reducing technical barriers, this approach opens a path toward scalable, adaptive, and increasingly autonomous quantum simulation, enabling faster exploration of physical models, rapid hypothesis testing, and closer integration between theory, simulation, and emerging quantum hardware.",
+      "pubdate": "Sun, 21 Dec 2025 18:32:30 +0000",
+      "authors": "Ignacio Gustin, Luis Mantilla Calderón, Juan B. Pérez-Sánchez, Jérôme F. Gonthier, Yuma Nakamura, Karthik Panicker, Manav Ramprasad, Zijian Zhang, Yunheng Zou, Varinia Bernales, Alán Aspuru-Guzik"
+    },
+    "b66bd0fba9904c448d82654f5fc16119": {
+      "id": "b66bd0fba9904c448d82654f5fc16119",
+      "link": "http://arxiv.org/abs/2512.18831",
+      "title": "Dynamical Spectral Function of the Kagome Quantum Spin Liquid",
+      "abstract": "Quantum spin liquids (QSLs) host exotic fractionalized magnetic and gauge-field excitations whose microscopic origins and experimental verification remain frustratingly elusive. In the absence of static magnetic order, the spin excitation spectrum constitutes the crucial probe of QSL behavior, but its theoretical computation remains a serious challenge. Here we employ state-of-the-art tensor-network methods to obtain the full dynamical spectral function of the $J_1$-$J_2$ kagome Heisenberg model and benchmark our results by tracking their evolution across the magnetically ordered and QSL phases. Reducing $|J_2|/J_1$ causes increasingly strong spin-wave renormalization, flattening these modes then merging them into a continuum characteristic of deconfined spinons at all finite energies in the QSL. The low-energy continuum and the occurrence of gap closure at multiple high-symmetry points identify this gapless QSL as the U(1) Dirac spin liquid. These results establish a unified understanding of spin excitations in highly frustrated quantum magnets and provide clear spectral fingerprints for experimental detection in candidate kagome QSL materials.",
+      "pubdate": "Sun, 21 Dec 2025 17:28:35 +0000",
+      "authors": "Jiahang Hu, Runze Chi, Yibin Guo, B. Normand, Hai-Jun Liao, T. Xiang"
+    },
+    "4a51b5e7ad1e4f5d93253d155ec2f4cf": {
+      "id": "4a51b5e7ad1e4f5d93253d155ec2f4cf",
+      "link": "http://arxiv.org/abs/2512.18460",
+      "title": "Topological edge states in two-dimensional $\\mathbb{Z}_4$ Potts paramagnet protected by the $\\mathbb{Z}_4^{\\times 3}$ symmetry",
+      "abstract": "We construct a two-dimensional bosonic symmetry-protected topological (SPT) paramagnet protected by an on-site $G=\\mathbb{Z}_4^{\\times 3}$ symmetry, starting from a three-component $\\mathbb{Z}_4$ Potts paramagnet on a triangular lattice. Within the group-cohomology framework, $H^{3}(G,U(1))\\cong \\mathbb{Z}_4^{\\times 7}$, we focus on a \"colorless\" cocycle representative obtained by antisymmetrizing the basic $\\mathbb{Z}_4$ three-cocycle, and generate the corresponding SPT Hamiltonian via a cocycle-induced nonlocal unitary transformation followed by symmetry averaging. For open geometry, we derive the boundary theory explicitly: one color sector decouples, while the nontrivial edge reduces to an interacting $\\mathbb{Z}_4$ chain with next-to-nearest-neighbor constraints that admits a compact dressed-Potts form. Using DMRG we show that the boundary model is gapless, with the lowest gap scaling as $1/L$ and an entanglement-entropy scaling consistent with a conformal field theory of central charge $c=2.191(4)\\simeq 11/5$. The rational value $c=11/5$ matches the coset $SU(3)_3/SU(2)_3$, making it a candidate for the continuum description of the $\\mathbb{Z}_4^{\\times 3}$ edge; we outline spectral and symmetry-resolved diagnostics needed to test this identification at the level of conformal towers beyond the central charge.",
+      "pubdate": "Sat, 20 Dec 2025 18:26:24 +0000",
+      "authors": "Hrant Topchyan, Tigran Hakobyan, Mkhitar Mirumyan, Tigran A. Sedrakyan, Ara Sedrakyan"
+    },
+    "6f66543440ae476dc5a133404793917e": {
+      "id": "6f66543440ae476dc5a133404793917e",
+      "link": "http://arxiv.org/abs/2512.18397",
+      "title": "Momentum-resolved spectral functions of super-moiré systems using tensor networks",
+      "abstract": "Computing spectral functions in large, non-periodic super-moiré systems remains an open problem due to the exceptionally large system size that must be considered. Here, we establish a tensor network methodology that allows computing momentum-resolved spectral functions of non-interacting and interacting super-moiré systems at an atomistic level. Our methodology relies on encoding an exponentially large tight-binding problem as an auxiliary quantum many-body problem, solved with a many-body kernel polynomial tensor network algorithm combined with a quantum Fourier transform tensor network. We demonstrate the method for one and two-dimensional super-moiré systems, including super-moiré with non-uniform strain, interactions treated at the mean-field level, and quasicrystalline super-moiré patterns. Furthermore, we demonstrate that our methodology allows us to compute momentum-resolved spectral functions restricted to selected regions of a super-moiré, enabling direct imaging of position-dependent electronic structure and minigaps in super-moiré systems with non-uniform strain. Our results establish a powerful methodology to compute momentum-resolved spectral functions in exceptionally large super-moiré systems, providing a tool to directly model scanning twisting microscope tunneling experiments in twisted van der Waals heterostructures.",
+      "pubdate": "Sat, 20 Dec 2025 15:24:39 +0000",
+      "authors": "Anouar Moustaj, Yitao Sun, Tiago V. C. Antao, Jose L. Lado"
+    },
+    "c0122a44b3f3c2384a74ca4044cdbd61": {
+      "id": "c0122a44b3f3c2384a74ca4044cdbd61",
+      "link": "http://arxiv.org/abs/2512.18062",
+      "title": "Quantum simulation of deep inelastic scattering in the Schwinger model",
+      "abstract": "Hadronic tensors encode the nonperturbative structure of hadrons probed in deep inelastic scattering (DIS), yet their direct evaluation requires real-time evolution that presents a challenge for traditional Euclidean lattice approaches. In this work, we present the first study of the hadronic tensors in DIS using quantum simulation in the Schwinger model, i.e (1+1)-dimensional QED. Using two complementary quantum-simulation strategies -- quantum-circuit and tensor-network methods -- we compute the real-time current-current correlator directly on the lattice and validate our results against exact diagonalization where applicable. From this correlator, we compute the hadronic tensor and determine the longitudinal structure function, the sole nonvanishing DIS observable in two space-time dimensions. Our study demonstrates that quantum simulation offers a viable complementary pathway towards the evaluation of real-time observables relevant for hadronic structure. It also provides a foundation for extending the calculations from Schwinger model to other gauge theories.",
+      "pubdate": "Fri, 19 Dec 2025 21:02:01 +0000",
+      "authors": "Kazuki Ikeda, Zhong-Bo Kang, Dmitri E. Kharzeev, Wenyang Qian"
+    },
+    "f905684f1b63dd6837b805b998db5aa2": {
+      "id": "f905684f1b63dd6837b805b998db5aa2",
+      "link": "http://arxiv.org/abs/2512.18059",
+      "title": "Approximation and learning with compositional tensor trains",
+      "abstract": "We introduce compositional tensor trains (CTTs) for the approximation of multivariate functions, a class of models obtained by composing low-rank functions in the tensor-train format. This format can encode standard approximation tools, such as (sparse) polynomials, deep neural networks (DNNs) with fixed width, or tensor networks with arbitrary permutation of the inputs, or more general affine coordinate transformations, with similar complexities. This format can be viewed as a DNN with width exponential in the input dimension and structured weights matrices. Compared to DNNs, this format enables controlled compression at the layer level using efficient tensor algebra. On the optimization side, we derive a layerwise algorithm inspired by natural gradient descent, allowing to exploit efficient low-rank tensor algebra. This relies on low-rank estimations of Gram matrices, and tensor structured random sketching. Viewing the format as a discrete dynamical system, we also derive an optimization algorithm inspired by numerical methods in optimal control. Numerical experiments on regression tasks demonstrate the expressivity of the new format and the relevance of the proposed optimization algorithms. Overall, CTTs combine the expressivity of compositional models with the algorithmic efficiency of tensor algebra, offering a scalable alternative to standard deep neural networks.",
+      "pubdate": "Fri, 19 Dec 2025 20:59:48 +0000",
+      "authors": "Martin Eigel, Charles Miranda, Anthony Nouy, David Sommer"
+    },
     "1fdc802817804fcb89f72eda799c7589": {
       "id": "1fdc802817804fcb89f72eda799c7589",
       "link": "http://arxiv.org/abs/2512.17596",
@@ -9716,122 +9764,74 @@
     "60ed566d1b6f9b6cc38b4c799f1b169b": {
       "id": "60ed566d1b6f9b6cc38b4c799f1b169b",
       "link": "http://arxiv.org/abs/2512.19616",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
+      "title": "Thermodynamics of large-scale chemical reaction networks",
+      "abstract": "Chemical and biological networks can describe a wide variety of processes, from gene regulatory networks to biochemical oscillations. Modeled by chemical master equations, these processes are inherently stochastic, as fluctuations dominate deterministic order at mesoscopic scales. These classic many-body processes suffer from the so-called curse of high dimensionality, which makes exact mathematical descriptions exponentially expensive to compute. The exponential cost renders the study of the thermodynamic properties of such systems out of equilibrium intractable and forces approximations of system noise or assumptions of continuous particle numbers. Here, we use tensor networks to numerically explore the thermodynamics of chemical processes by directly solving the ensemble solution of the chemical master equation with efficient (sub-exponential) computational cost. We provide accurate estimates of the entropy production rate, heat flux, chemical work, and nonequilibrium thermodynamic potentials, free from sampling errors or mean-field approximations. We illustrate our results through a dissipative self-assembly model. In this way, we show how tensor networks can inform the design of efficient chemical processes in previously unattainable regimes.",
+      "pubdate": "Mon, 22 Dec 2025 17:50:32 +0000",
+      "authors": "Schuyler B. Nicholson, Luis Pedro García-Pintos"
     },
     "59aace18a40fb0dccb21a91f938918f2": {
       "id": "59aace18a40fb0dccb21a91f938918f2",
       "link": "http://arxiv.org/abs/2512.19596",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
+      "title": "Input phase noise in Gaussian Boson sampling",
+      "abstract": "Gaussian boson sampling is an important protocol for testing the performance of photonic quantum simulators. As such, various noise sources have been investigated that degrade the operation of such devices. In this paper, we examine a situation with phase noise between different modes of the input state leading to dephasing of the system. This models the phase fluctuations which remain even when the mean phase is controlled. We aim to determine whether these phase-noisy input states still form a computationally difficult problem. To do this, we use Matrix Product Operators to model the system, a technique recently used to model boson sampling scenarios. Our investigation finds that the Entanglement entropy grows linearly with the number of input states even for noisy input states. This implies that, unlike boson loss, this form of experimentally relevant noise remains difficult to simulate with tensor networks and may allow for the demonstration of quantum advantage without the need for implementing the challenging task of input-state phase stabilisation.",
+      "pubdate": "Mon, 22 Dec 2025 17:29:02 +0000",
+      "authors": "Magdalena Parýzková, Craig S. Hamilton, Igor Jex, Michael Stefszky, Christine Silberhorn"
     },
     "cbb7a5c915b4d90a977045b6028df46e": {
       "id": "cbb7a5c915b4d90a977045b6028df46e",
       "link": "http://arxiv.org/abs/2512.19594",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
+      "title": "Extracting quantum field theory dynamics from an approximate ground state",
+      "abstract": "We develop a linear-programming method to extract dynamical information from static ground-state correlators in quantum field theory. We recast the Källén-Lehmann inversion as a convex optimization problem, in a spirit similar to the recent approach of Lawrence [arXiv:2408.11766]. This produces robust estimates of the smeared spectral density, the real-time propagator, and the mass gap directly from an approximate equal-time two-point function, and simultaneously yields an \\emph{a posteriori} lower bound on the correlation-function error. We test the method on the $1+1$-dimensional $φ^4$ model, using a variational approximation to the vacuum -- relativistic continuous matrix product states -- that provides accurate correlators in the continuum and thermodynamic limits. The resulting mass gaps agree with renormalized Hamiltonian truncation and Borel-resummed perturbation theory across a wide range of couplings, demonstrating that accurate dynamical data can be recovered from a single equal-time slice.",
+      "pubdate": "Mon, 22 Dec 2025 17:25:24 +0000",
+      "authors": "Sophie Mutzel, Antoine Tilloy"
     },
     "eec73ba09074acefde3ada0748003183": {
       "id": "eec73ba09074acefde3ada0748003183",
       "link": "http://arxiv.org/abs/2512.19523",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
+      "title": "Boundary Criticality at the Nishimori Multicritical Point",
+      "abstract": "We study boundary critical behavior at the Nishimori multicritical point of the two-dimensional (2D) random-bond Ising model. Using tensor-network methods, we realize a one-parameter family of microscopic boundary conditions by continuously rotating the boundary-spin orientation and find two conformal boundary fixed points that correspond to the free and fixed boundaries. We extract conformal data, including the boundary entropies and the scaling dimensions of boundary primary operators, which characterize the boundary universality class. We further demonstrate that the free boundary fixed point exhibits multifractal scaling of boundary spin fields. Finally, we complement our numerical results with a renormalization group analysis and discuss a systematic bridge between the controlled $6-ε$ expansion and the 2D tensor network numerics.",
+      "pubdate": "Mon, 22 Dec 2025 16:16:58 +0000",
+      "authors": "Sheng Yang, Xinyu Sun, Shao-Kai Jian"
     },
     "fbe3d1826407f50a4d2a657ee2697b26": {
       "id": "fbe3d1826407f50a4d2a657ee2697b26",
       "link": "http://arxiv.org/abs/2512.19452",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
+      "title": "Holographic Tensor Networks as Tessellations of Geometry",
+      "abstract": "Holographic tensor networks serve as toy models for the Anti-de Sitter/Conformal Field Theory (AdS/CFT) correspondence, capturing many of its essential features in a concrete manner. However, existing holographic tensor network models remain far from a complete theory of quantum gravity. A key obstacle is their discrete structure, which only approximates the semi-classical geometry of gravity in a qualitative sense. In \\cite{Lin:2024dho}, it was shown that a network of partial-entanglement-entropy (PEE) threads, which are bulk geodesics with a specific density distribution, generates a perfect tessellation of AdS space. Moreover, such PEE-network tessellations can be constructed for more general geometries using the Crofton formula. In this paper, we assign a quantum state to each vertex in the PEE network and develop two holographic tensor network models: the factorized PEE tensor network, which takes the form of a tensor product of EPR pairs, and the random PEE tensor network. In both models we reproduce the exact Ryu-Takayanagi formula by showing that the minimal number of cuts along a homologous surface in the network exactly computes the area of this surface.",
+      "pubdate": "Mon, 22 Dec 2025 14:57:18 +0000",
+      "authors": "Qiang Wen, Mingshuai Xu, Haocheng Zhong"
     },
     "b516a65a791e3accb586e5bc05827c84": {
       "id": "b516a65a791e3accb586e5bc05827c84",
       "link": "http://arxiv.org/abs/2512.19389",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
+      "title": "Tree tensor networks for many-body localization in two dimensions",
+      "abstract": "We investigate the disordered spin-$\\frac12$Heisenberg model in two dimensions and employ tree tensor networks (TTNs) with a physics-informed structural optimization of the tree layout, to simulate dynamics in the many-body localization problem. We find that TTNs are able to capture two-dimensional entanglement patterns more effectively than matrix product states (MPS) while being more efficient to contract than projected entangled pair states (PEPS) to probe larger systems and longer times. Structural optimization of the trees based on time evolution of the entanglement in the system allows to keep the necessary bond dimensions low and to maximally exploit the increased expressiveness of TTNs over MPS. In this way, we achieve more accurate results in all considered parameter regimes both below and above the ergodicity-to-localization crossover at a comparable compute-time cost.",
+      "pubdate": "Mon, 22 Dec 2025 13:38:07 +0000",
+      "authors": "Lars Humpert, Dante M. Kennes, Jan-Niklas Herre"
     },
     "fa6ae4ea493618b985c78f664206a44f": {
       "id": "fa6ae4ea493618b985c78f664206a44f",
       "link": "http://arxiv.org/abs/2512.18995",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
-    },
-    "a3f0121843d36828d2d3a67387aa2093": {
-      "id": "a3f0121843d36828d2d3a67387aa2093",
-      "link": "http://arxiv.org/abs/2512.18847",
-      "title": "El Agente Cuántico: Automating quantum simulations",
-      "abstract": "Quantum simulation is central to understanding and designing quantum systems across physics and chemistry. Yet it has barriers to access from both computational complexity and computational perspectives, due to the exponential growth of Hilbert space and the complexity of modern software tools. Here we introduce{\\cinzel El Agente Cuántico}, a multi-agent AI system that automates quantum-simulation workflows by translating natural-language scientific intent into executed and validated computations across heterogeneous quantum-software frameworks. By reasoning directly over library documentation and APIs, our agentic system dynamically assembles end-to-end simulations spanning state preparation, closed- and open-system dynamics, tensor-network methods, quantum control, quantum error correction, and quantum resource estimation. The developed system unifies traditionally distinct simulation paradigms behind a single natural-language interface. Beyond reducing technical barriers, this approach opens a path toward scalable, adaptive, and increasingly autonomous quantum simulation, enabling faster exploration of physical models, rapid hypothesis testing, and closer integration between theory, simulation, and emerging quantum hardware.",
-      "pubdate": "Sun, 21 Dec 2025 18:32:30 +0000",
-      "authors": "Ignacio Gustin, Luis Mantilla Calderón, Juan B. Pérez-Sánchez, Jérôme F. Gonthier, Yuma Nakamura, Karthik Panicker, Manav Ramprasad, Zijian Zhang, Yunheng Zou, Varinia Bernales, Alán Aspuru-Guzik"
-    },
-    "b66bd0fba9904c448d82654f5fc16119": {
-      "id": "b66bd0fba9904c448d82654f5fc16119",
-      "link": "http://arxiv.org/abs/2512.18831",
-      "title": "Dynamical Spectral Function of the Kagome Quantum Spin Liquid",
-      "abstract": "Quantum spin liquids (QSLs) host exotic fractionalized magnetic and gauge-field excitations whose microscopic origins and experimental verification remain frustratingly elusive. In the absence of static magnetic order, the spin excitation spectrum constitutes the crucial probe of QSL behavior, but its theoretical computation remains a serious challenge. Here we employ state-of-the-art tensor-network methods to obtain the full dynamical spectral function of the $J_1$-$J_2$ kagome Heisenberg model and benchmark our results by tracking their evolution across the magnetically ordered and QSL phases. Reducing $|J_2|/J_1$ causes increasingly strong spin-wave renormalization, flattening these modes then merging them into a continuum characteristic of deconfined spinons at all finite energies in the QSL. The low-energy continuum and the occurrence of gap closure at multiple high-symmetry points identify this gapless QSL as the U(1) Dirac spin liquid. These results establish a unified understanding of spin excitations in highly frustrated quantum magnets and provide clear spectral fingerprints for experimental detection in candidate kagome QSL materials.",
-      "pubdate": "Sun, 21 Dec 2025 17:28:35 +0000",
-      "authors": "Jiahang Hu, Runze Chi, Yibin Guo, B. Normand, Hai-Jun Liao, T. Xiang"
+      "title": "DeepQuantum: A PyTorch-based Software Platform for Quantum Machine Learning and Photonic Quantum Computing",
+      "abstract": "We introduce DeepQuantum, an open-source, PyTorch-based software platform for quantum machine learning and photonic quantum computing. This AI-enhanced framework enables efficient design and execution of hybrid quantum-classical models and variational quantum algorithms on both CPUs and GPUs. For photonic quantum computing, DeepQuantum implements Fock, Gaussian, and Bosonic backends, catering to different simulation needs. Notably, it is the first framework to realize closed-loop integration of three paradigms of quantum computing, namely quantum circuits, photonic quantum circuits, and measurement-based quantum computing, thereby enabling robust support for both specialized and universal photonic quantum algorithm design. Furthermore, DeepQuantum supports large-scale simulations based on tensor network techniques and a distributed parallel computing architecture. We demonstrate these capabilities through comprehensive benchmarks and illustrative examples. With its unique features, DeepQuantum is intended to be a powerful platform for both AI for Quantum and Quantum for AI.",
+      "pubdate": "Mon, 22 Dec 2025 03:22:42 +0000",
+      "authors": "Jun-Jie He, Ke-Ming Hu, Yu-Ze Zhu, Guan-Ju Yan, Shu-Yi Liang, Xiang Zhao, Ding Wang, Fei-Xiang Guo, Ze-Feng Lan, Xiao-Wen Shang, Zi-Ming Yin, Xin-Yang Jiang, Lin Yang, Hao Tang, Xian-Min Jin"
     },
     "009bc42844d23156922de200452485a9": {
       "id": "009bc42844d23156922de200452485a9",
       "link": "http://arxiv.org/abs/2512.18695",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
+      "title": "Identification and Optimization of Accurate Spin Models for Open-Shell Carbon Ladders with Matrix Product States",
+      "abstract": "Open-shell nanographenes offer a controlled setting to study correlated magnetism emerging from $π$-electron systems. We analyze oligo(indenoindene) molecules, non-bipartite carbon ladders whose tight-binding spectra feature a gapped, weakly dispersing manifold of quasi-zero modes, and show that their low-energy properties can be effectively mapped onto an interacting set of spin-1/2 degrees of freedom. Using Density Matrix Renormalization Group simulations of the full Fermi-Hubbard model, we obtain their excitation spectra, entanglement profiles, and spin-spin correlations. We then construct optimized delocalized fermionic modes that act as emergent spins and show that their interactions are well described by a frustrated $J_1$-$J_2$ Heisenberg chain. This effective description clarifies how spin degrees of freedom arise and interact in non-bipartite nanographene ladders, providing a compact and accurate representation of their correlated behavior.",
+      "pubdate": "Sun, 21 Dec 2025 11:16:10 +0000",
+      "authors": "Andoni Agirre, Thomas Frederiksen, Geza Giedke, Tobias Grass"
     },
     "152c9598de880669818a55591704e2c8": {
       "id": "152c9598de880669818a55591704e2c8",
       "link": "http://arxiv.org/abs/2512.18642",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
-    },
-    "4a51b5e7ad1e4f5d93253d155ec2f4cf": {
-      "id": "4a51b5e7ad1e4f5d93253d155ec2f4cf",
-      "link": "http://arxiv.org/abs/2512.18460",
-      "title": "Topological edge states in two-dimensional $\\mathbb{Z}_4$ Potts paramagnet protected by the $\\mathbb{Z}_4^{\\times 3}$ symmetry",
-      "abstract": "We construct a two-dimensional bosonic symmetry-protected topological (SPT) paramagnet protected by an on-site $G=\\mathbb{Z}_4^{\\times 3}$ symmetry, starting from a three-component $\\mathbb{Z}_4$ Potts paramagnet on a triangular lattice. Within the group-cohomology framework, $H^{3}(G,U(1))\\cong \\mathbb{Z}_4^{\\times 7}$, we focus on a \"colorless\" cocycle representative obtained by antisymmetrizing the basic $\\mathbb{Z}_4$ three-cocycle, and generate the corresponding SPT Hamiltonian via a cocycle-induced nonlocal unitary transformation followed by symmetry averaging. For open geometry, we derive the boundary theory explicitly: one color sector decouples, while the nontrivial edge reduces to an interacting $\\mathbb{Z}_4$ chain with next-to-nearest-neighbor constraints that admits a compact dressed-Potts form. Using DMRG we show that the boundary model is gapless, with the lowest gap scaling as $1/L$ and an entanglement-entropy scaling consistent with a conformal field theory of central charge $c=2.191(4)\\simeq 11/5$. The rational value $c=11/5$ matches the coset $SU(3)_3/SU(2)_3$, making it a candidate for the continuum description of the $\\mathbb{Z}_4^{\\times 3}$ edge; we outline spectral and symmetry-resolved diagnostics needed to test this identification at the level of conformal towers beyond the central charge.",
-      "pubdate": "Sat, 20 Dec 2025 18:26:24 +0000",
-      "authors": "Hrant Topchyan, Tigran Hakobyan, Mkhitar Mirumyan, Tigran A. Sedrakyan, Ara Sedrakyan"
-    },
-    "6f66543440ae476dc5a133404793917e": {
-      "id": "6f66543440ae476dc5a133404793917e",
-      "link": "http://arxiv.org/abs/2512.18397",
-      "title": "Momentum-resolved spectral functions of super-moiré systems using tensor networks",
-      "abstract": "Computing spectral functions in large, non-periodic super-moiré systems remains an open problem due to the exceptionally large system size that must be considered. Here, we establish a tensor network methodology that allows computing momentum-resolved spectral functions of non-interacting and interacting super-moiré systems at an atomistic level. Our methodology relies on encoding an exponentially large tight-binding problem as an auxiliary quantum many-body problem, solved with a many-body kernel polynomial tensor network algorithm combined with a quantum Fourier transform tensor network. We demonstrate the method for one and two-dimensional super-moiré systems, including super-moiré with non-uniform strain, interactions treated at the mean-field level, and quasicrystalline super-moiré patterns. Furthermore, we demonstrate that our methodology allows us to compute momentum-resolved spectral functions restricted to selected regions of a super-moiré, enabling direct imaging of position-dependent electronic structure and minigaps in super-moiré systems with non-uniform strain. Our results establish a powerful methodology to compute momentum-resolved spectral functions in exceptionally large super-moiré systems, providing a tool to directly model scanning twisting microscope tunneling experiments in twisted van der Waals heterostructures.",
-      "pubdate": "Sat, 20 Dec 2025 15:24:39 +0000",
-      "authors": "Anouar Moustaj, Yitao Sun, Tiago V. C. Antao, Jose L. Lado"
-    },
-    "c0122a44b3f3c2384a74ca4044cdbd61": {
-      "id": "c0122a44b3f3c2384a74ca4044cdbd61",
-      "link": "http://arxiv.org/abs/2512.18062",
-      "title": "Quantum simulation of deep inelastic scattering in the Schwinger model",
-      "abstract": "Hadronic tensors encode the nonperturbative structure of hadrons probed in deep inelastic scattering (DIS), yet their direct evaluation requires real-time evolution that presents a challenge for traditional Euclidean lattice approaches. In this work, we present the first study of the hadronic tensors in DIS using quantum simulation in the Schwinger model, i.e (1+1)-dimensional QED. Using two complementary quantum-simulation strategies -- quantum-circuit and tensor-network methods -- we compute the real-time current-current correlator directly on the lattice and validate our results against exact diagonalization where applicable. From this correlator, we compute the hadronic tensor and determine the longitudinal structure function, the sole nonvanishing DIS observable in two space-time dimensions. Our study demonstrates that quantum simulation offers a viable complementary pathway towards the evaluation of real-time observables relevant for hadronic structure. It also provides a foundation for extending the calculations from Schwinger model to other gauge theories.",
-      "pubdate": "Fri, 19 Dec 2025 21:02:01 +0000",
-      "authors": "Kazuki Ikeda, Zhong-Bo Kang, Dmitri E. Kharzeev, Wenyang Qian"
-    },
-    "f905684f1b63dd6837b805b998db5aa2": {
-      "id": "f905684f1b63dd6837b805b998db5aa2",
-      "link": "http://arxiv.org/abs/2512.18059",
-      "title": "Approximation and learning with compositional tensor trains",
-      "abstract": "We introduce compositional tensor trains (CTTs) for the approximation of multivariate functions, a class of models obtained by composing low-rank functions in the tensor-train format. This format can encode standard approximation tools, such as (sparse) polynomials, deep neural networks (DNNs) with fixed width, or tensor networks with arbitrary permutation of the inputs, or more general affine coordinate transformations, with similar complexities. This format can be viewed as a DNN with width exponential in the input dimension and structured weights matrices. Compared to DNNs, this format enables controlled compression at the layer level using efficient tensor algebra. On the optimization side, we derive a layerwise algorithm inspired by natural gradient descent, allowing to exploit efficient low-rank tensor algebra. This relies on low-rank estimations of Gram matrices, and tensor structured random sketching. Viewing the format as a discrete dynamical system, we also derive an optimization algorithm inspired by numerical methods in optimal control. Numerical experiments on regression tasks demonstrate the expressivity of the new format and the relevance of the proposed optimization algorithms. Overall, CTTs combine the expressivity of compositional models with the algorithmic efficiency of tensor algebra, offering a scalable alternative to standard deep neural networks.",
-      "pubdate": "Fri, 19 Dec 2025 20:59:48 +0000",
-      "authors": "Martin Eigel, Charles Miranda, Anthony Nouy, David Sommer"
+      "title": "A Hidden Quantum Markov model framework for Entanglement and Topological Order in the AKLT Chain",
+      "abstract": "This paper introduces a hidden quantum Markov models (HQMMs) framework to the Affleck-Kennedy-Lieb-Tasaki (AKLT) state-a cornerstone example of a symmetry-protected topological (SPT) phase. The model's observation system is the physical spin-1 chain, which emerges from a hidden spin-1/2 layer through well-defined quantum emission operation. We show that the underlying Markov dynamics caputure maximal entanglement through the use of significant channels relevant to the AKLT state. We also show that SPT order induces a covariance on the observation decoding channels. This establishes an additional bridge between the quantum Machine learning and many-body physics, with promising implication in topological order and quantum information.",
+      "pubdate": "Sun, 21 Dec 2025 08:32:01 +0000",
+      "authors": "Abdessatar Souissi, Amenallah Andolsi"
     }
   }
 }
