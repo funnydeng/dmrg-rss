@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-25T01:58:10.426051+00:00",
+  "last_updated": "2025-12-25T12:12:45.793789+00:00",
   "entries": {
     "819d23e218d5b90ef5410679c1355746": {
       "id": "819d23e218d5b90ef5410679c1355746",
@@ -9888,6 +9888,54 @@
       "link": "http://arxiv.org/abs/2412.21055",
       "abstract": "We consider the surface code under errors featuring both coherent and incoherent components and study the coherence of the corresponding logical noise channel and how this impacts information-theoretic measures of code performance, namely coherent information and quantum relative entropy. Using numerical simulations and a phenomenological field theory, focusing on the most general single-qubit X-error channel, we show that, for any nonzero incoherent noise component, the coherence of the logical noise is exponentially suppressed with the code distance. We also find that the information-theoretic measures require this suppression to detect optimal thresholds for Pauli recovery; they thus require increasingly large distances for increasing error coherence and ultimately break down for fully coherent errors. To obtain our results, we develop a statistical mechanics mapping and a corresponding matrix-product-state algorithm for approximate syndrome sampling. These methods enable the large-scale simulation of these non-Pauli errors, including their maximum-likelihood thresholds, away from the limits captured by previous approaches.",
       "pubdate": "Mon, 30 Dec 2024 16:14:55 +0000"
+    },
+    "b617d4bfba39587ae55cff15ea680183": {
+      "id": "b617d4bfba39587ae55cff15ea680183",
+      "link": "http://arxiv.org/abs/2512.21313",
+      "title": "Universality of equilibration dynamics after quantum quenches",
+      "abstract": "We investigate the distribution of the eigenvalues of the reduced density matrix (entanglement spectrum) after a global quantum quench. We show that in an appropriate scaling limit the lower part of the entanglement spectrum exhibits ``universality''. In the scaling limit and at asymptotically long times the distribution of the entanglement spectrum depends on two parameters that can be determined from the Rényi entropies. We show that two typical scenarios occur. In the first one, the distribution of the entanglement spectrum levels is similar to the one describing the ground-state entanglement spectrum in Conformal Field Theories. In the second scenario, the lower levels of the entanglement spectrum are highly degenerate and their distribution is given by a series of Dirac deltas. We benchmark our analytical results in free-fermion chains, such as the transverse field Ising chain and the XX chain, in the rule 54 chain, and in Bethe ansatz solvable spin models.",
+      "pubdate": "Wed, 24 Dec 2025 18:19:57 +0000",
+      "authors": "Vincenzo Alba, Sanam Azarnia, Gianluca Lagnese, Federico Rottoli"
+    },
+    "79347cc62eaa41b5099bcc85603a219d": {
+      "id": "79347cc62eaa41b5099bcc85603a219d",
+      "link": "http://arxiv.org/abs/2512.20912",
+      "title": "Competing magnetic and topological orders in the spin-1 Kitaev-Heisenberg chain with single-ion anisotropy",
+      "abstract": "We investigate the ground-state phase diagram of the spin-1 Kitaev--Heisenberg chain in the presence of uniaxial single-ion anisotropy (SIA) $D_z$ by density-matrix renormalization group (DMRG) calculations. By combining energy-curvature diagnostics on periodic $N=24$ clusters with a refined characterization based on order parameters and correlation functions for open chains up to $N=144$, we establish a comprehensive phase diagram in the $φ$--$D_z$ plane. We identify four magnetically ordered phases -- FM-$z$, FM-$xy$, Néel-$z$, and a two-sublattice collinear LLRR2 state -- as well as magnetically disordered/critical regimes including Néel-$xy$, LLRR1, and two Kitaev spin-liquid (KSL) regions. A topological Haldane phase also emerges near the Heisenberg limit. Our results provide evidence that both AFM- and FM-KSL regimes acquire finite parameter widths in the spin-1 model, while the Haldane phase is fragile against Kitaev-type anisotropy, particularly for $D_z<0$. Increasing (decreasing) $D_z$ suppresses (enhances) magnetic order and expands (shrinks) the KSL and other magnetically disordered sectors. Also, at $D_z=0$, we identify an exactly solvable point at $φ=\\tan^{-1}(-2)$, which enforces a first-order transition between Néel-$z$ and LLRR2. We further contrast these findings with the spin-$1/2$ KH chain and with the spin-1 honeycomb KH model, highlighting the distinct roles of dimensionality and SIA in Kitaev-type magnets.",
+      "pubdate": "Wed, 24 Dec 2025 03:36:03 +0000",
+      "authors": "Sahinur Reja, Satoshi Nishimoto"
+    },
+    "9a5ba22760ad7bfc7ab4015213e4a6ea": {
+      "id": "9a5ba22760ad7bfc7ab4015213e4a6ea",
+      "link": "http://arxiv.org/abs/2512.21037",
+      "title": "Black hole as a multipartite entangler: multi-entropy in AdS${}_3$/CFT${}_2$",
+      "abstract": "We study multipartite entanglement in typical pure states holographically dual to pure BTZ black holes, using multi-entropy and its ``genuine'' version. In the bulk, these quantities are computed by minimal geodesic networks (so-called Steiner trees). We find that at sufficiently high temperature, the genuine tripartite multi-entropy exhibits a volume-law scaling in sharp contrast to vacuum AdS$_3$, where the genuine contribution is universal and size-independent. Moreover, we find another phase: once one subsystem exceeds half of the total system, the leading genuine tripartite entanglement vanishes and reduces to that for global AdS${}_3$. This transition is indeed consistent with recent arguments for distillable EPR pairs in tripartite Haar-random states. Motivated by finite-cutoff holography, we further study the radial cutoff dependence of multi-entropy and show that genuine multi-entropy acquires nontrivial size dependence even for the tripartite case in AdS${}_3$. As a byproduct, we also observe an intriguing ``area-law'' contribution to multi-entropy that is relevant to vacuum AdS${}_3$.",
+      "pubdate": "Wed, 24 Dec 2025 08:03:55 +0000",
+      "authors": "Takanori Anegawa, Shota Suzuki, Kotaro Tamaoka"
+    },
+    "48712adbc1fe25ac6123eee5d046f1db": {
+      "id": "48712adbc1fe25ac6123eee5d046f1db",
+      "link": "http://arxiv.org/abs/2512.20838",
+      "title": "Quantum Ising Model on $(2+1)-$Dimensional Anti$-$de Sitter Space using Tensor Networks",
+      "abstract": "We study the quantum Ising model on (2+1)-dimensional anti-de Sitter space using Matrix Product States (MPS) and Matrix Product Operators (MPOs). Our spatial lattices correspond to regular tessellations of hyperbolic space with coordination number seven. We find the ground state of this model using the Density Matrix Renormalization Group (DMRG) algorithm which allowed us to probe lattices that range in size up to 232 sites. We explore the bulk phase diagram of the theory and find disordered and ordered phases separated by a phase transition. We find that the boundary-boundary spin correlation function exhibits power law scaling deep in the disordered phase of the Ising model consistent with the anti-de Sitter background. By tracing out the bulk indices, we are able to compute the density matrix for the boundary theory. At the critical point, we find the entanglement entropy exhibits the logarithmic dependence of boundary length expected for a one-dimensional CFT but away from this, we see a linear scaling. In comparison, the full system exhibits a volume law scaling, which is expected in chaotic and highly connected systems. We also measure Out-of-time-Ordered-Correlators (OTOCs) to explore the scrambling behavior of the theory.",
+      "pubdate": "Tue, 23 Dec 2025 23:29:39 +0000",
+      "authors": "Simon Catterall, Alexander F. Kemper, Yannick Meurice, Abhishek Samlodia, Goksu Can Toga"
+    },
+    "537c5e87c357b928f2980c3904afd39b": {
+      "id": "537c5e87c357b928f2980c3904afd39b",
+      "link": "http://arxiv.org/abs/2512.20697",
+      "title": "Simulating fermionic fractional Chern insulators with infinite projected entangled-pair states",
+      "abstract": "Infinite projected entangled-pair states (iPEPS) provide a powerful variational framework for two-dimensional quantum matter and have been widely used to capture bosonic topological order, including chiral spin liquids. Here we extend this approach to \\emph{fermionic} topological order by variationally optimizing $U(1)$-symmetric fermionic iPEPS for a fractional Chern insulator (FCI), with bond dimensions up to $D=9$. We find evidence for a critical bond dimension, above which the ansatz faithfully represents the FCI phase. The FCI state is characterized using bulk observables, including the equal-time single-particle Green's function and the pair-correlation function, as well as the momentum-resolved edge entanglement spectrum. To enable entanglement-spectrum calculations for large iPEPS unit cells, we introduce a compression scheme and show that the low-lying part of the spectrum is already well converged at relatively small cutoff dimensions.",
+      "pubdate": "Tue, 23 Dec 2025 19:00:02 +0000",
+      "authors": "Hao Chen, Titus Neupert, Juraj Hasik"
+    },
+    "beda2a7a2b5236f74554576b12423184": {
+      "id": "beda2a7a2b5236f74554576b12423184",
+      "link": "http://arxiv.org/abs/2512.20689",
+      "title": "Controlled pairing symmetries in a Fermi-Hubbard ladder with band flattening",
+      "abstract": "Band flattening has been identified as key ingredient to correlation phenomena in Moiré materials and beyond. Here, we examine strongly repulsive fermions on a ladder -- a minimal platform for unconventional $d$-wave pairing -- and show that flattening of the lower band through an additional diagonal hopping term produces non-Fermi liquid behavior, evidenced by the violation of Luttinger's theorem, as well as axial $d$-wave pairing correlations. Alternatively, plaquette ring exchange can also generate pairing, albeit with a distinct diagonal $d$-wave pairing symmetry. Hence, our finding showcases a competition of different unconventional pairing channels, and demonstrates via a simple model how band geometry can induce fermionic pairing. This offers broadly relevant insights for correlated flat-band systems, ranging from ultracold atoms to strongly interacting electrons in solids.",
+      "pubdate": "Mon, 22 Dec 2025 23:13:47 +0000",
+      "authors": "J. P. Mendonça, S. Biswas, M. Dziurawiec, U. Bhattacharya, K. Jachymski, M. Aidelsburger, M. Lewenstein, M. M. Maśka, T. Grass"
     }
   }
 }
