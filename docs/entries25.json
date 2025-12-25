@@ -1,6 +1,62 @@
 {
-  "last_updated": "2025-12-24T12:50:56.308805+00:00",
+  "last_updated": "2025-12-25T01:58:10.426051+00:00",
   "entries": {
+    "819d23e218d5b90ef5410679c1355746": {
+      "id": "819d23e218d5b90ef5410679c1355746",
+      "link": "http://arxiv.org/abs/2512.20613",
+      "title": "Variational (matrix) product states for combinatorial optimization",
+      "abstract": "To compute approximate solutions for combinatorial optimization problems, we describe variational methods based on the product state (PS) and matrix product state (MPS) ansatzes. We perform variational energy minimization with respect to a quantum annealing Hamiltonian and utilize randomness by embedding the approaches in the metaheuristic iterated local search (ILS). The resulting quantum-inspired ILS algorithms are benchmarked on maximum cut problems of up to 50000 variables. We show that they can outperform traditional (M)PS methods, classical ILS, the quantum approximate optimization algorithm and other variational quantum-inspired solvers.",
+      "pubdate": "Tue, 23 Dec 2025 18:58:35 +0000",
+      "authors": "Guillermo Preisser, Conor Mc Keever, Michael Lubasch"
+    },
+    "dd7dbdd285e75f4dadd4977d6403f339": {
+      "id": "dd7dbdd285e75f4dadd4977d6403f339",
+      "link": "http://arxiv.org/abs/2512.20537",
+      "title": "Quantum State Preparation via Schmidt Spectrum Optimisation",
+      "abstract": "We introduce an efficient algorithm for the systematic design of shallow-depth quantum circuits capable of preparing many-body quantum states represented as Matrix Product States (MPS). The proposed method leverages Schmidt spectrum optimization (SSO) to minimize circuit depth while preserving the entanglement structure inherent to MPS representations, thereby enabling scalable state preparation on near-term quantum hardware. The core idea is to \\textit{disentangle} the target MPS using a sequence of optimised local unitaries, and then reverse this process to obtain a state preparation circuit. Specifically, we define a loss function directly on the Schmidt spectra of intermediate states and use automatic differentiation to optimise each circuit layer so as to systematically reduce entanglement entropy. Once a disentangling sequence has been learned, we take the adjoints of the optimised unitaries to obtain a shallow-depth circuit that approximately reconstructs the target MPS from the computational all-zero state. We benchmark SSO across a range of MPS approximations to the ground states of local Hamiltonians and demonstrate state-of-the-art shallow-depth performance, improving accuracy by up to an order of magnitude over existing methods. Finally, we provide numerical evidence that SSO mitigates the adverse time-complexity scaling observed in previous disentangling-based approaches.",
+      "pubdate": "Tue, 23 Dec 2025 17:27:32 +0000",
+      "authors": "Josh Green, Joshua Snow, Jingbo B Wang"
+    },
+    "695c40ef2559571563e15770ac9fc8e3": {
+      "id": "695c40ef2559571563e15770ac9fc8e3",
+      "link": "http://arxiv.org/abs/2512.20466",
+      "title": "Tensor-network study of the ground state of maple-leaf Heisenberg antiferromagnet",
+      "abstract": "We study the quantum phase diagram of the spin-$1/2$ nearest-neighbor Heisenberg model on the maple-leaf lattice using infinite projected entangled pair states (iPEPS) combined with a corner transfer matrix renormalization group scheme adapted to $C_3$-symmetric lattices. Focusing on the fully antiferromagnetic $J$-$J_d$ model with $J_h = J_t := J$, we map out the ground-state phase diagram as a function of the dimer coupling $J_d$. Our results show that the system hosts only two phases: a magnetically ordered canted-$120^\\circ$ phase and an exact dimer singlet product phase. We identify a first-order transition between these two phases at $J_d/J \\approx 1.45$. Within the magnetically ordered phase, we observe small but finite magnetic moments. We also resolve the quantum renormalization of the canting angle, which deviates from the classical prediction over almost the entire magnetically ordered phase.",
+      "pubdate": "Tue, 23 Dec 2025 16:02:12 +0000",
+      "authors": "Samuel Nyckees, Pratyay Ghosh, Frédéric Mila"
+    },
+    "6cc39794c576c16832cee306ef4df2e4": {
+      "id": "6cc39794c576c16832cee306ef4df2e4",
+      "link": "http://arxiv.org/abs/2512.20215",
+      "title": "Tree tensor network states represent low-energy states faithfully",
+      "abstract": "Extending corresponding results for matrix product states [Verstraete and Cirac, PRB 73, 094423 (2006); Schuch et al. PRL 100, 030504 (2008)], it is shown how the approximation error of tree tensor network states (TTNS) can be bounded using Schmidt spectra or Rényi entanglement entropies of the target quantum state. Conversely, one obtains bounds on TTNS bond dimensions needed to achieve a specific approximation accuracy. For tree lattices, the result implies that efficient TTNS approximations exist if $α<1$ Rényi entanglement entropies for single-branch cuts obey an area law, as in ground and low-energy states of certain gapped systems.",
+      "pubdate": "Tue, 23 Dec 2025 10:15:45 +0000",
+      "authors": "Thomas Barthel"
+    },
+    "982ea5cbc37bc0a27f41b1a32f0ab2fe": {
+      "id": "982ea5cbc37bc0a27f41b1a32f0ab2fe",
+      "link": "http://arxiv.org/abs/2512.20064",
+      "title": "FastMPS: Revisit Data Parallel in Large-scale Matrix Product State Sampling",
+      "abstract": "Matrix Product State (MPS) is a versatile tensor network representation widely applied in quantum physics, quantum chemistry, and machine learning, etc. MPS sampling serves as a critical fundamental operation in these fields. As the problems become more complex, the scale of MPS is rapidly increasing. Traditional data parallelism is limited by memory and heavy I/O in large-scale MPS. Model parallelism that can handle large-scale MPS imposes rigid process bindings and lacks scalability. This work proposes Fast-MPS, a multi-level parallel framework for scalable MPS sampling. Our design combines data parallelism across samples with tensor parallelism along bond dimensions. We eliminate memory and I/O pressure through compression and overlapping, and revive data parallel in large-scale MPS sampling. We evaluate our approach on Gaussian Boson Sampling, a representative and demanding application. Fast-MPS achieves over 10x speedup compared to existing simulators, scales to thousands of processes, and enables simulations with 8,176 sites and bond dimension chi = 10^4, significantly outperforming the state of the art. Fast-MPS has demonstrated great potential in high-performance tensor network applications.",
+      "pubdate": "Tue, 23 Dec 2025 05:33:57 +0000",
+      "authors": "Yaojian Chen, Si-Qiu Gong, Lin Gan, Yanfei Liu, An Yang, Yinuo Wang, Chao-yang Lu, Guangwen Yang"
+    },
+    "23319b0edbf975f83d4d258fa286e3cb": {
+      "id": "23319b0edbf975f83d4d258fa286e3cb",
+      "link": "http://arxiv.org/abs/2512.19801",
+      "title": "Ergotropy of quantum many-body scars",
+      "abstract": "Quantum many-body scars break ergodicity and evade thermalization, resulting in area law entanglement entropy even with high energy density. While their quantum correlations and entanglement have been elaborated previously, their capacity in storing extractable energy, quantified by the notion ergotropy, remains an open question. Here we focus on the representative PXP model, and unveil the extensive ergotropy scaling of a family of states interpolating between quantum many-body scars and thermal states, the latter of which are known to be passive with vanishing ergotropy. A phenomenological relation between ergotropy and entanglement is uncovered, which generalizes the existing free fermion integrable results to an interacting scenario. The ergotropy in a dynamical protocol shows that a reset with a global uniform coherent rotation can inject extractable energy, as a proof of principle way to charge a quantum \"battery\". Our protocol is tailored for near term Rydberg neutral atoms array, while also being feasible for other quantum processors. Our results establish that quantum many-body scars, despite the tiny fraction of the Hilbert space they occupy, can be efficiently exploited for storing extractable energy, and \"scarring\" a many-body system as a promising route for engineering quantum many-body battery.",
+      "pubdate": "Mon, 22 Dec 2025 19:00:33 +0000",
+      "authors": "Zhaohui Zhi, Qingyun Qian, Jin-Guo Liu, Guo-Yi Zhu"
+    },
+    "0b36715a4017421efd5490333158cda4": {
+      "id": "0b36715a4017421efd5490333158cda4",
+      "link": "http://arxiv.org/abs/2512.19786",
+      "title": "Learning transitions of topological surface codes",
+      "abstract": "For the surface code, topological quantum order allows one to encode logical quantum information in a robust, long-range entangled many-body quantum state. However, if an observer probes this quantum state by performing measurements on the underlying qubits, thereby collecting an ensemble of highly correlated classical snapshots, two closely related questions arise: (i) do measurements decohere the topological order of the quantum state; and (ii) how much of the logical information can one learn from the snapshots? Here we address these questions for measurements in a uniform basis on all qubits. We find that for generic measurement angles, sufficiently far away from the Clifford X, Y, and Z directions (such as the X+Y+Z basis) the logical information is never lost in one of the following two ways: (i) for weak measurement, the topological order is absolutely robust; (ii) for projective measurement, the quantum state inevitably collapses, but the logical quantum information is faithfully transferred from the quantum system to the observer in the form of a tomographically complete classical shadow. At these generic measurement angles and in the projective-measurement limit, the measurement ensemble enforced by Born probabilities can be represented by a 2D tensor network that can be fermionized into a disordered, free-fermion network model in symmetry class DIII, which gives rise to a Majorana \"metal\" phase. When the measurement angle is biased towards the X or Z limits, a critical angle indicates the threshold of a learning transition beyond which the classical shadow no longer reveals full tomographic information (but reduces to a measurement of the logical X or Z state). This learning transition can be described in the language of the network model as a \"metal to insulator\" transition...",
+      "pubdate": "Mon, 22 Dec 2025 19:00:01 +0000",
+      "authors": "Finn Eckstein, Bo Han, Simon Trebst, Guo-Yi Zhu"
+    },
     "60ed566d1b6f9b6cc38b4c799f1b169b": {
       "id": "60ed566d1b6f9b6cc38b4c799f1b169b",
       "link": "http://arxiv.org/abs/2512.19616",
@@ -9832,62 +9888,6 @@
       "link": "http://arxiv.org/abs/2412.21055",
       "abstract": "We consider the surface code under errors featuring both coherent and incoherent components and study the coherence of the corresponding logical noise channel and how this impacts information-theoretic measures of code performance, namely coherent information and quantum relative entropy. Using numerical simulations and a phenomenological field theory, focusing on the most general single-qubit X-error channel, we show that, for any nonzero incoherent noise component, the coherence of the logical noise is exponentially suppressed with the code distance. We also find that the information-theoretic measures require this suppression to detect optimal thresholds for Pauli recovery; they thus require increasingly large distances for increasing error coherence and ultimately break down for fully coherent errors. To obtain our results, we develop a statistical mechanics mapping and a corresponding matrix-product-state algorithm for approximate syndrome sampling. These methods enable the large-scale simulation of these non-Pauli errors, including their maximum-likelihood thresholds, away from the limits captured by previous approaches.",
       "pubdate": "Mon, 30 Dec 2024 16:14:55 +0000"
-    },
-    "819d23e218d5b90ef5410679c1355746": {
-      "id": "819d23e218d5b90ef5410679c1355746",
-      "link": "http://arxiv.org/abs/2512.20613",
-      "title": "Variational (matrix) product states for combinatorial optimization",
-      "abstract": "To compute approximate solutions for combinatorial optimization problems, we describe variational methods based on the product state (PS) and matrix product state (MPS) ansatzes. We perform variational energy minimization with respect to a quantum annealing Hamiltonian and utilize randomness by embedding the approaches in the metaheuristic iterated local search (ILS). The resulting quantum-inspired ILS algorithms are benchmarked on maximum cut problems of up to 50000 variables. We show that they can outperform traditional (M)PS methods, classical ILS, the quantum approximate optimization algorithm and other variational quantum-inspired solvers.",
-      "pubdate": "Tue, 23 Dec 2025 18:58:35 +0000",
-      "authors": "Guillermo Preisser, Conor Mc Keever, Michael Lubasch"
-    },
-    "dd7dbdd285e75f4dadd4977d6403f339": {
-      "id": "dd7dbdd285e75f4dadd4977d6403f339",
-      "link": "http://arxiv.org/abs/2512.20537",
-      "title": "Quantum State Preparation via Schmidt Spectrum Optimisation",
-      "abstract": "We introduce an efficient algorithm for the systematic design of shallow-depth quantum circuits capable of preparing many-body quantum states represented as Matrix Product States (MPS). The proposed method leverages Schmidt spectrum optimization (SSO) to minimize circuit depth while preserving the entanglement structure inherent to MPS representations, thereby enabling scalable state preparation on near-term quantum hardware. The core idea is to \\textit{disentangle} the target MPS using a sequence of optimised local unitaries, and then reverse this process to obtain a state preparation circuit. Specifically, we define a loss function directly on the Schmidt spectra of intermediate states and use automatic differentiation to optimise each circuit layer so as to systematically reduce entanglement entropy. Once a disentangling sequence has been learned, we take the adjoints of the optimised unitaries to obtain a shallow-depth circuit that approximately reconstructs the target MPS from the computational all-zero state. We benchmark SSO across a range of MPS approximations to the ground states of local Hamiltonians and demonstrate state-of-the-art shallow-depth performance, improving accuracy by up to an order of magnitude over existing methods. Finally, we provide numerical evidence that SSO mitigates the adverse time-complexity scaling observed in previous disentangling-based approaches.",
-      "pubdate": "Tue, 23 Dec 2025 17:27:32 +0000",
-      "authors": "Josh Green, Joshua Snow, Jingbo B Wang"
-    },
-    "695c40ef2559571563e15770ac9fc8e3": {
-      "id": "695c40ef2559571563e15770ac9fc8e3",
-      "link": "http://arxiv.org/abs/2512.20466",
-      "title": "Tensor-network study of the ground state of maple-leaf Heisenberg antiferromagnet",
-      "abstract": "We study the quantum phase diagram of the spin-$1/2$ nearest-neighbor Heisenberg model on the maple-leaf lattice using infinite projected entangled pair states (iPEPS) combined with a corner transfer matrix renormalization group scheme adapted to $C_3$-symmetric lattices. Focusing on the fully antiferromagnetic $J$-$J_d$ model with $J_h = J_t := J$, we map out the ground-state phase diagram as a function of the dimer coupling $J_d$. Our results show that the system hosts only two phases: a magnetically ordered canted-$120^\\circ$ phase and an exact dimer singlet product phase. We identify a first-order transition between these two phases at $J_d/J \\approx 1.45$. Within the magnetically ordered phase, we observe small but finite magnetic moments. We also resolve the quantum renormalization of the canting angle, which deviates from the classical prediction over almost the entire magnetically ordered phase.",
-      "pubdate": "Tue, 23 Dec 2025 16:02:12 +0000",
-      "authors": "Samuel Nyckees, Pratyay Ghosh, Frédéric Mila"
-    },
-    "6cc39794c576c16832cee306ef4df2e4": {
-      "id": "6cc39794c576c16832cee306ef4df2e4",
-      "link": "http://arxiv.org/abs/2512.20215",
-      "title": "Tree tensor network states represent low-energy states faithfully",
-      "abstract": "Extending corresponding results for matrix product states [Verstraete and Cirac, PRB 73, 094423 (2006); Schuch et al. PRL 100, 030504 (2008)], it is shown how the approximation error of tree tensor network states (TTNS) can be bounded using Schmidt spectra or Rényi entanglement entropies of the target quantum state. Conversely, one obtains bounds on TTNS bond dimensions needed to achieve a specific approximation accuracy. For tree lattices, the result implies that efficient TTNS approximations exist if $α<1$ Rényi entanglement entropies for single-branch cuts obey an area law, as in ground and low-energy states of certain gapped systems.",
-      "pubdate": "Tue, 23 Dec 2025 10:15:45 +0000",
-      "authors": "Thomas Barthel"
-    },
-    "982ea5cbc37bc0a27f41b1a32f0ab2fe": {
-      "id": "982ea5cbc37bc0a27f41b1a32f0ab2fe",
-      "link": "http://arxiv.org/abs/2512.20064",
-      "title": "FastMPS: Revisit Data Parallel in Large-scale Matrix Product State Sampling",
-      "abstract": "Matrix Product State (MPS) is a versatile tensor network representation widely applied in quantum physics, quantum chemistry, and machine learning, etc. MPS sampling serves as a critical fundamental operation in these fields. As the problems become more complex, the scale of MPS is rapidly increasing. Traditional data parallelism is limited by memory and heavy I/O in large-scale MPS. Model parallelism that can handle large-scale MPS imposes rigid process bindings and lacks scalability. This work proposes Fast-MPS, a multi-level parallel framework for scalable MPS sampling. Our design combines data parallelism across samples with tensor parallelism along bond dimensions. We eliminate memory and I/O pressure through compression and overlapping, and revive data parallel in large-scale MPS sampling. We evaluate our approach on Gaussian Boson Sampling, a representative and demanding application. Fast-MPS achieves over 10x speedup compared to existing simulators, scales to thousands of processes, and enables simulations with 8,176 sites and bond dimension chi = 10^4, significantly outperforming the state of the art. Fast-MPS has demonstrated great potential in high-performance tensor network applications.",
-      "pubdate": "Tue, 23 Dec 2025 05:33:57 +0000",
-      "authors": "Yaojian Chen, Si-Qiu Gong, Lin Gan, Yanfei Liu, An Yang, Yinuo Wang, Chao-yang Lu, Guangwen Yang"
-    },
-    "23319b0edbf975f83d4d258fa286e3cb": {
-      "id": "23319b0edbf975f83d4d258fa286e3cb",
-      "link": "http://arxiv.org/abs/2512.19801",
-      "title": "Ergotropy of quantum many-body scars",
-      "abstract": "Quantum many-body scars break ergodicity and evade thermalization, resulting in area law entanglement entropy even with high energy density. While their quantum correlations and entanglement have been elaborated previously, their capacity in storing extractable energy, quantified by the notion ergotropy, remains an open question. Here we focus on the representative PXP model, and unveil the extensive ergotropy scaling of a family of states interpolating between quantum many-body scars and thermal states, the latter of which are known to be passive with vanishing ergotropy. A phenomenological relation between ergotropy and entanglement is uncovered, which generalizes the existing free fermion integrable results to an interacting scenario. The ergotropy in a dynamical protocol shows that a reset with a global uniform coherent rotation can inject extractable energy, as a proof of principle way to charge a quantum \"battery\". Our protocol is tailored for near term Rydberg neutral atoms array, while also being feasible for other quantum processors. Our results establish that quantum many-body scars, despite the tiny fraction of the Hilbert space they occupy, can be efficiently exploited for storing extractable energy, and \"scarring\" a many-body system as a promising route for engineering quantum many-body battery.",
-      "pubdate": "Mon, 22 Dec 2025 19:00:33 +0000",
-      "authors": "Zhaohui Zhi, Qingyun Qian, Jin-Guo Liu, Guo-Yi Zhu"
-    },
-    "0b36715a4017421efd5490333158cda4": {
-      "id": "0b36715a4017421efd5490333158cda4",
-      "link": "http://arxiv.org/abs/2512.19786",
-      "title": "Learning transitions of topological surface codes",
-      "abstract": "For the surface code, topological quantum order allows one to encode logical quantum information in a robust, long-range entangled many-body quantum state. However, if an observer probes this quantum state by performing measurements on the underlying qubits, thereby collecting an ensemble of highly correlated classical snapshots, two closely related questions arise: (i) do measurements decohere the topological order of the quantum state; and (ii) how much of the logical information can one learn from the snapshots? Here we address these questions for measurements in a uniform basis on all qubits. We find that for generic measurement angles, sufficiently far away from the Clifford X, Y, and Z directions (such as the X+Y+Z basis) the logical information is never lost in one of the following two ways: (i) for weak measurement, the topological order is absolutely robust; (ii) for projective measurement, the quantum state inevitably collapses, but the logical quantum information is faithfully transferred from the quantum system to the observer in the form of a tomographically complete classical shadow. At these generic measurement angles and in the projective-measurement limit, the measurement ensemble enforced by Born probabilities can be represented by a 2D tensor network that can be fermionized into a disordered, free-fermion network model in symmetry class DIII, which gives rise to a Majorana \"metal\" phase. When the measurement angle is biased towards the X or Z limits, a critical angle indicates the threshold of a learning transition beyond which the classical shadow no longer reveals full tomographic information (but reduces to a measurement of the logical X or Z state). This learning transition can be described in the language of the network model as a \"metal to insulator\" transition...",
-      "pubdate": "Mon, 22 Dec 2025 19:00:01 +0000",
-      "authors": "Finn Eckstein, Bo Han, Simon Trebst, Guo-Yi Zhu"
     }
   }
 }
