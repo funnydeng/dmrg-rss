@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-27T00:30:28.289999+00:00",
+  "last_updated": "2025-12-31T12:13:00.948722+00:00",
   "entries": {
     "b617d4bfba39587ae55cff15ea680183": {
       "id": "b617d4bfba39587ae55cff15ea680183",
@@ -9936,6 +9936,70 @@
       "link": "http://arxiv.org/abs/2412.21055",
       "abstract": "We consider the surface code under errors featuring both coherent and incoherent components and study the coherence of the corresponding logical noise channel and how this impacts information-theoretic measures of code performance, namely coherent information and quantum relative entropy. Using numerical simulations and a phenomenological field theory, focusing on the most general single-qubit X-error channel, we show that, for any nonzero incoherent noise component, the coherence of the logical noise is exponentially suppressed with the code distance. We also find that the information-theoretic measures require this suppression to detect optimal thresholds for Pauli recovery; they thus require increasingly large distances for increasing error coherence and ultimately break down for fully coherent errors. To obtain our results, we develop a statistical mechanics mapping and a corresponding matrix-product-state algorithm for approximate syndrome sampling. These methods enable the large-scale simulation of these non-Pauli errors, including their maximum-likelihood thresholds, away from the limits captured by previous approaches.",
       "pubdate": "Mon, 30 Dec 2024 16:14:55 +0000"
+    },
+    "5ccc90e37dabe11c35f69ad99100d270": {
+      "id": "5ccc90e37dabe11c35f69ad99100d270",
+      "link": "http://arxiv.org/abs/2512.23698",
+      "title": "Non-compact 3D TQFT and non-semisimplicity",
+      "abstract": "We define a once extended non-compact 3-dimensional TQFT $\\mathcal{Z}$ from the data of a (potentially) non-semisimple modular tensor category. This is in the framework of generators and relations of [Bartlett et al., arxiv:1509.06811 (2015)], having disallowed generating 2-morphisms whose source is the empty. Moreover, we show that the projective mapping class group representations this TQFT gives rise to, are dual to those of [Lyubashenko, arXiv:hep-th/9405167 (1994)] and [De Renzi et al., arXiv:2010.14852 (2020)]. We develop a method to decompose a closed 3-manifold in terms of 2-morphism generators. We use this to compute the value of $\\mathcal{Z}$ on 3-manifolds, explaining why it should recover Lyubashenko's 3-manifold invariants [Lyubashenko, arXiv:hep-th/9405167 (1994)]. Finally, we explain that the value of the non-compact TQFT on the solid torus recovers the data of a modified trace [Geer et al., arXiv:0711.4229 (2007)].",
+      "pubdate": "Mon, 29 Dec 2025 18:55:00 +0000",
+      "authors": "Theodoros Lagiotis"
+    },
+    "d877e1a5832089f41fc5d7b535023eef": {
+      "id": "d877e1a5832089f41fc5d7b535023eef",
+      "link": "http://arxiv.org/abs/2512.23608",
+      "title": "Fractional quantum anomalous Hall and anyon density-wave halo in a minimal interacting lattice model of twisted bilayer MoTe$_2$",
+      "abstract": "The experimental discovery of fractional quantum anomalous Hall (FQAH) states in tunable moiré superlattices has sparked intense interest in exploring the interplay between topological order and symmetry breaking phases. In this paper, we present a comprehensive numerical study of this interplay through large-scale density matrix renormalization group (DMRG) simulations on a minimal two-band lattice model of twisted bilayer MoTe$_2$ at filling $ν=-2/3$. We find robust FQAH ground states and provide clear numerical evidences for anyon excitations with fractional charge and pronounced real-space density modulations, directly supporting the recently proposed anyon density-wave halo picture. We also map out the displacement field dependent phase diagram, uncovering a rich landscape of charge ordered states emerging from the FQAH, including a quantum anomalous Hall crystal (QAHC) with an integer quantized Hall conductance. We expect our work to inspire further research interest of intertwined correlated topological phases in moiré systems.",
+      "pubdate": "Mon, 29 Dec 2025 17:03:30 +0000",
+      "authors": "Chuyi Tuo, Ming-Rui Li, Hong Yao"
+    },
+    "36585bc5d1adafdc3a372063bdd3e0b8": {
+      "id": "36585bc5d1adafdc3a372063bdd3e0b8",
+      "link": "http://arxiv.org/abs/2512.23237",
+      "title": "Multi-orbital dynamical mean-field theory with a complex-time solver",
+      "abstract": "We present the combination of a complex-time tensor-network impurity solver with an analytic continuation scheme based on exponential fitting as an efficient framework for single and multi-orbital dynamical mean-field calculations. By performing time-evolution along a complex-time contour, the approach balances computational cost with the difficulty of spectral recovery, offering greater flexibility than methods confined to the real or imaginary axis. By complementing the complex-time evolution with an exponential fitting scheme, we faithfully extract real-time information at negligible cost. The resulting method obtains high-resolution spectra at a significantly lower computational cost than real-time evolution, offering a promising tool for ab initio studies of strongly correlated materials.",
+      "pubdate": "Mon, 29 Dec 2025 06:34:14 +0000",
+      "authors": "Yang Yu, Lei Zhang, Emanuel Gull, Xiaodong Cao, Xinyang Dong"
+    },
+    "5362a10e1ce3afe483766aaf783d9d95": {
+      "id": "5362a10e1ce3afe483766aaf783d9d95",
+      "link": "http://arxiv.org/abs/2512.23016",
+      "title": "Efficient population transfer in a quantum dot exciton under phonon-induced decoherence via shortcuts to adiabaticity",
+      "abstract": "In the present study, we apply shortcut to adiabaticity pulses (time-dependent Rabi frequency and detuning) for the efficient population transfer from the ground to the exciton state in a GaAs/InGaAs quantum dot with phonon-induced dephasing. We use the time-evolving matrix product operator (TEMPO) method to propagate system in time and find that, for temperatures below $ 20 \\ \\text{K} $ and pulse duration up to $ 10 \\ \\text{ps} $, a very good transfer efficiency is obtained in general. We explain these results using a Bloch-like equation derived from a generalized Lindblad equation, which adequately describes system dynamics at lower temperatures. For higher temperatures, the transfer efficiency is significantly reduced except for subpicosecond pulses, where the shortcut Rabi frequency reduces to a delta pulse attaining a fast population inversion. The present work is expected to find application in quantum technologies which exploit quantum dots for single-photon generation on demand.",
+      "pubdate": "Sun, 28 Dec 2025 17:33:33 +0000",
+      "authors": "Spyridon G. Kosionis, Sutirtha Biswas, Christina Fouseki, Dionisis Stefanatos, Emmanuel Paspalakis"
+    },
+    "300d22641be75090b7b5b0fd760bb126": {
+      "id": "300d22641be75090b7b5b0fd760bb126",
+      "link": "http://arxiv.org/abs/2512.23005",
+      "title": "Graph restricted tensors: building blocks for holographic networks",
+      "abstract": "We analyze few-body quantum states with particular correlation properties imposed by the requirement of maximal bipartite entanglement for selected partitions of the system into two complementary parts. A novel framework to treat this problem by encoding these constraints in a graph is advocated; the resulting objects are called ``graph-restricted tensors''. This framework encompasses several examples previously treated in the literature, such as 1-uniform multipartite states, quantum states related to dual unitary operators and absolutely maximally entangled states (AME) corresponding to 2-unitary matrices. Original examples of presented graph-restricted tensors are motivated by tensor network models for the holographic principle. In concrete cases we find exact analytic solutions, demonstrating thereby that there exists a vast landscape of non-stabilizer tensors useful for the lattice models of holography.",
+      "pubdate": "Sun, 28 Dec 2025 17:09:47 +0000",
+      "authors": "Rafaĺ Bistroń, Márton Mestyán, Balázs Pozsgay, Karol Życzkowski"
+    },
+    "c249e05ca59731fa30f6f3194bc6b84a": {
+      "id": "c249e05ca59731fa30f6f3194bc6b84a",
+      "link": "http://arxiv.org/abs/2512.22453",
+      "title": "Kitaev interaction and possible spin liquid state in CoI2 and Co2/3Mg1/3I2",
+      "abstract": "Kitaev materials are of great interest due to their potential in realizing quantum spin liquid (QSL) states and applications in topological quantum computing. In the pursuit of realizing Kitaev QSL, a Mott insulator with strong bond-dependent frustration and weak geometric frustration is highly desirable. Here we explore Kitaev physics in the van der Waals triangular antiferromagnet (AF) CoI$_2$, through the spin-orbital states and Wannier function analyses, exact diagonalization and density matrix renormalization group study of the electronic structure and magnetic properties. We find that the high-spin Co$^{2+}$ ion is in the $J_\\mathrm{eff}=1/2$ state because of strong spin-orbit coupling, and the weak trigonal elongation and crystal field contribute to the observed weak in-plane magnetic anisotropy. The strong $t_{2g}$-$e_g$ hopping via the strong Co 3$d$-I 5$p$ hybridization gives rise to a strong Kitaev interaction ($K_1$) at the first nearest neighbors (1NN), and the long Co-Co distance and the weak $t_{2g}$-$t_{2g}$ hoppings determine a weak Heisenberg interaction $J_1$. The resultant $|K_1/J_1|$ = 6.63 confirms a strong bond-dependent frustration, while the geometric frustration due to the 3NN Heisenberg interaction $J_3$ gets involved, and they all together result in the experimental helical AF order in CoI$_2$. We then propose to suppress the $J_3$ using a partial Mg substitution for Co, and indeed we find that Co$_{2/3}$Mg$_{1/3}$I$_2$ has the much reduced geometric frustration but hosts the robust bond-dependent frustration, and thus it would be a promising Kitaev material being so far closest to the QSL state.",
+      "pubdate": "Sat, 27 Dec 2025 03:48:35 +0000",
+      "authors": "Yaozhenghang Ma, Ke Yang, Yuxuan Zhou, Hua Wu"
+    },
+    "7b9813aeefebac78e41ed819bcd9e9e1": {
+      "id": "7b9813aeefebac78e41ed819bcd9e9e1",
+      "link": "http://arxiv.org/abs/2512.22021",
+      "title": "Site-Order Optimization in the Density Matrix Renormalization Group via Multi-Site Rearrangement",
+      "abstract": "In the approaches based on matrix-product states (MPSs), such as the density-matrix renormalization group (DMRG) method, the ordering of the sites crucially affects the computational accuracy. We investigate the performance of an algorithm that searches for the optimal site order by iterative local site rearrangement. We improve the algorithm by expanding the range of site rearrangement and apply it to a one-dimensional quantum Heisenberg model with random site permutation. The results indicate that increasing the range of the site rearrangement significantly improves the computational accuracy of the DMRG method. In particular, increasing the rearrangement range from two to three sites reduces the average relative error in the ground-state energy by 65% to 94% in the cases we tested. We also discuss the computational cost of the algorithm and its application as a preprocessing for MPS-based calculations.",
+      "pubdate": "Fri, 26 Dec 2025 12:59:58 +0000",
+      "authors": "Ryo Watanabe, Toshiya Hikihara, Hiroshi Ueda"
+    },
+    "8d38347e8ce2a42acc621ce8a2f5a396": {
+      "id": "8d38347e8ce2a42acc621ce8a2f5a396",
+      "link": "http://arxiv.org/abs/2512.21503",
+      "title": "Simulating triangle Hofstadter-Hubbard model with fermionic projected entangled simplex states",
+      "abstract": "The triangular Hofstadter-Hubbard model, realizable in moiré bilayers, provides a fertile ground for discovering correlated topological states. We investigate this model in the grand canonical ensemble by introducing a fermionic infinite projected entangled simplex state (iPESS) approach, which offers direct access to the stability of the emergent correlated states at the thermodynamic limit. Through numerically optimizing fermionic iPESS, we accurately capture the chiral spin liquid (CSL) phase in the Mott insulating regime, characterized by a uniform chiral order, entanglement spectrum and the appearance of gossamer correlation tails in spin channel. The intermediate-$U$ CSL is separated from the weak-$U$ Chern insulator by a Mott transition at $U_{c_1} \\approx 11.5$, signaled by changes in the charge fluctuation and compressibility. Finite-correlation-length scaling of the magnetization reveals a transition into a large-$U$ $120^\\circ$ Néel phase at $U_{c_2} \\approx 22.5$. Remarkably, with finite hole doping $δ$, we identify a uniform superconducting state with a finite pairing amplitude, whose order parameter displays a nearly universal phase winding across the $U$-$δ$ phase diagram. Our work demonstrates robust chiral superconductivity in the thermodynamic limit through doping Chern insulator and CSL.",
+      "pubdate": "Thu, 25 Dec 2025 04:24:37 +0000",
+      "authors": "Sen Niu, D. N. Sheng, Yang Peng"
     }
   }
 }
