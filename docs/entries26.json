@@ -1,6 +1,62 @@
 {
-  "last_updated": "2026-01-01T12:13:17.893372+00:00",
+  "last_updated": "2026-01-02T00:31:59.383965+00:00",
   "entries": {
+    "3d1cac313120585f16e31470b3f7f492": {
+      "id": "3d1cac313120585f16e31470b3f7f492",
+      "link": "http://arxiv.org/abs/2512.25011",
+      "title": "Parity order as a fundamental driver of bosonic topology",
+      "abstract": "Symmetry-protected topological (SPT) phases in interacting bosonic systems have been extensively studied, yet most realizations rely on fine-tuned interactions or enlarged symmetries. Here we show that a qualitatively different mechanism--parity order coupled to bond dimerization--acts as a fundamental driver of bosonic topology. Using density matrix renormalization group simulations, we identify two distinct topological phases absent in the purely dimerized model: an SPT phase at half filling stabilized by positive parity coupling, and a topological phase at unit filling stabilized by negative coupling that can be adiabatically connected to a trivial phase without breaking any symmetry. Our results establish parity order as a new organizing principle for correlation-driven bosonic topology.",
+      "pubdate": "Wed, 31 Dec 2025 17:58:45 +0000",
+      "authors": "Ashirbad Padhan, Harsh Nigam"
+    },
+    "af2ad4d3967d8790eaf18c02cd296217": {
+      "id": "af2ad4d3967d8790eaf18c02cd296217",
+      "link": "http://arxiv.org/abs/2512.24998",
+      "title": "Numerical study of boson mixtures with multi-component continuous matrix product states",
+      "abstract": "The continuous matrix product state (cMPS) ansatz is a promising numerical tool for studying quantum many-body systems in continuous space. Although it provides a clean framework that allows one to directly simulate continuous systems, the optimization of cMPS is known to be a very challenging task, especially in the case of multi-component systems. In this work, we have developed an improved optimization scheme for multi-component cMPS that enables simulations of bosonic quantum mixtures with substantially larger bond dimensions than previous works. We benchmark our method on the two-component Lieb-Liniger model, obtaining numerical results that agree well with analytical predictions. Our work paves the way for further numerical studies of quantum mixture systems using the cMPS ansatz.",
+      "pubdate": "Wed, 31 Dec 2025 17:49:35 +0000",
+      "authors": "Wei Tang, Benoît Tuybens, Jutho Haegeman"
+    },
+    "76aa70603c1001bcd751994fbe64024e": {
+      "id": "76aa70603c1001bcd751994fbe64024e",
+      "link": "http://arxiv.org/abs/2512.24663",
+      "title": "Renormalization Group Guided Tensor Network Structure Search",
+      "abstract": "Tensor network structure search (TN-SS) aims to automatically discover optimal network topologies and rank configurations for efficient tensor decomposition in high-dimensional data representation. Despite recent advances, existing TN-SS methods face significant limitations in computational tractability, structure adaptivity, and optimization robustness across diverse tensor characteristics. They struggle with three key challenges: single-scale optimization missing multi-scale structures, discrete search spaces hindering smooth structure evolution, and separated structure-parameter optimization causing computational inefficiency. We propose RGTN (Renormalization Group guided Tensor Network search), a physics-inspired framework transforming TN-SS via multi-scale renormalization group flows. Unlike fixed-scale discrete search methods, RGTN uses dynamic scale-transformation for continuous structure evolution across resolutions. Its core innovation includes learnable edge gates for optimization-stage topology modification and intelligent proposals based on physical quantities like node tension measuring local stress and edge information flow quantifying connectivity importance. Starting from low-complexity coarse scales and refining to finer ones, RGTN finds compact structures while escaping local minima via scale-induced perturbations. Extensive experiments on light field data, high-order synthetic tensors, and video completion tasks show RGTN achieves state-of-the-art compression ratios and runs 4-600$\\times$ faster than existing methods, validating the effectiveness of our physics-inspired approach.",
+      "pubdate": "Wed, 31 Dec 2025 06:31:43 +0000",
+      "authors": "Maolin Wang, Bowen Yu, Sheng Zhang, Linjie Mi, Wanyu Wang, Yiqi Wang, Pengyue Jia, Xuetao Wei, Zenglin Xu, Ruocheng Guo, Xiangyu Zhao"
+    },
+    "322579ff4b8bf04e4bd5f07a23ebca15": {
+      "id": "322579ff4b8bf04e4bd5f07a23ebca15",
+      "link": "http://arxiv.org/abs/2512.24390",
+      "title": "Les Houches Lectures Notes on Tensor Networks",
+      "abstract": "Tensor networks provide a powerful new framework for classifying and simulating correlated and topological phases of quantum matter. Their central premise is that strongly correlated matter can only be understood by studying the underlying entanglement structure and its associated (generalised) symmetries. In essence, tensor networks provide a compressed, holographic description of the complicated vacuum fluctuations in strongly correlated systems, and as such they break down the infamous many-body exponential wall. These lecture notes provide a concise overview of the most important conceptual, computational and mathematical aspects of this theory.",
+      "pubdate": "Tue, 30 Dec 2025 18:10:16 +0000",
+      "authors": "Bram Vancraeynest-De Cuiper, Weronika Wiesiolek, Frank Verstraete"
+    },
+    "06c75d042a2d37721d3dbff9d55d93e2": {
+      "id": "06c75d042a2d37721d3dbff9d55d93e2",
+      "link": "http://arxiv.org/abs/2512.24182",
+      "title": "Tensor-Network Analysis of Root Patterns in the XXX Model with Open Boundaries",
+      "abstract": "The string hypothesis for Bethe roots represents a cornerstone in the study of quantum integrable systems, providing access to physical quantities such as the ground-state energy and the finite-temperature free energy. While the $t-W$ scheme and the inhomogeneous $T-Q$ relation have enabled significant methodological advances for systems with broken $U(1)$ symmetry, the underlying physics induced by symmetry breaking remains largely unexplored, due to the previously unknown distributions of the transfer-matrix roots. In this paper, we propose a new approach to determining the patterns of zero roots and Bethe roots for the $Λ-θ$ and inhomogeneous Bethe ansatz equations using tensor-network algorithms. As an explicit example, we consider the isotropic Heisenberg spin chain with non-diagonal boundary conditions. The exact structures of both zero roots and Bethe roots are obtained in the ground state for large system sizes, up to ($N\\simeq 60$ and $100$). We find that even in the absence of $U(1)$ symmetry, the Bethe and zero roots still exhibit a highly structured pattern. The zero roots organize into bulk strings, boundary strings, and additional roots, forming two dominant lines with boundary-string attachments. Correspondingly, the Bethe roots can be classified into four distinct types: regular roots, line roots, arc roots, and paired-line roots. These structures are associated with a real-axis line, a vertical line, characteristic arcs in the complex plane, and boundary-induced conjugate pairs. Comparative analysis reveals that the $t-W$ scheme generates significantly simpler root topologies than those obtained via off-diagonal Bethe Ansatz.",
+      "pubdate": "Tue, 30 Dec 2025 12:35:52 +0000",
+      "authors": "Zhouzheng Ji, Pei Sun, Xiaotian Xu, Yi Qiao, Junpeng Cao, Wen-Li Yang"
+    },
+    "ecfaa1bffa160af1b1a344d16f16fe12": {
+      "id": "ecfaa1bffa160af1b1a344d16f16fe12",
+      "link": "http://arxiv.org/abs/2512.23917",
+      "title": "Tensor Computing Interface: An Application-Oriented, Lightweight Interface for Portable High-Performance Tensor Network Applications",
+      "abstract": "Tensor networks (TNs) are a central computational tool in quantum science and artificial intelligence. However, the lack of unified software interface across tensor-computing frameworks severely limits the portability of TN applications, coupling algorithmic development to specific hardware and software back ends. To address this challenge, we introduce the Tensor Computing Interface (TCI) -- an application-oriented, lightweight application programming interface designed to enable framework-independent, high-performance TN applications. TCI provides a well-defined type system that abstracts tensor objects together with a minimal yet expressive set of core functions covering essential tensor manipulations and tensor linear-algebra operations. Through numerical demonstrations on representative tensor-network applications, we show that codes written against TCI can be migrated seamlessly across heterogeneous hardware and software platforms while achieving performance comparable to native framework implementations. We further release an open-source implementation of TCI based on \\textit{Cytnx}, demonstrating its practicality and ease of integration with existing tensor-computing frameworks.",
+      "pubdate": "Tue, 30 Dec 2025 00:35:07 +0000",
+      "authors": "Rong-Yang Sun, Tomonori Shirakawa, Hidehiko Kohshiro, D. N. Sheng, Seiji Yunoki"
+    },
+    "587cc35a63c1ae6dbc3d5b1c1f99439f": {
+      "id": "587cc35a63c1ae6dbc3d5b1c1f99439f",
+      "link": "http://arxiv.org/abs/2512.23750",
+      "title": "Machine Learning Invariants of Tensors",
+      "abstract": "We propose a data-driven approach to identifying the functionally independent invariants that can be constructed from a tensor with a given symmetry structure. Our algorithm proceeds by first enumerating graphs, or tensor networks, that represent inequivalent contractions of a product of tensors, computing instances of these scalars using randomly generated data, and then seeking linear relations between invariants using numerical linear algebra. Such relations yield syzygies, or functional dependencies relating different invariants. We apply this approach in an extended case study of the independent invariants that can be constructed from an antisymmetric $3$-form $H_{μνρ}$ in six dimensions, finding five independent invariants. This result confirms that the most general Lagrangian for such a $3$-form, which depends on $H_{μνρ}$ but not its derivatives, is an arbitrary function of five variables, and we give explicit formulas relating other invariants to the five independent scalars in this generating set.",
+      "pubdate": "Fri, 26 Dec 2025 21:22:25 +0000",
+      "authors": "Athithan Elamaran, Christian Ferko, Sterling Scarlett"
+    },
     "5ccc90e37dabe11c35f69ad99100d270": {
       "id": "5ccc90e37dabe11c35f69ad99100d270",
       "link": "http://arxiv.org/abs/2512.23698",
@@ -10000,62 +10056,6 @@
       "abstract": "We consider the surface code under errors featuring both coherent and incoherent components and study the coherence of the corresponding logical noise channel and how this impacts information-theoretic measures of code performance, namely coherent information and quantum relative entropy. Using numerical simulations and developing a phenomenological field theory, focusing on the most general single-qubit X-error channel, we show that, for any nonzero incoherent noise component, the coherence of the logical noise is exponentially suppressed with the code distance. We also find that the information-theoretic measures require this suppression to detect optimal thresholds for Pauli recovery; for this they thus require increasingly large distances for increasing error coherence and ultimately break down for fully coherent errors. To obtain our results, we develop a statistical mechanics mapping and a corresponding matrix-product-state algorithm for approximate syndrome sampling. These methods enable the large scale simulation of these non-Pauli errors, including their maximum-likelihood thresholds, away from the limits captured by previous approaches.",
       "pubdate": "Mon, 30 Dec 2024 16:14:55 +0000",
       "authors": "Jan Behrends, Benjamin Béri"
-    },
-    "3d1cac313120585f16e31470b3f7f492": {
-      "id": "3d1cac313120585f16e31470b3f7f492",
-      "link": "http://arxiv.org/abs/2512.25011",
-      "title": "Parity order as a fundamental driver of bosonic topology",
-      "abstract": "Symmetry-protected topological (SPT) phases in interacting bosonic systems have been extensively studied, yet most realizations rely on fine-tuned interactions or enlarged symmetries. Here we show that a qualitatively different mechanism--parity order coupled to bond dimerization--acts as a fundamental driver of bosonic topology. Using density matrix renormalization group simulations, we identify two distinct topological phases absent in the purely dimerized model: an SPT phase at half filling stabilized by positive parity coupling, and a topological phase at unit filling stabilized by negative coupling that can be adiabatically connected to a trivial phase without breaking any symmetry. Our results establish parity order as a new organizing principle for correlation-driven bosonic topology.",
-      "pubdate": "Wed, 31 Dec 2025 17:58:45 +0000",
-      "authors": "Ashirbad Padhan, Harsh Nigam"
-    },
-    "af2ad4d3967d8790eaf18c02cd296217": {
-      "id": "af2ad4d3967d8790eaf18c02cd296217",
-      "link": "http://arxiv.org/abs/2512.24998",
-      "title": "Numerical study of boson mixtures with multi-component continuous matrix product states",
-      "abstract": "The continuous matrix product state (cMPS) ansatz is a promising numerical tool for studying quantum many-body systems in continuous space. Although it provides a clean framework that allows one to directly simulate continuous systems, the optimization of cMPS is known to be a very challenging task, especially in the case of multi-component systems. In this work, we have developed an improved optimization scheme for multi-component cMPS that enables simulations of bosonic quantum mixtures with substantially larger bond dimensions than previous works. We benchmark our method on the two-component Lieb-Liniger model, obtaining numerical results that agree well with analytical predictions. Our work paves the way for further numerical studies of quantum mixture systems using the cMPS ansatz.",
-      "pubdate": "Wed, 31 Dec 2025 17:49:35 +0000",
-      "authors": "Wei Tang, Benoît Tuybens, Jutho Haegeman"
-    },
-    "76aa70603c1001bcd751994fbe64024e": {
-      "id": "76aa70603c1001bcd751994fbe64024e",
-      "link": "http://arxiv.org/abs/2512.24663",
-      "title": "Renormalization Group Guided Tensor Network Structure Search",
-      "abstract": "Tensor network structure search (TN-SS) aims to automatically discover optimal network topologies and rank configurations for efficient tensor decomposition in high-dimensional data representation. Despite recent advances, existing TN-SS methods face significant limitations in computational tractability, structure adaptivity, and optimization robustness across diverse tensor characteristics. They struggle with three key challenges: single-scale optimization missing multi-scale structures, discrete search spaces hindering smooth structure evolution, and separated structure-parameter optimization causing computational inefficiency. We propose RGTN (Renormalization Group guided Tensor Network search), a physics-inspired framework transforming TN-SS via multi-scale renormalization group flows. Unlike fixed-scale discrete search methods, RGTN uses dynamic scale-transformation for continuous structure evolution across resolutions. Its core innovation includes learnable edge gates for optimization-stage topology modification and intelligent proposals based on physical quantities like node tension measuring local stress and edge information flow quantifying connectivity importance. Starting from low-complexity coarse scales and refining to finer ones, RGTN finds compact structures while escaping local minima via scale-induced perturbations. Extensive experiments on light field data, high-order synthetic tensors, and video completion tasks show RGTN achieves state-of-the-art compression ratios and runs 4-600$\\times$ faster than existing methods, validating the effectiveness of our physics-inspired approach.",
-      "pubdate": "Wed, 31 Dec 2025 06:31:43 +0000",
-      "authors": "Maolin Wang, Bowen Yu, Sheng Zhang, Linjie Mi, Wanyu Wang, Yiqi Wang, Pengyue Jia, Xuetao Wei, Zenglin Xu, Ruocheng Guo, Xiangyu Zhao"
-    },
-    "322579ff4b8bf04e4bd5f07a23ebca15": {
-      "id": "322579ff4b8bf04e4bd5f07a23ebca15",
-      "link": "http://arxiv.org/abs/2512.24390",
-      "title": "Les Houches Lectures Notes on Tensor Networks",
-      "abstract": "Tensor networks provide a powerful new framework for classifying and simulating correlated and topological phases of quantum matter. Their central premise is that strongly correlated matter can only be understood by studying the underlying entanglement structure and its associated (generalised) symmetries. In essence, tensor networks provide a compressed, holographic description of the complicated vacuum fluctuations in strongly correlated systems, and as such they break down the infamous many-body exponential wall. These lecture notes provide a concise overview of the most important conceptual, computational and mathematical aspects of this theory.",
-      "pubdate": "Tue, 30 Dec 2025 18:10:16 +0000",
-      "authors": "Bram Vancraeynest-De Cuiper, Weronika Wiesiolek, Frank Verstraete"
-    },
-    "06c75d042a2d37721d3dbff9d55d93e2": {
-      "id": "06c75d042a2d37721d3dbff9d55d93e2",
-      "link": "http://arxiv.org/abs/2512.24182",
-      "title": "Tensor-Network Analysis of Root Patterns in the XXX Model with Open Boundaries",
-      "abstract": "The string hypothesis for Bethe roots represents a cornerstone in the study of quantum integrable systems, providing access to physical quantities such as the ground-state energy and the finite-temperature free energy. While the $t-W$ scheme and the inhomogeneous $T-Q$ relation have enabled significant methodological advances for systems with broken $U(1)$ symmetry, the underlying physics induced by symmetry breaking remains largely unexplored, due to the previously unknown distributions of the transfer-matrix roots. In this paper, we propose a new approach to determining the patterns of zero roots and Bethe roots for the $Λ-θ$ and inhomogeneous Bethe ansatz equations using tensor-network algorithms. As an explicit example, we consider the isotropic Heisenberg spin chain with non-diagonal boundary conditions. The exact structures of both zero roots and Bethe roots are obtained in the ground state for large system sizes, up to ($N\\simeq 60$ and $100$). We find that even in the absence of $U(1)$ symmetry, the Bethe and zero roots still exhibit a highly structured pattern. The zero roots organize into bulk strings, boundary strings, and additional roots, forming two dominant lines with boundary-string attachments. Correspondingly, the Bethe roots can be classified into four distinct types: regular roots, line roots, arc roots, and paired-line roots. These structures are associated with a real-axis line, a vertical line, characteristic arcs in the complex plane, and boundary-induced conjugate pairs. Comparative analysis reveals that the $t-W$ scheme generates significantly simpler root topologies than those obtained via off-diagonal Bethe Ansatz.",
-      "pubdate": "Tue, 30 Dec 2025 12:35:52 +0000",
-      "authors": "Zhouzheng Ji, Pei Sun, Xiaotian Xu, Yi Qiao, Junpeng Cao, Wen-Li Yang"
-    },
-    "ecfaa1bffa160af1b1a344d16f16fe12": {
-      "id": "ecfaa1bffa160af1b1a344d16f16fe12",
-      "link": "http://arxiv.org/abs/2512.23917",
-      "title": "Tensor Computing Interface: An Application-Oriented, Lightweight Interface for Portable High-Performance Tensor Network Applications",
-      "abstract": "Tensor networks (TNs) are a central computational tool in quantum science and artificial intelligence. However, the lack of unified software interface across tensor-computing frameworks severely limits the portability of TN applications, coupling algorithmic development to specific hardware and software back ends. To address this challenge, we introduce the Tensor Computing Interface (TCI) -- an application-oriented, lightweight application programming interface designed to enable framework-independent, high-performance TN applications. TCI provides a well-defined type system that abstracts tensor objects together with a minimal yet expressive set of core functions covering essential tensor manipulations and tensor linear-algebra operations. Through numerical demonstrations on representative tensor-network applications, we show that codes written against TCI can be migrated seamlessly across heterogeneous hardware and software platforms while achieving performance comparable to native framework implementations. We further release an open-source implementation of TCI based on \\textit{Cytnx}, demonstrating its practicality and ease of integration with existing tensor-computing frameworks.",
-      "pubdate": "Tue, 30 Dec 2025 00:35:07 +0000",
-      "authors": "Rong-Yang Sun, Tomonori Shirakawa, Hidehiko Kohshiro, D. N. Sheng, Seiji Yunoki"
-    },
-    "587cc35a63c1ae6dbc3d5b1c1f99439f": {
-      "id": "587cc35a63c1ae6dbc3d5b1c1f99439f",
-      "link": "http://arxiv.org/abs/2512.23750",
-      "title": "Machine Learning Invariants of Tensors",
-      "abstract": "We propose a data-driven approach to identifying the functionally independent invariants that can be constructed from a tensor with a given symmetry structure. Our algorithm proceeds by first enumerating graphs, or tensor networks, that represent inequivalent contractions of a product of tensors, computing instances of these scalars using randomly generated data, and then seeking linear relations between invariants using numerical linear algebra. Such relations yield syzygies, or functional dependencies relating different invariants. We apply this approach in an extended case study of the independent invariants that can be constructed from an antisymmetric $3$-form $H_{μνρ}$ in six dimensions, finding five independent invariants. This result confirms that the most general Lagrangian for such a $3$-form, which depends on $H_{μνρ}$ but not its derivatives, is an arbitrary function of five variables, and we give explicit formulas relating other invariants to the five independent scalars in this generating set.",
-      "pubdate": "Fri, 26 Dec 2025 21:22:25 +0000",
-      "authors": "Athithan Elamaran, Christian Ferko, Sterling Scarlett"
     }
   }
 }
