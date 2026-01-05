@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 05 Jan 2026 00:34:44 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Jan 2026 12:13:38 +0000</lastBuildDate>
+    <item>
+      <title>Full grid solution for multi-asset options pricing with tensor networks</title>
+      <link>http://arxiv.org/abs/2601.00009</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Lucas Arenstein, Michael Kastoryano&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2601.00009'&gt;arXiv:2601.00009&lt;/a&gt;] Published Sat, 20 Dec 2025 17:24:57 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2601.00009</guid>
+      <pubDate>Sat, 20 Dec 2025 17:24:57 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
     <item>
       <title>The surface code beyond Pauli channels: Logical noise coherence, information-theoretic measures, and errorfield-double phenomenology</title>
       <link>http://arxiv.org/abs/2412.21055</link>

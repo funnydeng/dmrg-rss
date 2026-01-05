@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-05T00:34:44.309019+00:00",
+  "last_updated": "2026-01-05T12:13:38.439560+00:00",
   "entries": {
     "3d1cac313120585f16e31470b3f7f492": {
       "id": "3d1cac313120585f16e31470b3f7f492",
@@ -10056,6 +10056,14 @@
       "abstract": "We consider the surface code under errors featuring both coherent and incoherent components and study the coherence of the corresponding logical noise channel and how this impacts information-theoretic measures of code performance, namely coherent information and quantum relative entropy. Using numerical simulations and developing a phenomenological field theory, focusing on the most general single-qubit X-error channel, we show that, for any nonzero incoherent noise component, the coherence of the logical noise is exponentially suppressed with the code distance. We also find that the information-theoretic measures require this suppression to detect optimal thresholds for Pauli recovery; for this they thus require increasingly large distances for increasing error coherence and ultimately break down for fully coherent errors. To obtain our results, we develop a statistical mechanics mapping and a corresponding matrix-product-state algorithm for approximate syndrome sampling. These methods enable the large scale simulation of these non-Pauli errors, including their maximum-likelihood thresholds, away from the limits captured by previous approaches.",
       "pubdate": "Mon, 30 Dec 2024 16:14:55 +0000",
       "authors": "Jan Behrends, Benjamin Béri"
+    },
+    "5860b5d1c3ec86cd9f072dcbce64d786": {
+      "id": "5860b5d1c3ec86cd9f072dcbce64d786",
+      "link": "http://arxiv.org/abs/2601.00009",
+      "title": "Full grid solution for multi-asset options pricing with tensor networks",
+      "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
+      "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
+      "authors": "Lucas Arenstein, Michael Kastoryano"
     }
   }
 }
