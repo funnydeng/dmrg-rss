@@ -8,14 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 05 Jan 2026 12:13:38 +0000</lastBuildDate>
-    <item>
-      <title>Full grid solution for multi-asset options pricing with tensor networks</title>
-      <link>http://arxiv.org/abs/2601.00009</link>
-      <description>&lt;b&gt;Author(s):&lt;/b&gt; Lucas Arenstein, Michael Kastoryano&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2601.00009'&gt;arXiv:2601.00009&lt;/a&gt;] Published Sat, 20 Dec 2025 17:24:57 UTC&lt;/b&gt;</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2601.00009</guid>
-      <pubDate>Sat, 20 Dec 2025 17:24:57 +0000</pubDate>
-    <dc:creator>Unknown</dc:creator></item>
+    <lastBuildDate>Tue, 06 Jan 2026 00:31:52 +0000</lastBuildDate>
     <item>
       <title>The surface code beyond Pauli channels: Logical noise coherence, information-theoretic measures, and errorfield-double phenomenology</title>
       <link>http://arxiv.org/abs/2412.21055</link>
@@ -8877,6 +8870,13 @@
       <description>&lt;b&gt;Author(s):&lt;/b&gt; Ashirbad Padhan, Harsh Nigam&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; Symmetry-protected topological (SPT) phases in interacting bosonic systems have been extensively studied, yet most realizations rely on fine-tuned interactions or enlarged symmetries. Here we show that a qualitatively different mechanism--parity order coupled to bond dimerization--acts as a fundamental driver of bosonic topology. Using density matrix renormalization group simulations, we identify two distinct topological phases absent in the purely dimerized model: an SPT phase at half filling stabilized by positive parity coupling, and a topological phase at unit filling stabilized by negative coupling that can be adiabatically connected to a trivial phase without breaking any symmetry. Our results establish parity order as a new organizing principle for correlation-driven bosonic topology.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2512.25011'&gt;arXiv:2512.25011&lt;/a&gt;] Published Wed, 31 Dec 2025 17:58:45 UTC&lt;/b&gt;</description>
       <guid isPermaLink="false">http://arxiv.org/abs/2512.25011</guid>
       <pubDate>Wed, 31 Dec 2025 17:58:45 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <title>Full grid solution for multi-asset options pricing with tensor networks</title>
+      <link>http://arxiv.org/abs/2601.00009</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Lucas Arenstein, Michael Kastoryano&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2601.00009'&gt;arXiv:2601.00009&lt;/a&gt;] Published Sat, 20 Dec 2025 17:24:57 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2601.00009</guid>
+      <pubDate>Sat, 20 Dec 2025 17:24:57 +0000</pubDate>
     <dc:creator>Unknown</dc:creator></item>
   </channel>
 </rss>
