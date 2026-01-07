@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-07T00:31:04.964777+00:00",
+  "last_updated": "2026-01-07T12:13:19.493312+00:00",
   "entries": {
     "761ca5c1497bcbaf141f30007346f8ef": {
       "id": "761ca5c1497bcbaf141f30007346f8ef",
@@ -56,6 +56,30 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "3087347f525d447cb71e20070534e810": {
+      "id": "3087347f525d447cb71e20070534e810",
+      "link": "http://arxiv.org/abs/2601.03035",
+      "title": "Who can compete with quantum computers? Lecture notes on quantum inspired tensor networks computational techniques",
+      "abstract": "This is a set of lectures on tensor networks with a strong emphasis on the core algorithms involving Matrix Product States (MPS) and Matrix Product Operators (MPO). Compared to other presentations, particular care has been given to disentangle aspects of tensor networks from the quantum many-body problem: MPO/MPS algorithms are presented as a way to deal with linear algebra on extremely (exponentially) large matrices and vectors, regardless of any particular application. The lectures include well-known algorithms to find eigenvectors of MPOs (the celebrated DMRG), solve linear problems, and recent learning algorithms that allow one to map a known function into an MPS (the Tensor Cross Interpolation, or TCI, algorithm). The lectures end with a discussion of how to represent functions and perform calculus with tensor networks using the \"quantics\" representation. They include the detailed analytical construction of important MPOs such as those for differentiation, indefinite integration, convolution, and the quantum Fourier transform. Three concrete applications are discussed in detail: the simulation of a quantum computer (either exactly or with compression), the simulation of a quantum annealer, and techniques to solve partial differential equations (e.g. Poisson, diffusion, or Gross-Pitaevskii) within the \"quantics\" representation. The lectures have been designed to be accessible to a first-year PhD student and include detailed proofs of all statements.",
+      "pubdate": "Tue, 06 Jan 2026 14:09:10 +0000",
+      "authors": "Xavier Waintal, Chen-How Huang, Christoph W. Groth"
+    },
+    "818a0e5f490c9e5b9a4dbc81fadf2f2b": {
+      "id": "818a0e5f490c9e5b9a4dbc81fadf2f2b",
+      "link": "http://arxiv.org/abs/2601.02459",
+      "title": "Asymptotic freedom, lost: Complex conformal field theory in the two-dimensional $O(N>2)$ nonlinear sigma model and its realization in the spin-1 Heisenberg chain",
+      "abstract": "The two-dimensional $O(N)$ nonlinear sigma model (NLSM) is asymptotically free for $N>2$: it exhibits neither a nontrivial fixed point nor spontaneous symmetry-breaking. Here we show that a nontrivial fixed point generically does exist in the $\\textit{complex}$ coupling plane and is described by a complex conformal field theory (CCFT). This CCFT fixed point is generic in the sense that it has a single relevant singlet operator, and is thus expected to arise in any non-Hermitian model with $O(N)$ symmetry upon tuning a single complex parameter. We confirm this prediction numerically by locating the CCFT at $N = 3$ in a non-Hermitian spin-1 antiferromagnetic Heisenberg chain, finding good agreement between the complex central charge and scaling dimensions and those obtained by analytic continuation of real fixed points from $N\\leq 2$. We further construct a realistic Lindbladian for a spin-1 chain whose no-click dynamics are governed by the non-Hermitian Hamiltonian realizing the CCFT. Since the CCFT vacuum is the eigenstate with the smallest decay rate, the system naturally relaxes under dissipative dynamics toward a CFT state, thus providing a route to preparing long-range entangled states through engineered dissipation.",
+      "pubdate": "Mon, 05 Jan 2026 19:00:00 +0000",
+      "authors": "Christopher Yang, Thomas Scaffidi"
+    },
+    "3ee3f9297dea26e021fd411bf35d8e54": {
+      "id": "3ee3f9297dea26e021fd411bf35d8e54",
+      "link": "http://arxiv.org/abs/2601.02681",
+      "title": "Tensor renormalization group approach to critical phenomena via symmetry-twisted partition functions",
+      "abstract": "The locality of field theories strongly constrains the possible behaviors of symmetry-twisted partition functions, and thus they serve as order parameters to detect low-energy realizations of global symmetries, such as spontaneous symmetry breaking (SSB). We demonstrate that the tensor renormalization group (TRG) offers an efficient framework to compute the symmetry-twisted partition functions, which enables us to detect the symmetry-breaking transition and also to study associated critical phenomena. As concrete examples of SSB, we investigate the two-dimensional (2D) classical Ising model and the three-dimensional (3D) classical $O(2)$ nonlinear sigma model, and we identify their critical points solely from the twisted partition function. By employing the finite-size scaling argument, we find the critical temperature $T_c=2.2017(2)$ with the critical exponent $ν= 0.663(33)$ for the 3D $O(2)$ model. In addition, we also study the Berezinskii-Kosterlitz-Thouless (BKT) criticality of the 2D classical $O(2)$ model by extracting the helicity modulus from the twisted partition functions, and we obtain the BKT transition temperature, $T_{\\mathrm{BKT}}=0.8928(2)$.",
+      "pubdate": "Tue, 06 Jan 2026 03:27:16 +0000",
+      "authors": "Shinichiro Akiyama, Raghav G. Jha, Jun Maeda, Yuya Tanizaki, Judah Unmuth-Yockey"
     }
   }
 }
