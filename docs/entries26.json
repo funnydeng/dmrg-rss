@@ -1,14 +1,6 @@
 {
-  "last_updated": "2026-01-06T12:13:09.336332+00:00",
+  "last_updated": "2026-01-07T00:31:04.964777+00:00",
   "entries": {
-    "5860b5d1c3ec86cd9f072dcbce64d786": {
-      "id": "5860b5d1c3ec86cd9f072dcbce64d786",
-      "link": "http://arxiv.org/abs/2601.00009",
-      "title": "Full grid solution for multi-asset options pricing with tensor networks",
-      "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
-      "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
-      "authors": "Lucas Arenstein, Michael Kastoryano"
-    },
     "761ca5c1497bcbaf141f30007346f8ef": {
       "id": "761ca5c1497bcbaf141f30007346f8ef",
       "link": "http://arxiv.org/abs/2601.02331",
@@ -56,6 +48,14 @@
       "abstract": "Over-parameterization is commonly used to increase the expressivity of variational quantum circuits (VQCs), yet deeper and more highly parameterized circuits often exhibit poor trainability and limited generalization. In this work, we provide a theoretical explanation for this phenomenon from a function-class perspective. We show that sufficiently expressive, unstructured variational ansatze enter a Haar-like universality class in which both observable expectation values and parameter gradients concentrate exponentially with system size. As a consequence, the hypothesis class induced by such circuits collapses with high probability to a narrow family of near-constant functions, a phenomenon we term simplicity bias, with barren plateaus arising as a consequence rather than the root cause. Using tools from random matrix theory and concentration of measure, we rigorously characterize this universality class and establish uniform hypothesis-class collapse over finite datasets. We further show that this collapse is not unavoidable: tensor-structured VQCs, including tensor-network-based and tensor-hypernetwork parameterizations, lie outside the Haar-like universality class. By restricting the accessible unitary ensemble through bounded tensor rank or bond dimension, these architectures prevent concentration of measure, preserve output variability for local observables, and retain non-degenerate gradient signals even in over-parameterized regimes. Together, our results unify barren plateaus, expressivity limits, and generalization collapse under a single structural mechanism rooted in random-matrix universality, highlighting the central role of architectural inductive bias in variational quantum algorithms.",
       "pubdate": "Mon, 05 Jan 2026 08:04:33 +0000",
       "authors": "Jun Qi, Chao-Han Huck Yang, Pin-Yu Chen, Min-Hsiu Hsieh"
+    },
+    "5860b5d1c3ec86cd9f072dcbce64d786": {
+      "id": "5860b5d1c3ec86cd9f072dcbce64d786",
+      "link": "http://arxiv.org/abs/2601.00009",
+      "title": "Full grid solution for multi-asset options pricing with tensor networks",
+      "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
+      "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
+      "authors": "Lucas Arenstein, Michael Kastoryano"
     }
   }
 }
