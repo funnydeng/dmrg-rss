@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-01-09T00:31:39.053093+00:00",
+  "last_updated": "2026-01-09T12:13:32.985574+00:00",
   "entries": {
+    "d9bb3cd86ff552921c4025e8aeeb7d31": {
+      "id": "d9bb3cd86ff552921c4025e8aeeb7d31",
+      "link": "http://arxiv.org/abs/2601.04172",
+      "title": "Stochastic Path Compression for Spectral Tensor Networks on Cyclic Graphs",
+      "abstract": "We develop a new approach to compress cyclic tensor networks called stochastic path compression (SPC) that uses an iterative importance sampling procedure to target edges with large bond-dimensions. Closed random walks in SPC form compression pathways that spatially localize large bond-dimensions in the tensor network. Analogous to the phase separation of two immiscible liquids, SPC separates the graph of bond-dimensions into spatially distinct high and low density regions. When combined with our integral decimation algorithm, SPC facilitates the accurate compression of cyclic tensor networks with continuous degrees of freedom. To benchmark and illustrate the methods, we compute the absolute thermodynamics of $q$-state clock models on two-dimensional square lattices and an XY model on a Watts-Strogatz graph, which is a small-world network with random connectivity between spins.",
+      "pubdate": "Wed, 07 Jan 2026 18:39:49 +0000",
+      "authors": "Ryan T. Grimm, Joel D. Eaves"
+    },
+    "533d41a8b3ea643ac7da4a576c0cd2aa": {
+      "id": "533d41a8b3ea643ac7da4a576c0cd2aa",
+      "link": "http://arxiv.org/abs/2601.03885",
+      "title": "Local Interpolation via Low-Rank Tensor Trains",
+      "abstract": "Tensor Train (TT) decompositions provide a powerful framework to compress grid-structured data, such as sampled function values, on regular Cartesian grids. Such high compression, in turn, enables efficient high-dimensional computations. Exact TT representations are only available for simple analytic functions. Furthermore, global polynomial or Fourier expansions typically yield TT-ranks that grow proportionally with the number of basis terms. State-of-the-art methods are often prohibitively expensive or fail to recover the underlying low-rank structure. We propose a low-rank TT interpolation framework that, given a TT describing a discrete (scalar-, vector-, or tensor-valued) function on a coarse regular grid with $n$ cores, constructs a finer-scale version of the same function represented by a TT with $n+m$ cores, where the last $m$ cores maintain constant rank. Our method guarantees a $\\ell^{2}$-norm error bound independent of the total number of cores, achieves exponential compression at fixed accuracy, and admits logarithmic complexity with respect of the number of grid points. We validate its performance through numerical experiments, including 1D, 2D, and 3D applications such as: 2D and 3D airfoil mask embeddings, image super-resolution, and synthetic noise fields such as 3D synthetic turbulence. In particular, we generate fractal noise fields directly in TT format with logarithmic complexity and memory. This work opens a path to scalable TT-native solvers with complex geometries and multiscale generative models, with implications from scientific simulation to imaging and real-time graphics.",
+      "pubdate": "Wed, 07 Jan 2026 12:54:06 +0000",
+      "authors": "Siddhartha E. Guzman, Egor Tiunov, Leandro Aolita"
+    },
+    "c6018cdb707457cfd778cda148724987": {
+      "id": "c6018cdb707457cfd778cda148724987",
+      "link": "http://arxiv.org/abs/2601.03832",
+      "title": "Iterative Matrix Product State Simulation for Scalable Grover's Algorithm",
+      "abstract": "Grover's algorithm is a cornerstone of quantum search algorithm, offering quadratic speedup for unstructured problems. However, limited qubit counts and noise in today's noisy intermediate-scale quantum (NISQ) devices hinder large-scale hardware validation, making efficient classical simulation essential for algorithm development and hardware assessment. We present an iterative Grover simulation framework based on matrix product states (MPS) to efficiently simulate large-scale Grover's algorithm. Within the NVIDIA CUDA-Q environment, we compare iterative and common (non-iterative) Grover's circuits across statevector and MPS backends. On the MPS backend at 29 qubits, the iterative Grover's circuit runs about 15x faster than the common (non-iterative) Grover's circuit, and about 3-4x faster than the statevector backend. In sampling experiments, Grover's circuits demonstrate strong low-shot stability: as the qubit number increases beyond 13, a single-shot measurement still closely mirrors the results from 4,096 shots, indicating reliable estimates with minimal sampling and significant potential to cut measurement costs. Overall, an iterative MPS design delivers speed and scalability for Grover's circuit simulation, enabling practical large-scale implementations.",
+      "pubdate": "Wed, 07 Jan 2026 11:55:26 +0000",
+      "authors": "Mei Ian Sam, Tzu-Ling Kuo, Tai-Yue Li"
+    },
     "3087347f525d447cb71e20070534e810": {
       "id": "3087347f525d447cb71e20070534e810",
       "link": "http://arxiv.org/abs/2601.03035",
@@ -81,29 +105,61 @@
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
     },
-    "d9bb3cd86ff552921c4025e8aeeb7d31": {
-      "id": "d9bb3cd86ff552921c4025e8aeeb7d31",
-      "link": "http://arxiv.org/abs/2601.04172",
-      "title": "Stochastic Path Compression for Spectral Tensor Networks on Cyclic Graphs",
-      "abstract": "We develop a new approach to compress cyclic tensor networks called stochastic path compression (SPC) that uses an iterative importance sampling procedure to target edges with large bond-dimensions. Closed random walks in SPC form compression pathways that spatially localize large bond-dimensions in the tensor network. Analogous to the phase separation of two immiscible liquids, SPC separates the graph of bond-dimensions into spatially distinct high and low density regions. When combined with our integral decimation algorithm, SPC facilitates the accurate compression of cyclic tensor networks with continuous degrees of freedom. To benchmark and illustrate the methods, we compute the absolute thermodynamics of $q$-state clock models on two-dimensional square lattices and an XY model on a Watts-Strogatz graph, which is a small-world network with random connectivity between spins.",
-      "pubdate": "Wed, 07 Jan 2026 18:39:49 +0000",
-      "authors": "Ryan T. Grimm, Joel D. Eaves"
+    "d1801387ed77b595fa25931c2fa349b2": {
+      "id": "d1801387ed77b595fa25931c2fa349b2",
+      "link": "http://arxiv.org/abs/2601.05196",
+      "title": "Chiral Graviton Modes in Fermionic Fractional Chern Insulators",
+      "abstract": "Chiral graviton modes are hallmark collective excitations of Fractional Quantum Hall (FQH) liquids. However, their existence on the lattice, where continuum symmetries that protect them from decay are lost, is still an open and urgent question, especially considering the recent advances in the realization of Fractional Chern Insulators (FCI) in transition metal dichalcogenides and rhombohedral pentalayer graphene. Here we present a comprehensive theoretical and numerical study of graviton-modes in fermionic FCI, and thoroughly demonstrate their existence. We first derive a lattice stress tensor operator in the context of the fermionic Harper-Hofstadter(HH) model which captures the graviton in the flat band limit. Importantly, we discover that such lattice stress-tensor operators are deeply connected to lattice quadrupolar density correlators, readily generalizable to generic Chern bands. We then explicitly show the adiabatic connection between FQH and FCI chiral graviton modes by interpolating from a low flux HH model to a Checkerboard lattice model that hosts a topological flat band. In particular, using state-of-the-art matrix product state and exact diagonalization simulations, we provide strong evidence that chiral graviton modes are long-lived excitations in FCIs despite the lack of continuous symmetries and the scattering with a two-magnetoroton continuum. By means of a careful finite-size analysis, we show that the lattice generates a finite but small intrinsic decay rate for the graviton mode. We discuss the relevance of our results for the exploration of graviton modes in FCI phases realized in solid state settings, as well as cold atom experiments.",
+      "pubdate": "Thu, 08 Jan 2026 18:18:45 +0000",
+      "authors": "Min Long, Zeno Bacciconi, Hongyu Lu, Hernan B. Xavier, Zi Yang Meng, Marcello Dalmonte"
     },
-    "533d41a8b3ea643ac7da4a576c0cd2aa": {
-      "id": "533d41a8b3ea643ac7da4a576c0cd2aa",
-      "link": "http://arxiv.org/abs/2601.03885",
-      "title": "Local Interpolation via Low-Rank Tensor Trains",
-      "abstract": "Tensor Train (TT) decompositions provide a powerful framework to compress grid-structured data, such as sampled function values, on regular Cartesian grids. Such high compression, in turn, enables efficient high-dimensional computations. Exact TT representations are only available for simple analytic functions. Furthermore, global polynomial or Fourier expansions typically yield TT-ranks that grow proportionally with the number of basis terms. State-of-the-art methods are often prohibitively expensive or fail to recover the underlying low-rank structure. We propose a low-rank TT interpolation framework that, given a TT describing a discrete (scalar-, vector-, or tensor-valued) function on a coarse regular grid with $n$ cores, constructs a finer-scale version of the same function represented by a TT with $n+m$ cores, where the last $m$ cores maintain constant rank. Our method guarantees a $\\ell^{2}$-norm error bound independent of the total number of cores, achieves exponential compression at fixed accuracy, and admits logarithmic complexity with respect of the number of grid points. We validate its performance through numerical experiments, including 1D, 2D, and 3D applications such as: 2D and 3D airfoil mask embeddings, image super-resolution, and synthetic noise fields such as 3D synthetic turbulence. In particular, we generate fractal noise fields directly in TT format with logarithmic complexity and memory. This work opens a path to scalable TT-native solvers with complex geometries and multiscale generative models, with implications from scientific simulation to imaging and real-time graphics.",
-      "pubdate": "Wed, 07 Jan 2026 12:54:06 +0000",
-      "authors": "Siddhartha E. Guzman, Egor Tiunov, Leandro Aolita"
+    "d17bd70d5ece5255fe5e1c0a759ea98b": {
+      "id": "d17bd70d5ece5255fe5e1c0a759ea98b",
+      "link": "http://arxiv.org/abs/2601.05131",
+      "title": "Simulation of noisy quantum circuits using frame representations",
+      "abstract": "One of the core research questions in the theory of quantum computing is to find out to what precise extent the classical simulation of a noisy quantum circuits is possible and where potential quantum advantages can set in. In this work, we introduce a unified framework for the classical simulation of quantum circuits based on frame theory, encompassing and generalizing a broad class of existing simulation strategies. Within this framework, the computational cost of a simulation algorithm is determined by the one-norm of an associated quasi-probability distribution, providing a common quantitative measure across different simulation approaches. This enables a comprehensive perspective on common methods for the simulation of noisy circuits based on different quantum resources, such as entanglement or non-stabilizerness. It further provides a clear scheme for generating novel classical simulation algorithms. Indeed, by exploring different choices of frames within this formalism and resorting to tools of convex optimization, we are able not only to obtain new insights and improved bounds for existing methods -- such as stabilizer state simulation or Pauli back-propagation -- but also to discover a new approach with an improved performance based on a generalization of the Pauli frame. We, thereby, show that classical simulation techniques can directly benefit from a perspective -- that of frames -- that goes beyond the traditional classification of quantum resources.",
+      "pubdate": "Thu, 08 Jan 2026 17:20:49 +0000",
+      "authors": "Janek Denzler, Jose Carrasco, Jens Eisert, Tommaso Guaita"
     },
-    "c6018cdb707457cfd778cda148724987": {
-      "id": "c6018cdb707457cfd778cda148724987",
-      "link": "http://arxiv.org/abs/2601.03832",
-      "title": "Iterative Matrix Product State Simulation for Scalable Grover's Algorithm",
-      "abstract": "Grover's algorithm is a cornerstone of quantum search algorithm, offering quadratic speedup for unstructured problems. However, limited qubit counts and noise in today's noisy intermediate-scale quantum (NISQ) devices hinder large-scale hardware validation, making efficient classical simulation essential for algorithm development and hardware assessment. We present an iterative Grover simulation framework based on matrix product states (MPS) to efficiently simulate large-scale Grover's algorithm. Within the NVIDIA CUDA-Q environment, we compare iterative and common (non-iterative) Grover's circuits across statevector and MPS backends. On the MPS backend at 29 qubits, the iterative Grover's circuit runs about 15x faster than the common (non-iterative) Grover's circuit, and about 3-4x faster than the statevector backend. In sampling experiments, Grover's circuits demonstrate strong low-shot stability: as the qubit number increases beyond 13, a single-shot measurement still closely mirrors the results from 4,096 shots, indicating reliable estimates with minimal sampling and significant potential to cut measurement costs. Overall, an iterative MPS design delivers speed and scalability for Grover's circuit simulation, enabling practical large-scale implementations.",
-      "pubdate": "Wed, 07 Jan 2026 11:55:26 +0000",
-      "authors": "Mei Ian Sam, Tzu-Ling Kuo, Tai-Yue Li"
+    "0d53a8ed0a3870bd5eb633a687ff87a7": {
+      "id": "0d53a8ed0a3870bd5eb633a687ff87a7",
+      "link": "http://arxiv.org/abs/2601.04729",
+      "title": "Probing quantum critical crossover via impurity renormalization group",
+      "abstract": "Quantum impurities can host exotic many-body states that serve as sensitive probes of bath correlations. However, quantitative and non-perturbative methods for determining impurity thermodynamics in such settings remain scarce. Here, we introduce an impurity renormalization group approach that merges the tensor-network representation with the numerical renormalization group cutoff scheme. This method overcomes conventional limitations by treating bath correlations and impurity interactions on an equal footing. Applying our approach to the finite-temperature quantum critical regime of quantum spin systems, we uncover striking impurity-induced phenomena. In a coupled Heisenberg ladder, the impurity triggers a fractionalization of the local magnetic moment. Moreover, the derivative of the impurity susceptibility develops cusps that mark the crossover into the quantum critical regime. We also observe an exotic evolution of the spin correlation function driven by the interplay between bath correlations and the impurity. Our results demonstrate that this method can efficiently solve correlated systems with defects, opening new pathways to discovering novel impurity physics beyond those in non-interacting thermal baths.",
+      "pubdate": "Thu, 08 Jan 2026 08:48:12 +0000",
+      "authors": "Tao Yang, Z. Y. Xie, Rui Wang, Baigeng Wang"
+    },
+    "78deb68b1869c48d661e307b0700b242": {
+      "id": "78deb68b1869c48d661e307b0700b242",
+      "link": "http://arxiv.org/abs/2601.04467",
+      "title": "Holographic codes seen through ZX-calculus",
+      "abstract": "We re-visit the pentagon holographic quantum error correcting code from a ZX-calculus perspective. By expressing the underlying tensors as ZX-diagrams, we study the stabiliser structure of the code via Pauli webs. In addition, we obtain a diagrammatic understanding of its logical operators, encoding isometries, Rényi entropy and toy models of black holes/wormholes. Then, motivated by the pentagon holographic code's ZX-diagram, we introduce a family of codes constructed from ZX-diagrams on its dual hyperbolic tessellations and study their logical error rates using belief propagation decoders.",
+      "pubdate": "Thu, 08 Jan 2026 01:00:45 +0000",
+      "authors": "Kwok Ho Wan, H. C. W. Price, Qing Yao"
+    },
+    "7f4283c7d09de6b55049e7b8825a791f": {
+      "id": "7f4283c7d09de6b55049e7b8825a791f",
+      "link": "http://arxiv.org/abs/2601.04422",
+      "title": "Implementation of Tensor Network Simulation TN-Sim under NWQ-Sim",
+      "abstract": "Large-scale tensor network simulations are crucial for developing robust complexity-theoretic bounds on classical quantum simulation, enabling circuit cutting approaches, and optimizing circuit compilation, all of which aid efficient quantum computation on limited quantum resources. Modern exascale high-performance computing platforms offer significant potential for advancing tensor network quantum circuit simulation capabilities. We implement TN-Sim, a tensor network simulator backend within the NWQ-Sim software package that utilizes the Tensor Algebra for Many-body Methods (TAMM) framework to support both distributed HPC-scale computations and local simulations with ITensor. To optimize the scale up in computation across multiple nodes we implement a task based parallelization scheme to demonstrate parallelized gate contraction for wide quantum circuits with many gates per layer. Through the integration of the TAMM framework with Matrix Product State (MPS) tensor network approaches, we deliver a simulation environment that can scale from local systems to HPC clusters. We demonstrate an MPS tensor network simulator running on the state-of-the-art Perlmutter (NVIDIA) supercomputer and discuss the potential portability of this software to HPC clusters such as Frontier (AMD) and Aurora (Intel). We also discuss future improvements including support for different tensor network topologies and enhanced computational efficiency.",
+      "pubdate": "Wed, 07 Jan 2026 22:01:35 +0000",
+      "authors": "Aaron C. Hoyt, Jonathan S. Bersson, Sean Garner, Chenxu Liu, Ang Li"
+    },
+    "357d1d6a99783a1f4c62d124a63d5e6b": {
+      "id": "357d1d6a99783a1f4c62d124a63d5e6b",
+      "link": "http://arxiv.org/abs/2601.04345",
+      "title": "Scalable cold-atom quantum simulator of a $3+1$D U$(1)$ lattice gauge theory with dynamical matter",
+      "abstract": "The stated overarching goal of the highly active field of quantum simulation of high-energy physics (HEP) is to achieve the capability to study \\textit{ab-initio} real-time microscopic dynamics of $3+1$D quantum chromodynamics (QCD). However, existing experimental realizations and theoretical proposals for future ones have remained restricted to one or two spatial dimensions. Here, we take a big step towards this goal by proposing a concrete experimentally feasible scalable cold-atom quantum simulator of a U$(1)$ quantum link model of quantum electrodynamics (QED) in three spatial dimensions, employing \\textit{linear gauge protection} to stabilize gauge invariance. Using tree tensor network simulations, we benchmark the performance of this quantum simulator through near- and far-from-equilibrium observables, showing excellent agreement with the ideal gauge theory. Additionally, we introduce a method for \\textit{analog quantum error mitigation} that accounts for unwanted first-order tunneling processes, vastly improving agreement between quantum-simulator and ideal-gauge-theory results. Our findings pave the way towards realistic quantum simulators of $3+1$D lattice gauge theories that can probe regimes well beyond classical simulability.",
+      "pubdate": "Wed, 07 Jan 2026 19:32:05 +0000",
+      "authors": "Simone Orlando, Guo-Xian Su, Bing Yang, Jad C. Halimeh"
+    },
+    "586582e962ba876974dfe85f1b009342": {
+      "id": "586582e962ba876974dfe85f1b009342",
+      "link": "http://arxiv.org/abs/2601.04305",
+      "title": "Microscopic Dynamics of False Vacuum Decay in the $2+1$D Quantum Ising Model",
+      "abstract": "False vacuum decay, which is understood to happen through bubble nucleation, is a prominent phenomenon relevant to elementary particle physics and early-universe cosmology. Understanding its microscopic dynamics in higher spatial dimensions is currently a major challenge and research thrust. Recent advances in numerical techniques allow for the extraction of related signatures in tractable systems in two spatial dimensions over intermediate timescales. Here, we focus on the $2+1$D quantum Ising model, where a longitudinal field is used to energetically separate the two $\\mathbb{Z}_2$ symmetry-broken ferromagnetic ground states, turning them into a ``true'' and ``false'' vacuum. Using tree tensor networks, we simulate the microscopic dynamics of a spin-down domain in a spin-up background after a homogeneous quench, with parameters chosen so that the domain corresponds to a bubble of the true vacuum in a false-vacuum background. Our study identifies how the ultimate fate of the bubble -- indefinite expansion or collapse -- depends on its geometrical features and on the microscopic parameters of the Ising Hamiltonian. We further provide a realistic quantum-simulation scheme, aimed at probing bubble dynamics on atomic Rydberg arrays.",
+      "pubdate": "Wed, 07 Jan 2026 19:00:00 +0000",
+      "authors": "Umberto Borla, Achilleas Lazarides, Christian Groß, Jad C. Halimeh"
     }
   }
 }
