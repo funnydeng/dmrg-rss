@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-08T12:15:17.492992+00:00",
+  "last_updated": "2026-01-09T00:31:39.053093+00:00",
   "entries": {
     "3087347f525d447cb71e20070534e810": {
       "id": "3087347f525d447cb71e20070534e810",
@@ -84,26 +84,26 @@
     "d9bb3cd86ff552921c4025e8aeeb7d31": {
       "id": "d9bb3cd86ff552921c4025e8aeeb7d31",
       "link": "http://arxiv.org/abs/2601.04172",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
+      "title": "Stochastic Path Compression for Spectral Tensor Networks on Cyclic Graphs",
+      "abstract": "We develop a new approach to compress cyclic tensor networks called stochastic path compression (SPC) that uses an iterative importance sampling procedure to target edges with large bond-dimensions. Closed random walks in SPC form compression pathways that spatially localize large bond-dimensions in the tensor network. Analogous to the phase separation of two immiscible liquids, SPC separates the graph of bond-dimensions into spatially distinct high and low density regions. When combined with our integral decimation algorithm, SPC facilitates the accurate compression of cyclic tensor networks with continuous degrees of freedom. To benchmark and illustrate the methods, we compute the absolute thermodynamics of $q$-state clock models on two-dimensional square lattices and an XY model on a Watts-Strogatz graph, which is a small-world network with random connectivity between spins.",
+      "pubdate": "Wed, 07 Jan 2026 18:39:49 +0000",
+      "authors": "Ryan T. Grimm, Joel D. Eaves"
     },
     "533d41a8b3ea643ac7da4a576c0cd2aa": {
       "id": "533d41a8b3ea643ac7da4a576c0cd2aa",
       "link": "http://arxiv.org/abs/2601.03885",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
+      "title": "Local Interpolation via Low-Rank Tensor Trains",
+      "abstract": "Tensor Train (TT) decompositions provide a powerful framework to compress grid-structured data, such as sampled function values, on regular Cartesian grids. Such high compression, in turn, enables efficient high-dimensional computations. Exact TT representations are only available for simple analytic functions. Furthermore, global polynomial or Fourier expansions typically yield TT-ranks that grow proportionally with the number of basis terms. State-of-the-art methods are often prohibitively expensive or fail to recover the underlying low-rank structure. We propose a low-rank TT interpolation framework that, given a TT describing a discrete (scalar-, vector-, or tensor-valued) function on a coarse regular grid with $n$ cores, constructs a finer-scale version of the same function represented by a TT with $n+m$ cores, where the last $m$ cores maintain constant rank. Our method guarantees a $\\ell^{2}$-norm error bound independent of the total number of cores, achieves exponential compression at fixed accuracy, and admits logarithmic complexity with respect of the number of grid points. We validate its performance through numerical experiments, including 1D, 2D, and 3D applications such as: 2D and 3D airfoil mask embeddings, image super-resolution, and synthetic noise fields such as 3D synthetic turbulence. In particular, we generate fractal noise fields directly in TT format with logarithmic complexity and memory. This work opens a path to scalable TT-native solvers with complex geometries and multiscale generative models, with implications from scientific simulation to imaging and real-time graphics.",
+      "pubdate": "Wed, 07 Jan 2026 12:54:06 +0000",
+      "authors": "Siddhartha E. Guzman, Egor Tiunov, Leandro Aolita"
     },
     "c6018cdb707457cfd778cda148724987": {
       "id": "c6018cdb707457cfd778cda148724987",
       "link": "http://arxiv.org/abs/2601.03832",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
+      "title": "Iterative Matrix Product State Simulation for Scalable Grover's Algorithm",
+      "abstract": "Grover's algorithm is a cornerstone of quantum search algorithm, offering quadratic speedup for unstructured problems. However, limited qubit counts and noise in today's noisy intermediate-scale quantum (NISQ) devices hinder large-scale hardware validation, making efficient classical simulation essential for algorithm development and hardware assessment. We present an iterative Grover simulation framework based on matrix product states (MPS) to efficiently simulate large-scale Grover's algorithm. Within the NVIDIA CUDA-Q environment, we compare iterative and common (non-iterative) Grover's circuits across statevector and MPS backends. On the MPS backend at 29 qubits, the iterative Grover's circuit runs about 15x faster than the common (non-iterative) Grover's circuit, and about 3-4x faster than the statevector backend. In sampling experiments, Grover's circuits demonstrate strong low-shot stability: as the qubit number increases beyond 13, a single-shot measurement still closely mirrors the results from 4,096 shots, indicating reliable estimates with minimal sampling and significant potential to cut measurement costs. Overall, an iterative MPS design delivers speed and scalability for Grover's circuit simulation, enabling practical large-scale implementations.",
+      "pubdate": "Wed, 07 Jan 2026 11:55:26 +0000",
+      "authors": "Mei Ian Sam, Tzu-Ling Kuo, Tai-Yue Li"
     }
   }
 }
