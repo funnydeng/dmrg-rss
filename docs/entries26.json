@@ -1,6 +1,14 @@
 {
-  "last_updated": "2026-01-12T12:13:24.998919+00:00",
+  "last_updated": "2026-01-13T00:28:11.485247+00:00",
   "entries": {
+    "a03668ca3d4b037315bf0097e829bf4f": {
+      "id": "a03668ca3d4b037315bf0097e829bf4f",
+      "link": "http://arxiv.org/abs/2601.05306",
+      "title": "Interacting electrons in silicon quantum interconnects",
+      "abstract": "Coherent interconnects between gate-defined silicon quantum processing units are essential for scalable quantum computation and long-range entanglement. We argue that one-dimensional electron channels formed in the silicon quantum well of a Si/SiGe heterostructure exhibit strong Coulomb interactions and realize strongly interacting Luttinger liquid physics. At low electron densities, the system enters a Wigner regime characterized by dominant 4kF correlations; increasing the electron density leads to a crossover from the Wigner regime to a Friedel regime with dominant 2kF correlations. We support these results through large-scale density matrix renormalization group (DMRG) simulations of the interacting ground state under both screened and unscreened Coulomb potentials. We propose experimental signatures of the Wigner-Friedel crossover via charge transport and charge sensing in both zero- and high-magnetic field limits. We also analyze the impact of short-range correlated disorder - including random alloy fluctuations and valley splitting variations - and identify that the Wigner-Friedel crossover remains robust until disorder levels of about 400 micro eV. Finally, we show that the Wigner regime enables long-range capacitive coupling between quantum dots across the interconnect, suggesting a route to create long-range entanglement between solid-state qubits. Our results position silicon interconnects as a platform for studying Luttinger liquid physics and for enabling architectures supporting nonlocal quantum error correction and quantum simulation.",
+      "pubdate": "Thu, 08 Jan 2026 18:44:46 +0000",
+      "authors": "Anantha S. Rao, Christopher David White, Sean R. Muleady, Anthony Sigillito, Michael J. Gullans"
+    },
     "d1801387ed77b595fa25931c2fa349b2": {
       "id": "d1801387ed77b595fa25931c2fa349b2",
       "link": "http://arxiv.org/abs/2601.05196",
@@ -160,14 +168,6 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
-    },
-    "a03668ca3d4b037315bf0097e829bf4f": {
-      "id": "a03668ca3d4b037315bf0097e829bf4f",
-      "link": "http://arxiv.org/abs/2601.05306",
-      "title": "Interacting electrons in silicon quantum interconnects",
-      "abstract": "Coherent interconnects between gate-defined silicon quantum processing units are essential for scalable quantum computation and long-range entanglement. We argue that one-dimensional electron channels formed in the silicon quantum well of a Si/SiGe heterostructure exhibit strong Coulomb interactions and realize strongly interacting Luttinger liquid physics. At low electron densities, the system enters a Wigner regime characterized by dominant 4kF correlations; increasing the electron density leads to a crossover from the Wigner regime to a Friedel regime with dominant 2kF correlations. We support these results through large-scale density matrix renormalization group (DMRG) simulations of the interacting ground state under both screened and unscreened Coulomb potentials. We propose experimental signatures of the Wigner-Friedel crossover via charge transport and charge sensing in both zero- and high-magnetic field limits. We also analyze the impact of short-range correlated disorder - including random alloy fluctuations and valley splitting variations - and identify that the Wigner-Friedel crossover remains robust until disorder levels of about 400 micro eV. Finally, we show that the Wigner regime enables long-range capacitive coupling between quantum dots across the interconnect, suggesting a route to create long-range entanglement between solid-state qubits. Our results position silicon interconnects as a platform for studying Luttinger liquid physics and for enabling architectures supporting nonlocal quantum error correction and quantum simulation.",
-      "pubdate": "Thu, 08 Jan 2026 18:44:46 +0000",
-      "authors": "Anantha S. Rao, Christopher David White, Sean R. Muleady, Anthony Sigillito, Michael J. Gullans"
     }
   }
 }
