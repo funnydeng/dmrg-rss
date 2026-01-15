@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-15T00:29:22.144592+00:00",
+  "last_updated": "2026-01-15T12:13:14.685510+00:00",
   "entries": {
     "21581944068a9be92a64544856cd1395": {
       "id": "21581944068a9be92a64544856cd1395",
@@ -224,6 +224,30 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "9a707237c6e3883dc823edfe496ea299": {
+      "id": "9a707237c6e3883dc823edfe496ea299",
+      "link": "http://arxiv.org/abs/2601.09245",
+      "title": "Matrix product operator representations for the local conserved quantities of the spin-$1/2$ XYZ chain",
+      "abstract": "We present explicit matrix product operator (MPO) representations for the local conserved quantities of the spin-$1/2$ XYZ chain. Through these MPO representations, we simplify the coefficients appearing in the local conserved quantities originally derived by one of the authors, and reveal their combinatorial meaning: the coefficients prove to be a polynomial generalization of the Catalan numbers, defined via weighted monotonic lattice paths. Furthermore, we obtain a new simple $3 \\times 3$ Lax operator for the XYZ chain that, unlike Baxter's R-matrix, does not involve elliptic functions.",
+      "pubdate": "Wed, 14 Jan 2026 07:27:49 +0000",
+      "authors": "Kohei Fukai, Kyoichi Yamada"
+    },
+    "8b1ff42751e3dccb960cf7fcd240263d": {
+      "id": "8b1ff42751e3dccb960cf7fcd240263d",
+      "link": "http://arxiv.org/abs/2601.09563",
+      "title": "Lattice fermion simulation of spontaneous time-reversal symmetry breaking in a helical Luttinger liquid",
+      "abstract": "We extend a recently developed \"tangent fermion\" method to discretize the Hamiltonian of a helical Luttinger liquid on a one-dimensional lattice, including two-particle backscattering processes that may open a gap in the spectrum. The fermion-doubling obstruction of the sine dispersion is avoided by working with a tangent dispersion, preserving the time-reversal symmetry of the Hamiltonian. The numerical results from a tensor network calculation on a finite lattice confirm the expectation from infinite-system analytics, that a gapped phase with spontaneously broken time-reversal symmetry emerges when the Fermi level is tuned to the Dirac point and the Luttinger parameter crosses a critical value.",
+      "pubdate": "Wed, 14 Jan 2026 15:32:20 +0000",
+      "authors": "V. A. Zakharov, J. Sánchez Fernán, C. W. J. Beenakker"
+    },
+    "b4613ddb559b1583cf743827da2646f9": {
+      "id": "b4613ddb559b1583cf743827da2646f9",
+      "link": "http://arxiv.org/abs/2601.09326",
+      "title": "Probing the Dynamical Structure Factor of Quantum Spin Chains via Low-Temperature Gibbs States with Matrix Product State Subspace Expansion",
+      "abstract": "Studying finite-temperature properties with tensor networks is notoriously difficult, especially at low temperatures, due to the rapid growth of entanglement and the complexity of thermal states. Existing methods like purification and minimally entangled typical thermal states offer partial solutions but struggle with scalability and accuracy in low-temperature regime. To overcome these limitations, we propose a new approach based on generating-function matrix product states (GFMPS). By directly computing a large set of Bloch-type excited states, we construct Gibbs states that moderate the area-law constraint, enabling accurate and efficient approximation of low-temperature thermal behavior. Our benchmark results show magnificent agreement with both exact diagonalization and experimental observations, validating the accuracy of our approach. This method offers a promising new direction for overcoming the longstanding challenges of studying low-temperature properties within the tensor network framework. We also expect that our method will facilitate the numerical simulation of quantum materials in comparison with experimental observations.",
+      "pubdate": "Wed, 14 Jan 2026 10:00:20 +0000",
+      "authors": "Tomoya Takahashi, Wei-Lin Tu, Ji-Yao Chen, Yusuke Nomura"
     }
   }
 }
