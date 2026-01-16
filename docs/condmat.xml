@@ -8,28 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Jan 2026 12:13:14 +0000</lastBuildDate>
-    <item>
-      <title>Probing the Dynamical Structure Factor of Quantum Spin Chains via Low-Temperature Gibbs States with Matrix Product State Subspace Expansion</title>
-      <link>http://arxiv.org/abs/2601.09326</link>
-      <description>&lt;b&gt;Author(s):&lt;/b&gt; Tomoya Takahashi, Wei-Lin Tu, Ji-Yao Chen, Yusuke Nomura&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; Studying finite-temperature properties with tensor networks is notoriously difficult, especially at low temperatures, due to the rapid growth of entanglement and the complexity of thermal states. Existing methods like purification and minimally entangled typical thermal states offer partial solutions but struggle with scalability and accuracy in low-temperature regime. To overcome these limitations, we propose a new approach based on generating-function matrix product states (GFMPS). By directly computing a large set of Bloch-type excited states, we construct Gibbs states that moderate the area-law constraint, enabling accurate and efficient approximation of low-temperature thermal behavior. Our benchmark results show magnificent agreement with both exact diagonalization and experimental observations, validating the accuracy of our approach. This method offers a promising new direction for overcoming the longstanding challenges of studying low-temperature properties within the tensor network framework. We also expect that our method will facilitate the numerical simulation of quantum materials in comparison with experimental observations.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2601.09326'&gt;arXiv:2601.09326&lt;/a&gt;] Published Wed, 14 Jan 2026 10:00:20 UTC&lt;/b&gt;</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2601.09326</guid>
-      <pubDate>Wed, 14 Jan 2026 10:00:20 +0000</pubDate>
-    <dc:creator>Unknown</dc:creator></item>
-    <item>
-      <title>Lattice fermion simulation of spontaneous time-reversal symmetry breaking in a helical Luttinger liquid</title>
-      <link>http://arxiv.org/abs/2601.09563</link>
-      <description>&lt;b&gt;Author(s):&lt;/b&gt; V. A. Zakharov, J. Sánchez Fernán, C. W. J. Beenakker&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We extend a recently developed "tangent fermion" method to discretize the Hamiltonian of a helical Luttinger liquid on a one-dimensional lattice, including two-particle backscattering processes that may open a gap in the spectrum. The fermion-doubling obstruction of the sine dispersion is avoided by working with a tangent dispersion, preserving the time-reversal symmetry of the Hamiltonian. The numerical results from a tensor network calculation on a finite lattice confirm the expectation from infinite-system analytics, that a gapped phase with spontaneously broken time-reversal symmetry emerges when the Fermi level is tuned to the Dirac point and the Luttinger parameter crosses a critical value.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2601.09563'&gt;arXiv:2601.09563&lt;/a&gt;] Published Wed, 14 Jan 2026 15:32:20 UTC&lt;/b&gt;</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2601.09563</guid>
-      <pubDate>Wed, 14 Jan 2026 15:32:20 +0000</pubDate>
-    <dc:creator>Unknown</dc:creator></item>
-    <item>
-      <title>Matrix product operator representations for the local conserved quantities of the spin-$1/2$ XYZ chain</title>
-      <link>http://arxiv.org/abs/2601.09245</link>
-      <description>&lt;b&gt;Author(s):&lt;/b&gt; Kohei Fukai, Kyoichi Yamada&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We present explicit matrix product operator (MPO) representations for the local conserved quantities of the spin-$1/2$ XYZ chain. Through these MPO representations, we simplify the coefficients appearing in the local conserved quantities originally derived by one of the authors, and reveal their combinatorial meaning: the coefficients prove to be a polynomial generalization of the Catalan numbers, defined via weighted monotonic lattice paths. Furthermore, we obtain a new simple $3 \times 3$ Lax operator for the XYZ chain that, unlike Baxter's R-matrix, does not involve elliptic functions.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2601.09245'&gt;arXiv:2601.09245&lt;/a&gt;] Published Wed, 14 Jan 2026 07:27:49 UTC&lt;/b&gt;</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2601.09245</guid>
-      <pubDate>Wed, 14 Jan 2026 07:27:49 +0000</pubDate>
-    <dc:creator>Unknown</dc:creator></item>
+    <lastBuildDate>Fri, 16 Jan 2026 00:32:27 +0000</lastBuildDate>
     <item>
       <title>Full grid solution for multi-asset options pricing with tensor networks</title>
       <link>http://arxiv.org/abs/2601.00009</link>
@@ -225,6 +204,27 @@
       <description>&lt;b&gt;Author(s):&lt;/b&gt; Kansei Inamura, Shuhei Ohyama&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We construct 2+1-dimensional lattice models of symmetry-protected topological (SPT) phases with non-invertible symmetries and investigate their properties using tensor networks. These models, which we refer to as generalized cluster models, are constructed by gauging a subgroup symmetry $H \subset G$ in models with a finite group 0-form symmetry $G$. By construction, these models have a non-invertible symmetry described by the group-theoretical fusion 2-category $\mathcal{C}(G; H)$. After identifying the tensor network representations of the symmetry operators, we study the symmetry acting on the interface between two generalized cluster states. In particular, we will see that the symmetry at the interface is described by a multifusion category known as the strip 2-algebra. By studying possible interface modes allowed by this symmetry, we show that the interface between generalized cluster states in different SPT phases must be degenerate. This result generalizes the ordinary bulk-boundary correspondence. Furthermore, we construct parameterized families of generalized cluster states and study the topological charge pumping phenomena, known as the generalized Thouless pump. We exemplify our construction with several concrete cases, and compare them with known phases, such as SPT phases with $2\mathrm{Rep}((\mathbb{Z}_{2}^{[1]}\times\mathbb{Z}_{2}^{[1]})\rtimes\mathbb{Z}_{2}^{[0]})$ symmetry.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2601.08615'&gt;arXiv:2601.08615&lt;/a&gt;] Published Tue, 13 Jan 2026 15:00:00 UTC&lt;/b&gt;</description>
       <guid isPermaLink="false">http://arxiv.org/abs/2601.08615</guid>
       <pubDate>Tue, 13 Jan 2026 15:00:00 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <title>Probing the Dynamical Structure Factor of Quantum Spin Chains via Low-Temperature Gibbs States with Matrix Product State Subspace Expansion</title>
+      <link>http://arxiv.org/abs/2601.09326</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Tomoya Takahashi, Wei-Lin Tu, Ji-Yao Chen, Yusuke Nomura&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; Studying finite-temperature properties with tensor networks is notoriously difficult, especially at low temperatures, due to the rapid growth of entanglement and the complexity of thermal states. Existing methods like purification and minimally entangled typical thermal states offer partial solutions but struggle with scalability and accuracy in low-temperature regime. To overcome these limitations, we propose a new approach based on generating-function matrix product states (GFMPS). By directly computing a large set of Bloch-type excited states, we construct Gibbs states that moderate the area-law constraint, enabling accurate and efficient approximation of low-temperature thermal behavior. Our benchmark results show magnificent agreement with both exact diagonalization and experimental observations, validating the accuracy of our approach. This method offers a promising new direction for overcoming the longstanding challenges of studying low-temperature properties within the tensor network framework. We also expect that our method will facilitate the numerical simulation of quantum materials in comparison with experimental observations.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2601.09326'&gt;arXiv:2601.09326&lt;/a&gt;] Published Wed, 14 Jan 2026 10:00:20 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2601.09326</guid>
+      <pubDate>Wed, 14 Jan 2026 10:00:20 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <title>Lattice fermion simulation of spontaneous time-reversal symmetry breaking in a helical Luttinger liquid</title>
+      <link>http://arxiv.org/abs/2601.09563</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; V. A. Zakharov, J. Sánchez Fernán, C. W. J. Beenakker&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We extend a recently developed "tangent fermion" method to discretize the Hamiltonian of a helical Luttinger liquid on a one-dimensional lattice, including two-particle backscattering processes that may open a gap in the spectrum. The fermion-doubling obstruction of the sine dispersion is avoided by working with a tangent dispersion, preserving the time-reversal symmetry of the Hamiltonian. The numerical results from a tensor network calculation on a finite lattice confirm the expectation from infinite-system analytics, that a gapped phase with spontaneously broken time-reversal symmetry emerges when the Fermi level is tuned to the Dirac point and the Luttinger parameter crosses a critical value.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2601.09563'&gt;arXiv:2601.09563&lt;/a&gt;] Published Wed, 14 Jan 2026 15:32:20 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2601.09563</guid>
+      <pubDate>Wed, 14 Jan 2026 15:32:20 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <title>Matrix product operator representations for the local conserved quantities of the spin-$1/2$ XYZ chain</title>
+      <link>http://arxiv.org/abs/2601.09245</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Kohei Fukai, Kyoichi Yamada&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We present explicit matrix product operator (MPO) representations for the local conserved quantities of the spin-$1/2$ XYZ chain. Through these MPO representations, we simplify the coefficients appearing in the local conserved quantities originally derived by one of the authors, and reveal their combinatorial meaning: the coefficients prove to be a polynomial generalization of the Catalan numbers, defined via weighted monotonic lattice paths. Furthermore, we obtain a new simple $3 \times 3$ Lax operator for the XYZ chain that, unlike Baxter's R-matrix, does not involve elliptic functions.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2601.09245'&gt;arXiv:2601.09245&lt;/a&gt;] Published Wed, 14 Jan 2026 07:27:49 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2601.09245</guid>
+      <pubDate>Wed, 14 Jan 2026 07:27:49 +0000</pubDate>
     <dc:creator>Unknown</dc:creator></item>
   </channel>
 </rss>
