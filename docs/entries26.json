@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-16T00:32:27.584422+00:00",
+  "last_updated": "2026-01-16T12:13:05.876872+00:00",
   "entries": {
     "9a707237c6e3883dc823edfe496ea299": {
       "id": "9a707237c6e3883dc823edfe496ea299",
@@ -248,6 +248,54 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "aac04d963892cdabcf3cab8e6503db5b": {
+      "id": "aac04d963892cdabcf3cab8e6503db5b",
+      "link": "http://arxiv.org/abs/2601.10489",
+      "title": "Magnetic field-induced phases in a model S=1 Haldane chain system",
+      "abstract": "An $S=1$ Haldane chain is a one-dimensional (1D) quantum magnet where strong fluctuations result in quantum disordered singlet ground state with a gapped excitation spectrum. The gap magnitude is primarily set by the dominant intrachain interaction ($J_\\text{1D}$). An applied magnetic field closes the gap at $B_\\text{c1}$ and drives the system into a gapless Tomonaga-Luttinger liquid (TLL) regime, followed by, at lower temperatures, a Bose-Einstein condensate (BEC) ground state, persisting up to $B_\\text{c2} \\propto 4 J_\\text{1D}/gμ_B$. Almost all previously studied experimental realizations of such systems were based on transition-metal complexes which typically suffer from intrinsic anisotropies or large $J_\\text{1D}$ values, limiting the access to the full theoretical phase diagram. We report a comprehensive study of TLL and BEC phases in the organic Haldane chain system 3,5-bis(N-tert-butylaminoxyl)-3'-nitrobiphenyl (BoNO). The absence of anisotropy and a moderate $J_\\text{1D}$ enable exploration of the complete $B-T$ phase diagram. Through $^1$H nuclear magnetic resonance, combined with theoretical analysis, we characterize the TLL properties, map the BEC phase boundary $T_c (B)$, determine the associated critical exponent $ν\\approx 0.66$ at $B_\\text{c2}$, and demonstrate universal quasiparticle scaling in the quantum-critical regime. These results provide full experimental validation of theoretical predictions for field-induced phases in an $S=1$ Haldane chain, made over two decades ago.",
+      "pubdate": "Thu, 15 Jan 2026 15:11:26 +0000",
+      "authors": "I. Jakovac, M. S. Grbić, M. Dupont, N. Laflorencie, S. Capponi, Y. Hosokoshi, S. Krämer, Y. Skourski, S. Luther M. Takigawa, M. Horvatić"
+    },
+    "342c8c877cd81cc15b62a5065a670415": {
+      "id": "342c8c877cd81cc15b62a5065a670415",
+      "link": "http://arxiv.org/abs/2601.10435",
+      "title": "The SpinPulse library for transpilation and noise-accurate simulation of spin qubit quantum computers",
+      "abstract": "We introduce SpinPulse, an open-source python package for simulating spin qubit-based quantum computers at the pulse-level. SpinPulse models the specific physics of spin qubits, particularly through the inclusion of classical non-Markovian noise. This enables realistic simulations of native gates and quantum circuits, in order to support hardware development. In SpinPulse, a quantum circuit is first transpiled into the native gate set of our model and then converted to a pulse sequence. This pulse sequence is subsequently integrated numerically in the presence of a simulated noisy experimental environment. We showcase workflows including transpilation, pulse-level compilation, hardware benchmarking, quantum error mitigation, and large-scale simulations via integration with the tensor-network library quimb. We expect SpinPulse to be a valuable open-source tool for the quantum computing community, fostering efforts to devise high-fidelity quantum circuits and improved strategies for quantum error mitigation and correction.",
+      "pubdate": "Thu, 15 Jan 2026 14:29:24 +0000",
+      "authors": "Benoît Vermersch, Oscar Gravier, Nathan Miscopein, Julia Guignon, Carlos Ramos Marimón, Jonathan Durandau, Matthieu Dartiailh, Tristan Meunier, Valentin Savin"
+    },
+    "b51713966dea893142e8edf101352449": {
+      "id": "b51713966dea893142e8edf101352449",
+      "link": "http://arxiv.org/abs/2601.10210",
+      "title": "Quantitative approach for the Dicke-Ising chain with an effective self-consistent matter Hamiltonian",
+      "abstract": "In the thermodynamic limit, the Dicke-Ising chain maps exactly onto an effective self-consistent matter Hamiltonian with the photon field acting solely as a self-consistent effective field. As a consequence, no quantum correlations between photons and spins are needed to understand the quantum phase diagram. This enables us to determine the quantum phase diagram in the thermodynamic limit using numerical linked-cluster expansions combined with density matrix renormalization group calculations (NLCE+DMRG) to solve the resulting self-consistent matter Hamiltonian. This includes magnetically ordered phases with significantly improved accuracy compared to previous estimates. For ferromagnetic Ising couplings, we refine the location of the multicritical point governing the change in the order of the superradiant phase transition, reaching a relative accuracy of $10^{-4}$. For antiferromagnetic Ising couplings, we confirm the existence of the narrow antiferromagnetic superradiant phase in the thermodynamic limit. The effective matter Hamiltonian framework identifies the antiferromagnetic superradiant phase as the many-body ground state of an antiferromagnetic transverse-field Ising model with longitudinal field. This phase emerges through continuous Dicke-type polariton condensation from the antiferromagnetic normal phase, followed by a first-order transition to the paramagnetic superradiant phase. Thus, NLCE+DMRG provides a precise determination of the Dicke-Ising phase diagram in one dimension by solving the self-consistent effective matter Hamiltonian.",
+      "pubdate": "Thu, 15 Jan 2026 09:21:40 +0000",
+      "authors": "J. Leibig, M. Hörmann, A. Langheld, A. Schellenberger, K. P. Schmidt"
+    },
+    "6f1e4a12a2b0339a71fb2df71ded22b9": {
+      "id": "6f1e4a12a2b0339a71fb2df71ded22b9",
+      "link": "http://arxiv.org/abs/2601.10194",
+      "title": "Autonomous Quantum Simulation through Large Language Model Agents",
+      "abstract": "We demonstrate that large language model (LLM) agents can autonomously perform tensor network simulations of quantum many-body systems, achieving approximately 90% success rate across representative benchmark tasks. Tensor network methods are powerful tools for quantum simulation, but their effective use requires expertise typically acquired through years of graduate training. By combining in-context learning with curated documentation and multi-agent decomposition, we create autonomous AI agents that can be trained in specialized computational domains within minutes. We benchmark three configurations (baseline, single-agent with in-context learning, and multi-agent with in-context learning) on problems spanning quantum phase transitions, open quantum system dynamics, and photochemical reactions. Systematic evaluation using DeepSeek-V3.2, Gemini 2.5 Pro, and Claude Opus 4.5 demonstrates that both in-context learning and multi-agent architecture are essential. Analysis of failure modes reveals characteristic patterns across models, with the multi-agent configuration substantially reducing implementation errors and hallucinations compared to simpler architectures.",
+      "pubdate": "Thu, 15 Jan 2026 08:50:57 +0000",
+      "authors": "Weitang Li, Jiajun Ren, Lixue Cheng, Cunxi Gong"
+    },
+    "3e69105f503518b431a5312dbde18abf": {
+      "id": "3e69105f503518b431a5312dbde18abf",
+      "link": "http://arxiv.org/abs/2601.10158",
+      "title": "Electric field effects in one-dimensional spin-1/2 $K_1J_1Γ_1Γ_1^\\prime K_2J_2$ model with ferromagnetic Kitaev coupling",
+      "abstract": "We perform a systematic study on the effects of electric fields in the Luttinger liquid phase of the one-dimensional spin-$1/2$ $K_1J_1Γ_1Γ_1^\\prime K_2J_2$ model in the region of ferromagnetic nearest-neighboring Kitaev coupling. We find that while electric fields along $(1,1,1)$-direction maintain the Luttinger liquid behavior, fields along other directions drive the system to a dimerized state. An estimation is made on how effective a $(1,1,1)$-field is for tuning the Luttinger parameter in real materials. Our work is useful for understanding the effects of electric fields in one-dimensional generalized Kitaev spin models, and provides a starting point for exploring the electric-field-related physics in two dimensions based on a quasi-one-dimensional approach.",
+      "pubdate": "Thu, 15 Jan 2026 07:58:10 +0000",
+      "authors": "Wang Yang, Helin Wang, Chao Xu"
+    },
+    "2b309f533b41f9dd6e35a7abd1931945": {
+      "id": "2b309f533b41f9dd6e35a7abd1931945",
+      "link": "http://arxiv.org/abs/2601.10045",
+      "title": "Privacy Enhanced PEFT: Tensor Train Decomposition Improves Privacy Utility Tradeoffs under DP-SGD",
+      "abstract": "Fine-tuning large language models on sensitive data poses significant privacy risks, as membership inference attacks can reveal whether individual records were used during training. While Differential Privacy (DP) provides formal protection, applying DP to conventional Parameter-Efficient Fine-Tuning (PEFT) methods such as Low-Rank Adaptation (LoRA) often incurs substantial utility loss. In this work, we show that a more structurally constrained PEFT architecture, Tensor Train Low-Rank Adaptation (TTLoRA), can improve the privacy-utility tradeoff by shrinking the effective parameter space while preserving expressivity. To this end, we develop TTLoRA-DP, a differentially private training framework for TTLoRA. Specifically, we extend the ghost clipping algorithm to Tensor Train cores via cached contraction states, enabling efficient Differentially Private Stochastic Gradient Descent (DP-SGD) with exact per-example gradient norm computation without materializing full per-example gradients. Experiments on GPT-2 fine-tuning over the Enron and Penn Treebank datasets show that TTLoRA-DP consistently strengthens privacy protection relative to LoRA-DP while maintaining comparable or better downstream utility. Moreover, TTLoRA exhibits lower membership leakage even without DP training, using substantially smaller adapters and requiring on average 7.6X fewer parameters than LoRA. Overall, our results demonstrate that TTLoRA offers a practical path to improving the privacy-utility tradeoff in parameter-efficient language model adaptation.",
+      "pubdate": "Thu, 15 Jan 2026 03:41:52 +0000",
+      "authors": "Pradip Kunwar, Minh Vu, Maanak Gupta, Manish Bhattarai"
     }
   }
 }
