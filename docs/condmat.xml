@@ -8,7 +8,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Jan 2026 00:34:25 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Jan 2026 12:14:13 +0000</lastBuildDate>
+    <item>
+      <title>Towards Tensor Network Models for Low-Latency Jet Tagging on FPGAs</title>
+      <link>http://arxiv.org/abs/2601.10801</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Alberto Coppi, Ema Puljak, Lorenzo Borella, Daniel Jaschke, Enrique Rico, Maurizio Pierini, Jacopo Pazzini, Andrea Triossi, Simone Montangero&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We present a systematic study of Tensor Network (TN) models $\unicode{x2013}$ Matrix Product States (MPS) and Tree Tensor Networks (TTN) $\unicode{x2013}$ for real-time jet tagging in high-energy physics, with a focus on low-latency deployment on Field Programmable Gate Arrays (FPGAs). Motivated by the strict requirements of the HL-LHC Level-1 trigger system, we explore TNs as compact and interpretable alternatives to deep neural networks. Using low-level jet constituent features, our models achieve competitive performance compared to state-of-the-art deep learning classifiers. We investigate post-training quantization to enable hardware-efficient implementations without degrading classification performance or latency. The best-performing models are synthesized to estimate FPGA resource usage, latency, and memory occupancy, demonstrating sub-microsecond latency and supporting the feasibility of online deployment in real-time trigger systems. Overall, this study highlights the potential of TN-based models for fast and resource-efficient inference in low-latency environments.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2601.10801'&gt;arXiv:2601.10801&lt;/a&gt;] Published Thu, 15 Jan 2026 19:04:49 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2601.10801</guid>
+      <pubDate>Thu, 15 Jan 2026 19:04:49 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <title>Pathway to Kondo physics in ytterbium atom chains with repulsive spin impurities</title>
+      <link>http://arxiv.org/abs/2601.11449</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Jeff Maki, Lidia Stocker, Oded Zilberberg&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; The Kondo effect is a paradigmatic model of strongly-correlated physics, where a magnetic impurity forms a many-body singlet with a fermionic environment. Cold gases of ytterbium (Yb) atoms have been proposed to be an ideal platform to study the Kondo effect since different internal states of the atom can be used to create both the impurity and the fermionic environment. In Yb gases, however, the atomic impurity interacts with the fermionic environment both through magnetic and potential scattering. These two scattering mechanisms counteract one another, raising the question of how robust Kondo screening remains. Here, we show that potential scattering can quench the Kondo screening in one-dimensional Yb gases; yet, strikingly, Kondo physics survives this quench in well-defined regimes. Combining analytical renormalization-group theory for a Luttinger liquid with density matrix renormalization group (DMRG) simulations, we identify a transition from a strongly- to a weakly-entangled impurity as potential scattering is increased. The two approaches show excellent agreement concerning the stability of Kondo physics throughout the different parameter regimes considered. Our results provide a quantitative criterion for the emergence of Kondo screening in one-dimensional Yb gases and delineate experimentally accessible regimes for its realization in cold-atom platforms.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2601.11449'&gt;arXiv:2601.11449&lt;/a&gt;] Published Fri, 16 Jan 2026 17:14:17 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2601.11449</guid>
+      <pubDate>Fri, 16 Jan 2026 17:14:17 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
     <item>
       <title>Full grid solution for multi-asset options pricing with tensor networks</title>
       <link>http://arxiv.org/abs/2601.00009</link>
