@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-01-19T12:14:13.613068+00:00",
+  "last_updated": "2026-01-20T00:31:12.024909+00:00",
   "entries": {
+    "1a985d3a0503c877d5deee005df182ef": {
+      "id": "1a985d3a0503c877d5deee005df182ef",
+      "link": "http://arxiv.org/abs/2601.11449",
+      "title": "Pathway to Kondo physics in ytterbium atom chains with repulsive spin impurities",
+      "abstract": "The Kondo effect is a paradigmatic model of strongly-correlated physics, where a magnetic impurity forms a many-body singlet with a fermionic environment. Cold gases of ytterbium (Yb) atoms have been proposed to be an ideal platform to study the Kondo effect since different internal states of the atom can be used to create both the impurity and the fermionic environment. In Yb gases, however, the atomic impurity interacts with the fermionic environment both through magnetic and potential scattering. These two scattering mechanisms counteract one another, raising the question of how robust Kondo screening remains. Here, we show that potential scattering can quench the Kondo screening in one-dimensional Yb gases; yet, strikingly, Kondo physics survives this quench in well-defined regimes. Combining analytical renormalization-group theory for a Luttinger liquid with density matrix renormalization group (DMRG) simulations, we identify a transition from a strongly- to a weakly-entangled impurity as potential scattering is increased. The two approaches show excellent agreement concerning the stability of Kondo physics throughout the different parameter regimes considered. Our results provide a quantitative criterion for the emergence of Kondo screening in one-dimensional Yb gases and delineate experimentally accessible regimes for its realization in cold-atom platforms.",
+      "pubdate": "Fri, 16 Jan 2026 17:14:17 +0000",
+      "authors": "Jeff Maki, Lidia Stocker, Oded Zilberberg"
+    },
+    "f5860733b94212f2022ade615f529d08": {
+      "id": "f5860733b94212f2022ade615f529d08",
+      "link": "http://arxiv.org/abs/2601.10801",
+      "title": "Towards Tensor Network Models for Low-Latency Jet Tagging on FPGAs",
+      "abstract": "We present a systematic study of Tensor Network (TN) models $\\unicode{x2013}$ Matrix Product States (MPS) and Tree Tensor Networks (TTN) $\\unicode{x2013}$ for real-time jet tagging in high-energy physics, with a focus on low-latency deployment on Field Programmable Gate Arrays (FPGAs). Motivated by the strict requirements of the HL-LHC Level-1 trigger system, we explore TNs as compact and interpretable alternatives to deep neural networks. Using low-level jet constituent features, our models achieve competitive performance compared to state-of-the-art deep learning classifiers. We investigate post-training quantization to enable hardware-efficient implementations without degrading classification performance or latency. The best-performing models are synthesized to estimate FPGA resource usage, latency, and memory occupancy, demonstrating sub-microsecond latency and supporting the feasibility of online deployment in real-time trigger systems. Overall, this study highlights the potential of TN-based models for fast and resource-efficient inference in low-latency environments.",
+      "pubdate": "Thu, 15 Jan 2026 19:04:49 +0000",
+      "authors": "Alberto Coppi, Ema Puljak, Lorenzo Borella, Daniel Jaschke, Enrique Rico, Maurizio Pierini, Jacopo Pazzini, Andrea Triossi, Simone Montangero"
+    },
     "aac04d963892cdabcf3cab8e6503db5b": {
       "id": "aac04d963892cdabcf3cab8e6503db5b",
       "link": "http://arxiv.org/abs/2601.10489",
@@ -296,22 +312,6 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
-    },
-    "1a985d3a0503c877d5deee005df182ef": {
-      "id": "1a985d3a0503c877d5deee005df182ef",
-      "link": "http://arxiv.org/abs/2601.11449",
-      "title": "Pathway to Kondo physics in ytterbium atom chains with repulsive spin impurities",
-      "abstract": "The Kondo effect is a paradigmatic model of strongly-correlated physics, where a magnetic impurity forms a many-body singlet with a fermionic environment. Cold gases of ytterbium (Yb) atoms have been proposed to be an ideal platform to study the Kondo effect since different internal states of the atom can be used to create both the impurity and the fermionic environment. In Yb gases, however, the atomic impurity interacts with the fermionic environment both through magnetic and potential scattering. These two scattering mechanisms counteract one another, raising the question of how robust Kondo screening remains. Here, we show that potential scattering can quench the Kondo screening in one-dimensional Yb gases; yet, strikingly, Kondo physics survives this quench in well-defined regimes. Combining analytical renormalization-group theory for a Luttinger liquid with density matrix renormalization group (DMRG) simulations, we identify a transition from a strongly- to a weakly-entangled impurity as potential scattering is increased. The two approaches show excellent agreement concerning the stability of Kondo physics throughout the different parameter regimes considered. Our results provide a quantitative criterion for the emergence of Kondo screening in one-dimensional Yb gases and delineate experimentally accessible regimes for its realization in cold-atom platforms.",
-      "pubdate": "Fri, 16 Jan 2026 17:14:17 +0000",
-      "authors": "Jeff Maki, Lidia Stocker, Oded Zilberberg"
-    },
-    "f5860733b94212f2022ade615f529d08": {
-      "id": "f5860733b94212f2022ade615f529d08",
-      "link": "http://arxiv.org/abs/2601.10801",
-      "title": "Towards Tensor Network Models for Low-Latency Jet Tagging on FPGAs",
-      "abstract": "We present a systematic study of Tensor Network (TN) models $\\unicode{x2013}$ Matrix Product States (MPS) and Tree Tensor Networks (TTN) $\\unicode{x2013}$ for real-time jet tagging in high-energy physics, with a focus on low-latency deployment on Field Programmable Gate Arrays (FPGAs). Motivated by the strict requirements of the HL-LHC Level-1 trigger system, we explore TNs as compact and interpretable alternatives to deep neural networks. Using low-level jet constituent features, our models achieve competitive performance compared to state-of-the-art deep learning classifiers. We investigate post-training quantization to enable hardware-efficient implementations without degrading classification performance or latency. The best-performing models are synthesized to estimate FPGA resource usage, latency, and memory occupancy, demonstrating sub-microsecond latency and supporting the feasibility of online deployment in real-time trigger systems. Overall, this study highlights the potential of TN-based models for fast and resource-efficient inference in low-latency environments.",
-      "pubdate": "Thu, 15 Jan 2026 19:04:49 +0000",
-      "authors": "Alberto Coppi, Ema Puljak, Lorenzo Borella, Daniel Jaschke, Enrique Rico, Maurizio Pierini, Jacopo Pazzini, Andrea Triossi, Simone Montangero"
     }
   }
 }
