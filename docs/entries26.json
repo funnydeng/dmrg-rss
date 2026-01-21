@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-21T00:32:51.279448+00:00",
+  "last_updated": "2026-01-21T12:14:29.137984+00:00",
   "entries": {
     "1a985d3a0503c877d5deee005df182ef": {
       "id": "1a985d3a0503c877d5deee005df182ef",
@@ -312,6 +312,78 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "b244547ef1678b0eba9433d3b3fc2201": {
+      "id": "b244547ef1678b0eba9433d3b3fc2201",
+      "link": "http://arxiv.org/abs/2601.13956",
+      "title": "Tensor Network Assisted Distributed Variational Quantum Algorithm for Large Scale Combinatorial Optimization Problem",
+      "abstract": "Although quantum computing holds promise for solving Combinatorial Optimization Problems (COPs), the limited qubit capacity of NISQ hardware makes large-scale instances intractable. Conventional methods attempt to bridge this gap through decomposition or compression, yet they frequently fail to capture global correlations of subsystems, leading to solutions of limited quality. We propose the Distributed Variational Quantum Algorithm (DVQA) to overcome these limitations, enabling the solution of 1,000-variable instances on constrained hardware. A key innovation of DVQA is its use of the truncated higher-order singular value decomposition to preserve inter-variable dependencies without relying on complex long-range entanglement, leading to a natural form of noise localization where errors scale with subsystem size rather than total qubit count, thus reconciling scalability with accuracy. Theoretical bounds confirm the algorithm's robustness for p-local Hamiltonians. Empirically, DVQA achieves state-of-the-art performance in simulations and has been experimentally validated on the Wu Kong quantum computer for portfolio optimization. This work provides a scalable, noise-resilient framework that advances the timeline for practical quantum optimization algorithms.",
+      "pubdate": "Tue, 20 Jan 2026 13:31:02 +0000",
+      "authors": "Yuhan Huang, Siyuan Jin, Yichi Zhang, Qi Zhao, Jun Qi, Qiming Shao"
+    },
+    "2d6aa586964c1e32e9438d46227942f5": {
+      "id": "2d6aa586964c1e32e9438d46227942f5",
+      "link": "http://arxiv.org/abs/2601.13890",
+      "title": "Correlation-driven branch in doped excitonic insulators",
+      "abstract": "We investigate the spectral properties of a doped one-dimensional excitonic insulator. Employing matrix-product-state-based methods, we compute the single-particle spectrum and optical conductivity in a correlated two-band model. Our numerical calculation reveals the emergence of a correlation-driven in-gap branch in the doped state. The origin of the in-gap branch is examined by decomposing the propagation dynamics of a single particle, elucidating that the doping-induced branch is associated with excitonic correlations. Our demonstrations suggest that the doping-induced branch can serve as an indicator of electron-hole correlations.",
+      "pubdate": "Tue, 20 Jan 2026 12:09:05 +0000",
+      "authors": "Tatsuya Kaneko, Ryota Ueda, Satoshi Ejima"
+    },
+    "6fe1ba092c1751e2ca84a5dbf2580367": {
+      "id": "6fe1ba092c1751e2ca84a5dbf2580367",
+      "link": "http://arxiv.org/abs/2601.13762",
+      "title": "On the Optimal Layout of Two-Dimensional Lattices for Density Matrix Renormalization Group",
+      "abstract": "For quantum spin models defined on a two-dimensional lattice, we look for the best numbering of the lattice sites (a layout) that, at fixed bond dimension and other parameters of the density matrix renormalization group (DMRG) algorithm, gives the lowest value of the variational energy, maximum entropy and truncation error. We consider the conjecture that the optimal layout is a Hamiltonian path, and that it optimizes a simply computable geometric cost function. Finding the minimum of such a function, which is a variant of the minimum linear arrangement problem, provides the DMRG with an efficient layout of the lattice and improves both accuracy and convergence time. We present applications to the antiferromagnetic and spin glass spin-1/2 models on the square and triangular lattices.",
+      "pubdate": "Tue, 20 Jan 2026 09:12:45 +0000",
+      "authors": "A. Scardicchio"
+    },
+    "88d38b02469fd86db7225ae4545daa5a": {
+      "id": "88d38b02469fd86db7225ae4545daa5a",
+      "link": "http://arxiv.org/abs/2601.13530",
+      "title": "Onset of thermalization of q-deformed SU(2) Yang-Mills theory on a trapped-ion quantum computer",
+      "abstract": "Nonequilibrium dynamics of quantum many-body systems is one of the main targets of quantum simulations. This focus - together with rapid advances in quantum-computing hardware - has driven increasing applications in high-energy physics, particularly in lattice gauge theories. However, most existing experimental demonstrations remain restricted to (1+1)-dimensional and/or abelian gauge theories, such as the Schwinger model and the toric code. It is essential to develop quantum simulations of nonabelian gauge theories in higher dimensions, addressing realistic problems in high-energy physics. To fill the gap, we demonstrate a quantum simulation of thermalization dynamics in a (2+1)-dimensional $q$-deformed $\\mathrm{SU}(2)_3$ Yang-Mills theory using a trapped-ion quantum computer. By restricting the irreducible representations of the gauge fields to the integer-spin sector of $\\mathrm{SU}(2)_3$, we obtain a simplified yet nontrivial model described by Fibonacci anyons, which preserves the essential nonabelian fusion structure of the gauge fields. We successfully simulate the real-time dynamics of this model using quantum circuits that explicitly implement $F$-moves. In our demonstrations, the quantum circuits execute up to 47 sequential $F$-moves. We identify idling errors as the dominant error source, which can be effectively mitigated using dynamical decoupling combined with a parallelized implementation of $F$-moves.",
+      "pubdate": "Tue, 20 Jan 2026 02:25:53 +0000",
+      "authors": "Tomoya Hayata, Yoshimasa Hidaka, Yuta Kikuchi"
+    },
+    "209ec654de566f7bd0313c3a50138391": {
+      "id": "209ec654de566f7bd0313c3a50138391",
+      "link": "http://arxiv.org/abs/2601.13333",
+      "title": "Polynomial-time certification of fidelity for many-body mixed states and mixed-state universality classes",
+      "abstract": "Computation of Uhlmann fidelity between many-body mixed states generally involves full diagonalization of exponentially large matrices. In this work, we introduce a polynomial-time algorithm to compute certified lower and upper bounds for the fidelity between matrix product density operators (MPDOs). Our method maps the fidelity estimation problem to a variational optimization of sequential quantum circuits, allowing for systematic improvement of the lower bounds by increasing the circuit depth. Complementarily, we obtain certified upper bounds on fidelity by variational lower bounds on the trace distance through the same framework. We demonstrate the power of this approach with two examples: fidelity correlators in critical mixed states, and codeword distinguishability in an approximate quantum error-correcting code. Remarkably, the variational lower bound accurately track the universal scaling behavior of the fidelity with a size-consistent relative error, allowing for the extraction of previously unknown critical exponents. Our results offer an exponential improvement in precision over known moment-based bounds and establish a scalable framework for the verification of many-body quantum systems.",
+      "pubdate": "Mon, 19 Jan 2026 19:13:28 +0000",
+      "authors": "Yuhan Liu, Yijian Zou"
+    },
+    "99d7dde5dbd68a741f6782bc8f4847da": {
+      "id": "99d7dde5dbd68a741f6782bc8f4847da",
+      "link": "http://arxiv.org/abs/2601.13103",
+      "title": "Comparison between explicit and implicit discretization strategies for a dissipative thermal environment",
+      "abstract": "We investigate strategies for simulating open quantum systems coupled to dissipative baths by comparing explicit wave function-based discretization [via multi-layer multi-configuration time-dependent Hartree (ML-MCTDH)] and the implicit density matrix-based master equation method [via tree tensor network hierarchical equations of motion (TTN-HEOM)]. For dissipative baths characterized by exponentially decaying bath correlation functions, the implicit discretization approach of HEOM -- rooted in bath correlation function decompositions -- proves significantly more efficient than explicit discretization of the bath into discrete harmonic modes. Explicit methods, like ML-MCTDH, require extensive mode discretization to approximate continuum baths, leading to computational bottlenecks. Case studies for two-level systems and a Fenna--Matthews--Olson complex model highlight TTN-HEOM's superiority in capturing dissipative dynamics with relaxations with a minimal number of auxiliary modes, while the explicit methods are as exact as the HEOM in pure dephasing regimes. This comparison is enabled by the TENSO package, which has both ML-MCTDH and TTN-HEOM implemented using the same computational structure and propagation strategy.",
+      "pubdate": "Mon, 19 Jan 2026 14:41:19 +0000",
+      "authors": "Xinxian Chen, Ignacio Franco"
+    },
+    "93914949645887f7b4895dfffeed6847": {
+      "id": "93914949645887f7b4895dfffeed6847",
+      "link": "http://arxiv.org/abs/2601.12446",
+      "title": "Operator delocalization in disordered spin chains via exact MPO marginals",
+      "abstract": "We investigate operator delocalization in disordered one-dimensional spin chains by introducing -- besides the already known operator mass -- a complementary measure of operator complexity: the operator length. Like the operator nonstabilizerness, both these quantities are defined from the expansion of time-evolved operators in the Pauli basis. They characterize, respectively, the number of sites on which an operator acts nontrivially and the spatial extent of its support. We show that both the operator mass and length can be computed efficiently and exactly within a matrix-product-operator (MPS) framework, providing direct access to their full probability distributions, without resorting to stochastic sampling. Applying this approach to the disordered XXZ spin-1/2 chain, we find sharply distinct behaviors in non-interacting and interacting regimes. In the Anderson-localized case, operator mass, length, and operator entanglement entropy rapidly saturate, signaling the absence of scrambling. By contrast, in the many-body localized (MBL) regime, for arbitrarily weak interactions, all quantities exhibit a robust logarithmic growth in time, consistent with the known logarithmic light cone of quantum-correlation propagation in MBL. We demonstrate that this behavior is quantitatively captured by an effective $\\ell$-bit model and persists across system sizes accessible via tensor-network simulations.",
+      "pubdate": "Sun, 18 Jan 2026 15:03:25 +0000",
+      "authors": "Jonnathan Pineda, Mario Collura, Gianluca Passarelli, Procolo Lucignaon, Davide Rossini, Angelo Russomanno"
+    },
+    "296d2c9d563fa2565640f7e1cf5a25be": {
+      "id": "296d2c9d563fa2565640f7e1cf5a25be",
+      "link": "http://arxiv.org/abs/2601.12375",
+      "title": "LiQSS: Post-Transformer Linear Quantum-Inspired State-Space Tensor Networks for Real-Time 6G",
+      "abstract": "Proactive and agentic control in Sixth-Generation (6G) Open Radio Access Networks (O-RAN) requires control-grade prediction under stringent Near-Real-Time (Near-RT) latency and computational constraints. While Transformer-based models are effective for sequence modeling, their quadratic complexity limits scalability in Near-RT RAN Intelligent Controller (RIC) analytics. This paper investigates a post-Transformer design paradigm for efficient radio telemetry forecasting. We propose a quantum-inspired many-body state-space tensor network that replaces self-attention with stable structured state-space dynamics kernels, enabling linear-time sequence modeling. Tensor-network factorizations in the form of Tensor Train (TT) / Matrix Product State (MPS) representations are employed to reduce parameterization and data movement in both input projections and prediction heads, while lightweight channel gating and mixing layers capture non-stationary cross-Key Performance Indicator (KPI) dependencies. The proposed model is instantiated as an agentic perceive-predict xApp and evaluated on a bespoke O-RAN KPI time-series dataset comprising 59,441 sliding windows across 13 KPIs, using Reference Signal Received Power (RSRP) forecasting as a representative use case. Our proposed Linear Quantum-Inspired State-Space (LiQSS) model is 10.8x-15.8x smaller and approximately 1.4x faster than prior structured state-space baselines. Relative to Transformer-based models, LiQSS achieves up to a 155x reduction in parameter count and up to 2.74x faster inference, without sacrificing forecasting accuracy.",
+      "pubdate": "Sun, 18 Jan 2026 12:08:38 +0000",
+      "authors": "Farhad Rezazadeh, Hatim Chergui, Mehdi Bennis, Houbing Song, Lingjia Liu, Dusit Niyato, Merouane Debbah"
+    },
+    "953a3a91738b29c7464988402e3e94a3": {
+      "id": "953a3a91738b29c7464988402e3e94a3",
+      "link": "http://arxiv.org/abs/2601.12165",
+      "title": "Fractional Quantum Hall States: Infinite Matrix Product Representation and its Implications",
+      "abstract": "We present a novel matrix product representation of the Laughlin and related fractional quantum Hall wavefunctions based on a rigorous version of the correlators of a chiral quantum field theory. This representation enables the quantitative control of the coefficients of the Laughlin wavefunction times an arbitrary monomial symmetric polynomial when expanded in a Slater determinant or permanent basis. It renders the properties, such as factorization and the renewal structure, inherent in such fractional quantum Hall wavefunctions transparent. We prove bounds on the correlators of the chiral quantum field theory and utilize this representation to demonstrate the exponential decay of connected correlations and a gap in the entanglement spectrum on a thin cylinder.",
+      "pubdate": "Sat, 17 Jan 2026 21:07:27 +0000",
+      "authors": "Severin Schraven, Simone Warzel"
     }
   }
 }
