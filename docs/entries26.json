@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-01-22T12:14:39.482939+00:00",
+  "last_updated": "2026-01-23T00:32:23.250591+00:00",
   "entries": {
+    "4797db1237e779b8ebeed07c647f68ef": {
+      "id": "4797db1237e779b8ebeed07c647f68ef",
+      "link": "http://arxiv.org/abs/2601.14380",
+      "title": "Field-induced states and thermodynamics of the frustrated Heisenberg antiferromagnet on a square lattice",
+      "abstract": "We investigate the ground-state and finite-temperature properties of the $J_1$-$J_2$ Heisenberg antiferromagnet on the square lattice in the presence of an external magnetic field. We focus on the highly frustrated regime around $J_2 \\approx J_1/2$. The $h$-$T$ phase diagram is investigated with particular emphasis on the finite-temperature transition into the \"up-up-up-down\" state that is stabilized by thermal and quantum fluctuations and manifests itself as a plateau at one half of the saturation magnetization in the quantum case. We also discuss the enhanced magnetocaloric effect associated to the ground-state degeneracy that arises at the saturation field for $J_2=J_1/2$. For reference, we first study the classical case by classical Monte Carlo simulations. Then we turn to the extreme quantum limit of spin-1/2 where we perform zero- and finite-temperature Lanczos calculations.",
+      "pubdate": "Tue, 20 Jan 2026 19:00:05 +0000",
+      "authors": "Andreas Honecker, M. E. Zhitomirsky, Alexander Wietek, Johannes Richter"
+    },
+    "2142ac8b6ee2542f38f5ae4b0f5e821a": {
+      "id": "2142ac8b6ee2542f38f5ae4b0f5e821a",
+      "link": "http://arxiv.org/abs/2601.14379",
+      "title": "Vanishing correlations in (bi)stochastic controlled circuits",
+      "abstract": "We study the dynamics of circuits composed of stochastic and bistochastic controlled gates. This type of dynamics arises from quantum circuits with random controlled gates, as well as in stochastic circuits and deterministic classical cellular automata. We prove that stochastic and bistochastic controlled gates lead to two-point spatio-temporal correlation functions that vanish everywhere except when the two operators act on the same site. More generally, for multi-point correlations the two rightmost operators must act on the same site. We argue that autocorrelation, while hard to compute, typically decays exponentially towards a value that is exponentially small in the system size. Our results reveal a broad class of quantum systems that exhibit surprisingly simple correlation structures despite their complex microscopic dynamics.",
+      "pubdate": "Tue, 20 Jan 2026 19:00:05 +0000",
+      "authors": "Pavel Kos, Bruno Bertini, Tomaž Prosen"
+    },
     "b244547ef1678b0eba9433d3b3fc2201": {
       "id": "b244547ef1678b0eba9433d3b3fc2201",
       "link": "http://arxiv.org/abs/2601.13956",
@@ -384,22 +400,6 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
-    },
-    "4797db1237e779b8ebeed07c647f68ef": {
-      "id": "4797db1237e779b8ebeed07c647f68ef",
-      "link": "http://arxiv.org/abs/2601.14380",
-      "title": "Field-induced states and thermodynamics of the frustrated Heisenberg antiferromagnet on a square lattice",
-      "abstract": "We investigate the ground-state and finite-temperature properties of the $J_1$-$J_2$ Heisenberg antiferromagnet on the square lattice in the presence of an external magnetic field. We focus on the highly frustrated regime around $J_2 \\approx J_1/2$. The $h$-$T$ phase diagram is investigated with particular emphasis on the finite-temperature transition into the \"up-up-up-down\" state that is stabilized by thermal and quantum fluctuations and manifests itself as a plateau at one half of the saturation magnetization in the quantum case. We also discuss the enhanced magnetocaloric effect associated to the ground-state degeneracy that arises at the saturation field for $J_2=J_1/2$. For reference, we first study the classical case by classical Monte Carlo simulations. Then we turn to the extreme quantum limit of spin-1/2 where we perform zero- and finite-temperature Lanczos calculations.",
-      "pubdate": "Tue, 20 Jan 2026 19:00:05 +0000",
-      "authors": "Andreas Honecker, M. E. Zhitomirsky, Alexander Wietek, Johannes Richter"
-    },
-    "2142ac8b6ee2542f38f5ae4b0f5e821a": {
-      "id": "2142ac8b6ee2542f38f5ae4b0f5e821a",
-      "link": "http://arxiv.org/abs/2601.14379",
-      "title": "Vanishing correlations in (bi)stochastic controlled circuits",
-      "abstract": "We study the dynamics of circuits composed of stochastic and bistochastic controlled gates. This type of dynamics arises from quantum circuits with random controlled gates, as well as in stochastic circuits and deterministic classical cellular automata. We prove that stochastic and bistochastic controlled gates lead to two-point spatio-temporal correlation functions that vanish everywhere except when the two operators act on the same site. More generally, for multi-point correlations the two rightmost operators must act on the same site. We argue that autocorrelation, while hard to compute, typically decays exponentially towards a value that is exponentially small in the system size. Our results reveal a broad class of quantum systems that exhibit surprisingly simple correlation structures despite their complex microscopic dynamics.",
-      "pubdate": "Tue, 20 Jan 2026 19:00:05 +0000",
-      "authors": "Pavel Kos, Bruno Bertini, Tomaž Prosen"
     }
   }
 }
