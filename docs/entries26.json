@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-26T00:35:01.572030+00:00",
+  "last_updated": "2026-01-26T12:14:43.678428+00:00",
   "entries": {
     "6837687c50ba1bfb2a14e8b291c9ee36": {
       "id": "6837687c50ba1bfb2a14e8b291c9ee36",
@@ -472,6 +472,54 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "68f30df3d7c79ad8c81448ebb4225ede": {
+      "id": "68f30df3d7c79ad8c81448ebb4225ede",
+      "link": "http://arxiv.org/abs/2601.16974",
+      "title": "Formalising an operational continuum limit of quantum combs",
+      "abstract": "Quantum combs are powerful conceptual tools for capturing multi-time processes in quantum information theory, constituting the most general quantum mechanical process. But, despite their causal nature, they lack a meaningful physical connection to time -- and are, by and large, arguably incompatible with it without extra structure. The subclass of quantum combs which assumes an underlying process is described by the so-called process tensor framework, which has been successfully used to study and characterise non-Markovian open quantum systems. But, although process tensors are motivated by an underlying dynamics, it is not a priori clear how to connect to a continuous process tensor object mathematically -- leaving an uncomfortable conceptual gap. In this work, we take a decisive step toward remedying this situation. We introduce a fully continuous process tensor framework by showing how the discrete multi-partite Choi state becomes a field-theoretic state in bosonic Fock space, which is intrinsically and rigorously defined in the continuum. With this equipped, we lay out the core structural elements of this framework and its properties. This translation allows for an information-theoretic treatment of multi-time correlations in the continuum via the analysis of their continuous matrix product state representatives. Our work closes a gap in the quantum information literature, and opens up the opportunity for the application of many-body physics insights to our understanding of quantum stochastic processes in the continuum.",
+      "pubdate": "Fri, 23 Jan 2026 18:49:41 +0000",
+      "authors": "Clara Wassner, Jonáš Fuksa, Jens Eisert, Gregory A. L. White"
+    },
+    "0236d769ede5339ef641ccacfc2b34e6": {
+      "id": "0236d769ede5339ef641ccacfc2b34e6",
+      "link": "http://arxiv.org/abs/2601.16913",
+      "title": "Coarse-Grained Geometric Quantum Dynamics in the Tensor Network Representation",
+      "abstract": "Quantum geometrical molecular dynamics provides a quantum geometric picture for understanding reactive dynamics, especially excited-state conical intersection dynamics, and also a numerically exact method for strongly correlated electron-nuclear dynamics. However, there are substantial challenges in describing medium-sized molecules with tens of nuclear degrees of freedom. The main challenge is that it uses a discrete variable representation to discretize the molecular configuration space, and thus requires a tremendous number of quantum chemistry calculations to construct the electronic overlap matrix. Moreover, the expansion coefficients scale exponentially with molecular size for direct-product basis sets. We address these challenges by first introducing a coarse-grained local diabatic ansatz, followed by a tensor network representation of the expansion coefficients and the molecular time-evolution operator. With a full 24-dimensional demonstration using the pyrazine molecule, we show that such developments provide a highly accurate and computationally tractable method for high-dimensional, fully quantum, strongly coupled electron-nuclear dynamics from first principles.",
+      "pubdate": "Fri, 23 Jan 2026 17:21:31 +0000",
+      "authors": "Mo Sha, Bing Gu"
+    },
+    "a0e13680574d500dfebc7ced21b4d563": {
+      "id": "a0e13680574d500dfebc7ced21b4d563",
+      "link": "http://arxiv.org/abs/2601.16734",
+      "title": "SeeMPS: A Python-based Matrix Product State and Tensor Train Library",
+      "abstract": "We introduce SeeMPS, a Python library dedicated to implementing tensor network algorithms based on the well-known Matrix Product States (MPS) and Quantized Tensor Train (QTT) formalisms. SeeMPS is implemented as a complete finite precision linear algebra package where exponentially large vector spaces are compressed using the MPS/TT formalism. It enables both low-level operations, such as vector addition, linear transformations, and Hadamard products, as well as high-level algorithms, including the approximation of linear equations, eigenvalue computations, and exponentially efficient Fourier transforms. This library can be used for traditional quantum many-body physics applications and also for quantum-inspired numerical analysis problems, such as solving PDEs, interpolating and integrating multidimensional functions, sampling multivariate probability distributions, etc.",
+      "pubdate": "Fri, 23 Jan 2026 13:31:16 +0000",
+      "authors": "Paula García-Molina, Juan José Rodríguez-Aldavero, Jorge Gidi, Juan José García-Ripoll"
+    },
+    "f722e5783209545f14e075709934e76c": {
+      "id": "f722e5783209545f14e075709934e76c",
+      "link": "http://arxiv.org/abs/2601.16630",
+      "title": "$d$-wave FFLO state and charge-2e supersolidity in the $t$-$t'$-$J$ model under Zeeman fields",
+      "abstract": "Unconventional superconductivity under strong Zeeman fields--particularly beyond the Pauli paramagnetic limit--remains a central challenge in condensed matter physics. The exotic Fulde-Ferrell-Larkin-Ovchinnikov (FFLO) state, in particular, remains in need of definitive study within fundamental electronic models. Here we employ state-of-the-art finite-temperature and ground-state tensor network approaches to systematically explore the superconducting (SC) phase diagram of the $t$-$t'$-$J$ model subjected to Zeeman fields. We find that zero-momentum $d$-wave superconductivity persists until the spin gap closes, coexisting with charge density waves. A novel $d$-wave FFLO phase emerges under a higher Zeeman field even above the Pauli limit, concomitant with a field-enhanced spin density waves. We identify these phases, characterized by the simultaneous presence of pairing condensate and density wave orders, as charge-2e supersolids. Analysis of Matsubara Green's function reveals that the FFLO pairing momentum is locked to the underlying Fermi surface. Our results provide microscopic insights into field-induced unconventional pairing mechanisms and reveal the long-sought FFLO state in a fundamental correlated electron model, offering a promising route for its realization in ultracold atom optical lattice.",
+      "pubdate": "Fri, 23 Jan 2026 10:32:35 +0000",
+      "authors": "Xing-Zhou Qu, Dai-Wei Qu, Qiaoyi Li, Wei Li, Gang Su"
+    },
+    "08b40e287c35866987456b5b375c855f": {
+      "id": "08b40e287c35866987456b5b375c855f",
+      "link": "http://arxiv.org/abs/2601.16474",
+      "title": "Quantum phase estimation with optimal confidence interval using three control qubits",
+      "abstract": "Quantum phase estimation is an important routine in many quantum algorithms, particularly for estimating the ground state energy in quantum chemistry simulations. This estimation involves applying powers of a unitary to the ground state, controlled by an auxiliary state prepared on a control register. In many applications the goal is to provide a confidence interval for the phase estimate, and optimal performance is provided by a discrete prolate spheroidal sequence. We show how to prepare the corresponding state in a far more efficient way than prior work. We find that a matrix product state representation with a bond dimension of 4 is sufficient to give a highly accurate approximation for all dimensions tested, up to $2^{24}$. This matrix product state can be efficiently prepared using a sequence of simple three-qubit operations. When the dimension is a power of 2, the phase estimation can be performed with only three qubits for the control register, making it suitable for early-generation fault-tolerant quantum computers with a limited number of logical qubits.",
+      "pubdate": "Fri, 23 Jan 2026 06:05:11 +0000",
+      "authors": "Kaur Kristjuhan, Dominic W. Berry"
+    },
+    "92648c6eb9e6e813ed1693e1ef025967": {
+      "id": "92648c6eb9e6e813ed1693e1ef025967",
+      "link": "http://arxiv.org/abs/2601.16262",
+      "title": "Vacuum structure of gapped QCD$_2$ theories from the infinite Hamiltonian lattice",
+      "abstract": "Gapped two-dimensional gauge theories with massless fermions generically have rich vacuum structures consisting of many degenerate vacua related by the action of topological line operators. The algebra of such operators has been used to calculate ratios of vacuum expectation values of local operators and to predict nontrivial particle-soliton degeneracies. In this paper, we use recently-developed tensor network methods to study several examples of such theories via their Hamiltonian lattice descriptions. Our lattice results agree with all previously-made predictions. Furthermore, we identify the lattice strong-coupling states that can be adiabatically continued to the degenerate vacua in the continuum limit. We conjecture a procedure, referred to as a lattice decay rule, for how this identification works in general. This rule allows us to compute the continuum vacuum degeneracy by studying the lattice Hamiltonian in the strong-coupling limit.",
+      "pubdate": "Thu, 22 Jan 2026 19:00:03 +0000",
+      "authors": "Ross Dempsey, Anna-Maria E. Glück, Silviu S. Pufu, Benjamin T. Søgaard"
     }
   }
 }
