@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-27T00:34:08.954322+00:00",
+  "last_updated": "2026-01-27T12:14:05.919802+00:00",
   "entries": {
     "68f30df3d7c79ad8c81448ebb4225ede": {
       "id": "68f30df3d7c79ad8c81448ebb4225ede",
@@ -520,6 +520,54 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "391f82a94d5400990812075b92b305dd": {
+      "id": "391f82a94d5400990812075b92b305dd",
+      "link": "http://arxiv.org/abs/2601.18737",
+      "title": "Quantum skyrmions in the antiferromagnetic triangular lattice",
+      "abstract": "Magnetic skyrmions are topological quasiparticles potentially useful for memory and computing devices. Antiferromagnetic (AF) skyrmions present no transverse deflection, making them suitable candidates for data storage applications. After the discovery of skyrmions with length scales comparable to the lattice constant, several works presented quantum analogues of classical ferromagnetic skyrmions in spin systems. However, studies about quantum analogues of AF skyrmions are still lacking. Here, we explore the phases of the AF quantum spin-1/2 Heisenberg model with Dzyaloshinskii-Moriya interactions on the triangular lattice using the density matrix renormalization group (DMRG) algorithm. We study the magnetization profile, spin structure factor and quantum entanglement of the resulting ground states to characterize the corresponding phases and signal the emergence of quantum AF skyrmions. Our results support that three-sublattice quantum antiferromagnetic skyrmion textures are stabilized in a wide range of magnetic fields.",
+      "pubdate": "Mon, 26 Jan 2026 18:00:31 +0000",
+      "authors": "Inés Corte, Federico Holik, Lorena Rebón, Flavia A. Gómez Albarracín"
+    },
+    "a787b26a156fe0065cf5bd05ec5438ce": {
+      "id": "a787b26a156fe0065cf5bd05ec5438ce",
+      "link": "http://arxiv.org/abs/2601.18648",
+      "title": "Multi-target density matrix renormalization group for 3D CFTs on the fuzzy sphere",
+      "abstract": "The fuzzy sphere regularization provides a powerful framework for studying three-dimensional (3D) conformal field theories (CFTs) by mapping them onto numerically tractable lattice models on the spherical lowest Landau level. However, the system sizes accessible to this method have been limited by the exact diagonalization (ED). In this work, we transcend this limitation by combining the fuzzy sphere regularization with a sophisticated multi-target density matrix renormalization group (DMRG) algorithm. Focusing on the 3D Ising-type model on the spherical lowest Landau level, we calculate the 24 low-lying energies at a larger system size than previously feasible with ED. At criticality, we extract the scaling dimensions of six primary operators, and the results show significantly improved agreement with bootstrap benchmarks compared to previous ED results at smaller sizes. Our approach allows us to efficiently target multiple excited states in larger systems beyond the reach of exact diagonalization. This study establishes the fuzzy sphere regularization combined with advanced DMRG techniques as a powerful and general framework for precision physics in 3D CFTs.",
+      "pubdate": "Mon, 26 Jan 2026 16:18:19 +0000",
+      "authors": "Jin-Xiang Hao, Zheng Zhu, Yang Qi"
+    },
+    "2d0176dfed7b8ef9b104474cb66c88ec": {
+      "id": "2d0176dfed7b8ef9b104474cb66c88ec",
+      "link": "http://arxiv.org/abs/2601.18592",
+      "title": "Global Optimization of Atomic Clusters via Physically-Constrained Tensor Train Decomposition",
+      "abstract": "The global optimization of atomic clusters represents a fundamental challenge in computational chemistry and materials science due to the exponential growth of local minima with system size (i.e., the curse of dimensionality). We introduce a novel framework that overcomes this limitation by exploiting the low-rank structure of potential energy surfaces through Tensor Train (TT) decomposition. Our approach combines two complementary TT-based strategies: the algebraic TTOpt method, which utilizes maximum volume sampling, and the probabilistic PROTES method, which employs generative sampling. A key innovation is the development of physically-constrained encoding schemes that incorporate molecular constraints directly into the discretization process. We demonstrate the efficacy of our method by identifying global minima of Lennard-Jones clusters containing up to 45 atoms. Furthermore, we establish its practical applicability to real-world systems by optimizing 20-atom carbon clusters using a machine-learned Moment Tensor Potential, achieving geometries consistent with quantum-accurate simulations. This work establishes TT-decomposition as a powerful tool for molecular structure prediction and provides a general framework adaptable to a wide range of high-dimensional optimization problems in computational material science.",
+      "pubdate": "Mon, 26 Jan 2026 15:38:20 +0000",
+      "authors": "Konstantin Sozykin, Nikita Rybin, Andrei Chertkov, Anh-Huy Phan, Ivan Oseledets, Alexander Shapeev, Ivan Novikov, Gleb Ryzhakov"
+    },
+    "845e34454b50a187bd605470bceee102": {
+      "id": "845e34454b50a187bd605470bceee102",
+      "link": "http://arxiv.org/abs/2601.18449",
+      "title": "Hamiltonian formulation of the $1+1$-dimensional $φ^4$ theory in a momentum-space Daubechies wavelet basis",
+      "abstract": "We apply the wavelet formalism of quantum field theory to investigate nonperturbative dynamics within the Hamiltonian framework. In particular, we employ Daubechies wavelets in momentum space, whose basis functions are labeled by resolution and translation indices, providing a natural nonperturbative truncation of both infrared and ultraviolet truncation of quantum field theories. As an application, we compute the energy spectra of a free scalar field theory and the interacting $1+1$-dimensional $φ^4$ theory. This approach successfully reproduces the well-known strong-coupling phase transition in the $m^2 > 0$ regime. We find that the extracted critical coupling systematically converges toward its established value as the momentum resolution is increased, demonstrating the effectiveness of the wavelet-based Hamiltonian formulation for nonperturbative field-theoretic calculations.",
+      "pubdate": "Mon, 26 Jan 2026 12:57:10 +0000",
+      "authors": "Mrinmoy Basak, Debsubhra Chakraborty, Nilmani Mathur, Raghunath Ratabole"
+    },
+    "2ea2220027e17de0fa6627983ebd8c25": {
+      "id": "2ea2220027e17de0fa6627983ebd8c25",
+      "link": "http://arxiv.org/abs/2601.17724",
+      "title": "Quantum-Inspired Algorithms beyond Unitary Circuits: the Laplace Transform",
+      "abstract": "Quantum-inspired algorithms can deliver substantial speedups over classical state-of-the-art methods by executing quantum algorithms with tensor networks on conventional hardware. Unlike circuit models restricted to unitary gates, tensor networks naturally accommodate non-unitary maps. This flexibility lets us design quantum-inspired methods that start from a quantum algorithmic structure, yet go beyond unitarity to achieve speedups. Here we introduce a tensor-network approach to compute the discrete Laplace transform, a non-unitary, aperiodic transform (in contrast to the Fourier transform). We encode a length-$N$ signal on two paired $n$-qubit registers and decompose the overall map into a non-unitary exponential Damping Transform followed by a Quantum Fourier Transform, both compressed in a single matrix-product operator. This decomposition admits strong MPO compression to low bond dimension resulting in significant acceleration. We demonstrate simulations up to $N=2^{30}$ input data points, with up to $2^{60}$ output data points, and quantify how bond dimension controls runtime and accuracy, including precise and efficient pole identification.",
+      "pubdate": "Sun, 25 Jan 2026 07:19:56 +0000",
+      "authors": "Noufal Jaseem, Sergi Ramos-Calderer, Gauthameshwar S., Dingzu Wang, José Ignacio Latorre, Dario Poletti"
+    },
+    "d680610000d51700828dc02060b834e8": {
+      "id": "d680610000d51700828dc02060b834e8",
+      "link": "http://arxiv.org/abs/2601.17718",
+      "title": "Tree tensor network solver for real-time quantum impurity dynamics",
+      "abstract": "We introduce a tree tensor network (TTN) impurity solver that enables highly efficient and accurate real-time simulations of quantum impurity models. By decomposing a noninteracting bath Hamiltonian into a Cayley tree, the method provides a tensor network representation that naturally captures the multiscale entanglement structure intrinsic to impurity-bath systems. This geometry differs from conventional chain-based mappings and yields a substantial reduction of entanglement, allowing accurate ground-state properties and long-time dynamics to be captured at significantly lower bond dimensions. Benchmark calculations for the single-impurity Anderson model demonstrate that the TTN solver achieves markedly enhanced resolution of real-frequency spectral functions, without invoking analytic continuation. This impurity solver provides a balanced, scale-uniform description of impurity physics and offers a versatile approach for real-time dynamical mean-field theory and related applications involving quantum impurity models.",
+      "pubdate": "Sun, 25 Jan 2026 06:43:48 +0000",
+      "authors": "Bo Zhan, Jia-Lin Chen, Zhen Fan, Tao Xiang"
     }
   }
 }
