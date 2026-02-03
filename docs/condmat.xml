@@ -8,35 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Feb 2026 12:17:56 +0000</lastBuildDate>
-    <item>
-      <title>Non-Equilibrium Quantum Many-Body Physics with Quantum Circuits</title>
-      <link>http://arxiv.org/abs/2601.22375</link>
-      <description>&lt;b&gt;Author(s):&lt;/b&gt; Bruno Bertini&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; These are the notes for the 4.5-hour course with the same title that I delivered in August 2025 at the Les Houches summer school ``Exact Solvability and Quantum Information''. In these notes I pedagogically introduce the setting of brickwork quantum circuits and show that it provides a useful framework to study non-equilibrium quantum many-body dynamics in the presence of local interactions. I first show that brickwork quantum circuits evolve quantum correlations in a way that is fundamentally similar to local Hamiltonians, and then present examples of brickwork quantum circuits where, surprisingly, one can compute exactly several relevant dynamical and spectral properties in the presence of non-trivial interactions.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2601.22375'&gt;arXiv:2601.22375&lt;/a&gt;] Published Thu, 29 Jan 2026 22:40:13 UTC&lt;/b&gt;</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2601.22375</guid>
-      <pubDate>Thu, 29 Jan 2026 22:40:13 +0000</pubDate>
-    <dc:creator>Unknown</dc:creator></item>
-    <item>
-      <title>Spiral Phase and Phase Diagram of the $S$=1/2 XXZ Model on the Shastry-Sutherland Lattice</title>
-      <link>http://arxiv.org/abs/2601.22924</link>
-      <description>&lt;b&gt;Author(s):&lt;/b&gt; Zhengpeng Yuan, Muwei Wu, Dao-Xin Yao, Han-Qing Wu&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We investigate the ground-state phase diagram of the $S$=1/2 XXZ model on the two-dimensional Shastry-Sutherland lattice using exact diagonalization (ED), density-matrix renormalization group (DMRG), and cluster mean-field theory (CMFT) with DMRG as a solver. In the isotropic case ($Δ=1$), CMFT results reveal an intermediate empty plaquette (EP) phase that has a lower energy than the full plaquette (FP) phase. However, due to mean-field artifacts, CMFT alone is not suitable for accurately determining phase boundaries. Therefore, we combined three methods to map out the reliable phase diagram. Our calculations show that the EP phase narrows as $Δ$ deviates from unity and eventually vanishes. More importantly, we identify a spiral phase at small $Δ$, which has not been reported in previous studies. This phase is clearly captured by DMRG simulations on long cylindrical geometries. The competition between the EP, spiral, and $xy$-AFM phases near their boundaries provides a plausible explanation for the emergent spin-liquid-like behavior in RE$_2$Be$_2$GeO$_2$, while shedding new light on the role of XXZ anisotropy in the Shastry-Sutherland XXZ model.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2601.22924'&gt;arXiv:2601.22924&lt;/a&gt;] Published Fri, 30 Jan 2026 12:43:47 UTC&lt;/b&gt;</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2601.22924</guid>
-      <pubDate>Fri, 30 Jan 2026 12:43:47 +0000</pubDate>
-    <dc:creator>Unknown</dc:creator></item>
-    <item>
-      <title>A novel Hamiltonian formulation of $1+1$ dimensional $φ^4$ theory in Daubechies wavelet basis: momentum space analysis</title>
-      <link>http://arxiv.org/abs/2601.22953</link>
-      <description>&lt;b&gt;Author(s):&lt;/b&gt; Mrinmoy Basak&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We employ the wavelet formalism of quantum field theory to study field theories in the nonperturbative Hamiltonian framework. Specifically, we make use of Daubechies wavelets in momentum space. These basis elements are characterised by a resolution and a translation index that provides for a natural nonperturbative infrared and ultraviolet truncation of the quantum field theory. As an application, we consider the $φ^4$ theory and demonstrate the emergence of the well-known nonperturbative strong-coupling phase transition in the $m^2&gt;0$ sector.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2601.22953'&gt;arXiv:2601.22953&lt;/a&gt;] Published Fri, 30 Jan 2026 13:16:00 UTC&lt;/b&gt;</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2601.22953</guid>
-      <pubDate>Fri, 30 Jan 2026 13:16:00 +0000</pubDate>
-    <dc:creator>Unknown</dc:creator></item>
-    <item>
-      <title>Entanglement Hamiltonians in dissipative free fermions and the time-dependent GGE</title>
-      <link>http://arxiv.org/abs/2601.23234</link>
-      <description>&lt;b&gt;Author(s):&lt;/b&gt; Riccardo Travaglino, Federico Rottoli, Pasquale Calabrese&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We investigate the dynamics of Entanglement Hamiltonians (EHs) in dissipative free-fermionic systems using a recent operator-based formulation of the quasiparticle picture. Focusing on gain and loss dissipation, we study the post-quench evolution and derive explicit expressions for the EH at the ballistic scale. In the long-time and weak-dissipation regime, the EH is shown to take the form of a time-dependent Generalized Gibbs Ensemble (t-GGE), with a structure that is universal across different initial states of the quench protocol. Within this framework, the emergence of the t-GGE is fully accounted for by the quasiparticle picture, and we argue that this description remains valid whenever the Lindbladian admits an appropriate coarse-grained representation.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2601.23234'&gt;arXiv:2601.23234&lt;/a&gt;] Published Fri, 30 Jan 2026 18:05:58 UTC&lt;/b&gt;</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2601.23234</guid>
-      <pubDate>Fri, 30 Jan 2026 18:05:58 +0000</pubDate>
-    <dc:creator>Unknown</dc:creator></item>
+    <lastBuildDate>Tue, 03 Feb 2026 00:39:18 +0000</lastBuildDate>
     <item>
       <title>Full grid solution for multi-asset options pricing with tensor networks</title>
       <link>http://arxiv.org/abs/2601.00009</link>
@@ -638,6 +610,34 @@
       <description>&lt;b&gt;Author(s):&lt;/b&gt; Elisabeth Wybo, Jami Rönkkö, Olli Hirviniemi, Jernej Rudi Finžgar, Martin Leib&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We investigate a hybrid quantum-classical algorithm for solving the Maximum Independent Set (MIS) problem on regular graphs, combining the Quantum Approximate Optimization Algorithm (QAOA) with a minimal degree classical greedy algorithm. The method leverages pre-computed QAOA angles, derived from depth-$p$ QAOA circuits on regular trees, to compute local expectation values and inform sequential greedy decisions that progressively build an independent set. This hybrid approach maintains shallow quantum circuit and avoids instance-specific parameter training, making it well-suited for implementation on current quantum hardware: we have implemented the algorithm on a 20 qubit IQM superconducting device to find independent sets in graphs with thousands of nodes. We perform tensor network simulations to evaluate the performance of the algorithm beyond the reach of current quantum hardware and compare to established classical heuristics. Our results show that even at low depth ($p=4$), the quantum-enhanced greedy method significantly outperforms purely classical greedy baselines as well as more sophisticated approximation algorithms. The modular structure of the algorithm and relatively low quantum resource requirements make it a compelling candidate for scalable, hybrid optimization in the NISQ era and beyond.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2601.21923'&gt;arXiv:2601.21923&lt;/a&gt;] Published Thu, 29 Jan 2026 16:14:48 UTC&lt;/b&gt;</description>
       <guid isPermaLink="false">http://arxiv.org/abs/2601.21923</guid>
       <pubDate>Thu, 29 Jan 2026 16:14:48 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <title>Non-Equilibrium Quantum Many-Body Physics with Quantum Circuits</title>
+      <link>http://arxiv.org/abs/2601.22375</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Bruno Bertini&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; These are the notes for the 4.5-hour course with the same title that I delivered in August 2025 at the Les Houches summer school ``Exact Solvability and Quantum Information''. In these notes I pedagogically introduce the setting of brickwork quantum circuits and show that it provides a useful framework to study non-equilibrium quantum many-body dynamics in the presence of local interactions. I first show that brickwork quantum circuits evolve quantum correlations in a way that is fundamentally similar to local Hamiltonians, and then present examples of brickwork quantum circuits where, surprisingly, one can compute exactly several relevant dynamical and spectral properties in the presence of non-trivial interactions.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2601.22375'&gt;arXiv:2601.22375&lt;/a&gt;] Published Thu, 29 Jan 2026 22:40:13 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2601.22375</guid>
+      <pubDate>Thu, 29 Jan 2026 22:40:13 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <title>Spiral Phase and Phase Diagram of the $S$=1/2 XXZ Model on the Shastry-Sutherland Lattice</title>
+      <link>http://arxiv.org/abs/2601.22924</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Zhengpeng Yuan, Muwei Wu, Dao-Xin Yao, Han-Qing Wu&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We investigate the ground-state phase diagram of the $S$=1/2 XXZ model on the two-dimensional Shastry-Sutherland lattice using exact diagonalization (ED), density-matrix renormalization group (DMRG), and cluster mean-field theory (CMFT) with DMRG as a solver. In the isotropic case ($Δ=1$), CMFT results reveal an intermediate empty plaquette (EP) phase that has a lower energy than the full plaquette (FP) phase. However, due to mean-field artifacts, CMFT alone is not suitable for accurately determining phase boundaries. Therefore, we combined three methods to map out the reliable phase diagram. Our calculations show that the EP phase narrows as $Δ$ deviates from unity and eventually vanishes. More importantly, we identify a spiral phase at small $Δ$, which has not been reported in previous studies. This phase is clearly captured by DMRG simulations on long cylindrical geometries. The competition between the EP, spiral, and $xy$-AFM phases near their boundaries provides a plausible explanation for the emergent spin-liquid-like behavior in RE$_2$Be$_2$GeO$_2$, while shedding new light on the role of XXZ anisotropy in the Shastry-Sutherland XXZ model.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2601.22924'&gt;arXiv:2601.22924&lt;/a&gt;] Published Fri, 30 Jan 2026 12:43:47 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2601.22924</guid>
+      <pubDate>Fri, 30 Jan 2026 12:43:47 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <title>A novel Hamiltonian formulation of $1+1$ dimensional $φ^4$ theory in Daubechies wavelet basis: momentum space analysis</title>
+      <link>http://arxiv.org/abs/2601.22953</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Mrinmoy Basak&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We employ the wavelet formalism of quantum field theory to study field theories in the nonperturbative Hamiltonian framework. Specifically, we make use of Daubechies wavelets in momentum space. These basis elements are characterised by a resolution and a translation index that provides for a natural nonperturbative infrared and ultraviolet truncation of the quantum field theory. As an application, we consider the $φ^4$ theory and demonstrate the emergence of the well-known nonperturbative strong-coupling phase transition in the $m^2&gt;0$ sector.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2601.22953'&gt;arXiv:2601.22953&lt;/a&gt;] Published Fri, 30 Jan 2026 13:16:00 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2601.22953</guid>
+      <pubDate>Fri, 30 Jan 2026 13:16:00 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <title>Entanglement Hamiltonians in dissipative free fermions and the time-dependent GGE</title>
+      <link>http://arxiv.org/abs/2601.23234</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Riccardo Travaglino, Federico Rottoli, Pasquale Calabrese&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We investigate the dynamics of Entanglement Hamiltonians (EHs) in dissipative free-fermionic systems using a recent operator-based formulation of the quasiparticle picture. Focusing on gain and loss dissipation, we study the post-quench evolution and derive explicit expressions for the EH at the ballistic scale. In the long-time and weak-dissipation regime, the EH is shown to take the form of a time-dependent Generalized Gibbs Ensemble (t-GGE), with a structure that is universal across different initial states of the quench protocol. Within this framework, the emergence of the t-GGE is fully accounted for by the quasiparticle picture, and we argue that this description remains valid whenever the Lindbladian admits an appropriate coarse-grained representation.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2601.23234'&gt;arXiv:2601.23234&lt;/a&gt;] Published Fri, 30 Jan 2026 18:05:58 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2601.23234</guid>
+      <pubDate>Fri, 30 Jan 2026 18:05:58 +0000</pubDate>
     <dc:creator>Unknown</dc:creator></item>
   </channel>
 </rss>
