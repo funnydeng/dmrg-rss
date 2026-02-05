@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-05T00:39:16.821920+00:00",
+  "last_updated": "2026-02-05T12:18:47.805499+00:00",
   "entries": {
     "86aa655ae8a9810d762dc804933aadd1": {
       "id": "86aa655ae8a9810d762dc804933aadd1",
@@ -800,6 +800,38 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "b32704638259ee73389f37490e9163f9": {
+      "id": "b32704638259ee73389f37490e9163f9",
+      "link": "http://arxiv.org/abs/2602.04676",
+      "title": "Pre-optimization of quantum circuits, barren plateaus and classical simulability: tensor networks to unlock the variational quantum eigensolver",
+      "abstract": "Variational quantum algorithms are practical approaches to prepare ground states, but their potential for quantum advantage remains unclear. Here, we use differentiable 2D tensor networks (TN) to optimize parameterized quantum circuits that prepare the ground state of the transverse field Ising model (TFIM). Our method enables the preparation of states with high energy accuracy, even for large systems beyond 1D. We show that TN pre-optimization can mitigate the barren plateau issue by giving access to enhanced gradient zones that do not shrink exponentially with system size. We evaluate the classical simulation cost evaluating energies at these warm-starts, and identify regimes where quantum hardware offers better scaling than TN simulations.",
+      "pubdate": "Wed, 04 Feb 2026 15:49:55 +0000",
+      "authors": "Baptiste Anselme Martin, Thomas Ayral"
+    },
+    "005c8c9f4b1f6ebe71c3605af47b3e81": {
+      "id": "005c8c9f4b1f6ebe71c3605af47b3e81",
+      "link": "http://arxiv.org/abs/2602.04239",
+      "title": "Benchmarking Quantum and Classical Algorithms for the 1D Burgers Equation: QTN, HSE, and PINN",
+      "abstract": "We present a comparative benchmark of Quantum Tensor Networks (QTN), the Hydrodynamic Schrödinger Equation (HSE), and Physics-Informed Neural Networks (PINN) for simulating the 1D Burgers' equation. Evaluating these emerging paradigms against classical GMRES and Spectral baselines, we analyse solution accuracy, runtime scaling, and resource overhead across grid resolutions ranging from $N=4$ to $N=128$. Our results reveal a distinct performance hierarchy. The QTN solver achieves superior precision ($L_2 \\sim 10^{-7}$) with remarkable near-constant runtime scaling, effectively leveraging entanglement compression to capture shock fronts. In contrast, while the Finite-Difference HSE implementation remains robust, the Spectral HSE method suffers catastrophic numerical instability at high resolutions, diverging significantly at $N=128$. PINNs demonstrate flexibility as mesh-free solvers but stall at lower accuracy tiers ($L_2 \\sim 10^{-1}$), limited by spectral bias compared to grid-based methods. Ultimately, while quantum methods offer novel representational advantages for low-resolution fluid dynamics, this study confirms they currently yield no computational advantage over classical solvers without fault tolerance or significant algorithmic breakthroughs in handling non-linear feedback.",
+      "pubdate": "Wed, 04 Feb 2026 05:57:27 +0000",
+      "authors": "Vanshaj Kerni, Abdelrahman E. Ahmed, Syed Ali Asghar"
+    },
+    "762c5fb4ac4039313f2eae78e862a30a": {
+      "id": "762c5fb4ac4039313f2eae78e862a30a",
+      "link": "http://arxiv.org/abs/2602.04011",
+      "title": "Approximate simulation of complex quantum circuits using sparse tensors",
+      "abstract": "The study of quantum circuit simulation using classical computers is a key research topic that helps define the boundary of verifiable quantum advantage, solve quantum many-body problems, and inform development of quantum hardware and software. Tensor networks have become forefront mathematical tools for these tasks. Here we introduce a method to approximately simulate quantum circuits using sparsely-populated tensors. We describe a sparse tensor data structure that can represent quantum states with no underlying symmetry, and outline algorithms to efficiently contract and truncate these tensors. We show that the data structure and contraction algorithm are efficient, leading to expected runtime scalings versus qubit number and circuit depth. Our results motivate future research in optimization of sparse tensor networks for quantum simulation.",
+      "pubdate": "Tue, 03 Feb 2026 20:58:32 +0000",
+      "authors": "Benjamin N. Miller, Peter K. Elgee, Jason R. Pruitt, Kevin C. Cox"
+    },
+    "7ef6501d414a8c966d90a228e924ecd1": {
+      "id": "7ef6501d414a8c966d90a228e924ecd1",
+      "link": "http://arxiv.org/abs/2602.03925",
+      "title": "Primary charge-4e superconductivity from doping a featureless Mott insulator",
+      "abstract": "Superconductivity is usually understood as a phase in which charge-$2e$ Cooper pairs are condensed. Charge-$4e$ superconductivity has largely been discussed as a vestigial order at finite temperature emerging from charge-$2e$ states. Primary charge-$4e$ superconducting phases at zero temperature remain scarce in both experiments and microscopic models. Here we argue that a doped featureless Mott insulator with $SU(4)$ symmetry provides a natural platform for primary charge-$4e$ superconductivity, based on perturbative renormalization group arguments and group theoretic considerations. As a concrete realization, we construct a bilayer Hubbard model with tunable onsite $SU(4)$ and $Sp(4)$ symmetries that exhibits a featureless Mott insulating phase at half filling. Its low energy physics is captured by a generalized ESD model, featuring an effective Hamiltonian that is purely kinetic within the constrained Hilbert space. Using density matrix renormalization group (DMRG) simulations, we find a primary charge-$4e$ superconducting phase in the $SU(4)$ ESD model and a conventional primary charge-$2e$ phase in the $Sp(4)$ case. We further characterize the corresponding normal states and discuss the resulting finite temperature phase diagram.",
+      "pubdate": "Tue, 03 Feb 2026 19:00:00 +0000",
+      "authors": "Zhi-Qiang Gao, Yan-Qi Wang, Ya-Hui Zhang, Hui Yang"
     }
   }
 }
