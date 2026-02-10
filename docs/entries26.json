@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-10T00:47:02.352648+00:00",
+  "last_updated": "2026-02-10T12:29:34.943088+00:00",
   "entries": {
     "ce70a9c3aacd0a3c51a706289a2adee0": {
       "id": "ce70a9c3aacd0a3c51a706289a2adee0",
@@ -8,6 +8,14 @@
       "abstract": "We study the elementary excitations and magnetization of a one-dimensional spin-1/2 XX chain comprising trimer-dimer units (the J1-J1-J2-J3-J2 topology) under a transverse magnetic field h. Using Green's function theory and the Jordan-Wigner transformation, we map the system onto spinless fermions and focus on antiferromagnetic (AFM) interactions. At zero temperature, distinct 1/5 and 3/5 magnetization plateaus emerge, determined by the global periodicity Q=5, with the number of plateaus matching the number of excitation gaps above the Fermi level of the spinless fermions. The magnetic phase diagram in the (h-Js) plane features a Luttinger liquid (LL) state, a gapless AFM state, two magnetization plateau states, and a fully polarized gapped magnetic state. The widths of the LL and gapless AFM phases are found to be proportional to the bandwidths gamma = |E(k=0)-E(k=pi)| of the corresponding elementary excitations, whereas the widths of the magnetization plateau states are governed by the excitation gaps. Our study opens new directions for exploring interacting trimer-dimer spin chains in quantum magnetism using experimental techniques such as neutron scattering, as well as theoretical and numerical approaches including quantum Monte Carlo (QMC) and density-matrix renormalization group (DMRG) methods. Furthermore, we extend the Oshikawa-Yamanaka-Affleck (OYA) condition to generalized cluster chains, demonstrating that the allowed magnetization plateaus are governed by the global periodicity of the chain (e.g., Q=5 for a trimer-dimer chain), rather than by the local periodicity of individual units (Q=3 for a trimer or Q=2 for a dimer).",
       "pubdate": "Fri, 06 Feb 2026 04:52:51 +0000",
       "authors": "K. S. Chikara, A. K. Bera, A. Kumar, S. M. Yusuf"
+    },
+    "0abae21cd6ff7be7a36007c112b0c1c4": {
+      "id": "0abae21cd6ff7be7a36007c112b0c1c4",
+      "link": "http://arxiv.org/abs/2602.06110",
+      "title": "Private and interpretable clinical prediction with quantum-inspired tensor train models",
+      "abstract": "Machine learning in clinical settings must balance predictive accuracy, interpretability, and privacy. Models such as logistic regression (LR) offer transparency, while neural networks (NNs) provide greater predictive power; yet both remain vulnerable to privacy attacks. We empirically assess these risks by designing attacks that identify which public datasets were used to train a model under varying levels of adversarial access, applying them to LORIS, a publicly available LR model for immunotherapy response prediction, as well as to additional shallow NN models trained for the same task. Our results show that both models leak significant training-set information, with LRs proving particularly vulnerable in white-box scenarios. Moreover, we observe that common practices such as cross-validation in LRs exacerbate these risks. To mitigate these vulnerabilities, we propose a quantum-inspired defense based on tensorizing discretized models into tensor trains (TTs), which fully obfuscates parameters while preserving accuracy, reducing white-box attacks to random guessing and degrading black-box attacks comparably to Differential Privacy. TT models retain LR interpretability and extend it through efficient computation of marginal and conditional distributions, while also enabling this higher level of interpretability for NNs. Our results demonstrate that tensorization is widely applicable and establishes a practical foundation for private, interpretable, and effective clinical prediction.",
+      "pubdate": "Thu, 05 Feb 2026 19:00:00 +0000",
+      "authors": "José Ramón Pareja Monturiol, Juliette Sinnott, Roger G. Melko, Mohammad Kohandel"
     },
     "197826c090f233bd16084db21ef98dff": {
       "id": "197826c090f233bd16084db21ef98dff",
@@ -913,6 +921,38 @@
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
     },
+    "9fe1d9e8efcfd02a3c802d788a0917cd": {
+      "id": "9fe1d9e8efcfd02a3c802d788a0917cd",
+      "link": "http://arxiv.org/abs/2602.08987",
+      "title": "Forward-mode automatic differentiation for the tensor renormalization group and its relation to the impurity method",
+      "abstract": "We propose a forward-mode automatic differentiation (AD) framework for tensor renormalization group (TRG) methods. In this approach, evaluating the derivatives of the partition function up to order $k$ increases the matrix-multiplication cost by a factor of $(k+1)(k+2)/2$ compared to computing the free energy alone, while the memory footprint is only $k$ times that of the original calculation. In the limit where the derivatives of the SVD are neglected, we establish a theoretical correspondence between our forward-mode AD and conventional impurity methods. Numerically, we find that the proposed AD algorithm can calculate internal energy and specific heat significantly higher accuracy than the impurity method at comparable computational cost. We also provide a practical procedure to extract critical exponents from derivatives of the renormalized tensor in TRG calculations in both two and three dimensions.",
+      "pubdate": "Mon, 09 Feb 2026 18:34:21 +0000",
+      "authors": "Yuto Sugimoto"
+    },
+    "48242f20128a9d3178895f8ee8baf5c3": {
+      "id": "48242f20128a9d3178895f8ee8baf5c3",
+      "link": "http://arxiv.org/abs/2602.07945",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "8ee90ba9179d5cdb5a33f3144b746ea7": {
+      "id": "8ee90ba9179d5cdb5a33f3144b746ea7",
+      "link": "http://arxiv.org/abs/2602.07653",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "f7182f7f9299322e18930534eab2253d": {
+      "id": "f7182f7f9299322e18930534eab2253d",
+      "link": "http://arxiv.org/abs/2602.07201",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
     "bd5799ec695485232e0f824a54fef0d3": {
       "id": "bd5799ec695485232e0f824a54fef0d3",
       "link": "http://arxiv.org/abs/2602.06497",
@@ -928,14 +968,6 @@
       "abstract": "",
       "pubdate": null,
       "authors": ""
-    },
-    "0abae21cd6ff7be7a36007c112b0c1c4": {
-      "id": "0abae21cd6ff7be7a36007c112b0c1c4",
-      "link": "http://arxiv.org/abs/2602.06110",
-      "title": "Private and interpretable clinical prediction with quantum-inspired tensor train models",
-      "abstract": "Machine learning in clinical settings must balance predictive accuracy, interpretability, and privacy. Models such as logistic regression (LR) offer transparency, while neural networks (NNs) provide greater predictive power; yet both remain vulnerable to privacy attacks. We empirically assess these risks by designing attacks that identify which public datasets were used to train a model under varying levels of adversarial access, applying them to LORIS, a publicly available LR model for immunotherapy response prediction, as well as to additional shallow NN models trained for the same task. Our results show that both models leak significant training-set information, with LRs proving particularly vulnerable in white-box scenarios. Moreover, we observe that common practices such as cross-validation in LRs exacerbate these risks. To mitigate these vulnerabilities, we propose a quantum-inspired defense based on tensorizing discretized models into tensor trains (TTs), which fully obfuscates parameters while preserving accuracy, reducing white-box attacks to random guessing and degrading black-box attacks comparably to Differential Privacy. TT models retain LR interpretability and extend it through efficient computation of marginal and conditional distributions, while also enabling this higher level of interpretability for NNs. Our results demonstrate that tensorization is widely applicable and establishes a practical foundation for private, interpretable, and effective clinical prediction.",
-      "pubdate": "Thu, 05 Feb 2026 19:00:00 +0000",
-      "authors": "José Ramón Pareja Monturiol, Juliette Sinnott, Roger G. Melko, Mohammad Kohandel"
     }
   }
 }

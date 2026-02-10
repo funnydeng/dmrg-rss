@@ -8,25 +8,43 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Feb 2026 00:47:02 +0000</lastBuildDate>
-    <item>
-      <title>Private and interpretable clinical prediction with quantum-inspired tensor train models</title>
-      <link>http://arxiv.org/abs/2602.06110</link>
-      <description>&lt;b&gt;Author(s):&lt;/b&gt; José Ramón Pareja Monturiol, Juliette Sinnott, Roger G. Melko, Mohammad Kohandel&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; Machine learning in clinical settings must balance predictive accuracy, interpretability, and privacy. Models such as logistic regression (LR) offer transparency, while neural networks (NNs) provide greater predictive power; yet both remain vulnerable to privacy attacks. We empirically assess these risks by designing attacks that identify which public datasets were used to train a model under varying levels of adversarial access, applying them to LORIS, a publicly available LR model for immunotherapy response prediction, as well as to additional shallow NN models trained for the same task. Our results show that both models leak significant training-set information, with LRs proving particularly vulnerable in white-box scenarios. Moreover, we observe that common practices such as cross-validation in LRs exacerbate these risks. To mitigate these vulnerabilities, we propose a quantum-inspired defense based on tensorizing discretized models into tensor trains (TTs), which fully obfuscates parameters while preserving accuracy, reducing white-box attacks to random guessing and degrading black-box attacks comparably to Differential Privacy. TT models retain LR interpretability and extend it through efficient computation of marginal and conditional distributions, while also enabling this higher level of interpretability for NNs. Our results demonstrate that tensorization is widely applicable and establishes a practical foundation for private, interpretable, and effective clinical prediction.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2602.06110'&gt;arXiv:2602.06110&lt;/a&gt;] Published Thu, 05 Feb 2026 19:00:00 UTC&lt;/b&gt;</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2602.06110</guid>
-      <pubDate>Thu, 05 Feb 2026 19:00:00 +0000</pubDate>
-    <dc:creator>Unknown</dc:creator></item>
+    <lastBuildDate>Tue, 10 Feb 2026 12:29:34 +0000</lastBuildDate>
     <item>
       <link>http://arxiv.org/abs/2602.06231</link>
       <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2602.06231'&gt;arXiv:2602.06231&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
       <guid isPermaLink="false">http://arxiv.org/abs/2602.06231</guid>
-      <pubDate>Tue, 10 Feb 2026 00:47:02 +0000</pubDate>
+      <pubDate>Tue, 10 Feb 2026 12:29:35 +0000</pubDate>
     <dc:creator>Unknown</dc:creator></item>
     <item>
       <link>http://arxiv.org/abs/2602.06497</link>
       <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2602.06497'&gt;arXiv:2602.06497&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
       <guid isPermaLink="false">http://arxiv.org/abs/2602.06497</guid>
-      <pubDate>Tue, 10 Feb 2026 00:47:02 +0000</pubDate>
+      <pubDate>Tue, 10 Feb 2026 12:29:35 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <link>http://arxiv.org/abs/2602.07201</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2602.07201'&gt;arXiv:2602.07201&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2602.07201</guid>
+      <pubDate>Tue, 10 Feb 2026 12:29:35 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <link>http://arxiv.org/abs/2602.07653</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2602.07653'&gt;arXiv:2602.07653&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2602.07653</guid>
+      <pubDate>Tue, 10 Feb 2026 12:29:35 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <link>http://arxiv.org/abs/2602.07945</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2602.07945'&gt;arXiv:2602.07945&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2602.07945</guid>
+      <pubDate>Tue, 10 Feb 2026 12:29:35 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <title>Forward-mode automatic differentiation for the tensor renormalization group and its relation to the impurity method</title>
+      <link>http://arxiv.org/abs/2602.08987</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Yuto Sugimoto&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We propose a forward-mode automatic differentiation (AD) framework for tensor renormalization group (TRG) methods. In this approach, evaluating the derivatives of the partition function up to order $k$ increases the matrix-multiplication cost by a factor of $(k+1)(k+2)/2$ compared to computing the free energy alone, while the memory footprint is only $k$ times that of the original calculation. In the limit where the derivatives of the SVD are neglected, we establish a theoretical correspondence between our forward-mode AD and conventional impurity methods. Numerically, we find that the proposed AD algorithm can calculate internal energy and specific heat significantly higher accuracy than the impurity method at comparable computational cost. We also provide a practical procedure to extract critical exponents from derivatives of the renormalized tensor in TRG calculations in both two and three dimensions.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2602.08987'&gt;arXiv:2602.08987&lt;/a&gt;] Published Mon, 09 Feb 2026 18:34:21 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2602.08987</guid>
+      <pubDate>Mon, 09 Feb 2026 18:34:21 +0000</pubDate>
     <dc:creator>Unknown</dc:creator></item>
     <item>
       <title>Full grid solution for multi-asset options pricing with tensor networks</title>
@@ -818,6 +836,13 @@
       <description>&lt;b&gt;Author(s):&lt;/b&gt; Juan F. Martin, Giuseppe Cocco, Javier Fonollosa&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; The realization of fault-tolerant quantum computers remains a challenging endeavor, forcing state-of-the-art quantum hardware to rely heavily on noise mitigation techniques. Standard quantum error mitigation is typically based on post-processing strategies. In contrast, the present work explores a pre-processing approach, in which the effects of noise are mitigated before performing a measurement on the output state. The main idea is to find an observable $Y$ such that its expectation value on a noisy quantum state $\mathcal{E(ρ)}$ matches the expectation value of a target observable $X$ on the noiseless quantum state $ρ$. Our method requires the execution of a noisy quantum circuit, followed by the measurement of the surrogate observable $Y$. The main enablers of our method in practical scenarios are Tensor Networks. The proposed method improves over Tensor Error Mitigation (TEM) in terms of average error, circuit depth, and complexity, attaining a measurement overhead that approaches the theoretical lower bound. The improvement in terms of classical computation complexity is in the order of $\sim 10^6$ times when compared to the post-processing computational cost of TEM in practical scenarios. Such gain comes from eliminating the need to perform the set of informationally complete positive operator-valued measurements (IC-POVM) required by TEM, as well as any other tomographic strategy.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2602.05916'&gt;arXiv:2602.05916&lt;/a&gt;] Published Thu, 05 Feb 2026 17:30:05 UTC&lt;/b&gt;</description>
       <guid isPermaLink="false">http://arxiv.org/abs/2602.05916</guid>
       <pubDate>Thu, 05 Feb 2026 17:30:05 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <title>Private and interpretable clinical prediction with quantum-inspired tensor train models</title>
+      <link>http://arxiv.org/abs/2602.06110</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; José Ramón Pareja Monturiol, Juliette Sinnott, Roger G. Melko, Mohammad Kohandel&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; Machine learning in clinical settings must balance predictive accuracy, interpretability, and privacy. Models such as logistic regression (LR) offer transparency, while neural networks (NNs) provide greater predictive power; yet both remain vulnerable to privacy attacks. We empirically assess these risks by designing attacks that identify which public datasets were used to train a model under varying levels of adversarial access, applying them to LORIS, a publicly available LR model for immunotherapy response prediction, as well as to additional shallow NN models trained for the same task. Our results show that both models leak significant training-set information, with LRs proving particularly vulnerable in white-box scenarios. Moreover, we observe that common practices such as cross-validation in LRs exacerbate these risks. To mitigate these vulnerabilities, we propose a quantum-inspired defense based on tensorizing discretized models into tensor trains (TTs), which fully obfuscates parameters while preserving accuracy, reducing white-box attacks to random guessing and degrading black-box attacks comparably to Differential Privacy. TT models retain LR interpretability and extend it through efficient computation of marginal and conditional distributions, while also enabling this higher level of interpretability for NNs. Our results demonstrate that tensorization is widely applicable and establishes a practical foundation for private, interpretable, and effective clinical prediction.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2602.06110'&gt;arXiv:2602.06110&lt;/a&gt;] Published Thu, 05 Feb 2026 19:00:00 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2602.06110</guid>
+      <pubDate>Thu, 05 Feb 2026 19:00:00 +0000</pubDate>
     <dc:creator>Unknown</dc:creator></item>
     <item>
       <title>Fermionic Approach to Elementary Excitations and Magnetization Plateaus in an S=1/2 XX Hybrid Trimer-Dimer Chain</title>
