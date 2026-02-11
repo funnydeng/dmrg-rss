@@ -8,43 +8,38 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Feb 2026 12:29:34 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Feb 2026 00:45:52 +0000</lastBuildDate>
     <item>
       <link>http://arxiv.org/abs/2602.06231</link>
       <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2602.06231'&gt;arXiv:2602.06231&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
       <guid isPermaLink="false">http://arxiv.org/abs/2602.06231</guid>
-      <pubDate>Tue, 10 Feb 2026 12:29:35 +0000</pubDate>
+      <pubDate>Wed, 11 Feb 2026 00:45:52 +0000</pubDate>
     <dc:creator>Unknown</dc:creator></item>
     <item>
       <link>http://arxiv.org/abs/2602.06497</link>
       <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2602.06497'&gt;arXiv:2602.06497&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
       <guid isPermaLink="false">http://arxiv.org/abs/2602.06497</guid>
-      <pubDate>Tue, 10 Feb 2026 12:29:35 +0000</pubDate>
+      <pubDate>Wed, 11 Feb 2026 00:45:52 +0000</pubDate>
     <dc:creator>Unknown</dc:creator></item>
     <item>
+      <title>Measurement-Based Preparation of Higher-Dimensional AKLT States and Their Quantum Computational Power</title>
       <link>http://arxiv.org/abs/2602.07201</link>
-      <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2602.07201'&gt;arXiv:2602.07201&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Wenhan Guo, Mikhail Litvinov, Tzu-Chieh Wei, Abid Khan, Kevin C. Smith&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We investigate a constant-time, fusion measurement-based scheme to create AKLT states beyond one dimension. We show that it is possible to prepare such states on a given graph up to random spin-1 `decorations', each corresponding to a probabilistic insertion of a vertex along an edge. In investigating their utility in measurement-based quantum computation, we demonstrate that any such randomly decorated AKLT state possesses at least the same computational power as non-random ones, such as those on trivalent planar lattices. For AKLT states on Bethe lattices and their decorated versions we show that there exists a deterministic, constant-time scheme for their preparation. In addition to randomly decorated AKLT states, we also consider random-bond AKLT states, whose construction involves any of the canonical Bell states in the bond degrees of freedom instead of just the singlet in the original construction. Such states naturally emerge upon measuring all the decorative spin-1 sites in the randomly decorated AKLT states. We show that those random-bond AKLT states on trivalent lattices can be converted to encoded random graph states after acting with the same POVM on all sites. We also argue that these random-bond AKLT states possess similar quantum computational power as the original singlet-bond AKLT states via the percolation perspective.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2602.07201'&gt;arXiv:2602.07201&lt;/a&gt;] Published Fri, 06 Feb 2026 21:22:35 UTC&lt;/b&gt;</description>
       <guid isPermaLink="false">http://arxiv.org/abs/2602.07201</guid>
-      <pubDate>Tue, 10 Feb 2026 12:29:35 +0000</pubDate>
+      <pubDate>Fri, 06 Feb 2026 21:22:35 +0000</pubDate>
     <dc:creator>Unknown</dc:creator></item>
     <item>
       <link>http://arxiv.org/abs/2602.07653</link>
       <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2602.07653'&gt;arXiv:2602.07653&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
       <guid isPermaLink="false">http://arxiv.org/abs/2602.07653</guid>
-      <pubDate>Tue, 10 Feb 2026 12:29:35 +0000</pubDate>
+      <pubDate>Wed, 11 Feb 2026 00:45:52 +0000</pubDate>
     <dc:creator>Unknown</dc:creator></item>
     <item>
+      <title>A quantum-inspired multi-level tensor-train monolithic space-time method for nonlinear PDEs</title>
       <link>http://arxiv.org/abs/2602.07945</link>
-      <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2602.07945'&gt;arXiv:2602.07945&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; N. R. Rapaka, R. Peddinti, E. Tiunov, N. J. Faraj, A. N. Alkhooori, L. Aolita, Y. Addad, M. K. Riahi&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We propose a multilevel tensor-train (TT) framework for solving nonlinear partial differential equations (PDEs) in a global space-time formulation. While space-time TT solvers have demonstrated significant potential for compressed high-dimensional simulations, the literature contains few systematic comparisons with classical time-stepping methods, limited error convergence analyses, and little quantitative assessment of the impact of TT rounding on numerical accuracy. Likewise, existing studies fail to demonstrate performance across a diverse set of PDEs and parameter ranges. In practice, monolithic Newton iterations may stagnate or fail to converge in strongly nonlinear, stiff, or advection-dominated regimes, where poor initial guesses and severely ill-conditioned space-time Jacobians hinder robust convergence. We overcome this limitation by introducing a coarse-to-fine multilevel strategy fully embedded within the TT format. Each level refines both spatial and temporal resolutions while transferring the TT solution through low-rank prolongation operators, providing robust initializations for successive Newton solves. Residuals, Jacobians, and transfer operators are represented directly in TT and solved with the adaptive-rank DMRG algorithm. Numerical experiments for a selection of nonlinear PDEs including Fisher-KPP, viscous Burgers, sine-Gordon, and KdV cover diffusive, convective, and dispersive dynamics, demonstrating that the multilevel TT approach consistently converges where single-level space-time Newton iterations fail. In dynamic, advection-dominated (nonlinear) scenarios, multilevel TT surpasses single-level TT, achieving high accuracy with significantly reduced computational cost, specifically when high-fidelity numerical simulation is required.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2602.07945'&gt;arXiv:2602.07945&lt;/a&gt;] Published Sun, 08 Feb 2026 12:38:16 UTC&lt;/b&gt;</description>
       <guid isPermaLink="false">http://arxiv.org/abs/2602.07945</guid>
-      <pubDate>Tue, 10 Feb 2026 12:29:35 +0000</pubDate>
-    <dc:creator>Unknown</dc:creator></item>
-    <item>
-      <title>Forward-mode automatic differentiation for the tensor renormalization group and its relation to the impurity method</title>
-      <link>http://arxiv.org/abs/2602.08987</link>
-      <description>&lt;b&gt;Author(s):&lt;/b&gt; Yuto Sugimoto&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We propose a forward-mode automatic differentiation (AD) framework for tensor renormalization group (TRG) methods. In this approach, evaluating the derivatives of the partition function up to order $k$ increases the matrix-multiplication cost by a factor of $(k+1)(k+2)/2$ compared to computing the free energy alone, while the memory footprint is only $k$ times that of the original calculation. In the limit where the derivatives of the SVD are neglected, we establish a theoretical correspondence between our forward-mode AD and conventional impurity methods. Numerically, we find that the proposed AD algorithm can calculate internal energy and specific heat significantly higher accuracy than the impurity method at comparable computational cost. We also provide a practical procedure to extract critical exponents from derivatives of the renormalized tensor in TRG calculations in both two and three dimensions.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2602.08987'&gt;arXiv:2602.08987&lt;/a&gt;] Published Mon, 09 Feb 2026 18:34:21 UTC&lt;/b&gt;</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2602.08987</guid>
-      <pubDate>Mon, 09 Feb 2026 18:34:21 +0000</pubDate>
+      <pubDate>Sun, 08 Feb 2026 12:38:16 +0000</pubDate>
     <dc:creator>Unknown</dc:creator></item>
     <item>
       <title>Full grid solution for multi-asset options pricing with tensor networks</title>
@@ -850,6 +845,13 @@
       <description>&lt;b&gt;Author(s):&lt;/b&gt; K. S. Chikara, A. K. Bera, A. Kumar, S. M. Yusuf&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We study the elementary excitations and magnetization of a one-dimensional spin-1/2 XX chain comprising trimer-dimer units (the J1-J1-J2-J3-J2 topology) under a transverse magnetic field h. Using Green's function theory and the Jordan-Wigner transformation, we map the system onto spinless fermions and focus on antiferromagnetic (AFM) interactions. At zero temperature, distinct 1/5 and 3/5 magnetization plateaus emerge, determined by the global periodicity Q=5, with the number of plateaus matching the number of excitation gaps above the Fermi level of the spinless fermions. The magnetic phase diagram in the (h-Js) plane features a Luttinger liquid (LL) state, a gapless AFM state, two magnetization plateau states, and a fully polarized gapped magnetic state. The widths of the LL and gapless AFM phases are found to be proportional to the bandwidths gamma = |E(k=0)-E(k=pi)| of the corresponding elementary excitations, whereas the widths of the magnetization plateau states are governed by the excitation gaps. Our study opens new directions for exploring interacting trimer-dimer spin chains in quantum magnetism using experimental techniques such as neutron scattering, as well as theoretical and numerical approaches including quantum Monte Carlo (QMC) and density-matrix renormalization group (DMRG) methods. Furthermore, we extend the Oshikawa-Yamanaka-Affleck (OYA) condition to generalized cluster chains, demonstrating that the allowed magnetization plateaus are governed by the global periodicity of the chain (e.g., Q=5 for a trimer-dimer chain), rather than by the local periodicity of individual units (Q=3 for a trimer or Q=2 for a dimer).&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2602.06387'&gt;arXiv:2602.06387&lt;/a&gt;] Published Fri, 06 Feb 2026 04:52:51 UTC&lt;/b&gt;</description>
       <guid isPermaLink="false">http://arxiv.org/abs/2602.06387</guid>
       <pubDate>Fri, 06 Feb 2026 04:52:51 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <title>Forward-mode automatic differentiation for the tensor renormalization group and its relation to the impurity method</title>
+      <link>http://arxiv.org/abs/2602.08987</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Yuto Sugimoto&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We propose a forward-mode automatic differentiation (AD) framework for tensor renormalization group (TRG) methods. In this approach, evaluating the derivatives of the partition function up to order $k$ increases the matrix-multiplication cost by a factor of $(k+1)(k+2)/2$ compared to computing the free energy alone, while the memory footprint is only $k$ times that of the original calculation. In the limit where the derivatives of the SVD are neglected, we establish a theoretical correspondence between our forward-mode AD and conventional impurity methods. Numerically, we find that the proposed AD algorithm can calculate internal energy and specific heat significantly higher accuracy than the impurity method at comparable computational cost. We also provide a practical procedure to extract critical exponents from derivatives of the renormalized tensor in TRG calculations in both two and three dimensions.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2602.08987'&gt;arXiv:2602.08987&lt;/a&gt;] Published Mon, 09 Feb 2026 18:34:21 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2602.08987</guid>
+      <pubDate>Mon, 09 Feb 2026 18:34:21 +0000</pubDate>
     <dc:creator>Unknown</dc:creator></item>
   </channel>
 </rss>
