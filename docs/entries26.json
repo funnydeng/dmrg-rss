@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-02-11T12:26:12.719160+00:00",
+  "last_updated": "2026-02-12T00:38:53.513878+00:00",
   "entries": {
+    "4a3f73bdbd30c055dbdae6f045155390": {
+      "id": "4a3f73bdbd30c055dbdae6f045155390",
+      "link": "http://arxiv.org/abs/2602.09665",
+      "title": "Tunable many-body burst in isolated quantum systems",
+      "abstract": "Thermalization in isolated quantum many-body systems can be nonmonotonic, with its process dependent on an initial state. We propose a numerical method to construct a low-entangled initial state that creates a ``burst''$\\unicode{x2013}\\unicode{x2013}$a transient deviation of an observable from its thermal equilibrium value$\\unicode{x2013}\\unicode{x2013}$at a designated time. We apply this method to demonstrate that a burst of magnetization can be realized for a nonintegrable mixed-field Ising chain on a timescale comparable to the onset of quantum scrambling. Contrary to the typical spreading of information in this regime, the created burst is accompanied by a slow or even negative entanglement growth. Analytically, we show that a burst becomes probabilistically rare after a long time. Our results suggest that a nonequilibrium state is maintained for an appropriately chosen initial state until scrambling becomes dominant. These predictions can be tested with programmable quantum simulators.",
+      "pubdate": "Tue, 10 Feb 2026 11:20:44 +0000",
+      "authors": "Shozo Yamada, Akihiro Hokkyo, Masahito Ueda"
+    },
+    "fb99171ce5a32a7b0d38d50010041ece": {
+      "id": "fb99171ce5a32a7b0d38d50010041ece",
+      "link": "http://arxiv.org/abs/2602.09098",
+      "title": "Anomalous spin transport in integrable random quantum circuits",
+      "abstract": "High-temperature spin transport in integrable quantum spin chains exhibits a rich dynamical phase diagram, including ballistic, superdiffusive, and diffusive regimes. While integrability is known to survive in static and periodically driven systems, its fate in the complete absence of time-translation symmetry, particularly in interacting random quantum circuits, has remained unclear. Here we construct integrable random quantum circuits built from inhomogeneous XXZ R-matrices. Remarkably, integrability is preserved for arbitrary sequences of gate layers, ranging from quasiperiodic to fully random, thereby explicitly breaking both continuous and discrete time-translation symmetry. Using large-scale time-dependent density-matrix renormalization group simulations at infinite temperature and half filling, we map out the resulting spin-transport phase diagram and identify ballistic, superdiffusive, and diffusive regimes controlled by the spectral parameters of the R-matrices. The spatiotemporal structure of spin correlations within each regime depends sensitively on the inhomogeneity, exhibiting spatial asymmetry and sharp peak structures tied to near-degenerate quasiparticle velocities. To account for these findings, we develop a generalized hydrodynamics framework adapted to time-dependent integrable circuits, yielding Euler-scale predictions for correlation functions, Drude weights, and diffusion bounds. This approach identifies the quasiparticles governing transport and quantitatively captures both the scaling exponents and fine structures of the correlation profiles observed numerically. Our results demonstrate that exact Yang-Baxter integrability is compatible with stochastic quantum dynamics and establish generalized hydrodynamics as a predictive framework for transport in time-dependent integrable systems.",
+      "pubdate": "Mon, 09 Feb 2026 19:00:02 +0000",
+      "authors": "Songlei Wang, Chenguang Liang, Hongzheng Zhao, Zhi-Cheng Yang"
+    },
+    "21fe9bbebe3f6f06066d7a866a8439fa": {
+      "id": "21fe9bbebe3f6f06066d7a866a8439fa",
+      "link": "http://arxiv.org/abs/2602.09083",
+      "title": "Average Categorical Symmetries in One-Dimensional Disordered Systems",
+      "abstract": "We study one-dimensional disordered systems with average non-invertible symmetries, where quenched disorder may locally break part of the symmetry while preserving it upon disorder averaging. A canonical example is the random transverse-field Ising model, which at criticality exhibits an average Kramers-Wannier duality. We consider the general setting in which the full symmetry is described by a $G$-graded fusion category $\\mathcal{B}$, whose identity component $\\mathcal{A}$ remains exact, while the components with nontrivial $G$-grading are realized either exactly or only on average. We develop a topological holographic framework that encodes the symmetry data of the 1D system in a 2D topological order $\\mathcal{Z}[\\mathcal{A}]$ (the Drinfeld center of $\\mathcal{A}$), enriched by an exact or, respectively, average $G$ symmetry. Within this framework, we obtain a complete classification of anomalies and average symmetry-protected topological (SPT) phases: when the components with nontrivial $G$-grading are realized only on average, the symmetry is anomaly-free if and only if $\\mathcal{Z}[\\mathcal{A}]$ admits a magnetic Lagrangian algebra that is invariant under the permutation action of $G$ on anyons. When an anomaly is present, we show that the ground state of a single disorder realization is long-range entangled with probability one in the thermodynamic limit, and is expected to exhibit power-law Griffiths singularities in the low-energy spectrum. Finally, we present an explicit, exactly solvable lattice model based on a symmetry-enriched string-net construction. It yields trivial ground state ensemble in the anomaly-free case, and exhibits exotic low-energy behavior in the presence of an average anomaly.",
+      "pubdate": "Mon, 09 Feb 2026 18:59:14 +0000",
+      "authors": "Yabo Li, Meng Cheng, Ruochen Ma"
+    },
     "9fe1d9e8efcfd02a3c802d788a0917cd": {
       "id": "9fe1d9e8efcfd02a3c802d788a0917cd",
       "link": "http://arxiv.org/abs/2602.08987",
@@ -17,6 +41,14 @@
       "pubdate": "Sun, 08 Feb 2026 12:38:16 +0000",
       "authors": "N. R. Rapaka, R. Peddinti, E. Tiunov, N. J. Faraj, A. N. Alkhooori, L. Aolita, Y. Addad, M. K. Riahi"
     },
+    "8ee90ba9179d5cdb5a33f3144b746ea7": {
+      "id": "8ee90ba9179d5cdb5a33f3144b746ea7",
+      "link": "http://arxiv.org/abs/2602.07653",
+      "title": "An Efficient and Robust Projection Enhanced Interpolation Based Tensor Train Decomposition",
+      "abstract": "The tensor-train (TT) format is a data-sparse tensor representation commonly used in high dimensional data approximations. In order to represent data with interpretability in data science, researchers develop data-centric skeletonized low rank approximations. However, these methods might still suffer from accuracy degeneracy, nonrobustness, and high computation costs. In this paper, given existing skeletonized TT approximations, we propose a family of projection enhanced interpolation based algorithms to further improve approximation accuracy while keeping low computational complexity. We do this as a postprocessing step to existing interpolative decompositions, via oversampling data not in skeletons to include more information and selecting subsets of pivots for faster projections. We illustrate the performances of our proposed methods with extensive numerical experiments. These include up to 10D synthetic datasets such as tensors generated from kernel functions, and tensors constructed from Maxwellian distribution functions that arise in kinetic theory. Our results demonstrate significant accuracy improvement over original skeletonized TT approximations, while using limited amount of computational resources.",
+      "pubdate": "Sat, 07 Feb 2026 18:30:29 +0000",
+      "authors": "Daniel Hayes, Jing-Mei Qiu, Tianyi Shi"
+    },
     "f7182f7f9299322e18930534eab2253d": {
       "id": "f7182f7f9299322e18930534eab2253d",
       "link": "http://arxiv.org/abs/2602.07201",
@@ -25,6 +57,14 @@
       "pubdate": "Fri, 06 Feb 2026 21:22:35 +0000",
       "authors": "Wenhan Guo, Mikhail Litvinov, Tzu-Chieh Wei, Abid Khan, Kevin C. Smith"
     },
+    "bd5799ec695485232e0f824a54fef0d3": {
+      "id": "bd5799ec695485232e0f824a54fef0d3",
+      "link": "http://arxiv.org/abs/2602.06497",
+      "title": "Tensor network dynamical message passing for epidemic models",
+      "abstract": "While epidemiological modeling is pivotal for informing public health strategies, a fundamental trade-off limits its predictive fidelity: exact stochastic simulations are often computationally intractable for large-scale systems, whereas efficient analytical approximations typically fail to account for essential short-range correlations and network loops. Here, we resolve this trade-off by introducing Tensor Network Dynamical Message Passing (TNDMP), a framework grounded in a rigorous property we term \\textit{Susceptible-Induced Factorization}. This theoretical insight reveals that a susceptible node acts as a dynamical decoupler, factorizing the global evolution operator into localized components. Leveraging this, TNDMP provides a dual-mode algorithmic suite: an exact algorithm that computes local observables with minimal redundancy on tractable topologies and a scalable and tunable approximation for complex real-world networks. We demonstrate that widely adopted heuristics, such as Dynamical Message Passing (DMP) and Pair Approximation (PA), are mathematically recoverable as low-order limits of our framework. Numerical validation in synthetic and real-world networks confirms that TNDMP significantly outperforms existing methods to predict epidemic thresholds and steady states, offering a rigorous bridge between the efficiency of message passing and the accuracy of tensor network formalisms.",
+      "pubdate": "Fri, 06 Feb 2026 08:47:29 +0000",
+      "authors": "Cheng Ye, Zi-Song Shen, Pan Zhang"
+    },
     "ce70a9c3aacd0a3c51a706289a2adee0": {
       "id": "ce70a9c3aacd0a3c51a706289a2adee0",
       "link": "http://arxiv.org/abs/2602.06387",
@@ -32,6 +72,14 @@
       "abstract": "We study the elementary excitations and magnetization of a one-dimensional spin-1/2 XX chain comprising trimer-dimer units (the J1-J1-J2-J3-J2 topology) under a transverse magnetic field h. Using Green's function theory and the Jordan-Wigner transformation, we map the system onto spinless fermions and focus on antiferromagnetic (AFM) interactions. At zero temperature, distinct 1/5 and 3/5 magnetization plateaus emerge, determined by the global periodicity Q=5, with the number of plateaus matching the number of excitation gaps above the Fermi level of the spinless fermions. The magnetic phase diagram in the (h-Js) plane features a Luttinger liquid (LL) state, a gapless AFM state, two magnetization plateau states, and a fully polarized gapped magnetic state. The widths of the LL and gapless AFM phases are found to be proportional to the bandwidths gamma = |E(k=0)-E(k=pi)| of the corresponding elementary excitations, whereas the widths of the magnetization plateau states are governed by the excitation gaps. Our study opens new directions for exploring interacting trimer-dimer spin chains in quantum magnetism using experimental techniques such as neutron scattering, as well as theoretical and numerical approaches including quantum Monte Carlo (QMC) and density-matrix renormalization group (DMRG) methods. Furthermore, we extend the Oshikawa-Yamanaka-Affleck (OYA) condition to generalized cluster chains, demonstrating that the allowed magnetization plateaus are governed by the global periodicity of the chain (e.g., Q=5 for a trimer-dimer chain), rather than by the local periodicity of individual units (Q=3 for a trimer or Q=2 for a dimer).",
       "pubdate": "Fri, 06 Feb 2026 04:52:51 +0000",
       "authors": "K. S. Chikara, A. K. Bera, A. Kumar, S. M. Yusuf"
+    },
+    "eb3289a6c4ae891934c2483318e2c94b": {
+      "id": "eb3289a6c4ae891934c2483318e2c94b",
+      "link": "http://arxiv.org/abs/2602.06231",
+      "title": "Magnon-Mediated Superconductivity in the Infinite-$U$ Triangular Lattice",
+      "abstract": "We demonstrate that the infinite-$U$ triangular-lattice Hubbard model supports a superconducting state built from tightly bound Cooper pairs composed of two holes and one magnon ($2h1m$). Building on the seminal prediction of repulsively bound $2h1m$ states, we show that next-nearest-neighbor hopping $t_{2}$ coherently mixes symmetry-related configurations, stabilizing an $s$-wave bound state with substantial binding energy and a light effective mass. Large-scale DMRG calculations at finite doping identify a magnetization plateau corresponding to a gas of such bound states and quasi--long--range superconducting order with power-law $2h1m$ pair correlations. Our results establish a magnon-mediated superconducting mechanism driven by kinetic frustration, with immediate detectable signatures for moiré Hubbard materials and ultracold-atom simulators.",
+      "pubdate": "Thu, 05 Feb 2026 22:19:12 +0000",
+      "authors": "Hantian Zhu, Yixin Zhang, Shang-Shun Zhang, Yang Zhang, Cristian D. Batista"
     },
     "0abae21cd6ff7be7a36007c112b0c1c4": {
       "id": "0abae21cd6ff7be7a36007c112b0c1c4",
@@ -956,58 +1004,10 @@
     "151464cd879eafb444f032c27260c2fa": {
       "id": "151464cd879eafb444f032c27260c2fa",
       "link": "http://arxiv.org/abs/2602.10049",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
-    },
-    "4a3f73bdbd30c055dbdae6f045155390": {
-      "id": "4a3f73bdbd30c055dbdae6f045155390",
-      "link": "http://arxiv.org/abs/2602.09665",
-      "title": "Tunable many-body burst in isolated quantum systems",
-      "abstract": "Thermalization in isolated quantum many-body systems can be nonmonotonic, with its process dependent on an initial state. We propose a numerical method to construct a low-entangled initial state that creates a ``burst''$\\unicode{x2013}\\unicode{x2013}$a transient deviation of an observable from its thermal equilibrium value$\\unicode{x2013}\\unicode{x2013}$at a designated time. We apply this method to demonstrate that a burst of magnetization can be realized for a nonintegrable mixed-field Ising chain on a timescale comparable to the onset of quantum scrambling. Contrary to the typical spreading of information in this regime, the created burst is accompanied by a slow or even negative entanglement growth. Analytically, we show that a burst becomes probabilistically rare after a long time. Our results suggest that a nonequilibrium state is maintained for an appropriately chosen initial state until scrambling becomes dominant. These predictions can be tested with programmable quantum simulators.",
-      "pubdate": "Tue, 10 Feb 2026 11:20:44 +0000",
-      "authors": "Shozo Yamada, Akihiro Hokkyo, Masahito Ueda"
-    },
-    "fb99171ce5a32a7b0d38d50010041ece": {
-      "id": "fb99171ce5a32a7b0d38d50010041ece",
-      "link": "http://arxiv.org/abs/2602.09098",
-      "title": "Anomalous spin transport in integrable random quantum circuits",
-      "abstract": "High-temperature spin transport in integrable quantum spin chains exhibits a rich dynamical phase diagram, including ballistic, superdiffusive, and diffusive regimes. While integrability is known to survive in static and periodically driven systems, its fate in the complete absence of time-translation symmetry, particularly in interacting random quantum circuits, has remained unclear. Here we construct integrable random quantum circuits built from inhomogeneous XXZ R-matrices. Remarkably, integrability is preserved for arbitrary sequences of gate layers, ranging from quasiperiodic to fully random, thereby explicitly breaking both continuous and discrete time-translation symmetry. Using large-scale time-dependent density-matrix renormalization group simulations at infinite temperature and half filling, we map out the resulting spin-transport phase diagram and identify ballistic, superdiffusive, and diffusive regimes controlled by the spectral parameters of the R-matrices. The spatiotemporal structure of spin correlations within each regime depends sensitively on the inhomogeneity, exhibiting spatial asymmetry and sharp peak structures tied to near-degenerate quasiparticle velocities. To account for these findings, we develop a generalized hydrodynamics framework adapted to time-dependent integrable circuits, yielding Euler-scale predictions for correlation functions, Drude weights, and diffusion bounds. This approach identifies the quasiparticles governing transport and quantitatively captures both the scaling exponents and fine structures of the correlation profiles observed numerically. Our results demonstrate that exact Yang-Baxter integrability is compatible with stochastic quantum dynamics and establish generalized hydrodynamics as a predictive framework for transport in time-dependent integrable systems.",
-      "pubdate": "Mon, 09 Feb 2026 19:00:02 +0000",
-      "authors": "Songlei Wang, Chenguang Liang, Hongzheng Zhao, Zhi-Cheng Yang"
-    },
-    "21fe9bbebe3f6f06066d7a866a8439fa": {
-      "id": "21fe9bbebe3f6f06066d7a866a8439fa",
-      "link": "http://arxiv.org/abs/2602.09083",
-      "title": "Average Categorical Symmetries in One-Dimensional Disordered Systems",
-      "abstract": "We study one-dimensional disordered systems with average non-invertible symmetries, where quenched disorder may locally break part of the symmetry while preserving it upon disorder averaging. A canonical example is the random transverse-field Ising model, which at criticality exhibits an average Kramers-Wannier duality. We consider the general setting in which the full symmetry is described by a $G$-graded fusion category $\\mathcal{B}$, whose identity component $\\mathcal{A}$ remains exact, while the components with nontrivial $G$-grading are realized either exactly or only on average. We develop a topological holographic framework that encodes the symmetry data of the 1D system in a 2D topological order $\\mathcal{Z}[\\mathcal{A}]$ (the Drinfeld center of $\\mathcal{A}$), enriched by an exact or, respectively, average $G$ symmetry. Within this framework, we obtain a complete classification of anomalies and average symmetry-protected topological (SPT) phases: when the components with nontrivial $G$-grading are realized only on average, the symmetry is anomaly-free if and only if $\\mathcal{Z}[\\mathcal{A}]$ admits a magnetic Lagrangian algebra that is invariant under the permutation action of $G$ on anyons. When an anomaly is present, we show that the ground state of a single disorder realization is long-range entangled with probability one in the thermodynamic limit, and is expected to exhibit power-law Griffiths singularities in the low-energy spectrum. Finally, we present an explicit, exactly solvable lattice model based on a symmetry-enriched string-net construction. It yields trivial ground state ensemble in the anomaly-free case, and exhibits exotic low-energy behavior in the presence of an average anomaly.",
-      "pubdate": "Mon, 09 Feb 2026 18:59:14 +0000",
-      "authors": "Yabo Li, Meng Cheng, Ruochen Ma"
-    },
-    "8ee90ba9179d5cdb5a33f3144b746ea7": {
-      "id": "8ee90ba9179d5cdb5a33f3144b746ea7",
-      "link": "http://arxiv.org/abs/2602.07653",
-      "title": "An Efficient and Robust Projection Enhanced Interpolation Based Tensor Train Decomposition",
-      "abstract": "The tensor-train (TT) format is a data-sparse tensor representation commonly used in high dimensional data approximations. In order to represent data with interpretability in data science, researchers develop data-centric skeletonized low rank approximations. However, these methods might still suffer from accuracy degeneracy, nonrobustness, and high computation costs. In this paper, given existing skeletonized TT approximations, we propose a family of projection enhanced interpolation based algorithms to further improve approximation accuracy while keeping low computational complexity. We do this as a postprocessing step to existing interpolative decompositions, via oversampling data not in skeletons to include more information and selecting subsets of pivots for faster projections. We illustrate the performances of our proposed methods with extensive numerical experiments. These include up to 10D synthetic datasets such as tensors generated from kernel functions, and tensors constructed from Maxwellian distribution functions that arise in kinetic theory. Our results demonstrate significant accuracy improvement over original skeletonized TT approximations, while using limited amount of computational resources.",
-      "pubdate": "Sat, 07 Feb 2026 18:30:29 +0000",
-      "authors": "Daniel Hayes, Jing-Mei Qiu, Tianyi Shi"
-    },
-    "bd5799ec695485232e0f824a54fef0d3": {
-      "id": "bd5799ec695485232e0f824a54fef0d3",
-      "link": "http://arxiv.org/abs/2602.06497",
-      "title": "Tensor network dynamical message passing for epidemic models",
-      "abstract": "While epidemiological modeling is pivotal for informing public health strategies, a fundamental trade-off limits its predictive fidelity: exact stochastic simulations are often computationally intractable for large-scale systems, whereas efficient analytical approximations typically fail to account for essential short-range correlations and network loops. Here, we resolve this trade-off by introducing Tensor Network Dynamical Message Passing (TNDMP), a framework grounded in a rigorous property we term \\textit{Susceptible-Induced Factorization}. This theoretical insight reveals that a susceptible node acts as a dynamical decoupler, factorizing the global evolution operator into localized components. Leveraging this, TNDMP provides a dual-mode algorithmic suite: an exact algorithm that computes local observables with minimal redundancy on tractable topologies and a scalable and tunable approximation for complex real-world networks. We demonstrate that widely adopted heuristics, such as Dynamical Message Passing (DMP) and Pair Approximation (PA), are mathematically recoverable as low-order limits of our framework. Numerical validation in synthetic and real-world networks confirms that TNDMP significantly outperforms existing methods to predict epidemic thresholds and steady states, offering a rigorous bridge between the efficiency of message passing and the accuracy of tensor network formalisms.",
-      "pubdate": "Fri, 06 Feb 2026 08:47:29 +0000",
-      "authors": "Cheng Ye, Zi-Song Shen, Pan Zhang"
-    },
-    "eb3289a6c4ae891934c2483318e2c94b": {
-      "id": "eb3289a6c4ae891934c2483318e2c94b",
-      "link": "http://arxiv.org/abs/2602.06231",
-      "title": "Magnon-Mediated Superconductivity in the Infinite-$U$ Triangular Lattice",
-      "abstract": "We demonstrate that the infinite-$U$ triangular-lattice Hubbard model supports a superconducting state built from tightly bound Cooper pairs composed of two holes and one magnon ($2h1m$). Building on the seminal prediction of repulsively bound $2h1m$ states, we show that next-nearest-neighbor hopping $t_{2}$ coherently mixes symmetry-related configurations, stabilizing an $s$-wave bound state with substantial binding energy and a light effective mass. Large-scale DMRG calculations at finite doping identify a magnetization plateau corresponding to a gas of such bound states and quasi--long--range superconducting order with power-law $2h1m$ pair correlations. Our results establish a magnon-mediated superconducting mechanism driven by kinetic frustration, with immediate detectable signatures for moiré Hubbard materials and ultracold-atom simulators.",
-      "pubdate": "Thu, 05 Feb 2026 22:19:12 +0000",
-      "authors": "Hantian Zhu, Yixin Zhang, Shang-Shun Zhang, Yang Zhang, Cristian D. Batista"
+      "title": "Preventing Barren Plateaus in Continuous Quantum Generative Models",
+      "abstract": "Recent developments in the field of variational quantum circuits (VQCs) have shifted the prerequisites for trainability for many barren plateau-free models onto the data encoding state fed into a classically trainable unitary. By strengthening proofs relating to small-angle initialisation, we provide a full circuit model which does not suffer from barren plateaus and is robust against current classical simulation techniques, specifically tensor network contraction and Pauli propagation. We propose this as a quantum generative model amenable towards NISQ devices and quantum-classical hybrid models, raising new questions in the debate regarding usefulness of VQCs.",
+      "pubdate": "Tue, 10 Feb 2026 18:17:28 +0000",
+      "authors": "Olli Hirviniemi, Afrad Basheer, Thomas Cope"
     }
   }
 }
