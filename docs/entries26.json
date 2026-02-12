@@ -1,6 +1,14 @@
 {
-  "last_updated": "2026-02-12T00:38:53.513878+00:00",
+  "last_updated": "2026-02-12T12:21:34.681973+00:00",
   "entries": {
+    "151464cd879eafb444f032c27260c2fa": {
+      "id": "151464cd879eafb444f032c27260c2fa",
+      "link": "http://arxiv.org/abs/2602.10049",
+      "title": "Preventing Barren Plateaus in Continuous Quantum Generative Models",
+      "abstract": "Recent developments in the field of variational quantum circuits (VQCs) have shifted the prerequisites for trainability for many barren plateau-free models onto the data encoding state fed into a classically trainable unitary. By strengthening proofs relating to small-angle initialisation, we provide a full circuit model which does not suffer from barren plateaus and is robust against current classical simulation techniques, specifically tensor network contraction and Pauli propagation. We propose this as a quantum generative model amenable towards NISQ devices and quantum-classical hybrid models, raising new questions in the debate regarding usefulness of VQCs.",
+      "pubdate": "Tue, 10 Feb 2026 18:17:28 +0000",
+      "authors": "Olli Hirviniemi, Afrad Basheer, Thomas Cope"
+    },
     "4a3f73bdbd30c055dbdae6f045155390": {
       "id": "4a3f73bdbd30c055dbdae6f045155390",
       "link": "http://arxiv.org/abs/2602.09665",
@@ -993,21 +1001,45 @@
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
     },
+    "6960bde632c13b93da22285c71196fed": {
+      "id": "6960bde632c13b93da22285c71196fed",
+      "link": "http://arxiv.org/abs/2602.11153",
+      "title": "Mapping reservoir-enhanced superconductivity to near-long-range magnetic order in the undoped 1D Anderson- and Kondo-lattices",
+      "abstract": "The undoped Kondo necklace in 1D is a paradigmatic and well understood model of a Kondo insulator. This work performs the first large-scale study of the 1D Anderson-lattice underlying the Kondo necklace with quasi-exact numerical methods, comparing this with the perturbative effective 1D Kondo-necklace model derived from the former. This study is based on an exact mapping of the Anderson model to one of a superconducting pairing layer connected to a metallic reservoir which is valid in arbitrary spatial dimensions, thereby linking the previously disparate areas of reservoir-enhanced superconductivity, following Kivelson's pioneering proposals, and that of periodic Kondo-systems. Our work reveals that below the length-scales on which the insulating state sets in, which can be very large, superconducting and density-density correlations are degenerate and may both appear to approach an almost ordered state, to a degree that far exceeds that of any isolated 1D pairing layer with short-range interactions. We trace these effects to the effective extended-range coupling that the metallic layer mediates within the pairing layer. These results translate directly to the appearance of near-long-range magnetic order at intermediate scales in the Kondo-systems, and explain the strong renormalization of the RKKY-coupling that we effectively observe, in terms of the back-action of the pairing layer onto the metallic layer. The effects we predict could be tested either by local probes of quasi-1D heavy fermion compounds such as CeCo$_2$Ga$_8$, in engineered chains of ad-atoms or in ultracold atomic gases.",
+      "pubdate": "Wed, 11 Feb 2026 18:59:10 +0000",
+      "authors": "J. E. Ebot, Lorenzo Pizzino, Sam Mardazad, Johannes S. Hofmann, Thierry Giamarchi, Adrian Kantian"
+    },
+    "b8f003c20e58570c6bfc1615e0dd2605": {
+      "id": "b8f003c20e58570c6bfc1615e0dd2605",
+      "link": "http://arxiv.org/abs/2602.10205",
+      "title": "A web of exact mappings from RK models to spin chains",
+      "abstract": "We study Rokhsar-Kivelson (RK) dimer and spin ice models realizing $U(1)$-lattice gauge theories in a wide class of quasi-one-dimensional settings, which define a setup for the study of few quantum strings (closed electric field lines) interacting with themselves and each other. We discover a large collection of mappings of these models onto three quantum chains: the spin-1/2 XXZ chain, a spin-1 chain, and a kinetically constrained fermion chain whose configurations are best described in terms of tilings of a rectangular strip. We show that the twist of boundary conditions in the chains maps onto the transverse momentum of the electric field string, and their Drude weight to the inverse of the string mass per unit length. We numerically determine the phase diagrams for these spin chains, employing DMRG simulations and find global similarities but also many interesting new features in comparison to the full 2D problems. For example, the spin-1 chain we obtain features a continuous family of degenerate ground states at its RK point analogous to a Bloch sphere, but without an underlying microscopic global $SU(2)$ symmetry. We also argue for the existence of a (stable) Landau-forbidden gapless critical point away from the RK point in one of the models we study using bosonization and numerics. This is surprising given that the full 2D problem is generically gapped away from the RK point. The same model also displays extensively many local conserved quantities which fragment the Hilbert space, arising as a consequence of destructive resonances between the electric field lines. Our findings highlight spin-chain mappings as a potent technique for the exploration of unusual dynamics, exotic criticality, and low-energy physics in lattice gauge theories.",
+      "pubdate": "Tue, 10 Feb 2026 19:00:56 +0000",
+      "authors": "Gurkirat Singh, Inti Sodemann"
+    },
+    "8bf2b4e040f80be6f576d7a9022b40ef": {
+      "id": "8bf2b4e040f80be6f576d7a9022b40ef",
+      "link": "http://arxiv.org/abs/2602.10189",
+      "title": "Entanglement percolation in random quantum networks",
+      "abstract": "Entanglement percolation aims at generating maximal entanglement between any two nodes of a quantum network by utilizing strategies based solely on local operations and classical communication between the nodes. As it happens in classical percolation theory, the topology of the network is crucial, but also the entanglement shared between the nodes of the network. In a network of identically partially entangled states, the network topology determines the minimum entanglement needed for percolation. In this work, we generalize the protocol to scenarios where the initial entanglement shared between each two nodes of the network is not the same but has some randomness. In such cases, we find that for classical entanglement percolation, only the average initial entanglement is relevant. In contrast, the quantum entanglement percolation protocol generally performs worse under these more realistic conditions.",
+      "pubdate": "Tue, 10 Feb 2026 19:00:01 +0000",
+      "authors": "Alessandro Romancino, Jordi Romero-Pallejà, G. Massimo Palma, Anna Sanpera"
+    },
+    "272897044967d82c7e2f4eb2df08c84c": {
+      "id": "272897044967d82c7e2f4eb2df08c84c",
+      "link": "http://arxiv.org/abs/2602.10183",
+      "title": "Generalized Kramers-Wannier Self-Duality in Hopf-Ising Models",
+      "abstract": "The Kramers-Wannier transformation of the 1+1d transverse-field Ising model exchanges the paramagnetic and ferromagnetic phases and, at criticality, manifests as a non-invertible symmetry. Extending such self-duality symmetries beyond gauging of abelian groups in tensor-product Hilbert spaces has, however, remained challenging. In this work, we construct a generalized 1+1d Ising model based on a finite-dimensional semisimple Hopf algebra $H$ that enjoys an anomaly-free non-invertible symmetry $\\mathrm{Rep}(H)$. We provide an intuitive diagrammatic formulation of both the Hamiltonian and the symmetry operators using a non-(co)commutative generalization of ZX-calculus built from Hopf-algebraic data. When $H$ is self-dual, we further construct a generalized Kramers-Wannier duality operator that exchanges the paramagnetic and ferromagnetic phases and becomes a non-invertible symmetry at the self-dual point. This enlarged symmetry mixes with lattice translation and, in the infrared, flows to a weakly integral fusion category given by a $\\mathbb{Z}_2$ extension of $\\mathrm{Rep}(H)$. Specializing to the Kac-Paljutkin algebra $H_8$, the smallest self-dual Hopf algebra beyond abelian group algebras, we numerically study the phase diagram and identify four of the six $\\mathrm{Rep}(H_8)$-symmetric gapped phases, separated by Ising critical lines and meeting at a multicritical point. We also realize all six $\\mathrm{Rep}(H_8)$-symmetric gapped phases on the lattice via the $H$-comodule algebra formalism, in agreement with the module-category classification of $\\mathrm{Rep}(H_8)$. Our results provide a unified Hopf-algebraic framework for non-invertible symmetries, dualities, and the tensor product lattice models that realize them.",
+      "pubdate": "Tue, 10 Feb 2026 19:00:00 +0000",
+      "authors": "Da-Chuan Lu, Arkya Chatterjee, Nathanan Tantivasadakarn"
+    },
     "2a0751ae066780eaab0af83e3bbed48e": {
       "id": "2a0751ae066780eaab0af83e3bbed48e",
       "link": "http://arxiv.org/abs/2602.10091",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
-    },
-    "151464cd879eafb444f032c27260c2fa": {
-      "id": "151464cd879eafb444f032c27260c2fa",
-      "link": "http://arxiv.org/abs/2602.10049",
-      "title": "Preventing Barren Plateaus in Continuous Quantum Generative Models",
-      "abstract": "Recent developments in the field of variational quantum circuits (VQCs) have shifted the prerequisites for trainability for many barren plateau-free models onto the data encoding state fed into a classically trainable unitary. By strengthening proofs relating to small-angle initialisation, we provide a full circuit model which does not suffer from barren plateaus and is robust against current classical simulation techniques, specifically tensor network contraction and Pauli propagation. We propose this as a quantum generative model amenable towards NISQ devices and quantum-classical hybrid models, raising new questions in the debate regarding usefulness of VQCs.",
-      "pubdate": "Tue, 10 Feb 2026 18:17:28 +0000",
-      "authors": "Olli Hirviniemi, Afrad Basheer, Thomas Cope"
+      "title": "Simulating superconductivity in mixed-dimensional $t_\\parallel$-${J}_\\parallel$-${J}_\\perp$ bilayers with neural quantum states",
+      "abstract": "Motivated by the recent discovery of superconductivity in the bilayer nickelate La$_3$Ni$_2$O$_7$ (LNO) under pressure, we study a mixed-dimensional (mixD) bilayer $t_\\parallel$-$J_\\parallel$-$J_\\perp$ model, which has been proposed as an effective low-energy description of LNO. Using neural quantum states (NQS), and in particular Gutzwiller-projected Hidden Fermion Pfaffian State, we access the ground-state properties on large lattices up to $8\\times 8\\times 2$ sites. We show that this model exhibits superconductivity across a wide range of dopings and couplings, and analyze the pairing behavior in detail. We identify a crossover from tightly bound, Bose-Einstein-condensed interlayer pairs at strong interlayer exchange to more spatially extended Bardeen-Cooper-Schrieffer-like pairs as the interlayer exchange is decreased. Furthermore, upon tuning the intralayer exchange, we observe a sharp transition from interlayer $s$-wave pairing to intralayer $d$-wave pairing, consistent with a first-order change in the pairing symmetry. We verify that our simulations are accurate by comparing with matrix product state simulations on coupled ladders. Our results represent the first simulation of a fermionic multi-orbital system with NQS, and provide the first evidence for superconductivity in two-dimensonal bilayers using high-precision numerics. These findings provide insight into superconductivity in bilayer nickelates and cold atom quantum simulation platforms.",
+      "pubdate": "Tue, 10 Feb 2026 18:55:55 +0000",
+      "authors": "Hannah Lange, Ao Chen, Antoine Georges, Fabian Grusdt, Annabelle Bohrdt, Christopher Roth"
     }
   }
 }
