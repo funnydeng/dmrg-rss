@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-02-13T12:18:05.343210+00:00",
+  "last_updated": "2026-02-14T00:38:04.799960+00:00",
   "entries": {
+    "889b2f494c2cc2d5ed5223275cbfc694": {
+      "id": "889b2f494c2cc2d5ed5223275cbfc694",
+      "link": "http://arxiv.org/abs/2602.12254",
+      "title": "A Stochastic Cluster Expansion for Electronic Correlation in Large Systems",
+      "abstract": "Accurate many-body treatments of condensed-phase systems are challenging because correlated solvers such as full configuration interaction (FCI) and the density matrix renormalization group (DMRG) scale exponentially with system size. Downfolding and embedding approaches mitigate this cost but typically require prior selection of a correlated subspace, which can be difficult to determine in heterogeneous or extended systems. Here, we introduce a stochastic cluster expansion framework for efficiently recovering the total correlation energy of large systems with near-DMRG accuracy, without the need to select an active space a priori. By combining correlation contributions from randomly sampled environment orbitals with an exactly treated subspace of interest, the method reproduces total energies for non-reacting and reactive systems while drastically reducing computational cost. The approach also provides a quantitative diagnostic for molecule-solvent correlation, guiding principled embedding decisions. This framework enables systematically improvable many-body calculations in extended systems, opening the door to high-accuracy studies of chemical processes in condensed phase environments.",
+      "pubdate": "Thu, 12 Feb 2026 18:42:03 +0000",
+      "authors": "Annabelle Canestraight, Anthony J. Dominic, Andres Montoya-Castillo, Libor Veis, Vojtech Vlcek"
+    },
+    "ddcb49fe88a233c78128f9455e936032": {
+      "id": "ddcb49fe88a233c78128f9455e936032",
+      "link": "http://arxiv.org/abs/2602.12053",
+      "title": "Remarks on non-invertible symmetries on a tensor product Hilbert space in 1+1 dimensions",
+      "abstract": "We propose an index of non-invertible symmetry operators in 1+1 dimensions and discuss its relation to the realizability of non-invertible symmetries on the tensor product of finite dimensional on-site Hilbert spaces on the lattice. Our index generalizes the Gross-Nesme-Vogts-Werner index of invertible symmetry operators represented by quantum cellular automata (QCAs). Assuming that all fusion channels of symmetry operators have the same index, we show that the fusion rules of finitely many symmetry operators on a tensor product Hilbert space can agree, up to QCAs, only with those of weakly integral fusion categories. We also discuss an attempt to establish an index theory for non-invertible symmetries within the framework of tensor networks. To this end, we first propose a general class of matrix product operators (MPOs) that describe non-invertible symmetries on a tensor product Hilbert space. These MPOs, which we refer to as topological injective MPOs, include all invertible symmetries, non-anomalous fusion category symmetries, and the Kramers-Wannier symmetries for finite abelian groups. For topological injective MPOs, we construct the defect Hilbert spaces and the corresponding sequential quantum circuit representations. We also show that all fusion channels of topological injective MPOs have the same index if there exist fusion and splitting tensors that satisfy appropriate conditions. The existence of such fusion and splitting tensors has not been proven in general, although we construct them explicitly for all examples of topological injective MPOs listed above.",
+      "pubdate": "Thu, 12 Feb 2026 15:17:58 +0000",
+      "authors": "Kansei Inamura"
+    },
+    "b7d4be67f5e75d1ddea5c427409c47b6": {
+      "id": "b7d4be67f5e75d1ddea5c427409c47b6",
+      "link": "http://arxiv.org/abs/2602.12042",
+      "title": "Scalable Preparation of Matrix Product States with Sequential and Brick Wall Quantum Circuits",
+      "abstract": "Preparing arbitrary quantum states requires exponential resources. Matrix Product States (MPS) admit more efficient constructions, particularly when accuracy is traded for circuit complexity. Existing approaches to MPS preparation mostly rely on heuristic circuits that are deterministic but quickly saturate in accuracy, or on variational optimization methods that reach high fidelities but scale poorly. This work introduces an end-to-end MPS preparation framework that combines the strengths of both strategies within a single pipeline. Heuristic staircase-like and brick wall disentangler circuits provide warm-start initializations for variational optimization, enabling high-fidelity state preparation for large systems. Target MPSs are either specified as physical quantum states or constructed from classical datasets via amplitude encoding, using step-by-step singular value decompositions or tensor cross interpolation. The framework incorporates entanglement-based qubit reordering, reformulated as a quadratic assignment problem, and low-level optimizations that reduce depths by up to 50% and CNOT counts by 33%. We evaluate the full pipeline on datasets of varying complexity across systems of 19-50 qubits and identify trade-offs between fidelity, gate count, and circuit depth. Optimized brick wall circuits typically achieve the lowest depths, while the optimized staircase-like circuits minimize gate counts. Overall, our results provide principled and scalable protocols for preparing MPSs as quantum circuits, supporting utility-scale applications on near-term quantum devices.",
+      "pubdate": "Thu, 12 Feb 2026 15:07:11 +0000",
+      "authors": "Tomasz Szołdra, Rick Mukherjee, Peter Schmelcher"
+    },
+    "528b93993d03c392f3b029ea048eb308": {
+      "id": "528b93993d03c392f3b029ea048eb308",
+      "link": "http://arxiv.org/abs/2602.12025",
+      "title": "Study of multi-particle states with tensor renormalization group method",
+      "abstract": "We investigate the multi-particle states of the (1+1)-dimensional Ising model using a spectroscopy scheme based on the tensor renormalization group method. We start by computing the finite-volume energy spectrum of the model from the transfer matrix, which is numerically estimated using the coarse-grained tensor network. We then identify the quantum number and momentum of the eigenstates by using the symmetries of the system and the matrix elements of an appropriate interpolating operator. Next, we plot the energy for a particular quantum number and momentum as a function of system size to identify the number of particles in the corresponding energy eigenstates. With this method, we obtain one-, two-, and three-particle states. We also compute the two-particle scattering phase shift using Lüscher's formula as well as the wave function approach, and compare the results with the exact prediction.",
+      "pubdate": "Thu, 12 Feb 2026 14:57:22 +0000",
+      "authors": "Fathiyya Izzatun Az-zahra, Shinji Takeda, Takeshi Yamazaki"
+    },
+    "b773cc077ce8b9cb172cb93115a48cb6": {
+      "id": "b773cc077ce8b9cb172cb93115a48cb6",
+      "link": "http://arxiv.org/abs/2602.11589",
+      "title": "Thermodynamics of Shastry-Sutherland Model under Magnetic Field",
+      "abstract": "Motivated by the recent experimental discovery of the $T$-linear specific heat in pressurized and magnetized Shastry-Sutherland Mott insulator SrCu$_2$(BO$_3$)$_2$, we perform the state-of-the-art thermal tensor-network computation on the Shastry-Sutherland model under a magnetic field. Our simulation results suggest the existence of a symmetric intermediate phase with $T$-linear specific heat at low temperature, occupying a large parameter space and separating the plaquette-singlet phase and antiferromagnetic phase at low fields and other symmetry-breaking phases at high fields before the system is fully polarized. Such an unexpected novel state bears an astonishing similarity to the experimental findings in the material. It opens the door to further investigations of the possible liberation of deconfined magnetized Dirac spinons by the competing interactions in this highly frustrated quantum magnet model, and by the combined effects of magnetic field and pressure in the the associated Shastry-Sutherland Mott insulator SrCu$_2$(BO$_3$)$_2$.",
+      "pubdate": "Thu, 12 Feb 2026 05:15:21 +0000",
+      "authors": "Menghan Song, Chengkang Zhou, Cheng Huang, Zi Yang Meng"
+    },
     "6960bde632c13b93da22285c71196fed": {
       "id": "6960bde632c13b93da22285c71196fed",
       "link": "http://arxiv.org/abs/2602.11153",
@@ -1040,46 +1080,6 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
-    },
-    "889b2f494c2cc2d5ed5223275cbfc694": {
-      "id": "889b2f494c2cc2d5ed5223275cbfc694",
-      "link": "http://arxiv.org/abs/2602.12254",
-      "title": "A Stochastic Cluster Expansion for Electronic Correlation in Large Systems",
-      "abstract": "Accurate many-body treatments of condensed-phase systems are challenging because correlated solvers such as full configuration interaction (FCI) and the density matrix renormalization group (DMRG) scale exponentially with system size. Downfolding and embedding approaches mitigate this cost but typically require prior selection of a correlated subspace, which can be difficult to determine in heterogeneous or extended systems. Here, we introduce a stochastic cluster expansion framework for efficiently recovering the total correlation energy of large systems with near-DMRG accuracy, without the need to select an active space a priori. By combining correlation contributions from randomly sampled environment orbitals with an exactly treated subspace of interest, the method reproduces total energies for non-reacting and reactive systems while drastically reducing computational cost. The approach also provides a quantitative diagnostic for molecule-solvent correlation, guiding principled embedding decisions. This framework enables systematically improvable many-body calculations in extended systems, opening the door to high-accuracy studies of chemical processes in condensed phase environments.",
-      "pubdate": "Thu, 12 Feb 2026 18:42:03 +0000",
-      "authors": "Annabelle Canestraight, Anthony J. Dominic, Andres Montoya-Castillo, Libor Veis, Vojtech Vlcek"
-    },
-    "ddcb49fe88a233c78128f9455e936032": {
-      "id": "ddcb49fe88a233c78128f9455e936032",
-      "link": "http://arxiv.org/abs/2602.12053",
-      "title": "Remarks on non-invertible symmetries on a tensor product Hilbert space in 1+1 dimensions",
-      "abstract": "We propose an index of non-invertible symmetry operators in 1+1 dimensions and discuss its relation to the realizability of non-invertible symmetries on the tensor product of finite dimensional on-site Hilbert spaces on the lattice. Our index generalizes the Gross-Nesme-Vogts-Werner index of invertible symmetry operators represented by quantum cellular automata (QCAs). Assuming that all fusion channels of symmetry operators have the same index, we show that the fusion rules of finitely many symmetry operators on a tensor product Hilbert space can agree, up to QCAs, only with those of weakly integral fusion categories. We also discuss an attempt to establish an index theory for non-invertible symmetries within the framework of tensor networks. To this end, we first propose a general class of matrix product operators (MPOs) that describe non-invertible symmetries on a tensor product Hilbert space. These MPOs, which we refer to as topological injective MPOs, include all invertible symmetries, non-anomalous fusion category symmetries, and the Kramers-Wannier symmetries for finite abelian groups. For topological injective MPOs, we construct the defect Hilbert spaces and the corresponding sequential quantum circuit representations. We also show that all fusion channels of topological injective MPOs have the same index if there exist fusion and splitting tensors that satisfy appropriate conditions. The existence of such fusion and splitting tensors has not been proven in general, although we construct them explicitly for all examples of topological injective MPOs listed above.",
-      "pubdate": "Thu, 12 Feb 2026 15:17:58 +0000",
-      "authors": "Kansei Inamura"
-    },
-    "b7d4be67f5e75d1ddea5c427409c47b6": {
-      "id": "b7d4be67f5e75d1ddea5c427409c47b6",
-      "link": "http://arxiv.org/abs/2602.12042",
-      "title": "Scalable Preparation of Matrix Product States with Sequential and Brick Wall Quantum Circuits",
-      "abstract": "Preparing arbitrary quantum states requires exponential resources. Matrix Product States (MPS) admit more efficient constructions, particularly when accuracy is traded for circuit complexity. Existing approaches to MPS preparation mostly rely on heuristic circuits that are deterministic but quickly saturate in accuracy, or on variational optimization methods that reach high fidelities but scale poorly. This work introduces an end-to-end MPS preparation framework that combines the strengths of both strategies within a single pipeline. Heuristic staircase-like and brick wall disentangler circuits provide warm-start initializations for variational optimization, enabling high-fidelity state preparation for large systems. Target MPSs are either specified as physical quantum states or constructed from classical datasets via amplitude encoding, using step-by-step singular value decompositions or tensor cross interpolation. The framework incorporates entanglement-based qubit reordering, reformulated as a quadratic assignment problem, and low-level optimizations that reduce depths by up to 50% and CNOT counts by 33%. We evaluate the full pipeline on datasets of varying complexity across systems of 19-50 qubits and identify trade-offs between fidelity, gate count, and circuit depth. Optimized brick wall circuits typically achieve the lowest depths, while the optimized staircase-like circuits minimize gate counts. Overall, our results provide principled and scalable protocols for preparing MPSs as quantum circuits, supporting utility-scale applications on near-term quantum devices.",
-      "pubdate": "Thu, 12 Feb 2026 15:07:11 +0000",
-      "authors": "Tomasz Szołdra, Rick Mukherjee, Peter Schmelcher"
-    },
-    "528b93993d03c392f3b029ea048eb308": {
-      "id": "528b93993d03c392f3b029ea048eb308",
-      "link": "http://arxiv.org/abs/2602.12025",
-      "title": "Study of multi-particle states with tensor renormalization group method",
-      "abstract": "We investigate the multi-particle states of the (1+1)-dimensional Ising model using a spectroscopy scheme based on the tensor renormalization group method. We start by computing the finite-volume energy spectrum of the model from the transfer matrix, which is numerically estimated using the coarse-grained tensor network. We then identify the quantum number and momentum of the eigenstates by using the symmetries of the system and the matrix elements of an appropriate interpolating operator. Next, we plot the energy for a particular quantum number and momentum as a function of system size to identify the number of particles in the corresponding energy eigenstates. With this method, we obtain one-, two-, and three-particle states. We also compute the two-particle scattering phase shift using Lüscher's formula as well as the wave function approach, and compare the results with the exact prediction.",
-      "pubdate": "Thu, 12 Feb 2026 14:57:22 +0000",
-      "authors": "Fathiyya Izzatun Az-zahra, Shinji Takeda, Takeshi Yamazaki"
-    },
-    "b773cc077ce8b9cb172cb93115a48cb6": {
-      "id": "b773cc077ce8b9cb172cb93115a48cb6",
-      "link": "http://arxiv.org/abs/2602.11589",
-      "title": "Thermodynamics of Shastry-Sutherland Model under Magnetic Field",
-      "abstract": "Motivated by the recent experimental discovery of the $T$-linear specific heat in pressurized and magnetized Shastry-Sutherland Mott insulator SrCu$_2$(BO$_3$)$_2$, we perform the state-of-the-art thermal tensor-network computation on the Shastry-Sutherland model under a magnetic field. Our simulation results suggest the existence of a symmetric intermediate phase with $T$-linear specific heat at low temperature, occupying a large parameter space and separating the plaquette-singlet phase and antiferromagnetic phase at low fields and other symmetry-breaking phases at high fields before the system is fully polarized. Such an unexpected novel state bears an astonishing similarity to the experimental findings in the material. It opens the door to further investigations of the possible liberation of deconfined magnetized Dirac spinons by the competing interactions in this highly frustrated quantum magnet model, and by the combined effects of magnetic field and pressure in the the associated Shastry-Sutherland Mott insulator SrCu$_2$(BO$_3$)$_2$.",
-      "pubdate": "Thu, 12 Feb 2026 05:15:21 +0000",
-      "authors": "Menghan Song, Chengkang Zhou, Cheng Huang, Zi Yang Meng"
     }
   }
 }
