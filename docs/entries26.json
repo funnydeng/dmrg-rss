@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-19T00:39:35.732718+00:00",
+  "last_updated": "2026-02-19T12:20:52.908029+00:00",
   "entries": {
     "d8a6edf8544a164686439aec7c34e2c8": {
       "id": "d8a6edf8544a164686439aec7c34e2c8",
@@ -1224,6 +1224,54 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "d6be1d699754fe322c7b66025b62589b": {
+      "id": "d6be1d699754fe322c7b66025b62589b",
+      "link": "http://arxiv.org/abs/2602.16661",
+      "title": "A Tale of Two Plateaus: Competing Orders in Spin-1 and Spin-$\\tfrac{3}{2}$ Pyrochlore Magnets",
+      "abstract": "We use large-scale density-matrix renormalization group simulations with bond dimensions up to $20\\ 000$ to determine the magnetization curves of spin-1 and spin-$\\tfrac{3}{2}$ pyrochlore Heisenberg antiferromagnets. Both models exhibit a robust half-magnetization plateau, and we find that the same 16-site state (quadrupled unit cell) is selected in both cases on the largest 64-site cubic cluster we consider for the plateau state. This contrasts sharply with the effective quantum dimer model prediction which favors the ``R'' state, and demonstrates the breakdown of the perturbative mechanism at the Heisenberg point. These results provide a nonperturbative characterization of field-induced phases in pyrochlore magnets and predictive guidance for spin-1 and spin-$\\tfrac{3}{2}$ materials.",
+      "pubdate": "Wed, 18 Feb 2026 18:01:58 +0000",
+      "authors": "Imre Hagymási"
+    },
+    "da0217a7369ee6a8ea165a70622f0e37": {
+      "id": "da0217a7369ee6a8ea165a70622f0e37",
+      "link": "http://arxiv.org/abs/2602.16266",
+      "title": "Structured Unitary Tensor Network Representations for Circuit-Efficient Quantum Data Encoding",
+      "abstract": "Encoding classical data into quantum states is a central bottleneck in quantum machine learning: many widely used encodings are circuit-inefficient, requiring deep circuits and substantial quantum resources, which limits scalability on quantum hardware. In this work, we propose TNQE, a circuit-efficient quantum data encoding framework built on structured unitary tensor network (TN) representations. TNQE first represents each classical input via a TN decomposition and then compiles the resulting tensor cores into an encoding circuit through two complementary core-to-circuit strategies. To make this compilation trainable while respecting the unitary nature of quantum operations, we introduce a unitary-aware constraint that parameterizes TN cores as learnable block unitaries, enabling them to be directly optimized and directly encoded as quantum operators. The proposed TNQE framework enables explicit control over circuit depth and qubit resources, allowing the construction of shallow, resource-efficient circuits. Across a range of benchmarks, TNQE achieves encoding circuits as shallow as $0.04\\times$ the depth of amplitude encoding, while naturally scaling to high-resolution images ($256 \\times 256$) and demonstrating practical feasibility on real quantum hardware.",
+      "pubdate": "Wed, 18 Feb 2026 08:36:07 +0000",
+      "authors": "Guang Lin, Toshihisa Tanaka, Qibin Zhao"
+    },
+    "885aefdee86f02ec55bf28fd1cbad840": {
+      "id": "885aefdee86f02ec55bf28fd1cbad840",
+      "link": "http://arxiv.org/abs/2602.15987",
+      "title": "Gaussian continuous tensor network states: short-distance properties and imaginary-time evolution",
+      "abstract": "We study Gaussian continuous tensor network states (GCTNS) - a finitely-parameterized subclass of Gaussian states admitting an interpretation as continuum limits of discrete tensor network states. We show that, at short distance, GCTNS correspond to free Lifshitz vacua, establishing a connection between certain entanglement properties of the two. Two schemes to approximate ground states of (free) bosonic field theories using GCTNS are presented: rational approximants to the exact dispersion relation and Trotterized imaginary-time evolution. We apply them to Klein-Gordon theory and characterize the resulting approximations, identifying the energy scales at which deviations from the target theory appear. These results provide a simple and analytically controlled setting to assess the strengths and limitations of GCTNS as variational ansätze for relativistic quantum fields.",
+      "pubdate": "Tue, 17 Feb 2026 20:24:19 +0000",
+      "authors": "Marco Rigobello, Erez Zohar"
+    },
+    "2528ec5d50b5684e736158e4b6950454": {
+      "id": "2528ec5d50b5684e736158e4b6950454",
+      "link": "http://arxiv.org/abs/2602.15942",
+      "title": "Limits of Clifford Disentangling in Tensor Network States",
+      "abstract": "Tensor network methods leverage the limited entanglement of quantum states to efficiently simulate many-body systems. Alternatively, Clifford circuits provide a framework for handling highly entangled stabilizer states, which have low magic and are thus also classically tractable. Clifford tensor networks combine the benefits of both approaches, exploiting Clifford circuits to reduce the classical complexity of the tensor network description of states, with promising effects on simulation approaches. We study the disentangling power of Clifford transformations acting on tensor networks, with a particular emphasis on entanglement cooling strategies. We identify regimes where exact or heuristic Clifford disentanglers are effective, explain the link between the two approaches, and characterize their breakdown as non-Clifford resources accumulate. Additionally, we prove that, beyond stabilizer settings, no Clifford operation can universally disentangle even a single qubit from an arbitrary non-Clifford rotation. Our results clarify both the capabilities and fundamental limitations of Clifford-based simulation methods.",
+      "pubdate": "Tue, 17 Feb 2026 19:01:26 +0000",
+      "authors": "Sergi Masot-Llima, Piotr Sierant, Paolo Stornati, Artur Garcia-Saez"
+    },
+    "81ea059bcb2dea902111194f7c092129": {
+      "id": "81ea059bcb2dea902111194f7c092129",
+      "link": "http://arxiv.org/abs/2602.15906",
+      "title": "Quantum-Inspired Tensor Networks for Approximating PDE Flow Maps",
+      "abstract": "We investigate quantum-inspired tensor networks (QTNs) for approximating flow maps of hydrodynamic partial differential equations (PDEs). Motivated by the effective low-rank structure that emerges after tensorization of discretized transport and diffusion dynamics, we encode PDE states as matrix product states (MPS) and represent the evolution operator as a structured low-rank matrix product operator (MPO) in tensor-train form (e.g., arising from finite-difference discretizations assembled in MPO form). The MPO is applied directly in MPS form, and rank growth is controlled via canonicalization and SVD-based truncation after each step. We provide theoretical context through standard matrix product properties, including exact MPS representability bounds, local optimality of SVD truncation, and a Lipschitz-type multi-step error propagation estimate. Experiments on one- and two-dimensional linear advection-diffusion and nonlinear viscous Burgers equations demonstrate accurate short-horizon prediction, favorable scaling in smooth diffusive regimes, and error growth in nonlinear multi-step predictions.",
+      "pubdate": "Mon, 16 Feb 2026 10:06:19 +0000",
+      "authors": "Nahid Binandeh Dehaghani, Ban Q. Tran, Rafal Wisniewski, Susan Mengel, A. Pedro Aguiar"
+    },
+    "89c96d92014bec9426ecd68aed7bdc86": {
+      "id": "89c96d92014bec9426ecd68aed7bdc86",
+      "link": "http://arxiv.org/abs/2602.15933",
+      "title": "KPZ-like transport in long-range interacting spin chains proximate to integrability",
+      "abstract": "Isotropic integrable spin chains such as the Heisenberg model feature superdiffusive spin transport belonging to an as-yet-unidentified dynamical universality class closely related to that of Kardar, Parisi, and Zhang (KPZ). To determine whether these results extend to more generic one-dimensional models, particularly those realizable in quantum simulators, we investigate spin and energy transport in non-integrable, long-range Heisenberg models using state-of-the-art tensor network methods. Despite the lack of integrability and the asymptotic expectation of diffusion, for power-law models (with exponent $2 < α< \\infty$) we observe long-lived $z=3/2$ superdiffusive spin transport and two-point correlators consistent with KPZ scaling functions, up to times $t \\sim 10^3/J$. We conjecture that this KPZ-like transport is due to the proximity of such power-law-interacting models to the integrable family of Inozemtsev models, which we show to also exhibit KPZ-like spin transport across all interaction ranges. Finally, we consider anisotropic spin models naturally realized in Rydberg atom arrays and ultracold polar molecules, demonstrating that a wide range of long-lived, non-diffusive transport can be observed in experimental settings.",
+      "pubdate": "Tue, 17 Feb 2026 19:00:02 +0000",
+      "authors": "Sajant Anand, Jack Kemp, Julia Wei, Christopher David White, Michael P. Zaletel, Norman Y. Yao"
     }
   }
 }
