@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-20T00:36:46.611030+00:00",
+  "last_updated": "2026-02-20T12:18:07.221905+00:00",
   "entries": {
     "d6be1d699754fe322c7b66025b62589b": {
       "id": "d6be1d699754fe322c7b66025b62589b",
@@ -1272,6 +1272,54 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "de5a588ed7b53682358e24096a84e68d": {
+      "id": "de5a588ed7b53682358e24096a84e68d",
+      "link": "http://arxiv.org/abs/2602.17569",
+      "title": "Efficiency of classical simulations of a noisy Grover algorithm",
+      "abstract": "We analyze the modification of entanglement dynamics in the Grover algorithm when the qubits are subjected to single-qubit amplitude-damping or phase-flip noise. We compare quantum trajectories with full density-matrix simulations, analyzing the dynamics of averaged trajectory entanglement (TE) and operator entanglement (OE), in the respective state representation. Although not a genuine entanglement measure, both TE and OE are connected to the efficiency of matrix product state simulations and thus of fundamental interest. As in many quantum algorithms, at the end of the Grover circuit entanglement decreases as the system converges towards the target product state. While we find that this is well captured in the OE dynamics, quantum trajectories rarely follow paths of reducing entanglement. Optimized unraveling schemes can lower TE slightly, however we show that deep in the circuit OE is generally smaller than TE. This implies that matrix product density operator (MPDO) simulations of quantum circuits can in general be more efficient than quantum trajectories. In addition, we investigate the noise-rate scaling of success probabilities for both amplitude-damping and phase-flip noise in Grover's algorithm.",
+      "pubdate": "Thu, 19 Feb 2026 17:24:06 +0000",
+      "authors": "Raphaël Menu, Johannes Schachenmayer"
+    },
+    "f781c9e9ea39465a3f519f77d346eee1": {
+      "id": "f781c9e9ea39465a3f519f77d346eee1",
+      "link": "http://arxiv.org/abs/2602.17436",
+      "title": "Matrix-product operator dualities in integrable lattice models",
+      "abstract": "Matrix-product operators (MPOs) appear throughout the study of integrable lattice models, notably as the transfer matrices. They can also be used as transformations to construct dualities between such models, both invertible (including unitary) and non-invertible (including discrete gauging). We analyse how the local Yang--Baxter integrable structures are modified under such dualities. We see that the $\\check{R}$-matrix, that appears in the baxterization approach to integrability, transforms in a simple manner. We further show for a broad class of MPOs that the usual Yang--Baxter $R$-matrix satisfies a modified algebra, previously identified in the unitary case, that gives a local integrable structure underlying the commuting transfer matrices of the dual model. We illustrate these results with two case studies, analysing an invertible unitary MPO and a non-invertible MPO both applied to the canonical XXZ spin chain. The former is the cluster entangler, arising in the study of symmetry-protected topological phases, while the latter is the Kramers--Wannier duality. We show several results for MPOs with exact MPO inverses that are of independent interest.",
+      "pubdate": "Thu, 19 Feb 2026 15:07:15 +0000",
+      "authors": "Yuan Miao, Andras Molnar, Nick G. Jones"
+    },
+    "dc6d99b134f26a5f8fdd738ab39f6a30": {
+      "id": "dc6d99b134f26a5f8fdd738ab39f6a30",
+      "link": "http://arxiv.org/abs/2602.17427",
+      "title": "Mott-insulating phases of the Bose-Hubbard model on quasi-1D ladder lattices",
+      "abstract": "We calculate the phase diagram of the Bose-Hubbard model on a half-filled ladder lattice including the effect of finite on-site interactions. This shows that the rung-Mott insulator (RMI) phase persists to finite interaction strength, and we calculate the RMI-superfluid phase boundary in the thermodynamic limit. We show that the phases can still be distinguished using the number and parity variances, which are observables accessible in a quantum-gas microscope. Phases analogous to the RMI were found to exist in other quasi-1D lattice structures, with the lattice connectivity modifying the phase boundaries. This shows that the the presence of these phases is the result of states with one-dimensional structures being mapped onto higher dimensional systems, driven by the reduction of hopping rates along different directions.",
+      "pubdate": "Thu, 19 Feb 2026 14:57:36 +0000",
+      "authors": "Lorenzo Carfora, Callum W. Duncan, Stefan Kuhr, Peter Kirton"
+    },
+    "841f9905131de34e26e63bd5ec0b6a9a": {
+      "id": "841f9905131de34e26e63bd5ec0b6a9a",
+      "link": "http://arxiv.org/abs/2602.17158",
+      "title": "Stochastic tensor contraction for quantum chemistry",
+      "abstract": "Many computational methods in ab initio quantum chemistry are formulated in terms of high-order tensor contractions, whose cost determines the size of system that can be studied. We introduce stochastic tensor contraction to perform such operations with greatly reduced cost, and present its application to the gold-standard quantum chemistry method, coupled cluster theory with up to perturbative triples. For total energy errors more stringent than chemical accuracy, we reduce the computational scaling to that of mean-field theory, while starting to approach the mean-field absolute cost, thereby challenging the existing cost-to-accuracy landscape. Benchmarks against state-of-the-art local correlation approximations further show that we achieve an order-of-magnitude improvement in both total computation time and error, with significantly reduced sensitivity to system dimensionality and electron delocalization. We conclude that stochastic tensor contraction is a powerful computational primitive to accelerate a wide range of quantum chemistry.",
+      "pubdate": "Thu, 19 Feb 2026 08:14:22 +0000",
+      "authors": "Jiace Sun, Garnet Kin-Lic Chan"
+    },
+    "4a91f69c5c1ca1d21e0232cd630c252d": {
+      "id": "4a91f69c5c1ca1d21e0232cd630c252d",
+      "link": "http://arxiv.org/abs/2602.17029",
+      "title": "Phase transitions in coupled Ising chains and SO($N$)-symmetric spin chains",
+      "abstract": "We investigate the nature of quantum phase transitions in a (1+1)-dimensional field theory composed of $N$ copies of the Ising conformal field theory interacting via competing relevant perturbations. The field theory governs the competition between a mass term and an interaction involving the product of $N$ order-parameter fields, which is realized, e.g. in coupled Ising chains, two-leg spin ladders, and SO($N$)-symmetric spin chains. By combining a perturbative renormalization group analysis and large-scale matrix-product state simulations, we systematically determine the nature of the phase transition as a function of $N$. For $N=2$ and $N=3$, we confirm that the transition is continuous, belonging to the Ising and four-state Potts universality classes, respectively. In contrast, for $N \\ge 4$, our results provide compelling evidence that the transition becomes first order. We further apply these findings to specific lattice models with SO($N$) symmetry, including spin-$1/2$ and spin-$1$ two-leg ladders, that realize a direct transition between an SO($N$) symmetry-protected topological phase and a trivial phase. Our results refine a recent conjecture regarding the criticality of transitions between SPT phases.",
+      "pubdate": "Thu, 19 Feb 2026 02:48:22 +0000",
+      "authors": "Yohei Fuji, Sylvain Capponi, Lukas Devos, Philippe Lecheminant"
+    },
+    "74ea712f3dd6220a9d2ce1fbaa80e00b": {
+      "id": "74ea712f3dd6220a9d2ce1fbaa80e00b",
+      "link": "http://arxiv.org/abs/2602.16770",
+      "title": "From Multipartite Entanglement to TQFT",
+      "abstract": "At long distances, a gapped phase of matter is described by a topological quantum field theory (TQFT). We conjecture a tight and concrete relationship between the genuine $(d+1)$-partite entanglement -- labelled by a $d$-dimensional manifold $M$ -- in the ground state of a $(d-1)+1$-dimensional gapped theory and the partition function of the low energy TQFT on $M$. In particular, the conjecture implies that for $d=3$, the ground state wavefunction can determine the modular tensor category description of the low energy TQFT. We verify our conjecture for general (2+1)-dimensional Levin-Wen string-net models.",
+      "pubdate": "Wed, 18 Feb 2026 19:00:00 +0000",
+      "authors": "Michele Del Zotto, Abhijit Gadde, Pavel Putrov"
     }
   }
 }
