@@ -8,7 +8,31 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Feb 2026 00:39:32 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Feb 2026 12:21:43 +0000</lastBuildDate>
+    <item>
+      <link>http://arxiv.org/abs/2602.17708</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2602.17708'&gt;arXiv:2602.17708&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2602.17708</guid>
+      <pubDate>Mon, 23 Feb 2026 12:21:43 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <link>http://arxiv.org/abs/2602.17974</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2602.17974'&gt;arXiv:2602.17974&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2602.17974</guid>
+      <pubDate>Mon, 23 Feb 2026 12:21:43 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <link>http://arxiv.org/abs/2602.18080</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2602.18080'&gt;arXiv:2602.18080&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2602.18080</guid>
+      <pubDate>Mon, 23 Feb 2026 12:21:43 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <link>http://arxiv.org/abs/2602.18229</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2602.18229'&gt;arXiv:2602.18229&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2602.18229</guid>
+      <pubDate>Mon, 23 Feb 2026 12:21:43 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
     <item>
       <title>Full grid solution for multi-asset options pricing with tensor networks</title>
       <link>http://arxiv.org/abs/2601.00009</link>
@@ -1163,6 +1187,13 @@
       <description>&lt;b&gt;Author(s):&lt;/b&gt; Raphaël Menu, Johannes Schachenmayer&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We analyze the modification of entanglement dynamics in the Grover algorithm when the qubits are subjected to single-qubit amplitude-damping or phase-flip noise. We compare quantum trajectories with full density-matrix simulations, analyzing the dynamics of averaged trajectory entanglement (TE) and operator entanglement (OE), in the respective state representation. Although not a genuine entanglement measure, both TE and OE are connected to the efficiency of matrix product state simulations and thus of fundamental interest. As in many quantum algorithms, at the end of the Grover circuit entanglement decreases as the system converges towards the target product state. While we find that this is well captured in the OE dynamics, quantum trajectories rarely follow paths of reducing entanglement. Optimized unraveling schemes can lower TE slightly, however we show that deep in the circuit OE is generally smaller than TE. This implies that matrix product density operator (MPDO) simulations of quantum circuits can in general be more efficient than quantum trajectories. In addition, we investigate the noise-rate scaling of success probabilities for both amplitude-damping and phase-flip noise in Grover's algorithm.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2602.17569'&gt;arXiv:2602.17569&lt;/a&gt;] Published Thu, 19 Feb 2026 17:24:06 UTC&lt;/b&gt;</description>
       <guid isPermaLink="false">http://arxiv.org/abs/2602.17569</guid>
       <pubDate>Thu, 19 Feb 2026 17:24:06 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <title>Stochastic tensor contraction for quantum chemistry</title>
+      <link>http://arxiv.org/abs/2602.17158</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Jiace Sun, Garnet Kin-Lic Chan&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; Many computational methods in ab initio quantum chemistry are formulated in terms of high-order tensor contractions, whose cost determines the size of system that can be studied. We introduce stochastic tensor contraction to perform such operations with greatly reduced cost, and present its application to the gold-standard quantum chemistry method, coupled cluster theory with up to perturbative triples. For total energy errors more stringent than chemical accuracy, we reduce the computational scaling to that of mean-field theory, while starting to approach the mean-field absolute cost, thereby challenging the existing cost-to-accuracy landscape. Benchmarks against state-of-the-art local correlation approximations further show that we achieve an order-of-magnitude improvement in both total computation time and error, with significantly reduced sensitivity to system dimensionality and electron delocalization. We conclude that stochastic tensor contraction is a powerful computational primitive to accelerate a wide range of quantum chemistry.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2602.17158'&gt;arXiv:2602.17158&lt;/a&gt;] Published Thu, 19 Feb 2026 08:14:22 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2602.17158</guid>
+      <pubDate>Thu, 19 Feb 2026 08:14:22 +0000</pubDate>
     <dc:creator>Unknown</dc:creator></item>
   </channel>
 </rss>

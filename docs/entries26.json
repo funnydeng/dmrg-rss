@@ -1,6 +1,14 @@
 {
-  "last_updated": "2026-02-23T00:39:32.368950+00:00",
+  "last_updated": "2026-02-23T12:21:43.404317+00:00",
   "entries": {
+    "841f9905131de34e26e63bd5ec0b6a9a": {
+      "id": "841f9905131de34e26e63bd5ec0b6a9a",
+      "link": "http://arxiv.org/abs/2602.17158",
+      "title": "Stochastic tensor contraction for quantum chemistry",
+      "abstract": "Many computational methods in ab initio quantum chemistry are formulated in terms of high-order tensor contractions, whose cost determines the size of system that can be studied. We introduce stochastic tensor contraction to perform such operations with greatly reduced cost, and present its application to the gold-standard quantum chemistry method, coupled cluster theory with up to perturbative triples. For total energy errors more stringent than chemical accuracy, we reduce the computational scaling to that of mean-field theory, while starting to approach the mean-field absolute cost, thereby challenging the existing cost-to-accuracy landscape. Benchmarks against state-of-the-art local correlation approximations further show that we achieve an order-of-magnitude improvement in both total computation time and error, with significantly reduced sensitivity to system dimensionality and electron delocalization. We conclude that stochastic tensor contraction is a powerful computational primitive to accelerate a wide range of quantum chemistry.",
+      "pubdate": "Thu, 19 Feb 2026 08:14:22 +0000",
+      "authors": "Jiace Sun, Garnet Kin-Lic Chan"
+    },
     "de5a588ed7b53682358e24096a84e68d": {
       "id": "de5a588ed7b53682358e24096a84e68d",
       "link": "http://arxiv.org/abs/2602.17569",
@@ -24,14 +32,6 @@
       "abstract": "We calculate the phase diagram of the Bose-Hubbard model on a half-filled ladder lattice including the effect of finite on-site interactions. This shows that the rung-Mott insulator (RMI) phase persists to finite interaction strength, and we calculate the RMI-superfluid phase boundary in the thermodynamic limit. We show that the phases can still be distinguished using the number and parity variances, which are observables accessible in a quantum-gas microscope. Phases analogous to the RMI were found to exist in other quasi-1D lattice structures, with the lattice connectivity modifying the phase boundaries. This shows that the the presence of these phases is the result of states with one-dimensional structures being mapped onto higher dimensional systems, driven by the reduction of hopping rates along different directions.",
       "pubdate": "Thu, 19 Feb 2026 14:57:36 +0000",
       "authors": "Lorenzo Carfora, Callum W. Duncan, Stefan Kuhr, Peter Kirton"
-    },
-    "841f9905131de34e26e63bd5ec0b6a9a": {
-      "id": "841f9905131de34e26e63bd5ec0b6a9a",
-      "link": "http://arxiv.org/abs/2602.17158",
-      "title": "Stochastic tensor contraction for quantum chemistry",
-      "abstract": "Many computational methods in ab initio quantum chemistry are formulated in terms of high-order tensor contractions, whose cost determines the size of system that can be studied. We introduce stochastic tensor contraction to perform such operations with greatly reduced cost, and present its application to the gold-standard quantum chemistry method, coupled cluster theory with up to perturbative triples. For total energy errors more stringent than chemical accuracy, we reduce the computational scaling to that of mean-field theory, while starting to approach the mean-field absolute cost, thereby challenging the existing cost-to-accuracy landscape. Benchmarks against state-of-the-art local correlation approximations further show that we achieve an order-of-magnitude improvement in both total computation time and error, with significantly reduced sensitivity to system dimensionality and electron delocalization. We conclude that stochastic tensor contraction is a powerful computational primitive to accelerate a wide range of quantum chemistry.",
-      "pubdate": "Thu, 19 Feb 2026 08:14:22 +0000",
-      "authors": "Jiace Sun, Garnet Kin-Lic Chan"
     },
     "4a91f69c5c1ca1d21e0232cd630c252d": {
       "id": "4a91f69c5c1ca1d21e0232cd630c252d",
@@ -1320,6 +1320,38 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "92011184b44a7ad0045d738a622dbf02": {
+      "id": "92011184b44a7ad0045d738a622dbf02",
+      "link": "http://arxiv.org/abs/2602.18229",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "067d6393ca0bc50435889878297ce000": {
+      "id": "067d6393ca0bc50435889878297ce000",
+      "link": "http://arxiv.org/abs/2602.18080",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "af4f56a94e9e56a0114ea1e57f6ae33f": {
+      "id": "af4f56a94e9e56a0114ea1e57f6ae33f",
+      "link": "http://arxiv.org/abs/2602.17974",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "67f1771a9cd1512cb9ba0ac7bc5271b7": {
+      "id": "67f1771a9cd1512cb9ba0ac7bc5271b7",
+      "link": "http://arxiv.org/abs/2602.17708",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
     }
   }
 }
