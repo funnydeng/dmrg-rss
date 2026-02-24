@@ -1,13 +1,37 @@
 {
-  "last_updated": "2026-02-24T00:36:23.390905+00:00",
+  "last_updated": "2026-02-24T13:15:55.258987+00:00",
   "entries": {
-    "841f9905131de34e26e63bd5ec0b6a9a": {
-      "id": "841f9905131de34e26e63bd5ec0b6a9a",
-      "link": "http://arxiv.org/abs/2602.17158",
-      "title": "Stochastic tensor contraction for quantum chemistry",
-      "abstract": "Many computational methods in ab initio quantum chemistry are formulated in terms of high-order tensor contractions, whose cost determines the size of system that can be studied. We introduce stochastic tensor contraction to perform such operations with greatly reduced cost, and present its application to the gold-standard quantum chemistry method, coupled cluster theory with up to perturbative triples. For total energy errors more stringent than chemical accuracy, we reduce the computational scaling to that of mean-field theory, while starting to approach the mean-field absolute cost, thereby challenging the existing cost-to-accuracy landscape. Benchmarks against state-of-the-art local correlation approximations further show that we achieve an order-of-magnitude improvement in both total computation time and error, with significantly reduced sensitivity to system dimensionality and electron delocalization. We conclude that stochastic tensor contraction is a powerful computational primitive to accelerate a wide range of quantum chemistry.",
-      "pubdate": "Thu, 19 Feb 2026 08:14:22 +0000",
-      "authors": "Jiace Sun, Garnet Kin-Lic Chan"
+    "92011184b44a7ad0045d738a622dbf02": {
+      "id": "92011184b44a7ad0045d738a622dbf02",
+      "link": "http://arxiv.org/abs/2602.18229",
+      "title": "T-linear specific heat in pressurized and magnetized Shastry-Sutherland Mott insulator SrCu2(BO3)2",
+      "abstract": "The pressurized Shastry-Sutherland Mott insulator SrCu2(BO3)2 has been found to host a plaquette-singlet phase and an antiferromagnetic phase that break different symmetries spontaneously.The recent experiment showed that their transition is of a first order nature, which seems against the pursuit of exotic and deconfined degrees of freedom in this famous frustrated quantum magnet. We found a new direction in this study. By applying a magnetic field to the material, we discover that SrCu2(BO3)2 exhibits a universal and metallic T-linear specific heat behavior in a large magnetitic field range close to the pressure of zero-field first order transition between plaquette-singlet and antiferromagnetic phases. Such an unexpected gapless response from an electronically gapped Mott insulator could be attributed to magnetized Dirac spinons liberated by the combined effect of magnetic field and pressure, consistently seen from our quantum many-body thermal tensor network computation of the Shastry-Sutherland model under magnetic field. Such a robust and universal T-linear specific heat phase points out the richness of the phase diagram of the material expanded by the axes of pressure and magnetic field and is calling for new theoretical frameworks to its full explanation.",
+      "pubdate": "Fri, 20 Feb 2026 14:10:15 +0000",
+      "authors": "Jing Guo, Pengyu Wang, Cheng Huang, Chengkang Zhou, Menghan Song, Xintian Chen, Ting-Tung Wang, Wenshan Hong, Shu Cai, Jinyu Zhao, Jinyu Han, Yazhou Zhou, Qi Wu, Shiliang Li, Zi Yang Meng, Liling Sun"
+    },
+    "067d6393ca0bc50435889878297ce000": {
+      "id": "067d6393ca0bc50435889878297ce000",
+      "link": "http://arxiv.org/abs/2602.18080",
+      "title": "Observation of Robust and Coherent Non-Abelian Hadron Dynamics on Noisy Quantum Processors",
+      "abstract": "The real-time evolution of strongly interacting matter remains a frontier of fundamental physics, as classical simulations are hampered by exponential Hilbert space growth and entanglement-driven bottlenecks in tensor networks. This study reports the quantum simulation of hadron dynamics within a $(1+1)$-dimensional SU(2) lattice gauge theory using a 156-qubit IBM superconducting processor. Leveraging a hardware-efficient Loop-String-Hadron (LSH) encoding, we simulate the dynamics of the physical degrees of freedom on a $60$-site lattice in the weak-coupling regime, as a crucial step toward the continuum limit. We successfully observe the light-cone propagation of a confined meson and internal oscillations indicative of early-time hadronic breathing modes. Notably, these high-fidelity results were obtained directly from the quantum data via a differential measurement protocol, together with measurement error mitigation, demonstrating a robust pathway for large-scale simulations even on noisy hardware. To validate the results, we benchmarked the quantum algorithm and outcome from the quantum processor against state-of-the-art approximated classical algorithms using CPU -- based on tensor network methods and Pauli propagation method, respectively. Furthermore, we provide a quantitative comparison demonstrating that as the system approaches the weak-coupling or the continuum limit, the quantum processor maintains a consistent structural robustness where classical tensor networks and Pauli propagation methods encounter an onset of exponential complexity or symmetry violations as an artifact of approximation in the algorithm. These results establish a scalable pathway for simulating non-Abelian dynamics on near-term quantum hardware and mark a critical step toward achieving a practical quantum advantage in high-energy physics.",
+      "pubdate": "Fri, 20 Feb 2026 09:09:55 +0000",
+      "authors": "Fran Ilčić, Ritajit Majumdar, Emil Mathew, Nathan Earnest-Noble, Indrakshi Raychowdhury"
+    },
+    "af4f56a94e9e56a0114ea1e57f6ae33f": {
+      "id": "af4f56a94e9e56a0114ea1e57f6ae33f",
+      "link": "http://arxiv.org/abs/2602.17974",
+      "title": "Recursive Sketched Interpolation: Efficient Hadamard Products of Tensor Trains",
+      "abstract": "The Hadamard product of two tensors in the tensor-train (TT) format is a fundamental operation across various applications, such as TT-based function multiplication for nonlinear differential equations or convolutions. However, conventional methods for computing this product typically scale as at least $\\mathcal{O}(χ^4)$ with respect to the TT bond dimension (TT-rank) $χ$, creating a severe computational bottleneck in practice. By combining randomized tensor-train sketching with slice selection via interpolative decomposition, we introduce Recursive Sketched Interpolation (RSI), a ``scale product'' algorithm that computes the Hadamard product of TTs at a computational cost of $\\mathcal{O}(χ^3)$. Benchmarks across various TT scenarios demonstrate that RSI offers superior scalability compared to traditional methods while maintaining comparable accuracy. We generalize RSI to compute more complex operations, including Hadamard products of multiple TTs and other element-wise nonlinear mappings, without increasing the complexity beyond $\\mathcal{O}(χ^3)$.",
+      "pubdate": "Fri, 20 Feb 2026 04:07:37 +0000",
+      "authors": "Zhaonan Meng, Yuehaw Khoo, Jiajia Li, E. Miles Stoudenmire"
+    },
+    "67f1771a9cd1512cb9ba0ac7bc5271b7": {
+      "id": "67f1771a9cd1512cb9ba0ac7bc5271b7",
+      "link": "http://arxiv.org/abs/2602.17708",
+      "title": "Spectral Homogenization of the Radiative Transfer Equation via Low-Rank Tensor Train Decomposition",
+      "abstract": "Radiative transfer in absorbing-scattering media requires solving a transport equation across a spectral domain with 10^5 - 10^6 molecular absorption lines. Line-by-line (LBL) computation is prohibitively expensive, while existing approximations sacrifice spectral fidelity. We show that the Young-measure homogenization framework produces solution tensors I that admit low-rank tensor-train (TT) decompositions whose bond dimensions remain bounded as the spectral resolution Ns increases. Using molecular line parameters from the HITRAN database for H2O and CO2, we demonstrate that: (i) the TT rank saturates at r = 8 (at tolerance e = 10^-6) from Ns = 16 to 4096, independent of single-scattering albedo, Henyey-Greenstein asymmetry, temperature, and pressure; (ii) quantized tensor-train (QTT) representations achieve sub-linear storage scaling; (iii) in a controlled comparison using identical opacity data and transport solver, the homogenized approach achieves over an order of magnitude lower L2 error than the correlated-k distribution at equal cost; and (iv) for atomic plasma opacity (aluminum at 60 eV, TOPS database), the TT rank saturates at r = 15 with fundamentally different spectral structure (bound-bound and bound-free transitions spanning 12 decades of dynamic range), confirming that rank boundedness is a property of the transport equation rather than any particular opacity source. These results establish that the spectral complexity of radiative transfer has a finite effective rank exploitable by tensor decomposition, complementing the spatial-angular compression achieved by existing TT and dynamical low-rank approaches.",
+      "pubdate": "Thu, 12 Feb 2026 22:41:39 +0000",
+      "authors": "Y. Sungtaek Ju"
     },
     "de5a588ed7b53682358e24096a84e68d": {
       "id": "de5a588ed7b53682358e24096a84e68d",
@@ -32,6 +56,14 @@
       "abstract": "We calculate the phase diagram of the Bose-Hubbard model on a half-filled ladder lattice including the effect of finite on-site interactions. This shows that the rung-Mott insulator (RMI) phase persists to finite interaction strength, and we calculate the RMI-superfluid phase boundary in the thermodynamic limit. We show that the phases can still be distinguished using the number and parity variances, which are observables accessible in a quantum-gas microscope. Phases analogous to the RMI were found to exist in other quasi-1D lattice structures, with the lattice connectivity modifying the phase boundaries. This shows that the the presence of these phases is the result of states with one-dimensional structures being mapped onto higher dimensional systems, driven by the reduction of hopping rates along different directions.",
       "pubdate": "Thu, 19 Feb 2026 14:57:36 +0000",
       "authors": "Lorenzo Carfora, Callum W. Duncan, Stefan Kuhr, Peter Kirton"
+    },
+    "841f9905131de34e26e63bd5ec0b6a9a": {
+      "id": "841f9905131de34e26e63bd5ec0b6a9a",
+      "link": "http://arxiv.org/abs/2602.17158",
+      "title": "Stochastic tensor contraction for quantum chemistry",
+      "abstract": "Many computational methods in ab initio quantum chemistry are formulated in terms of high-order tensor contractions, whose cost determines the size of system that can be studied. We introduce stochastic tensor contraction to perform such operations with greatly reduced cost, and present its application to the gold-standard quantum chemistry method, coupled cluster theory with up to perturbative triples. For total energy errors more stringent than chemical accuracy, we reduce the computational scaling to that of mean-field theory, while starting to approach the mean-field absolute cost, thereby challenging the existing cost-to-accuracy landscape. Benchmarks against state-of-the-art local correlation approximations further show that we achieve an order-of-magnitude improvement in both total computation time and error, with significantly reduced sensitivity to system dimensionality and electron delocalization. We conclude that stochastic tensor contraction is a powerful computational primitive to accelerate a wide range of quantum chemistry.",
+      "pubdate": "Thu, 19 Feb 2026 08:14:22 +0000",
+      "authors": "Jiace Sun, Garnet Kin-Lic Chan"
     },
     "4a91f69c5c1ca1d21e0232cd630c252d": {
       "id": "4a91f69c5c1ca1d21e0232cd630c252d",
@@ -1321,37 +1353,29 @@
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
     },
-    "92011184b44a7ad0045d738a622dbf02": {
-      "id": "92011184b44a7ad0045d738a622dbf02",
-      "link": "http://arxiv.org/abs/2602.18229",
-      "title": "T-linear specific heat in pressurized and magnetized Shastry-Sutherland Mott insulator SrCu2(BO3)2",
-      "abstract": "The pressurized Shastry-Sutherland Mott insulator SrCu2(BO3)2 has been found to host a plaquette-singlet phase and an antiferromagnetic phase that break different symmetries spontaneously.The recent experiment showed that their transition is of a first order nature, which seems against the pursuit of exotic and deconfined degrees of freedom in this famous frustrated quantum magnet. We found a new direction in this study. By applying a magnetic field to the material, we discover that SrCu2(BO3)2 exhibits a universal and metallic T-linear specific heat behavior in a large magnetitic field range close to the pressure of zero-field first order transition between plaquette-singlet and antiferromagnetic phases. Such an unexpected gapless response from an electronically gapped Mott insulator could be attributed to magnetized Dirac spinons liberated by the combined effect of magnetic field and pressure, consistently seen from our quantum many-body thermal tensor network computation of the Shastry-Sutherland model under magnetic field. Such a robust and universal T-linear specific heat phase points out the richness of the phase diagram of the material expanded by the axes of pressure and magnetic field and is calling for new theoretical frameworks to its full explanation.",
-      "pubdate": "Fri, 20 Feb 2026 14:10:15 +0000",
-      "authors": "Jing Guo, Pengyu Wang, Cheng Huang, Chengkang Zhou, Menghan Song, Xintian Chen, Ting-Tung Wang, Wenshan Hong, Shu Cai, Jinyu Zhao, Jinyu Han, Yazhou Zhou, Qi Wu, Shiliang Li, Zi Yang Meng, Liling Sun"
+    "e93d8562624be36c9d95177b38b3a64f": {
+      "id": "e93d8562624be36c9d95177b38b3a64f",
+      "link": "http://arxiv.org/abs/2602.20034",
+      "title": "Digital Twin--Driven Adaptive Wavelet Strategy for Efficient 6G Backbone Network Telemetry",
+      "abstract": "Classical orthogonal wavelets guarantee perfect reconstruction but rely on fixed bases optimized for polynomial smoothness, achieving suboptimal compression on signals with fractal spectral signatures. Conversely, learned methods offer adaptivity but typically enforce orthogonality via soft penalties, sacrificing structural guarantees. This work establishes a rigorous equivalence between Multiscale Entanglement Renormalization Ansatz (MERA) tensor networks and paraunitary filter banks. The resulting framework learns adaptive wavelets while enforcing exact orthogonality through manifold-constrained optimization, guaranteeing perfect reconstruction and energy conservation throughout training. Validation on Long-Range Dependent (LRD) network traffic demonstrates that learned filters outperform classical wavelets by 0.5--3.8~dB PSNR on six MAWI backbone traces (2020--2025, 314~Mbps--1.75~Gbps) while preserving the Hurst exponent within estimation uncertainty ($|ΔH| \\le 0.03$). These results establish MERA-inspired wavelets as a principled approach for telemetry compression in 6G digital twin synchronization.",
+      "pubdate": "Mon, 23 Feb 2026 16:42:56 +0000",
+      "authors": "Alexandre Barbosa de Lima, Xavier Hesselbach, José Roberto de Almeida Amazonas"
     },
-    "067d6393ca0bc50435889878297ce000": {
-      "id": "067d6393ca0bc50435889878297ce000",
-      "link": "http://arxiv.org/abs/2602.18080",
-      "title": "Observation of Robust and Coherent Non-Abelian Hadron Dynamics on Noisy Quantum Processors",
-      "abstract": "The real-time evolution of strongly interacting matter remains a frontier of fundamental physics, as classical simulations are hampered by exponential Hilbert space growth and entanglement-driven bottlenecks in tensor networks. This study reports the quantum simulation of hadron dynamics within a $(1+1)$-dimensional SU(2) lattice gauge theory using a 156-qubit IBM superconducting processor. Leveraging a hardware-efficient Loop-String-Hadron (LSH) encoding, we simulate the dynamics of the physical degrees of freedom on a $60$-site lattice in the weak-coupling regime, as a crucial step toward the continuum limit. We successfully observe the light-cone propagation of a confined meson and internal oscillations indicative of early-time hadronic breathing modes. Notably, these high-fidelity results were obtained directly from the quantum data via a differential measurement protocol, together with measurement error mitigation, demonstrating a robust pathway for large-scale simulations even on noisy hardware. To validate the results, we benchmarked the quantum algorithm and outcome from the quantum processor against state-of-the-art approximated classical algorithms using CPU -- based on tensor network methods and Pauli propagation method, respectively. Furthermore, we provide a quantitative comparison demonstrating that as the system approaches the weak-coupling or the continuum limit, the quantum processor maintains a consistent structural robustness where classical tensor networks and Pauli propagation methods encounter an onset of exponential complexity or symmetry violations as an artifact of approximation in the algorithm. These results establish a scalable pathway for simulating non-Abelian dynamics on near-term quantum hardware and mark a critical step toward achieving a practical quantum advantage in high-energy physics.",
-      "pubdate": "Fri, 20 Feb 2026 09:09:55 +0000",
-      "authors": "Fran Ilčić, Ritajit Majumdar, Emil Mathew, Nathan Earnest-Noble, Indrakshi Raychowdhury"
+    "29df7770a4318d595a7a681bcc941cbf": {
+      "id": "29df7770a4318d595a7a681bcc941cbf",
+      "link": "http://arxiv.org/abs/2602.19741",
+      "title": "Two-parameter families of MPO integrals of motion in Heisenberg spin chains",
+      "abstract": "Recently, Fendley et al. (2025) [arXiv:2511.04674] revealed a new way to demonstrate the integrability of XYZ Heisenberg model by constructing a one-parameter family of integrals of motion in the matrix product operator (MPO) form. In this short note, I report on the discovery of two-parameter families of MPOs that commute with with the Heisenberg spin chain Hamiltonian in the XXX, XXZ, and XYZ cases. I describe a symbolic algebra approach for finding such integrals of motion and speculate about possible applications.",
+      "pubdate": "Mon, 23 Feb 2026 11:37:46 +0000",
+      "authors": "Vsevolod I. Yashin"
     },
-    "af4f56a94e9e56a0114ea1e57f6ae33f": {
-      "id": "af4f56a94e9e56a0114ea1e57f6ae33f",
-      "link": "http://arxiv.org/abs/2602.17974",
-      "title": "Recursive Sketched Interpolation: Efficient Hadamard Products of Tensor Trains",
-      "abstract": "The Hadamard product of two tensors in the tensor-train (TT) format is a fundamental operation across various applications, such as TT-based function multiplication for nonlinear differential equations or convolutions. However, conventional methods for computing this product typically scale as at least $\\mathcal{O}(χ^4)$ with respect to the TT bond dimension (TT-rank) $χ$, creating a severe computational bottleneck in practice. By combining randomized tensor-train sketching with slice selection via interpolative decomposition, we introduce Recursive Sketched Interpolation (RSI), a ``scale product'' algorithm that computes the Hadamard product of TTs at a computational cost of $\\mathcal{O}(χ^3)$. Benchmarks across various TT scenarios demonstrate that RSI offers superior scalability compared to traditional methods while maintaining comparable accuracy. We generalize RSI to compute more complex operations, including Hadamard products of multiple TTs and other element-wise nonlinear mappings, without increasing the complexity beyond $\\mathcal{O}(χ^3)$.",
-      "pubdate": "Fri, 20 Feb 2026 04:07:37 +0000",
-      "authors": "Zhaonan Meng, Yuehaw Khoo, Jiajia Li, E. Miles Stoudenmire"
-    },
-    "67f1771a9cd1512cb9ba0ac7bc5271b7": {
-      "id": "67f1771a9cd1512cb9ba0ac7bc5271b7",
-      "link": "http://arxiv.org/abs/2602.17708",
-      "title": "Spectral Homogenization of the Radiative Transfer Equation via Low-Rank Tensor Train Decomposition",
-      "abstract": "Radiative transfer in absorbing-scattering media requires solving a transport equation across a spectral domain with 10^5 - 10^6 molecular absorption lines. Line-by-line (LBL) computation is prohibitively expensive, while existing approximations sacrifice spectral fidelity. We show that the Young-measure homogenization framework produces solution tensors I that admit low-rank tensor-train (TT) decompositions whose bond dimensions remain bounded as the spectral resolution Ns increases. Using molecular line parameters from the HITRAN database for H2O and CO2, we demonstrate that: (i) the TT rank saturates at r = 8 (at tolerance e = 10^-6) from Ns = 16 to 4096, independent of single-scattering albedo, Henyey-Greenstein asymmetry, temperature, and pressure; (ii) quantized tensor-train (QTT) representations achieve sub-linear storage scaling; (iii) in a controlled comparison using identical opacity data and transport solver, the homogenized approach achieves over an order of magnitude lower L2 error than the correlated-k distribution at equal cost; and (iv) for atomic plasma opacity (aluminum at 60 eV, TOPS database), the TT rank saturates at r = 15 with fundamentally different spectral structure (bound-bound and bound-free transitions spanning 12 decades of dynamic range), confirming that rank boundedness is a property of the transport equation rather than any particular opacity source. These results establish that the spectral complexity of radiative transfer has a finite effective rank exploitable by tensor decomposition, complementing the spatial-angular compression achieved by existing TT and dynamical low-rank approaches.",
-      "pubdate": "Thu, 12 Feb 2026 22:41:39 +0000",
-      "authors": "Y. Sungtaek Ju"
+    "3f12192e5b2e2cb86f2d341153d83a2d": {
+      "id": "3f12192e5b2e2cb86f2d341153d83a2d",
+      "link": "http://arxiv.org/abs/2602.19722",
+      "title": "Differentiable Maximum Likelihood Noise Estimation for Quantum Error Correction",
+      "abstract": "Accurate noise estimation is essential for fault-tolerant quantum computing, as decoding performance depends critically on the fidelity of the circuit-level noise parameters. In this work, we introduce a differentiable Maximum Likelihood Estimation (dMLE) framework that enables exact, efficient, and fully differentiable computation of syndrome log-likelihoods, allowing circuit-level noise parameters to be optimized directly via gradient descent. Leveraging the exact Planar solver for repetition codes and a novel, simplified Tensor Network (TN) architecture combined with optimized contraction path finding for surface codes, our method achieves tractable and fully differentiable likelihood evaluation even for distance 5 surface codes with up to 25 rounds. Our method recovers the underlying error probabilities with near-exact precision in simulations and reduces logical error rates by up to 30.6(3)% for repetition codes and 8.1(2)% for surface codes on experimental data from Google's processor compared to previous state-of-the-art methods: correlation analysis and Reinforcement Learning (RL) methods. Our approach yields provably optimal, decoder-independent error priors by directly maximizing the syndrome likelihood, offering a powerful noise estimation and control tool for unlocking the full potential of current and future error-corrected quantum processors.",
+      "pubdate": "Mon, 23 Feb 2026 11:20:23 +0000",
+      "authors": "Hanyan Cao, Dongyang Feng, Cheng Ye, Feng Pan"
     }
   }
 }
