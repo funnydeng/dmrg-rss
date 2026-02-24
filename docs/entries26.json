@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-23T12:21:43.404317+00:00",
+  "last_updated": "2026-02-24T00:36:23.390905+00:00",
   "entries": {
     "841f9905131de34e26e63bd5ec0b6a9a": {
       "id": "841f9905131de34e26e63bd5ec0b6a9a",
@@ -1324,34 +1324,34 @@
     "92011184b44a7ad0045d738a622dbf02": {
       "id": "92011184b44a7ad0045d738a622dbf02",
       "link": "http://arxiv.org/abs/2602.18229",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
+      "title": "T-linear specific heat in pressurized and magnetized Shastry-Sutherland Mott insulator SrCu2(BO3)2",
+      "abstract": "The pressurized Shastry-Sutherland Mott insulator SrCu2(BO3)2 has been found to host a plaquette-singlet phase and an antiferromagnetic phase that break different symmetries spontaneously.The recent experiment showed that their transition is of a first order nature, which seems against the pursuit of exotic and deconfined degrees of freedom in this famous frustrated quantum magnet. We found a new direction in this study. By applying a magnetic field to the material, we discover that SrCu2(BO3)2 exhibits a universal and metallic T-linear specific heat behavior in a large magnetitic field range close to the pressure of zero-field first order transition between plaquette-singlet and antiferromagnetic phases. Such an unexpected gapless response from an electronically gapped Mott insulator could be attributed to magnetized Dirac spinons liberated by the combined effect of magnetic field and pressure, consistently seen from our quantum many-body thermal tensor network computation of the Shastry-Sutherland model under magnetic field. Such a robust and universal T-linear specific heat phase points out the richness of the phase diagram of the material expanded by the axes of pressure and magnetic field and is calling for new theoretical frameworks to its full explanation.",
+      "pubdate": "Fri, 20 Feb 2026 14:10:15 +0000",
+      "authors": "Jing Guo, Pengyu Wang, Cheng Huang, Chengkang Zhou, Menghan Song, Xintian Chen, Ting-Tung Wang, Wenshan Hong, Shu Cai, Jinyu Zhao, Jinyu Han, Yazhou Zhou, Qi Wu, Shiliang Li, Zi Yang Meng, Liling Sun"
     },
     "067d6393ca0bc50435889878297ce000": {
       "id": "067d6393ca0bc50435889878297ce000",
       "link": "http://arxiv.org/abs/2602.18080",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
+      "title": "Observation of Robust and Coherent Non-Abelian Hadron Dynamics on Noisy Quantum Processors",
+      "abstract": "The real-time evolution of strongly interacting matter remains a frontier of fundamental physics, as classical simulations are hampered by exponential Hilbert space growth and entanglement-driven bottlenecks in tensor networks. This study reports the quantum simulation of hadron dynamics within a $(1+1)$-dimensional SU(2) lattice gauge theory using a 156-qubit IBM superconducting processor. Leveraging a hardware-efficient Loop-String-Hadron (LSH) encoding, we simulate the dynamics of the physical degrees of freedom on a $60$-site lattice in the weak-coupling regime, as a crucial step toward the continuum limit. We successfully observe the light-cone propagation of a confined meson and internal oscillations indicative of early-time hadronic breathing modes. Notably, these high-fidelity results were obtained directly from the quantum data via a differential measurement protocol, together with measurement error mitigation, demonstrating a robust pathway for large-scale simulations even on noisy hardware. To validate the results, we benchmarked the quantum algorithm and outcome from the quantum processor against state-of-the-art approximated classical algorithms using CPU -- based on tensor network methods and Pauli propagation method, respectively. Furthermore, we provide a quantitative comparison demonstrating that as the system approaches the weak-coupling or the continuum limit, the quantum processor maintains a consistent structural robustness where classical tensor networks and Pauli propagation methods encounter an onset of exponential complexity or symmetry violations as an artifact of approximation in the algorithm. These results establish a scalable pathway for simulating non-Abelian dynamics on near-term quantum hardware and mark a critical step toward achieving a practical quantum advantage in high-energy physics.",
+      "pubdate": "Fri, 20 Feb 2026 09:09:55 +0000",
+      "authors": "Fran Ilčić, Ritajit Majumdar, Emil Mathew, Nathan Earnest-Noble, Indrakshi Raychowdhury"
     },
     "af4f56a94e9e56a0114ea1e57f6ae33f": {
       "id": "af4f56a94e9e56a0114ea1e57f6ae33f",
       "link": "http://arxiv.org/abs/2602.17974",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
+      "title": "Recursive Sketched Interpolation: Efficient Hadamard Products of Tensor Trains",
+      "abstract": "The Hadamard product of two tensors in the tensor-train (TT) format is a fundamental operation across various applications, such as TT-based function multiplication for nonlinear differential equations or convolutions. However, conventional methods for computing this product typically scale as at least $\\mathcal{O}(χ^4)$ with respect to the TT bond dimension (TT-rank) $χ$, creating a severe computational bottleneck in practice. By combining randomized tensor-train sketching with slice selection via interpolative decomposition, we introduce Recursive Sketched Interpolation (RSI), a ``scale product'' algorithm that computes the Hadamard product of TTs at a computational cost of $\\mathcal{O}(χ^3)$. Benchmarks across various TT scenarios demonstrate that RSI offers superior scalability compared to traditional methods while maintaining comparable accuracy. We generalize RSI to compute more complex operations, including Hadamard products of multiple TTs and other element-wise nonlinear mappings, without increasing the complexity beyond $\\mathcal{O}(χ^3)$.",
+      "pubdate": "Fri, 20 Feb 2026 04:07:37 +0000",
+      "authors": "Zhaonan Meng, Yuehaw Khoo, Jiajia Li, E. Miles Stoudenmire"
     },
     "67f1771a9cd1512cb9ba0ac7bc5271b7": {
       "id": "67f1771a9cd1512cb9ba0ac7bc5271b7",
       "link": "http://arxiv.org/abs/2602.17708",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
+      "title": "Spectral Homogenization of the Radiative Transfer Equation via Low-Rank Tensor Train Decomposition",
+      "abstract": "Radiative transfer in absorbing-scattering media requires solving a transport equation across a spectral domain with 10^5 - 10^6 molecular absorption lines. Line-by-line (LBL) computation is prohibitively expensive, while existing approximations sacrifice spectral fidelity. We show that the Young-measure homogenization framework produces solution tensors I that admit low-rank tensor-train (TT) decompositions whose bond dimensions remain bounded as the spectral resolution Ns increases. Using molecular line parameters from the HITRAN database for H2O and CO2, we demonstrate that: (i) the TT rank saturates at r = 8 (at tolerance e = 10^-6) from Ns = 16 to 4096, independent of single-scattering albedo, Henyey-Greenstein asymmetry, temperature, and pressure; (ii) quantized tensor-train (QTT) representations achieve sub-linear storage scaling; (iii) in a controlled comparison using identical opacity data and transport solver, the homogenized approach achieves over an order of magnitude lower L2 error than the correlated-k distribution at equal cost; and (iv) for atomic plasma opacity (aluminum at 60 eV, TOPS database), the TT rank saturates at r = 15 with fundamentally different spectral structure (bound-bound and bound-free transitions spanning 12 decades of dynamic range), confirming that rank boundedness is a property of the transport equation rather than any particular opacity source. These results establish that the spectral complexity of radiative transfer has a finite effective rank exploitable by tensor decomposition, complementing the spatial-angular compression achieved by existing TT and dynamical low-rank approaches.",
+      "pubdate": "Thu, 12 Feb 2026 22:41:39 +0000",
+      "authors": "Y. Sungtaek Ju"
     }
   }
 }
