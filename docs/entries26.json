@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-02-24T13:15:55.258987+00:00",
+  "last_updated": "2026-02-25T02:33:07.810926+00:00",
   "entries": {
+    "e93d8562624be36c9d95177b38b3a64f": {
+      "id": "e93d8562624be36c9d95177b38b3a64f",
+      "link": "http://arxiv.org/abs/2602.20034",
+      "title": "Digital Twin--Driven Adaptive Wavelet Strategy for Efficient 6G Backbone Network Telemetry",
+      "abstract": "Classical orthogonal wavelets guarantee perfect reconstruction but rely on fixed bases optimized for polynomial smoothness, achieving suboptimal compression on signals with fractal spectral signatures. Conversely, learned methods offer adaptivity but typically enforce orthogonality via soft penalties, sacrificing structural guarantees. This work establishes a rigorous equivalence between Multiscale Entanglement Renormalization Ansatz (MERA) tensor networks and paraunitary filter banks. The resulting framework learns adaptive wavelets while enforcing exact orthogonality through manifold-constrained optimization, guaranteeing perfect reconstruction and energy conservation throughout training. Validation on Long-Range Dependent (LRD) network traffic demonstrates that learned filters outperform classical wavelets by 0.5--3.8~dB PSNR on six MAWI backbone traces (2020--2025, 314~Mbps--1.75~Gbps) while preserving the Hurst exponent within estimation uncertainty ($|ΔH| \\le 0.03$). These results establish MERA-inspired wavelets as a principled approach for telemetry compression in 6G digital twin synchronization.",
+      "pubdate": "Mon, 23 Feb 2026 16:42:56 +0000",
+      "authors": "Alexandre Barbosa de Lima, Xavier Hesselbach, José Roberto de Almeida Amazonas"
+    },
+    "29df7770a4318d595a7a681bcc941cbf": {
+      "id": "29df7770a4318d595a7a681bcc941cbf",
+      "link": "http://arxiv.org/abs/2602.19741",
+      "title": "Two-parameter families of MPO integrals of motion in Heisenberg spin chains",
+      "abstract": "Recently, Fendley et al. (2025) [arXiv:2511.04674] revealed a new way to demonstrate the integrability of XYZ Heisenberg model by constructing a one-parameter family of integrals of motion in the matrix product operator (MPO) form. In this short note, I report on the discovery of two-parameter families of MPOs that commute with with the Heisenberg spin chain Hamiltonian in the XXX, XXZ, and XYZ cases. I describe a symbolic algebra approach for finding such integrals of motion and speculate about possible applications.",
+      "pubdate": "Mon, 23 Feb 2026 11:37:46 +0000",
+      "authors": "Vsevolod I. Yashin"
+    },
+    "3f12192e5b2e2cb86f2d341153d83a2d": {
+      "id": "3f12192e5b2e2cb86f2d341153d83a2d",
+      "link": "http://arxiv.org/abs/2602.19722",
+      "title": "Differentiable Maximum Likelihood Noise Estimation for Quantum Error Correction",
+      "abstract": "Accurate noise estimation is essential for fault-tolerant quantum computing, as decoding performance depends critically on the fidelity of the circuit-level noise parameters. In this work, we introduce a differentiable Maximum Likelihood Estimation (dMLE) framework that enables exact, efficient, and fully differentiable computation of syndrome log-likelihoods, allowing circuit-level noise parameters to be optimized directly via gradient descent. Leveraging the exact Planar solver for repetition codes and a novel, simplified Tensor Network (TN) architecture combined with optimized contraction path finding for surface codes, our method achieves tractable and fully differentiable likelihood evaluation even for distance 5 surface codes with up to 25 rounds. Our method recovers the underlying error probabilities with near-exact precision in simulations and reduces logical error rates by up to 30.6(3)% for repetition codes and 8.1(2)% for surface codes on experimental data from Google's processor compared to previous state-of-the-art methods: correlation analysis and Reinforcement Learning (RL) methods. Our approach yields provably optimal, decoder-independent error priors by directly maximizing the syndrome likelihood, offering a powerful noise estimation and control tool for unlocking the full potential of current and future error-corrected quantum processors.",
+      "pubdate": "Mon, 23 Feb 2026 11:20:23 +0000",
+      "authors": "Hanyan Cao, Dongyang Feng, Cheng Ye, Feng Pan"
+    },
     "92011184b44a7ad0045d738a622dbf02": {
       "id": "92011184b44a7ad0045d738a622dbf02",
       "link": "http://arxiv.org/abs/2602.18229",
@@ -1352,30 +1376,6 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
-    },
-    "e93d8562624be36c9d95177b38b3a64f": {
-      "id": "e93d8562624be36c9d95177b38b3a64f",
-      "link": "http://arxiv.org/abs/2602.20034",
-      "title": "Digital Twin--Driven Adaptive Wavelet Strategy for Efficient 6G Backbone Network Telemetry",
-      "abstract": "Classical orthogonal wavelets guarantee perfect reconstruction but rely on fixed bases optimized for polynomial smoothness, achieving suboptimal compression on signals with fractal spectral signatures. Conversely, learned methods offer adaptivity but typically enforce orthogonality via soft penalties, sacrificing structural guarantees. This work establishes a rigorous equivalence between Multiscale Entanglement Renormalization Ansatz (MERA) tensor networks and paraunitary filter banks. The resulting framework learns adaptive wavelets while enforcing exact orthogonality through manifold-constrained optimization, guaranteeing perfect reconstruction and energy conservation throughout training. Validation on Long-Range Dependent (LRD) network traffic demonstrates that learned filters outperform classical wavelets by 0.5--3.8~dB PSNR on six MAWI backbone traces (2020--2025, 314~Mbps--1.75~Gbps) while preserving the Hurst exponent within estimation uncertainty ($|ΔH| \\le 0.03$). These results establish MERA-inspired wavelets as a principled approach for telemetry compression in 6G digital twin synchronization.",
-      "pubdate": "Mon, 23 Feb 2026 16:42:56 +0000",
-      "authors": "Alexandre Barbosa de Lima, Xavier Hesselbach, José Roberto de Almeida Amazonas"
-    },
-    "29df7770a4318d595a7a681bcc941cbf": {
-      "id": "29df7770a4318d595a7a681bcc941cbf",
-      "link": "http://arxiv.org/abs/2602.19741",
-      "title": "Two-parameter families of MPO integrals of motion in Heisenberg spin chains",
-      "abstract": "Recently, Fendley et al. (2025) [arXiv:2511.04674] revealed a new way to demonstrate the integrability of XYZ Heisenberg model by constructing a one-parameter family of integrals of motion in the matrix product operator (MPO) form. In this short note, I report on the discovery of two-parameter families of MPOs that commute with with the Heisenberg spin chain Hamiltonian in the XXX, XXZ, and XYZ cases. I describe a symbolic algebra approach for finding such integrals of motion and speculate about possible applications.",
-      "pubdate": "Mon, 23 Feb 2026 11:37:46 +0000",
-      "authors": "Vsevolod I. Yashin"
-    },
-    "3f12192e5b2e2cb86f2d341153d83a2d": {
-      "id": "3f12192e5b2e2cb86f2d341153d83a2d",
-      "link": "http://arxiv.org/abs/2602.19722",
-      "title": "Differentiable Maximum Likelihood Noise Estimation for Quantum Error Correction",
-      "abstract": "Accurate noise estimation is essential for fault-tolerant quantum computing, as decoding performance depends critically on the fidelity of the circuit-level noise parameters. In this work, we introduce a differentiable Maximum Likelihood Estimation (dMLE) framework that enables exact, efficient, and fully differentiable computation of syndrome log-likelihoods, allowing circuit-level noise parameters to be optimized directly via gradient descent. Leveraging the exact Planar solver for repetition codes and a novel, simplified Tensor Network (TN) architecture combined with optimized contraction path finding for surface codes, our method achieves tractable and fully differentiable likelihood evaluation even for distance 5 surface codes with up to 25 rounds. Our method recovers the underlying error probabilities with near-exact precision in simulations and reduces logical error rates by up to 30.6(3)% for repetition codes and 8.1(2)% for surface codes on experimental data from Google's processor compared to previous state-of-the-art methods: correlation analysis and Reinforcement Learning (RL) methods. Our approach yields provably optimal, decoder-independent error priors by directly maximizing the syndrome likelihood, offering a powerful noise estimation and control tool for unlocking the full potential of current and future error-corrected quantum processors.",
-      "pubdate": "Mon, 23 Feb 2026 11:20:23 +0000",
-      "authors": "Hanyan Cao, Dongyang Feng, Cheng Ye, Feng Pan"
     }
   }
 }
