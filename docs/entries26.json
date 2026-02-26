@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-26T02:28:42.264181+00:00",
+  "last_updated": "2026-02-26T13:16:04.635489+00:00",
   "entries": {
     "0da808d4fb429c232ee98e4cec03dd72": {
       "id": "0da808d4fb429c232ee98e4cec03dd72",
@@ -72,6 +72,14 @@
       "abstract": "We present trainsum, a versatile Python package for doing computations with multidimensional quantics tensor trains: https://github.com/fh-igd-iet/trainsum. Using the Array API standard together with opt_einsum, trainsum allows the effortless approximation of tensors or functions by tensor trains independent of their shape or dimensionality. Once approximated, our package can perform normal arithmetic operations with quantics tensor trains, including addition, Einstein summations and element-wise transformations. It can be therefore used for generic computations with applications in simulation, data compression, machine learning and data analysis.",
       "pubdate": "Mon, 23 Feb 2026 16:41:02 +0000",
       "authors": "Paul Haubenwallner, Matthias Heller"
+    },
+    "818a696f452a8ec872bcf642ca353b46": {
+      "id": "818a696f452a8ec872bcf642ca353b46",
+      "link": "http://arxiv.org/abs/2602.20175",
+      "title": "Tensor Network Generator-Enhanced Optimization for Traveling Salesman Problem",
+      "abstract": "We present an application of the tensor network generator-enhanced optimization (TN-GEO) framework to address the traveling salesman problem (TSP), a fundamental combinatorial optimization challenge. Our approach employs a tensor network Born machine based on automatically differentiable matrix product states (MPS) as the generative model, using the Born rule to define probability distributions over candidate solutions. Unlike approaches based on binary encoding, which require $N^2$ variables and penalty terms to enforce valid tour constraints, we adopt a permutation-based formulation with integer variables and use autoregressive sampling with masking to guarantee that every generated sample is a valid tour by construction. We also introduce a $k$-site MPS variant that learns distributions over $k$-grams (consecutive city subsequences) using a sliding window approach, enabling parameter-efficient modeling for larger instances. Experimental validation on TSPLIB benchmark instances with up to 52 cities demonstrates that TN-GEO can outperform classical heuristics including swap and 2-opt hill-climbing. The $k$-site variants, which put more focus on local correlations, show better results compared to the full-MPS case.",
+      "pubdate": "Thu, 12 Feb 2026 21:18:19 +0000",
+      "authors": "Ryo Sakai, Chen-Yu Liu"
     },
     "e93d8562624be36c9d95177b38b3a64f": {
       "id": "e93d8562624be36c9d95177b38b3a64f",
@@ -1449,13 +1457,69 @@
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
     },
-    "818a696f452a8ec872bcf642ca353b46": {
-      "id": "818a696f452a8ec872bcf642ca353b46",
-      "link": "http://arxiv.org/abs/2602.20175",
-      "title": "Tensor Network Generator-Enhanced Optimization for Traveling Salesman Problem",
-      "abstract": "We present an application of the tensor network generator-enhanced optimization (TN-GEO) framework to address the traveling salesman problem (TSP), a fundamental combinatorial optimization challenge. Our approach employs a tensor network Born machine based on automatically differentiable matrix product states (MPS) as the generative model, using the Born rule to define probability distributions over candidate solutions. Unlike approaches based on binary encoding, which require $N^2$ variables and penalty terms to enforce valid tour constraints, we adopt a permutation-based formulation with integer variables and use autoregressive sampling with masking to guarantee that every generated sample is a valid tour by construction. We also introduce a $k$-site MPS variant that learns distributions over $k$-grams (consecutive city subsequences) using a sliding window approach, enabling parameter-efficient modeling for larger instances. Experimental validation on TSPLIB benchmark instances with up to 52 cities demonstrates that TN-GEO can outperform classical heuristics including swap and 2-opt hill-climbing. The $k$-site variants, which put more focus on local correlations, show better results compared to the full-MPS case.",
-      "pubdate": "Thu, 12 Feb 2026 21:18:19 +0000",
-      "authors": "Ryo Sakai, Chen-Yu Liu"
+    "1e7adb65fb9cb95dd5e8114a5228162f": {
+      "id": "1e7adb65fb9cb95dd5e8114a5228162f",
+      "link": "http://arxiv.org/abs/2602.22113",
+      "title": "Lowering the temperature of two-dimensional fermionic tensor networks with cluster expansions",
+      "abstract": "Representing the time-evolution operator as a tensor network constitutes a key ingredient in several algorithms for studying quantum lattice systems at finite temperature or in a non-equilibrium setting. For a Hamiltonian composed of strictly short-ranged interactions, the Suzuki-Trotter decomposition is the main technique for obtaining such a representation. In [B.~Vanhecke, L.~Vanderstraeten and F.~Verstraete, Physical Review A, L020402 (2021)], an alternative strategy, the cluster expansion, was introduced. This approach naturally preserves internal and lattice symmetries and can more easily be extended to higher-order representations or longer-ranged interactions. We extend the cluster expansion to two-dimensional fermionic systems, and employ it to construct projected entangled-pair operator (PEPO) approximations of Gibbs states. We also discuss and benchmark different truncation schemes for multiplying layers of PEPOs together. Applying the resulting framework to a two-dimensional spinless fermion model with attractive interactions, we resolve a clear phase boundary at finite temperature.",
+      "pubdate": "Wed, 25 Feb 2026 16:58:58 +0000",
+      "authors": "Sander De Meyer, Atsushi Ueda, Yuchi He, Nick Bultinck, Jutho Haegeman"
+    },
+    "8d471d3dc46452f50eb07e2fd4c86ca5": {
+      "id": "8d471d3dc46452f50eb07e2fd4c86ca5",
+      "link": "http://arxiv.org/abs/2602.21979",
+      "title": "Quantum criticality in open quantum systems from the purification perspective",
+      "abstract": "Open quantum systems host mixed-state phases that go beyond the symmetry-protected topological and spontaneous symmetry-breaking paradigms established for closed, pure-state systems. Developing a unified and physically transparent classification of such phases remains a central challenge. In this work, we introduce a purification-based framework that systematically characterizes all mixed-state phases in one-dimensional systems with $\\mathbb{Z}_2^σ \\times \\mathbb{Z}_2^τ$ symmetry. By introducing an ancillary $κ$ chain and employing decorated domain-wall constructions, we derive eight purified fixed-point Hamiltonians labeled by topological indices $(μ_{στ},μ_{τκ},μ_{κσ}) \\in \\{\\pm1\\}^3$. Tracing out the ancilla recovers the full structure of mixed-state phases, including symmetric, strong-to-weak spontaneous symmetry breaking, average symmetry-protected topological phases, and their nontrivial combinations. Interpolations between the eight fixed points naturally define a three-dimensional phase diagram with a cube geometry. The edges correspond to elementary transitions associated with single topological indices, while the faces host intermediate phases arising from competing domain-wall decorations. Along the edges, we identify a class of critical behavior that connects distinct strong-to-weak symmetry-breaking patterns associated with distinct strong subgroups, highlighting a mechanism unique to mixed-state settings. Large-scale tensor-network simulations reveal a rich phase structure, including pyramid-shaped symmetry-breaking regions and a fully symmetry-broken phase at the cube center. Overall, our purification approach provides a geometrically transparent and physically complete classification of mixed-state phases, unified with a single $\\mathbb{Z}_2^σ \\times \\mathbb{Z}_2^τ \\times \\mathbb{Z}_2^κ$ model.",
+      "pubdate": "Wed, 25 Feb 2026 14:57:44 +0000",
+      "authors": "Yuchen Guo, Shuo Yang"
+    },
+    "4e8ce400edf7f8cd5c73e94965ee3464": {
+      "id": "4e8ce400edf7f8cd5c73e94965ee3464",
+      "link": "http://arxiv.org/abs/2602.21974",
+      "title": "Subspace gradient descent method for linear tensor equations",
+      "abstract": "The numerical solution of algebraic tensor equations is a largely open and challenging task. Assuming that the operator is symmetric and positive definite, we propose two new gradient-descent type methods for tensor equations that generalize the recently proposed Subspace Conjugate Gradient (SS-CG), D. Palitta et al, SIAM J. Matrix Analysis and Appl (2025). As our interest is mainly in a modest number of tensor modes, the Tucker format is used to efficiently represent low-rank tensors. Moreover, mixed-precision strategies are employed in certain subtasks to improve the memory usage, and different preconditioners are applied to enhance convergence. The potential of our strategies is illustrated by experimental results on tensor-oriented discretizations of three-dimensional partial differential equations with separable coefficients. Comparisons with the state-of-the-art Alternating Minimal Energy (AMEn) algorithm confirm the competitiveness of the proposed strategies.",
+      "pubdate": "Wed, 25 Feb 2026 14:54:30 +0000",
+      "authors": "Martina Iannacito, Lorenzo Piccinini, Valeria Simoncini"
+    },
+    "4999447f86f25761356b60b25f0edc75": {
+      "id": "4999447f86f25761356b60b25f0edc75",
+      "link": "http://arxiv.org/abs/2602.21797",
+      "title": "Neural Learning of Fast Matrix Multiplication Algorithms: A StrassenNet Approach",
+      "abstract": "Fast matrix multiplication can be described as searching for low-rank decompositions of the matrix--multiplication tensor. We design a neural architecture, \\textsc{StrassenNet}, which reproduces the Strassen algorithm for $2\\times 2$ multiplication. Across many independent runs the network always converges to a rank-$7$ tensor, thus numerically recovering Strassen's optimal algorithm. We then train the same architecture on $3\\times 3$ multiplication with rank $r\\in\\{19,\\dots,23\\}$. Our experiments reveal a clear numerical threshold: models with $r=23$ attain significantly lower validation error than those with $r\\le 22$, suggesting that $r=23$ could actually be the smallest effective rank of the matrix multiplication tensor $3\\times 3$. We also sketch an extension of the method to border-rank decompositions via an $\\varepsilon$--parametrisation and report preliminary results consistent with the known bounds for the border rank of the $3\\times 3$ matrix--multiplication tensor.",
+      "pubdate": "Wed, 25 Feb 2026 11:22:31 +0000",
+      "authors": "Paolo Andreini, Alessandra Bernardi, Monica Bianchini, Barbara Toniella Corradini, Sara Marziali, Giacomo Nunziati, Franco Scarselli"
+    },
+    "c497a86c7fde68f7a96c95144230a6bd": {
+      "id": "c497a86c7fde68f7a96c95144230a6bd",
+      "link": "http://arxiv.org/abs/2602.21705",
+      "title": "Phase diagram of the single-flavor Gross--Neveu--Wilson model from the Grassmann corner transfer matrix renormalization group",
+      "abstract": "We investigate the phase structure of the single-flavor Gross--Neveu model with Wilson fermions using the Grassmann corner transfer matrix renormalization group (CTMRG). The path integral is formulated as a two-dimensional Grassmann tensor network and approximately contracted by the Grassmann CTMRG algorithm. We investigate the phase diagram by varying the fermion mass and the four-fermion coupling, using the pseudoscalar condensate as an order parameter for the $\\mathbb{Z}_{2}$ parity symmetry breaking phase. The universality classes of the phase boundaries are identified through the central charge $c$ obtained via scaling analysis of the entanglement entropy. Furthermore, we extract the quantity related to the entanglement spectrum from the converged CTMRG environments, allowing us to distinguish the topological insulator phase and the trivial phase. The resulting phase structure suggests that the Aoki phase is separated from the other phases by critical lines characterized by $c=1/2$, while the critical lines with $c=1$ separate the topological insulating and trivial phases. Our numerical results also indicate that the Aoki phase does not persist in the strong-coupling regime for the single-flavor theory.",
+      "pubdate": "Wed, 25 Feb 2026 09:11:02 +0000",
+      "authors": "Jian-Gang Kong, Shinichiro Akiyama, Tao Shi, Z. Y. Xie"
+    },
+    "aea5989b8c35fc622999e2f9f6a5719a": {
+      "id": "aea5989b8c35fc622999e2f9f6a5719a",
+      "link": "http://arxiv.org/abs/2602.21695",
+      "title": "Combining matrix product states and mean-field theory to capture magnetic order in quasi-1D cuprates",
+      "abstract": "We study quasi-one-dimensional strongly correlated materials using a multi-step approach based on density functional theory, downfolding techniques, and tensor-network simulations. The downfolding procedure yields effective multiband Hubbard models that capture the competition between electron hopping and local Coulomb interactions relevant to the system's low-energy properties. The resulting multiband Hubbard models are solved using matrix product states. Applied to Sr$_2$CuO$_3$, SrBaCuO$_3$, and Ba$_2$CuO$_3$, this purely one-dimensional treatment yields no long-range magnetic order, in contrast to the magnetic ordering observed experimentally. To account for this behavior, we extend the multi-step approach by incorporating interchain couplings through a self-consistent mean-field scheme. This combined approach stabilizes finite staggered magnetizations, providing a consistent description of magnetic order in agreement with experiment. For Sr$_2$CuO$_{3.5}$ and SrCuO$_2$, we also tested an approach proposed for ladder materials, however, we find that these materials are not well suited for this approach due to the small magnitude of the intraladder hopping parameters.",
+      "pubdate": "Wed, 25 Feb 2026 08:59:38 +0000",
+      "authors": "Quentin Staelens, Daan Verraes, Daan Vrancken, Tom Braeckevelt, Jutho Haegeman, Veronique Van Speybroeck"
+    },
+    "dee02547ddb34a6a9cebfbf184793285": {
+      "id": "dee02547ddb34a6a9cebfbf184793285",
+      "link": "http://arxiv.org/abs/2602.21468",
+      "title": "Unsupervised Discovery of Intermediate Phase Order in the Frustrated $J_1$-$J_2$ Heisenberg Model via Prometheus Framework",
+      "abstract": "The spin-$1/2$ $J_1$-$J_2$ Heisenberg model on the square lattice exhibits a debated intermediate phase between Néel antiferromagnetic and stripe ordered regimes, with competing theories proposing plaquette valence bond, nematic, and quantum spin liquid ground states. We apply the Prometheus variational autoencoder framework -- previously validated on classical (2D, 3D Ising) and quantum (disordered transverse field Ising) phase transitions -- to systematically explore the $J_1$-$J_2$ phase diagram via unsupervised analysis of exact diagonalization ground states for a $4 \\times 4$ lattice. Through dense parameter scans of $J_2/J_1 \\in [0.3, 0.7]$ with step size 0.01 and comprehensive latent space analysis, we investigate the nature of the intermediate regime using unsupervised order parameter discovery and critical point detection via multiple independent methods. This work demonstrates the application of rigorously validated machine learning methods to open questions in frustrated quantum magnetism, where traditional order parameter identification is challenged by competing interactions and limited accessible system sizes.",
+      "pubdate": "Wed, 25 Feb 2026 00:44:51 +0000",
+      "authors": "Brandon Yee, Wilson Collins, Maximilian Rutkowski"
+    },
+    "9031e5756d6f77c059837d3543b7d860": {
+      "id": "9031e5756d6f77c059837d3543b7d860",
+      "link": "http://arxiv.org/abs/2602.21322",
+      "title": "Using near-flat-band electrons for read-out of molecular spin qubit entangled states",
+      "abstract": "While molecular spin qubits (MSQs) are a promising platform for quantum computing, read-out has been largely limited to electron paramagnetic resonance which is often slow and requires a global system drive. Moreover, because one prerequisite for the Elzerman and Pauli spin blockade readout mechanisms typical of semiconductor spin qubits is tunneling of electrons between sites, these read-out modalities are unavailable in MSQs. Here, we theoretically demonstrate electrical read-out of entangled MSQs via driven many-electron spin unpolarized currents. In particular, using a time-dependent density matrix renormalization group approach we simulate a maximally entangled MSQ pair between two electronic leads. Driving itinerant electrons between the two leads, we find that the conductance is greater when the MSQs are in the entangled singlet state as compared to the entangled triplet state. This contrast in conductance is enhanced when the electronic density of states at the Fermi energy is large and for narrow bandwidth. Our results are readily applicable to molecules supramolecularly functionalizing semiconductors with relatively flat bands such as single-wall carbon nanotubes under a magnetic field.",
+      "pubdate": "Tue, 24 Feb 2026 19:41:53 +0000",
+      "authors": "Christian Bunker, Silas Hoffman, Shuanglong Liu, Xiao-Guang Zhang, Hai-Ping Cheng"
     }
   }
 }
