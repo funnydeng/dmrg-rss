@@ -1,6 +1,78 @@
 {
-  "last_updated": "2026-02-25T13:15:30.644333+00:00",
+  "last_updated": "2026-02-26T02:28:42.264181+00:00",
   "entries": {
+    "0da808d4fb429c232ee98e4cec03dd72": {
+      "id": "0da808d4fb429c232ee98e4cec03dd72",
+      "link": "http://arxiv.org/abs/2602.21206",
+      "title": "Minimal loop currents in doped Mott insulators",
+      "abstract": "For the $t$-$J$ model, variational wave functions can generally be constructed based on an accurate description of antiferromagnetism (AFM) at half-filling and an exact phase-string sign structure under doping. The single-hole-doped and two-hole-doped states, as determined by variational Monte Carlo (VMC) simulations, display sharply contrasting behaviors. The single-hole state constitutes a ``cat state'' that resonates strongly between a quasiparticle component and a local loop-current component, with approximately equal weights. In the ground state, the quasiparticle spectral weight $Z_{\\mathbf{k}}$ peaks at momenta $\\mathbf{k}_0 \\equiv (\\pm\\fracπ{2},\\pm\\fracπ{2})$. The total-energy dispersion versus $\\mathbf{k}$ agrees remarkably well with the Green function Monte Carlo results. However, Landau's one-to-one correspondence hypothesis for quasiparticles breaks down here with the incoherent component exhibiting intrinsic magnetization originating from a minimal $2\\times2$ loop current that forms a $4\\times4$ pattern on the square lattice--a finding in excellent agreement with density matrix renormalization group (DMRG) calculations. In the two-hole ground state, a new pairing mechanism is revealed: the two holes are automatically fused into a tightly bound object consisting of an incoherent $d_{xy}$ pairing along the diagonal direction by compensating the local loop currents. This hole pair is again a ``cat state'' that resonates strongly between the incoherent $d_{xy}$ and a coherent $d_{x^2-y^2}$ Cooper channel to gain substantial hopping energy. Its size extends over an area of about $4\\times 4$ lattice spacings, much smaller than the divergent AFM correlation length, implying that it should survive as a minimal superconducting building block even in the dilute doping regime. Experimental implications and the generalization to the finite-doping case are briefly addressed.",
+      "pubdate": "Tue, 24 Feb 2026 18:59:58 +0000",
+      "authors": "Can Cui, Jing-Yu Zhao, Zheng-Yu Weng"
+    },
+    "2080439065ac591acd264fcf09515aa3": {
+      "id": "2080439065ac591acd264fcf09515aa3",
+      "link": "http://arxiv.org/abs/2602.21145",
+      "title": "Reducing the Gate Count with Efficient Trotter-Suzuki Schemes",
+      "abstract": "Hamiltonian formulations of lattice field theories provide access to real-time dynamics, but their simulation is difficult to implement efficiently. Trotter-Suzuki decompositions are at the center of time evolution computation, either on quantum hardware or classically, for instance with the use of tensor networks. While low-order Trotterizations remain the standard choice due to their simplicity, higher-order schemes offer the potential for improved efficiency. In this work we outline a short guide to Trotter-Suzuki schemes and their implementations in general. To help with this, we highlight new efficient schemes found by our optimization framework, and demonstrate their performance on the Heisenberg model.",
+      "pubdate": "Tue, 24 Feb 2026 17:48:26 +0000",
+      "authors": "Marko Maležič, Johann Ostmeyer"
+    },
+    "fe7b0a2aa8dcfb31dc0dc734dd867cc0": {
+      "id": "fe7b0a2aa8dcfb31dc0dc734dd867cc0",
+      "link": "http://arxiv.org/abs/2602.21086",
+      "title": "Probing frustrated spin systems with impurities",
+      "abstract": "We investigate the effective interaction between two localized spin impurities embedded in a frustrated spin-1/2 $J_1\\!-\\!J_2$ Heisenberg chain. Treating the impurity spins as classical moments coupled locally to the host, we combine second--order perturbation theory with large--scale density matrix renormalization group (DMRG) calculations to determine the impurity--impurity interaction as a function of separation, coupling strength, and magnetic frustration. In the weak--coupling regime, we show that the interaction is governed by the the static spin susceptibility of the host and exhibits oscillatory power--law decay in the gapless phase, modified by universal logarithmic corrections at the SU(2)--symmetric critical point. In the gapped dimerized phase, the interaction decays exponentially with distance. For intermediate and strong impurity--host coupling, we observe a crossover to a boundary--dominated regime characterized by pronounced parity effects associated with the length of the chain segment between impurities, signaling a breakdown of the simple RKKY--like description. Our results establish impurity--impurity interactions as a sensitive probe of frustrated quantum spin liquids and provide a controlled framework for distinguishing gapless and gapped phases through local perturbations.",
+      "pubdate": "Tue, 24 Feb 2026 16:46:49 +0000",
+      "authors": "Maksymilian Kliczkowski, Jakub Grabowski, Maciej M. Maśka"
+    },
+    "75be7f48aca1cbe4300a7012ec72b46e": {
+      "id": "75be7f48aca1cbe4300a7012ec72b46e",
+      "link": "http://arxiv.org/abs/2602.20990",
+      "title": "Entanglement Properties of the One-Dimensional Dimerized Fermi-Hubbard Model",
+      "abstract": "We study the entanglement properties of the one-dimensional dimerized Fermi-Hubbard model. Using a matrix-product-state approach, we compute the ground state and identify two insulating phases at 1/2- and 3/4-filling, along with a metallic phase, whose mechanisms can be characterized by their entanglement spectra. Our findings indicate that the two insulating phases are distinct, implying that the phase at 1/2-filling has a charge gap arising from the band gap, which is enhanced by repulsive interactions, while the phase at 3/4-filling exhibits a Mott gap resulting from particle interactions. This difference between the two insulating phases is reflected in the scaling properties of the half-chain entanglement entropy and the distribution of the entanglement spectrum.",
+      "pubdate": "Tue, 24 Feb 2026 15:11:21 +0000",
+      "authors": "Min-Chul Cha, Hoon Beom Kwon, Ji-Woo Lee, Myung-Hoon Chung"
+    },
+    "fb22a715605690abc772c174830305a5": {
+      "id": "fb22a715605690abc772c174830305a5",
+      "link": "http://arxiv.org/abs/2602.20881",
+      "title": "$σ$-VQE: Excited-state preparation of quantum many-body scars with shallow circuits",
+      "abstract": "We present and benchmark a type of variational quantum eigensolver (VQE), which we denote the $σ$-VQE. It is designed to target mid-spectrum eigenstates and prepare quantum many-body scar states. The approach leverages the fact that noisy intermediate-scale quantum devices are limited in their ability to generate generic highly-entangled states. This modified VQE pairs a low-depth circuit with an energy-selective objective that explicitly penalizes energy variance around a chosen target energy. The cost function exploits the limited expressibility of the shallow circuit as atypical low-entanglement eigenstates such as scar states are preferentially selected. We validate this mechanism across two complementary families of models that contain many-body scar states: the Shiraishi-Mori embedding approach, and the matrix-product state parent Hamiltonian construction. We define an unbiased estimation scheme for the nonlinear cost function that is compatible with qubit-wise commuting grouping and bitstring reuse. A proof-of-principle demonstration using a small-system instance was carried out on IBM Fez (Heron r2 QPU). These results motivate its use both as a practical \"scar detector\" and as a state-preparation primitive for initializing nonthermal eigenstate-supported dynamics.",
+      "pubdate": "Tue, 24 Feb 2026 13:21:04 +0000",
+      "authors": "Eoin Carolan, Nathan Keenan, Gabriele Cenedese, Giuliano Benenti"
+    },
+    "4c6aadba148541964564fe2cb2517593": {
+      "id": "4c6aadba148541964564fe2cb2517593",
+      "link": "http://arxiv.org/abs/2602.20780",
+      "title": "Suppressed correlation-spreading in a one-dimensional Bose-Hubbard model with strong interactions",
+      "abstract": "We investigate signatures of non-ergodic behavior in the real-time evolution of a one-dimensional Bose-Hubbard model, where the initial state is a doubly occupied density-wave state. We show that the occupation dynamics at strong interactions is dominated by doublon-holon exchange which leads to a domain wall excitation and propagation. The latter manifests as a negated staggered pattern in the density-density correlations. While the single-particle and the pair correlation functions show highly localized correlations that decay rapidly away from the nearest neighbor. We show that the time scale of the domain-wall excitations depends on the inverse of the interaction strength and therefore dictates the slow relaxation dynamics. In the presence of a parabolic trap, the occupation dynamics at the edges become frozen and further suppresses the propagation of correlations. This suppression happens even for trap strengths weaker than the tunneling rate. We also show that the model can be mapped to an antiferromagnetic transverse-field Ising model in the limit of strong interactions and that the correlation-propagation velocity in the original model is well captured by the group velocity of the spin-wave excitation in the effective spin model.",
+      "pubdate": "Tue, 24 Feb 2026 11:21:07 +0000",
+      "authors": "Jose Carlos Pelayo, Ippei Danshita"
+    },
+    "9ca9407674fc3c482a6ef1ded13fa05d": {
+      "id": "9ca9407674fc3c482a6ef1ded13fa05d",
+      "link": "http://arxiv.org/abs/2602.20612",
+      "title": "Non-Clifford symmetry protected topological higher-order cluster states in multi-qubit measurement-based quantum computation",
+      "abstract": "A cluster state is a strongly entangled state, which is a source of measurement-based quantum computation. It is generated by applying controlled-Z (CZ) gates to the state $\\left\\vert ++\\cdots +\\right\\rangle $. It is protected by the $\\mathbb{Z}_{2}^{\\text{even}}\\times \\mathbb{Z}_{2}^{ \\text{odd}}$ symmetry. By applying general quantum gates to the state $ \\left\\vert ++\\cdots +\\right\\rangle $, we systematically obtain a general short-range entangled cluster state. If we use a non-Clifford gate such as the controlled phase-shift gate, we obtain a non-Clifford cluster state. Furthermore, if we use the controlled-controlled Z (CCZ) gate instead of the CZ gate, we obtain non-Clifford cluster states with five-body entanglement. We generalize it to the C$^{N}$Z gate, where $(2N+1)$-body entangled states are generated. The $\\mathbb{Z}_{2}^{\\text{even}}\\times \\mathbb{Z}_{2}^{\\text{odd}}$ symmetry is non-Clifford for $N\\geq 3$. We demonstrate that there emerge $2^{2N}$ fold degenerate ground states for an open chain, indicating the emergence of $N$ free spins at each edge. They can be used as an $N$-qubit input and an $N$-qubit output in measurement-based quantum computation. We also study the non-invertible symmetry, the Kennedy-Tasaki transformation and the string-order parameter in addition to the $\\mathbb{Z}_{2}^{\\text{even}}\\times \\mathbb{Z}_{2}^{\\text{odd}}$ symmetry in these models.",
+      "pubdate": "Tue, 24 Feb 2026 07:06:36 +0000",
+      "authors": "Motohiko Ezawa"
+    },
+    "fa6a5edeaa2247030690f7b075481024": {
+      "id": "fa6a5edeaa2247030690f7b075481024",
+      "link": "http://arxiv.org/abs/2602.20299",
+      "title": "Entanglement Barriers from Computational Complexity: Matrix-Product-State Approach to Satisfiability",
+      "abstract": "We approach the 3-SAT satisfiability problem with the quantum-inspired method of imaginary time propagation (ITP) applied to matrix product states (MPS) on a classical computer. This ansatz is fundamentally limited by a quantum entanglement barrier that emerges in imaginary time, reflecting the exponential hardness expected for this NP-complete problem. Strikingly, we argue based on careful analysis of the structure imprinted onto the MPS by the 3-SAT instances that this barrier arises from classical computational complexity. To reveal this connection, we elucidate with stochastic models the specific relationship between the classical hardness of the $\\sharp$P $\\supseteq$ NP-complete counting problem $\\sharp$3-SAT and the entanglement properties of the quantum state. Our findings illuminate the limitations of this quantum-inspired approach and demonstrate how purely classical computational complexity can manifest in quantum entanglement. Furthermore, we present estimates of the non-stabilizerness required by the protocol, finding a similar resource barrier. Specifically, the necessary amount of non-Clifford operations scales superlinearly in system size, thus implying extensive resource requirements of ITP on different architectures such as Clifford circuits or gate-based quantum computers.",
+      "pubdate": "Mon, 23 Feb 2026 19:29:04 +0000",
+      "authors": "Tim Pokart, Frank Pollmann, Jan Carl Budich"
+    },
+    "0db2da938517513f6f5cd95cac752a55": {
+      "id": "0db2da938517513f6f5cd95cac752a55",
+      "link": "http://arxiv.org/abs/2602.20226",
+      "title": "trainsum -- A Python package for quantics tensor trains",
+      "abstract": "We present trainsum, a versatile Python package for doing computations with multidimensional quantics tensor trains: https://github.com/fh-igd-iet/trainsum. Using the Array API standard together with opt_einsum, trainsum allows the effortless approximation of tensors or functions by tensor trains independent of their shape or dimensionality. Once approximated, our package can perform normal arithmetic operations with quantics tensor trains, including addition, Einstein summations and element-wise transformations. It can be therefore used for generic computations with applications in simulation, data compression, machine learning and data analysis.",
+      "pubdate": "Mon, 23 Feb 2026 16:41:02 +0000",
+      "authors": "Paul Haubenwallner, Matthias Heller"
+    },
     "e93d8562624be36c9d95177b38b3a64f": {
       "id": "e93d8562624be36c9d95177b38b3a64f",
       "link": "http://arxiv.org/abs/2602.20034",
@@ -1377,85 +1449,13 @@
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
     },
-    "0da808d4fb429c232ee98e4cec03dd72": {
-      "id": "0da808d4fb429c232ee98e4cec03dd72",
-      "link": "http://arxiv.org/abs/2602.21206",
-      "title": "Minimal loop currents in doped Mott insulators",
-      "abstract": "For the $t$-$J$ model, variational wave functions can generally be constructed based on an accurate description of antiferromagnetism (AFM) at half-filling and an exact phase-string sign structure under doping. The single-hole-doped and two-hole-doped states, as determined by variational Monte Carlo (VMC) simulations, display sharply contrasting behaviors. The single-hole state constitutes a ``cat state'' that resonates strongly between a quasiparticle component and a local loop-current component, with approximately equal weights. In the ground state, the quasiparticle spectral weight $Z_{\\mathbf{k}}$ peaks at momenta $\\mathbf{k}_0 \\equiv (\\pm\\fracπ{2},\\pm\\fracπ{2})$. The total-energy dispersion versus $\\mathbf{k}$ agrees remarkably well with the Green function Monte Carlo results. However, Landau's one-to-one correspondence hypothesis for quasiparticles breaks down here with the incoherent component exhibiting intrinsic magnetization originating from a minimal $2\\times2$ loop current that forms a $4\\times4$ pattern on the square lattice--a finding in excellent agreement with density matrix renormalization group (DMRG) calculations. In the two-hole ground state, a new pairing mechanism is revealed: the two holes are automatically fused into a tightly bound object consisting of an incoherent $d_{xy}$ pairing along the diagonal direction by compensating the local loop currents. This hole pair is again a ``cat state'' that resonates strongly between the incoherent $d_{xy}$ and a coherent $d_{x^2-y^2}$ Cooper channel to gain substantial hopping energy. Its size extends over an area of about $4\\times 4$ lattice spacings, much smaller than the divergent AFM correlation length, implying that it should survive as a minimal superconducting building block even in the dilute doping regime. Experimental implications and the generalization to the finite-doping case are briefly addressed.",
-      "pubdate": "Tue, 24 Feb 2026 18:59:58 +0000",
-      "authors": "Can Cui, Jing-Yu Zhao, Zheng-Yu Weng"
-    },
-    "2080439065ac591acd264fcf09515aa3": {
-      "id": "2080439065ac591acd264fcf09515aa3",
-      "link": "http://arxiv.org/abs/2602.21145",
-      "title": "Reducing the Gate Count with Efficient Trotter-Suzuki Schemes",
-      "abstract": "Hamiltonian formulations of lattice field theories provide access to real-time dynamics, but their simulation is difficult to implement efficiently. Trotter-Suzuki decompositions are at the center of time evolution computation, either on quantum hardware or classically, for instance with the use of tensor networks. While low-order Trotterizations remain the standard choice due to their simplicity, higher-order schemes offer the potential for improved efficiency. In this work we outline a short guide to Trotter-Suzuki schemes and their implementations in general. To help with this, we highlight new efficient schemes found by our optimization framework, and demonstrate their performance on the Heisenberg model.",
-      "pubdate": "Tue, 24 Feb 2026 17:48:26 +0000",
-      "authors": "Marko Maležič, Johann Ostmeyer"
-    },
-    "fe7b0a2aa8dcfb31dc0dc734dd867cc0": {
-      "id": "fe7b0a2aa8dcfb31dc0dc734dd867cc0",
-      "link": "http://arxiv.org/abs/2602.21086",
-      "title": "Probing frustrated spin systems with impurities",
-      "abstract": "We investigate the effective interaction between two localized spin impurities embedded in a frustrated spin-1/2 $J_1\\!-\\!J_2$ Heisenberg chain. Treating the impurity spins as classical moments coupled locally to the host, we combine second--order perturbation theory with large--scale density matrix renormalization group (DMRG) calculations to determine the impurity--impurity interaction as a function of separation, coupling strength, and magnetic frustration. In the weak--coupling regime, we show that the interaction is governed by the the static spin susceptibility of the host and exhibits oscillatory power--law decay in the gapless phase, modified by universal logarithmic corrections at the SU(2)--symmetric critical point. In the gapped dimerized phase, the interaction decays exponentially with distance. For intermediate and strong impurity--host coupling, we observe a crossover to a boundary--dominated regime characterized by pronounced parity effects associated with the length of the chain segment between impurities, signaling a breakdown of the simple RKKY--like description. Our results establish impurity--impurity interactions as a sensitive probe of frustrated quantum spin liquids and provide a controlled framework for distinguishing gapless and gapped phases through local perturbations.",
-      "pubdate": "Tue, 24 Feb 2026 16:46:49 +0000",
-      "authors": "Maksymilian Kliczkowski, Jakub Grabowski, Maciej M. Maśka"
-    },
-    "75be7f48aca1cbe4300a7012ec72b46e": {
-      "id": "75be7f48aca1cbe4300a7012ec72b46e",
-      "link": "http://arxiv.org/abs/2602.20990",
-      "title": "Entanglement Properties of the One-Dimensional Dimerized Fermi-Hubbard Model",
-      "abstract": "We study the entanglement properties of the one-dimensional dimerized Fermi-Hubbard model. Using a matrix-product-state approach, we compute the ground state and identify two insulating phases at 1/2- and 3/4-filling, along with a metallic phase, whose mechanisms can be characterized by their entanglement spectra. Our findings indicate that the two insulating phases are distinct, implying that the phase at 1/2-filling has a charge gap arising from the band gap, which is enhanced by repulsive interactions, while the phase at 3/4-filling exhibits a Mott gap resulting from particle interactions. This difference between the two insulating phases is reflected in the scaling properties of the half-chain entanglement entropy and the distribution of the entanglement spectrum.",
-      "pubdate": "Tue, 24 Feb 2026 15:11:21 +0000",
-      "authors": "Min-Chul Cha, Hoon Beom Kwon, Ji-Woo Lee, Myung-Hoon Chung"
-    },
-    "fb22a715605690abc772c174830305a5": {
-      "id": "fb22a715605690abc772c174830305a5",
-      "link": "http://arxiv.org/abs/2602.20881",
-      "title": "$σ$-VQE: Excited-state preparation of quantum many-body scars with shallow circuits",
-      "abstract": "We present and benchmark a type of variational quantum eigensolver (VQE), which we denote the $σ$-VQE. It is designed to target mid-spectrum eigenstates and prepare quantum many-body scar states. The approach leverages the fact that noisy intermediate-scale quantum devices are limited in their ability to generate generic highly-entangled states. This modified VQE pairs a low-depth circuit with an energy-selective objective that explicitly penalizes energy variance around a chosen target energy. The cost function exploits the limited expressibility of the shallow circuit as atypical low-entanglement eigenstates such as scar states are preferentially selected. We validate this mechanism across two complementary families of models that contain many-body scar states: the Shiraishi-Mori embedding approach, and the matrix-product state parent Hamiltonian construction. We define an unbiased estimation scheme for the nonlinear cost function that is compatible with qubit-wise commuting grouping and bitstring reuse. A proof-of-principle demonstration using a small-system instance was carried out on IBM Fez (Heron r2 QPU). These results motivate its use both as a practical \"scar detector\" and as a state-preparation primitive for initializing nonthermal eigenstate-supported dynamics.",
-      "pubdate": "Tue, 24 Feb 2026 13:21:04 +0000",
-      "authors": "Eoin Carolan, Nathan Keenan, Gabriele Cenedese, Giuliano Benenti"
-    },
-    "4c6aadba148541964564fe2cb2517593": {
-      "id": "4c6aadba148541964564fe2cb2517593",
-      "link": "http://arxiv.org/abs/2602.20780",
-      "title": "Suppressed correlation-spreading in a one-dimensional Bose-Hubbard model with strong interactions",
-      "abstract": "We investigate signatures of non-ergodic behavior in the real-time evolution of a one-dimensional Bose-Hubbard model, where the initial state is a doubly occupied density-wave state. We show that the occupation dynamics at strong interactions is dominated by doublon-holon exchange which leads to a domain wall excitation and propagation. The latter manifests as a negated staggered pattern in the density-density correlations. While the single-particle and the pair correlation functions show highly localized correlations that decay rapidly away from the nearest neighbor. We show that the time scale of the domain-wall excitations depends on the inverse of the interaction strength and therefore dictates the slow relaxation dynamics. In the presence of a parabolic trap, the occupation dynamics at the edges become frozen and further suppresses the propagation of correlations. This suppression happens even for trap strengths weaker than the tunneling rate. We also show that the model can be mapped to an antiferromagnetic transverse-field Ising model in the limit of strong interactions and that the correlation-propagation velocity in the original model is well captured by the group velocity of the spin-wave excitation in the effective spin model.",
-      "pubdate": "Tue, 24 Feb 2026 11:21:07 +0000",
-      "authors": "Jose Carlos Pelayo, Ippei Danshita"
-    },
-    "9ca9407674fc3c482a6ef1ded13fa05d": {
-      "id": "9ca9407674fc3c482a6ef1ded13fa05d",
-      "link": "http://arxiv.org/abs/2602.20612",
-      "title": "Non-Clifford symmetry protected topological higher-order cluster states in multi-qubit measurement-based quantum computation",
-      "abstract": "A cluster state is a strongly entangled state, which is a source of measurement-based quantum computation. It is generated by applying controlled-Z (CZ) gates to the state $\\left\\vert ++\\cdots +\\right\\rangle $. It is protected by the $\\mathbb{Z}_{2}^{\\text{even}}\\times \\mathbb{Z}_{2}^{ \\text{odd}}$ symmetry. By applying general quantum gates to the state $ \\left\\vert ++\\cdots +\\right\\rangle $, we systematically obtain a general short-range entangled cluster state. If we use a non-Clifford gate such as the controlled phase-shift gate, we obtain a non-Clifford cluster state. Furthermore, if we use the controlled-controlled Z (CCZ) gate instead of the CZ gate, we obtain non-Clifford cluster states with five-body entanglement. We generalize it to the C$^{N}$Z gate, where $(2N+1)$-body entangled states are generated. The $\\mathbb{Z}_{2}^{\\text{even}}\\times \\mathbb{Z}_{2}^{\\text{odd}}$ symmetry is non-Clifford for $N\\geq 3$. We demonstrate that there emerge $2^{2N}$ fold degenerate ground states for an open chain, indicating the emergence of $N$ free spins at each edge. They can be used as an $N$-qubit input and an $N$-qubit output in measurement-based quantum computation. We also study the non-invertible symmetry, the Kennedy-Tasaki transformation and the string-order parameter in addition to the $\\mathbb{Z}_{2}^{\\text{even}}\\times \\mathbb{Z}_{2}^{\\text{odd}}$ symmetry in these models.",
-      "pubdate": "Tue, 24 Feb 2026 07:06:36 +0000",
-      "authors": "Motohiko Ezawa"
-    },
-    "fa6a5edeaa2247030690f7b075481024": {
-      "id": "fa6a5edeaa2247030690f7b075481024",
-      "link": "http://arxiv.org/abs/2602.20299",
-      "title": "Entanglement Barriers from Computational Complexity: Matrix-Product-State Approach to Satisfiability",
-      "abstract": "We approach the 3-SAT satisfiability problem with the quantum-inspired method of imaginary time propagation (ITP) applied to matrix product states (MPS) on a classical computer. This ansatz is fundamentally limited by a quantum entanglement barrier that emerges in imaginary time, reflecting the exponential hardness expected for this NP-complete problem. Strikingly, we argue based on careful analysis of the structure imprinted onto the MPS by the 3-SAT instances that this barrier arises from classical computational complexity. To reveal this connection, we elucidate with stochastic models the specific relationship between the classical hardness of the $\\sharp$P $\\supseteq$ NP-complete counting problem $\\sharp$3-SAT and the entanglement properties of the quantum state. Our findings illuminate the limitations of this quantum-inspired approach and demonstrate how purely classical computational complexity can manifest in quantum entanglement. Furthermore, we present estimates of the non-stabilizerness required by the protocol, finding a similar resource barrier. Specifically, the necessary amount of non-Clifford operations scales superlinearly in system size, thus implying extensive resource requirements of ITP on different architectures such as Clifford circuits or gate-based quantum computers.",
-      "pubdate": "Mon, 23 Feb 2026 19:29:04 +0000",
-      "authors": "Tim Pokart, Frank Pollmann, Jan Carl Budich"
-    },
-    "0db2da938517513f6f5cd95cac752a55": {
-      "id": "0db2da938517513f6f5cd95cac752a55",
-      "link": "http://arxiv.org/abs/2602.20226",
-      "title": "trainsum -- A Python package for quantics tensor trains",
-      "abstract": "We present trainsum, a versatile Python package for doing computations with multidimensional quantics tensor trains: https://github.com/fh-igd-iet/trainsum. Using the Array API standard together with opt_einsum, trainsum allows the effortless approximation of tensors or functions by tensor trains independent of their shape or dimensionality. Once approximated, our package can perform normal arithmetic operations with quantics tensor trains, including addition, Einstein summations and element-wise transformations. It can be therefore used for generic computations with applications in simulation, data compression, machine learning and data analysis.",
-      "pubdate": "Mon, 23 Feb 2026 16:41:02 +0000",
-      "authors": "Paul Haubenwallner, Matthias Heller"
-    },
     "818a696f452a8ec872bcf642ca353b46": {
       "id": "818a696f452a8ec872bcf642ca353b46",
       "link": "http://arxiv.org/abs/2602.20175",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
+      "title": "Tensor Network Generator-Enhanced Optimization for Traveling Salesman Problem",
+      "abstract": "We present an application of the tensor network generator-enhanced optimization (TN-GEO) framework to address the traveling salesman problem (TSP), a fundamental combinatorial optimization challenge. Our approach employs a tensor network Born machine based on automatically differentiable matrix product states (MPS) as the generative model, using the Born rule to define probability distributions over candidate solutions. Unlike approaches based on binary encoding, which require $N^2$ variables and penalty terms to enforce valid tour constraints, we adopt a permutation-based formulation with integer variables and use autoregressive sampling with masking to guarantee that every generated sample is a valid tour by construction. We also introduce a $k$-site MPS variant that learns distributions over $k$-grams (consecutive city subsequences) using a sliding window approach, enabling parameter-efficient modeling for larger instances. Experimental validation on TSPLIB benchmark instances with up to 52 cities demonstrates that TN-GEO can outperform classical heuristics including swap and 2-opt hill-climbing. The $k$-site variants, which put more focus on local correlations, show better results compared to the full-MPS case.",
+      "pubdate": "Thu, 12 Feb 2026 21:18:19 +0000",
+      "authors": "Ryo Sakai, Chen-Yu Liu"
     }
   }
 }
