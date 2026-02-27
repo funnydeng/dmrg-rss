@@ -8,7 +8,49 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 27 Feb 2026 02:27:50 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Feb 2026 13:07:47 +0000</lastBuildDate>
+    <item>
+      <title>TT-SEAL: TTD-Aware Selective Encryption for Adversarially-Robust and Low-Latency Edge AI</title>
+      <link>http://arxiv.org/abs/2602.22238</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Kyeongpil Min, Sangmin Jeon, Jae-Jin Lee, Woojoo Lee&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; Cloud-edge AI must jointly satisfy model compression and security under tight device budgets. While Tensor-Train Decomposition (TTD) shrinks on-device models, prior selective-encryption studies largely assume dense weights, leaving its practicality under TTD compression unclear. We present TT-SEAL, a selective-encryption framework for TT-decomposed networks. TT-SEAL ranks TT cores with a sensitivity-based importance metric, calibrates a one-time robustness threshold, and uses a value-DP optimizer to encrypt the minimum set of critical cores with AES. Under TTD-aware, transfer-based threat models (and on an FPGA-prototyped edge processor) TT-SEAL matches the robustness of full (black-box) encryption while encrypting as little as 4.89-15.92% of parameters across ResNet-18, MobileNetV2, and VGG-16, and drives the share of AES decryption in end-to-end latency to low single digits (e.g., 58% -&gt; 2.76% on ResNet-18), enabling secure, low-latency edge AI.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2602.22238'&gt;arXiv:2602.22238&lt;/a&gt;] Published Tue, 24 Feb 2026 05:48:09 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2602.22238</guid>
+      <pubDate>Tue, 24 Feb 2026 05:48:09 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <title>Adaptive Patching for Tensor Train Computations</title>
+      <link>http://arxiv.org/abs/2602.22372</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Gianluca Grosso, Marc K. Ritter, Stefan Rohshap, Samuel Badr, Anna Kauch, Markus Wallerberger, Jan von Delft, Hiroshi Shinaoka&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; Quantics Tensor Train (QTT) operations such as matrix product operator contractions are prohibitively expensive for large bond dimensions. We propose an adaptive patching scheme that exploits block-sparse QTT structures to reduce costs through divide-and-conquer, adaptively partitioning tensors into smaller patches with reduced bond dimensions. We demonstrate substantial improvements for sharply localized functions and show efficient computation of bubble diagrams and Bethe-Salpeter equations, opening the door to practical large-scale QTT-based computations previously beyond reach.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2602.22372'&gt;arXiv:2602.22372&lt;/a&gt;] Published Wed, 25 Feb 2026 20:08:43 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2602.22372</guid>
+      <pubDate>Wed, 25 Feb 2026 20:08:43 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <title>Confined and Deconfined Phases of Qubit Regularized Lattice Gauge Theories</title>
+      <link>http://arxiv.org/abs/2602.22515</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Shailesh Chandrasekharan&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We construct simple qubit-regularized Hamiltonian lattice gauge theories formulated in the monomer--dimer--tensor-network (MDTN) basis that are free of sign problems in the pure gauge sector. These models naturally realize both confined and deconfined phases. Using classical Monte Carlo methods, we investigate the associated finite-temperature phase transitions and show that they exhibit the expected universality classes of conventional SU(N) lattice gauge theories in various spacetime dimensions. Furthermore, we argue that second-order quantum phase transitions separating the confined and deconfined phases are likely to exist. Such critical points would provide a nonperturbative route to defining continuum limits of qubit-regularized gauge theories, potentially allowing Yang--Mills theory and related continuum gauge theories to emerge from finite-dimensional lattice constructions.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2602.22515'&gt;arXiv:2602.22515&lt;/a&gt;] Published Thu, 26 Feb 2026 01:17:44 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2602.22515</guid>
+      <pubDate>Thu, 26 Feb 2026 01:17:44 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <title>Symmetry-enforced agreement of Kohn--Sham and many-body Berry phases in the SSH--Hubbard chain</title>
+      <link>http://arxiv.org/abs/2602.22578</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Kai Watanabe&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We study when a density-matching Kohn--Sham (KS) description can reproduce a many-body Berry phase in a correlated insulator, despite the fact that geometric phases are functionals of the wave function. Focusing on the one-dimensional SSH--Hubbard chain on a ring as a controlled interacting topological model, we introduce a $U(1)$ twist $θ$ (flux insertion). The many-body ground state along the full twist cycle is computed by the density-matrix renormalization group (DMRG), while the onsite interaction $U$ is tuned from the noninteracting to the strong-coupling regime. At half filling in the inversion-symmetric gapped regime, our DMRG calculations show that the density remains constant within numerical accuracy over the entire $(θ,U)$ range studied. Thus, the density has no dependence on either the flux $θ$ or the interaction strength $U$. Accordingly, the symmetry-preserving density constraint collapses the KS reference to an SSH-type quadratic representative with $U$-independent geometric diagnostics. Nevertheless, the many-body wave function exhibits a nontrivial geometric response: the quantum metric associated with the $θ$-parametrized ground-state manifold depends on $θ$ at intermediate $U$ and is strongly suppressed at large $U$, consistent with the charge fluctuation freezing. Intriguingly, the KS and many-body Berry phases coincide throughout the gapped regime as $U$ is tuned from weak to strong coupling. We show that this agreement is best understood as symmetry-enforced $\mathbb{Z}_2$ sector matching, rather than as evidence that the density encodes the many-body Berry connection.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2602.22578'&gt;arXiv:2602.22578&lt;/a&gt;] Published Thu, 26 Feb 2026 03:31:58 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2602.22578</guid>
+      <pubDate>Thu, 26 Feb 2026 03:31:58 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <title>Extended Ashkin-Teller transition in two coupled frustrated Haldane chains</title>
+      <link>http://arxiv.org/abs/2602.23187</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Bowy M. La Rivière, Natalia Chepiga&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We report an extremely rich ground state phase diagram of two spin-1 Haldane chains frustrated with a three-site exchange and coupled by the antiferromagnetic Heisenberg interaction on a zig-zag ladder. A particular feature of the phase diagram is the extended quantum phase transition in the Ashkin-Teller universality class that separates the plaquette phase, which spontaneously breaks translation symmetry, and the uniform disordered phase. The former is connected to the Haldane phase, stabilized by large inter-chain coupling, via the topological Gaussian transition. Upon decreasing the inter-chain interactions, this intermediate disorder phase vanishes, giving place to a dimerized phase separated from the plaquette phase on one side via a non-magnetic Ising transition and from the Haldane phase on the other side by a topological weak first-order transition. Finally, in the limit of two decoupled chains, we recover a quantum critical point that corresponds to two copies of the Wess-Zumino-Witten $\mathrm{SU(2)}_2$ criticality with a total central charge $c=3$.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2602.23187'&gt;arXiv:2602.23187&lt;/a&gt;] Published Thu, 26 Feb 2026 16:42:53 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2602.23187</guid>
+      <pubDate>Thu, 26 Feb 2026 16:42:53 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <title>Scaling and Luescher Term in a non-Abelian (2+1)d SU$(2)$ Quantum Link Model</title>
+      <link>http://arxiv.org/abs/2602.23213</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Paul Ludwig, Timo Jakobs, Carsten Urbach&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We investigate a non-Abelian SU$(2)$ quantum link model in 2+1 dimensions on a hexagonal lattice using tensor network methods. We determine the static quark potential for a wide range of bare coupling values and find that the theory is confining. We also probe the existence of a Luescher term and find a clear signal, however, the value of the dimensionless constant $γ$ strongly deviates from the expected universal value $-π/24$ for almost all values of the coupling $g^2$ we investigated. The width of the strings scales logarithmically with the string length again for all $g^2$-values, providing evidence for a rough string, with no indication for a roughening transition.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2602.23213'&gt;arXiv:2602.23213&lt;/a&gt;] Published Thu, 26 Feb 2026 16:57:34 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2602.23213</guid>
+      <pubDate>Thu, 26 Feb 2026 16:57:34 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
     <item>
       <title>Full grid solution for multi-asset options pricing with tensor networks</title>
       <link>http://arxiv.org/abs/2601.00009</link>
