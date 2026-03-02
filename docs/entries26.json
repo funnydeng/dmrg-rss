@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-02T02:30:35.865980+00:00",
+  "last_updated": "2026-03-02T13:08:03.272691+00:00",
   "entries": {
     "6904dda9c033a7b41d9095c0e2414545": {
       "id": "6904dda9c033a7b41d9095c0e2414545",
@@ -1568,6 +1568,22 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "ae9718466de2410f5f079c41cfb22c8c": {
+      "id": "ae9718466de2410f5f079c41cfb22c8c",
+      "link": "http://arxiv.org/abs/2602.24276",
+      "title": "Asymptotically Solvable Quantum Circuits",
+      "abstract": "The discovery of chaotic quantum circuits with (partially) solvable dynamics has played a key role in our understanding of non-equilibrium quantum matter and, at the same time, has helped the development of concrete platforms for quantum computation. It was shown that solvability does not prevent the generation of chaotic dynamics, however, it imposes non-trivial constraints on the generated correlations. A natural question is then whether it is possible to gain insight into the generic case despite the latter being very hard to access. To address this question here we introduce a family of 'asymptotically solvable' quantum circuits where the solvability constraints only affect correlations on length scales beyond a tuneable threshold. This means that their dynamics are only solvable for long enough times: for times shorter than the threshold they are generic. We show this by computing both their dynamical correlations on the equilibrium (infinite temperature) state and their thermalisation dynamics following quantum quenches from compatible (asymptotically solvable) non-equilibrium initial states. The class of systems we introduce is generically ergodic but contains a non-interacting point, which we use to provide exact analytical results, complementing those of numerical experiments, on the non-solvable early time regime.",
+      "pubdate": "Fri, 27 Feb 2026 18:49:08 +0000",
+      "authors": "Samuel H. Pickering, Bruno Bertini"
+    },
+    "744d74e932fb140bde95d4c61d0f4e20": {
+      "id": "744d74e932fb140bde95d4c61d0f4e20",
+      "link": "http://arxiv.org/abs/2602.23522",
+      "title": "Spontaneous altermagnetism in multi-orbital correlated electron systems",
+      "abstract": "Altermagnets have attracted considerable attention in recent years owing to their potential technological applications in spintronics and magnonics. Recently, a new class of spontaneous altermagnets has been theoretically predicted in a correlated two orbital model, driven by the coexistence of antiferromagnetic spin and staggered orbital ordering, thus broadening the scope of altermagnetic phenomena to systems with strong correlations. It has been noted, however, that the required spin and orbital order violates the well-established Goodenough-Kanamori (GK) rules, which underlie much of our understanding of magnetism in complex systems. Here we show that materials with three active orbitals may offer a more realistic route to this exotic state. Specifically, we consider a two-dimensional system with $t_{2g}^{2}$ electrons and identify a novel microscopic mechanism that allows the formation of a spontaneous altermagnetic Mott insulator. We explain how the GK rules are circumvented and provide the stability criteria by employing unbiased mean-field and density matrix renormalization group calculations. In addition, for the first time, we uncover the presence and microscopic origin of chirally split magnons in these spontaneous altermagnets, with experimentally measurable spin conductivities. Finally, we predict that the application of a small in-plane magnetic field induces, in the presence of weak atomic spin-orbit coupling, an as-yet unreported hybrid chiral magnon-orbiton mode with a non-zero orbital polarization giving rise to finite longitudinal and transverse orbital conductivities under a thermal gradient.",
+      "pubdate": "Thu, 26 Feb 2026 21:52:37 +0000",
+      "authors": "Nitin Kaushal, Adarsh S. Patri, Marcel Franz"
     }
   }
 }
