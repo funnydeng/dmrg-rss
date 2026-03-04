@@ -1,6 +1,38 @@
 {
-  "last_updated": "2026-03-03T12:18:35.944118+00:00",
+  "last_updated": "2026-03-04T00:37:14.152728+00:00",
   "entries": {
+    "09dc6461b248f5e2cbb80e181d62135d": {
+      "id": "09dc6461b248f5e2cbb80e181d62135d",
+      "link": "http://arxiv.org/abs/2603.02011",
+      "title": "Tensor-network methodology for super-moiré excitons beyond one billion sites",
+      "abstract": "Computing excitonic spectra in quasicrystal and super-moiré systems constitutes a formidable challenge due to the exceptional size of the excitonic Hilbert space. Here, we demonstrate a tensor-network method for the real-space Bethe-Salpeter Hamiltonian, allowing us to access the spectra of an excitonic $10^{18}$-dimensional Hamiltonian, and enabling the direct computation of bound-exciton spectral functions for systems exceeding one billion lattice sites, several orders of magnitude beyond the capabilities of conventional approaches. Our method combines a tensor-network encoding of the real-space Bethe-Salpeter Hamiltonian with a Chebyshev tensor network algorithm. This strategy bypasses explicit storage of the Hamiltonian while preserving full real-space resolution across widely different length scales. We demonstrate our methodology for one- and two-dimensional super-moiré systems, achieving the simultaneous resolution of atomistic and mesoscopic structures in the excitonic spectra in billion-size systems, showing exciton miniband formation and moiré-induced spatial confinement. Our results establish a real-space methodology enabling the simulation of excitonic physics in large-scale quasicrystal and super-moiré quantum matter.",
+      "pubdate": "Mon, 02 Mar 2026 15:57:10 +0000",
+      "authors": "Anouar Moustaj, Yitao Sun, Tiago V. C. Antão, Lumen Eek, Jose L. Lado"
+    },
+    "26dd3fb79fc54ccb7946360fac8f2fce": {
+      "id": "26dd3fb79fc54ccb7946360fac8f2fce",
+      "link": "http://arxiv.org/abs/2603.01936",
+      "title": "Sector Theory of Levin-Wen Models II : Fusion and Braiding",
+      "abstract": "This is the continuation of our study of the Levin-Wen model based on an arbitrary unitary fusion category $\\mathcal{C}$ on the infinite plane. The ground state of the Levin-Wen model hosts anyonic excitations whose fusion and braiding properties are captured by the associated braided $\\rm C^*$-tensor category of superselection sectors $\\mathsf{SSS}$. By constructing explicit isomorphisms between the fusion spaces of $\\mathsf{SSS}$ and those of the Drinfeld center $Z(\\mathcal{C})$, we show that these two categories have isomorphic $F$- and $R$-symbols. It follows that the full subcategory of finite sectors is unitarily braided monoidally equivalent to the Drinfeld center, $$\\,\\mathsf{SSS}_f \\simeq Z(\\mathcal{C}).$$ This provides the first complete characterisation of the category of superselection sectors for a class of two-dimensional lattice models supporting anyons with non-integer quantum dimensions.",
+      "pubdate": "Mon, 02 Mar 2026 14:52:17 +0000",
+      "authors": "Alex Bols, Boris Kjær"
+    },
+    "3e40558126794cfa140d4eab2e7be4eb": {
+      "id": "3e40558126794cfa140d4eab2e7be4eb",
+      "link": "http://arxiv.org/abs/2603.01642",
+      "title": "Magnetization plateaus, spin-canted orders and field-induced transitions in a spin-1/2 Heisenberg antiferromagnet on a distorted diamond-decorated honeycomb lattice",
+      "abstract": "We investigate the spin-1/2 Heisenberg antiferromagnet on a distorted diamond-decorated honeycomb lattice in an external magnetic field. By combining density-matrix renormalization group, sign-problem-free quantum Monte Carlo in a mixed dimer-monomer basis, exact diagonalization, and an effective lattice-gas approach, we determine the ground-state phase diagram and analyze the finite-temperature magnetization process. The model hosts a rich variety of frustration-induced quantum phases including a quantum ferrimagnetic phase of Lieb-Mattis type, a quantum ferromagnetic phase, a spin-canted phase, a monomer-dimer phase, a dimer-tetramer liquid, a dimer-tetramer solid, and two distinct one-dimensional-crossover phases of ferromagnetic and ferrimagnetic character. Depending on the lattice distortion, we identify robust magnetization plateaus at 0, 1/4, 1/2, and 3/4 of the saturation magnetization originating from competing local dimer and tetramer singlets. Finite-temperature QMC data reveal how thermal fluctuations progressively smear the plateau structure, while the effective lattice-gas description reliably captures the corresponding low-temperature behavior.",
+      "pubdate": "Mon, 02 Mar 2026 09:19:08 +0000",
+      "authors": "Katarina Karlova, Jozef Strecka"
+    },
+    "5b74b1d030142ad844b1cda9262d5b3f": {
+      "id": "5b74b1d030142ad844b1cda9262d5b3f",
+      "link": "http://arxiv.org/abs/2603.01034",
+      "title": "Reparameterized Tensor Ring Functional Decomposition for Multi-Dimensional Data Recovery",
+      "abstract": "Tensor Ring (TR) decomposition is a powerful tool for high-order data modeling, but is inherently restricted to discrete forms defined on fixed meshgrids. In this work, we propose a TR functional decomposition for both meshgrid and non-meshgrid data, where factors are parameterized by Implicit Neural Representations (INRs). However, optimizing this continuous framework to capture fine-scale details is intrinsically difficult. Through a frequency-domain analysis, we demonstrate that the spectral structure of TR factors determines the frequency composition of the reconstructed tensor and limits the high-frequency modeling capacity. To mitigate this, we propose a reparameterized TR functional decomposition, in which each TR factor is a structured combination of a learnable latent tensor and a fixed basis. This reparameterization is theoretically shown to improve the training dynamics of TR factor learning. We further derive a principled initialization scheme for the fixed basis and prove the Lipschitz continuity of our proposed model. Extensive experiments on image inpainting, denoising, super-resolution, and point cloud recovery demonstrate that our method achieves consistently superior performance over existing approaches. Code is available at https://github.com/YangyangXu2002/RepTRFD.",
+      "pubdate": "Sun, 01 Mar 2026 10:19:03 +0000",
+      "authors": "Yangyang Xu, Junbo Ke, You-Wei Wen, Chao Wang"
+    },
     "ae9718466de2410f5f079c41cfb22c8c": {
       "id": "ae9718466de2410f5f079c41cfb22c8c",
       "link": "http://arxiv.org/abs/2602.24276",
@@ -1584,38 +1616,6 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
-    },
-    "09dc6461b248f5e2cbb80e181d62135d": {
-      "id": "09dc6461b248f5e2cbb80e181d62135d",
-      "link": "http://arxiv.org/abs/2603.02011",
-      "title": "Tensor-network methodology for super-moiré excitons beyond one billion sites",
-      "abstract": "Computing excitonic spectra in quasicrystal and super-moiré systems constitutes a formidable challenge due to the exceptional size of the excitonic Hilbert space. Here, we demonstrate a tensor-network method for the real-space Bethe-Salpeter Hamiltonian, allowing us to access the spectra of an excitonic $10^{18}$-dimensional Hamiltonian, and enabling the direct computation of bound-exciton spectral functions for systems exceeding one billion lattice sites, several orders of magnitude beyond the capabilities of conventional approaches. Our method combines a tensor-network encoding of the real-space Bethe-Salpeter Hamiltonian with a Chebyshev tensor network algorithm. This strategy bypasses explicit storage of the Hamiltonian while preserving full real-space resolution across widely different length scales. We demonstrate our methodology for one- and two-dimensional super-moiré systems, achieving the simultaneous resolution of atomistic and mesoscopic structures in the excitonic spectra in billion-size systems, showing exciton miniband formation and moiré-induced spatial confinement. Our results establish a real-space methodology enabling the simulation of excitonic physics in large-scale quasicrystal and super-moiré quantum matter.",
-      "pubdate": "Mon, 02 Mar 2026 15:57:10 +0000",
-      "authors": "Anouar Moustaj, Yitao Sun, Tiago V. C. Antão, Lumen Eek, Jose L. Lado"
-    },
-    "26dd3fb79fc54ccb7946360fac8f2fce": {
-      "id": "26dd3fb79fc54ccb7946360fac8f2fce",
-      "link": "http://arxiv.org/abs/2603.01936",
-      "title": "Sector Theory of Levin-Wen Models II : Fusion and Braiding",
-      "abstract": "This is the continuation of our study of the Levin-Wen model based on an arbitrary unitary fusion category $\\mathcal{C}$ on the infinite plane. The ground state of the Levin-Wen model hosts anyonic excitations whose fusion and braiding properties are captured by the associated braided $\\rm C^*$-tensor category of superselection sectors $\\mathsf{SSS}$. By constructing explicit isomorphisms between the fusion spaces of $\\mathsf{SSS}$ and those of the Drinfeld center $Z(\\mathcal{C})$, we show that these two categories have isomorphic $F$- and $R$-symbols. It follows that the full subcategory of finite sectors is unitarily braided monoidally equivalent to the Drinfeld center, $$\\,\\mathsf{SSS}_f \\simeq Z(\\mathcal{C}).$$ This provides the first complete characterisation of the category of superselection sectors for a class of two-dimensional lattice models supporting anyons with non-integer quantum dimensions.",
-      "pubdate": "Mon, 02 Mar 2026 14:52:17 +0000",
-      "authors": "Alex Bols, Boris Kjær"
-    },
-    "3e40558126794cfa140d4eab2e7be4eb": {
-      "id": "3e40558126794cfa140d4eab2e7be4eb",
-      "link": "http://arxiv.org/abs/2603.01642",
-      "title": "Magnetization plateaus, spin-canted orders and field-induced transitions in a spin-1/2 Heisenberg antiferromagnet on a distorted diamond-decorated honeycomb lattice",
-      "abstract": "We investigate the spin-1/2 Heisenberg antiferromagnet on a distorted diamond-decorated honeycomb lattice in an external magnetic field. By combining density-matrix renormalization group, sign-problem-free quantum Monte Carlo in a mixed dimer-monomer basis, exact diagonalization, and an effective lattice-gas approach, we determine the ground-state phase diagram and analyze the finite-temperature magnetization process. The model hosts a rich variety of frustration-induced quantum phases including a quantum ferrimagnetic phase of Lieb-Mattis type, a quantum ferromagnetic phase, a spin-canted phase, a monomer-dimer phase, a dimer-tetramer liquid, a dimer-tetramer solid, and two distinct one-dimensional-crossover phases of ferromagnetic and ferrimagnetic character. Depending on the lattice distortion, we identify robust magnetization plateaus at 0, 1/4, 1/2, and 3/4 of the saturation magnetization originating from competing local dimer and tetramer singlets. Finite-temperature QMC data reveal how thermal fluctuations progressively smear the plateau structure, while the effective lattice-gas description reliably captures the corresponding low-temperature behavior.",
-      "pubdate": "Mon, 02 Mar 2026 09:19:08 +0000",
-      "authors": "Katarina Karlova, Jozef Strecka"
-    },
-    "5b74b1d030142ad844b1cda9262d5b3f": {
-      "id": "5b74b1d030142ad844b1cda9262d5b3f",
-      "link": "http://arxiv.org/abs/2603.01034",
-      "title": "Reparameterized Tensor Ring Functional Decomposition for Multi-Dimensional Data Recovery",
-      "abstract": "Tensor Ring (TR) decomposition is a powerful tool for high-order data modeling, but is inherently restricted to discrete forms defined on fixed meshgrids. In this work, we propose a TR functional decomposition for both meshgrid and non-meshgrid data, where factors are parameterized by Implicit Neural Representations (INRs). However, optimizing this continuous framework to capture fine-scale details is intrinsically difficult. Through a frequency-domain analysis, we demonstrate that the spectral structure of TR factors determines the frequency composition of the reconstructed tensor and limits the high-frequency modeling capacity. To mitigate this, we propose a reparameterized TR functional decomposition, in which each TR factor is a structured combination of a learnable latent tensor and a fixed basis. This reparameterization is theoretically shown to improve the training dynamics of TR factor learning. We further derive a principled initialization scheme for the fixed basis and prove the Lipschitz continuity of our proposed model. Extensive experiments on image inpainting, denoising, super-resolution, and point cloud recovery demonstrate that our method achieves consistently superior performance over existing approaches. Code is available at https://github.com/YangyangXu2002/RepTRFD.",
-      "pubdate": "Sun, 01 Mar 2026 10:19:03 +0000",
-      "authors": "Yangyang Xu, Junbo Ke, You-Wei Wen, Chao Wang"
     }
   }
 }
