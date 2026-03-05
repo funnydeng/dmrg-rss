@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-05T00:38:25.900418+00:00",
+  "last_updated": "2026-03-05T12:19:33.925012+00:00",
   "entries": {
     "f3d4766bb7e9855b85fd507430b252e9": {
       "id": "f3d4766bb7e9855b85fd507430b252e9",
@@ -1664,6 +1664,46 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "1698459b1d7b23426d8667b718f76a62": {
+      "id": "1698459b1d7b23426d8667b718f76a62",
+      "link": "http://arxiv.org/abs/2603.03799",
+      "title": "Enhancing Variational Quantum Eigensolvers for SU(2) Lattice Gauge Theory via Systematic State Preparation",
+      "abstract": "Computing the vacuum and energy spectrum in non-Abelian, interacting lattice gauge theories remains an open challenge, in part because approximating the continuum limit requires large lattices and huge Hilbert spaces. To address this difficulty with near-term quantum computing devices, we adapt the variational quantum eigensolver to non-Abelian gauge theories. We outline scaling advantages when using a spin-network basis to simulate the gauge-invariant Hilbert space and develop a systematic state preparation ansatz that creates gauge-invariant excitations while alleviating the barren plateau problem. We illustrate our method in the context of SU(2) Yang-Mills theory by testing it on a minimal toy model consisting of a single vertex in 3+1 dimensions. In this toy model, simulations allow us to investigate the impact of noise expected in current quantum devices.",
+      "pubdate": "Wed, 04 Mar 2026 07:22:36 +0000",
+      "authors": "Klaus Liegener, Dominik Mattern, Alexander Korobov, Lisa Krüger, Manuel Geiger, Malay Singh, Longxiang Huang, Christian Schneider, Federico Roy, Stefan Filipp"
+    },
+    "3aa8b6cb88c619cc870dec92d4e6436f": {
+      "id": "3aa8b6cb88c619cc870dec92d4e6436f",
+      "link": "http://arxiv.org/abs/2603.03690",
+      "title": "Measures on Cameron's treelike classes and applications to tensor categories",
+      "abstract": "Measures on Fraïssé classes are a key input in the Harman--Snowden (2022) construction of tensor categories. Treelike Fraïssé classes provide a particularly tractable source of examples. In this paper, we complete the classification of measures on Cameron's elementary treelike classes. In particular, for the class $\\partial \\mathfrak{T}_3(n)$ of node-colored rooted binary tree structures with $n$ colors, we classify measures by an explicit bijection with directed rooted trees edge-labeled by $\\{1, \\dots, n\\}$ with a distinguished vertex, yielding $(2n+2)^n$ distinct $\\ZZ\\left[\\frac 12\\right]$-valued measures. For each $n \\geq 1$, we use a family of measures $μ_nÎ$ and their supports $\\partial \\mathfrak{T}_3(n)^{\\mathrm{ord}}_I$ (where $I \\subseteq \\{1, \\dots n\\}$) to construct the Karoubi envelopes $\\mathbf{Rep}(\\partial \\mathfrak{T}_3(n)^{\\mathrm{ord}}_I;μÎ_n)$, producing infinite families of semisimple tensor categories with superexponential growth that cannot be obtained via Deligne's interpolation of representation categories. We also prove the nonexistence of measures on the $n$-colored tree class $C_n\\mathfrak{T}$ for $n \\geq 2$ and the labeled tree class $L \\mathfrak{T}$, extending Snowden's results for uncolored trees.",
+      "pubdate": "Wed, 04 Mar 2026 03:32:31 +0000",
+      "authors": "Thanh Can, Thomas Rüd"
+    },
+    "9ef1ff33d73654e11b8b873d3bd84f11": {
+      "id": "9ef1ff33d73654e11b8b873d3bd84f11",
+      "link": "http://arxiv.org/abs/2603.03639",
+      "title": "Mitigating many-body quantum crosstalk with tensor-network robust control",
+      "abstract": "Quantum crosstalk poses a major challenge to scaling up quantum computations as its strength is typically unknown and its effect accumulates exponentially as system size grows. Here, we show that many-body robust control can be utilized to suppress unwanted couplings during multi-qubit gate operations and state preparation. By combining tensor network simulations with the GRAPE algorithm, and leveraging an efficient random sampling over noise ensembles, our method overcomes the exponential scaling of the Hilbert space. We demonstrate its effectiveness for designing control solutions for high-fidelity implementations of parallel X gates and parallel CNOT on a chain of 50 qubits, and for realizing a 30-qubit GHZ state and the ground state of a 20-qubit Heisenberg model. In the presence of many-body quantum crosstalk due to parasitic interaction between neighboring qubits, robust control results in order-of magnitude improvement in fidelity for large system sizes. These findings pave the way for more reliable operations on near-term quantum processors.",
+      "pubdate": "Wed, 04 Mar 2026 02:00:03 +0000",
+      "authors": "Nguyen H. Le, Florian Mintert, Eran Ginossar"
+    },
+    "3ae87186b52886f8a58b7daba95b34bf": {
+      "id": "3ae87186b52886f8a58b7daba95b34bf",
+      "link": "http://arxiv.org/abs/2603.03542",
+      "title": "Quantum Lego Power-up: Designing Transversal Gates with Tensor Networks",
+      "abstract": "Transversal gates are the simplest form of fault-tolerant gates and are relatively easy to implement in practice. Yet designing codes that support useful transversal operations -- especially non-Clifford or addressable gates -- remains difficult within the stabilizer formalism or CSS constructions alone. We show that these limitations can be overcome using tensor-network frameworks such as the quantum lego formalism, where transversal gates naturally appear as global or localized symmetries. Within the quantum lego formalism, small codes carrying desirable symmetries can be \"glued\" into larger ones, with operator-flow rules guiding how logical symmetries are preserved. This approach enables the systematic construction of codes with addressable transversal single- and multi-qubit gates targeting specific logical qubits regardless of whether the gate is Clifford or not. As a proof of principle, we build new finite-rate code families that support strongly transversal $T$, $CCZ$, $SH$, and Gottesman's $K_3$ gates, structures that are challenging to realize with conventional methods. We further construct holographic and fractal-like codes that admit addressable transversal inter-, meso-, and intra-block $T$, $CS$, and $C^\\ell Z$ gates. As a corollary, we demonstrate that the heterogeneous holographic Steane-Reed-Muller black hole code also supports fully addressable transversal inter- and intra-block $CZ$ gates, significantly lowering the overhead for universal fault-tolerant computation.",
+      "pubdate": "Tue, 03 Mar 2026 21:56:34 +0000",
+      "authors": "ChunJun Cao, Brad Lackey"
+    },
+    "05ac8f900d40f39f5a5af3155776947c": {
+      "id": "05ac8f900d40f39f5a5af3155776947c",
+      "link": "http://arxiv.org/abs/2603.03374",
+      "title": "Symmetry-protected topology and deconfined solitons in a multi-link $\\mathbb{Z}_2$ gauge theory",
+      "abstract": "With the advent of quantum simulators, exploring exotic collective phenomena in lattice models with local symmetries and unconventional geometries is at reach of near-term experiments. Motivated by recent progress in this direction, we study a $\\mathbb{Z}_2$ lattice gauge theory defined on a multi-graph with links that can be visualized as great circles of a spherical shell hosting the $\\mathbb{Z}_2$ gauge fields. Elementary Wilson loops along pairs of these bonds allow to identify a dynamical gauge-invariant flux, responsible for Aharonov-Bohm-like interference effects in the tunneling dynamics of charged matter residing on the vertices. Focusing on an odd number of links, we show that this leads to state-dependent tunneling amplitudes underlying a phenomenon analogous to the Peierls instability. We find inhomogeneous phases in which an ordered pattern of the gauge fluxes spontaneously breaks translational invariance, and intertwines with a bond order wave for the gauge-invariant kinetic matter operators. Long-range order is shown to coexist with symmetry protected topological order, which survives the quantum fluctuations of the gauge flux induced by an external electric field. Doping the system above half filling leads to the formation of topological soliton/anti-soliton pairs interpolating between different inhomogeneous orderings of the gauge fluxes. By performining a detailed analysis based on matrix product states, we prove that charge deconfinement emerges as a consequence of charge-fractionalization. Quasiparticles carrying fractional charge and bound at the soliton centers can be arbitrarily separated without feeling a confining force, in spite of the long-range attractive interactions set by the small electric field on the individual integer charges.",
+      "pubdate": "Mon, 02 Mar 2026 22:59:25 +0000",
+      "authors": "Enrico C. Domanti, Alejandro Bermudez"
     }
   }
 }
