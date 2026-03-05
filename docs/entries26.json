@@ -1,6 +1,54 @@
 {
-  "last_updated": "2026-03-04T12:18:12.329295+00:00",
+  "last_updated": "2026-03-05T00:38:25.900418+00:00",
   "entries": {
+    "f3d4766bb7e9855b85fd507430b252e9": {
+      "id": "f3d4766bb7e9855b85fd507430b252e9",
+      "link": "http://arxiv.org/abs/2603.02741",
+      "title": "Renormalization group on tensor networks",
+      "abstract": "We review recent developments in tensor network approaches, focusing on renormalization group methods. Since they are free from the negative sign and complex action problems, there is growing interest in their application to lattice field theories, particularly with a view toward future studies of quantum chromodynamics (QCD) at finite temperature and density. They are also of broad interest in quantum field theory, with recent advances in approaches that allow one to directly investigate universal aspects of critical behavior by making use of theoretical insights from conformal field theory. We highlight several recently explored topics that are expected to play important roles in forthcoming tensor-network studies of QCD.",
+      "pubdate": "Tue, 03 Mar 2026 08:42:22 +0000",
+      "authors": "Shinichiro Akiyama"
+    },
+    "7811cd2da49ad6439039e7360e48d0ec": {
+      "id": "7811cd2da49ad6439039e7360e48d0ec",
+      "link": "http://arxiv.org/abs/2603.02739",
+      "title": "Tensor renormalization group approach to the $O(2)$ models via symmetry-twisted partition functions",
+      "abstract": "We investigate critical phenomena in the $O(2)$ models using symmetry-twisted partition functions that can be efficiently computed within the tensor renormalization group framework. We first demonstrate, taking the three-dimensional model as an example, that symmetry-twisted partition functions detect the spontaneous breaking of global continuous symmetry. We then consider the same model in two dimensions, where the Berezinskii--Kosterlitz--Thouless (BKT) transition occurs. Since symmetry-twisted partition functions directly provide the helicity modulus at a finite twist angle, we determine the BKT transition point. These results are presented based on Ref.~\\cite{Akiyama:2026dzg}. Finally, in addition to the original paper~\\cite{Akiyama:2026dzg}, we apply this approach to the two-dimensional generalized $O(2)$ model and confirm that it successfully identifies the phase transitions between the ferromagnetic and nematic phases, as well as between the nematic and paramagnetic phases.",
+      "pubdate": "Tue, 03 Mar 2026 08:41:57 +0000",
+      "authors": "Shinichiro Akiyama, Raghav G. Jha, Jun Maeda, Yuya Tanizaki, Judah Unmuth-Yockey"
+    },
+    "fcd281fc94cce926b68dad85d54e710a": {
+      "id": "fcd281fc94cce926b68dad85d54e710a",
+      "link": "http://arxiv.org/abs/2603.02729",
+      "title": "The power of small initialization in noisy low-tubal-rank tensor recovery",
+      "abstract": "We study the problem of recovering a low-tubal-rank tensor $\\mathcal{X}\\_\\star\\in \\mathbb{R}^{n \\times n \\times k}$ from noisy linear measurements under the t-product framework. A widely adopted strategy involves factorizing the optimization variable as $\\mathcal{U} * \\mathcal{U}^\\top$, where $\\mathcal{U} \\in \\mathbb{R}^{n \\times R \\times k}$, followed by applying factorized gradient descent (FGD) to solve the resulting optimization problem. Since the tubal-rank $r$ of the underlying tensor $\\mathcal{X}_\\star$ is typically unknown, this method often assumes $r < R \\le n$, a regime known as over-parameterization. However, when the measurements are corrupted by some dense noise (e.g., Gaussian noise), FGD with the commonly used spectral initialization yields a recovery error that grows linearly with the over-estimated tubal-rank $R$. To address this issue, we show that using a small initialization enables FGD to achieve a nearly minimax optimal recovery error, even when the tubal-rank $R$ is significantly overestimated. Using a four-stage analytic framework, we analyze this phenomenon and establish the sharpest known error bound to date, which is independent of the overestimated tubal-rank $R$. Furthermore, we provide a theoretical guarantee showing that an easy-to-use early stopping strategy can achieve the best known result in practice. All these theoretical findings are validated through a series of simulations and real-data experiments.",
+      "pubdate": "Tue, 03 Mar 2026 08:29:04 +0000",
+      "authors": "ZHiyu Liu, Haobo Geng, Xudong Wang, Yandong Tang, Zhi Han, Yao Wang"
+    },
+    "08a81ec2ce655734b58fc374f6ccaf00": {
+      "id": "08a81ec2ce655734b58fc374f6ccaf00",
+      "link": "http://arxiv.org/abs/2603.02338",
+      "title": "Enhancing entanglement asymmetry in fragmented quantum systems",
+      "abstract": "Entanglement asymmetry provides a quantitative measure of symmetry breaking in many-body quantum states. Focusing on inhomogeneous $U(1)$ charges, such as dipole and multipole moments, we show that the typical asymmetry is bounded by a specific fraction of its maximal value, and verify this behavior in several settings, including random matrix product states. Within the latter ensemble, by identifying the bond dimension with an effective time, we qualitatively reproduce recent findings on the entanglement asymmetry dynamics in random quantum circuits, thereby suggesting a universal dynamical structure of the asymmetry of $U(1)$ charges in local ergodic systems. Multipole charges naturally arise in systems with Hilbert-space fragmentation, where the dynamics splits into exponentially many disconnected sectors. Using the commutant algebra formalism, we generalize entanglement asymmetry to account for fragmentation. We derive general upper bounds for both conventional and fragmented symmetries and identify states that saturate them. While the asymmetry grows logarithmically for conventional symmetries, it can scale extensively in fragmented systems, providing a probe that distinguishes classical from genuinely quantum fragmentation.",
+      "pubdate": "Mon, 02 Mar 2026 19:10:30 +0000",
+      "authors": "Lorenzo Gotta, Filiberto Ares, Sara Murciano"
+    },
+    "d8352b07ba363fa97c6be6a0e5d6fd48": {
+      "id": "d8352b07ba363fa97c6be6a0e5d6fd48",
+      "link": "http://arxiv.org/abs/2603.02323",
+      "title": "Trion liquid and its photoemission signatures",
+      "abstract": "We study the formation of a trion liquid in doped low-dimensional semiconductors with strong electron-hole interactions and analyze its signatures in angle-resolved photoemission spectroscopy (ARPES). We show that this strongly correlated state of matter forms naturally in the vicinity of the phase boundary between a normal band insulator and an excitonic insulator upon doping. By studying the photoemission spectrum, we show that a partially occupied trion band gives rise to an in-gap feature in the ARPES spectrum with vanishing spectral weight at the Fermi energy. We demonstrate our findings using a 1D microscopic model employing exact, unbiased, matrix product state (MPS)-based calculations.",
+      "pubdate": "Mon, 02 Mar 2026 19:00:07 +0000",
+      "authors": "Noam Ophir, Anna Keselman"
+    },
+    "c51abeb2bb4739dd3f0e2a4b0fb48c09": {
+      "id": "c51abeb2bb4739dd3f0e2a4b0fb48c09",
+      "link": "http://arxiv.org/abs/2603.02316",
+      "title": "Transformer Neural-Network Quantum States for lattice models of spins and fermions: Application to the Ancilla Layer Model",
+      "abstract": "We introduce a variational wave function based on Neural-Network Quantum States (NQS) to study lattice systems whose local Hilbert space contains both spin and fermionic degrees of freedom. Our approach is based on the use of the Transformer architecture, which can naturally handle composite local Hilbert spaces through a tokenization procedure closely inspired by techniques from natural language processing. The neural network predicts a set of fermionic orbitals that depend on the spin configuration in a backflow-inspired manner. We apply the method to the one-dimensional Ancilla Layer Model, consisting of a chain of mobile spin-$1/2$ fermions coupled to a two-leg spin-$1/2$ ladder. For open boundary conditions, we achieve excellent quantitative agreement with Density Matrix Renormalization Group (DMRG) results across the full range of parameters considered. We find a phase in which the chain forms an effectively decoupled Luttinger liquid (LL), and a LL* phase with a distinct Fermi wavevector in which the mobile fermions are Kondo screened by one leg of the ladder, while the other leg forms the critical Bethe spin liquid. The LL* is the analog of the phase describing the pseudogap in two dimensions. We also find a Luther-Emery (LE) phase, where the LL* state becomes unstable toward the formation of a spin gap. The Transformer Ansatz maintains comparable accuracy for periodic boundary conditions, where tensor-network methods are computationally more demanding. Together, these findings establish Transformer-based NQS as an accurate and scalable variational framework for correlated lattice systems with composite local Hilbert spaces and highlight their potential for studying higher-dimensional models where boundary effects and heterogeneous local structures pose significant challenges.",
+      "pubdate": "Mon, 02 Mar 2026 19:00:02 +0000",
+      "authors": "Riccardo Rende, Alexander Nikolaenko, Luciano Loris Viteritti, Subir Sachdev, Ya-Hui Zhang"
+    },
     "09dc6461b248f5e2cbb80e181d62135d": {
       "id": "09dc6461b248f5e2cbb80e181d62135d",
       "link": "http://arxiv.org/abs/2603.02011",
@@ -1616,54 +1664,6 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
-    },
-    "f3d4766bb7e9855b85fd507430b252e9": {
-      "id": "f3d4766bb7e9855b85fd507430b252e9",
-      "link": "http://arxiv.org/abs/2603.02741",
-      "title": "Renormalization group on tensor networks",
-      "abstract": "We review recent developments in tensor network approaches, focusing on renormalization group methods. Since they are free from the negative sign and complex action problems, there is growing interest in their application to lattice field theories, particularly with a view toward future studies of quantum chromodynamics (QCD) at finite temperature and density. They are also of broad interest in quantum field theory, with recent advances in approaches that allow one to directly investigate universal aspects of critical behavior by making use of theoretical insights from conformal field theory. We highlight several recently explored topics that are expected to play important roles in forthcoming tensor-network studies of QCD.",
-      "pubdate": "Tue, 03 Mar 2026 08:42:22 +0000",
-      "authors": "Shinichiro Akiyama"
-    },
-    "7811cd2da49ad6439039e7360e48d0ec": {
-      "id": "7811cd2da49ad6439039e7360e48d0ec",
-      "link": "http://arxiv.org/abs/2603.02739",
-      "title": "Tensor renormalization group approach to the $O(2)$ models via symmetry-twisted partition functions",
-      "abstract": "We investigate critical phenomena in the $O(2)$ models using symmetry-twisted partition functions that can be efficiently computed within the tensor renormalization group framework. We first demonstrate, taking the three-dimensional model as an example, that symmetry-twisted partition functions detect the spontaneous breaking of global continuous symmetry. We then consider the same model in two dimensions, where the Berezinskii--Kosterlitz--Thouless (BKT) transition occurs. Since symmetry-twisted partition functions directly provide the helicity modulus at a finite twist angle, we determine the BKT transition point. These results are presented based on Ref.~\\cite{Akiyama:2026dzg}. Finally, in addition to the original paper~\\cite{Akiyama:2026dzg}, we apply this approach to the two-dimensional generalized $O(2)$ model and confirm that it successfully identifies the phase transitions between the ferromagnetic and nematic phases, as well as between the nematic and paramagnetic phases.",
-      "pubdate": "Tue, 03 Mar 2026 08:41:57 +0000",
-      "authors": "Shinichiro Akiyama, Raghav G. Jha, Jun Maeda, Yuya Tanizaki, Judah Unmuth-Yockey"
-    },
-    "fcd281fc94cce926b68dad85d54e710a": {
-      "id": "fcd281fc94cce926b68dad85d54e710a",
-      "link": "http://arxiv.org/abs/2603.02729",
-      "title": "The power of small initialization in noisy low-tubal-rank tensor recovery",
-      "abstract": "We study the problem of recovering a low-tubal-rank tensor $\\mathcal{X}\\_\\star\\in \\mathbb{R}^{n \\times n \\times k}$ from noisy linear measurements under the t-product framework. A widely adopted strategy involves factorizing the optimization variable as $\\mathcal{U} * \\mathcal{U}^\\top$, where $\\mathcal{U} \\in \\mathbb{R}^{n \\times R \\times k}$, followed by applying factorized gradient descent (FGD) to solve the resulting optimization problem. Since the tubal-rank $r$ of the underlying tensor $\\mathcal{X}_\\star$ is typically unknown, this method often assumes $r < R \\le n$, a regime known as over-parameterization. However, when the measurements are corrupted by some dense noise (e.g., Gaussian noise), FGD with the commonly used spectral initialization yields a recovery error that grows linearly with the over-estimated tubal-rank $R$. To address this issue, we show that using a small initialization enables FGD to achieve a nearly minimax optimal recovery error, even when the tubal-rank $R$ is significantly overestimated. Using a four-stage analytic framework, we analyze this phenomenon and establish the sharpest known error bound to date, which is independent of the overestimated tubal-rank $R$. Furthermore, we provide a theoretical guarantee showing that an easy-to-use early stopping strategy can achieve the best known result in practice. All these theoretical findings are validated through a series of simulations and real-data experiments.",
-      "pubdate": "Tue, 03 Mar 2026 08:29:04 +0000",
-      "authors": "ZHiyu Liu, Haobo Geng, Xudong Wang, Yandong Tang, Zhi Han, Yao Wang"
-    },
-    "08a81ec2ce655734b58fc374f6ccaf00": {
-      "id": "08a81ec2ce655734b58fc374f6ccaf00",
-      "link": "http://arxiv.org/abs/2603.02338",
-      "title": "Enhancing entanglement asymmetry in fragmented quantum systems",
-      "abstract": "Entanglement asymmetry provides a quantitative measure of symmetry breaking in many-body quantum states. Focusing on inhomogeneous $U(1)$ charges, such as dipole and multipole moments, we show that the typical asymmetry is bounded by a specific fraction of its maximal value, and verify this behavior in several settings, including random matrix product states. Within the latter ensemble, by identifying the bond dimension with an effective time, we qualitatively reproduce recent findings on the entanglement asymmetry dynamics in random quantum circuits, thereby suggesting a universal dynamical structure of the asymmetry of $U(1)$ charges in local ergodic systems. Multipole charges naturally arise in systems with Hilbert-space fragmentation, where the dynamics splits into exponentially many disconnected sectors. Using the commutant algebra formalism, we generalize entanglement asymmetry to account for fragmentation. We derive general upper bounds for both conventional and fragmented symmetries and identify states that saturate them. While the asymmetry grows logarithmically for conventional symmetries, it can scale extensively in fragmented systems, providing a probe that distinguishes classical from genuinely quantum fragmentation.",
-      "pubdate": "Mon, 02 Mar 2026 19:10:30 +0000",
-      "authors": "Lorenzo Gotta, Filiberto Ares, Sara Murciano"
-    },
-    "d8352b07ba363fa97c6be6a0e5d6fd48": {
-      "id": "d8352b07ba363fa97c6be6a0e5d6fd48",
-      "link": "http://arxiv.org/abs/2603.02323",
-      "title": "Trion liquid and its photoemission signatures",
-      "abstract": "We study the formation of a trion liquid in doped low-dimensional semiconductors with strong electron-hole interactions and analyze its signatures in angle-resolved photoemission spectroscopy (ARPES). We show that this strongly correlated state of matter forms naturally in the vicinity of the phase boundary between a normal band insulator and an excitonic insulator upon doping. By studying the photoemission spectrum, we show that a partially occupied trion band gives rise to an in-gap feature in the ARPES spectrum with vanishing spectral weight at the Fermi energy. We demonstrate our findings using a 1D microscopic model employing exact, unbiased, matrix product state (MPS)-based calculations.",
-      "pubdate": "Mon, 02 Mar 2026 19:00:07 +0000",
-      "authors": "Noam Ophir, Anna Keselman"
-    },
-    "c51abeb2bb4739dd3f0e2a4b0fb48c09": {
-      "id": "c51abeb2bb4739dd3f0e2a4b0fb48c09",
-      "link": "http://arxiv.org/abs/2603.02316",
-      "title": "Transformer Neural-Network Quantum States for lattice models of spins and fermions: Application to the Ancilla Layer Model",
-      "abstract": "We introduce a variational wave function based on Neural-Network Quantum States (NQS) to study lattice systems whose local Hilbert space contains both spin and fermionic degrees of freedom. Our approach is based on the use of the Transformer architecture, which can naturally handle composite local Hilbert spaces through a tokenization procedure closely inspired by techniques from natural language processing. The neural network predicts a set of fermionic orbitals that depend on the spin configuration in a backflow-inspired manner. We apply the method to the one-dimensional Ancilla Layer Model, consisting of a chain of mobile spin-$1/2$ fermions coupled to a two-leg spin-$1/2$ ladder. For open boundary conditions, we achieve excellent quantitative agreement with Density Matrix Renormalization Group (DMRG) results across the full range of parameters considered. We find a phase in which the chain forms an effectively decoupled Luttinger liquid (LL), and a LL* phase with a distinct Fermi wavevector in which the mobile fermions are Kondo screened by one leg of the ladder, while the other leg forms the critical Bethe spin liquid. The LL* is the analog of the phase describing the pseudogap in two dimensions. We also find a Luther-Emery (LE) phase, where the LL* state becomes unstable toward the formation of a spin gap. The Transformer Ansatz maintains comparable accuracy for periodic boundary conditions, where tensor-network methods are computationally more demanding. Together, these findings establish Transformer-based NQS as an accurate and scalable variational framework for correlated lattice systems with composite local Hilbert spaces and highlight their potential for studying higher-dimensional models where boundary effects and heterogeneous local structures pose significant challenges.",
-      "pubdate": "Mon, 02 Mar 2026 19:00:02 +0000",
-      "authors": "Riccardo Rende, Alexander Nikolaenko, Luciano Loris Viteritti, Subir Sachdev, Ya-Hui Zhang"
     }
   }
 }
