@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-13T00:38:00.838963+00:00",
+  "last_updated": "2026-03-13T12:20:41.217543+00:00",
   "entries": {
     "1f4196462cbb69df45322ae8abd5eba5": {
       "id": "1f4196462cbb69df45322ae8abd5eba5",
@@ -1816,6 +1816,334 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "606ae18748a550cc0678a78b5c9dab3d": {
+      "id": "606ae18748a550cc0678a78b5c9dab3d",
+      "link": "http://arxiv.org/abs/2603.12236",
+      "title": "Onset of Ergodicity Across Scales on a Digital Quantum Processor",
+      "abstract": "Understanding how isolated quantum many-body systems thermalize remains a central question in modern physics. We study the onset of ergodicity in a two-dimensional disordered Heisenberg Floquet model using digital quantum simulation on IBM's Nighthawk superconducting processor, reaching system sizes of up to $10\\times10$ qubits. We probe ergodicity across different length scales by coarse-graining the system into spatial patches of varying sizes and introducing a measure based on the collision entropy of each patch, enabling a detailed study of when ergodic behavior emerges across scales. The high sampling rate of superconducting quantum processing units, together with an optimal sample estimator, allow us to access patches of sizes up to $3\\times3$. We observe that as the Heisenberg coupling $J$ increases, the noiseless system undergoes a smooth crossover from subergodic to ergodic behavior, with smaller patches approaching their random-matrix-theory values first, thereby revealing a hierarchy across scales. In the region of parameter space where classical tensor-network simulations are reliable, small patches or small values of $J$, we find excellent agreement with the error-mitigated quantum simulation. Beyond this regime, volume-law entanglement and contraction complexity growth causes the cost of classical methods to rise sharply. Our results open new directions for the use of quantum computers in the study of quantum thermalization.",
+      "pubdate": "Thu, 12 Mar 2026 17:54:17 +0000",
+      "authors": "Faisal Alam, Marcos Crichigno, Elizabeth Crosson, Steven T. Flammia, Filippo Maria Gambetta, Max Hunter Gordon, Michael Kreshchuk, Ashley Montanaro, Alberto Nocera, Raul A. Santos"
+    },
+    "244f2a1155241030b76272e7ecf8e3fb": {
+      "id": "244f2a1155241030b76272e7ecf8e3fb",
+      "link": "http://arxiv.org/abs/2603.12258",
+      "title": "Stable Topology in Exactly Flat Bands",
+      "abstract": "Topological flat bands (FBs) offer an ideal platform for realizing exotic topological phases, such as fractional Chern insulators, yet their realization with both exact flatness and stable topology in local lattice models has been long hindered by fundamental no-go theorems. Here, we overcome this barrier by demonstrating the existence of critical topological FBs (CTFBs) in finite-range hopping models. They saturate the no-go theorems via a unique structure of Bloch wavefunctions: While continuous over the whole Brillouin zone, the wavefunctions are non-analytic at isolated band touching points, thereby relaxing the inherent restrictions on the coexistence of exact flatness and stable topology. We establish a general principle to construct CTFBs, as well as their parent Hamiltonians, that carry desired topological invariants in given space groups. Explicit examples exhibiting Chern numbers, strong $\\mathbb{Z}_2$ index, and crystalline-symmetry-protected invariants in two and three dimensions are provided. Furthermore, an automated algorithm identifies more than 50,000 robust, symmetry-indicated CTFBs. Filling such CTFBs yields short-range entangled topological states that exhibit power-law correlations. Crucially, all filled CTFB states admit exact tensor-network representations with finite bond dimensions, providing a tractable starting point for exploring strongly correlated topological matter.",
+      "pubdate": "Thu, 12 Mar 2026 17:59:21 +0000",
+      "authors": "Yan-Qi Li, Yi-Jie Wang, Pei-Han Lin, Bin Wang, Zhi-Da Song"
+    },
+    "47be5e6e89c36a73dcebb275f5c1a892": {
+      "id": "47be5e6e89c36a73dcebb275f5c1a892",
+      "link": "http://arxiv.org/abs/2603.12198",
+      "title": "Kinetic obstruction to pairing in the doped Kitaev-Heisenberg ladder",
+      "abstract": "We investigate the hole-doped Kitaev-Heisenberg ($t$-$J$-$K$) model on a two-leg ladder geometry using the density-matrix renormalization group (DMRG). We first consider the behavior of the antiferromagnetic Kitaev (AFK) spin-liquid phase as a function of hopping strength $t$ and doping level. This reveals intriguing pairing tendencies only for $\\frac{t}{K} \\lesssim 0.65$, consistent with prior results on three-leg ladders, and firmly supports the emerging picture that the physics of doped Kitaev spin liquids strongly depends on the kinetic energy of the doped holes. Analysis of one- and two-hole doping uncovers close links between the spatial profiles of the plaquette operator and the charge density. We construct a doping-dependent phase diagram for antiferromagnetic Heisenberg interactions and intermediate hopping $t=1$. Upon doping, the rung-singlet region develops dominant superconducting correlations. Charge-density-wave correlations dominate at weak doping near the transition to the stripy phase. Spin-density wave-like behavior is found in the AFK and ferromagnetic Kitaev limits, and in the stripy phase.",
+      "pubdate": "Thu, 12 Mar 2026 17:26:40 +0000",
+      "authors": "Bradraj Pandey, Bo Xiao, Satoshi Okamoto, Gonzalo Alvarez, Gábor B. Halász, Elbio Dagotto, Pontus Laurell"
+    },
+    "6a7b7bb27be424ff5d65b545617ccc86": {
+      "id": "6a7b7bb27be424ff5d65b545617ccc86",
+      "link": "http://arxiv.org/abs/2603.12194",
+      "title": "Schwinger Model with a Dynamical Axion",
+      "abstract": "One of the major open puzzles in the Standard Model of particle physics is the strong CP problem: although Quantum Chromodynamics allows a CP-violating topological $θ$-term, experiments constrain its value to be extremely small. The Peccei--Quinn mechanism resolves this problem by promoting the $θ$-angle to a dynamical field-introducing the axion -- whose dynamics relax the effective angle $θ_\\text{eff}$ to a CP-conserving minimum. Here, we investigate the resulting axion physics in a Hamiltonian lattice gauge theory (LGT) by coupling a quantized axion field to the massive Schwinger model with a topological $θ$-term. Using infinite matrix product state techniques, we compute the ground-state properties of the resulting theory and demonstrate that the axion dynamically relaxes $θ_\\text{eff}$ to the minimum of the vacuum energy. Consequently, the ground-state energy becomes independent of $θ$, demonstrating the axion-mediated solution to the strong CP problem within a fully dynamical LGT. We further analyze CP restoration and extract the axion mass from the topological susceptibility and excitation spectrum. Our results provide a nonperturbative demonstration of axion dynamics in a quantum LGT amenable to investigation on modern quantum hardware.",
+      "pubdate": "Thu, 12 Mar 2026 17:24:16 +0000",
+      "authors": "Gabriel Rouxinol, Tom Magorsch, Jesse J. Osborne, Nora Brambilla, Jad C. Halimeh"
+    },
+    "13d4346508bc6d896c15810bb262240d": {
+      "id": "13d4346508bc6d896c15810bb262240d",
+      "link": "http://arxiv.org/abs/2603.12045",
+      "title": "Compactifying the Electronic Wavefunction II: Quantum Estimators for Spin-Coupled Generalized Valence Bond Wavefunctions",
+      "abstract": "We present a measurement-driven quantum framework for evaluating overlap and Hamiltonian matrix elements in spin-coupled generalized valence bond (SCGVB) wavefunctions. The approach targets a central difficulty of nonorthogonal valence-bond methods: estimating matrix elements between distinct, generally nonorthogonal configuration state functions. Rather than preparing the full wavefunction on quantum hardware, we reformulate the required quantities as vacuum expectation values of Pauli-string operators that can be accessed using shallow, ancilla-free circuits composed of local Clifford rotations and computational-basis measurements. In contrast to Hadamard-test-based matrix-element estimation, this construction avoids ancilla qubits and controlled operations by reducing the problem to local Pauli measurements. This separates the algebraic construction of the SCGVB problem from the measurement task executed on the quantum register and yields a low-depth strategy compatible with near-term architectures. We demonstrate the framework on square and rectangular H4 using quantum-circuit emulation, where the resulting overlap and Hamiltonian matrices reproduce classical Lowdin-based references with good accuracy across the geometries considered, and where derived Coulson-Chirgwin weights remain chemically consistent. These results support the feasibility of measurement-based quantum assistance for nonorthogonal SCGVB expansions and provide a practical route for incorporating quantum measurements into valence-bond electronic-structure workflows.",
+      "pubdate": "Thu, 12 Mar 2026 15:20:06 +0000",
+      "authors": "Bruna Gabrielly"
+    },
+    "ec1d956016e8adf5436f98e5bb7eb813": {
+      "id": "ec1d956016e8adf5436f98e5bb7eb813",
+      "link": "http://arxiv.org/abs/2603.12026",
+      "title": "Efficient Generative Modeling with Unitary Matrix Product States Using Riemannian Optimization",
+      "abstract": "Tensor networks, which are originally developed for characterizing complex quantum many-body systems, have recently emerged as a powerful framework for capturing high-dimensional probability distributions with strong physical interpretability. This paper systematically studies matrix product states (MPS) for generative modeling and shows that unitary MPS, which is a tensor-network architecture that is both simple and expressive, offers clear benefits for unsupervised learning by reducing ambiguity in parameter updates and improving efficiency. To overcome the inefficiency of standard gradient-based MPS training, we develop a Riemannian optimization approach that casts probabilistic modeling as an optimization problem with manifold constraints, and further derive an efficient space-decoupling algorithm. Experiments on Bars-and-Stripes and EMNIST datasets demonstrate fast adaptation to data structure, stable updates, and strong performance while maintaining the efficiency and expressive power of MPS.",
+      "pubdate": "Thu, 12 Mar 2026 15:05:03 +0000",
+      "authors": "Haotong Duan, Zhongming Chen, Ngai Wong"
+    },
+    "c96c4903c1722761cdbaa4fbbd32af1a": {
+      "id": "c96c4903c1722761cdbaa4fbbd32af1a",
+      "link": "http://arxiv.org/abs/2603.11910",
+      "title": "Quantum synchronization and chimera states in a programmable quantum many-body system",
+      "abstract": "Synchronization is a hallmark of collective behavior in classical nonlinear systems, yet its realization as a robust many-body phenomenon in coherent quantum systems remains largely unexplored. Here we demonstrate symmetry-protected quantum synchronization and a quantum chimera state in coherent Floquet dynamics on programmable superconducting quantum processors. By implementing stroboscopic evolution of a two-dimensional Heisenberg model on IBM heavy-hex devices, we observe that initially phase-randomized spins spontaneously self-organize into coherent lattice-wide oscillations. On 28 qubits, synchronization persists even for strongly randomized initial states and is stabilized by SU(2) symmetry, as confirmed by explicit symmetry breaking. Scaling up to 156 qubits reveals a qualitatively distinct regime. For weak initial randomness, global synchronization extends across the device. For strong randomness, the system fails to synchronize globally, yet subsets of qubits exhibit robust local phase coherence under homogeneous unitary dynamics. This coexistence of globally desynchronized and locally synchronized regions constitutes a quantum analogue of a classical chimera state. Statevector and matrix-product-state simulations reproduce both the symmetry-protected synchronization and the chimera coexistence, demonstrating that these phenomena arise from the intrinsic Floquet many-body dynamics. Our results establish symmetry-protected synchronization and quantum chimera states as experimentally accessible nonequilibrium dynamical phases in programable many-body quantum systems.",
+      "pubdate": "Thu, 12 Mar 2026 13:26:20 +0000",
+      "authors": "Kazuya Shinjo, Kazuhiro Seki, Seiji Yunoki"
+    },
+    "0422c80b54cc8ccd17171a443be276c9": {
+      "id": "0422c80b54cc8ccd17171a443be276c9",
+      "link": "http://arxiv.org/abs/2603.11658",
+      "title": "Coupling Tensor Trains with Graph of Convex Sets: Effective Compression, Exploration, and Planning in the C-Space",
+      "abstract": "We present TANGO (Tensor ANd Graph Optimization), a novel motion planning framework that integrates tensor-based compression with structured graph optimization to enable efficient and scalable trajectory generation. While optimization-based planners such as the Graph of Convex Sets (GCS) offer powerful tools for generating smooth, optimal trajectories, they typically rely on a predefined convex characterization of the high-dimensional configuration space-a requirement that is often intractable for general robotic tasks. TANGO builds further by using Tensor Train decomposition to approximate the feasible configuration space in a compressed form, enabling rapid discovery and estimation of task-relevant regions. These regions are then embedded into a GCS-like structure, allowing for geometry-aware motion planning that respects both system constraints and environmental complexity. By coupling tensor-based compression with structured graph reasoning, TANGO enables efficient, geometry-aware motion planning and lays the groundwork for more expressive and scalable representations of configuration space in future robotic systems. Rigorous simulation studies on planar and real robots reinforce our claims of effective compression and higher quality trajectories.",
+      "pubdate": "Thu, 12 Mar 2026 08:28:06 +0000",
+      "authors": "Gerhard Reinerth, Riddhiman Laha, Marcello Romano"
+    },
+    "6f63509f4c33676d832af5b66c241e3a": {
+      "id": "6f63509f4c33676d832af5b66c241e3a",
+      "link": "http://arxiv.org/abs/2603.11463",
+      "title": "Bootstrap Embedding for Interacting Electrons in Phonon Coherent-state Mean Field",
+      "abstract": "We develop a fermi-bose bootstrap embedding (fb-BE) framework for the ground state of interacting elec- trons coupled to phonon mean field. The method combines bootstrap embedding for correlated electrons with a self-consistent coherent-state mean-field treatment for phonons. This method models the interacting electron-phonon problem as a system of correlated electrons traveling in a self-consistently specified potential landscape, allowing for efficient treatment of large lattice systems. Convergence of the methods for frag- ment size and total system size are demonstrated for one-dimensional Hubbard-Holstein model for up to 350 sites. Finite-size scaling is performed to extrapolate to infinite system size. Benchmarking against density matrix renormalization group for small 8-site system at half- and quarter-filling shows orders-of-magnitude runtime advantage. The comparison further reveals that the method performs best in regimes dominated by localization, such as the Mott insulating phase and the strong-coupling tiny polaron regime, where the local embedding ansatz is still valid. However, due to the mean-field treatment for phonons, we find limitations of our methods in the weakly coupled delocalized region and at the Peierls transition, where quantum phonon fluctuations and long-range kinetic correlations become substantial.",
+      "pubdate": "Thu, 12 Mar 2026 02:40:39 +0000",
+      "authors": "Shariful Islam, Joel Bierman, Yuan Liu"
+    },
+    "98b60e2e03d05221eff89ebf979c2177": {
+      "id": "98b60e2e03d05221eff89ebf979c2177",
+      "link": "http://arxiv.org/abs/2603.11373",
+      "title": "Enhanced carrier binding and bond correlations in the Hubbard-Su-Schrieffer-Heeger model with dispersive optical phonons",
+      "abstract": "Electron-phonon (e-ph) interactions play a crucial role in determining many properties of materials. In this context, the Su-Schrieffer-Heeger (SSH) model, where atomic motion modulates the electronic hopping, has gained significant attention due to its potential for strong electron pairing in relation to high-Tc superconductivity. Previous studies of the SSH models have addressed many aspects of this problem, but have focused heavily on either dilute or half-filled models with dispersionless (Einstein) phonons. Here, we study the effects of dispersive optical phonons on the lightly doped one-dimensional optical Hubbard-SSH model using the density matrix renormalization group. We observe a significant enhancement in singlet binding driven by phonon dispersion; however, by calculating various correlation functions, we find that the enhanced binding does not translate to increased superconducting correlations but rather robust bond correlations in the studied parameter regime. Nevertheless, the significant impact of phonon dispersion on these correlations highlights the need to go beyond the Einstein phonon limit while modeling realistic quantum materials.",
+      "pubdate": "Wed, 11 Mar 2026 23:24:08 +0000",
+      "authors": "Debshikha Banerjee, Alberto Nocera, Steven Johnston"
+    },
+    "abb9f9d5022a271c244bc6591e224864": {
+      "id": "abb9f9d5022a271c244bc6591e224864",
+      "link": "http://arxiv.org/abs/2603.11156",
+      "title": "Low $T$-count preparation of nuclear eigenstates with tensor networks",
+      "abstract": "We present an efficient protocol leveraging classical computation to support Initial State Preparation for strongly correlated fermionic systems, a critical bottleneck for fault-tolerant quantum simulation. Focusing on nuclear shell model eigenstates, we first demonstrate that the Density Matrix Renormalization Group algorithm can efficiently approximate target states as Matrix Product States, capitalizing on the favourable entanglement structure of these fermionic systems. These high-fidelity approximations are then leveraged as a classical resource in a variational circuit optimization scheme to compile shallow quantum circuits. We establish concrete resource estimates by decomposing the resulting circuits into the industry-standard Clifford$+T$ gateset, exploring the benefits of specialized $U3$ synthesis techniques. For all nuclear systems tested, on up to 76 qubit Hamiltonians, we consistently find low $T$-count circuits preparing the nuclear eigenstates to high fidelity with $\\sim 2\\times 10^4$ total $T$ gates. This low number gives confidence these eigenstates can be prepared on early fault-tolerant quantum computers. Our work establishes a viable path toward practical ground state preparation for nuclear structure and other fermionic applications.",
+      "pubdate": "Wed, 11 Mar 2026 18:00:00 +0000",
+      "authors": "Joe Gibbs, Lukasz Cincio, Chandan Sarma, Zoë Holmes, Paul Stevenson"
+    },
+    "34ce94cb6a685f1d1533c0a7f7e8915a": {
+      "id": "34ce94cb6a685f1d1533c0a7f7e8915a",
+      "link": "http://arxiv.org/abs/2603.11131",
+      "title": "Beyond Barren Plateaus: A Scalable Quantum Convolutional Architecture for High-Fidelity Image Classification",
+      "abstract": "While Quantum Convolutional Neural Networks (QCNNs) offer a theoretical paradigm for quantum machine learning, their practical implementation is severely bottlenecked by barren plateaus -- the exponential vanishing of gradients -- and poor empirical accuracy compared to classical counterparts. In this work, we propose a novel QCNN architecture utilizing localized cost functions and a hardware-efficient tensor-network initialization strategy to provably mitigate barren plateaus. We evaluate our scalable QCNN on the MNIST dataset, demonstrating a significant performance leap. By resolving the gradient vanishing issue, our optimized QCNN achieves a classification accuracy of 98.7\\%, a substantial improvement over the baseline QCNN accuracy of 52.32\\% found in unmitigated models. Furthermore, we provide empirical evidence of a parameter-efficiency advantage, requiring $\\mathcal{O}(\\log N)$ fewer trainable parameters than equivalent classical CNNs to achieve $>95\\%$ convergence. This work bridges the gap between theoretical quantum utility and practical application, providing a scalable framework for quantum computer vision tasks without succumbing to loss landscape concentration.",
+      "pubdate": "Wed, 11 Mar 2026 15:57:42 +0000",
+      "authors": "Radhakrishnan Delhibabu"
+    },
+    "0d14f9ca9901b4f8f1edc6ed65dc1c19": {
+      "id": "0d14f9ca9901b4f8f1edc6ed65dc1c19",
+      "link": "http://arxiv.org/abs/2603.11009",
+      "title": "Linear-Scaling Tensor Train Sketching",
+      "abstract": "We introduce the Block Sparse Tensor Train (BSTT) sketch, a structured random projection tailored to the tensor train (TT) format that unifies existing TT-adapted sketching operators. By varying two integer parameters $P$ and $R$, BSTT interpolates between the Khatri-Rao sketch ($R=1$) and the Gaussian TT sketch ($P=1$). We prove that BSTT satisfies an oblivious subspace embedding (OSE) property with parameters $R = \\mathcal{O}(d(r+\\log 1/δ))$ and $P = \\mathcal{O}(\\varepsilon^{-2})$, and an oblivious subspace injection (OSI) property under the condition $R = \\mathcal{O}(d)$ and $P = \\mathcal{O}(\\varepsilon^{-2}(r + \\log r/δ))$. Both guarantees depend only linearly on the tensor order $d$ and on the subspace dimension $r$, in contrast to prior constructions that suffer from exponential scaling in $d$. As direct consequences, we derive quasi-optimal error bounds for the QB factorization and randomized TT rounding. The theoretical results are supported by numerical experiments on synthetic tensors, Hadamard products, and a quantum chemistry application.",
+      "pubdate": "Wed, 11 Mar 2026 17:31:52 +0000",
+      "authors": "Paul Cazeaux, Mi-Song Dupuy, Rodrigo Figueroa Justiniano"
+    },
+    "e6ea19fb916b94020136d0de26e7960f": {
+      "id": "e6ea19fb916b94020136d0de26e7960f",
+      "link": "http://arxiv.org/abs/2603.10932",
+      "title": "Efficient construction of $\\mathbb{Z}_2$ gauge-invariant bases for the Quantum Minimally Entangled Typical Thermal States algorithm",
+      "abstract": "In quantum computations of gauge theories at finite temperature and finite density, it is challenging to enforce Gauss's law for all states contributing to the thermal ensemble. While various techniques for implementing gauge constraints have been proposed, they often involve practical trade-offs. In this work, we adopt the Quantum Minimally Entangled Typical Thermal States (QMETTS) algorithm for $\\mathbb{Z}_2$ gauge-constrained systems, which allows us to capture thermal equilibrium states with chemical potential while mitigating these trade-offs. To ensure that gauge invariance is preserved throughout the procedure while maintaining computational efficiency, we derive the specific measurement bases within the algorithm. Furthermore, since the estimation of expectation values on quantum hardware is inherently noisy, we rigorously account for shot noise in estimating expectation values, and propose a sampling method that is more efficient than those in previous works. We validate our approach numerically by studying a (1+1)-dimensional $\\mathbb{Z}_2$ gauge theory coupled to staggered fermions. Our proposed algorithm reproduces the correct equilibrium states at finite temperature and finite density.",
+      "pubdate": "Wed, 11 Mar 2026 16:17:10 +0000",
+      "authors": "Reita Maeno"
+    },
+    "8d479bc7f38dbd628700942922cbf0dc": {
+      "id": "8d479bc7f38dbd628700942922cbf0dc",
+      "link": "http://arxiv.org/abs/2603.10755",
+      "title": "Pairing and charge distribution in Emery ladders preserving the ratio of Cu to O atoms",
+      "abstract": "We study the Emery model (three-band Hubbard model) for superconducting cuprates on three distinct ladder-like lattices that are supercell of the CuO$_2$ plane and thus preserve the ratio of copper to oxygen atoms. Using the density-matrix renormalization group method we confirm that these Emery ladders are charge-transfer insulators for the hole concentration corresponding to undoped cuprates but become Luther-Emery liquids with enhanced pairing correlations upon doping. The preservation of the Cu to O ratio allows us to study the distribution of charges between these atoms in the Luther-Emery phase. We show that these Emery ladders can describe the relations between charge distribution, pairing strength, and interactions that have been observed in the Emery model on two-dimensional clusters and in experiments.",
+      "pubdate": "Wed, 11 Mar 2026 13:27:24 +0000",
+      "authors": "Gökmen Polat, Eric Jeckelmann"
+    },
+    "51de29425591e0671747e4ff7b542609": {
+      "id": "51de29425591e0671747e4ff7b542609",
+      "link": "http://arxiv.org/abs/2603.10654",
+      "title": "Graph Symmetry Organizes Exceptional Dynamics in Open Quantum Systems",
+      "abstract": "Exceptional points (EPs), indicative of parity-time (PT) symmetry breaking, play a central role in non-Hermitian physics, yet most studies begin from deliberately engineered effective Hamiltonians whose parameters are tuned to exhibit exceptional behavior. In realistic open quantum systems, however, dynamics are governed by Lindblad superoperators whose spectral structure is high-dimensional, symmetry-constrained, and not obviously reducible to minimal non-Hermitian models. A general framework for discovering exceptional dynamics directly from microscopic dissipative models has been lacking. Here we introduce a symmetry-resolved approach for identifying and characterizing exceptional points directly from the full Liouvillian generator. Correlated dissipation induces graph symmetries that decompose Liouville space into low-dimensional invariant sectors, within which minimal non-Hermitian blocks govern the onset of EPs and PT-breaking behavior. We further introduce a numerical diagnostic - the exceptional-point strength $\\mathcal{E}$ - based on eigenvector conditioning, which quantifies proximity to defective dynamics without requiring analytic reduction. Applied to tight-binding models with correlated dephasing and relaxation, the method reproduces analytically predicted exceptional seams and reveals universal scaling of $\\mathcal{E}$ near EP manifolds. More broadly, the framework enables systematic discovery of hidden exceptional structure in complex or high-dimensional open systems and is naturally compatible with matrix-free and tensor-network implementations for scalable many-body applications.",
+      "pubdate": "Wed, 11 Mar 2026 11:14:07 +0000",
+      "authors": "Eric R. Bittner, Bhavay Tyagi, Kevin E. Bassler"
+    },
+    "4f9e1fed0871554ea96bb853ae36409f": {
+      "id": "4f9e1fed0871554ea96bb853ae36409f",
+      "link": "http://arxiv.org/abs/2603.10503",
+      "title": "A New Tensor Network: Tubal Tensor Train and Its Applications",
+      "abstract": "We introduce the tubal tensor train (TTT) decomposition, a tensor-network model that combines the t-product algebra of the tensor singular value decomposition (T-SVD) with the low-order core structure of the tensor train (TT) format. For an order-$(N+1)$ tensor with a distinguished tube mode, the proposed representation consists of two third-order boundary cores and $N-2$ fourth-order interior cores linked through the t-product. As a result, for bounded tubal ranks, the storage scales linearly with the number of modes, in contrast to direct high-order extensions of T-SVD. We present two computational strategies: a sequential fixed-rank construction, called TTT-SVD, and a Fourier-slice alternating scheme based on the alternating two-cores update (ATCU). We also state a TT-SVD-type error bound for TTT-SVD and illustrate the practical performance of the proposed model on image compression, video compression, tensor completion, and hyperspectral imaging.",
+      "pubdate": "Wed, 11 Mar 2026 07:57:22 +0000",
+      "authors": "Salman Ahmadi-Asl, Valentin Leplat, Anh-Huy Phan, Andrzej Cichocki"
+    },
+    "81e1b863f7a9e8ad806cc2f9aa00a40a": {
+      "id": "81e1b863f7a9e8ad806cc2f9aa00a40a",
+      "link": "http://arxiv.org/abs/2603.10191",
+      "title": "Regularized Warm-Started Quantum Approximate Optimization and Conditions for Surpassing Classical Solvers on the Max-Cut Problem",
+      "abstract": "Demonstrating quantum heuristics that outperform strong classical solvers on large-scale optimization remains an open challenge. Here we introduce Regularized Warm-Started QAOA (RWS-QAOA), which initializes qubits by minimizing expected energy with a regularizer that penalizes near-bitstring states, preventing QAOA from stalling. We further propose a protocol that yields fixed, instance-independent parameters, enabling RWS-QAOA to operate as a non-variational algorithm in which the quantum circuit parameters are fixed and only a classical warm starting step is instance-dependent. We evaluate RWS-QAOA on the Max-Cut problem for random regular graphs, where this protocol yields a constant-depth quantum circuit, across three complementary settings. First, on Quantinuum's trapped-ion processor, RWS-QAOA outperforms the classical algorithms with the best provable guarantees for Max-Cut on $3$-regular graphs, namely Goemans-Williamson and Halperin-Livnat-Zwick, on $96$-node instances. Second, tensor-network simulations on graphs with up to $N{=}10{,}000$ nodes show that depth-$6$ RWS-QAOA, achieving an average cut fraction of $0.9167$, surpasses the best classical heuristics under matched restrictions (no local-search post-processing and no iterative refinement). Third, we remove these restrictions and benchmark against the strongest unrestricted classical heuristics, including an optimized parallel Burer-Monteiro solver that improves upon the MQLib implementation. Even against this stronger baseline, we project that surface-code RWS-QAOA reaches a quantum-classical runtime crossover below $0.2$ seconds on $3{,}000$-node graphs with fewer than $1.3$ million physical qubits. Our results show that constant-depth quantum circuits combined with a classical warm start have a credible potential to surpass classical solvers on the Max-Cut problem when executed on future quantum computers.",
+      "pubdate": "Tue, 10 Mar 2026 19:34:06 +0000",
+      "authors": "Zichang He, Anuj Apte, Brandon Augustino, Arman Babakhani, Abid Khan, Sivaprasad Omanakuttan, Ruslan Shaydulin"
+    },
+    "377275c0d53488c455a3982b42fe7515": {
+      "id": "377275c0d53488c455a3982b42fe7515",
+      "link": "http://arxiv.org/abs/2603.10121",
+      "title": "A unifying framework for sum rules and bounds on optical, thermoelectric and thermal transport from quantum geometry",
+      "abstract": "We present a geometric formulation of optical, thermoelectric, and thermal linear response in clean, zero temperature band insulators based on a single object: a generalized time-dependent quantum geometric tensor (g-tQGT) built from correlations of projected particle and heat polarization operators. Within this framework, the AC transport tensors admit compact expressions that make their geometric content explicit. The response splits into a Berry curvature contribution that remains finite in the DC limit and a frequency correction governed by the quantum metric, implying geometry driven effects even in topologically trivial insulators. At equal times, the g-tQGT recovers the usual integrated QGT and yields energy-weighted thermal analogs whose antisymmetric parts are fixed by orbital and heat magnetization. Importantly, in the thermal channel, a thermal quantum geometric tensor is obtained. Casting the theory in a Hilbert-Schmidt inner product form yields a bound on the trace of the thermal QGT, an uncertainty relation on the projected polarization operators and a purely geometric upper bound on the finite-time accumulated response. The latter is used in the optical channel to derive a geometric upper bound on the electric current. Finally, time derivatives of the g-tQGT are used to generate a hierarchy of generalized thermoelectric and thermal sum rules, and bounds on these sum rules are obtained. These bounds are used to find inequalities between different physical objects such as the optical mass, susceptibility functions and magnetizations.",
+      "pubdate": "Tue, 10 Mar 2026 18:01:01 +0000",
+      "authors": "M. Nabil Y. Lhachemi, Jennifer Cano"
+    },
+    "65f95d8044f480b0692c7ded6ff01434": {
+      "id": "65f95d8044f480b0692c7ded6ff01434",
+      "link": "http://arxiv.org/abs/2603.10105",
+      "title": "Localized intrinsic bond orbitals decode correlated charge migration dynamics",
+      "abstract": "For decades, scientists have studied the intricate charge migration dynamics, where after ionization a localized charge distribution (\"hole\") migrates across the molecule on a femtosecond timescale. This has the potential for controlling electrons in molecules, yet a comprehensive understanding of the many aspects of charge migration is still missing. In this work, we analyze charge migration using an extension of localized intrinsic bond orbitals (IBOs). These orbitals lead to a compact representation of the dynamics and map the complex, correlated many-electron charge migration to chemical concepts such as curly arrows and orbital-orbital interactions. By analyzing multiple challenging scenarios, we show how IBOs enable us to identify key mechanisms in charge migration. For example, we show that different mechanisms are responsible for converting a $π$-shaped hole to a $σ$-shaped hole and vice versa. We explain these in terms of hyperconjugation interactions and configurations that couple orbitals with different symmetries. We further demonstrate how IBOs can be used to find molecules with high charge migration efficiency. We carry out all simulations using an efficient set up of the time-dependent density matrix renormalization group (TDDMRG), correlating as many as 45 electrons in 50 orbitals. We believe that our results will be useful to design future experiments. The proposed IBO analysis is applicable to other types of real-time electron dynamics and spectroscopy.",
+      "pubdate": "Tue, 10 Mar 2026 18:00:00 +0000",
+      "authors": "Imam S. Wahyutama, Madhumita Rano, Henrik R. Larsson"
+    },
+    "2a02d2bbf8410608e7e4e6289edab7a1": {
+      "id": "2a02d2bbf8410608e7e4e6289edab7a1",
+      "link": "http://arxiv.org/abs/2603.09949",
+      "title": "On the structure of categorical duality operators",
+      "abstract": "We systematically study categorical duality operators on spin (and anyon) chains with respect to an internal fusion category symmetry C. We parameterize duality operators on the quasi-local algebra in terms of data dependent on the associated quantum cellular automata (QCA) on the symmetric subalgebra $B$. In particular, a QCA $α$ on $B$ defines an invertible C-C bimodule category $M_α$, and the duality operators extending $α$ form a simplex, with extreme points in bijective correspondence with the simple object of $M_α$. Then we consider the structure of external symmetries generated by a family of duality operators, and show that if the UV models are all defined on tensor product Hilbert spaces, these categories necessarily flow to weakly integral fusion categories in the IR.",
+      "pubdate": "Tue, 10 Mar 2026 17:45:13 +0000",
+      "authors": "Corey Jones, Xinping Yang"
+    },
+    "b582733a10b669fb442e6d95d02cb858": {
+      "id": "b582733a10b669fb442e6d95d02cb858",
+      "link": "http://arxiv.org/abs/2603.09928",
+      "title": "Intertwining Markov Processes via Matrix Product Operators",
+      "abstract": "Duality transformations reveal unexpected equivalences between seemingly distinct models. We introduce an out-of-equilibrium generalisation of matrix product operators to implement duality transformations in one-dimensional boundary-driven Markov processes on lattices. In contrast to local dualities associated with generalised symmetries, here the duality operator intertwines two Markov processes via generalised exchange relations and realises the out-of-equilibrium duality globally. We construct these operators exactly for the symmetric simple exclusion process with distinct out-of-equilibrium boundaries. In this case, out-of-equilibrium boundaries are dual to equilibrium boundaries satisfying Liggett's condition, implying that the Gibbs-Boltzmann measure captures out-of-equilibrium physics when leveraging the duality operator. We illustrate this principle through physical applications.",
+      "pubdate": "Tue, 10 Mar 2026 17:24:19 +0000",
+      "authors": "Rouven Frassek, Jan de Gier, Jimin Li, Frank Verstraete"
+    },
+    "6af1ddbfba354391f09777949fd45394": {
+      "id": "6af1ddbfba354391f09777949fd45394",
+      "link": "http://arxiv.org/abs/2603.09914",
+      "title": "Qubit reset beyond the Born-Markov approximation: optimal driving to overcome polaron formation",
+      "abstract": "Qubits are typically reset into a known state by coupling them to a low-temperature environment. When treated in the Born-Markov approximation such couplings produce exponential relaxation to equilibrium, giving high reset fidelities limited only by temperature. We investigate qubit reset beyond this approximation, using numerically exact tensor network methods and the time-dependent variational principle, focussing on a spin-boson model describing a transmon qubit coupled to a resistor. Beyond the Born-Markov approximation the reset fidelity becomes limited by the buildup of system-environment correlations which corresponds to the formation of a polaron. We implement numerical optimal control to find time-dependent qubit Hamiltonians which overcome this limitation by steering the dynamics of the correlated system-environment state. The optimal controls becomes more effective when the environment is filtered to span a smaller spectral range, and remain effective when the multilevel nature of the transmon is considered. A related paper [C. Ortega-Taberner, E. O'Neill and P. R. Eastham, arXiv:XXXX.XXXX] addresses the complementary case of control via a time-dependent system-environment coupling. Our results show how limitations on reset speed and fidelity can be overcome, and how time-dependent driving can steer system-environment correlations and reverse polaron formation.",
+      "pubdate": "Tue, 10 Mar 2026 17:09:21 +0000",
+      "authors": "Carlos Ortega-Taberner, Eoin O'Neill, Paul Eastham"
+    },
+    "bb3cd0c048b9293a2fc481e60a5e7e59": {
+      "id": "bb3cd0c048b9293a2fc481e60a5e7e59",
+      "link": "http://arxiv.org/abs/2603.09913",
+      "title": "Quantum control of the environment in open quantum systems enables rapid qubit reset",
+      "abstract": "Qubit reset is crucial in quantum technology and is typically achieved by coupling the qubit to a dissipative environment. However, the achievable speed and fidelity are limited by qubit-environment entanglement. We use exact tensor-network simulations and a time-dependent variational approach to investigate these effects for transmon qubits with a time-dependent system-environment coupling. We show that they are due to the formation of a polaron state and how this can be reversed using a time-dependent coupling. Coupling protocols are identified which achieve reset with an excited-state population of $10^{-6}$ in $10$ ns. A related paper [C. Ortega-Taberner, E. O'Neill and P. R. Eastham, arXiv:XXXX.XXXX] addresses the complementary case of control via a time-dependent Hamiltonian. Our work shows how the dynamics of the environment of an open quantum system can be controlled to design effective quantum processes in non-Markovian systems.",
+      "pubdate": "Tue, 10 Mar 2026 17:09:09 +0000",
+      "authors": "Carlos Ortega-Taberner, Eoin O'Neill, Paul Eastham"
+    },
+    "7238692435329b9437a0518ed1a98c09": {
+      "id": "7238692435329b9437a0518ed1a98c09",
+      "link": "http://arxiv.org/abs/2603.09609",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "29c633430750a69ef2e6ade23bf5eb9c": {
+      "id": "29c633430750a69ef2e6ade23bf5eb9c",
+      "link": "http://arxiv.org/abs/2603.09567",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "8ac6a5e6e8f06d2eae860d36bda9a6ba": {
+      "id": "8ac6a5e6e8f06d2eae860d36bda9a6ba",
+      "link": "http://arxiv.org/abs/2603.09417",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "d915c16ab1caa8d57e89a37c57959885": {
+      "id": "d915c16ab1caa8d57e89a37c57959885",
+      "link": "http://arxiv.org/abs/2603.09293",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "e00ea185f23c16ef6da31b5b4ba84d63": {
+      "id": "e00ea185f23c16ef6da31b5b4ba84d63",
+      "link": "http://arxiv.org/abs/2603.09107",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "4d8c55fae6ffc38d86d2c0ef83ac09be": {
+      "id": "4d8c55fae6ffc38d86d2c0ef83ac09be",
+      "link": "http://arxiv.org/abs/2603.08883",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "d2a87a77d77cd2105b12fa4fdc71df6e": {
+      "id": "d2a87a77d77cd2105b12fa4fdc71df6e",
+      "link": "http://arxiv.org/abs/2603.08841",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "68fa9c5fd3ab9202aee9406da31e347b": {
+      "id": "68fa9c5fd3ab9202aee9406da31e347b",
+      "link": "http://arxiv.org/abs/2603.08711",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "ffeca320ba8e20115ecf5d49d235df90": {
+      "id": "ffeca320ba8e20115ecf5d49d235df90",
+      "link": "http://arxiv.org/abs/2603.08650",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "b57644df2627e8e7a0e4f9d2546a9a90": {
+      "id": "b57644df2627e8e7a0e4f9d2546a9a90",
+      "link": "http://arxiv.org/abs/2603.08427",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "dcc214dc3bfca34d256461abe36f1039": {
+      "id": "dcc214dc3bfca34d256461abe36f1039",
+      "link": "http://arxiv.org/abs/2603.07387",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "565fed2e05a59f996e31185433523caf": {
+      "id": "565fed2e05a59f996e31185433523caf",
+      "link": "http://arxiv.org/abs/2603.07341",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "d7445a81931a7c17bd6aa42764ec239f": {
+      "id": "d7445a81931a7c17bd6aa42764ec239f",
+      "link": "http://arxiv.org/abs/2603.07037",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "27d8a7ae6a9eba583d14768bfd2a1f36": {
+      "id": "27d8a7ae6a9eba583d14768bfd2a1f36",
+      "link": "http://arxiv.org/abs/2603.06868",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "cbfdcfd08ba6a60f818d0485dd8eda5b": {
+      "id": "cbfdcfd08ba6a60f818d0485dd8eda5b",
+      "link": "http://arxiv.org/abs/2603.06840",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "a176e0a44063c53eb9a8bdbbd46e16e7": {
+      "id": "a176e0a44063c53eb9a8bdbbd46e16e7",
+      "link": "http://arxiv.org/abs/2603.06817",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "bef32e84e1bf48cd42affe94f8db922f": {
+      "id": "bef32e84e1bf48cd42affe94f8db922f",
+      "link": "http://arxiv.org/abs/2603.06764",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
     }
   }
 }
