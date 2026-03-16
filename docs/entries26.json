@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16T00:44:06.142625+00:00",
+  "last_updated": "2026-03-16T12:25:14.781758+00:00",
   "entries": {
     "606ae18748a550cc0678a78b5c9dab3d": {
       "id": "606ae18748a550cc0678a78b5c9dab3d",
@@ -2144,6 +2144,62 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "562fafddd8ea6f8a0ee8c470adbd2600": {
+      "id": "562fafddd8ea6f8a0ee8c470adbd2600",
+      "link": "http://arxiv.org/abs/2603.13060",
+      "title": "Noise mitigation of quantum observables via learning from Hamiltonian symmetry decays",
+      "abstract": "We present a new quantum error mitigation technique (QEM), called GUiding Extrapolations from Symmetry decayS (GUESS), which exploits Hamiltonian symmetries to improve accuracy of noisy quantum computations. This method is explicitly designed for quantum algorithms that estimate expectation values of observables and consists in learning the extrapolation coefficients from a symmetry observable of the system to then estimate the value of a target observable. Furthermore, we propose a Hamiltonian impurity technique to enforce symmetries allowing the mitigation of local observables of interest. We employ the IBM Heron r2 quantum processing unit '\\texttt{ibm\\_basquecountry}' to simulate the time evolution of average magnetization and nearest-neighbor correlator observables for transverse field Ising and $XZ$ Heisenberg models in 1D with open boundary conditions. We benchmark the accuracy of our method against baseline Zero Noise Extrapolation (ZNE) and tensor network simulations for systems of $100$ qubits. Remarkably, GUESS achieves a relative error around $10\\%$ for circuits containing up to $8000$ CZ gates, while showcasing lower variance than ZNE on average across $20$ observables and requiring only twice the number of shots per observable compared to baseline ZNE. Furthermore, we demonstrate that GUESS enables statistical post-selection based on the outcomes of the symmetry observable, which provides critical information about the quality of the target qubits by means of its mean and variance. These results indicate that GUESS is a powerful QEM technique capable of mitigating utility-scale circuit outcomes, delivering high accuracy and reduced variance for large-scale circuits with minimal quantum overhead.",
+      "pubdate": "Fri, 13 Mar 2026 15:09:16 +0000",
+      "authors": "Javier Oliva del Moral, Olatz Sanz Larrarte, Joana Fraxanet, Dmytro Mishagli, Josu Etxezarreta Martinez"
+    },
+    "5cbc761a5693c66c008d8dbc17445dc2": {
+      "id": "5cbc761a5693c66c008d8dbc17445dc2",
+      "link": "http://arxiv.org/abs/2603.12851",
+      "title": "Continuous unitary transformations using tensor network representations access the full many-body localized spectrum",
+      "abstract": "We develop variational continuous unitary transformations (VCUTs), which integrate Wegner-Wilson flow equations with tensor network techniques to approximately diagonalize many-body localized (MBL) Hamiltonians. The diagonalizing unitary is represented as a matrix product operator whose bond dimension controls the accuracy. For the disordered Heisenberg chain, VCUTs accurately reproduces the full spectrum across the ergodic-to-MBL crossover at small system sizes and scales to $L = 48$ sites. Beyond eigenenergies, the method can track the spatial entanglement structure of the diagonalizing unitary $U(l)$ at each flow step, enabling identification of local integrals of motion deep in the MBL phase.",
+      "pubdate": "Fri, 13 Mar 2026 09:53:02 +0000",
+      "authors": "Qiyu Liu, Jan-Niklas Herre, Dante M. Kennes, Christoph Karrasch"
+    },
+    "e6bbd0244cb44c3d9a3c341d6149609b": {
+      "id": "e6bbd0244cb44c3d9a3c341d6149609b",
+      "link": "http://arxiv.org/abs/2603.12675",
+      "title": "Probing many-body localization crossover in quasiperiodic Floquet circuits on a quantum processor",
+      "abstract": "Many-body localization (MBL) provides a mechanism by which interacting quantum systems evade thermalization, leading to persistent memory of initial conditions and slow entanglement growth. Probing these dynamical signatures in large systems and at long evolution times remains challenging for both classical simulations and current quantum devices. Here we experimentally investigate the ergodic-MBL crossover in quasiperiodic Floquet Ising systems using up to 144 qubits on an IBM Quantum processor. By implementing deep Floquet circuits reaching up to 5000 cycles, we access long-time many-body dynamics beyond the regime explored in previous quantum computing experiments. Measurements of autocorrelation functions reveal a smooth crossover from rapid thermalization at weak quasiperiodic potential strength to persistent correlations in the strong-disorder regime. Notably, in addition to the one-dimensional system, we also observe clear signatures consistent with localization behavior in the two-dimensional system. Furthermore, the quantum Fisher information exhibits logarithmic growth over thousands of Floquet cycles, providing evidence for slow entanglement spreading characteristic of the MBL regime. These results demonstrate that programmable quantum processors can serve as experimental platforms for probing nonergodic quantum many-body dynamics and exploring localization phenomena in regimes beyond the reach of classical simulations.",
+      "pubdate": "Fri, 13 Mar 2026 05:44:56 +0000",
+      "authors": "Kazuma Nagao, Tomonori Shirakawa, Rongyang Sun, Peter Prelovšek, Seiji Yunoki"
+    },
+    "eaf8ebafd8d04d39bcdadc22ce4e77c1": {
+      "id": "eaf8ebafd8d04d39bcdadc22ce4e77c1",
+      "link": "http://arxiv.org/abs/2603.12626",
+      "title": "Critical behaviors of magic and participation entropy at measurement induced phase transitions",
+      "abstract": "We study the participation and stabilizer entropy of non-unitary quantum circuit dynamics, focusing on the critical line that separates the low-entanglement spin-glass phase and the paramagnetic phase. Along this critical line, the entanglement has a logarithmic scaling, which enables us to access the critical regime using large-scale matrix product state simulations with modest bond dimension. We find that both the participation entropy and stabilizer entropy exhibit critical slowing down: their saturation time scales linearly with the system size, in stark contrast to purely unitary dynamics, where saturation occurs on logarithmic time scales. In addition, we study bipartite participation and stabilizer mutual information, and find that it shows similar scaling behavior to the entanglement entropy. Finally, by analyzing the participation entropy of several paradigmatic Clifford circuits, we identify similar slow dynamical behavior near their respective critical points.",
+      "pubdate": "Fri, 13 Mar 2026 03:58:53 +0000",
+      "authors": "Eliot Heinrich, Hanchen Liu, Tianci Zhou, Xiao Chen"
+    },
+    "0cb80c282b9c3eaaf6ffe111fce5301f": {
+      "id": "0cb80c282b9c3eaaf6ffe111fce5301f",
+      "link": "http://arxiv.org/abs/2603.12334",
+      "title": "Quantum algorithms for compact polymer thermodynamics",
+      "abstract": "Efficient sampling from ensembles of Hamiltonian cycles is critical for predicting the thermodynamic properties of compact polymers, with applications including modeling protein and RNA folding and designing soft materials. Although classical Monte Carlo methods are widely regarded as the standard approach, their efficiency is strongly limited when applied to compact polymers. In this work, we enable a quadratic speedup in the estimation of thermodynamic properties of maximally compact polymers and heteropolymers by quantum computation. To this end, we encode the target thermodynamic ensemble into the amplitudes of a quantum state, i.e., a quantum sample, which can be processed via amplitude amplification. Using quantum equational reasoning, we construct a local parent Hamiltonian whose unique ground state realizes a quantum sample of all Hamiltonian cycles. This state can be prepared on quantum hardware using ground-state preparation methods, such as quantum annealing, and subsequently manipulated to generate quantum samples of polymers and heteropolymers at a target temperature. Finally, we approximate the quantum sample as a tensor network, revealing an entanglement area law. For fixed-width rectangular lattices, we obtain a time-efficient and compact encoding of the full ensemble of Hamiltonian cycles, enabling the efficient evaluation of expectation values, partition functions, and configuration probabilities via tensor contractions, without resorting to sampling.",
+      "pubdate": "Thu, 12 Mar 2026 18:00:24 +0000",
+      "authors": "Davide Rattacaso, Daniel Jaschke, Antonio Trovato, Ilaria Siloi, Simone Montangero"
+    },
+    "2b4998b2bfcb46e8aa5fca3fc00d3a2c": {
+      "id": "2b4998b2bfcb46e8aa5fca3fc00d3a2c",
+      "link": "http://arxiv.org/abs/2603.12309",
+      "title": "Interaction-Driven Ferrimagnetic Stripes in the Extended Hubbard Model",
+      "abstract": "Long-range interactions can qualitatively reorganize correlated-electron ground states. In the square-lattice Hubbard model, on-site repulsion produces antiferromagnetic spin and charge stripes upon doping. We show that including a nearest-neighbor repulsion $V$ can dramatically alter this behavior. Using auxiliary-field quantum Monte Carlo and density matrix renormalization group methods, we find that, above a critical ratio $V/U$ ($\\sim 0.25$), the system develops a modulated ferrimagnetic order intertwined with checkerboard charge-density-wave. Inside the ferrimagnetic domains, spin density alternates between positive (or negative) and nearly zero values. When the total spin is fixed to zero, positive and negative domains alternate in space; when spins are unconstrained, a ferrimagnetic state emerges with finite magnetization. Including a next-nearest-neighbor hopping $t'$ changes the modulation wavelength but leaves the order robust. Our results demonstrate that even short-range nonlocal interactions can stabilize qualitatively new magnetic textures, with implications for cuprate materials and programmable quantum simulators.",
+      "pubdate": "Thu, 12 Mar 2026 17:59:56 +0000",
+      "authors": "Chunhan Feng, Miguel A. Morales, Shiwei Zhang"
+    },
+    "1e6b2b3e972c51dfdb0995f908e3d131": {
+      "id": "1e6b2b3e972c51dfdb0995f908e3d131",
+      "link": "http://arxiv.org/abs/2603.12283",
+      "title": "Emergent causal order and time direction: bridging causal models and tensor networks",
+      "abstract": "Can the direction of time and the causal structure of space-time be inferred from operational principles? Causal models and tensor networks offer complementary perspectives: the former encodes cause-effect relations via directed graphs, with intrinsic ordering; the latter describes multipartite systems on undirected graphs, without presupposing directionality. We construct two-way mappings between these two frameworks, linking direction agnostic correlation functions and operational notions of signalling. This clarifies the operational meaning of causal influence in tensor networks and introduces discrete \"space-time rotations'' of causal models which preserve signalling relations. Applying our framework to holographic tensor networks, we use tools from causal inference, like graph-separation, to analyse emergent causal structures. By permitting cyclic and indefinite causal structures, our results enable transfer of techniques across tensor networks and a range of causality frameworks.",
+      "pubdate": "Thu, 05 Mar 2026 17:06:37 +0000",
+      "authors": "Carla Ferradini, Giulia Mazzola, V. Vilasini"
     }
   }
 }
