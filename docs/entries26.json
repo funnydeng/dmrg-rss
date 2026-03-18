@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-18T00:40:23.022889+00:00",
+  "last_updated": "2026-03-18T12:25:10.406274+00:00",
   "entries": {
     "28e28b74220b3e0e45fc708403c8db10": {
       "id": "28e28b74220b3e0e45fc708403c8db10",
@@ -2336,6 +2336,46 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "5e4bb734aabdc67564b6f8c0e43f8d10": {
+      "id": "5e4bb734aabdc67564b6f8c0e43f8d10",
+      "link": "http://arxiv.org/abs/2603.16709",
+      "title": "Kibble-Zurek Mechanism in the Open Quantum Rabi Model",
+      "abstract": "The Kibble-Zurek mechanism provides a universal framework for predicting defect formation in non-equilibrium phase transitions. While Markovian dissipation typically degrades universal scaling, the impact of non-Markovian memory remains largely unexplored. We demonstrate that an Ohmic bath induces a Berezinskii-Kosterlitz-Thouless transition in the open quantum Rabi model. Using simulations based on Matrix Product States, we show that the excitation energy strictly follows universal Kibble-Zurek power-law scaling when evaluated at the freeze-out time. Crucially, we find that since the environment defines the universality class, dissipation does not inherently compete with adiabatic dynamics, in stark contrast to Markovian regimes. Our results establish the Kibble- Zurek mechanism as a robust witness of universality in open quantum systems, revealing that non-Markovian memory preserves the integrity of non-equilibrium scaling.",
+      "pubdate": "Tue, 17 Mar 2026 16:00:52 +0000",
+      "authors": "T. Pirozzi, G. Di Bello, V. Cataudella, C. A. Perroni, G. De Filippis"
+    },
+    "3f06e8c0c4fafc80ace60d33b9ce413d": {
+      "id": "3f06e8c0c4fafc80ace60d33b9ce413d",
+      "link": "http://arxiv.org/abs/2603.16628",
+      "title": "Quantum dynamics of few-photon pulsed waveguide-QED with a single artificial atom: frequency-dependent scattering theory and time-dependent matrix product states",
+      "abstract": "We present a quantum dynamical study of pulsed few-photon scattering from a single artificial atom, consisting of a two-level system (TLS) or qubit, in a waveguide QED system, directly comparing and contrasting two different quantum theoretical simulation methods: (i) an input-output scattering approach that uses frequency-dependent scattering matrices, and (ii) a matrix product states (MPS) approach, which uses quantum noise operators in time bins and a tensor network technique to solve the time-dependent waveguide function for the entire system. Beginning with pulsed excitation using one-photon and two-photon Fock state pulses, we first show how to compute time-dependent observables with the scattering matrix approach, in terms of frequency integrals that encode the pulse spectrum, including how to extract the population dynamics of the excited quantum emitter, as well as the linear and nonlinear contributions. We present solutions for both symmetric and chiral TLS coupling. We then show how to compute the qubit and field observables in a more direct way using MPS, and obtain the characteristic bird-like shape for the two-photon correlation function at two times, which has been observed in recent experiments. We compare and contrast both of these methods, for one and two-photon excitation pulses, and show excellent agreement. We also present a study of the linear and nonlinear contributions, which can easily be calculated using scattering theory, and show the important role of pulse duration. Finally, we demonstrate the clear advantages of MPS by easily going to higher N-photon excitations, and show selected example population dynamics of up to eight-photon Fock-state pulses, manifesting in clear nonlinear population oscillations during the pulse interaction, similar to classical Rabi oscillations, but with quantum input fields that have a vanishing electric field expectation value.",
+      "pubdate": "Tue, 17 Mar 2026 15:00:55 +0000",
+      "authors": "Sofia Arranz Regidor, Matthew Kozma, Stephen Hughes"
+    },
+    "67b9eb76253ecee79582df83d1e2cf77": {
+      "id": "67b9eb76253ecee79582df83d1e2cf77",
+      "link": "http://arxiv.org/abs/2603.16509",
+      "title": "Monte Carlo sampling from a projected entangled-pair state in simulations of quantum annealing in the three dimensional random Ising model",
+      "abstract": "Quantum annealing with the D-Wave Advantage system in the random Ising model on a cubic lattice is simulated using a three-dimensional (3D) tensor network. The Hamiltonian is driven across a quantum phase transition from a paramagnetic phase to a spin-glass phase. The network is represented as a tensor product state, also known-particularly in two dimensions-as a projected entangled-pair state (PEPS). The annealing procedure is repeated for a range of annealing times in order to test the Kibble-Zurek (KZ) power law governing the residual energy at the end of the annealing ramp. For an infinite lattice with periodic nearest-neighbor random Ising couplings, the final energy is evaluated using a deterministic method. For a finite lattice with open boundaries, we introduce a more efficient Monte Carlo sampling approach. In both cases, the residual energy as a function of annealing time approaches the KZ power law as the annealing time increases.",
+      "pubdate": "Tue, 17 Mar 2026 13:37:59 +0000",
+      "authors": "Jacek Dziarmaga"
+    },
+    "e1ff8e87bd16cc500b9f073fc2de0674": {
+      "id": "e1ff8e87bd16cc500b9f073fc2de0674",
+      "link": "http://arxiv.org/abs/2603.15972",
+      "title": "Anomalous dynamical scaling in interacting anyonic chains",
+      "abstract": "Particle statistics impose fundamental constraints on nonequilibrium quantum dynamics, yet it remains an open question whether fractional statistics can lead to emergent universal dynamical scaling beyond the conventional Bose-Fermi paradigm. Here we investigate the far-from-equilibrium many-body relaxation of anyons in a one-dimensional lattice and uncover an unconventional yet universal scaling behavior governed by fractional statistics. Based on large-scale numerical simulations and scaling analysis, we identify a distinct separation between particle transport and information spreading: density correlations spread superdiffusively, whereas entanglement entropy grows ballistically. The anomalous particle dynamics can be interpreted intuitively from the statistical-phase-induced quantum interference, which suppresses coherent holon-doublon propagation. In contrast, the entanglement growth turns out to be dominated by its configurational component, which propagates ballistically. Our results establish anyonic statistics as a distinct source of universal nonequilibrium dynamics beyond bosons and fermions, with direct relevance to current quantum simulation experiments.",
+      "pubdate": "Mon, 16 Mar 2026 22:43:02 +0000",
+      "authors": "Xu-Chen Yang, Botao Wang, Jianpeng Liu, Bing Yang, Jianmin Yuan, Yongqiang Li"
+    },
+    "ad62b1a83885c150e7654e982ef2c86b": {
+      "id": "ad62b1a83885c150e7654e982ef2c86b",
+      "link": "http://arxiv.org/abs/2603.15744",
+      "title": "Post-selected Criticality in Measurement-induced Phase Transitions",
+      "abstract": "Information-theoretic phase transitions, such as the measurement-induced phase transition (MIPT), characterize the robustness of quantum dynamics to local monitoring and are naturally formulated in terms of trajectories conditioned on typical measurement outcomes, which are naively accessible only through post-selection. Here we implement forced measurements to investigate how explicit post-selection alters the nature of the transition. We find that post-selection fundamentally alters the universality class by reweighting trajectories that are otherwise rare. In particular, we obtain a correlation-length exponent $ν\\approx 2.1$ larger than that of the standard MIPT and a negative effective central charge $c_\\mathrm{eff}\\approx -0.4$. We also compare the post-selected MIPT to the entanglement transition of Random Tensor Networks (RTN), and demonstrate that their universality class is the same. This setup further allows time-periodic, translationally-invariant circuits with post-selected weak measurements. In both models, we find that an onsite dimension of at least 3 (qutrits but not qubits) is necessary to induce a transition.",
+      "pubdate": "Mon, 16 Mar 2026 18:00:04 +0000",
+      "authors": "Dolly Nambi, Kabir Khanna, Andrew Allocca, Thomas Iadecola, Ciarán Hickey, Romain Vasseur, Justin H. Wilson"
     }
   }
 }
