@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-19T00:40:27.664988+00:00",
+  "last_updated": "2026-03-19T12:19:51.704748+00:00",
   "entries": {
     "5e4bb734aabdc67564b6f8c0e43f8d10": {
       "id": "5e4bb734aabdc67564b6f8c0e43f8d10",
@@ -2376,6 +2376,54 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "8eb74d8b37b8640d3934dde734d2647d": {
+      "id": "8eb74d8b37b8640d3934dde734d2647d",
+      "link": "http://arxiv.org/abs/2603.17856",
+      "title": "Toward bootstrapping tensor-network contractions",
+      "abstract": "Accurate contraction of tensor networks beyond one dimension is essential in various fields including quantum many-body physics. Existing approaches typically rely on approximate contraction schemes and do not provide certified error bars. We introduce a numerical bootstrap framework which casts the problem of tensor-network contractions into a convex optimization problem, thereby yielding certified lower and upper bounds on expectation values of physical observables. As a proof-of-principle, we construct such constraints explicitly for translationally invariant matrix product states and demonstrate that, assuming a canonical form, second-order-cone relaxation can provide tight bounds on the contraction result. We further demonstrate that when the requirement on canonical form is lifted, a more general semidefinite-programming approach could yield similar tight bounds at higher but still polynomial computational cost. Our work suggests numerical bootstrap could be a possible way forward for the rigorous contractions of tensor networks.",
+      "pubdate": "Wed, 18 Mar 2026 15:44:19 +0000",
+      "authors": "Seishiro Ono, Yanbai Zhang, Hoi Chun Po"
+    },
+    "990ded699bc47555dfde09acb60e79cc": {
+      "id": "990ded699bc47555dfde09acb60e79cc",
+      "link": "http://arxiv.org/abs/2603.17835",
+      "title": "Quasi-local Edge Mode in XXX Spin Chain/Circuit with Interaction Boundary Defect",
+      "abstract": "We study the Heisenberg spin-1/2 model on a semi-infinite chain - or, equivalently, a trotterized unitary SU(2) symmetric six-vertex quantum circuit - with a boundary defect where the interaction between the two spins nearest the edge differs from that in the bulk. For sufficiently strong boundary interaction we explicitly construct a conserved operator quasi-localized near the boundary using a matrix-product ansatz. This quasi-local edge mode leads to non-decaying boundary correlation functions, corresponding to a nonzero boundary Drude weight. The correlation length of the edge mode diverges at a finite critical value of the boundary interaction, signaling a transition to ergodic boundary dynamics for subcritical interactions.",
+      "pubdate": "Wed, 18 Mar 2026 15:27:32 +0000",
+      "authors": "Tomaž Prosen"
+    },
+    "00628eebc8e0e5db407dc802b34a1c37": {
+      "id": "00628eebc8e0e5db407dc802b34a1c37",
+      "link": "http://arxiv.org/abs/2603.17807",
+      "title": "Emergent superconformal symmetry in the phase diagram of a 1D $\\mathbb{Z}_{2}$ lattice gauge theory",
+      "abstract": "We investigate the phase diagram and critical properties of a one-dimensional $\\mathbb{Z}_{2}$ lattice gauge theory describing an orthogonal metal, where spinless fermions and Ising spins are minimally coupled to a deconfined $\\mathbb{Z}_{2}$ gauge field. Working at half-filling of fermions, we derive an exact gauge-invariant formulation that maps the model onto decoupled XXZ and transverse-field Ising chains. This mapping enables a controlled low-energy field-theory description in terms of a perturbed Luttinger liquid and Ising conformal field theories. Combining analytical arguments with numerical simulations, we determine the full phase diagram and identify various critical and multi-critical regimes. Along a specific multi-critical line, where the fermionic and bosonic velocities coincide, we find strong evidence for an emergent superconformal symmetry. Our results establish a minimal lattice realization of emergent superconformal criticalities in a gauge-matter system and provide a route toward its exploration in quantum simulators.",
+      "pubdate": "Wed, 18 Mar 2026 15:01:03 +0000",
+      "authors": "Bachana Beradze, Mikheil Tsitsishvili, Sergej Moroz"
+    },
+    "e0a763373de07b43b3662336889c5f56": {
+      "id": "e0a763373de07b43b3662336889c5f56",
+      "link": "http://arxiv.org/abs/2603.17711",
+      "title": "TENSO: Software Package for Numerically Exact Open Quantum Dynamics Based on Efficient Tree Tensor Network Decomposition of the Hierarchical Equations of Motion",
+      "abstract": "TENSO is a versatile and powerful open-source software package for numerically exact simulations of the dynamics of quantum systems immersed in structured thermal environments. It is based on a tree tensor network decomposition of the hierarchical equations of motion (HEOM) that efficiently curbs its curse of dimensionality with bath complexity. As such, TENSO enables exact non-Markovian open quantum dynamics simulations even with complex environments typical of chemistry and quantum information science. TENSO allows for time-dependent drive in the system, and for non-commuting fluctuations. More generally, TENSO efficiently propagates the dynamics for any method with a generator of the dynamics that can be expressed in a sum-of-products form, including the HEOM and multi-layer multiconfigurational time-dependent Hartree methods. TENSO enables simulations using tensor trees and trains of arbitrary order, and implements three propagation strategies for the coupled master equations; two fixed-rank methods that require a constant memory footprint during the dynamics and one adaptive rank method with a variable memory footprint controlled by the target level of computational error. In contrast to the accompanying theory and algorithmic paper [J. Chem. Phys. 163, 104109 (2025)] the focus here is on the practical usage and applications of TENSO with underlying theoretical concepts introduced only as needed.",
+      "pubdate": "Wed, 18 Mar 2026 13:30:04 +0000",
+      "authors": "Juan C. Rodriguez Betancourt, Michelle C. Anderson, Luchang Niu, Xinxian Chen, Ignacio Franco"
+    },
+    "6987cc68c4e67c848265b71b7d31a970": {
+      "id": "6987cc68c4e67c848265b71b7d31a970",
+      "link": "http://arxiv.org/abs/2603.17635",
+      "title": "Field-induced quasi-bound state within the two-magnon continuum of a square-lattice Heisenberg antiferromagnet",
+      "abstract": "Quantum magnets in two dimensions display strong quantum interaction effects even when magnetically ordered. Using the metal-organic framework material CuF$_2$(D$_2$O)$_2$(pyz), we investigate the field-dependent spin dynamics of the $S = 1/2$ square-lattice Heisenberg antiferromagnet by high-resolution inelastic neutron scattering to applied fields beyond one third of saturation. We discover an anomalously sharp, dispersive ``shadow mode'' residing within the two-magnon continuum, which shadows the dispersion of the transverse one-magnon branches across the Brillouin zone at an offset equal to the Larmor energy. We perform cylinder matrix-product-state (MPS) calculations that reproduce the field-induced spectrum quantitatively and apply a spectrally consistent $1/S$ spin-wave theory to deduce that the ``Larmor-shadow mode'' is a composite two-magnon resonance: a dispersing magnon at wavevector ${\\bf Q}$ couples to the uniform Larmor precession at $Γ$, its small intrinsic linewidth indicating a non-perturbative effect of attractive magnon-magnon interactions. Another quantum-fluctuation phenomenon, the zero-field $(π,0)$ anomaly, is lost at increasing fields, which tighten the spectral weight into the one-magnon and Larmor-shadow modes. To our knowledge, these results constitute the first observation of a sharp quasi-bound state embedded in the continuum of a gapless two-dimensional antiferromagnet.",
+      "pubdate": "Wed, 18 Mar 2026 11:57:53 +0000",
+      "authors": "F. Elson, M. Nayak, A. A. Eberharter, M. Skoulatos, S. Ward, U. Stuhr, N. B. Christensen, D. Voneshen, C. Fiolka, K. W. Krämer, Ch. Rüegg, H. M. Rønnow, B. Normand, M. Mourigal, F. Mila, A. M. Läuchli, M. Månsson"
+    },
+    "6b05a1ba334ceee8e3f02f6fc9f76eb2": {
+      "id": "6b05a1ba334ceee8e3f02f6fc9f76eb2",
+      "link": "http://arxiv.org/abs/2603.17000",
+      "title": "Kinematic Emergence of the Page Curve in a Local Transverse-Field Ising Model",
+      "abstract": "We present a controllable quantum spin-chain model that reproduces the Page curve (the rise-and-fall of bipartite entanglement expected in black-hole evaporation), using only local interactions and a kinematic reduction of the subsystem size. Two transverse-field Ising chains are coupled to form a pure bipartite state; Hawking-like evaporation is implemented by dynamically shrinking the 'system' chain and enlarging the 'environment' chain, while unitary real-time evolution is simulated with matrix product state (MPS) tensor networks. The characteristic Page curve profile emerges robustly under this controlled subsystem resizing and notably persists even when the explicit Hamiltonian coupling across the boundary is set to zero, demonstrating that shrinking Hilbert-space dimension alone can generate Page curve behaviour. We show that the detailed shape of the curve depends on the internal information dynamics: operation at criticality yields a smooth profile, whereas moving away from criticality distorts entanglement growth and decay. These results position locally interacting spin chains as a realistic platform for probing black-hole-inspired information dynamics on current quantum hardware.",
+      "pubdate": "Tue, 17 Mar 2026 18:00:02 +0000",
+      "authors": "Samuel J. W. Jones, M. Basil Altaie, Benjamin T. H. Varcoe"
     }
   }
 }
