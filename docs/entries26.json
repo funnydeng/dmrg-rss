@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-26T02:42:18.352268+00:00",
+  "last_updated": "2026-03-26T13:26:14.602708+00:00",
   "entries": {
     "c1486e89e4b78760853846b5fcd2b6d7": {
       "id": "c1486e89e4b78760853846b5fcd2b6d7",
@@ -2608,6 +2608,38 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "3ac8421ba4493b1925293ecc817e1aea": {
+      "id": "3ac8421ba4493b1925293ecc817e1aea",
+      "link": "http://arxiv.org/abs/2603.24487",
+      "title": "Order-separated tensor-network method for QCD in the strong-coupling expansion",
+      "abstract": "We introduce the order-separated Grassmann higher-order tensor renormalization group (OS-GHOTRG) method for QCD with staggered quarks in the strong-coupling expansion. The method allows us to determine the expansion coefficients of the partition function, from which we can obtain the strong-coupling expansions of thermodynamical observables. We use the method in two dimensions to compute the free energy, the particle-number density, and the chiral condensate as a function of the chemical potential up to third order in the inverse coupling $β$. Although near the phase transition the expansion is only a good approximation to the full theory at small $β$, we show that the range of applicability can be greatly extended by fits to judiciously chosen transition functions.",
+      "pubdate": "Wed, 25 Mar 2026 16:28:48 +0000",
+      "authors": "Thomas Samberger, Jacques Bloch, Robert Lohmayer, Tilo Wettig"
+    },
+    "6a2033ac71913f52eb33697ed4b7f728": {
+      "id": "6a2033ac71913f52eb33697ed4b7f728",
+      "link": "http://arxiv.org/abs/2603.24225",
+      "title": "Large deviations and conditioned monitored quantum systems: a tensor network approach",
+      "abstract": "Coexistence of different dynamical phases is a hallmark of glassy dynamics. This is well-studied in classical systems where the underlying theoretical framework is that of large deviation theory. The presence of a similar phase coexistence has been suggested in monitored quantum many-body systems, but the lack of suitable methods has yet prevented a systematic large deviation analysis. Here we present a tensor network framework that allows the application of large deviation theory to large quantum systems. Building on this, we locate a series of first-order dynamical phase transitions in a monitored discrete-time many-body quantum dynamics, at the level of the trajectory space. Crucially, our approach provides access not only to large-deviation statistics but also to conditioned quantum many-body states, enabling a microscopic characterization of the dynamical phases and their coexistence.",
+      "pubdate": "Wed, 25 Mar 2026 11:58:47 +0000",
+      "authors": "María Cea, Marcel Cech, Federico Carollo, Igor Lesanovsky, Mari Carmen Bañuls"
+    },
+    "dc4237c8f1e2f663e7c7d3641587182c": {
+      "id": "dc4237c8f1e2f663e7c7d3641587182c",
+      "link": "http://arxiv.org/abs/2603.24031",
+      "title": "Mixed-State Topological Phase: Quantized Topological Order Parameter and Lieb-Schultz-Mattis Theorem",
+      "abstract": "We investigate the extension of pure-state symmetry protected topological phases to mixed-state regime with a strong U(1) and a weak $\\mathbb{Z}_2$ symmetries in one-dimensional spin systems by the concept of quantum channels. We propose a corresponding topological phase order parameter for short-range entangled mixed states by showing that it is quantized and its distinct values can be realized by concrete spin systems with disorders, sharply signaling phase transitions among them. We also give a model-independent way to generate two distinct phases by various types of translation and reflection transformations. These results on the short-range entangled mixed states further enable us to generalize the conventional Lieb-Schultz-Mattis theorem to mixed states, even without the concept of spectral gaps and lattice Hamiltonians.",
+      "pubdate": "Wed, 25 Mar 2026 07:46:05 +0000",
+      "authors": "Linhao Li, Yuan Yao"
+    },
+    "23e2d98aeeaae69833cee225e7625db4": {
+      "id": "23e2d98aeeaae69833cee225e7625db4",
+      "link": "http://arxiv.org/abs/2603.23887",
+      "title": "Predicting quantum ground-state energy by data-driven Koopman analysis of variational parameter nonlinear dynamics",
+      "abstract": "In recent years, the application of machine learning to physics has been actively explored. In this paper, we study a method for estimating the ground-state energy of quantum Hamiltonians by applying data-driven Koopman analysis within the framework of variational wave functions. Koopman theory is a framework for analyzing the nonlinear dynamics of vectors, in which the dynamics are linearized by lifting the vectors to functions defined over the original vector space. We focus on the fact that the imaginary-time Schrödinger equation, when restricted to a variational wave function, is described by a nonlinear time evolution of the variational parameter vector. We collect sample points of this nonlinear dynamics at parameter configurations where the discrepancy between the true imaginary-time dynamics and the dynamics on the variational manifold is small, and perform data-driven continuous Koopman analysis. Within our formulation, the ground-state energy is reduced to the leading eigenvalue of a differential operator known as the Koopman generator. As a concrete example, we generate samples for the four-site transverse-field Ising model and estimate the ground-state energy using extended dynamic mode decomposition (EDMD). Furthermore, as an extension of this framework, we formulate the method for the case where the variational wave function is given by a uniform matrix product state on an infinite chain. By employing computational techniques developed within the framework of the time-dependent variational principle, all the quantities required for our analysis, including error estimation, can be computed efficiently in such systems. Since our approach provides predictions for the ground-state energy even when the true ground state lies outside the variational manifold, it is expected to complement conventional variational methods.",
+      "pubdate": "Wed, 25 Mar 2026 03:23:37 +0000",
+      "authors": "Nobuyuki Okuma"
     }
   }
 }
