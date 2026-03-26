@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-03-25T13:20:22.490077+00:00",
+  "last_updated": "2026-03-26T02:42:18.352268+00:00",
   "entries": {
+    "c1486e89e4b78760853846b5fcd2b6d7": {
+      "id": "c1486e89e4b78760853846b5fcd2b6d7",
+      "link": "http://arxiv.org/abs/2603.23432",
+      "title": "Tensor network influence functionals for open quantum systems with general Gaussian bosonic baths",
+      "abstract": "Dynamics of open quantum systems with structured reservoirs can often be simulated efficiently with tensor network influence functionals. The standard variants of the time-evolving matrix product operator (TEMPO) method are applicable when the systems is coupled to Gaussian bosonic baths via hermitian coupling operators that mutually commute. In this work we introduce a generalization to cases where the system is coupled to a single reservoir through multiple non-commuting operators, representing the most general form of linear system-bath coupling. We construct a Gaussian influence functional that properly handles Trotter errors arising from a finite evolution time step, thus ensuring convergence for long evolution times. Based on this result, the uniform TEMPO scheme can be employed to obtain a matrix product operator form of the influence functional, enabling efficient simulations of the real-time dynamics of the open system. As a demonstration, we simulate the time evolution of driven two-level emitters coupled to a bosonic lattice at different lattice sites.",
+      "pubdate": "Tue, 24 Mar 2026 17:00:07 +0000",
+      "authors": "Valentin Link"
+    },
+    "404f862492a28e26a284bd1cc1a7794b": {
+      "id": "404f862492a28e26a284bd1cc1a7794b",
+      "link": "http://arxiv.org/abs/2603.23422",
+      "title": "Quantum simulation of Motzkin spin chain with Rydberg atoms",
+      "abstract": "Motzkin spin chain is a well-known mathematical model with connections to symmetry-protected topological phases, such as the Haldane phase, as well as to concepts in the AdS/CFT correspondence. They exhibit highly entangled ground states that violate the area law and are exceptionally difficult to simulate with conventional numerical methods. Numerical simulations of the Motzkin ground state become further challenging at large system sizes due to their high-dimensional spin structure, rendering it a natural test bed for quantum simulation with ultra-cold systems. Here, we propose a Rydberg-atom based quantum simulation scheme that effectively realizes Motzkin spins using an experimentally accessible set of parameters. We show that the resulting effective Motzkin ground state reproduces the characteristic entanglement scaling and the block-structure properties of the reduced density matrix associated with the ideal Motzkin state. Our results establish a pathway toward a concrete experimental realization of Motzkin spins beyond purely mathematical constructions, opening avenues for exploring other similar exotic non-area-law entangled phases in programmable Rydberg simulators.",
+      "pubdate": "Tue, 24 Mar 2026 16:54:35 +0000",
+      "authors": "Kaustav Mukherjee, Hatem Barghathi, Adrian Del Maestro, Rick Mukherjee"
+    },
+    "211588546dd0aada69f94c2822970a4f": {
+      "id": "211588546dd0aada69f94c2822970a4f",
+      "link": "http://arxiv.org/abs/2603.23388",
+      "title": "Two-parameter Family-Vicsek scaling in a dissipative XXZ spin chain",
+      "abstract": "Family-Vicsek (FV) scaling provides an understanding for the growth and finite-size saturation of fluctuations in classical systems. Here, we extend the FV roughness to transferred segment magnetization after quantum quenches in a dissipative XXZ spin chain with homogeneous gain and loss, starting from a nonequilibrium steady state with finite magnetization. In the non-interacting limit, we derive a closed-form expression for the roughness in the presence of dissipation. It displays two-parameter FV scaling and smoothly interpolates between the clean ballistic behavior and the dissipation dominated scalings. For interacting chains, tensor-network simulations show that the non-dissipative ballistic growth at finite magnetization is robust, whereas the full Lindblad evolution is generically controlled by the dissipative relaxation time and exhibits a dissipation-dominated collapse.",
+      "pubdate": "Tue, 24 Mar 2026 16:19:10 +0000",
+      "authors": "Cătălin Paşcu Moca, Doru Sticlet, Tamás Vicsek, Balázs Dóra"
+    },
+    "6fe29115f2c625fab2de57eae369e914": {
+      "id": "6fe29115f2c625fab2de57eae369e914",
+      "link": "http://arxiv.org/abs/2603.23154",
+      "title": "From Quantum Dimers to the $π$-flux Toric Code via Deconfined Multicriticality",
+      "abstract": "Two-dimensional Rokhsar-Kivelson (RK) dimer models on bipartite lattices are generally limited to translation-symmetry-broken dimer crystals. We introduce a tensor-product regularisation of the dimer Hilbert space that yields a qubit Hamiltonian interpolating from the RK model to the $π$-flux toric code, thereby accessing a deconfined $\\mathbb{Z}_2$ topological liquid. In this framework, the $\\mathbb{Z}_2$ liquid descends from a multicritical $U(1)$ spin liquid through condensation of a charge-2 Higgs field, thus avoiding confinement. Using iDMRG together with low-energy field theory, we determine a phase diagram containing two continuous quantum phase transitions -- a $3\\mathrm{D}$ XY$^{\\ast}$ transition between the $\\mathbb{Z}_2$ liquid and the columnar/plaquette-VBS, and a quantum Lifshitz transition between two dimer crystals -- alongside a first-order transition between the staggered crystal and the $\\mathbb{Z}_2$ liquid. Our field theory suggests a deconfined multicritical point described by an Abelian Higgs model with dynamical critical exponent, $z=2$, where the three transitions meet, highlighting the interplay of fractionalisation and emergent gauge fluctuations.",
+      "pubdate": "Tue, 24 Mar 2026 12:55:18 +0000",
+      "authors": "Ankush Chaubey, Sergej Moroz, Subhro Bhattacharjee"
+    },
+    "62407d18073bb9d578e6227f36effba8": {
+      "id": "62407d18073bb9d578e6227f36effba8",
+      "link": "http://arxiv.org/abs/2603.23106",
+      "title": "High-Resolution Tensor-Network Fourier Methods for Exponentially Compressed Non-Gaussian Aggregate Distributions",
+      "abstract": "Characteristic functions of weighted sums of independent random variables exhibit low-rank structure in the quantized tensor train (QTT) representation, also known as matrix product states (MPS), enabling up to exponential compression of their fully non-Gaussian probability distributions. Under variable independence, the global characteristic function factorizes into local terms. Its low-rank QTT structure arises from intrinsic spectral smoothness in continuous models, or from spectral energy concentration as the number of components $D$ grows in discrete models. We demonstrate this on weighted sums of Bernoulli and lognormal random variables. In the former, despite an adversarial, incompressible small-$D$ regime, the characteristic function undergoes a sharp bond-dimension collapse for $D \\gtrsim 300$ components, enabling polylogarithmic time and memory scaling. In the latter, the approach reaches high-resolution discretizations of $N = 2^{30}$ frequency modes on standard hardware, far beyond the $N = 2^{24}$ ceiling of dense implementations. These compressed representations enable efficient computation of Value at Risk (VaR) and Expected Shortfall (ES), supporting applications in quantitative finance and beyond.",
+      "pubdate": "Tue, 24 Mar 2026 11:55:53 +0000",
+      "authors": "Juan José Rodríguez-Aldavero, Juan José García-Ripoll"
+    },
     "8ccb66365d448faa139af2060aec16fa": {
       "id": "8ccb66365d448faa139af2060aec16fa",
       "link": "http://arxiv.org/abs/2603.22217",
@@ -2568,46 +2608,6 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
-    },
-    "c1486e89e4b78760853846b5fcd2b6d7": {
-      "id": "c1486e89e4b78760853846b5fcd2b6d7",
-      "link": "http://arxiv.org/abs/2603.23432",
-      "title": "Tensor network influence functionals for open quantum systems with general Gaussian bosonic baths",
-      "abstract": "Dynamics of open quantum systems with structured reservoirs can often be simulated efficiently with tensor network influence functionals. The standard variants of the time-evolving matrix product operator (TEMPO) method are applicable when the systems is coupled to Gaussian bosonic baths via hermitian coupling operators that mutually commute. In this work we introduce a generalization to cases where the system is coupled to a single reservoir through multiple non-commuting operators, representing the most general form of linear system-bath coupling. We construct a Gaussian influence functional that properly handles Trotter errors arising from a finite evolution time step, thus ensuring convergence for long evolution times. Based on this result, the uniform TEMPO scheme can be employed to obtain a matrix product operator form of the influence functional, enabling efficient simulations of the real-time dynamics of the open system. As a demonstration, we simulate the time evolution of driven two-level emitters coupled to a bosonic lattice at different lattice sites.",
-      "pubdate": "Tue, 24 Mar 2026 17:00:07 +0000",
-      "authors": "Valentin Link"
-    },
-    "404f862492a28e26a284bd1cc1a7794b": {
-      "id": "404f862492a28e26a284bd1cc1a7794b",
-      "link": "http://arxiv.org/abs/2603.23422",
-      "title": "Quantum simulation of Motzkin spin chain with Rydberg atoms",
-      "abstract": "Motzkin spin chain is a well-known mathematical model with connections to symmetry-protected topological phases, such as the Haldane phase, as well as to concepts in the AdS/CFT correspondence. They exhibit highly entangled ground states that violate the area law and are exceptionally difficult to simulate with conventional numerical methods. Numerical simulations of the Motzkin ground state become further challenging at large system sizes due to their high-dimensional spin structure, rendering it a natural test bed for quantum simulation with ultra-cold systems. Here, we propose a Rydberg-atom based quantum simulation scheme that effectively realizes Motzkin spins using an experimentally accessible set of parameters. We show that the resulting effective Motzkin ground state reproduces the characteristic entanglement scaling and the block-structure properties of the reduced density matrix associated with the ideal Motzkin state. Our results establish a pathway toward a concrete experimental realization of Motzkin spins beyond purely mathematical constructions, opening avenues for exploring other similar exotic non-area-law entangled phases in programmable Rydberg simulators.",
-      "pubdate": "Tue, 24 Mar 2026 16:54:35 +0000",
-      "authors": "Kaustav Mukherjee, Hatem Barghathi, Adrian Del Maestro, Rick Mukherjee"
-    },
-    "211588546dd0aada69f94c2822970a4f": {
-      "id": "211588546dd0aada69f94c2822970a4f",
-      "link": "http://arxiv.org/abs/2603.23388",
-      "title": "Two-parameter Family-Vicsek scaling in a dissipative XXZ spin chain",
-      "abstract": "Family-Vicsek (FV) scaling provides an understanding for the growth and finite-size saturation of fluctuations in classical systems. Here, we extend the FV roughness to transferred segment magnetization after quantum quenches in a dissipative XXZ spin chain with homogeneous gain and loss, starting from a nonequilibrium steady state with finite magnetization. In the non-interacting limit, we derive a closed-form expression for the roughness in the presence of dissipation. It displays two-parameter FV scaling and smoothly interpolates between the clean ballistic behavior and the dissipation dominated scalings. For interacting chains, tensor-network simulations show that the non-dissipative ballistic growth at finite magnetization is robust, whereas the full Lindblad evolution is generically controlled by the dissipative relaxation time and exhibits a dissipation-dominated collapse.",
-      "pubdate": "Tue, 24 Mar 2026 16:19:10 +0000",
-      "authors": "Cătălin Paşcu Moca, Doru Sticlet, Tamás Vicsek, Balázs Dóra"
-    },
-    "6fe29115f2c625fab2de57eae369e914": {
-      "id": "6fe29115f2c625fab2de57eae369e914",
-      "link": "http://arxiv.org/abs/2603.23154",
-      "title": "From Quantum Dimers to the $π$-flux Toric Code via Deconfined Multicriticality",
-      "abstract": "Two-dimensional Rokhsar-Kivelson (RK) dimer models on bipartite lattices are generally limited to translation-symmetry-broken dimer crystals. We introduce a tensor-product regularisation of the dimer Hilbert space that yields a qubit Hamiltonian interpolating from the RK model to the $π$-flux toric code, thereby accessing a deconfined $\\mathbb{Z}_2$ topological liquid. In this framework, the $\\mathbb{Z}_2$ liquid descends from a multicritical $U(1)$ spin liquid through condensation of a charge-2 Higgs field, thus avoiding confinement. Using iDMRG together with low-energy field theory, we determine a phase diagram containing two continuous quantum phase transitions -- a $3\\mathrm{D}$ XY$^{\\ast}$ transition between the $\\mathbb{Z}_2$ liquid and the columnar/plaquette-VBS, and a quantum Lifshitz transition between two dimer crystals -- alongside a first-order transition between the staggered crystal and the $\\mathbb{Z}_2$ liquid. Our field theory suggests a deconfined multicritical point described by an Abelian Higgs model with dynamical critical exponent, $z=2$, where the three transitions meet, highlighting the interplay of fractionalisation and emergent gauge fluctuations.",
-      "pubdate": "Tue, 24 Mar 2026 12:55:18 +0000",
-      "authors": "Ankush Chaubey, Sergej Moroz, Subhro Bhattacharjee"
-    },
-    "62407d18073bb9d578e6227f36effba8": {
-      "id": "62407d18073bb9d578e6227f36effba8",
-      "link": "http://arxiv.org/abs/2603.23106",
-      "title": "High-Resolution Tensor-Network Fourier Methods for Exponentially Compressed Non-Gaussian Aggregate Distributions",
-      "abstract": "Characteristic functions of weighted sums of independent random variables exhibit low-rank structure in the quantized tensor train (QTT) representation, also known as matrix product states (MPS), enabling up to exponential compression of their fully non-Gaussian probability distributions. Under variable independence, the global characteristic function factorizes into local terms. Its low-rank QTT structure arises from intrinsic spectral smoothness in continuous models, or from spectral energy concentration as the number of components $D$ grows in discrete models. We demonstrate this on weighted sums of Bernoulli and lognormal random variables. In the former, despite an adversarial, incompressible small-$D$ regime, the characteristic function undergoes a sharp bond-dimension collapse for $D \\gtrsim 300$ components, enabling polylogarithmic time and memory scaling. In the latter, the approach reaches high-resolution discretizations of $N = 2^{30}$ frequency modes on standard hardware, far beyond the $N = 2^{24}$ ceiling of dense implementations. These compressed representations enable efficient computation of Value at Risk (VaR) and Expected Shortfall (ES), supporting applications in quantitative finance and beyond.",
-      "pubdate": "Tue, 24 Mar 2026 11:55:53 +0000",
-      "authors": "Juan José Rodríguez-Aldavero, Juan José García-Ripoll"
     }
   }
 }
