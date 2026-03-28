@@ -1,6 +1,38 @@
 {
-  "last_updated": "2026-03-28T02:34:06.223057+00:00",
+  "last_updated": "2026-03-28T13:03:37.720605+00:00",
   "entries": {
+    "8ad8838bc97349b50e496c63dedf32de": {
+      "id": "8ad8838bc97349b50e496c63dedf32de",
+      "link": "http://arxiv.org/abs/2603.25625",
+      "title": "Weighted Nested Commutators for Scalable Counterdiabatic State Preparation",
+      "abstract": "Counterdiabatic (CD) driving enables efficient quantum state preparation, but it requires implementing highly nonlocal adiabatic gauge potentials (AGP) that are impractical to compute and realize in large many-body systems. We introduce a \\textit{weighted nested-commutator} (WNC) ansatz to approximate AGP using local operators. The WNC ansatz generalizes the standard nested-commutator ansatz by assigning independent variational weights to commutators of local Hamiltonian terms, thereby enlarging the variational space while preserving a fixed operator range. We show that the WNC ansatz can be efficiently optimized using a local optimization scheme. Moreover, it systematically outperforms the nested-commutator ansatz in preparing one-dimensional matrix product states (MPS) and the ground state of a nonintegrable quantum Ising model. We then numerically demonstrate that CD driving based on the WNC ansatz significantly accelerates the preparation of 1D MPS for system sizes up to $N = 1000$ qubits, as well as the two-dimensional Affleck-Kennedy-Lieb-Tasaki state on a hexagonal lattice with up to $N = 3 \\times 10$ sites.",
+      "pubdate": "Thu, 26 Mar 2026 16:40:11 +0000",
+      "authors": "Jialiang Tang, Xi Chen, Zhi-Yuan Wei"
+    },
+    "eb178c66206668158abd864d9d72c728": {
+      "id": "eb178c66206668158abd864d9d72c728",
+      "link": "http://arxiv.org/abs/2603.25582",
+      "title": "A unified quantum computing quantum Monte Carlo framework through structured state preparation",
+      "abstract": "We extend Quantum Computing Quantum Monte Carlo (QCQMC) beyond ground-state energy estimation by systematically constructing the quantum circuits used for state preparation. Replacing the original Variational Quantum Eigensolver (VQE) prescription with task-adapted unitaries, we show that QCQMC can address excited-state spectra via Variational Fast Forwarding and the Variational Unitary Matrix Product Operator (VUMPO), combinatorial optimization via a symmetry-preserving VQE ansatz, and finite-temperature observables via Haar-random unitaries. Benchmarks on molecular, condensed-matter, nuclear-structure, and graph-optimization problems demostrate that the QMC diffusion step consistently improves the energy accuracy of the underlying state-preparation method across all tested domains. For weakly correlated systems, VUMPO achieves near-exact energies with significantly shallower circuits by offloading optimization to a classical tensor-network pre-training step, while for strongly correlated systems, the QMC correction becomes essential. We further provide a proof-of-concept demonstration that Haar-random basis state preparation within QCQMC yields finite-temperature estimates from pure-state dynamics.",
+      "pubdate": "Thu, 26 Mar 2026 15:59:54 +0000",
+      "authors": "Giuseppe Buonaiuto, Antonio Marquez Romero, Brian Coyle, Annie E. Paine, Vicente P. Soloviev, Stefano Scali, Michal Krompiec"
+    },
+    "d705fd078e597cf9082989f4a7697276": {
+      "id": "d705fd078e597cf9082989f4a7697276",
+      "link": "http://arxiv.org/abs/2603.25492",
+      "title": "Lattice and PT symmetries in tensor-network renormalization group: a case study of a hard-square lattice gas model",
+      "abstract": "The tensor-network renormalization group (TNRG) is an accurate numerical real-space renormalization group method for studying phase transitions in both quantum and classical systems. Continuous phase transitions, as an important class of phase transitions, are usually accompanied by spontaneous breaking of various symmetries. However, the understanding of symmetries in the TNRG is well-established mainly for global on-site symmetries like U(1) and SU(2). In this paper, we demonstrate how to incorporate lattice symmetries (including reflection and rotation) and the PT symmetry in the TNRG in two dimensions (2D) through a case study of the hard-square lattice gas with nearest-neighbor exclusion. This model is chosen because it is well-understood and has two continuous phase transitions whose spontaneously-broken symmetries are lattice and PT symmetries. Specifically, we write down proper definitions of these symmetries in a coarse-grained tensor network and propose a TNRG scheme that incorporates these symmetries. We demonstrate the validity of the proposed method by estimating the critical parameters and the scaling dimensions of the two phase transitions of the model. The technical development in this paper has made the 2D TNRG a more well-rounded numerical method.",
+      "pubdate": "Thu, 26 Mar 2026 14:30:38 +0000",
+      "authors": "Xinliang Lyu"
+    },
+    "f512b4fc54a219cb656a076abb2602fc": {
+      "id": "f512b4fc54a219cb656a076abb2602fc",
+      "link": "http://arxiv.org/abs/2603.25475",
+      "title": "Stabilization of zigzag order in NiPS$_3$ via positive biquadratic interaction",
+      "abstract": "Despite extensive research, the precise spin Hamiltonian of the van der Waals antiferromagnet NiPS$_3$ -- which hosts a zigzag-ordered ground state -- remains debated. While consensus has emerged on ferromagnetic nearest-neighbor ($J_1$) and antiferromagnetic third-nearest-neighbor ($J_3$) Heisenberg interactions, recent studies suggest a biquadratic ($B$) exchange term may also play a role, though its estimated magnitude varies widely. To address this controversy, we perform density functional theory calculations and extract a positive biquadratic interaction with $B/J_3 \\approx 0.44$. Within the minimal $J_1$-$J_3$-$B$ model, we show that these parameters naturally stabilize zigzag ordering using minimally augmented spin-wave theory. Density-matrix renormalization group calculations further validate our extracted parameters as a reasonable description of the ground state. Although fully resolving the spin Hamiltonian of NiPS$_3$ requires further investigation, our findings provide new insights into its biquadratic interaction.",
+      "pubdate": "Thu, 26 Mar 2026 14:17:50 +0000",
+      "authors": "Qiang Luo, Shuhang Yang, Xiaoying Wang, Zhengyu Jiang, Chunlan Ma, Yan Zhu"
+    },
     "d30cb5987d2e9e434b4a720f8e70746b": {
       "id": "d30cb5987d2e9e434b4a720f8e70746b",
       "link": "http://arxiv.org/abs/2603.25439",
@@ -2688,38 +2720,6 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
-    },
-    "8ad8838bc97349b50e496c63dedf32de": {
-      "id": "8ad8838bc97349b50e496c63dedf32de",
-      "link": "http://arxiv.org/abs/2603.25625",
-      "title": "Weighted Nested Commutators for Scalable Counterdiabatic State Preparation",
-      "abstract": "Counterdiabatic (CD) driving enables efficient quantum state preparation, but it requires implementing highly nonlocal adiabatic gauge potentials (AGP) that are impractical to compute and realize in large many-body systems. We introduce a \\textit{weighted nested-commutator} (WNC) ansatz to approximate AGP using local operators. The WNC ansatz generalizes the standard nested-commutator ansatz by assigning independent variational weights to commutators of local Hamiltonian terms, thereby enlarging the variational space while preserving a fixed operator range. We show that the WNC ansatz can be efficiently optimized using a local optimization scheme. Moreover, it systematically outperforms the nested-commutator ansatz in preparing one-dimensional matrix product states (MPS) and the ground state of a nonintegrable quantum Ising model. We then numerically demonstrate that CD driving based on the WNC ansatz significantly accelerates the preparation of 1D MPS for system sizes up to $N = 1000$ qubits, as well as the two-dimensional Affleck-Kennedy-Lieb-Tasaki state on a hexagonal lattice with up to $N = 3 \\times 10$ sites.",
-      "pubdate": "Thu, 26 Mar 2026 16:40:11 +0000",
-      "authors": "Jialiang Tang, Xi Chen, Zhi-Yuan Wei"
-    },
-    "eb178c66206668158abd864d9d72c728": {
-      "id": "eb178c66206668158abd864d9d72c728",
-      "link": "http://arxiv.org/abs/2603.25582",
-      "title": "A unified quantum computing quantum Monte Carlo framework through structured state preparation",
-      "abstract": "We extend Quantum Computing Quantum Monte Carlo (QCQMC) beyond ground-state energy estimation by systematically constructing the quantum circuits used for state preparation. Replacing the original Variational Quantum Eigensolver (VQE) prescription with task-adapted unitaries, we show that QCQMC can address excited-state spectra via Variational Fast Forwarding and the Variational Unitary Matrix Product Operator (VUMPO), combinatorial optimization via a symmetry-preserving VQE ansatz, and finite-temperature observables via Haar-random unitaries. Benchmarks on molecular, condensed-matter, nuclear-structure, and graph-optimization problems demostrate that the QMC diffusion step consistently improves the energy accuracy of the underlying state-preparation method across all tested domains. For weakly correlated systems, VUMPO achieves near-exact energies with significantly shallower circuits by offloading optimization to a classical tensor-network pre-training step, while for strongly correlated systems, the QMC correction becomes essential. We further provide a proof-of-concept demonstration that Haar-random basis state preparation within QCQMC yields finite-temperature estimates from pure-state dynamics.",
-      "pubdate": "Thu, 26 Mar 2026 15:59:54 +0000",
-      "authors": "Giuseppe Buonaiuto, Antonio Marquez Romero, Brian Coyle, Annie E. Paine, Vicente P. Soloviev, Stefano Scali, Michal Krompiec"
-    },
-    "d705fd078e597cf9082989f4a7697276": {
-      "id": "d705fd078e597cf9082989f4a7697276",
-      "link": "http://arxiv.org/abs/2603.25492",
-      "title": "Lattice and PT symmetries in tensor-network renormalization group: a case study of a hard-square lattice gas model",
-      "abstract": "The tensor-network renormalization group (TNRG) is an accurate numerical real-space renormalization group method for studying phase transitions in both quantum and classical systems. Continuous phase transitions, as an important class of phase transitions, are usually accompanied by spontaneous breaking of various symmetries. However, the understanding of symmetries in the TNRG is well-established mainly for global on-site symmetries like U(1) and SU(2). In this paper, we demonstrate how to incorporate lattice symmetries (including reflection and rotation) and the PT symmetry in the TNRG in two dimensions (2D) through a case study of the hard-square lattice gas with nearest-neighbor exclusion. This model is chosen because it is well-understood and has two continuous phase transitions whose spontaneously-broken symmetries are lattice and PT symmetries. Specifically, we write down proper definitions of these symmetries in a coarse-grained tensor network and propose a TNRG scheme that incorporates these symmetries. We demonstrate the validity of the proposed method by estimating the critical parameters and the scaling dimensions of the two phase transitions of the model. The technical development in this paper has made the 2D TNRG a more well-rounded numerical method.",
-      "pubdate": "Thu, 26 Mar 2026 14:30:38 +0000",
-      "authors": "Xinliang Lyu"
-    },
-    "f512b4fc54a219cb656a076abb2602fc": {
-      "id": "f512b4fc54a219cb656a076abb2602fc",
-      "link": "http://arxiv.org/abs/2603.25475",
-      "title": "Stabilization of zigzag order in NiPS$_3$ via positive biquadratic interaction",
-      "abstract": "Despite extensive research, the precise spin Hamiltonian of the van der Waals antiferromagnet NiPS$_3$ -- which hosts a zigzag-ordered ground state -- remains debated. While consensus has emerged on ferromagnetic nearest-neighbor ($J_1$) and antiferromagnetic third-nearest-neighbor ($J_3$) Heisenberg interactions, recent studies suggest a biquadratic ($B$) exchange term may also play a role, though its estimated magnitude varies widely. To address this controversy, we perform density functional theory calculations and extract a positive biquadratic interaction with $B/J_3 \\approx 0.44$. Within the minimal $J_1$-$J_3$-$B$ model, we show that these parameters naturally stabilize zigzag ordering using minimally augmented spin-wave theory. Density-matrix renormalization group calculations further validate our extracted parameters as a reasonable description of the ground state. Although fully resolving the spin Hamiltonian of NiPS$_3$ requires further investigation, our findings provide new insights into its biquadratic interaction.",
-      "pubdate": "Thu, 26 Mar 2026 14:17:50 +0000",
-      "authors": "Qiang Luo, Shuhang Yang, Xiaoying Wang, Zhengyu Jiang, Chunlan Ma, Yan Zhu"
     }
   }
 }
