@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-02T02:40:23.317255+00:00",
+  "last_updated": "2026-04-02T13:23:28.710026+00:00",
   "entries": {
     "6c7768cc3861acd2ac764470f50cb591": {
       "id": "6c7768cc3861acd2ac764470f50cb591",
@@ -2920,6 +2920,38 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "7ba3e5781efd553acfa7bea31d73948f": {
+      "id": "7ba3e5781efd553acfa7bea31d73948f",
+      "link": "http://arxiv.org/abs/2604.01022",
+      "title": "A Factorization Identity for Twisted Multinomial Coefficients with Application to Pilot States in Hamiltonian Decoded Quantum Interferometry",
+      "abstract": "The $q$-multinomial coefficient, a classical object in enumerative combinatorics, counts permutations of multisets weighted by the number of inversions, with a single deformation parameter $q$. We introduce the twisted multinomial coefficient, in which each inversion between letters $i$ and $j$ carries a pair-dependent weight $ω_{ij}$ determined by a skew-symmetric matrix $Ω$. In general, no closed-form evaluation is known. Our main result is that under a natural structural condition on $Ω$ - predecessor-uniformity ($ω_{ij} = q_j$ for all $i<j$) - the twisted multinomial factorizes as a product of Gaussian ($q$-deformed) binomials with site-dependent parameters: $\\binom{k}{k_1,\\ldots,k_m}_Ω= \\prod_j\\binom{\\ell_j}{k_j}_{q_j}$. This extends the standard product formula for the $q$-multinomial from a single parameter $q$ to $m-1$ independent parameters. The identity is purely combinatorial: it holds for arbitrary $q_j \\in \\mathbb{C}\\setminus\\{0\\}$ without any algebraic constraints. We were led to this identity by studying pilot state preparation in Hamiltonian Decoded Quantum Interferometry (HDQI), a recently proposed quantum algorithm for preparing Gibbs and ground states. As an application, we show that the factorization yields an exact matrix product state (MPS) of bond dimension $k+1$ for the expansion coefficients of $h^k$ in a twisted algebra. We note that this addresses only one component of the HDQI pipeline (pilot state preparation); the full protocol additionally requires efficient decoding of the associated Hamiltonian code, and both components must work in conjunction for Hamiltonians of physical interest. Identifying such Hamiltonians remains an important open problem.",
+      "pubdate": "Wed, 01 Apr 2026 15:27:23 +0000",
+      "authors": "Pawel Wocjan"
+    },
+    "7837dff2dca75e171df7cb64f92bb5c6": {
+      "id": "7837dff2dca75e171df7cb64f92bb5c6",
+      "link": "http://arxiv.org/abs/2604.00870",
+      "title": "The Klein bottle ratio of two-dimensional ferromagnetic Potts models",
+      "abstract": "The weakly first-order nature of the two-dimensional 5-state ferromagnetic Potts model poses challenges for numerical study. Using density-matrix and tensor-network renormalization group methods, we investigate these transitions of the Potts-$q$ model via the Klein bottle ratio $g$ on original and dual lattices. Finite-size scaling of $g$ as a function of transverse system size $L_y$ accurately locates the critical points for $q = 4, 5, 6$. We further examine the transfer-matrix spectra and entanglement entropy, extracting central charges through toroidal and Klein bottle boundary conditions. For $q = 5$, the extracted central charge ($c \\approx 1.14811$) is close to the real part of the theoretical value $c_{5\\text{-Potts}} = 1.1375 \\pm 0.0211 i$ predicted by complex conformal field theories. The observed drift in the scaling exponent $b$ effectively distinguishes the continuous transition from the weakly first-order regime. Furthermore, the extrapolated divergence of $g$ confirms the first-order nature of the $q=5$ Potts model.",
+      "pubdate": "Wed, 01 Apr 2026 13:16:11 +0000",
+      "authors": "Zi-Han Wang, Li-Ping Yang"
+    },
+    "ffd0c764ca27476ca11848014ca6a511": {
+      "id": "ffd0c764ca27476ca11848014ca6a511",
+      "link": "http://arxiv.org/abs/2604.00689",
+      "title": "Performance of Neural and Polynomial Operator Surrogates",
+      "abstract": "We consider the problem of constructing surrogate operators for parameter-to-solution maps arising from parametric partial differential equations, where repeated forward model evaluations are computationally expensive. We present a systematic empirical comparison of neural operator surrogates, including a reduced-basis neural operator trained with $L^2_μ$ and $H^1_μ$ objectives and the Fourier neural operator, against polynomial surrogate methods, specifically a reduced-basis sparse-grid surrogate and a reduced-basis tensor-train surrogate. All methods are evaluated on a linear parametric diffusion problem and a nonlinear parametric hyperelasticity problem, using input fields with algebraically decaying spectral coefficients at varying rates of decay $s$. To enable fair comparisons, we analyze ensembles of surrogate models generated by varying hyperparameters and compare the resulting Pareto frontiers of cost versus approximation accuracy, decomposing cost into contributions from data generation, setup, and evaluation. Our results show that no single method is universally superior. Polynomial surrogates achieve substantially better data efficiency for smooth input fields ($s \\geq 2$), with convergence rates for the sparse-grid surrogate in agreement with theoretical predictions. For rough inputs ($s \\leq 1$), the Fourier neural operator displays the fastest convergence rates. Derivative-informed training consistently improves data efficiency over standard $L^2_μ$ training, providing a competitive alternative for rough inputs in the low-data regime when Jacobian information is available at reasonable cost. These findings highlight the importance of matching the surrogate methodology to the regularity of the problem as well as accuracy demands and computational constraints of the application.",
+      "pubdate": "Wed, 01 Apr 2026 09:46:25 +0000",
+      "authors": "Josephine Westermann, Benno Huber, Thomas O'Leary-Roseberry, Jakob Zech"
+    },
+    "36180a9d351c5935250023897d6c0716": {
+      "id": "36180a9d351c5935250023897d6c0716",
+      "link": "http://arxiv.org/abs/2604.00037",
+      "title": "Fast elementwise operations on tensor trains with alternating cross interpolation",
+      "abstract": "Tensor trains (TTs), also known as matrix product states (MPS), are compressed representations of high-dimensional data that can be efficiently manipulated to perform calculations on the data. In many applications, such as TT-based solvers for nonlinear partial differential equations, the most expensive step is an elementwise multiplication or similar elementwise operation on multiple TTs. Known error-controlled algorithms for such operations scale as $O(χ^4)$, where $χ$ is the TT rank. If the rank of the output is smaller than $χ^2$, it is possible to formulate algorithms with better scaling. In this work, we present the alternating cross interpolation (ACI) algorithm that performs such operations in $O(χ^3)$, while maintaining error control. We demonstrate these properties on benchmark problems, achieving a significant speedup for TT ranks that are commonly encountered in practical applications.",
+      "pubdate": "Tue, 24 Mar 2026 18:23:00 +0000",
+      "authors": "Marc K. Ritter"
     }
   }
 }
