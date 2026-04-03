@@ -1,6 +1,38 @@
 {
-  "last_updated": "2026-04-03T02:42:53.454474+00:00",
+  "last_updated": "2026-04-03T13:12:12.063642+00:00",
   "entries": {
+    "f352a02817d32cecf4601bfa261de6a6": {
+      "id": "f352a02817d32cecf4601bfa261de6a6",
+      "link": "http://arxiv.org/abs/2604.02298",
+      "title": "Chiral skyrmionic superconductivity from doping a Chern Ferromagnet",
+      "abstract": "We show that chiral superconductivity can be stabilized by hole doping a Chern ferromagnet. Performing exact diagonalization and density-matrix-renormalization-group calculations on the repulsive Kane-Mele-Hubbard model at hole doping relative to filling $ν=1$ electron per unit cell, we find that a Cooper pair formed by a magnon (spin-flip excitation) bound to two holes is stabilized at sufficiently strong interactions and sufficiently large Ising spin-orbit coupling (SOC). This Cooper pair exhibits both finite spin chirality -- signaling a noncoplanar skyrmionic spin texture -- and chiral $f$-wave symmetry. The pairing and spin chirality are set by the Chern number/polarization of the parent Chern ferromagnet. We further find that interactions between skyrmion Cooper pairs evolve from repulsive to attractive as the Ising SOC increases, revealing an intermediate-SOC region where chiral superconductivity can emerge from the condensation of hole-skyrmion Cooper pairs. Our findings provide a novel microscopic mechanism for chiral superconductivity and may be relevant for the recent observation of superconductivity in the MoTe$_2$ moiré superlattice.",
+      "pubdate": "Thu, 02 Apr 2026 17:38:43 +0000",
+      "authors": "Miguel Gonçalves, Kun Yang, Shi-Zeng Lin"
+    },
+    "c23f2b33f8c3d59ee783027bcca3e505": {
+      "id": "c23f2b33f8c3d59ee783027bcca3e505",
+      "link": "http://arxiv.org/abs/2604.02144",
+      "title": "Definitive Assessment of the Accuracy, Variationality, and Convergence of Relativistic Coupled Cluster and Density Matrix Renormalization Group in 100-Orbital Space",
+      "abstract": "Accuracy, variationality, and convergence underpin the reliability of modern electronic structure methods, yet definitive benchmarks in the relativistic regime remain elusive due to the absence of numerically exact full configuration interaction (CI) references. Recent algorithmic advances in the CI framework, enabled by the small-tensor-product (STP) decomposition approach, have dramatically extended the tractable size of the configuration space, making numerically exact CI calculations feasible in large active spaces previously beyond reach. In this work, we employ the recently developed STP-CI framework to perform large-scale numerically exact CI calculations and directly benchmark relativistic coupled cluster and density matrix renormalization group methods. Definitive benchmarking of approximate relativistic electronic structure methods is ensured through the application of the gap theorem, which provides rigorous error bounds on the CI reference and establishes a controlled standard for assessing accuracy, variationality, and convergence.",
+      "pubdate": "Thu, 02 Apr 2026 15:15:30 +0000",
+      "authors": "Shiv Upadhyay, Agam Shayit, Tianyuan Zhang, Stephen H. Yuwono, A. Eugene DePrince, Xiaosong Li"
+    },
+    "74d65cac5a0025b4fbabad0cf542de79": {
+      "id": "74d65cac5a0025b4fbabad0cf542de79",
+      "link": "http://arxiv.org/abs/2604.01616",
+      "title": "Quantum-Enhanced Processing with Tensor-Network Frontends for Privacy-Aware Federated Medical Diagnosis",
+      "abstract": "We propose a privacy-aware hybrid framework for federated medical image classification that combines tensor-network representation learning, MPC-secured aggregation, and post-aggregation quantum refinement. The framework is motivated by two practical constraints in privacy-aware federated learning: MPC can introduce substantial communication overhead, and direct quantum processing of high-dimensional medical images is unrealistic with a small number of qubits. To address both constraints within a single architecture, client-side tensor-network frontends, Matrix Product State (MPS), Tree Tensor Network (TTN), and Multi-scale Entanglement Renormalization Ansatz (MERA), compress local inputs into compact latent representations, after which a Quantum-Enhanced Processor (QEP) refines the aggregated latent feature through quantum-state embedding and observable-based readout. Experiments on PneumoniaMNIST show that the effect of the QEP is frontend-dependent rather than uniform across architectures. In the present setting, the TTN+QEP combination exhibits the most balanced overall profile. The results also suggest that the QEP behaves more stably when the qubit count is sufficiently matched to the latent dimension, while noisy conditions degrade performance relative to the noiseless setting. The MPC benchmark further shows that communication cost is governed primarily by the dimension of the protected latent representation. This indicates that tensor-network compression plays a dual role: it enables small-qubit quantum processing on compressed latent features and reduces the communication overhead associated with secure aggregation. Taken together, these results support a co-design perspective in which representation compression, post-aggregation quantum refinement, and privacy-aware deployment should be optimized jointly.",
+      "pubdate": "Thu, 02 Apr 2026 04:52:31 +0000",
+      "authors": "Hiroshi Yamauchi, Anders Peter Kragh Dalskov, Hideaki Kawaguchi, Rodney Van Meter"
+    },
+    "0481d11ce98b38aede35b19b7cc2bea2": {
+      "id": "0481d11ce98b38aede35b19b7cc2bea2",
+      "link": "http://arxiv.org/abs/2604.01556",
+      "title": "Time-evolving matrix product operators for off-diagonal system-bath coupling",
+      "abstract": "Based on the process tensor framework, we extend the time-evolving matrix product operator (TEMPO) method to solve bosonic quantum impurity problems (QIPs) with off-diagonal system-bath coupling. Our method is a most generic extension of TEMPO, which applies for any QIPs as long as the bath is noninteracting and the system is linearly coupled to the bath. It naturally contains all the current developments of TEMPO in more restricted settings. As an application, we study the real-time dynamics of a spin that is coupled to a sub-ohmic bath via the Jaynes-Cummings-type system-bath coupling, and compare it against that of the standard spin-boson model. Our results show that the commonly used secular approximation could easily fail in presence of a structural bath. Our method provides a unified framework to understand different variants of TEMPO and directly suggests a fermionic generalization which has not been explored so far, it could also be straightforwardly used as an impurity solver in the bosonic dynamical mean field theory.",
+      "pubdate": "Thu, 02 Apr 2026 03:00:48 +0000",
+      "authors": "Chu Guo, Wei Wu, Xiansong Xu, Tian Jiang, Ping-Xing Chen, Ruofan Chen"
+    },
     "7ba3e5781efd553acfa7bea31d73948f": {
       "id": "7ba3e5781efd553acfa7bea31d73948f",
       "link": "http://arxiv.org/abs/2604.01022",
@@ -2952,38 +2984,6 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
-    },
-    "f352a02817d32cecf4601bfa261de6a6": {
-      "id": "f352a02817d32cecf4601bfa261de6a6",
-      "link": "http://arxiv.org/abs/2604.02298",
-      "title": "Chiral skyrmionic superconductivity from doping a Chern Ferromagnet",
-      "abstract": "We show that chiral superconductivity can be stabilized by hole doping a Chern ferromagnet. Performing exact diagonalization and density-matrix-renormalization-group calculations on the repulsive Kane-Mele-Hubbard model at hole doping relative to filling $ν=1$ electron per unit cell, we find that a Cooper pair formed by a magnon (spin-flip excitation) bound to two holes is stabilized at sufficiently strong interactions and sufficiently large Ising spin-orbit coupling (SOC). This Cooper pair exhibits both finite spin chirality -- signaling a noncoplanar skyrmionic spin texture -- and chiral $f$-wave symmetry. The pairing and spin chirality are set by the Chern number/polarization of the parent Chern ferromagnet. We further find that interactions between skyrmion Cooper pairs evolve from repulsive to attractive as the Ising SOC increases, revealing an intermediate-SOC region where chiral superconductivity can emerge from the condensation of hole-skyrmion Cooper pairs. Our findings provide a novel microscopic mechanism for chiral superconductivity and may be relevant for the recent observation of superconductivity in the MoTe$_2$ moiré superlattice.",
-      "pubdate": "Thu, 02 Apr 2026 17:38:43 +0000",
-      "authors": "Miguel Gonçalves, Kun Yang, Shi-Zeng Lin"
-    },
-    "c23f2b33f8c3d59ee783027bcca3e505": {
-      "id": "c23f2b33f8c3d59ee783027bcca3e505",
-      "link": "http://arxiv.org/abs/2604.02144",
-      "title": "Definitive Assessment of the Accuracy, Variationality, and Convergence of Relativistic Coupled Cluster and Density Matrix Renormalization Group in 100-Orbital Space",
-      "abstract": "Accuracy, variationality, and convergence underpin the reliability of modern electronic structure methods, yet definitive benchmarks in the relativistic regime remain elusive due to the absence of numerically exact full configuration interaction (CI) references. Recent algorithmic advances in the CI framework, enabled by the small-tensor-product (STP) decomposition approach, have dramatically extended the tractable size of the configuration space, making numerically exact CI calculations feasible in large active spaces previously beyond reach. In this work, we employ the recently developed STP-CI framework to perform large-scale numerically exact CI calculations and directly benchmark relativistic coupled cluster and density matrix renormalization group methods. Definitive benchmarking of approximate relativistic electronic structure methods is ensured through the application of the gap theorem, which provides rigorous error bounds on the CI reference and establishes a controlled standard for assessing accuracy, variationality, and convergence.",
-      "pubdate": "Thu, 02 Apr 2026 15:15:30 +0000",
-      "authors": "Shiv Upadhyay, Agam Shayit, Tianyuan Zhang, Stephen H. Yuwono, A. Eugene DePrince, Xiaosong Li"
-    },
-    "74d65cac5a0025b4fbabad0cf542de79": {
-      "id": "74d65cac5a0025b4fbabad0cf542de79",
-      "link": "http://arxiv.org/abs/2604.01616",
-      "title": "Quantum-Enhanced Processing with Tensor-Network Frontends for Privacy-Aware Federated Medical Diagnosis",
-      "abstract": "We propose a privacy-aware hybrid framework for federated medical image classification that combines tensor-network representation learning, MPC-secured aggregation, and post-aggregation quantum refinement. The framework is motivated by two practical constraints in privacy-aware federated learning: MPC can introduce substantial communication overhead, and direct quantum processing of high-dimensional medical images is unrealistic with a small number of qubits. To address both constraints within a single architecture, client-side tensor-network frontends, Matrix Product State (MPS), Tree Tensor Network (TTN), and Multi-scale Entanglement Renormalization Ansatz (MERA), compress local inputs into compact latent representations, after which a Quantum-Enhanced Processor (QEP) refines the aggregated latent feature through quantum-state embedding and observable-based readout. Experiments on PneumoniaMNIST show that the effect of the QEP is frontend-dependent rather than uniform across architectures. In the present setting, the TTN+QEP combination exhibits the most balanced overall profile. The results also suggest that the QEP behaves more stably when the qubit count is sufficiently matched to the latent dimension, while noisy conditions degrade performance relative to the noiseless setting. The MPC benchmark further shows that communication cost is governed primarily by the dimension of the protected latent representation. This indicates that tensor-network compression plays a dual role: it enables small-qubit quantum processing on compressed latent features and reduces the communication overhead associated with secure aggregation. Taken together, these results support a co-design perspective in which representation compression, post-aggregation quantum refinement, and privacy-aware deployment should be optimized jointly.",
-      "pubdate": "Thu, 02 Apr 2026 04:52:31 +0000",
-      "authors": "Hiroshi Yamauchi, Anders Peter Kragh Dalskov, Hideaki Kawaguchi, Rodney Van Meter"
-    },
-    "0481d11ce98b38aede35b19b7cc2bea2": {
-      "id": "0481d11ce98b38aede35b19b7cc2bea2",
-      "link": "http://arxiv.org/abs/2604.01556",
-      "title": "Time-evolving matrix product operators for off-diagonal system-bath coupling",
-      "abstract": "Based on the process tensor framework, we extend the time-evolving matrix product operator (TEMPO) method to solve bosonic quantum impurity problems (QIPs) with off-diagonal system-bath coupling. Our method is a most generic extension of TEMPO, which applies for any QIPs as long as the bath is noninteracting and the system is linearly coupled to the bath. It naturally contains all the current developments of TEMPO in more restricted settings. As an application, we study the real-time dynamics of a spin that is coupled to a sub-ohmic bath via the Jaynes-Cummings-type system-bath coupling, and compare it against that of the standard spin-boson model. Our results show that the commonly used secular approximation could easily fail in presence of a structural bath. Our method provides a unified framework to understand different variants of TEMPO and directly suggests a fermionic generalization which has not been explored so far, it could also be straightforwardly used as an impurity solver in the bosonic dynamical mean field theory.",
-      "pubdate": "Thu, 02 Apr 2026 03:00:48 +0000",
-      "authors": "Chu Guo, Wei Wu, Xiansong Xu, Tian Jiang, Ping-Xing Chen, Ruofan Chen"
     }
   }
 }
