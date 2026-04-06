@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-06T02:52:17.076463+00:00",
+  "last_updated": "2026-04-06T13:19:25.498083+00:00",
   "entries": {
     "f352a02817d32cecf4601bfa261de6a6": {
       "id": "f352a02817d32cecf4601bfa261de6a6",
@@ -2984,6 +2984,30 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "272f1837dd7bef3ef798bbaa9813bcc8": {
+      "id": "272f1837dd7bef3ef798bbaa9813bcc8",
+      "link": "http://arxiv.org/abs/2604.03228",
+      "title": "Belief Propagation and Tensor Network Expansions for Many-Body Quantum Systems: Rigorous Results and Fundamental Limits",
+      "abstract": "Belief propagation (BP) provides a scalable heuristic for contracting tensor networks on loopy graphs, but its success in quantum many-body settings has largely rested on empirical evidence. Developing upon a recently introduced cluster-expansion framework for tensor networks, we rigorously study the applicability of BP to many-body quantum systems. For a state represented as a PEPS satisfying a ``loop-decay\" condition, we prove that BP supplemented by cluster corrections approximates local observables with exponentially small relative error, and we give explicit formulas expressing local expectation values as BP predictions dressed by connected clusters intersecting the observable region. This representation establishes a direct link between cluster corrections and physical correlation functions. As a result, we show that ``loop-decay\" \\emph{necessarily implies} exponential decay of connected correlations, yielding sharp, rigorous criteria for when BP can and cannot succeed, and ruling out its validity at critical points. Numerical simulations of the two- and three-dimensional transverse field Ising model at zero and finite temperature confirm our analytical predictions, demonstrating quantitative accuracy deep in gapped phases and systematic failure near criticality.",
+      "pubdate": "Fri, 03 Apr 2026 17:59:09 +0000",
+      "authors": "Siddhant Midha, Grace M. Sommers, Joseph Tindall, Dmitry A. Abanin"
+    },
+    "c73fed0d90c55bf8fd313d142348fb0a": {
+      "id": "c73fed0d90c55bf8fd313d142348fb0a",
+      "link": "http://arxiv.org/abs/2604.02777",
+      "title": "Quantum Information Dynamics of QED$_2$ in Expanding de Sitter Universe",
+      "abstract": "We study QED$_2$ in de Sitter space as a minimal interacting gauge theory in which cosmological expansion directly competes with quantum dynamics. In cosmic time, the hopping redshifts as $1/a(t)$ while the electric term grows as $g^2 a(t)$, sweeping the spectrum through a moving narrow-gap region in the $(τ,m)$ plane. Exact diagonalization shows that this defines a pseudo-critical line governing the loss of adiabaticity, excitation growth, and redshifted response. Using matrix-product states at a fixed mass, we separate the fixed-cutoff thermodynamic limit from the continuum extrapolation. The late-time dip survives in the infinite physical box size limit, and shifts to later $τ$ as the lattice spacing goes to zero, with current data favoring $τ_* \\approx 3.1$, while the dip depth remains less controlled. For Gibbs initial states, the same mechanism produces an irreversibility front in the relative entropy that tracks the pseudo-critical line and is detectable via LOCC-accessible observables. These results identify de Sitter QED$_2$ as a controlled setting for linking curved-space gauge dynamics, near-critical spectral structure, and operational irreversibility.",
+      "pubdate": "Fri, 03 Apr 2026 06:37:56 +0000",
+      "authors": "Kazuki Ikeda, Yaron Oz"
+    },
+    "887a622540ddca2e81cb52f734d91ce0": {
+      "id": "887a622540ddca2e81cb52f734d91ce0",
+      "link": "http://arxiv.org/abs/2604.02731",
+      "title": "Polaron Transformed Canonically Consistent Quantum Master Equation",
+      "abstract": "A central challenge in the theory of open quantum systems is the development of theoretical frameworks capable of accurately describing large, strongly interacting quantum many-body systems in the regime of strong system-bath interaction. In this work, we take a step toward this goal by formulating a polaron-transformed version of the canonically consistent quantum master equation (CCQME) [T. Becker et al., Phys. Rev. Lett. 129, 200403 (2022)]. The CCQME extends beyond standard weak-coupling approaches while retaining the same numerical complexity as conventional quantum master equations, thereby enabling the treatment of large quantum systems. The polaron transformation further enhances the accessible system-bath interaction strengths, allowing us to move from moderate to strong interaction regimes. We present a unified and transparent derivation of these two approaches and combine them to obtain the polaron-transformed CCQME (PT-CCQME). Applying our method to the paradigmatic spin-boson model, we find excellent agreement with numerically exact time-evolving matrix product operator (TEMPO) simulations. Finally, we predict an initial-state-independent slowing down of thermalization in the strong-coupling regime of the spin-boson model.",
+      "pubdate": "Fri, 03 Apr 2026 04:49:43 +0000",
+      "authors": "Juzar Thingna, Xiansong Xu, Daniel Manzano"
     }
   }
 }
