@@ -1,6 +1,54 @@
 {
-  "last_updated": "2026-04-08T12:27:36.858852+00:00",
+  "last_updated": "2026-04-09T00:37:13.598749+00:00",
   "entries": {
+    "276e44b5db7567b7f61dfa021d03c5f3": {
+      "id": "276e44b5db7567b7f61dfa021d03c5f3",
+      "link": "http://arxiv.org/abs/2604.06153",
+      "title": "Solving the Peierls-Boltzmann transport equation with matrix product states",
+      "abstract": "The Peierls-Boltzmann transport equation (PBE), which governs non-equilibrium phonon transport, suffers from the curse of dimensionality due to its high-dimensional phase space including both real and modal spaces. We explore the use of matrix product states (MPS) for numerical simulation of the PBE. We show that an MPS configuration based on scattering events combined with a dimensionless form of the solution can drastically increase the locality of correlations between tensors in the MPS representation, enhancing its effectiveness in dimension reduction. We further examine the effects of index ordering in an MPS and find that the highest locality is achieved when tensor chains associated with both real and modal spaces are connected from the coarsest grid to each other in the center of the MPS. Using this optimal configuration and a solver inspired by the density matrix renormalization group, we solve the PBE discretized by a finite volume method (FVM). The solution is obtained for crystalline silicon across ballistic, quasi-ballistic, and diffusive transport regimes. An MPS truncated to the compression ratio of $10^{-3}$ suffices to reproduce reference solutions with high fidelity. The computational cost scales sublinearly with the number of grid points in both real and modal spaces, achieving roughly an order of magnitude reduction in computational time compared to the FVM with sparse matrix operation.",
+      "pubdate": "Tue, 07 Apr 2026 17:53:10 +0000",
+      "authors": "Sangyeop Lee, Hirad Alipanah, Juan José Mendoza-Arenas"
+    },
+    "611df92cdad6c484483279f8cf18c1cb": {
+      "id": "611df92cdad6c484483279f8cf18c1cb",
+      "link": "http://arxiv.org/abs/2604.05890",
+      "title": "A Tensor-Train Framework for Bayesian Inference in High-Dimensional Systems: Applications to MIMO Detection and Channel Decoding",
+      "abstract": "Bayesian inference in high-dimensional discrete-input additive noise models is a fundamental challenge in communication systems, as the support of the required joint a posteriori probability (APP) mass function grows exponentially with the number of unknown variables. In this work, we propose a tensor-train (TT) framework for tractable, near-optimal Bayesian inference in discrete-input additive noise models. The central insight is that the joint log-APP mass function admits an exact low-rank representation in the TT format, enabling compact storage and efficient computations. To recover symbol-wise APP marginals, we develop a practical inference procedure that approximates the exponential of the log-posterior using a TT-cross algorithm initialized with a truncated Taylor-series. To demonstrate the generality of the approach, we derive explicit low-rank TT constructions for two canonical communication problems: the linear observation model under additive white Gaussian noise (AWGN), applied to multiple-input multiple-output (MIMO) detection, and soft-decision decoding of binary linear block error correcting codes over the binary-input AWGN channel. Numerical results show near-optimal error-rate performance across a wide range of signal-to-noise ratios while requiring only modest TT ranks. These results highlight the potential of tensor-network methods for efficient Bayesian inference in communication systems.",
+      "pubdate": "Tue, 07 Apr 2026 13:53:21 +0000",
+      "authors": "Luca Schmid, Dominik Sulz, Shrinivas Chimmalgi, Laurent Schmalen"
+    },
+    "0fd88f80bc9c156cf7b0d85f553f77b3": {
+      "id": "0fd88f80bc9c156cf7b0d85f553f77b3",
+      "link": "http://arxiv.org/abs/2604.05856",
+      "title": "Neural Network Pruning via QUBO Optimization",
+      "abstract": "Neural network pruning can be formulated as a combinatorial optimization problem, yet most existing approaches rely on greedy heuristics that ignore complex interactions between filters. Formal optimization methods such as Quadratic Unconstrained Binary Optimization (QUBO) provide a principled alternative but have so far underperformed due to oversimplified objective formulations based on metrics like the L1-norm. In this work, we propose a unified Hybrid QUBO framework that bridges heuristic importance estimation with global combinatorial optimization. Our formulation integrates gradient-aware sensitivity metrics - specifically first-order Taylor and second-order Fisher information - into the linear term, while utilizing data-driven activation similarity in the quadratic term. This allows the QUBO objective to jointly capture individual filter relevance and inter-filter functional redundancy. We further introduce a dynamic capacity-driven search to strictly enforce target sparsity without distorting the optimization landscape. Finally, we employ a two-stage pipeline featuring a Tensor-Train (TT) Refinement stage - a gradient-free optimizer that fine-tunes the QUBO-derived solution directly against the true evaluation metric. Experiments on the SIDD image denoising dataset demonstrate that the proposed Hybrid QUBO significantly outperforms both greedy Taylor pruning and traditional L1-based QUBO, with TT Refinement providing further consistent gains at appropriate combinatorial scales. This highlights the potential of hybrid combinatorial formulations for robust, scalable, and interpretable neural network compression.",
+      "pubdate": "Tue, 07 Apr 2026 13:16:40 +0000",
+      "authors": "Osama Orabi, Artur Zagitov, Hadi Salloum, Viktor A. Lobachev, Kasymkhan Khubiev, Yaroslav Kholodov"
+    },
+    "01c4b4f9e0d00b06f2257b331e791ae2": {
+      "id": "01c4b4f9e0d00b06f2257b331e791ae2",
+      "link": "http://arxiv.org/abs/2604.05582",
+      "title": "Grassmann corner transfer-matrix renormalization group approach to one-dimensional fermionic models",
+      "abstract": "The strongly correlated fermions play a vital role in modern physics. For a given fermionic Hamiltonian system, the most widely used approach to explore the underlying physics is to study the wave function that incorporates Fermi-Dirac statistics, which can be obtained variationally by energy minimization or by imaginary-time evolution. In this work, we develop an accurate tensor network method for one-dimensional interacting fermionic models based on the coherent-state path-integral representation of the fermionic partition function. Employing the coherent-state representation, the partition function is effectively represented as a (1+1)-dimensional anisotropic Grassmann-valued tensor network, and the Grassmann version of the corner transfer-matrix renormalization group algorithm is developed to contract the tensor network and evaluate physical quantities. We validate our method in the one-dimensional fermionic Hubbard model with a magnetic field, where the essential features of the phase diagram in the $(μ, B)$ plane are quantitatively captured. Our work offers a promising approach to interacting fermionic models within the framework of tensor networks.",
+      "pubdate": "Tue, 07 Apr 2026 08:21:56 +0000",
+      "authors": "Jian-Gang Kong, Zhi Yuan Xie"
+    },
+    "7975349d413e4776e714b39da999a3ef": {
+      "id": "7975349d413e4776e714b39da999a3ef",
+      "link": "http://arxiv.org/abs/2604.05038",
+      "title": "Information Propagation in Rydberg Arrays via Analog OTOC Calculations",
+      "abstract": "Out-of-time-order correlators (OTOCs) are the main tool for probing quantum chaos and scrambling, and have become crucial probes in many areas of quantum computing. However, the measurement of OTOCs is difficult to implement on analog quantum computers due to the requirement of backward time evolution. In this paper, we develop and implement a randomized measurement protocol to compute OTOCs on Aquila by QuEra Computing. Unlike traditional methods that require backward time evolution, our approach utilizes a sequence of global randomized quenches that approximates the unitary 2-design properties necessary for extracting infinite-temperature OTOCs from statistical correlations. We demonstrate the protocol's success by explicitly observing the lightcone of information propagation in 1D Rydberg chains, and compare hardware results to both state-vector simulations and matrix product state (MPS) tensor network calculations. This work establishes the first demonstration of fully analog randomized OTOC measurements in neutral-atom simulators, providing a scalable pathway to probe quantum chaos in complex many-body systems.",
+      "pubdate": "Mon, 06 Apr 2026 18:00:05 +0000",
+      "authors": "Goksu Can Toga, Siva Darbha, Ermal Rrapaj, Pedro L. S. Lopes, Alexander F. Kemper"
+    },
+    "3eb43a2beb51b14ab4d4c70a06da5ef1": {
+      "id": "3eb43a2beb51b14ab4d4c70a06da5ef1",
+      "link": "http://arxiv.org/abs/2604.05027",
+      "title": "From Ferrimagnetic Insulator to superconducting Luther-Emery Liquid: A DMRG Study of the Two-Leg Lieb Lattice",
+      "abstract": "Motivated by recent experiments on ultracold fermionic spin-1/2 $^6$Li atoms in a Lieb lattice at various Hubbard repulsion $U$ and filling fractions $n$ (Lebrat et al., arXiv:2404.17555), we conduct a density matrix renormalization group (DMRG) analysis of the Hubbard model on a two-leg Lieb ladder. At half-filling, we find a ferrimagnetic Mott insulating ground state, consistent with Lieb's theorem. Away from half-filling, a state with finite total spin $\\vec{S}^2 \\neq 0$ and vanishing charge gap persists down to filling $n_c \\approx 2/3$. For lower, incommensurate fillings, the system is described by a Luttinger liquid with one charge and one spin mode. Intriguingly, in a narrow window near $n_c = 2/3$, close to the onset of ferromagnetic order, we identify a superconducting Luther-Emery phase with dominant $s_{xy}$-wave pairing.",
+      "pubdate": "Mon, 06 Apr 2026 18:00:02 +0000",
+      "authors": "Alexander Nikolaenko, Subir Sachdev"
+    },
     "8f812acb8ee8b3cf7fa2f534c0901762": {
       "id": "8f812acb8ee8b3cf7fa2f534c0901762",
       "link": "http://arxiv.org/abs/2604.04596",
@@ -3056,54 +3104,6 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
-    },
-    "276e44b5db7567b7f61dfa021d03c5f3": {
-      "id": "276e44b5db7567b7f61dfa021d03c5f3",
-      "link": "http://arxiv.org/abs/2604.06153",
-      "title": "Solving the Peierls-Boltzmann transport equation with matrix product states",
-      "abstract": "The Peierls-Boltzmann transport equation (PBE), which governs non-equilibrium phonon transport, suffers from the curse of dimensionality due to its high-dimensional phase space including both real and modal spaces. We explore the use of matrix product states (MPS) for numerical simulation of the PBE. We show that an MPS configuration based on scattering events combined with a dimensionless form of the solution can drastically increase the locality of correlations between tensors in the MPS representation, enhancing its effectiveness in dimension reduction. We further examine the effects of index ordering in an MPS and find that the highest locality is achieved when tensor chains associated with both real and modal spaces are connected from the coarsest grid to each other in the center of the MPS. Using this optimal configuration and a solver inspired by the density matrix renormalization group, we solve the PBE discretized by a finite volume method (FVM). The solution is obtained for crystalline silicon across ballistic, quasi-ballistic, and diffusive transport regimes. An MPS truncated to the compression ratio of $10^{-3}$ suffices to reproduce reference solutions with high fidelity. The computational cost scales sublinearly with the number of grid points in both real and modal spaces, achieving roughly an order of magnitude reduction in computational time compared to the FVM with sparse matrix operation.",
-      "pubdate": "Tue, 07 Apr 2026 17:53:10 +0000",
-      "authors": "Sangyeop Lee, Hirad Alipanah, Juan José Mendoza-Arenas"
-    },
-    "611df92cdad6c484483279f8cf18c1cb": {
-      "id": "611df92cdad6c484483279f8cf18c1cb",
-      "link": "http://arxiv.org/abs/2604.05890",
-      "title": "A Tensor-Train Framework for Bayesian Inference in High-Dimensional Systems: Applications to MIMO Detection and Channel Decoding",
-      "abstract": "Bayesian inference in high-dimensional discrete-input additive noise models is a fundamental challenge in communication systems, as the support of the required joint a posteriori probability (APP) mass function grows exponentially with the number of unknown variables. In this work, we propose a tensor-train (TT) framework for tractable, near-optimal Bayesian inference in discrete-input additive noise models. The central insight is that the joint log-APP mass function admits an exact low-rank representation in the TT format, enabling compact storage and efficient computations. To recover symbol-wise APP marginals, we develop a practical inference procedure that approximates the exponential of the log-posterior using a TT-cross algorithm initialized with a truncated Taylor-series. To demonstrate the generality of the approach, we derive explicit low-rank TT constructions for two canonical communication problems: the linear observation model under additive white Gaussian noise (AWGN), applied to multiple-input multiple-output (MIMO) detection, and soft-decision decoding of binary linear block error correcting codes over the binary-input AWGN channel. Numerical results show near-optimal error-rate performance across a wide range of signal-to-noise ratios while requiring only modest TT ranks. These results highlight the potential of tensor-network methods for efficient Bayesian inference in communication systems.",
-      "pubdate": "Tue, 07 Apr 2026 13:53:21 +0000",
-      "authors": "Luca Schmid, Dominik Sulz, Shrinivas Chimmalgi, Laurent Schmalen"
-    },
-    "0fd88f80bc9c156cf7b0d85f553f77b3": {
-      "id": "0fd88f80bc9c156cf7b0d85f553f77b3",
-      "link": "http://arxiv.org/abs/2604.05856",
-      "title": "Neural Network Pruning via QUBO Optimization",
-      "abstract": "Neural network pruning can be formulated as a combinatorial optimization problem, yet most existing approaches rely on greedy heuristics that ignore complex interactions between filters. Formal optimization methods such as Quadratic Unconstrained Binary Optimization (QUBO) provide a principled alternative but have so far underperformed due to oversimplified objective formulations based on metrics like the L1-norm. In this work, we propose a unified Hybrid QUBO framework that bridges heuristic importance estimation with global combinatorial optimization. Our formulation integrates gradient-aware sensitivity metrics - specifically first-order Taylor and second-order Fisher information - into the linear term, while utilizing data-driven activation similarity in the quadratic term. This allows the QUBO objective to jointly capture individual filter relevance and inter-filter functional redundancy. We further introduce a dynamic capacity-driven search to strictly enforce target sparsity without distorting the optimization landscape. Finally, we employ a two-stage pipeline featuring a Tensor-Train (TT) Refinement stage - a gradient-free optimizer that fine-tunes the QUBO-derived solution directly against the true evaluation metric. Experiments on the SIDD image denoising dataset demonstrate that the proposed Hybrid QUBO significantly outperforms both greedy Taylor pruning and traditional L1-based QUBO, with TT Refinement providing further consistent gains at appropriate combinatorial scales. This highlights the potential of hybrid combinatorial formulations for robust, scalable, and interpretable neural network compression.",
-      "pubdate": "Tue, 07 Apr 2026 13:16:40 +0000",
-      "authors": "Osama Orabi, Artur Zagitov, Hadi Salloum, Viktor A. Lobachev, Kasymkhan Khubiev, Yaroslav Kholodov"
-    },
-    "01c4b4f9e0d00b06f2257b331e791ae2": {
-      "id": "01c4b4f9e0d00b06f2257b331e791ae2",
-      "link": "http://arxiv.org/abs/2604.05582",
-      "title": "Grassmann corner transfer-matrix renormalization group approach to one-dimensional fermionic models",
-      "abstract": "The strongly correlated fermions play a vital role in modern physics. For a given fermionic Hamiltonian system, the most widely used approach to explore the underlying physics is to study the wave function that incorporates Fermi-Dirac statistics, which can be obtained variationally by energy minimization or by imaginary-time evolution. In this work, we develop an accurate tensor network method for one-dimensional interacting fermionic models based on the coherent-state path-integral representation of the fermionic partition function. Employing the coherent-state representation, the partition function is effectively represented as a (1+1)-dimensional anisotropic Grassmann-valued tensor network, and the Grassmann version of the corner transfer-matrix renormalization group algorithm is developed to contract the tensor network and evaluate physical quantities. We validate our method in the one-dimensional fermionic Hubbard model with a magnetic field, where the essential features of the phase diagram in the $(μ, B)$ plane are quantitatively captured. Our work offers a promising approach to interacting fermionic models within the framework of tensor networks.",
-      "pubdate": "Tue, 07 Apr 2026 08:21:56 +0000",
-      "authors": "Jian-Gang Kong, Zhi Yuan Xie"
-    },
-    "7975349d413e4776e714b39da999a3ef": {
-      "id": "7975349d413e4776e714b39da999a3ef",
-      "link": "http://arxiv.org/abs/2604.05038",
-      "title": "Information Propagation in Rydberg Arrays via Analog OTOC Calculations",
-      "abstract": "Out-of-time-order correlators (OTOCs) are the main tool for probing quantum chaos and scrambling, and have become crucial probes in many areas of quantum computing. However, the measurement of OTOCs is difficult to implement on analog quantum computers due to the requirement of backward time evolution. In this paper, we develop and implement a randomized measurement protocol to compute OTOCs on Aquila by QuEra Computing. Unlike traditional methods that require backward time evolution, our approach utilizes a sequence of global randomized quenches that approximates the unitary 2-design properties necessary for extracting infinite-temperature OTOCs from statistical correlations. We demonstrate the protocol's success by explicitly observing the lightcone of information propagation in 1D Rydberg chains, and compare hardware results to both state-vector simulations and matrix product state (MPS) tensor network calculations. This work establishes the first demonstration of fully analog randomized OTOC measurements in neutral-atom simulators, providing a scalable pathway to probe quantum chaos in complex many-body systems.",
-      "pubdate": "Mon, 06 Apr 2026 18:00:05 +0000",
-      "authors": "Goksu Can Toga, Siva Darbha, Ermal Rrapaj, Pedro L. S. Lopes, Alexander F. Kemper"
-    },
-    "3eb43a2beb51b14ab4d4c70a06da5ef1": {
-      "id": "3eb43a2beb51b14ab4d4c70a06da5ef1",
-      "link": "http://arxiv.org/abs/2604.05027",
-      "title": "From Ferrimagnetic Insulator to superconducting Luther-Emery Liquid: A DMRG Study of the Two-Leg Lieb Lattice",
-      "abstract": "Motivated by recent experiments on ultracold fermionic spin-1/2 $^6$Li atoms in a Lieb lattice at various Hubbard repulsion $U$ and filling fractions $n$ (Lebrat et al., arXiv:2404.17555), we conduct a density matrix renormalization group (DMRG) analysis of the Hubbard model on a two-leg Lieb ladder. At half-filling, we find a ferrimagnetic Mott insulating ground state, consistent with Lieb's theorem. Away from half-filling, a state with finite total spin $\\vec{S}^2 \\neq 0$ and vanishing charge gap persists down to filling $n_c \\approx 2/3$. For lower, incommensurate fillings, the system is described by a Luttinger liquid with one charge and one spin mode. Intriguingly, in a narrow window near $n_c = 2/3$, close to the onset of ferromagnetic order, we identify a superconducting Luther-Emery phase with dominant $s_{xy}$-wave pairing.",
-      "pubdate": "Mon, 06 Apr 2026 18:00:02 +0000",
-      "authors": "Alexander Nikolaenko, Subir Sachdev"
     }
   }
 }
