@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-13T00:48:38.039852+00:00",
+  "last_updated": "2026-04-13T12:33:17.359619+00:00",
   "entries": {
     "c7714ee1487d0fa9eb68c2e65cc1dea8": {
       "id": "c7714ee1487d0fa9eb68c2e65cc1dea8",
@@ -3224,6 +3224,30 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "c7f12f68208f9e57961b225572ebe69a": {
+      "id": "c7f12f68208f9e57961b225572ebe69a",
+      "link": "http://arxiv.org/abs/2604.09337",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "5f2fb6bbd8cc783696374d0618450fca": {
+      "id": "5f2fb6bbd8cc783696374d0618450fca",
+      "link": "http://arxiv.org/abs/2604.09263",
+      "title": "Natural Riemannian gradient for learning functional tensor networks",
+      "abstract": "We consider machine learning tasks with low-rank functional tree tensor networks (TTN) as the learning model. While in the case of least-squares regression, low-rank functional TTNs can be efficiently optimized using alternating optimization, this is not directly possible in other problems, such as multinomial logistic regression. We propose a natural Riemannian gradient descent type approach applicable to arbitrary losses which is based on the natural gradient by Amari. In particular, the search direction obtained by the natural gradient is independent of the choice of basis of the underlying functional tensor product space. Our framework applies to both the factorized and manifold-based approach for representing the functional TTN. For practical application, we propose a hierarchy of efficient approximations to the true natural Riemannian gradient for computing the updates in the parameter space. Numerical experiments confirm our theoretical findings on common classification datasets and show that using natural Riemannian gradient descent for learning considerably improves convergence behavior when compared to standard Riemannian gradient methods.",
+      "pubdate": "Fri, 10 Apr 2026 12:25:20 +0000",
+      "authors": "Nikolas Klug, Michael Ulbrich, Marius Willner, André Uschmajew"
+    },
+    "63ad8c4a0c70f4889273cbdf8742c75f": {
+      "id": "63ad8c4a0c70f4889273cbdf8742c75f",
+      "link": "http://arxiv.org/abs/2604.08937",
+      "title": "Superconductivity and competing orders in honeycomb $t$-$J$ model: interplay of lattice geometry and next-nearest-neighbor hopping",
+      "abstract": "We investigate the extended $t$-$J$ model on honeycomb lattices with next-nearest-neighbor (NNN) electron hopping $t'$ and superexchange coupling $J'=(t'/t)^2 J$ using large-scale density-matrix renormalization group (DMRG) simulations and slave-boson mean-field theory (SBMFT). By systematically varying $t'$ and cylinder geometries, our DMRG results reveal several competing phases with distinct charge and superconducting (SC) properties. On YC4-0 cylinders possessing bonds lying along $\\vec{e}_y$ direction, the ground state of doped models exhibits pronounced quasi-long-range $d$-wave SC with coexisting armchair-oriented stripes (a-stripe) across a broad range of $t'$. Notably, the SC Luttinger exponent has a non-monotonic dependence on $t'$, showing an optimal $t'_{op}\\sim0.4$ for dominant SC. Conversely, XC cylinders host a competing long-range zigzag stripes phase without SC for $t'>0.5$, highlighting the role of boundary geometry in stabilizing distinct competing phases in DMRG. To elucidate the stability of all these competing phases in 2D limit, we employ SBMFT and identify the a-stripe as the stable configuration across most of phase diagram, with a transition to uniform nematic $d$-wave SC at large $t'$ for $δ=1/8$. The combined results from two complementary approaches suggest a robust $t'$-induced SC phase that might remain stable in doped extended $t$-$J$ model on the honeycomb lattice.",
+      "pubdate": "Fri, 10 Apr 2026 04:09:24 +0000",
+      "authors": "Zhi Xu, Hong-Chen Jiang, Yi-Fan Jiang"
     }
   }
 }
