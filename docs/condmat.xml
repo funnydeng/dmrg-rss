@@ -8,7 +8,34 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 15 Apr 2026 00:48:35 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2026 12:32:09 +0000</lastBuildDate>
+    <item>
+      <title>Quantum Geometry, Fractionalization, and Provability Hierarchy: A Unified Framework for Strongly Correlated Systems</title>
+      <link>http://arxiv.org/abs/2604.12101</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Zhanchun Li, Renwu Zhang&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; Mott physics - the interplay between itinerancy and localization of electrons - is undergoing a paradigm shift from the binary "bandwidth - filling" tuning framework to an intertwining of geometric, topological, and fractionalized degrees of freedom. Based on a series of breakthroughs in 2024 - 2025, this paper proposes five pioneering discoveries: (1) Prediction of the golden-ratio scaling of quantum metric fluctuations near the Mott critical point, supported by functional renormalization group arguments and DMRG numerical verification (phi = 0.618 +/- 0.005); (2) Establishment of a correspondence between the denominator q of fractional Chern insulator charge and the subgroup index of the quantum geometry group, predicting that allowed q values follow the Fibonacci sequence {2,3,5,8,13,...} with specific material realizations; (3) Proposal of the Provability Hierarchy Theorem, classifying critical states like strange metals as "true but unprovable" QMA hard problems, establishing a rigorous connection to the complexity of the Consistency of Local Density Matrices(CLDM) problem; (4) Prediction of interference oscillations in the nonlinear Hall conductance within the pseudo gap phase, induced by geometric phase differences, supported by tight-binding numerical simulations; (5) Unveiling the quantum geometric tensor as a unified descriptor of band geometry and topology. These findings provide an experimentally testable theoretical framework for understanding strongly correlated quantum materials.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2604.12101'&gt;arXiv:2604.12101&lt;/a&gt;] Published Mon, 13 Apr 2026 22:21:28 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2604.12101</guid>
+      <pubDate>Mon, 13 Apr 2026 22:21:28 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <title>Many-body localization</title>
+      <link>http://arxiv.org/abs/2604.12464</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Jakub Zakrzewski&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We present an introductory review of nonergodic dynamics in interacting many-body quantum systems, focusing on the phenomenon of many-body localization (MBL). We describe aspects of MBL and summarize the evidence for a crossover from the ergodic to the MBL regime in finite systems, using the paradigmatic XXZ model as an example. We then broaden the scope to other models to illustrate the generality of the phenomenon. We briefly touch on the largely unexplored relation between MBL and quantum computing.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2604.12464'&gt;arXiv:2604.12464&lt;/a&gt;] Published Tue, 14 Apr 2026 08:51:21 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2604.12464</guid>
+      <pubDate>Tue, 14 Apr 2026 08:51:21 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <title>Unconventional entanglement scaling and quantum criticality in the long-range spin-one Heisenberg chain with single-ion anisotropy</title>
+      <link>http://arxiv.org/abs/2604.12754</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Patrick Adelhardt, Sean R. Muleady, Kai P. Schmidt, Alexey V. Gorshkov&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; Long-range interactions can fundamentally reshape the low-energy properties of low-dimensional quantum matter, altering both continuous symmetry breaking and topological phenomena. However, their impact on the quantum criticality separating these regimes remains poorly understood. We determine the ground-state phase diagram and critical properties of the spin-one Heisenberg chain with single-ion anisotropy and staggered antiferromagnetic power-law interactions, using matrix-product state (MPS) calculations complemented by high-order series expansions (pCUT+MC). Such long-range, non-frustrated interactions circumvent the Hohenberg-Mermin-Wagner theorem, thereby stabilizing continuous symmetry breaking (CSB) phases in direct competition with the Haldane phase. We map out the resulting phase diagram and analyze the entanglement entropy scaling behavior in the U(1) and SU(2) CSB phases, finding logarithmic corrections beyond the short-range, universal contributions expected from linearly dispersed Goldstone modes. We further characterize all critical boundaries through finite-size scaling of either the entanglement entropy or the staggered magnetization. In particular, the large-D-to-U(1)-CSB transition exhibits unconventional, continuously varying critical exponents as a function of the long-range decay exponent with a strong dependence on the imposed boundary conditions leading to distinct finite-size scalings for sufficiently long-range potentials. Remarkably, the Haldane-to-U(1)-CSB transition likewise displays unconventional quantum criticality with distinct continuously varying critical exponents. Our work positions this model as a target for near-term atomic platforms with tunable long-range couplings and exhibiting natural single-ion anisotropy, offering a minimal playground for exploring the interplay between long-range interactions, continuous symmetry breaking, and topology.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2604.12754'&gt;arXiv:2604.12754&lt;/a&gt;] Published Tue, 14 Apr 2026 14:01:37 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2604.12754</guid>
+      <pubDate>Tue, 14 Apr 2026 14:01:37 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <link>http://arxiv.org/abs/2604.12975</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2604.12975'&gt;arXiv:2604.12975&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2604.12975</guid>
+      <pubDate>Wed, 15 Apr 2026 12:32:09 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
     <item>
       <title>Full grid solution for multi-asset options pricing with tensor networks</title>
       <link>http://arxiv.org/abs/2601.00009</link>
