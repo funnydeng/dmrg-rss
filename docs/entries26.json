@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-17T00:48:20.387875+00:00",
+  "last_updated": "2026-04-17T12:29:00.243467+00:00",
   "entries": {
     "776d6bdaac6f52363e62dd3ad67d9703": {
       "id": "776d6bdaac6f52363e62dd3ad67d9703",
@@ -3400,6 +3400,30 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "aee4be4fbc86f74da565b21f51086ec4": {
+      "id": "aee4be4fbc86f74da565b21f51086ec4",
+      "link": "http://arxiv.org/abs/2604.15300",
+      "title": "Ensembles of random quantum states tunable from volume law to area law",
+      "abstract": "A standard approach to generate random pure quantum states relies on sampling from the Haar measure. However, the entanglement properties of such states present a fundamental challenge for their general applicability. Here, we introduce the $σ$-ensembles $\\unicode{x2013}$ a family of random quantum states with only a single control parameter. Crucially, these states are designed such that they can be tuned between volume-law and area-law behavior, which has been a major obstacle thus far. We construct representatives of this ensemble by imposing a probability distribution on the eigenvalues of the successive subsystems, and subsequently reconstructing a compatible global state using the matrix product state (MPS) formalism. Due to their area-law entanglement, our approach circumvents the intractability of Haar-random pure states in classical simulations of quantum systems and is more representative of typical Hamiltonian ground states.",
+      "pubdate": "Thu, 16 Apr 2026 17:57:19 +0000",
+      "authors": "Héloïse Albot, Sebastian Paeckel"
+    },
+    "21e414f01bc848929eac4ab27be95bdf": {
+      "id": "21e414f01bc848929eac4ab27be95bdf",
+      "link": "http://arxiv.org/abs/2604.14767",
+      "title": "Nontrivial three-sublattice magnetization in the easy-axis spin-1/2 XXZ antiferromagnet on the triangular lattice",
+      "abstract": "We investigate the ground-state magnetic structure of the spin-$1/2$ XXZ antiferromagnet on the triangular lattice in the easy-axis regime using the density-matrix renormalization group. By applying spiral boundary conditions, we exactly map finite $L\\times L$ clusters onto one-dimensional chains while avoiding the spatial anisotropy inherent in cylindrical geometries. From symmetry-broken local magnetization profiles, we extract the three-sublattice moments and track their evolution with anisotropy. At the isotropic point, we obtain a positive sublattice moment of $0.21671$, consistent with previous numerical estimates. In the easy-axis regime, the ordered moments remain close to a zero-magnetization three-sublattice structure of the form $(2m,-m,-m)$ over a broad range of $Δ$. Extrapolation in $1/Δ$ shows that the positive sublattice moment stays well below the classical saturation value $1/2$, approaching $0.41873$ as $Δ\\to\\infty$, while the magnitude of the negative sublattice moment approaches $0.20832$. We further compare the energies of the Y state and the up-down-down state and find that the Y state is favored at zero field. Independent thermodynamic-limit energy calculations, performed without assuming any particular ordered pattern, yield an energy consistent with the Y-state solution. These results show that the easy-axis ground state does not simply cross over to a trivially saturated collinear Ising state, but instead remains a nontrivial three-sublattice ordered state selected from the macroscopically degenerate Ising manifold by quantum fluctuations.",
+      "pubdate": "Thu, 16 Apr 2026 08:26:56 +0000",
+      "authors": "Masahiro Kadosawa, Masaaki Nakamura, Yukinori Ohta, Satoshi Nishimoto"
+    },
+    "bcea7466e1ecae1f3e429be145893280": {
+      "id": "bcea7466e1ecae1f3e429be145893280",
+      "link": "http://arxiv.org/abs/2604.14287",
+      "title": "Quantum-inspired tensor networks in machine learning models",
+      "abstract": "Tensor networks were developed in the context of many-body physics as compressed representations of multiparticle quantum states. These representations mitigate the exponential complexity of many-body systems by capturing only the most relevant dependencies. Due to the formal similarity between quantum entanglement and statistical correlations, tensor networks have recently been integrated in machine learning, operating both as alternative learning architectures and as decompositions of components of neural networks. The expectation is that the theoretical understanding of tensor networks developed within quantum many-body physics leads to novel methods that offer advantages in terms of computational efficiency, explainability, or privacy. Here we review the use of tensor networks in the context of machine learning, providing a critical assessment of the state of the art, the potential advantages, and the challenges that must be overcome.",
+      "pubdate": "Wed, 15 Apr 2026 18:00:03 +0000",
+      "authors": "Guillermo Valverde, Igor García-Olaizola, Giannicola Scarpa, Alejandro Pozas-Kerstjens"
     }
   }
 }

@@ -8,7 +8,28 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 17 Apr 2026 00:48:20 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Apr 2026 12:29:00 +0000</lastBuildDate>
+    <item>
+      <title>Quantum-inspired tensor networks in machine learning models</title>
+      <link>http://arxiv.org/abs/2604.14287</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Guillermo Valverde, Igor García-Olaizola, Giannicola Scarpa, Alejandro Pozas-Kerstjens&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; Tensor networks were developed in the context of many-body physics as compressed representations of multiparticle quantum states. These representations mitigate the exponential complexity of many-body systems by capturing only the most relevant dependencies. Due to the formal similarity between quantum entanglement and statistical correlations, tensor networks have recently been integrated in machine learning, operating both as alternative learning architectures and as decompositions of components of neural networks. The expectation is that the theoretical understanding of tensor networks developed within quantum many-body physics leads to novel methods that offer advantages in terms of computational efficiency, explainability, or privacy. Here we review the use of tensor networks in the context of machine learning, providing a critical assessment of the state of the art, the potential advantages, and the challenges that must be overcome.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2604.14287'&gt;arXiv:2604.14287&lt;/a&gt;] Published Wed, 15 Apr 2026 18:00:03 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2604.14287</guid>
+      <pubDate>Wed, 15 Apr 2026 18:00:03 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <title>Nontrivial three-sublattice magnetization in the easy-axis spin-1/2 XXZ antiferromagnet on the triangular lattice</title>
+      <link>http://arxiv.org/abs/2604.14767</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Masahiro Kadosawa, Masaaki Nakamura, Yukinori Ohta, Satoshi Nishimoto&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We investigate the ground-state magnetic structure of the spin-$1/2$ XXZ antiferromagnet on the triangular lattice in the easy-axis regime using the density-matrix renormalization group. By applying spiral boundary conditions, we exactly map finite $L\times L$ clusters onto one-dimensional chains while avoiding the spatial anisotropy inherent in cylindrical geometries. From symmetry-broken local magnetization profiles, we extract the three-sublattice moments and track their evolution with anisotropy. At the isotropic point, we obtain a positive sublattice moment of $0.21671$, consistent with previous numerical estimates. In the easy-axis regime, the ordered moments remain close to a zero-magnetization three-sublattice structure of the form $(2m,-m,-m)$ over a broad range of $Δ$. Extrapolation in $1/Δ$ shows that the positive sublattice moment stays well below the classical saturation value $1/2$, approaching $0.41873$ as $Δ\to\infty$, while the magnitude of the negative sublattice moment approaches $0.20832$. We further compare the energies of the Y state and the up-down-down state and find that the Y state is favored at zero field. Independent thermodynamic-limit energy calculations, performed without assuming any particular ordered pattern, yield an energy consistent with the Y-state solution. These results show that the easy-axis ground state does not simply cross over to a trivially saturated collinear Ising state, but instead remains a nontrivial three-sublattice ordered state selected from the macroscopically degenerate Ising manifold by quantum fluctuations.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2604.14767'&gt;arXiv:2604.14767&lt;/a&gt;] Published Thu, 16 Apr 2026 08:26:56 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2604.14767</guid>
+      <pubDate>Thu, 16 Apr 2026 08:26:56 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <title>Ensembles of random quantum states tunable from volume law to area law</title>
+      <link>http://arxiv.org/abs/2604.15300</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Héloïse Albot, Sebastian Paeckel&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; A standard approach to generate random pure quantum states relies on sampling from the Haar measure. However, the entanglement properties of such states present a fundamental challenge for their general applicability. Here, we introduce the $σ$-ensembles $\unicode{x2013}$ a family of random quantum states with only a single control parameter. Crucially, these states are designed such that they can be tuned between volume-law and area-law behavior, which has been a major obstacle thus far. We construct representatives of this ensemble by imposing a probability distribution on the eigenvalues of the successive subsystems, and subsequently reconstructing a compatible global state using the matrix product state (MPS) formalism. Due to their area-law entanglement, our approach circumvents the intractability of Haar-random pure states in classical simulations of quantum systems and is more representative of typical Hamiltonian ground states.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2604.15300'&gt;arXiv:2604.15300&lt;/a&gt;] Published Thu, 16 Apr 2026 17:57:19 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2604.15300</guid>
+      <pubDate>Thu, 16 Apr 2026 17:57:19 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
     <item>
       <title>Full grid solution for multi-asset options pricing with tensor networks</title>
       <link>http://arxiv.org/abs/2601.00009</link>
