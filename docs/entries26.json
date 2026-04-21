@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-21T00:48:35.800005+00:00",
+  "last_updated": "2026-04-21T12:31:56.424711+00:00",
   "entries": {
     "3e50afb600aaa14d72654c435bce0863": {
       "id": "3e50afb600aaa14d72654c435bce0863",
@@ -3488,6 +3488,78 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "e24aad60648f1059cb112515e7dc0dba": {
+      "id": "e24aad60648f1059cb112515e7dc0dba",
+      "link": "http://arxiv.org/abs/2604.18456",
+      "title": "Disorder-induced non-Gaussian states in large ensembles of cavity-coupled molecules",
+      "abstract": "We analyze vibrational dynamics in a toy model for polaritonic chemistry under collective electronic strong coupling. In a Holstein-Tavis-Cummings model, incoherently excited by a photon, we show that disorder leads to non-Gaussian states of vibrational modes on short time scales at the single-molecule level. Using exact matrix product state simulations, we demonstrate that this effect can remain robust for larger molecule numbers, implying that nuclear wave packets cannot be effectively described by thermal states. Furthermore, we compare simulations of the exact quantum dynamics with semiclassical approximations. We find that the Ehrenfest approximation can only well reproduce ensemble-averaged observables for very large system sizes. Also simulations in the truncated Wigner approximation fail to capture the non-Gaussian effects. Our work highlights the importance of disorder and genuine quantum effects in cavity-modified nuclear dynamics in polaritonic chemistry.",
+      "pubdate": "Mon, 20 Apr 2026 16:12:32 +0000",
+      "authors": "R. Schwengelbeck, M. Pandini, R. Daraban, J. Schachenmayer"
+    },
+    "2d95670b9b161e4ed2d685c171394003": {
+      "id": "2d95670b9b161e4ed2d685c171394003",
+      "link": "http://arxiv.org/abs/2604.18425",
+      "title": "Quantum quenches in a spin-1 chain with tunable symmetry",
+      "abstract": "In recent years, the dynamics of interacting quantum systems far from equilibrium have attracted significant research interest. Driven by rapid progress in quantum simulators, various non-equilibrium phenomena have now been realized experimentally. In this work, we use the time-evolving block decimation (TEBD) method to investigate the dynamics of an anisotropic spin-1 Heisenberg chain for a wide range of experimentally accessible initial states. By adjusting the parameter $J_q$ that controls the quadrupolar interaction strength, we can tune the system from a non-integrable SU(2) Heisenberg model to an integrable SU(3) Heisenberg model. We examine the local magnetization, entanglement entropy, and spin correlations, and characterize their dependence on $J_q$. We identify a new conserved quantity at the SU(3) symmetric point and provide a theoretical framework to explain our numerical observations in terms of the number of accessible states permitted by this conservation law. Our results provide a route to realize a rich array of non-equilibrium behavior in spin-1 lattice models, which can be engineered in several experimental platforms such as ultracold atoms in optical lattices.",
+      "pubdate": "Mon, 20 Apr 2026 15:43:01 +0000",
+      "authors": "Luis Eduardo Ramos-Solís, Sayan Choudhury, Freddy Jackson Poveda-Cuevas, Eduardo Ibarra-García-Padilla"
+    },
+    "57fab59c5ea0a72d5fe1f2beafb7c17d": {
+      "id": "57fab59c5ea0a72d5fe1f2beafb7c17d",
+      "link": "http://arxiv.org/abs/2604.18036",
+      "title": "Decoherence in Waveguide Quantum Electrodynamics using Matrix Product States",
+      "abstract": "We present a matrix product state (MPS) method for including decoherence processes in calculations involving waveguide quantum electrodynamics (waveguide QED) using density matrices. The approach is based on collision quantum optics, where the many-body state of the waveguide is represented as discrete time bins, which are efficiently represented using an MPS chain. Our method is a generalization of previous MPS methods, and we demonstrate how one can efficiently expand to density matrices, allowing for the inclusion of various loss processes in the form of Lindblad terms in the Liouvillian superoperator responsible for the relevant dissipation dynamics. As an application of the theory, we study various waveguide QED systems and the influence of emitter pure dephasing (which is one of the most important processes in real systems) on the light-matter interactions, including a two-level system (TLS) in a semi-infinite waveguide with time-delayed feedback, two spatially separated TLSs with finite delays, and finally the scattering of few-photon Fock pulses on a TLS. In addition to emitter pure dephasing, we also show how to include off-chip radiative decay, and show how it differs qualitatively from pure dephasing.",
+      "pubdate": "Mon, 20 Apr 2026 10:01:10 +0000",
+      "authors": "Matias Bundgaard-Nielsen, Matthew Kozma, Sofia Arranz Regidor, Stephen Hughes"
+    },
+    "848afe625cb06e631f832a7a4dec7593": {
+      "id": "848afe625cb06e631f832a7a4dec7593",
+      "link": "http://arxiv.org/abs/2604.17874",
+      "title": "Ground state preparation in two-dimensional pure $\\mathbb{Z}_2$ lattice gauge theory via deterministic quantum imaginary time evolution",
+      "abstract": "In this paper, we apply the deterministic quantum imaginary time evolution (QITE) algorithm to obtain the ground state of a two-dimensional pure $\\mathbb{Z}_2$ lattice gauge theory. We first construct the set of Pauli operators commuting with Gauss's law constraints, generalizing a previous result. This makes the deterministic QITE gauge-invariant and reduces both the measurement and gate costs significantly without adding extra algorithm errors in the QITE. Then, the classical numerical simulation of the deterministic QITE using tensor networks is performed, and the results are compared with the density matrix renormalization group (DMRG) to evaluate the accuracy of the algorithm. Specifically, we investigate the coupling and system size dependence, and find that the deterministic QITE can achieve a relative error of less than $0.1\\%$ up to a twelve-plaquette system and coupling values in a regime that we study. Furthermore, the error dependence on the number of time steps is studied and discussed.",
+      "pubdate": "Mon, 20 Apr 2026 06:37:05 +0000",
+      "authors": "Minoru Sekiyama, Lento Nagano"
+    },
+    "00340dd1b7ad92002ed137c3d507ecb3": {
+      "id": "00340dd1b7ad92002ed137c3d507ecb3",
+      "link": "http://arxiv.org/abs/2604.17812",
+      "title": "Pairing properties of correlated three-leg ladders with strong interchain couplings near 1/3 filling",
+      "abstract": "We investigate the ground-state properties of correlated three-leg ladders near 1/3 filling. We apply the density-matrix renormalization group method to the three-leg t-J ladder with strong interchain couplings and evaluate its pairing nature. When holes are doped into the spin-gapped state at 1/3 filling, we find that pair correlations develop with power-law decays while spin correlations decay exponentially. On the other hand, doping of electrons into the 1/3-filled state does not give rise to substantial pair correlations. We also discuss the hole-doped state in the three-leg Hubbard model to compare it with the pairing state in the t-J model. Our numerical demonstrations provide insights into the electronic properties of trilayer nickelate superconductors.",
+      "pubdate": "Mon, 20 Apr 2026 05:10:49 +0000",
+      "authors": "Yushi Yamada, Tatsuya Kaneko, Masataka Kakoi, Ryota Ueda, Kazuhiko Kuroki"
+    },
+    "235d7ccd3249770459b1c396b01cd9cb": {
+      "id": "235d7ccd3249770459b1c396b01cd9cb",
+      "link": "http://arxiv.org/abs/2604.17563",
+      "title": "Composition and tensor train structure in polynomial optimization",
+      "abstract": "We study polynomial optimization problems whose objective has a composition or tensor train structure. These polynomials can be evaluated as a sequence of maps, giving rise to intermediate variables (``states'') of dimension lower than the ambient dimension. Structures like these arise naturally in dynamical systems, Markov chains, and neural networks. We develop two moment-SOS (sums of squares) hierarchies that exploit this composition structure in different ways. The first one, termed state-lifting chordal, is based on the correlative sparsity graph of the problem. The second one, termed state-lifting push-forward, encodes the structure at the level of the measures directly. Numerical experiments demonstrate that the proposed methods can compute certified bounds for problems with hundreds or even a thousand variables. To illustrate the versatility of the hierarchies we apply them to Markov chain optimization, quantum optimal control, and neural networks.",
+      "pubdate": "Sun, 19 Apr 2026 18:03:17 +0000",
+      "authors": "Llorenç Balada Gaggioli, Didier Henrion, Milan Korda"
+    },
+    "0f2fcb46f606477c326ccec32f160084": {
+      "id": "0f2fcb46f606477c326ccec32f160084",
+      "link": "http://arxiv.org/abs/2604.16999",
+      "title": "Effective theory of quantum phases in the dipolar planar rotor chain",
+      "abstract": "In this work, we develop a theoretical description of the collective behavior of interacting dipolar planar rotors by using time independent perturbation theory and a small angle quadratic approximation. The ground state properties for both the ordered and disordered quantum phases of the system are directly calculated and analyzed. Time-independent perturbation theory is shown to be appropriate for the disordered phase. For the ordered phase, we construct a quadratic approximation based on the stable equilibrium configurations of the dipolar ordering; we show that the inclusion of the quartic terms from the expansion of the potential energy are essential to correct the shift in the energy spectrum due to quantization ambiguities. Numerical techniques such as Exact Diagonalization and Density Matrix Renormalization Group are used for the benchmark the quality of both approximations.",
+      "pubdate": "Sat, 18 Apr 2026 13:59:04 +0000",
+      "authors": "Estêvão V. B. de Oliveira, Muhammad Shaeer Moeed, Pierre-Nicholas Roy"
+    },
+    "7cce740edece5aee09858f0847f9b783": {
+      "id": "7cce740edece5aee09858f0847f9b783",
+      "link": "http://arxiv.org/abs/2604.16578",
+      "title": "Verifying random matrix product states with autoregressive local measurements",
+      "abstract": "Matrix product states (MPS) are a central language for one-dimensional quantum matter and a practical target for near-term quantum simulators and variational algorithms. Yet, while substantial effort has focused on preparing MPS with shallow circuits, scalable methods to \\emph{verify} that a many-body device has actually produced the intended state remain underdeveloped. Direct fidelity estimation (DFE) relies only on local Pauli measurements, but in many-body settings it suffers an exponential classical overhead from the preprocessing needed to sample Pauli strings. We eliminate this obstacle by introducing an \\emph{autoregressive} importance sampler that draws Pauli strings sequentially from efficiently computable conditional distributions, reducing the per-shot classical overhead to linear scaling in the number of qubits. We further develop a grouped extension that constructs qubit-wise commuting measurement settings via a \\emph{sorting string} and simultaneously estimates the entire commuting group from a single setting, significantly reducing estimator variance while preserving efficient postprocessing. Our approach extends naturally to matrix product operators (MPO), enabling scalable verification of tensor-network states and observables in long one-dimensional quantum systems. We utilize random MPS as a natural benchmark for generic 1D entangled states.",
+      "pubdate": "Fri, 17 Apr 2026 13:12:27 +0000",
+      "authors": "Hyunho Cha, Subin Kim, Jungwoo Lee"
+    },
+    "14e29c8aed58e9f38b1cff62955b4a78": {
+      "id": "14e29c8aed58e9f38b1cff62955b4a78",
+      "link": "http://arxiv.org/abs/2604.16527",
+      "title": "Late Breaking Results: Hardware-Aware Compilation Reshapes Trainability in Variational Quantum Circuits",
+      "abstract": "Variational quantum circuits (VQCs) are typically evaluated at the logical design level when analyzing trainability. However, execution on real quantum devices requires hardware-aware compilation (transpilation) to satisfy qubit connectivity and native gate-set constraints. In this paper, we examine how transpilation can alter the gradient statistics. Using parameter-shift differentiation and gradient variance estimation, we compare logical and transpiled circuits across three representative ansatz families: EfficientSU2 (dense entanglement), TTN (tree tensor network), and RealAmplitudes (linear entanglement). We observe architecture-dependent trainability shifts where densely entangling circuits exhibit pronounced gradient reshaping in shallow regimes, structured tensor-network circuits remain comparatively robust, and linear architectures show mixed behavior. Deep circuits across all families display minimal sensitivity to hardware-aware compilation. These findings demonstrate that transpilation acts as an implicit structural transformation of the optimization landscape, motivating compilation-aware analysis and co-design for VQCs.",
+      "pubdate": "Thu, 16 Apr 2026 14:08:02 +0000",
+      "authors": "Muhammad Kashif, Muhammad Shafique"
     }
   }
 }
