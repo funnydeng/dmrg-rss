@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-22T00:45:46.449828+00:00",
+  "last_updated": "2026-04-22T12:30:46.986924+00:00",
   "entries": {
     "e24aad60648f1059cb112515e7dc0dba": {
       "id": "e24aad60648f1059cb112515e7dc0dba",
@@ -3560,6 +3560,54 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "a84e6bb80d16051d1e955d155318a0bc": {
+      "id": "a84e6bb80d16051d1e955d155318a0bc",
+      "link": "http://arxiv.org/abs/2604.19625",
+      "title": "Coherent-State Propagation: A Computational Framework for Simulating Bosonic Quantum Systems",
+      "abstract": "We introduce coherent-state propagation, a computational framework for simulating bosonic systems. We focus on bosonic circuits composed of displaced linear optics augmented by Kerr nonlinearities, a universal model of bosonic quantum computation that is also physically motivated by driven Bose-Hubbard dynamics. The method works in the Schrödinger picture representing the evolving state as a sparse superposition of coherent states. We develop approximation strategies that keep the simulation cost tractable in physically relevant regimes, notably when the number of Kerr gates is small or the Kerr nonlinearities are weak, and prove rigorous guarantees for both observable estimation and sampling. In particular, bosonic circuits with logarithmically many Kerr gates admit quasi-polynomial-time classical simulation at exponentially small error in trace distance. We further identify a weak-nonlinearity regime in which the runtime is polynomial for arbitrarily small constant precision. We complement these results with numerical benchmarks on the Bose-Hubbard model with all-to-all connectivity. The method reproduces Fock-basis and matrix-product-state reference data, suggesting that it offers a useful route to the classical simulation of bosonic systems.",
+      "pubdate": "Tue, 21 Apr 2026 16:13:57 +0000",
+      "authors": "Nikita Guseynov, Zoë Holmes, Armando Angrisani"
+    },
+    "cb2b7d5dc18bef1a4fd922fa687a393e": {
+      "id": "cb2b7d5dc18bef1a4fd922fa687a393e",
+      "link": "http://arxiv.org/abs/2604.19498",
+      "title": "Termination-Controlled Fractionalization and Hybridization at Topological Interfaces in Organic Spin Chains",
+      "abstract": "A single organic spin platform hosts both dimerized $S=\\tfrac{1}{2}$ and effective Haldane $S=1$ sectors, linked by bond-texture inversion. At the junction, the fractional mode is controlled by termination parity: quenched by local fusion at one termination and released as an uncompensated spin-$\\tfrac{1}{2}$-like degree of freedom at the parity-shifted one. Two such internal boundary modes of a finite embedded Haldane domain hybridize with an exponentially decaying splitting, establishing termination parity as a design principle for engineering and coupling fractional boundary modes.",
+      "pubdate": "Tue, 21 Apr 2026 14:19:30 +0000",
+      "authors": "Khalid N. Anindya, Hong Guo"
+    },
+    "5f924d8a0879f7522a2cfec077f2f859": {
+      "id": "5f924d8a0879f7522a2cfec077f2f859",
+      "link": "http://arxiv.org/abs/2604.19161",
+      "title": "Spin-orbit-induced quantum chiral phases",
+      "abstract": "The scalar spin chirality (SSC), whose nonzero value $\\langle {\\bf S}_i \\cdot ({\\bf S}_j \\times {\\bf S}_k) \\rangle \\neq 0$ implies the breaking of time-reversal and certain point-group symmetries in the ground state, is a key quantity characterizing chiral magnetism in both classical and quantum settings. The classical SSC is manifested, for instance, in skyrmion crystal phase, while the quantum SSC is still highly sought after in various frustrated spin-1/2 models. An interesting possibility that has not been explored so far is the case in which SSC is symmetry-wise allowed, yet remains zero classically due to the collinear or coplanar arrangement of spins, but is generated by virtue of quantum fluctuation. We demonstrate the existence of precisely such a phase in a spin-1/2 triangular-lattice model with XXZ interaction, spin-orbit-induced exchange interactions, and an external magnetic field. Using iDMRG, we thoroughly map out the phase diagram of the model and identify several phases with coexisting magnetic order and SSC. The nonzero SSC arises despite the classical magnetic order being collinear or coplanar. We provide detailed magnon analysis to ascribe its origin to quantum fluctuations around classical magnetic order. The estimate of SSC from magnon analysis agrees with iDMRG results quantitatively. We map out the magnon spectrum and its Berry curvature, culminating in the prediction of finite thermal Hall conductivity in these phases with SSC.",
+      "pubdate": "Tue, 21 Apr 2026 07:15:43 +0000",
+      "authors": "Daesik Kim, Hyojae Jeon, Seongjun Park, Seungho Lee, Jung Hoon Han, Hyun-Yong Lee"
+    },
+    "8932c12bdce093c49959201986009ca7": {
+      "id": "8932c12bdce093c49959201986009ca7",
+      "link": "http://arxiv.org/abs/2604.18776",
+      "title": "Multiscale Structural Reliability Analysis in high dimensions with Tensor Trains and Physics-Augmented Neural Networks",
+      "abstract": "Structural reliability evaluation for composites constitutes a fundamentally high-dimensional multiscale problem, as microscale material uncertainties must propagate to the macroscale and can be quantified as high-dimensional random fields. Conventional approaches are computationally intractable, as they rely on repeatedly solving coupled partial differential equation systems across scales while contending with the exponential complexity inherent in high-dimensional uncertainty quantification. This work introduces a scalable and physically consistent framework that addresses both bottlenecks simultaneously in the case of separation of scales and (anisotropic) linear elasticity. In particular, we couple a physics-augmented Voigt--Reuss Neural Network (VRNN) with the Deep Inverse Rosenblatt Transport (DIRT) method to estimate the posterior probability of structural failure. The VRNN is used to resolve the computationally expensive FE$^2$ scheme by providing a near-instantaneous evaluation of the homogenized stiffness tensor that is guaranteed to be symmetric, positive-definite, and strictly bounded within the Voigt--Reuss limits, enabling fast evaluation of the homogenized responses. The DIRT method constructs a sequence of functional tensor train approximations to efficiently store an approximation of the high-dimensional optimal importance sampling distribution for estimating the probability of failure. This mitigates the curse of dimensionality arising from the Karhunen--Loève expansion of the random fields. The framework is demonstrated on a three-dimensional heterogeneous benchmark problem, where the uncertainty in the microscale material properties is characterized by a Bayesian posterior distribution obtained from limited strain observations. Our results show that the proposed framework can provide low-variance estimates of failure probabilities in dimensions up to 150.",
+      "pubdate": "Mon, 20 Apr 2026 19:33:50 +0000",
+      "authors": "Aryan Tyagi, Alex de Beer, Tiangang Cui, Jan N. Fuhg"
+    },
+    "ad8c7ac1e3beef118547eaa1c6a80b0d": {
+      "id": "ad8c7ac1e3beef118547eaa1c6a80b0d",
+      "link": "http://arxiv.org/abs/2604.18705",
+      "title": "Conformal Data for the $O(2)$ Wilson-Fisher CFT in $(2+1)$-Dimensional Spacetime from Exact Diagonalization and Matrix Product States on the Fuzzy Sphere",
+      "abstract": "We study at zero temperature a microscopic quantum spin-1 model on the fuzzy sphere that realizes the $O(2)$ Wilson-Fisher conformal field theory (CFT) in $(2+1)$-dimensional spacetime at a quantum critical point. Here, we use the fuzzy-sphere regularization as it preserves the full spatial $SO(3)$ rotational symmetry of the CFT, enabling the state-operator correspondence that maps energy eigenstates directly to CFT operators. Using exact diagonalization (ED) and matrix product state (MPS) techniques combined with conformal perturbation theory (CPT), we extract conformal data including scaling dimensions and operator product expansion (OPE) coefficients. We identify 32 primary operators and their descendants, organized by the conserved $O(2)$ charge $S^{z}$ and spatial angular momentum $L$. Our numerical results for the scaling dimensions of the lowest primary operators show good agreement with conformal bootstrap predictions. We verify predictions from the large charge expansion, which provides systematic predictions for operators carrying large $U(1)$ charge, connecting the Goldstone mode physics in the ordered phase to phonon primaries at the critical point.",
+      "pubdate": "Mon, 20 Apr 2026 18:03:56 +0000",
+      "authors": "Arjun Dey, Loic Herviou, Christopher Mudry, Slava Rychkov, Andreas Martin Läuchli"
+    },
+    "df3c86db8ff8a09376c69e4dcaa29bea": {
+      "id": "df3c86db8ff8a09376c69e4dcaa29bea",
+      "link": "http://arxiv.org/abs/2604.18711",
+      "title": "Large Scale Optimization of Disordered Hubbard Models through Tensor and Neural Networks",
+      "abstract": "We theoretically demonstrate a practical method for tuning randomly disordered 2D quantum-dot grids underlying spin qubit platforms using vision-based neural networks trained on tensor-network generated charge-stability data. We show that a simulatable local $3\\times 3$ window already contains sufficient information to tune the central dot within a much larger array, thereby validating a sliding-window approach in which one tunes a local region and then translates that window across the lattice to calibrate a larger device. This avoids the computationally intractable necessity for obtaining the ground states for large systems with exponentially large Hilbert space. For the experimentally relevant case where only the on-site disorder is unknown, the neural network predicts the relevant parameters with very high fidelity in the $3\\times 3$ setting [$R^2 >0.99$], and after fine tuning on only a small number of larger-device samples, it retains high accuracy for the central dot of a $5\\times 5$ plaquette [$R^2\\approx 0.98$]. When all the dots parameters are treated as unknown, prediction of the on-site disorder remains robust [$R^2>0.9$ for both $3\\times 3$ and $5\\times 5$], although the remaining parameters are substantially more difficult to infer from the same charge-stability data. This shows that the most practically important disorder parameter for tuning can still be inferred reliably even in the fully disordered setting for the computationally difficult 5x5 arrays.",
+      "pubdate": "Mon, 20 Apr 2026 18:12:27 +0000",
+      "authors": "Jacob R. Taylor, Sankar Das Sarma"
     }
   }
 }
