@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-24T00:50:47.783510+00:00",
+  "last_updated": "2026-04-24T12:30:06.008148+00:00",
   "entries": {
     "49bae15cf8ddfdb7a978f169fdee25c8": {
       "id": "49bae15cf8ddfdb7a978f169fdee25c8",
@@ -3664,6 +3664,30 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "3ea6d8069fe29dddd64d9435af2fa9fc": {
+      "id": "3ea6d8069fe29dddd64d9435af2fa9fc",
+      "link": "http://arxiv.org/abs/2604.21919",
+      "title": "Algorithmic Locality via Provable Convergence in Quantum Tensor Networks",
+      "abstract": "Belief propagation has recently emerged as a powerful framework for evaluating tensor networks in higher dimensions, combining computational efficiency with provable analytical guarantees. In this work, we develop the first end-to-end theory of tensor network belief propagation for a class of projected entangled pair states satisfying \\emph{strong injectivity}. We show that when the injectivity parameter exceeds a constant threshold, BP fixed points can be found efficiently, and a cluster-corrected BP algorithm computes physical quantities to $1/\\mathrm{poly}(N)$ error in $\\mathrm{poly}(N)$ time for an $N$ qubit system. We identify a striking phenomenon we term \\emph{algorithmic locality}: local perturbations of the tensor network affect the BP fixed point with an influence decaying rapidly with distance. As a result, updates to the fixed point after a local perturbation can be carried out using only local recomputation. Moreover, through the cluster expansion, this locality extends to observables, implying that local expectation values can be approximated from local data with controlled accuracy. Our results provide the first rigorous guarantee for the effectiveness of tensor-network belief propagation on a wide class of many-body states, bridging a gap between widely used numerical practice and provable algorithmic performance.",
+      "pubdate": "Thu, 23 Apr 2026 17:58:15 +0000",
+      "authors": "Siddhant Midha, Yifan F. Zhang, Daniel Malz, Dmitry A. Abanin, Sarang Gopalakrishnan"
+    },
+    "46478a07452648be2db40f6a042f126c": {
+      "id": "46478a07452648be2db40f6a042f126c",
+      "link": "http://arxiv.org/abs/2604.21908",
+      "title": "Efficient Classical Simulation of Heuristic Peaked Quantum Circuits",
+      "abstract": "Peaked quantum circuits, whose output distribution is sharply concentrated on a single bitstring, have emerged as a promising candidate for verifiable quantum advantage, as the correctness of the quantum output can be checked by simply comparing against the known peak. Recent work by Gharibyan et al. arXiv:2510.25838 claimed heuristic quantum advantage using peaked circuits executed on Quantinuum's 56-qubit H2 processor. These peaked circuits concentrate their output on a single hidden bitstring by training a shallow simulable circuit variationally and inserting an obfuscated permutation to increase the depth to a level that makes classical simulation intractable, with estimated runtimes of years for the largest instances. We show that these circuits can be efficiently simulated classically. We describe a method that efficiently performs a full tensor network contraction, allowing near-exact sampling and extraction of the peaked bitstring. The method exploits the mirrored structure of the circuit and iteratively cancels both halves into a Matrix Product Operator (MPO), and avoids the obfuscated permutation by greedily reducing the MPO bond dimension through a process we call unswapping. The method can fully contract and extract the peak of the largest circuit in approximately one hour on a single GPU, around half the time it took to run on the quantum hardware.",
+      "pubdate": "Thu, 23 Apr 2026 17:51:50 +0000",
+      "authors": "David Kremer, Nicolas Dupuis"
+    },
+    "437e00621d0498608426de44bf1fb395": {
+      "id": "437e00621d0498608426de44bf1fb395",
+      "link": "http://arxiv.org/abs/2604.20961",
+      "title": "Ansätz Expressivity and Optimization in Variational Quantum Simulations of Transverse-field Ising Model Across System Sizes",
+      "abstract": "We explore the application of the Variational Quantum Eigensolver (VQE) to investigate the ground state properties, particularly the entanglement entropy, of the Transverse Field Ising Model (TFIM) in one, two, and three dimensions, considering systems of up to 27 spins. By benchmarking VQE results against exact diagonalization and analyzing the entanglement properties across different system sizes and geometries, we assess the algorithm's effectiveness in capturing critical phenomena. Using results of TFIM, we also investigate how VQE's expressivity and optimization influence the simulation of highly entangled quantum states. We employ different ansätze: the hardware-efficient EfficientSU2 from Qiskit, the physics-inspired Hamiltonian Variational ansätz (HVA) and HVA with symmetry breaking, and benchmark their performance using energy variance, entanglement entropy, spin correlations, and magnetization. We further discuss the implications for scaling these methods to larger quantum systems.",
+      "pubdate": "Wed, 22 Apr 2026 18:00:11 +0000",
+      "authors": "Ashutosh P. Tripathi, Nilmani Mathur, Vikram Tripathi"
     }
   }
 }

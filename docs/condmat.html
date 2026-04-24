@@ -536,10 +536,43 @@
         </div>
     </div>
     
-<p><em>Generated on 2026-04-24 00:50:48</em></p>
-<p>Total papers: 458
+<p><em>Generated on 2026-04-24 12:30:06</em></p>
+<p>Total papers: 461
 </p>
 <h2>Recent Papers</h2>
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2604.21919'>Algorithmic Locality via Provable Convergence in Quantum Tensor Networks</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Siddhant Midha, Yifan F. Zhang, Daniel Malz, Dmitry A. Abanin, Sarang Gopalakrishnan</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2604.21919 | <strong>Date:</strong> 2026-04-23</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> Belief propagation has recently emerged as a powerful framework for evaluating tensor networks in higher dimensions, combining computational efficiency with provable analytical guarantees. In this work, we develop the first end-to-end theory of tensor network belief propagation for a class of projected entangled pair states satisfying \emph{strong injectivity}. We show that when the injectivity parameter exceeds a constant threshold, BP fixed points can be found efficiently, and a cluster-corrected BP algorithm computes physical quantities to <span class="katex-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn><mi mathvariant="normal">/</mi><mrow><mi mathvariant="normal">p</mi><mi mathvariant="normal">o</mi><mi mathvariant="normal">l</mi><mi mathvariant="normal">y</mi></mrow><mo stretchy="false">(</mo><mi>N</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">1/\mathrm{poly}(N)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">1/</span><span class="mord"><span class="mord mathrm" style="margin-right:0.0139em;">poly</span></span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right:0.109em;">N</span><span class="mclose">)</span></span></span></span></span> error in <span class="katex-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mrow><mi mathvariant="normal">p</mi><mi mathvariant="normal">o</mi><mi mathvariant="normal">l</mi><mi mathvariant="normal">y</mi></mrow><mo stretchy="false">(</mo><mi>N</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">\mathrm{poly}(N)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathrm" style="margin-right:0.0139em;">poly</span></span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right:0.109em;">N</span><span class="mclose">)</span></span></span></span></span> time for an <span class="katex-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>N</mi></mrow><annotation encoding="application/x-tex">N</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.109em;">N</span></span></span></span></span> qubit system. We identify a striking phenomenon we term \emph{algorithmic locality}: local perturbations of the tensor network affect the BP fixed point with an influence decaying rapidly with distance. As a result, updates to the fixed point after a local perturbation can be carried out using only local recomputation. Moreover, through the cluster expansion, this locality extends to observables, implying that local expectation values can be approximated from local data with controlled accuracy. Our results provide the first rigorous guarantee for the effectiveness of tensor-network belief propagation on a wide class of many-body states, bridging a gap between widely used numerical practice and provable algorithmic performance.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2604.21908'>Efficient Classical Simulation of Heuristic Peaked Quantum Circuits</a></h3>
+                    <p class='meta'><strong>Authors:</strong> David Kremer, Nicolas Dupuis</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2604.21908 | <strong>Date:</strong> 2026-04-23</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> Peaked quantum circuits, whose output distribution is sharply concentrated on a single bitstring, have emerged as a promising candidate for verifiable quantum advantage, as the correctness of the quantum output can be checked by simply comparing against the known peak. Recent work by Gharibyan et al. arXiv:2510.25838 claimed heuristic quantum advantage using peaked circuits executed on Quantinuum's 56-qubit H2 processor. These peaked circuits concentrate their output on a single hidden bitstring by training a shallow simulable circuit variationally and inserting an obfuscated permutation to increase the depth to a level that makes classical simulation intractable, with estimated runtimes of years for the largest instances. We show that these circuits can be efficiently simulated classically. We describe a method that efficiently performs a full tensor network contraction, allowing near-exact sampling and extraction of the peaked bitstring. The method exploits the mirrored structure of the circuit and iteratively cancels both halves into a Matrix Product Operator (MPO), and avoids the obfuscated permutation by greedily reducing the MPO bond dimension through a process we call unswapping. The method can fully contract and extract the peak of the largest circuit in approximately one hour on a single GPU, around half the time it took to run on the quantum hardware.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2604.20961'>Ansätz Expressivity and Optimization in Variational Quantum Simulations of Transverse-field Ising Model Across System Sizes</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Ashutosh P. Tripathi, Nilmani Mathur, Vikram Tripathi</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2604.20961 | <strong>Date:</strong> 2026-04-22</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> We explore the application of the Variational Quantum Eigensolver (VQE) to investigate the ground state properties, particularly the entanglement entropy, of the Transverse Field Ising Model (TFIM) in one, two, and three dimensions, considering systems of up to 27 spins. By benchmarking VQE results against exact diagonalization and analyzing the entanglement properties across different system sizes and geometries, we assess the algorithm's effectiveness in capturing critical phenomena. Using results of TFIM, we also investigate how VQE's expressivity and optimization influence the simulation of highly entangled quantum states. We employ different ansätze: the hardware-efficient EfficientSU2 from Qiskit, the physics-inspired Hamiltonian Variational ansätz (HVA) and HVA with symmetry breaking, and benchmark their performance using energy variance, entanglement entropy, spin correlations, and magnetization. We further discuss the implications for scaling these methods to larger quantum systems.
+                    </div>
+                </article>
+                <hr>
+                
 
                 <article class='paper-entry'>
                     <h3><a href='http://arxiv.org/abs/2604.20828'>Arrow of Time as an indicator of Measurement-Induced Phase Transitions</a></h3>
