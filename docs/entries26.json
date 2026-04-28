@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-04-27T12:42:11.731007+00:00",
+  "last_updated": "2026-04-28T00:53:34.915512+00:00",
   "entries": {
+    "990e1adf1623d66e49a0549b42c7b554": {
+      "id": "990e1adf1623d66e49a0549b42c7b554",
+      "link": "http://arxiv.org/abs/2604.22718",
+      "title": "Replica Tensor Train",
+      "abstract": "We describe a numerical many-body technique that is based on both tensor networks and quantum Monte Carlo. The variational ansatz is a tensor network that can harvest volume-law entanglement. It is constructed from a tensor train to which one applies a set of non-local operators that force several indices of the tensor train to represent the same physical index, hence its name -- replica tensor train (RTT). From the tensor network toolbox, it inherits the possibility to make linear combinations of these states and apply a certain class of operators. We can therefore find the ground-state of a local Hamiltonian in a purely algebraic way as in standard tensor network algorithms -- i.e. without using gradient descent methods. On the other hand, the volume-law structure forbids calculating physical observables directly. In much the same way as on a quantum computer where one can prepare a state but can only sample it at the end, here we have to use Markov Chain Monte Carlo to compute the observables. We further show that the approach can be extended to build Krylov-subspace ground-state methods within the variational manifold. We illustrate the different algorithms on a two-dimensional spin model with a transverse magnetic field, which can be solved by this approach at low computational cost.",
+      "pubdate": "Fri, 24 Apr 2026 17:07:07 +0000",
+      "authors": "Miha Srdinsek, Gabriel Gouraud, Xavier Waintal"
+    },
+    "b5760b051650b76d8aba1ff7c70e7982": {
+      "id": "b5760b051650b76d8aba1ff7c70e7982",
+      "link": "http://arxiv.org/abs/2604.22343",
+      "title": "Dynamic Moiré Potentials and Robust Wigner Crystallization in Large-Scale Twisted Transition Metal Dichalcogenides",
+      "abstract": "Understanding the dynamical evolution of large-scale moiré systems is crucial for connecting theoretical predictions with experimental observations. Here we develop a machine-learning-based workflow, integrating DeePMD and DeepH frameworks with first-principles calculations, to efficiently investigate time-dependent structural and electronic responses in twisted bilayer transition metal dichalcogenides (TMDs) with experimentally relevant moiré supercells containing over 3000 atoms. Using $\\mathrm{WS_2}$ as a representative system, we show that low-temperature lattice vibrations and relaxation deepen the moiré potential wells, narrow the lowest conduction band, and facilitate the formation of strongly localized electronic states. Based on DFT-derived moiré potentials that incorporate these dynamical effects, density-matrix-renormalization-group (DMRG) simulations reveal robust Wigner crystallization and a kagomé-patterned three-electron state, consistent with recent experimental observations. Our workflow provides a practical route for exploring large moiré supercells beyond static configurations and offers new insight into the interplay between lattice dynamics, electronic localization, and emergent correlated states in twisted two-dimensional materials.",
+      "pubdate": "Fri, 24 Apr 2026 08:19:03 +0000",
+      "authors": "Yifan Ke, Chuanjing Zeng, Xinming Qin, Wei-Lin Tu, Wei Hu, Jinglong Yang"
+    },
     "3ea6d8069fe29dddd64d9435af2fa9fc": {
       "id": "3ea6d8069fe29dddd64d9435af2fa9fc",
       "link": "http://arxiv.org/abs/2604.21919",
@@ -3688,22 +3704,6 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
-    },
-    "990e1adf1623d66e49a0549b42c7b554": {
-      "id": "990e1adf1623d66e49a0549b42c7b554",
-      "link": "http://arxiv.org/abs/2604.22718",
-      "title": "Replica Tensor Train",
-      "abstract": "We describe a numerical many-body technique that is based on both tensor networks and quantum Monte Carlo. The variational ansatz is a tensor network that can harvest volume-law entanglement. It is constructed from a tensor train to which one applies a set of non-local operators that force several indices of the tensor train to represent the same physical index, hence its name -- replica tensor train (RTT). From the tensor network toolbox, it inherits the possibility to make linear combinations of these states and apply a certain class of operators. We can therefore find the ground-state of a local Hamiltonian in a purely algebraic way as in standard tensor network algorithms -- i.e. without using gradient descent methods. On the other hand, the volume-law structure forbids calculating physical observables directly. In much the same way as on a quantum computer where one can prepare a state but can only sample it at the end, here we have to use Markov Chain Monte Carlo to compute the observables. We further show that the approach can be extended to build Krylov-subspace ground-state methods within the variational manifold. We illustrate the different algorithms on a two-dimensional spin model with a transverse magnetic field, which can be solved by this approach at low computational cost.",
-      "pubdate": "Fri, 24 Apr 2026 17:07:07 +0000",
-      "authors": "Miha Srdinsek, Gabriel Gouraud, Xavier Waintal"
-    },
-    "b5760b051650b76d8aba1ff7c70e7982": {
-      "id": "b5760b051650b76d8aba1ff7c70e7982",
-      "link": "http://arxiv.org/abs/2604.22343",
-      "title": "Dynamic Moiré Potentials and Robust Wigner Crystallization in Large-Scale Twisted Transition Metal Dichalcogenides",
-      "abstract": "Understanding the dynamical evolution of large-scale moiré systems is crucial for connecting theoretical predictions with experimental observations. Here we develop a machine-learning-based workflow, integrating DeePMD and DeepH frameworks with first-principles calculations, to efficiently investigate time-dependent structural and electronic responses in twisted bilayer transition metal dichalcogenides (TMDs) with experimentally relevant moiré supercells containing over 3000 atoms. Using $\\mathrm{WS_2}$ as a representative system, we show that low-temperature lattice vibrations and relaxation deepen the moiré potential wells, narrow the lowest conduction band, and facilitate the formation of strongly localized electronic states. Based on DFT-derived moiré potentials that incorporate these dynamical effects, density-matrix-renormalization-group (DMRG) simulations reveal robust Wigner crystallization and a kagomé-patterned three-electron state, consistent with recent experimental observations. Our workflow provides a practical route for exploring large moiré supercells beyond static configurations and offers new insight into the interplay between lattice dynamics, electronic localization, and emergent correlated states in twisted two-dimensional materials.",
-      "pubdate": "Fri, 24 Apr 2026 08:19:03 +0000",
-      "authors": "Yifan Ke, Chuanjing Zeng, Xinming Qin, Wei-Lin Tu, Wei Hu, Jinglong Yang"
     }
   }
 }
