@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-29T00:54:54.349497+00:00",
+  "last_updated": "2026-04-29T12:46:52.548679+00:00",
   "entries": {
     "503b10473176be5d650392ff6a60046f": {
       "id": "503b10473176be5d650392ff6a60046f",
@@ -3768,6 +3768,78 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "0bce2f0140d455c885536d3a0ba024b8": {
+      "id": "0bce2f0140d455c885536d3a0ba024b8",
+      "link": "http://arxiv.org/abs/2604.25755",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "3e2ab656e2ed46af389425c5c3b23faf": {
+      "id": "3e2ab656e2ed46af389425c5c3b23faf",
+      "link": "http://arxiv.org/abs/2604.25631",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "82251fa593dbc193688fb856296b1d7e": {
+      "id": "82251fa593dbc193688fb856296b1d7e",
+      "link": "http://arxiv.org/abs/2604.25610",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "83d3d02c0c2b1c8d6df2567ed7c058da": {
+      "id": "83d3d02c0c2b1c8d6df2567ed7c058da",
+      "link": "http://arxiv.org/abs/2604.25532",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "e2ac0168c8b64ddae9f68887af15e08c": {
+      "id": "e2ac0168c8b64ddae9f68887af15e08c",
+      "link": "http://arxiv.org/abs/2604.25493",
+      "title": "Non-magnetic floating phases in frustrated Haldane chains with a single-ion anisotropy",
+      "abstract": "We investigate the effect of a single-ion anisotropy on the bilinear-biquadratic spin-1 J1-J2 chain, focusing on the quantum phase transitions out of the trimerized phase. Using large-scale density matrix renormalization group simulations, we uncover a rich phase diagram comprising five gapped phases and, remarkably, two critical floating phases. These incommensurate Luttinger liquid phases emerge from the proliferation of non-magnetic domains - 0-states and dimers - within a trimerized background and are confined to the zero magnetization sector, while magnetic excitations remain gapped. We show that the transition between the topological Haldane phase and the floating phases are governed by a composite critical line with central charge c=2, consistent with a coexistence of magnetic and non-magnetic critical modes. Our results shed new light on the long-standing problem of the Haldane-trimerized transition.",
+      "pubdate": "Tue, 28 Apr 2026 10:53:20 +0000",
+      "authors": "Bowy M. La Riviere, Natalia Chepiga"
+    },
+    "37acf934f2e6c4d09dbaa45aae2bd16d": {
+      "id": "37acf934f2e6c4d09dbaa45aae2bd16d",
+      "link": "http://arxiv.org/abs/2604.25060",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "ca2023755f4b4a0dfb58d2d92ae4591e": {
+      "id": "ca2023755f4b4a0dfb58d2d92ae4591e",
+      "link": "http://arxiv.org/abs/2604.24889",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "0417bb74c9a792f2ba307ef5e122c986": {
+      "id": "0417bb74c9a792f2ba307ef5e122c986",
+      "link": "http://arxiv.org/abs/2604.24887",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "0f1cb8730c9c64617b4d60403f082f07": {
+      "id": "0f1cb8730c9c64617b4d60403f082f07",
+      "link": "http://arxiv.org/abs/2604.24868",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
     }
   }
 }
