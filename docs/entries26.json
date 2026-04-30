@@ -1,6 +1,38 @@
 {
-  "last_updated": "2026-04-30T00:55:04.812662+00:00",
+  "last_updated": "2026-04-30T12:41:41.054431+00:00",
   "entries": {
+    "0bce2f0140d455c885536d3a0ba024b8": {
+      "id": "0bce2f0140d455c885536d3a0ba024b8",
+      "link": "http://arxiv.org/abs/2604.25755",
+      "title": "Quantum-Inspired Robust and Scalable SAR Object Classification",
+      "abstract": "SAR image classification naturally has to deal with huge noise and a high dynamic range particularly requiring robust classification models. Additionally, the deployment of these models on edge devices, such as drones and military aircraft, requires a careful balance between model size and classification accuracy. This study explores the potential of tensor networks to meet these robustness requirements, specifically evaluating their resilience to data poisoning. Unlike previous works that concentrated on conventional neural networks for SAR object detection, this research focuses on the robustness and model reduction capabilities of tensor networks in object classification. Our findings indicate that tensor networks are adept at addressing both the challenges of robustness and the need for model efficiency, thereby contributing valuable insights to the ongoing discourse in radar applications and deep learning methodologies in general.",
+      "pubdate": "Tue, 28 Apr 2026 15:18:42 +0000",
+      "authors": "Maximilian Scharf, Marco Trenti, Felix Bock, Padraig Davidson, Tobias Brosch, Benjamin Rodrigues de Miranda, Sigurd Huber, Timo Felser"
+    },
+    "3e2ab656e2ed46af389425c5c3b23faf": {
+      "id": "3e2ab656e2ed46af389425c5c3b23faf",
+      "link": "http://arxiv.org/abs/2604.25631",
+      "title": "Local tensor-train surrogates for quantum learning models",
+      "abstract": "A key bottleneck in quantum machine learning is the computational cost of repeated quantum circuit evaluations during the inference phase. To address this, we present a framework for constructing fast, cheap, provably accurate classical tensor-train surrogates of fully trained quantum machine learning models within local patches of their input data space. The approach combines Taylor polynomial approximation with a tensor-train (TT) representation and embeds it in a statistical learning paradigm via empirical risk minimization. In our analysis, the Taylor-TT construction serves as a deterministic error certificate proving that the TT hypothesis class contains a good approximation; empirical risk minimization then provably recovers a surrogate with controlled generalization error and explicit bounds. This translates into three independently controllable error sources: (i) Taylor truncation error controlled by the patch radius $r$ and polynomial degree $p$, (ii) TT approximation error controlled by the bond dimension $χ$, and (iii) statistical estimation error. While the parameter count scales polynomially in the number of data dimensions $N$, i.e., $d_{\\mathrm{eff}} = N(p+1)χ^2$ rather than the naive $(p+1)^N$, the worst-case constants inherit an exponential factor through the tensor-product feature norm during Taylor polynomial embedding onto TT. This cleanly separates representation complexity from feature-induced constants. Our risk bounds and sample complexity depend explicitly on the local patch radius $r$.",
+      "pubdate": "Tue, 28 Apr 2026 13:33:51 +0000",
+      "authors": "Sreeraj Rajindran Nair, Christopher Ferrie"
+    },
+    "82251fa593dbc193688fb856296b1d7e": {
+      "id": "82251fa593dbc193688fb856296b1d7e",
+      "link": "http://arxiv.org/abs/2604.25610",
+      "title": "Optimizing ground state preparation protocols with autoresearch",
+      "abstract": "Artificial intelligent language-model based coding agents have significantly changed the way we interact with computers in our day-to-day, as it is common to use them to create, improve, and run programming scripts only using natural language. Agent code updates can be better guided when such programs can be executed and scored automatically rather than judged by human preference. In quantum computing and classical quantum simulation settings, ground-state preparation has a parallel structure: candidate protocols can be ranked by estimated energies and other proxies indicating proper quantum-state convergence. In this work, we study how autoresearch, a code optimization strategy based on coding agents, can be used to optimize hyperparameter choices of different ground-state preparation and sampling protocols, including the variational quantum eigensolver (VQE), density matrix renormalization group (DMRG), and auxiliary-field quantum Monte Carlo (AFQMC). We validate the viability and capacity of this method on simple spin models and molecular Hamiltonians. Across all three settings, the agent mutates simple baselines into complex protocols with improved energy proxies while operating under constrained space-time computational budgets. We conclude with discussions of other quantum routines that support executable scalar scoring, enabling evolutionary coding agents to automate a substantial portion of the protocol-tuning work that would otherwise be required manually.",
+      "pubdate": "Tue, 28 Apr 2026 13:18:12 +0000",
+      "authors": "Luis Mantilla Calderón, Jérôme F. Gonthier, Ignacio Gustin, Varinia Bernales, Alán Aspuru-Guzik"
+    },
+    "83d3d02c0c2b1c8d6df2567ed7c058da": {
+      "id": "83d3d02c0c2b1c8d6df2567ed7c058da",
+      "link": "http://arxiv.org/abs/2604.25532",
+      "title": "Bond-dimension scaling of a local-refinement advantage over hyperoptimized tensor-network contraction on Sycamore like topologies",
+      "abstract": "We identify a missing local-refinement stage in the cotengra tensor-network contraction pipeline and show that its impact grows monotonically with bond dimension on the \\emph{connectivity graph} of Sycamore-like topologies. Appending a nearest-neighbor interchange (NNI) search to the \\cotengra{} output at matched 8-s wallclock yields a median \\emph{predicted} cost-model gap $Δ\\fT$ at $n{=}500$ that grows monotonically and approximately linearly in $χ$, from $\\sim\\!15$~bits at $χ{=}2$ to $\\sim\\!116$~bits at $χ{=}16$ (Fig.~\\ref{fig:chi_sweep}), with the refiner winning on $25/25$ seeds at every tested $χ$. Two control families -- random $3$-regular and QAOA $p{=}2$ interaction graphs -- show median $|Δ\\fT| \\leq 0.71$~bits across both controls at every $χ$, with refiner win rate falling toward chance as $χ$ grows; the signal is topology-specific, not a generic refinement-budget effect. An ablation establishes that refinement itself, not the four-axis Pareto acceptance rule, drives the gain ($|Δ\\fT| \\lesssim 0.1$ bits between scalar and Pareto arms at $χ{=}2$). The Sycamore-circuit envelope (App.~\\ref{em:sec:results:syccirc}) reports the corresponding refinement on actual random circuits at depths $m \\in \\{4, 6, 8, 10, 12\\}$, where the refiner wins on $5/5$ instances at every depth. The advantage is therefore largest precisely in the bond-dimension regime relevant to physical contraction.",
+      "pubdate": "Tue, 28 Apr 2026 11:59:31 +0000",
+      "authors": "Rubén Darío Guerrero"
+    },
     "e2ac0168c8b64ddae9f68887af15e08c": {
       "id": "e2ac0168c8b64ddae9f68887af15e08c",
       "link": "http://arxiv.org/abs/2604.25493",
@@ -8,6 +40,38 @@
       "abstract": "We investigate the effect of a single-ion anisotropy on the bilinear-biquadratic spin-1 J1-J2 chain, focusing on the quantum phase transitions out of the trimerized phase. Using large-scale density matrix renormalization group simulations, we uncover a rich phase diagram comprising five gapped phases and, remarkably, two critical floating phases. These incommensurate Luttinger liquid phases emerge from the proliferation of non-magnetic domains - 0-states and dimers - within a trimerized background and are confined to the zero magnetization sector, while magnetic excitations remain gapped. We show that the transition between the topological Haldane phase and the floating phases are governed by a composite critical line with central charge c=2, consistent with a coexistence of magnetic and non-magnetic critical modes. Our results shed new light on the long-standing problem of the Haldane-trimerized transition.",
       "pubdate": "Tue, 28 Apr 2026 10:53:20 +0000",
       "authors": "Bowy M. La Riviere, Natalia Chepiga"
+    },
+    "37acf934f2e6c4d09dbaa45aae2bd16d": {
+      "id": "37acf934f2e6c4d09dbaa45aae2bd16d",
+      "link": "http://arxiv.org/abs/2604.25060",
+      "title": "Statistical mechanics in continuous space with tensor network methods",
+      "abstract": "Tensor network (TN) methods are well established for computing partition functions in statistical mechanics, though this use has traditionally been limited to lattice models. We extend the scope of TN methodology to interacting particle systems in continuous space. Through a real-space discretization combined with a cell-based coarse-graining scheme, we formulate an effective lattice model that explicitly preserves spatial locality. The partition function of this model is represented as a TN, and the thermodynamic quantities are computed via boundary contraction. We apply this framework to the two-dimensional hard-disk problem and demonstrate the strengths of the TN formulation compared to existing Monte Carlo simulations.",
+      "pubdate": "Mon, 27 Apr 2026 23:18:46 +0000",
+      "authors": "Gunhee Park, Tomislav Begušić, Si-Jing Du, Johnnie Gray, Garnet Kin-Lic Chan"
+    },
+    "ca2023755f4b4a0dfb58d2d92ae4591e": {
+      "id": "ca2023755f4b4a0dfb58d2d92ae4591e",
+      "link": "http://arxiv.org/abs/2604.24889",
+      "title": "Phase diagram of a dual-species Rydberg atom ladder",
+      "abstract": "Dual-species Rydberg atom arrays extend single-species platforms by introducing competing interaction scales and enhanced quantum fluctuations, enabling phenomena beyond homogeneous settings. In this work, we study the ground-state phase diagram of a one-dimensional dual-species Rydberg atom ladder using large-scale density-matrix renormalization group calculations. We identify disordered phases, multiple ordered phases with $\\mathbb{Z}_2$, $\\mathbb{Z}_3$, and $\\mathbb{Z}_4$ symmetry, as well as floating phases characterized by incommensurate wave vectors and algebraically decaying correlations. Importantly, we observe a smooth crossover between distinct $\\mathbb{Z}_2$-ordered regimes, reflecting a reorganization of low-energy degrees of freedom rather than a true phase transition, which is absent in single-species Rydberg arrays. We further uncover a multi-critical point at the boundary between the $\\mathbb{Z}_2 \\otimes \\mathbb{Z}_2$ and $\\mathbb{Z}_3 \\otimes \\mathbb{Z}_3$ ordered phases, where Ising, chiral, and first-order transition lines intersect. Our results demonstrate that dual-species Rydberg atom arrays provide a unique platform for realizing crossover physics and multi-critical behavior inaccessible in single-species architectures.",
+      "pubdate": "Mon, 27 Apr 2026 18:12:09 +0000",
+      "authors": "Lei-Yi-Nan Liu, Shi-Rong Peng, Ze-Yuan Huang, Xing-Man Wei, Yun-Han Zou, Su Yi, Jian Cui"
+    },
+    "0417bb74c9a792f2ba307ef5e122c986": {
+      "id": "0417bb74c9a792f2ba307ef5e122c986",
+      "link": "http://arxiv.org/abs/2604.24887",
+      "title": "Symmetry-Protected Topological Phases in the Triangular Majorana-Hubbard Ladder",
+      "abstract": "We map the phase diagram of the triangular-lattice Majorana-Hubbard model on a four-leg ladder using DMRG and variational uniform matrix product states, revealing a richer variety of phases than previously known. Analysis of entanglement-spectrum degeneracies and adiabatic connections identifies multiple symmetry-protected topological (SPT) phases. These phases could be realized in arrays of vortex-bound Majorana modes on the surface of a topological superconductor.",
+      "pubdate": "Mon, 27 Apr 2026 18:09:42 +0000",
+      "authors": "Will Holdhusen, Alberto Nocera, Jian-Xin Zhu, Armin Rahmani"
+    },
+    "0f1cb8730c9c64617b4d60403f082f07": {
+      "id": "0f1cb8730c9c64617b4d60403f082f07",
+      "link": "http://arxiv.org/abs/2604.24868",
+      "title": "Dynamical dimer structure factor of the triangular $S=1/2$ Heisenberg antiferromagnet",
+      "abstract": "The dynamical dimer structure factor is an observable probing spin-singlet excitations of quantum magnets distinct from those commonly studied by the spin structure factor. We report the dimer response for the extended spin-$1/2$ antiferromagnetic Heisenberg model on the triangular lattice using large-scale GPU-accelerated matrix-product-state simulations. We investigate the ordered phases with $120^\\circ$ coplanar, collinear stripe, and tetrahedral spin order, as well as candidate quantum spin-liquid (QSL) regimes, comprising an expected gapless $U(1)$ Dirac QSL and a chiral QSL at finite spin-scalar-chirality coupling. In the ordered phases, we find low-energy modes below the onset of the two-magnon continuum illustrating avoided quasiparticle decay. Within the candidate gapless QSL, we observe absolute dispersion minima at momenta of half the Brillouin zone corners, $X\\equiv K/2$, in agreement with field-theory predictions that singlet monopole excitations of the $U(1)$ Dirac spin liquid become gapless at these points. Thus, the high-resolution dynamical dimer response provides support for a $U(1)$ Dirac QSL with singlet monopole excitations.",
+      "pubdate": "Mon, 27 Apr 2026 18:00:18 +0000",
+      "authors": "Markus Drescher, Laurens Vanderstraeten, Roderich Moessner, Frank Pollmann, Johannes Knolle"
     },
     "503b10473176be5d650392ff6a60046f": {
       "id": "503b10473176be5d650392ff6a60046f",
@@ -3777,69 +3841,45 @@
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
     },
-    "0bce2f0140d455c885536d3a0ba024b8": {
-      "id": "0bce2f0140d455c885536d3a0ba024b8",
-      "link": "http://arxiv.org/abs/2604.25755",
-      "title": "Quantum-Inspired Robust and Scalable SAR Object Classification",
-      "abstract": "SAR image classification naturally has to deal with huge noise and a high dynamic range particularly requiring robust classification models. Additionally, the deployment of these models on edge devices, such as drones and military aircraft, requires a careful balance between model size and classification accuracy. This study explores the potential of tensor networks to meet these robustness requirements, specifically evaluating their resilience to data poisoning. Unlike previous works that concentrated on conventional neural networks for SAR object detection, this research focuses on the robustness and model reduction capabilities of tensor networks in object classification. Our findings indicate that tensor networks are adept at addressing both the challenges of robustness and the need for model efficiency, thereby contributing valuable insights to the ongoing discourse in radar applications and deep learning methodologies in general.",
-      "pubdate": "Tue, 28 Apr 2026 15:18:42 +0000",
-      "authors": "Maximilian Scharf, Marco Trenti, Felix Bock, Padraig Davidson, Tobias Brosch, Benjamin Rodrigues de Miranda, Sigurd Huber, Timo Felser"
+    "287936f5c7e9933df28b9d3d8e560a2c": {
+      "id": "287936f5c7e9933df28b9d3d8e560a2c",
+      "link": "http://arxiv.org/abs/2604.26871",
+      "title": "Ballistic Exciton Flow Driven by Intertwined Exciton-Electron Orders in a Moiré Superlattice",
+      "abstract": "Moiré superlattices of transition-metal dichalcogenides (TMDs) host strongly interacting Bose-Fermi mixtures in which bosonic excitons coexist with correlated electron lattices. Using ultrafast, time- and energy-resolved photoluminescence (PL) and reflectance microscopy, we show that strong exciton-electron and exciton-exciton repulsion can enable collective ballistic exciton transport in a WSe$_2$/WS$_2$ heterobilayer. The ballistic transport is energy-selective: repulsive interactions drive excitons into a higher moiré exciton band, where enhanced intersite hopping enables rapid spatial expansion. Correspondingly, the exciton mean-squared displacement (MSD) exhibits a quadratic time dependence ($\\propto t^2$). This ballistic expansion is enhanced at fractional electron fillings where the electrons form generalized Wigner-crystal (GWC) orders. Afterwards, the system transitions into a mixed electron-exciton Mott state as Auger recombination and density depletion conclude the ballistic expansion. A one-dimensional Bose-Fermi Hubbard model solved using density-matrix renormalization group (DMRG) qualitatively reproduces the measured exciton transport and time-dependent response. It further confirms that strong cross-species interactions allow the electron crystal to perforate the exciton Mott background, accelerating its melting and enhancing exciton motion. Our results establish moiré TMDs as highly tunable platforms for realizing strongly interacting Bose-Fermi mixtures, which we employ here to demonstrate real-time control of intertwined bosonic and electronic order and to establish a route to the exciton insulator-fluid transition.",
+      "pubdate": "Wed, 29 Apr 2026 16:39:03 +0000",
+      "authors": "Shibin Deng, Jonas M. Peterson, Jonas Reimann, Heonjoon Park, Ammon Fischer, Takashi Taniguchi, Kenji Watanabe, Xiaodong Xu, Dante M. Kennes, Libai Huang"
     },
-    "3e2ab656e2ed46af389425c5c3b23faf": {
-      "id": "3e2ab656e2ed46af389425c5c3b23faf",
-      "link": "http://arxiv.org/abs/2604.25631",
-      "title": "Local tensor-train surrogates for quantum learning models",
-      "abstract": "A key bottleneck in quantum machine learning is the computational cost of repeated quantum circuit evaluations during the inference phase. To address this, we present a framework for constructing fast, cheap, provably accurate classical tensor-train surrogates of fully trained quantum machine learning models within local patches of their input data space. The approach combines Taylor polynomial approximation with a tensor-train (TT) representation and embeds it in a statistical learning paradigm via empirical risk minimization. In our analysis, the Taylor-TT construction serves as a deterministic error certificate proving that the TT hypothesis class contains a good approximation; empirical risk minimization then provably recovers a surrogate with controlled generalization error and explicit bounds. This translates into three independently controllable error sources: (i) Taylor truncation error controlled by the patch radius $r$ and polynomial degree $p$, (ii) TT approximation error controlled by the bond dimension $χ$, and (iii) statistical estimation error. While the parameter count scales polynomially in the number of data dimensions $N$, i.e., $d_{\\mathrm{eff}} = N(p+1)χ^2$ rather than the naive $(p+1)^N$, the worst-case constants inherit an exponential factor through the tensor-product feature norm during Taylor polynomial embedding onto TT. This cleanly separates representation complexity from feature-induced constants. Our risk bounds and sample complexity depend explicitly on the local patch radius $r$.",
-      "pubdate": "Tue, 28 Apr 2026 13:33:51 +0000",
-      "authors": "Sreeraj Rajindran Nair, Christopher Ferrie"
+    "3859808e55ad2c79c85b1249d64270cf": {
+      "id": "3859808e55ad2c79c85b1249d64270cf",
+      "link": "http://arxiv.org/abs/2604.26673",
+      "title": "Laplace Approximation for Bayesian Tensor Network Kernel Machines",
+      "abstract": "Uncertainty estimation is essential for robust decision-making in the presence of ambiguous or out-of-distribution inputs. Gaussian Processes (GPs) are classical kernel-based models that offer principled uncertainty quantification and perform well on small- to medium-scale datasets. Alternatively, formulating the weight space learning problem under tensor network assumptions yields scalable tensor network kernel machines. However, these assumptions break Gaussianity, complicating standard probabilistic inference. This raises a fundamental question: how can tensor network kernel machines provide principled uncertainty estimates? We propose a novel Bayesian Tensor Network Kernel Machine (LA-TNKM) that employs a (linearized) Laplace approximation for Bayesian inference. A comprehensive set of numerical experiments shows that the proposed method consistently matches or surpasses Gaussian Processes and Bayesian Neural Networks (BNNs) across diverse UCI regression benchmarks, highlighting both its effectiveness and practical relevance.",
+      "pubdate": "Wed, 29 Apr 2026 13:43:33 +0000",
+      "authors": "Albert Saiapin, Kim Batselier"
     },
-    "82251fa593dbc193688fb856296b1d7e": {
-      "id": "82251fa593dbc193688fb856296b1d7e",
-      "link": "http://arxiv.org/abs/2604.25610",
-      "title": "Optimizing ground state preparation protocols with autoresearch",
-      "abstract": "Artificial intelligent language-model based coding agents have significantly changed the way we interact with computers in our day-to-day, as it is common to use them to create, improve, and run programming scripts only using natural language. Agent code updates can be better guided when such programs can be executed and scored automatically rather than judged by human preference. In quantum computing and classical quantum simulation settings, ground-state preparation has a parallel structure: candidate protocols can be ranked by estimated energies and other proxies indicating proper quantum-state convergence. In this work, we study how autoresearch, a code optimization strategy based on coding agents, can be used to optimize hyperparameter choices of different ground-state preparation and sampling protocols, including the variational quantum eigensolver (VQE), density matrix renormalization group (DMRG), and auxiliary-field quantum Monte Carlo (AFQMC). We validate the viability and capacity of this method on simple spin models and molecular Hamiltonians. Across all three settings, the agent mutates simple baselines into complex protocols with improved energy proxies while operating under constrained space-time computational budgets. We conclude with discussions of other quantum routines that support executable scalar scoring, enabling evolutionary coding agents to automate a substantial portion of the protocol-tuning work that would otherwise be required manually.",
-      "pubdate": "Tue, 28 Apr 2026 13:18:12 +0000",
-      "authors": "Luis Mantilla Calderón, Jérôme F. Gonthier, Ignacio Gustin, Varinia Bernales, Alán Aspuru-Guzik"
+    "a8f559357c72cd0740cf61eddd27894b": {
+      "id": "a8f559357c72cd0740cf61eddd27894b",
+      "link": "http://arxiv.org/abs/2604.26534",
+      "title": "Neural and Tensor Networks in the Study of Quantum Annealing Processors",
+      "abstract": "Quantum annealing targets low-energy solutions of Ising/QUBO problems, but reliable assessment requires more than best-energy comparisons. This dissertation develops a benchmarking framework for D-Wave quantum annealers that combines strong classical baselines, sampling and diversity metrics, and thermodynamic cost. Its first contribution, SpinGlassPEPS.jl, is a topology-aware tensor-network heuristic for optimization and sampling on Pegasus/Zephyr-like graphs. It maps Ising instances to local Potts clusters, represents the partition function with PEPS, and performs branch-and-bound search in probability space. Benchmarks show that it is a physically interpretable reference solver, though approximate contractions limit its competitiveness on the largest instances. The second contribution treats quantum annealers as effective thermal machines, relating success probability and solution quality to dissipation, entropy production, and effective temperature. Carefully placed pauses can improve performance while reducing thermodynamic cost, although longitudinal fields may become harmful in paused schedules. The thesis also introduces reinforcement-learning post-processing to improve returned samples and exact small-system simulations to probe annealing dynamics. Overall, it argues for quantum-annealing benchmarks that jointly measure algorithmic performance and physical expenditure.",
+      "pubdate": "Wed, 29 Apr 2026 11:03:55 +0000",
+      "authors": "Tomasz Śmierzchalski"
     },
-    "83d3d02c0c2b1c8d6df2567ed7c058da": {
-      "id": "83d3d02c0c2b1c8d6df2567ed7c058da",
-      "link": "http://arxiv.org/abs/2604.25532",
-      "title": "Bond-dimension scaling of a local-refinement advantage over hyperoptimized tensor-network contraction on Sycamore like topologies",
-      "abstract": "We identify a missing local-refinement stage in the cotengra tensor-network contraction pipeline and show that its impact grows monotonically with bond dimension on the \\emph{connectivity graph} of Sycamore-like topologies. Appending a nearest-neighbor interchange (NNI) search to the \\cotengra{} output at matched 8-s wallclock yields a median \\emph{predicted} cost-model gap $Δ\\fT$ at $n{=}500$ that grows monotonically and approximately linearly in $χ$, from $\\sim\\!15$~bits at $χ{=}2$ to $\\sim\\!116$~bits at $χ{=}16$ (Fig.~\\ref{fig:chi_sweep}), with the refiner winning on $25/25$ seeds at every tested $χ$. Two control families -- random $3$-regular and QAOA $p{=}2$ interaction graphs -- show median $|Δ\\fT| \\leq 0.71$~bits across both controls at every $χ$, with refiner win rate falling toward chance as $χ$ grows; the signal is topology-specific, not a generic refinement-budget effect. An ablation establishes that refinement itself, not the four-axis Pareto acceptance rule, drives the gain ($|Δ\\fT| \\lesssim 0.1$ bits between scalar and Pareto arms at $χ{=}2$). The Sycamore-circuit envelope (App.~\\ref{em:sec:results:syccirc}) reports the corresponding refinement on actual random circuits at depths $m \\in \\{4, 6, 8, 10, 12\\}$, where the refiner wins on $5/5$ instances at every depth. The advantage is therefore largest precisely in the bond-dimension regime relevant to physical contraction.",
-      "pubdate": "Tue, 28 Apr 2026 11:59:31 +0000",
-      "authors": "Rubén Darío Guerrero"
+    "d827602622e0074b31719b2a670e5efc": {
+      "id": "d827602622e0074b31719b2a670e5efc",
+      "link": "http://arxiv.org/abs/2604.26314",
+      "title": "Amplitude Encoding of Slater-Type Orbitals via Matrix Product States: Efficient State Preparation and Integral Evaluation on Quantum Hardware",
+      "abstract": "Slater-type orbitals (STOs) provide the physically correct description of atomic wavefunctions but have been largely replaced by Gaussian-type orbitals in computational chemistry due to the lack of closed-form multi-center integrals. We present a systematic study of amplitude encoding of STOs on quantum computers using matrix product states (MPS). For one-dimensional orbital functions of the form $p_d(x) e^{-ζx}$, we derive analytical MPS constructions with constant bond dimension $χ= d + 1$, requiring $O(n)$ classical and quantum resources for $n$-qubit registers with no grid sampling. We demonstrate a complete one-electron integral pipeline -- overlap, kinetic energy, and nuclear attraction -- in one dimension, validating the overlap and kinetic energy on IBM Heron processors at 5~qubits with 0.67\\% hardware-induced error using Zero-Noise Extrapolation. In three dimensions, we compute multi-center overlap integrals between 1s and 2s orbitals in Cartesian coordinates with 0.02\\% discretization error at 18~qubits. A systematic entanglement analysis reveals that the MPS bond dimension of three-dimensional STOs in Cartesian coordinates saturates with increasing grid resolution -- reaching $\\sim$138 for the hydrogen 1s orbital at 12~qubits per coordinate -- establishing bounded encoding complexity rather than the exponential scaling initially expected. The SVD truncation threshold provides a practical resource parameter, reducing the bond dimension to 39 at threshold $10^{-6}$ with negligible accuracy loss. These results map the entanglement landscape for amplitude encoding of atomic orbitals and establish MPS-based state preparation as a viable path toward exact STO basis sets on quantum computers.",
+      "pubdate": "Wed, 29 Apr 2026 05:51:12 +0000",
+      "authors": "Sorin Bolos"
     },
-    "37acf934f2e6c4d09dbaa45aae2bd16d": {
-      "id": "37acf934f2e6c4d09dbaa45aae2bd16d",
-      "link": "http://arxiv.org/abs/2604.25060",
-      "title": "Statistical mechanics in continuous space with tensor network methods",
-      "abstract": "Tensor network (TN) methods are well established for computing partition functions in statistical mechanics, though this use has traditionally been limited to lattice models. We extend the scope of TN methodology to interacting particle systems in continuous space. Through a real-space discretization combined with a cell-based coarse-graining scheme, we formulate an effective lattice model that explicitly preserves spatial locality. The partition function of this model is represented as a TN, and the thermodynamic quantities are computed via boundary contraction. We apply this framework to the two-dimensional hard-disk problem and demonstrate the strengths of the TN formulation compared to existing Monte Carlo simulations.",
-      "pubdate": "Mon, 27 Apr 2026 23:18:46 +0000",
-      "authors": "Gunhee Park, Tomislav Begušić, Si-Jing Du, Johnnie Gray, Garnet Kin-Lic Chan"
-    },
-    "ca2023755f4b4a0dfb58d2d92ae4591e": {
-      "id": "ca2023755f4b4a0dfb58d2d92ae4591e",
-      "link": "http://arxiv.org/abs/2604.24889",
-      "title": "Phase diagram of a dual-species Rydberg atom ladder",
-      "abstract": "Dual-species Rydberg atom arrays extend single-species platforms by introducing competing interaction scales and enhanced quantum fluctuations, enabling phenomena beyond homogeneous settings. In this work, we study the ground-state phase diagram of a one-dimensional dual-species Rydberg atom ladder using large-scale density-matrix renormalization group calculations. We identify disordered phases, multiple ordered phases with $\\mathbb{Z}_2$, $\\mathbb{Z}_3$, and $\\mathbb{Z}_4$ symmetry, as well as floating phases characterized by incommensurate wave vectors and algebraically decaying correlations. Importantly, we observe a smooth crossover between distinct $\\mathbb{Z}_2$-ordered regimes, reflecting a reorganization of low-energy degrees of freedom rather than a true phase transition, which is absent in single-species Rydberg arrays. We further uncover a multi-critical point at the boundary between the $\\mathbb{Z}_2 \\otimes \\mathbb{Z}_2$ and $\\mathbb{Z}_3 \\otimes \\mathbb{Z}_3$ ordered phases, where Ising, chiral, and first-order transition lines intersect. Our results demonstrate that dual-species Rydberg atom arrays provide a unique platform for realizing crossover physics and multi-critical behavior inaccessible in single-species architectures.",
-      "pubdate": "Mon, 27 Apr 2026 18:12:09 +0000",
-      "authors": "Lei-Yi-Nan Liu, Shi-Rong Peng, Ze-Yuan Huang, Xing-Man Wei, Yun-Han Zou, Su Yi, Jian Cui"
-    },
-    "0417bb74c9a792f2ba307ef5e122c986": {
-      "id": "0417bb74c9a792f2ba307ef5e122c986",
-      "link": "http://arxiv.org/abs/2604.24887",
-      "title": "Symmetry-Protected Topological Phases in the Triangular Majorana-Hubbard Ladder",
-      "abstract": "We map the phase diagram of the triangular-lattice Majorana-Hubbard model on a four-leg ladder using DMRG and variational uniform matrix product states, revealing a richer variety of phases than previously known. Analysis of entanglement-spectrum degeneracies and adiabatic connections identifies multiple symmetry-protected topological (SPT) phases. These phases could be realized in arrays of vortex-bound Majorana modes on the surface of a topological superconductor.",
-      "pubdate": "Mon, 27 Apr 2026 18:09:42 +0000",
-      "authors": "Will Holdhusen, Alberto Nocera, Jian-Xin Zhu, Armin Rahmani"
-    },
-    "0f1cb8730c9c64617b4d60403f082f07": {
-      "id": "0f1cb8730c9c64617b4d60403f082f07",
-      "link": "http://arxiv.org/abs/2604.24868",
-      "title": "Dynamical dimer structure factor of the triangular $S=1/2$ Heisenberg antiferromagnet",
-      "abstract": "The dynamical dimer structure factor is an observable probing spin-singlet excitations of quantum magnets distinct from those commonly studied by the spin structure factor. We report the dimer response for the extended spin-$1/2$ antiferromagnetic Heisenberg model on the triangular lattice using large-scale GPU-accelerated matrix-product-state simulations. We investigate the ordered phases with $120^\\circ$ coplanar, collinear stripe, and tetrahedral spin order, as well as candidate quantum spin-liquid (QSL) regimes, comprising an expected gapless $U(1)$ Dirac QSL and a chiral QSL at finite spin-scalar-chirality coupling. In the ordered phases, we find low-energy modes below the onset of the two-magnon continuum illustrating avoided quasiparticle decay. Within the candidate gapless QSL, we observe absolute dispersion minima at momenta of half the Brillouin zone corners, $X\\equiv K/2$, in agreement with field-theory predictions that singlet monopole excitations of the $U(1)$ Dirac spin liquid become gapless at these points. Thus, the high-resolution dynamical dimer response provides support for a $U(1)$ Dirac QSL with singlet monopole excitations.",
-      "pubdate": "Mon, 27 Apr 2026 18:00:18 +0000",
-      "authors": "Markus Drescher, Laurens Vanderstraeten, Roderich Moessner, Frank Pollmann, Johannes Knolle"
+    "0555846221bcc338efd39d479610a72e": {
+      "id": "0555846221bcc338efd39d479610a72e",
+      "link": "http://arxiv.org/abs/2604.26059",
+      "title": "Quantum Bayesian Networks: Compositionality and Typing via Linear Logic",
+      "abstract": "Quantum Bayesian networks provide a mathematical formalism to describe causal relations, to analyse correlations, and to predict the probabilities of measurement outcomes, in systems involving both classical and quantum data. They generalize Pearl's Bayesian networks-prominent graphical models for classical probabilistic reasoning and inference. Our paper brings compositional principles and a typing discipline into this setting. A key feature of our compositional semantics is that when all causes are classical, it coincides with the standard factor-based semantics of Bayesian networks, while in the purely quantum case it reduces to tensor networks. We then propose a typed formalism based on linear logic proof-nets, where types ensure well-behaved composition of systems.",
+      "pubdate": "Tue, 28 Apr 2026 18:55:47 +0000",
+      "authors": "Rémi Di Guardia, Thomas Ehrhard, Claudia Faggian"
     }
   }
 }
