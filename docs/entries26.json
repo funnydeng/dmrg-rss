@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-04-30T12:41:41.054431+00:00",
+  "last_updated": "2026-05-01T00:58:31.927539+00:00",
   "entries": {
+    "287936f5c7e9933df28b9d3d8e560a2c": {
+      "id": "287936f5c7e9933df28b9d3d8e560a2c",
+      "link": "http://arxiv.org/abs/2604.26871",
+      "title": "Ballistic Exciton Flow Driven by Intertwined Exciton-Electron Orders in a Moiré Superlattice",
+      "abstract": "Moiré superlattices of transition-metal dichalcogenides (TMDs) host strongly interacting Bose-Fermi mixtures in which bosonic excitons coexist with correlated electron lattices. Using ultrafast, time- and energy-resolved photoluminescence (PL) and reflectance microscopy, we show that strong exciton-electron and exciton-exciton repulsion can enable collective ballistic exciton transport in a WSe$_2$/WS$_2$ heterobilayer. The ballistic transport is energy-selective: repulsive interactions drive excitons into a higher moiré exciton band, where enhanced intersite hopping enables rapid spatial expansion. Correspondingly, the exciton mean-squared displacement (MSD) exhibits a quadratic time dependence ($\\propto t^2$). This ballistic expansion is enhanced at fractional electron fillings where the electrons form generalized Wigner-crystal (GWC) orders. Afterwards, the system transitions into a mixed electron-exciton Mott state as Auger recombination and density depletion conclude the ballistic expansion. A one-dimensional Bose-Fermi Hubbard model solved using density-matrix renormalization group (DMRG) qualitatively reproduces the measured exciton transport and time-dependent response. It further confirms that strong cross-species interactions allow the electron crystal to perforate the exciton Mott background, accelerating its melting and enhancing exciton motion. Our results establish moiré TMDs as highly tunable platforms for realizing strongly interacting Bose-Fermi mixtures, which we employ here to demonstrate real-time control of intertwined bosonic and electronic order and to establish a route to the exciton insulator-fluid transition.",
+      "pubdate": "Wed, 29 Apr 2026 16:39:03 +0000",
+      "authors": "Shibin Deng, Jonas M. Peterson, Jonas Reimann, Heonjoon Park, Ammon Fischer, Takashi Taniguchi, Kenji Watanabe, Xiaodong Xu, Dante M. Kennes, Libai Huang"
+    },
+    "3859808e55ad2c79c85b1249d64270cf": {
+      "id": "3859808e55ad2c79c85b1249d64270cf",
+      "link": "http://arxiv.org/abs/2604.26673",
+      "title": "Laplace Approximation for Bayesian Tensor Network Kernel Machines",
+      "abstract": "Uncertainty estimation is essential for robust decision-making in the presence of ambiguous or out-of-distribution inputs. Gaussian Processes (GPs) are classical kernel-based models that offer principled uncertainty quantification and perform well on small- to medium-scale datasets. Alternatively, formulating the weight space learning problem under tensor network assumptions yields scalable tensor network kernel machines. However, these assumptions break Gaussianity, complicating standard probabilistic inference. This raises a fundamental question: how can tensor network kernel machines provide principled uncertainty estimates? We propose a novel Bayesian Tensor Network Kernel Machine (LA-TNKM) that employs a (linearized) Laplace approximation for Bayesian inference. A comprehensive set of numerical experiments shows that the proposed method consistently matches or surpasses Gaussian Processes and Bayesian Neural Networks (BNNs) across diverse UCI regression benchmarks, highlighting both its effectiveness and practical relevance.",
+      "pubdate": "Wed, 29 Apr 2026 13:43:33 +0000",
+      "authors": "Albert Saiapin, Kim Batselier"
+    },
+    "a8f559357c72cd0740cf61eddd27894b": {
+      "id": "a8f559357c72cd0740cf61eddd27894b",
+      "link": "http://arxiv.org/abs/2604.26534",
+      "title": "Neural and Tensor Networks in the Study of Quantum Annealing Processors",
+      "abstract": "Quantum annealing targets low-energy solutions of Ising/QUBO problems, but reliable assessment requires more than best-energy comparisons. This dissertation develops a benchmarking framework for D-Wave quantum annealers that combines strong classical baselines, sampling and diversity metrics, and thermodynamic cost. Its first contribution, SpinGlassPEPS.jl, is a topology-aware tensor-network heuristic for optimization and sampling on Pegasus/Zephyr-like graphs. It maps Ising instances to local Potts clusters, represents the partition function with PEPS, and performs branch-and-bound search in probability space. Benchmarks show that it is a physically interpretable reference solver, though approximate contractions limit its competitiveness on the largest instances. The second contribution treats quantum annealers as effective thermal machines, relating success probability and solution quality to dissipation, entropy production, and effective temperature. Carefully placed pauses can improve performance while reducing thermodynamic cost, although longitudinal fields may become harmful in paused schedules. The thesis also introduces reinforcement-learning post-processing to improve returned samples and exact small-system simulations to probe annealing dynamics. Overall, it argues for quantum-annealing benchmarks that jointly measure algorithmic performance and physical expenditure.",
+      "pubdate": "Wed, 29 Apr 2026 11:03:55 +0000",
+      "authors": "Tomasz Śmierzchalski"
+    },
+    "d827602622e0074b31719b2a670e5efc": {
+      "id": "d827602622e0074b31719b2a670e5efc",
+      "link": "http://arxiv.org/abs/2604.26314",
+      "title": "Amplitude Encoding of Slater-Type Orbitals via Matrix Product States: Efficient State Preparation and Integral Evaluation on Quantum Hardware",
+      "abstract": "Slater-type orbitals (STOs) provide the physically correct description of atomic wavefunctions but have been largely replaced by Gaussian-type orbitals in computational chemistry due to the lack of closed-form multi-center integrals. We present a systematic study of amplitude encoding of STOs on quantum computers using matrix product states (MPS). For one-dimensional orbital functions of the form $p_d(x) e^{-ζx}$, we derive analytical MPS constructions with constant bond dimension $χ= d + 1$, requiring $O(n)$ classical and quantum resources for $n$-qubit registers with no grid sampling. We demonstrate a complete one-electron integral pipeline -- overlap, kinetic energy, and nuclear attraction -- in one dimension, validating the overlap and kinetic energy on IBM Heron processors at 5~qubits with 0.67\\% hardware-induced error using Zero-Noise Extrapolation. In three dimensions, we compute multi-center overlap integrals between 1s and 2s orbitals in Cartesian coordinates with 0.02\\% discretization error at 18~qubits. A systematic entanglement analysis reveals that the MPS bond dimension of three-dimensional STOs in Cartesian coordinates saturates with increasing grid resolution -- reaching $\\sim$138 for the hydrogen 1s orbital at 12~qubits per coordinate -- establishing bounded encoding complexity rather than the exponential scaling initially expected. The SVD truncation threshold provides a practical resource parameter, reducing the bond dimension to 39 at threshold $10^{-6}$ with negligible accuracy loss. These results map the entanglement landscape for amplitude encoding of atomic orbitals and establish MPS-based state preparation as a viable path toward exact STO basis sets on quantum computers.",
+      "pubdate": "Wed, 29 Apr 2026 05:51:12 +0000",
+      "authors": "Sorin Bolos"
+    },
+    "0555846221bcc338efd39d479610a72e": {
+      "id": "0555846221bcc338efd39d479610a72e",
+      "link": "http://arxiv.org/abs/2604.26059",
+      "title": "Quantum Bayesian Networks: Compositionality and Typing via Linear Logic",
+      "abstract": "Quantum Bayesian networks provide a mathematical formalism to describe causal relations, to analyse correlations, and to predict the probabilities of measurement outcomes, in systems involving both classical and quantum data. They generalize Pearl's Bayesian networks-prominent graphical models for classical probabilistic reasoning and inference. Our paper brings compositional principles and a typing discipline into this setting. A key feature of our compositional semantics is that when all causes are classical, it coincides with the standard factor-based semantics of Bayesian networks, while in the purely quantum case it reduces to tensor networks. We then propose a typed formalism based on linear logic proof-nets, where types ensure well-behaved composition of systems.",
+      "pubdate": "Tue, 28 Apr 2026 18:55:47 +0000",
+      "authors": "Rémi Di Guardia, Thomas Ehrhard, Claudia Faggian"
+    },
     "0bce2f0140d455c885536d3a0ba024b8": {
       "id": "0bce2f0140d455c885536d3a0ba024b8",
       "link": "http://arxiv.org/abs/2604.25755",
@@ -3840,46 +3880,6 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
-    },
-    "287936f5c7e9933df28b9d3d8e560a2c": {
-      "id": "287936f5c7e9933df28b9d3d8e560a2c",
-      "link": "http://arxiv.org/abs/2604.26871",
-      "title": "Ballistic Exciton Flow Driven by Intertwined Exciton-Electron Orders in a Moiré Superlattice",
-      "abstract": "Moiré superlattices of transition-metal dichalcogenides (TMDs) host strongly interacting Bose-Fermi mixtures in which bosonic excitons coexist with correlated electron lattices. Using ultrafast, time- and energy-resolved photoluminescence (PL) and reflectance microscopy, we show that strong exciton-electron and exciton-exciton repulsion can enable collective ballistic exciton transport in a WSe$_2$/WS$_2$ heterobilayer. The ballistic transport is energy-selective: repulsive interactions drive excitons into a higher moiré exciton band, where enhanced intersite hopping enables rapid spatial expansion. Correspondingly, the exciton mean-squared displacement (MSD) exhibits a quadratic time dependence ($\\propto t^2$). This ballistic expansion is enhanced at fractional electron fillings where the electrons form generalized Wigner-crystal (GWC) orders. Afterwards, the system transitions into a mixed electron-exciton Mott state as Auger recombination and density depletion conclude the ballistic expansion. A one-dimensional Bose-Fermi Hubbard model solved using density-matrix renormalization group (DMRG) qualitatively reproduces the measured exciton transport and time-dependent response. It further confirms that strong cross-species interactions allow the electron crystal to perforate the exciton Mott background, accelerating its melting and enhancing exciton motion. Our results establish moiré TMDs as highly tunable platforms for realizing strongly interacting Bose-Fermi mixtures, which we employ here to demonstrate real-time control of intertwined bosonic and electronic order and to establish a route to the exciton insulator-fluid transition.",
-      "pubdate": "Wed, 29 Apr 2026 16:39:03 +0000",
-      "authors": "Shibin Deng, Jonas M. Peterson, Jonas Reimann, Heonjoon Park, Ammon Fischer, Takashi Taniguchi, Kenji Watanabe, Xiaodong Xu, Dante M. Kennes, Libai Huang"
-    },
-    "3859808e55ad2c79c85b1249d64270cf": {
-      "id": "3859808e55ad2c79c85b1249d64270cf",
-      "link": "http://arxiv.org/abs/2604.26673",
-      "title": "Laplace Approximation for Bayesian Tensor Network Kernel Machines",
-      "abstract": "Uncertainty estimation is essential for robust decision-making in the presence of ambiguous or out-of-distribution inputs. Gaussian Processes (GPs) are classical kernel-based models that offer principled uncertainty quantification and perform well on small- to medium-scale datasets. Alternatively, formulating the weight space learning problem under tensor network assumptions yields scalable tensor network kernel machines. However, these assumptions break Gaussianity, complicating standard probabilistic inference. This raises a fundamental question: how can tensor network kernel machines provide principled uncertainty estimates? We propose a novel Bayesian Tensor Network Kernel Machine (LA-TNKM) that employs a (linearized) Laplace approximation for Bayesian inference. A comprehensive set of numerical experiments shows that the proposed method consistently matches or surpasses Gaussian Processes and Bayesian Neural Networks (BNNs) across diverse UCI regression benchmarks, highlighting both its effectiveness and practical relevance.",
-      "pubdate": "Wed, 29 Apr 2026 13:43:33 +0000",
-      "authors": "Albert Saiapin, Kim Batselier"
-    },
-    "a8f559357c72cd0740cf61eddd27894b": {
-      "id": "a8f559357c72cd0740cf61eddd27894b",
-      "link": "http://arxiv.org/abs/2604.26534",
-      "title": "Neural and Tensor Networks in the Study of Quantum Annealing Processors",
-      "abstract": "Quantum annealing targets low-energy solutions of Ising/QUBO problems, but reliable assessment requires more than best-energy comparisons. This dissertation develops a benchmarking framework for D-Wave quantum annealers that combines strong classical baselines, sampling and diversity metrics, and thermodynamic cost. Its first contribution, SpinGlassPEPS.jl, is a topology-aware tensor-network heuristic for optimization and sampling on Pegasus/Zephyr-like graphs. It maps Ising instances to local Potts clusters, represents the partition function with PEPS, and performs branch-and-bound search in probability space. Benchmarks show that it is a physically interpretable reference solver, though approximate contractions limit its competitiveness on the largest instances. The second contribution treats quantum annealers as effective thermal machines, relating success probability and solution quality to dissipation, entropy production, and effective temperature. Carefully placed pauses can improve performance while reducing thermodynamic cost, although longitudinal fields may become harmful in paused schedules. The thesis also introduces reinforcement-learning post-processing to improve returned samples and exact small-system simulations to probe annealing dynamics. Overall, it argues for quantum-annealing benchmarks that jointly measure algorithmic performance and physical expenditure.",
-      "pubdate": "Wed, 29 Apr 2026 11:03:55 +0000",
-      "authors": "Tomasz Śmierzchalski"
-    },
-    "d827602622e0074b31719b2a670e5efc": {
-      "id": "d827602622e0074b31719b2a670e5efc",
-      "link": "http://arxiv.org/abs/2604.26314",
-      "title": "Amplitude Encoding of Slater-Type Orbitals via Matrix Product States: Efficient State Preparation and Integral Evaluation on Quantum Hardware",
-      "abstract": "Slater-type orbitals (STOs) provide the physically correct description of atomic wavefunctions but have been largely replaced by Gaussian-type orbitals in computational chemistry due to the lack of closed-form multi-center integrals. We present a systematic study of amplitude encoding of STOs on quantum computers using matrix product states (MPS). For one-dimensional orbital functions of the form $p_d(x) e^{-ζx}$, we derive analytical MPS constructions with constant bond dimension $χ= d + 1$, requiring $O(n)$ classical and quantum resources for $n$-qubit registers with no grid sampling. We demonstrate a complete one-electron integral pipeline -- overlap, kinetic energy, and nuclear attraction -- in one dimension, validating the overlap and kinetic energy on IBM Heron processors at 5~qubits with 0.67\\% hardware-induced error using Zero-Noise Extrapolation. In three dimensions, we compute multi-center overlap integrals between 1s and 2s orbitals in Cartesian coordinates with 0.02\\% discretization error at 18~qubits. A systematic entanglement analysis reveals that the MPS bond dimension of three-dimensional STOs in Cartesian coordinates saturates with increasing grid resolution -- reaching $\\sim$138 for the hydrogen 1s orbital at 12~qubits per coordinate -- establishing bounded encoding complexity rather than the exponential scaling initially expected. The SVD truncation threshold provides a practical resource parameter, reducing the bond dimension to 39 at threshold $10^{-6}$ with negligible accuracy loss. These results map the entanglement landscape for amplitude encoding of atomic orbitals and establish MPS-based state preparation as a viable path toward exact STO basis sets on quantum computers.",
-      "pubdate": "Wed, 29 Apr 2026 05:51:12 +0000",
-      "authors": "Sorin Bolos"
-    },
-    "0555846221bcc338efd39d479610a72e": {
-      "id": "0555846221bcc338efd39d479610a72e",
-      "link": "http://arxiv.org/abs/2604.26059",
-      "title": "Quantum Bayesian Networks: Compositionality and Typing via Linear Logic",
-      "abstract": "Quantum Bayesian networks provide a mathematical formalism to describe causal relations, to analyse correlations, and to predict the probabilities of measurement outcomes, in systems involving both classical and quantum data. They generalize Pearl's Bayesian networks-prominent graphical models for classical probabilistic reasoning and inference. Our paper brings compositional principles and a typing discipline into this setting. A key feature of our compositional semantics is that when all causes are classical, it coincides with the standard factor-based semantics of Bayesian networks, while in the purely quantum case it reduces to tensor networks. We then propose a typed formalism based on linear logic proof-nets, where types ensure well-behaved composition of systems.",
-      "pubdate": "Tue, 28 Apr 2026 18:55:47 +0000",
-      "authors": "Rémi Di Guardia, Thomas Ehrhard, Claudia Faggian"
     }
   }
 }
