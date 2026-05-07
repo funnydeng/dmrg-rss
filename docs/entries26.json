@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-07T00:54:18.303885+00:00",
+  "last_updated": "2026-05-07T12:47:37.877210+00:00",
   "entries": {
     "8c65b6e6461d0286b093b74a8d594863": {
       "id": "8c65b6e6461d0286b093b74a8d594863",
@@ -4048,6 +4048,46 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "df5434a03bb1aa57cc9bd77aa7c0b80e": {
+      "id": "df5434a03bb1aa57cc9bd77aa7c0b80e",
+      "link": "http://arxiv.org/abs/2605.04533",
+      "title": "Online Riemannian Gradient Descent for Quantum State Tomography with Matrix Product Operators",
+      "abstract": "Matrix product operators (MPOs) provide a scalable approach for quantum state tomography (QST) by offering a compact representation of many-body mixed states with limited entanglement, using only a number of parameters that scales polynomially with the system size. In this paper, we study QST for quantum density matrices that can be represented by MPOs. We first derive an equivalent characterization of Hermiticity in terms of the MPO core tensors and show that the coefficient tensor of an MPO under the Pauli or generalized Gell-Mann basis admits a real-valued low tensor-train (TT) rank structure. This establishes an explicit connection between MPO-based QST and noisy low-rank tensor completion. Motivated by this formulation, we develop an online Riemannian gradient descent (oRGD) algorithm that sequentially incorporates measurement data during the reconstruction process. With a proper initialization, we prove that oRGD converges linearly to the target MPO and succeeds with a number of distinct measurement settings that scales quadratically with the system size. As a byproduct, our analysis also yields a significantly improved sample complexity bound for the low TT rank tensor completion task. Furthermore, we propose a tailored spectral initialization method and establish its theoretical guarantee. Numerical experiments on several classes of quantum states validate the effectiveness and scalability of the proposed method.",
+      "pubdate": "Wed, 06 May 2026 06:19:46 +0000",
+      "authors": "Jian-Feng Cai, Jingyang Li, Xiaoqun Zhang, Yuanwei Zhang"
+    },
+    "aca913ddbb48d6f5d58de2d842bbb91b": {
+      "id": "aca913ddbb48d6f5d58de2d842bbb91b",
+      "link": "http://arxiv.org/abs/2605.05162",
+      "title": "Dynamical correlations in a dissipative XXZ spin chain",
+      "abstract": "We study dynamical spin correlations in a dissipative XXZ spin chain subject to uniform local spin-loss and pumping. Starting from a mixed steady state that is featureless albeit possessing finite magnetization, rich dynamics emerges in time-dependent two-point correlators evaluated on top of it. For unitary evolution in which the reservoir is absent, the longitudinal correlators reproduce the established hierarchy of spin-transport universality classes - ballistic, Kardar-Parisi-Zhang (KPZ) superdiffusive, and diffusive - across the phase diagram. However, for finite magnetization, additional ballistic light cone propagation gets superimposed on the previous universality classes, arising from magnon propagation.The transverse correlator displays very fast, exponential decay of correlations without wavefront propagation in the easy-plane case. At the isotropic point, it follows KPZ scaling due to $SU(2)$ symmetry, while in the easy-axis regime, it is characterized by ballistic spreading of correlations. Under full Lindbladian dynamics, the universality classes are preserved at early times, while the correlations acquire an overall exponential damping in the long-time limit. In terms of methods, we have used vectorized TEBD for numerical simulations and exact analytical results obtained via a Pfaffian representation and the third-quantization framework for the noninteracting XX case.",
+      "pubdate": "Wed, 06 May 2026 17:32:49 +0000",
+      "authors": "Cătălin Paşcu Moca, Doru Sticlet, Ovidiu I. Pâţu, Balazs Dóra"
+    },
+    "d0b5c6f8525d783f6720b20fdac0f635": {
+      "id": "d0b5c6f8525d783f6720b20fdac0f635",
+      "link": "http://arxiv.org/abs/2605.04640",
+      "title": "Neural network modeling of many-body super- and sub-radiant dynamics",
+      "abstract": "There is significant interest in exploring novel phenomena in quantum light-matter interfaces, which are driven by the combination of structured dissipation and long-range interactions that are typical in such systems. To this end, it is important to develop new general numerical simulation techniques, which can access large system sizes and are not based on semi-classical approaches. Here, we report the first application of neural quantum states to obtain the dissipative dynamics of light-matter-coupled systems beyond what is accessible with exact and tensor-network calculations. We specifically apply this method to simulate the many-body emission dynamics of approximately 40 atoms, arranged in dense arrays in one and two dimensions. These systems have been chosen because they can support prominent subradiant dynamics at late times and could be realized with cold atomic quantum simulators.",
+      "pubdate": "Wed, 06 May 2026 08:32:19 +0000",
+      "authors": "Gianluca Lagnese, Laurin Brunner, Lorenzo Rossi, Darrick Chang, Markus Schmitt, Zala Lenarčič"
+    },
+    "70de4a4f5292e5b57724c7fa2f6c55ea": {
+      "id": "70de4a4f5292e5b57724c7fa2f6c55ea",
+      "link": "http://arxiv.org/abs/2605.04540",
+      "title": "Hierarchical entanglement transitions and hidden area-law sectors in quantum many-body dynamics",
+      "abstract": "Chaotic many-body dynamics typically generates volume-law entanglement from initially low-entangled states. We reveal an intricate, hierarchical entanglement structure in local quantum quenches, both in the canonical purification of locally quenched Gibbs states and in a companion pure-state circuit model. In either setting, the full state exhibits a Renyi-index-tuned transition: at long times, $S_{α>1}$ obeys an area law, while $S_{α\\le 1}$ is volume-law. More strikingly, the response linear in the quench strength is carried by only an O(1)-dimensional dominant Schmidt sector; the corresponding states exhibit their own area-to-volume-law transitions at critical indices $α_c<1$, implying polynomial-bond-dimension approximability in one dimension. We provide evidence that this hierarchy persists recursively: upon bipartitioning the dominant Schmidt states, their leading Schmidt sectors exhibit analogous structure. We derive the mechanism analytically in the circuit model, prove the $S_{α>1}$ area law for locally quenched Gibbs states, and support the hierarchy by exact diagonalization of random circuits and locally quenched Gibbs states of chaotic spin chains.",
+      "pubdate": "Wed, 06 May 2026 06:40:58 +0000",
+      "authors": "Tarun Grover"
+    },
+    "47a1cf83b7a679fbb5859ab3b2589553": {
+      "id": "47a1cf83b7a679fbb5859ab3b2589553",
+      "link": "http://arxiv.org/abs/2605.04517",
+      "title": "Angular Gausslets",
+      "abstract": "Gausslets are one of the few basis constructions for electronic structure that combine locality, orthonormality, variable resolution, and an accurate diagonal approximation for the electron-electron interaction, but the original construction is tied to one dimension. Radial gausslets extended this idea to atoms while leaving the angular degrees of freedom in spherical harmonics, so the atomic interaction remained only partially diagonal in the combined basis. Here we introduce generalized gausslets on the sphere and combine them shell by shell with radial gausslets to form an atom-centered basis in which the electron-electron interaction takes a two-index integral-diagonal form. The angular basis starts from localized spherical Gaussians and uses injection to make a low-$\\ell$ spherical-harmonic subspace exact. Tests of the kinetic spectrum, low-$\\ell$ Coulomb matrix elements, spherium, first-row Hartree--Fock calculations, and He exact diagonalization show systematic convergence with increasing angular resolution. We also develop DMRG methods for this basis, including compact MPOs, correlated small-space starting states, Givens-rotation transfers between nearby angular sizes, and embedded sampled variance extrapolation (ESVE). We show that this combination of ingredients can be used to solve the Be atom, with extrapolations in the number of angular functions but with fixed radial resolution, to within about 0.1 mH of the complete basis set limit exact energy. This shows that DMRG calculations of first row atoms which include both static and accurate dynamic correlation on the same footing are feasible.",
+      "pubdate": "Wed, 06 May 2026 05:49:34 +0000",
+      "authors": "Steven R. White"
     }
   }
 }
