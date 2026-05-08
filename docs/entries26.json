@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-08T00:54:26.841608+00:00",
+  "last_updated": "2026-05-08T12:42:24.738134+00:00",
   "entries": {
     "df5434a03bb1aa57cc9bd77aa7c0b80e": {
       "id": "df5434a03bb1aa57cc9bd77aa7c0b80e",
@@ -4088,6 +4088,54 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "3b8dbccabbb2a45acaf099c9fd6cbe38": {
+      "id": "3b8dbccabbb2a45acaf099c9fd6cbe38",
+      "link": "http://arxiv.org/abs/2605.06661",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "e1c668235ef423b3b1647981039c08a6": {
+      "id": "e1c668235ef423b3b1647981039c08a6",
+      "link": "http://arxiv.org/abs/2605.06579",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "9f08a6f1947b48772829a8e7962854eb": {
+      "id": "9f08a6f1947b48772829a8e7962854eb",
+      "link": "http://arxiv.org/abs/2605.06379",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "50add2b06c042247eef9b7af17093bed": {
+      "id": "50add2b06c042247eef9b7af17093bed",
+      "link": "http://arxiv.org/abs/2605.06086",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "bc3d3fa73b83865e3657988d852e7acf": {
+      "id": "bc3d3fa73b83865e3657988d852e7acf",
+      "link": "http://arxiv.org/abs/2605.05479",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "8a05e7047565d680d31f7bc12c975ad7": {
+      "id": "8a05e7047565d680d31f7bc12c975ad7",
+      "link": "http://arxiv.org/abs/2605.05299",
+      "title": "Universal Neural Propagator: Learning Time Evolution in Many-Body Quantum Systems",
+      "abstract": "Conventional approaches to simulating quantum many-body dynamics produce a single trajectory: if the Hamiltonian or the initial state is changed, the computation must be re-performed. Recent efforts toward foundation models have begun to address this limitation, yet existing methods transfer across either Hamiltonians or initial states, but not both. In this work, we introduce the Universal Neural Propagator (UNP), a single, unified model that learns the functional mapping from driving protocols to time-evolution propagators. Trained in an entirely self-supervised way, a single UNP model predicts dynamics across a function space of driving protocols and an exponentially large Hilbert space of initial states simultaneously. We benchmark on a two-dimensional driven Ising model and demonstrate the UNP's accuracy and transferability across product and entangled initial states, as well as for both in- and out-of-distribution driving protocols. The UNP remains accurate at system sizes beyond exact diagonalization, and can be efficiently fine-tuned across all initial states using observable data. By shifting the object of learning from quantum states to operators, this work opens a route toward transferable simulation of driven quantum matter.",
+      "pubdate": "Wed, 06 May 2026 18:00:01 +0000",
+      "authors": "Zihao Qi, Christopher Earls, Yang Peng"
     }
   }
 }
