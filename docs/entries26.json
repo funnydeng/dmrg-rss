@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-05-09T00:54:31.580042+00:00",
+  "last_updated": "2026-05-09T12:27:22.798355+00:00",
   "entries": {
+    "3b8dbccabbb2a45acaf099c9fd6cbe38": {
+      "id": "3b8dbccabbb2a45acaf099c9fd6cbe38",
+      "link": "http://arxiv.org/abs/2605.06661",
+      "title": "Pro-Tensor Network",
+      "abstract": "We introduce the pro-tensor network, a categorification of the tensor network, as a fully rigorous yet graphically transparent framework for studying the collection of many many-body theories, which we dub many-many-body theory. We provide a comprehensive toolbox for the graphical calculations using pro-tensor networks. As applications, we recover the Levin-Wen model as a \"uniform\" pro-tensor network and generalize a result of Kitaev and Kong by characterizing particles as modules over promonads. One can also interpret the string-net pro-tensor network as the space of symmetric tensor networks, thus our framework also applies to the study of generalized symmetry and topological holography. Notably, our generalization dispenses with the assumptions of semisimplicity, finiteness, and rigidity, potentially facilitating the exploration of many-body physics beyond these constraints.",
+      "pubdate": "Thu, 07 May 2026 17:58:40 +0000",
+      "authors": "Gen Yue, Ansi Bai, Linqian Wu, Tian Lan"
+    },
+    "e1c668235ef423b3b1647981039c08a6": {
+      "id": "e1c668235ef423b3b1647981039c08a6",
+      "link": "http://arxiv.org/abs/2605.06579",
+      "title": "Practical Log-Depth Quantum State Preparation and Circuit Verification via Tree Tensor Network Compilation",
+      "abstract": "Matrix product states provide efficient classical descriptions of quantum systems that may be useful as reference states for quantum algorithms such as quantum phase estimation and quantum-selected configuration interaction. Shallow circuit constructions for loading matrix product states onto quantum computers is necessary for this to be practical on near-term hardware. We present a decomposition of matrix product states to log-depth quantum circuits via a simple tree tensor network renormalisation procedure. Our method exposes an explicit parameter which can be used to trade a small amount of fidelity for large savings in circuit depth. We extend this decomposition to the case of matrix product operators allowing us to construct log-depth and ancilla-free circuits to calculate overlaps of the form $\\left |\\langleφ|U|ψ\\rangle\\right |^2$. In particular, we demonstrate an interpretation of these circuits as \\emph{verifier circuits} with application to circuit-level device calibration.",
+      "pubdate": "Thu, 07 May 2026 17:08:22 +0000",
+      "authors": "Angus Mingare, Peter V. Coveney"
+    },
+    "9f08a6f1947b48772829a8e7962854eb": {
+      "id": "9f08a6f1947b48772829a8e7962854eb",
+      "link": "http://arxiv.org/abs/2605.06379",
+      "title": "Systematic Extraction of Exact Yang-Mills Solutions via Algebraic Tensor Ring Decomposition",
+      "abstract": "The non-linear nature of Yang-Mills theory presents a challenge for extracting exact classical solutions, which are useful for understanding non-perturbative vacuum structures. In this paper, an algebraic tensor ring decomposition framework is introduced to systematically map the non-linear partial differential equations (PDEs) of Yang-Mills theory into tractable differential-algebraic systems. By promoting static pure-gauge backgrounds to dynamical variables, the reference state acts as a geometric template whose Maurer-Cartan forms generate the algebraic cross-terms necessary to stabilize non-linear self-interactions. To analytically resolve the resulting differential ideals, specific differential-algebraic quotient rings are employed as evaluation tools, and the solution space is organized by an algebraic bifurcation analysis. Applying this framework, three distinct classes of exact solutions are extracted: (i) relativistic $SU(2)$ color waves evaluated over an elliptic quotient ring, where the differential ideal bifurcates into a Decoupled Branch and two Coupled Branches, the latter exhibiting mass gap generation; (ii) dynamical dyonic flux tubes obtained from a time-dependent helical template, where the Gauss law ideal bifurcates the system into Coulomb, Dyonic, and symmetric Meissner branches. In the Meissner branch, an Artinian asymptotic truncation yields Bessel-type exponential screening, stabilized by a temporal dominance condition; and (iii) dynamical $SU(3)$ configurations where the Gauss law ideal bifurcates the solution space into four distinct phases. The non-trivial branches enforce a kinetic cancellation mechanism that maps the amplitude dynamics onto a generalized $x^2y^2$ chaotic oscillator. Across these settings, the framework provides a methodical approach to characterize the classical solution space of strongly coupled gauge theories.",
+      "pubdate": "Thu, 07 May 2026 14:58:55 +0000",
+      "authors": "Yu-Xuan Zhang, Jing-Ling Chen"
+    },
+    "50add2b06c042247eef9b7af17093bed": {
+      "id": "50add2b06c042247eef9b7af17093bed",
+      "link": "http://arxiv.org/abs/2605.06086",
+      "title": "LARGO: Low-Rank Hypernetwork for Handling Missing Modalities",
+      "abstract": "Addressing missing modalities is an important challenge in multimodal image analysis and often relies on complex architectures that do not transfer easily to different datasets without architectural modifications or hyperparameter tuning. While most existing methods tackle this problem in feature space by engineering representations that are robust to missing inputs, we instead operate in weight space. We propose LARGO, a hypernetwork that compresses the $2^N-1$ dedicated missing-modality models into a single network by modelling the convolutional weights using the Canonical Polyadic (CP) tensor decomposition. Extensive experimental validation on BraTS 2018 (4 modalities, 15 scenarios) and ISLES 2022 (3 modalities, 7 scenarios) shows that our method ranks first in 47 out of 52 configurations, achieving average Dice improvements of +0.68$\\%$ and +2.53$\\%$ over state-of-the-art baselines (mmFormer, M$^{3}$AE, ShaSpec, SimMLM). A proof-of-concept experiment on avMNIST suggests that LARGO may extend beyond medical imaging to heterogeneous non-medical modalities.",
+      "pubdate": "Thu, 07 May 2026 12:07:55 +0000",
+      "authors": "Niels Vyncke, Pooya Ashtari, Aleksandra Pižurica"
+    },
+    "bc3d3fa73b83865e3657988d852e7acf": {
+      "id": "bc3d3fa73b83865e3657988d852e7acf",
+      "link": "http://arxiv.org/abs/2605.05479",
+      "title": "Quantum Simulation of the Real-time Dynamics in the multi-flavor Gross-Neveu Model at the utility scale using Superconducting Quantum Computers",
+      "abstract": "We present a scalable quantum simulation framework for real-time dynamics of the multi-flavor Gross-Neveu model in 1+1 dimensions. Using superconducting quantum processors at utility scale, we develop a hardware-efficient Trotterization whose per-step circuit depth scales with fermion flavor number rather than total system size, enabling simulations beyond 100 qubits. A central contribution of this work is the Localized Diagonal Operator Approximation (LDOA), which systematically reduces the overhead associated with quartic interactions. We formulate diagonal unitary synthesis as a structured least-squares problem in phase space and obtain analytic solutions via the Moore-Penrose pseudoinverse. This formulation provides a principled and quantitatively controlled approximation: in the small Trotter-step regime, the unitary error is directly linked to the phase reconstruction error and vanishes asymptotically as the Trotter step size decreases. This establishes a clear mathematical foundation for the LDOA while significantly reducing two-qubit gate counts and circuit depth, and is broadly applicable to diagonal quantum operators with long-range structure, making it particularly well suited for quantum hardware with limited qubit connectivity. Using these techniques, we run large-scale simulations on IBM superconducting processors and study real-time observables, including density-density correlators. We benchmark against exact diagonalization and tensor network-based methods, finding strong agreement across system sizes. These results show that combining hardware-aware circuit design with rigorous approximations enables practical near-term simulation of interacting fermionic field theories and provides a scalable pathway toward more complex quantum field theory simulations.",
+      "pubdate": "Wed, 06 May 2026 21:57:51 +0000",
+      "authors": "Talal Ahmed Chowdhury, Seokwon Choi, Kyoungchul Kong, Kwangmin Yu"
+    },
     "8a05e7047565d680d31f7bc12c975ad7": {
       "id": "8a05e7047565d680d31f7bc12c975ad7",
       "link": "http://arxiv.org/abs/2605.05299",
@@ -4096,46 +4136,6 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
-    },
-    "3b8dbccabbb2a45acaf099c9fd6cbe38": {
-      "id": "3b8dbccabbb2a45acaf099c9fd6cbe38",
-      "link": "http://arxiv.org/abs/2605.06661",
-      "title": "Pro-Tensor Network",
-      "abstract": "We introduce the pro-tensor network, a categorification of the tensor network, as a fully rigorous yet graphically transparent framework for studying the collection of many many-body theories, which we dub many-many-body theory. We provide a comprehensive toolbox for the graphical calculations using pro-tensor networks. As applications, we recover the Levin-Wen model as a \"uniform\" pro-tensor network and generalize a result of Kitaev and Kong by characterizing particles as modules over promonads. One can also interpret the string-net pro-tensor network as the space of symmetric tensor networks, thus our framework also applies to the study of generalized symmetry and topological holography. Notably, our generalization dispenses with the assumptions of semisimplicity, finiteness, and rigidity, potentially facilitating the exploration of many-body physics beyond these constraints.",
-      "pubdate": "Thu, 07 May 2026 17:58:40 +0000",
-      "authors": "Gen Yue, Ansi Bai, Linqian Wu, Tian Lan"
-    },
-    "e1c668235ef423b3b1647981039c08a6": {
-      "id": "e1c668235ef423b3b1647981039c08a6",
-      "link": "http://arxiv.org/abs/2605.06579",
-      "title": "Practical Log-Depth Quantum State Preparation and Circuit Verification via Tree Tensor Network Compilation",
-      "abstract": "Matrix product states provide efficient classical descriptions of quantum systems that may be useful as reference states for quantum algorithms such as quantum phase estimation and quantum-selected configuration interaction. Shallow circuit constructions for loading matrix product states onto quantum computers is necessary for this to be practical on near-term hardware. We present a decomposition of matrix product states to log-depth quantum circuits via a simple tree tensor network renormalisation procedure. Our method exposes an explicit parameter which can be used to trade a small amount of fidelity for large savings in circuit depth. We extend this decomposition to the case of matrix product operators allowing us to construct log-depth and ancilla-free circuits to calculate overlaps of the form $\\left |\\langleφ|U|ψ\\rangle\\right |^2$. In particular, we demonstrate an interpretation of these circuits as \\emph{verifier circuits} with application to circuit-level device calibration.",
-      "pubdate": "Thu, 07 May 2026 17:08:22 +0000",
-      "authors": "Angus Mingare, Peter V. Coveney"
-    },
-    "9f08a6f1947b48772829a8e7962854eb": {
-      "id": "9f08a6f1947b48772829a8e7962854eb",
-      "link": "http://arxiv.org/abs/2605.06379",
-      "title": "Systematic Extraction of Exact Yang-Mills Solutions via Algebraic Tensor Ring Decomposition",
-      "abstract": "The non-linear nature of Yang-Mills theory presents a challenge for extracting exact classical solutions, which are useful for understanding non-perturbative vacuum structures. In this paper, an algebraic tensor ring decomposition framework is introduced to systematically map the non-linear partial differential equations (PDEs) of Yang-Mills theory into tractable differential-algebraic systems. By promoting static pure-gauge backgrounds to dynamical variables, the reference state acts as a geometric template whose Maurer-Cartan forms generate the algebraic cross-terms necessary to stabilize non-linear self-interactions. To analytically resolve the resulting differential ideals, specific differential-algebraic quotient rings are employed as evaluation tools, and the solution space is organized by an algebraic bifurcation analysis. Applying this framework, three distinct classes of exact solutions are extracted: (i) relativistic $SU(2)$ color waves evaluated over an elliptic quotient ring, where the differential ideal bifurcates into a Decoupled Branch and two Coupled Branches, the latter exhibiting mass gap generation; (ii) dynamical dyonic flux tubes obtained from a time-dependent helical template, where the Gauss law ideal bifurcates the system into Coulomb, Dyonic, and symmetric Meissner branches. In the Meissner branch, an Artinian asymptotic truncation yields Bessel-type exponential screening, stabilized by a temporal dominance condition; and (iii) dynamical $SU(3)$ configurations where the Gauss law ideal bifurcates the solution space into four distinct phases. The non-trivial branches enforce a kinetic cancellation mechanism that maps the amplitude dynamics onto a generalized $x^2y^2$ chaotic oscillator. Across these settings, the framework provides a methodical approach to characterize the classical solution space of strongly coupled gauge theories.",
-      "pubdate": "Thu, 07 May 2026 14:58:55 +0000",
-      "authors": "Yu-Xuan Zhang, Jing-Ling Chen"
-    },
-    "50add2b06c042247eef9b7af17093bed": {
-      "id": "50add2b06c042247eef9b7af17093bed",
-      "link": "http://arxiv.org/abs/2605.06086",
-      "title": "LARGO: Low-Rank Hypernetwork for Handling Missing Modalities",
-      "abstract": "Addressing missing modalities is an important challenge in multimodal image analysis and often relies on complex architectures that do not transfer easily to different datasets without architectural modifications or hyperparameter tuning. While most existing methods tackle this problem in feature space by engineering representations that are robust to missing inputs, we instead operate in weight space. We propose LARGO, a hypernetwork that compresses the $2^N-1$ dedicated missing-modality models into a single network by modelling the convolutional weights using the Canonical Polyadic (CP) tensor decomposition. Extensive experimental validation on BraTS 2018 (4 modalities, 15 scenarios) and ISLES 2022 (3 modalities, 7 scenarios) shows that our method ranks first in 47 out of 52 configurations, achieving average Dice improvements of +0.68$\\%$ and +2.53$\\%$ over state-of-the-art baselines (mmFormer, M$^{3}$AE, ShaSpec, SimMLM). A proof-of-concept experiment on avMNIST suggests that LARGO may extend beyond medical imaging to heterogeneous non-medical modalities.",
-      "pubdate": "Thu, 07 May 2026 12:07:55 +0000",
-      "authors": "Niels Vyncke, Pooya Ashtari, Aleksandra Pižurica"
-    },
-    "bc3d3fa73b83865e3657988d852e7acf": {
-      "id": "bc3d3fa73b83865e3657988d852e7acf",
-      "link": "http://arxiv.org/abs/2605.05479",
-      "title": "Quantum Simulation of the Real-time Dynamics in the multi-flavor Gross-Neveu Model at the utility scale using Superconducting Quantum Computers",
-      "abstract": "We present a scalable quantum simulation framework for real-time dynamics of the multi-flavor Gross-Neveu model in 1+1 dimensions. Using superconducting quantum processors at utility scale, we develop a hardware-efficient Trotterization whose per-step circuit depth scales with fermion flavor number rather than total system size, enabling simulations beyond 100 qubits. A central contribution of this work is the Localized Diagonal Operator Approximation (LDOA), which systematically reduces the overhead associated with quartic interactions. We formulate diagonal unitary synthesis as a structured least-squares problem in phase space and obtain analytic solutions via the Moore-Penrose pseudoinverse. This formulation provides a principled and quantitatively controlled approximation: in the small Trotter-step regime, the unitary error is directly linked to the phase reconstruction error and vanishes asymptotically as the Trotter step size decreases. This establishes a clear mathematical foundation for the LDOA while significantly reducing two-qubit gate counts and circuit depth, and is broadly applicable to diagonal quantum operators with long-range structure, making it particularly well suited for quantum hardware with limited qubit connectivity. Using these techniques, we run large-scale simulations on IBM superconducting processors and study real-time observables, including density-density correlators. We benchmark against exact diagonalization and tensor network-based methods, finding strong agreement across system sizes. These results show that combining hardware-aware circuit design with rigorous approximations enables practical near-term simulation of interacting fermionic field theories and provides a scalable pathway toward more complex quantum field theory simulations.",
-      "pubdate": "Wed, 06 May 2026 21:57:51 +0000",
-      "authors": "Talal Ahmed Chowdhury, Seokwon Choi, Kyoungchul Kong, Kwangmin Yu"
     }
   }
 }
