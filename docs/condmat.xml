@@ -8,7 +8,40 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 11 May 2026 00:58:19 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 13:12:05 +0000</lastBuildDate>
+    <item>
+      <title>Does a Fractional Quantum Hall Edge Have a Protected Intrinsic Dipole Moment?</title>
+      <link>http://arxiv.org/abs/2605.06801</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Domagoj Perković, Konstantinos Vasiliou, S. A. Parameswaran, Steven H. Simon&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We investigate the claims by Park and Haldane [Phys. Rev. B 90, 045123 (2014)] of an intrinsic protected value of the electric dipole moment at the physical edge of fractional quantum Hall (FQH) systems. Contrary to prevailing expectations, we find that the edge dipole takes the expected intrinsic value only in certain very special cases. We identify key limitations in earlier numerical studies and employ density matrix renormalization group (DMRG) methods to accurately compute the ground-state dipole. We focus on three representative systems: the $ν=1/3$-vacuum edge, the $ν=2/3$-vacuum edge, and the interface between Pfaffian and anti-Pfaffian phases. We find that the expected intrinsic dipole value occurs only at $ν=1/3$, whereas the other systems do not exhibit the claimed intrinsic value. We give arguments based on composite fermions as to why hierarchy states should generally not have protected intrinsic dipoles. These results have important implications for the energetics and edge structure of FQH states.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2605.06801'&gt;arXiv:2605.06801&lt;/a&gt;] Published Thu, 07 May 2026 18:03:06 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2605.06801</guid>
+      <pubDate>Thu, 07 May 2026 18:03:06 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <title>Entanglement-informed distributed wavefunction approach to scalable quantum many-body systems</title>
+      <link>http://arxiv.org/abs/2605.07621</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Adriano Amaricci&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We show that the entanglement structure of quantum many-body states defines a natural and optimal distributed representation for their simulation. An arbitrary entanglement cut induces a bipartite decomposition of the wavefunction, mapping its distribution onto that of the entanglement spectrum. In this representation the Hamiltonian application, the core of Krylov-subspace methods, reduces to local contractions and communication-optimal operations. Using benchmarks from different methods and models, we demonstrate near-linear scaling for sufficiently large systems and identify entanglement spectrum fragmentation as a key factor controlling computational cost. This establishes entanglement as an organizing principle and unified, method-independent, route for scaling up quantum many-body simulations.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2605.07621'&gt;arXiv:2605.07621&lt;/a&gt;] Published Fri, 08 May 2026 11:48:11 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2605.07621</guid>
+      <pubDate>Fri, 08 May 2026 11:48:11 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <title>Ground states of quantum XY dipoles on the Archimedean lattices</title>
+      <link>http://arxiv.org/abs/2605.07685</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Marcus Bintz, Ahmed Khalifa, Vincent S. Liu, Johannes Hauschild, Michael P. Zaletel, Shubhayu Chatterjee, Norman Y. Yao&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We report numerical ground states for the dipolar XY spin model, which describes extended antiferromagnetic interactions in two-dimensional arrays of polar molecules and two-level Rydberg atoms. Carrying out large-scale density matrix renormalization group (DMRG) calculations, we compute ground state properties on nine of the eleven Archimedean lattices--tilings of the plane by regular polygons. Four of these host trivial paramagnets, while another four develop collinear Neel magnetic order, as was found previously for the square lattice. For the ordered states, we calculate the hydrodynamic parameters (magnetization, susceptibility, and stiffness) and compare to linear spin wave theory. We also investigate the triangular lattice, for which we find several competing phases including coplanar magnetism, stripe density wave order, and a possible spin liquid; their relative stability is sensitive to the long-range couplings present in our dipolar model. Finally, the Archimedean classification is completed by the kagome lattice, which we argue in a companion work is likely to be a Dirac spin liquid.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2605.07685'&gt;arXiv:2605.07685&lt;/a&gt;] Published Fri, 08 May 2026 12:54:40 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2605.07685</guid>
+      <pubDate>Fri, 08 May 2026 12:54:40 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <link>http://arxiv.org/abs/2605.07887</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2605.07887'&gt;arXiv:2605.07887&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2605.07887</guid>
+      <pubDate>Mon, 11 May 2026 13:12:05 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <link>http://arxiv.org/abs/2605.07906</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2605.07906'&gt;arXiv:2605.07906&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2605.07906</guid>
+      <pubDate>Mon, 11 May 2026 13:12:05 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
     <item>
       <title>Full grid solution for multi-asset options pricing with tensor networks</title>
       <link>http://arxiv.org/abs/2601.00009</link>

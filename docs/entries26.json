@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-11T00:58:19.797576+00:00",
+  "last_updated": "2026-05-11T13:12:05.035493+00:00",
   "entries": {
     "3b8dbccabbb2a45acaf099c9fd6cbe38": {
       "id": "3b8dbccabbb2a45acaf099c9fd6cbe38",
@@ -4136,6 +4136,46 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "7f536735a9e9b3ee2cd28ceecdb6a6a3": {
+      "id": "7f536735a9e9b3ee2cd28ceecdb6a6a3",
+      "link": "http://arxiv.org/abs/2605.07906",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "12e33a9ee8260378adce2c83fc2d8b9d": {
+      "id": "12e33a9ee8260378adce2c83fc2d8b9d",
+      "link": "http://arxiv.org/abs/2605.07887",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "1e54af0851bae6224af7eef38904caf9": {
+      "id": "1e54af0851bae6224af7eef38904caf9",
+      "link": "http://arxiv.org/abs/2605.07685",
+      "title": "Ground states of quantum XY dipoles on the Archimedean lattices",
+      "abstract": "We report numerical ground states for the dipolar XY spin model, which describes extended antiferromagnetic interactions in two-dimensional arrays of polar molecules and two-level Rydberg atoms. Carrying out large-scale density matrix renormalization group (DMRG) calculations, we compute ground state properties on nine of the eleven Archimedean lattices--tilings of the plane by regular polygons. Four of these host trivial paramagnets, while another four develop collinear Neel magnetic order, as was found previously for the square lattice. For the ordered states, we calculate the hydrodynamic parameters (magnetization, susceptibility, and stiffness) and compare to linear spin wave theory. We also investigate the triangular lattice, for which we find several competing phases including coplanar magnetism, stripe density wave order, and a possible spin liquid; their relative stability is sensitive to the long-range couplings present in our dipolar model. Finally, the Archimedean classification is completed by the kagome lattice, which we argue in a companion work is likely to be a Dirac spin liquid.",
+      "pubdate": "Fri, 08 May 2026 12:54:40 +0000",
+      "authors": "Marcus Bintz, Ahmed Khalifa, Vincent S. Liu, Johannes Hauschild, Michael P. Zaletel, Shubhayu Chatterjee, Norman Y. Yao"
+    },
+    "aa6fe20a0196946bf56f9d69879edec8": {
+      "id": "aa6fe20a0196946bf56f9d69879edec8",
+      "link": "http://arxiv.org/abs/2605.07621",
+      "title": "Entanglement-informed distributed wavefunction approach to scalable quantum many-body systems",
+      "abstract": "We show that the entanglement structure of quantum many-body states defines a natural and optimal distributed representation for their simulation. An arbitrary entanglement cut induces a bipartite decomposition of the wavefunction, mapping its distribution onto that of the entanglement spectrum. In this representation the Hamiltonian application, the core of Krylov-subspace methods, reduces to local contractions and communication-optimal operations. Using benchmarks from different methods and models, we demonstrate near-linear scaling for sufficiently large systems and identify entanglement spectrum fragmentation as a key factor controlling computational cost. This establishes entanglement as an organizing principle and unified, method-independent, route for scaling up quantum many-body simulations.",
+      "pubdate": "Fri, 08 May 2026 11:48:11 +0000",
+      "authors": "Adriano Amaricci"
+    },
+    "21f986e2e0680f745aa912dca8b5ae41": {
+      "id": "21f986e2e0680f745aa912dca8b5ae41",
+      "link": "http://arxiv.org/abs/2605.06801",
+      "title": "Does a Fractional Quantum Hall Edge Have a Protected Intrinsic Dipole Moment?",
+      "abstract": "We investigate the claims by Park and Haldane [Phys. Rev. B 90, 045123 (2014)] of an intrinsic protected value of the electric dipole moment at the physical edge of fractional quantum Hall (FQH) systems. Contrary to prevailing expectations, we find that the edge dipole takes the expected intrinsic value only in certain very special cases. We identify key limitations in earlier numerical studies and employ density matrix renormalization group (DMRG) methods to accurately compute the ground-state dipole. We focus on three representative systems: the $ν=1/3$-vacuum edge, the $ν=2/3$-vacuum edge, and the interface between Pfaffian and anti-Pfaffian phases. We find that the expected intrinsic dipole value occurs only at $ν=1/3$, whereas the other systems do not exhibit the claimed intrinsic value. We give arguments based on composite fermions as to why hierarchy states should generally not have protected intrinsic dipoles. These results have important implications for the energetics and edge structure of FQH states.",
+      "pubdate": "Thu, 07 May 2026 18:03:06 +0000",
+      "authors": "Domagoj Perković, Konstantinos Vasiliou, S. A. Parameswaran, Steven H. Simon"
     }
   }
 }
