@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-05-11T13:12:05.035493+00:00",
+  "last_updated": "2026-05-12T00:53:08.808408+00:00",
   "entries": {
+    "1e54af0851bae6224af7eef38904caf9": {
+      "id": "1e54af0851bae6224af7eef38904caf9",
+      "link": "http://arxiv.org/abs/2605.07685",
+      "title": "Ground states of quantum XY dipoles on the Archimedean lattices",
+      "abstract": "We report numerical ground states for the dipolar XY spin model, which describes extended antiferromagnetic interactions in two-dimensional arrays of polar molecules and two-level Rydberg atoms. Carrying out large-scale density matrix renormalization group (DMRG) calculations, we compute ground state properties on nine of the eleven Archimedean lattices--tilings of the plane by regular polygons. Four of these host trivial paramagnets, while another four develop collinear Neel magnetic order, as was found previously for the square lattice. For the ordered states, we calculate the hydrodynamic parameters (magnetization, susceptibility, and stiffness) and compare to linear spin wave theory. We also investigate the triangular lattice, for which we find several competing phases including coplanar magnetism, stripe density wave order, and a possible spin liquid; their relative stability is sensitive to the long-range couplings present in our dipolar model. Finally, the Archimedean classification is completed by the kagome lattice, which we argue in a companion work is likely to be a Dirac spin liquid.",
+      "pubdate": "Fri, 08 May 2026 12:54:40 +0000",
+      "authors": "Marcus Bintz, Ahmed Khalifa, Vincent S. Liu, Johannes Hauschild, Michael P. Zaletel, Shubhayu Chatterjee, Norman Y. Yao"
+    },
+    "aa6fe20a0196946bf56f9d69879edec8": {
+      "id": "aa6fe20a0196946bf56f9d69879edec8",
+      "link": "http://arxiv.org/abs/2605.07621",
+      "title": "Entanglement-informed distributed wavefunction approach to scalable quantum many-body systems",
+      "abstract": "We show that the entanglement structure of quantum many-body states defines a natural and optimal distributed representation for their simulation. An arbitrary entanglement cut induces a bipartite decomposition of the wavefunction, mapping its distribution onto that of the entanglement spectrum. In this representation the Hamiltonian application, the core of Krylov-subspace methods, reduces to local contractions and communication-optimal operations. Using benchmarks from different methods and models, we demonstrate near-linear scaling for sufficiently large systems and identify entanglement spectrum fragmentation as a key factor controlling computational cost. This establishes entanglement as an organizing principle and unified, method-independent, route for scaling up quantum many-body simulations.",
+      "pubdate": "Fri, 08 May 2026 11:48:11 +0000",
+      "authors": "Adriano Amaricci"
+    },
+    "21f986e2e0680f745aa912dca8b5ae41": {
+      "id": "21f986e2e0680f745aa912dca8b5ae41",
+      "link": "http://arxiv.org/abs/2605.06801",
+      "title": "Does a Fractional Quantum Hall Edge Have a Protected Intrinsic Dipole Moment?",
+      "abstract": "We investigate the claims by Park and Haldane [Phys. Rev. B 90, 045123 (2014)] of an intrinsic protected value of the electric dipole moment at the physical edge of fractional quantum Hall (FQH) systems. Contrary to prevailing expectations, we find that the edge dipole takes the expected intrinsic value only in certain very special cases. We identify key limitations in earlier numerical studies and employ density matrix renormalization group (DMRG) methods to accurately compute the ground-state dipole. We focus on three representative systems: the $ν=1/3$-vacuum edge, the $ν=2/3$-vacuum edge, and the interface between Pfaffian and anti-Pfaffian phases. We find that the expected intrinsic dipole value occurs only at $ν=1/3$, whereas the other systems do not exhibit the claimed intrinsic value. We give arguments based on composite fermions as to why hierarchy states should generally not have protected intrinsic dipoles. These results have important implications for the energetics and edge structure of FQH states.",
+      "pubdate": "Thu, 07 May 2026 18:03:06 +0000",
+      "authors": "Domagoj Perković, Konstantinos Vasiliou, S. A. Parameswaran, Steven H. Simon"
+    },
     "3b8dbccabbb2a45acaf099c9fd6cbe38": {
       "id": "3b8dbccabbb2a45acaf099c9fd6cbe38",
       "link": "http://arxiv.org/abs/2605.06661",
@@ -4140,42 +4164,18 @@
     "7f536735a9e9b3ee2cd28ceecdb6a6a3": {
       "id": "7f536735a9e9b3ee2cd28ceecdb6a6a3",
       "link": "http://arxiv.org/abs/2605.07906",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
+      "title": "Checkerboard Bose Hubbard Ladders using Transmon Arrays",
+      "abstract": "Adding a sublattice bias to the two dimensional Bose Hubbard model greatly enriches the available physics, and introduces knobs which can be used to control and interrogate the quantum state. We describe the physics of this checkerboard Bose Hubbard model and how it can be explored using transmon arrays. We show that the sublattice bias brings the commensurate superfluid phase into an experimentally accessible regime, and gives new probes. We characterize the superfluid and insulating phases, with careful attention to finite size effects.",
+      "pubdate": "Fri, 08 May 2026 15:44:47 +0000",
+      "authors": "Pranjal Praneel, Thomas G Kiely, Andre G Petukhov, Erich J Mueller"
     },
     "12e33a9ee8260378adce2c83fc2d8b9d": {
       "id": "12e33a9ee8260378adce2c83fc2d8b9d",
       "link": "http://arxiv.org/abs/2605.07887",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
-    },
-    "1e54af0851bae6224af7eef38904caf9": {
-      "id": "1e54af0851bae6224af7eef38904caf9",
-      "link": "http://arxiv.org/abs/2605.07685",
-      "title": "Ground states of quantum XY dipoles on the Archimedean lattices",
-      "abstract": "We report numerical ground states for the dipolar XY spin model, which describes extended antiferromagnetic interactions in two-dimensional arrays of polar molecules and two-level Rydberg atoms. Carrying out large-scale density matrix renormalization group (DMRG) calculations, we compute ground state properties on nine of the eleven Archimedean lattices--tilings of the plane by regular polygons. Four of these host trivial paramagnets, while another four develop collinear Neel magnetic order, as was found previously for the square lattice. For the ordered states, we calculate the hydrodynamic parameters (magnetization, susceptibility, and stiffness) and compare to linear spin wave theory. We also investigate the triangular lattice, for which we find several competing phases including coplanar magnetism, stripe density wave order, and a possible spin liquid; their relative stability is sensitive to the long-range couplings present in our dipolar model. Finally, the Archimedean classification is completed by the kagome lattice, which we argue in a companion work is likely to be a Dirac spin liquid.",
-      "pubdate": "Fri, 08 May 2026 12:54:40 +0000",
-      "authors": "Marcus Bintz, Ahmed Khalifa, Vincent S. Liu, Johannes Hauschild, Michael P. Zaletel, Shubhayu Chatterjee, Norman Y. Yao"
-    },
-    "aa6fe20a0196946bf56f9d69879edec8": {
-      "id": "aa6fe20a0196946bf56f9d69879edec8",
-      "link": "http://arxiv.org/abs/2605.07621",
-      "title": "Entanglement-informed distributed wavefunction approach to scalable quantum many-body systems",
-      "abstract": "We show that the entanglement structure of quantum many-body states defines a natural and optimal distributed representation for their simulation. An arbitrary entanglement cut induces a bipartite decomposition of the wavefunction, mapping its distribution onto that of the entanglement spectrum. In this representation the Hamiltonian application, the core of Krylov-subspace methods, reduces to local contractions and communication-optimal operations. Using benchmarks from different methods and models, we demonstrate near-linear scaling for sufficiently large systems and identify entanglement spectrum fragmentation as a key factor controlling computational cost. This establishes entanglement as an organizing principle and unified, method-independent, route for scaling up quantum many-body simulations.",
-      "pubdate": "Fri, 08 May 2026 11:48:11 +0000",
-      "authors": "Adriano Amaricci"
-    },
-    "21f986e2e0680f745aa912dca8b5ae41": {
-      "id": "21f986e2e0680f745aa912dca8b5ae41",
-      "link": "http://arxiv.org/abs/2605.06801",
-      "title": "Does a Fractional Quantum Hall Edge Have a Protected Intrinsic Dipole Moment?",
-      "abstract": "We investigate the claims by Park and Haldane [Phys. Rev. B 90, 045123 (2014)] of an intrinsic protected value of the electric dipole moment at the physical edge of fractional quantum Hall (FQH) systems. Contrary to prevailing expectations, we find that the edge dipole takes the expected intrinsic value only in certain very special cases. We identify key limitations in earlier numerical studies and employ density matrix renormalization group (DMRG) methods to accurately compute the ground-state dipole. We focus on three representative systems: the $ν=1/3$-vacuum edge, the $ν=2/3$-vacuum edge, and the interface between Pfaffian and anti-Pfaffian phases. We find that the expected intrinsic dipole value occurs only at $ν=1/3$, whereas the other systems do not exhibit the claimed intrinsic value. We give arguments based on composite fermions as to why hierarchy states should generally not have protected intrinsic dipoles. These results have important implications for the energetics and edge structure of FQH states.",
-      "pubdate": "Thu, 07 May 2026 18:03:06 +0000",
-      "authors": "Domagoj Perković, Konstantinos Vasiliou, S. A. Parameswaran, Steven H. Simon"
+      "title": "Shuttling of $\\mathbb{Z}_4$ parafermions in an electronic ladder model",
+      "abstract": "Parafermions with non-Abelian statistics have been proposed as a promising platform for quantum computation, potentially enabling a broader set of topologically protected gates than Majorana fermions. The experimental and theoretical exploration of these exotic quasiparticles remains challenging, as their stability is linked to strong electron-electron interactions. A key step toward practical applications is the controlled shuttling of parafermionic modes, which is required for implementing geometric braiding operations. In the present work, we investigate the real-time dynamics of the elementary shuttling process by applying a combination of the density matrix renormalization group and the time-dependent variational principle approaches. We analyze the transport of $\\mathbb{Z}_4$ parafermion edge states and assess the corresponding adiabatic speed limit under experimentally relevant conditions.",
+      "pubdate": "Fri, 08 May 2026 15:34:34 +0000",
+      "authors": "Botond Osváth, Gergely Barcza, László Oroszlány"
     }
   }
 }
