@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-05-12T00:53:08.808408+00:00",
+  "last_updated": "2026-05-12T12:51:18.380285+00:00",
   "entries": {
+    "7f536735a9e9b3ee2cd28ceecdb6a6a3": {
+      "id": "7f536735a9e9b3ee2cd28ceecdb6a6a3",
+      "link": "http://arxiv.org/abs/2605.07906",
+      "title": "Checkerboard Bose Hubbard Ladders using Transmon Arrays",
+      "abstract": "Adding a sublattice bias to the two dimensional Bose Hubbard model greatly enriches the available physics, and introduces knobs which can be used to control and interrogate the quantum state. We describe the physics of this checkerboard Bose Hubbard model and how it can be explored using transmon arrays. We show that the sublattice bias brings the commensurate superfluid phase into an experimentally accessible regime, and gives new probes. We characterize the superfluid and insulating phases, with careful attention to finite size effects.",
+      "pubdate": "Fri, 08 May 2026 15:44:47 +0000",
+      "authors": "Pranjal Praneel, Thomas G Kiely, Andre G Petukhov, Erich J Mueller"
+    },
+    "12e33a9ee8260378adce2c83fc2d8b9d": {
+      "id": "12e33a9ee8260378adce2c83fc2d8b9d",
+      "link": "http://arxiv.org/abs/2605.07887",
+      "title": "Shuttling of $\\mathbb{Z}_4$ parafermions in an electronic ladder model",
+      "abstract": "Parafermions with non-Abelian statistics have been proposed as a promising platform for quantum computation, potentially enabling a broader set of topologically protected gates than Majorana fermions. The experimental and theoretical exploration of these exotic quasiparticles remains challenging, as their stability is linked to strong electron-electron interactions. A key step toward practical applications is the controlled shuttling of parafermionic modes, which is required for implementing geometric braiding operations. In the present work, we investigate the real-time dynamics of the elementary shuttling process by applying a combination of the density matrix renormalization group and the time-dependent variational principle approaches. We analyze the transport of $\\mathbb{Z}_4$ parafermion edge states and assess the corresponding adiabatic speed limit under experimentally relevant conditions.",
+      "pubdate": "Fri, 08 May 2026 15:34:34 +0000",
+      "authors": "Botond Osváth, Gergely Barcza, László Oroszlány"
+    },
     "1e54af0851bae6224af7eef38904caf9": {
       "id": "1e54af0851bae6224af7eef38904caf9",
       "link": "http://arxiv.org/abs/2605.07685",
@@ -4161,21 +4177,85 @@
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
     },
-    "7f536735a9e9b3ee2cd28ceecdb6a6a3": {
-      "id": "7f536735a9e9b3ee2cd28ceecdb6a6a3",
-      "link": "http://arxiv.org/abs/2605.07906",
-      "title": "Checkerboard Bose Hubbard Ladders using Transmon Arrays",
-      "abstract": "Adding a sublattice bias to the two dimensional Bose Hubbard model greatly enriches the available physics, and introduces knobs which can be used to control and interrogate the quantum state. We describe the physics of this checkerboard Bose Hubbard model and how it can be explored using transmon arrays. We show that the sublattice bias brings the commensurate superfluid phase into an experimentally accessible regime, and gives new probes. We characterize the superfluid and insulating phases, with careful attention to finite size effects.",
-      "pubdate": "Fri, 08 May 2026 15:44:47 +0000",
-      "authors": "Pranjal Praneel, Thomas G Kiely, Andre G Petukhov, Erich J Mueller"
+    "5c6bbf2e8a38d9df63f585c9268253c7": {
+      "id": "5c6bbf2e8a38d9df63f585c9268253c7",
+      "link": "http://arxiv.org/abs/2605.10708",
+      "title": "Quantum Differential Equation Solver via Hybrid Oscillator-Qubit Linear Combination of Hamiltonian Simulations",
+      "abstract": "We introduce a hybrid oscillator-qubit formulation of linear combination of Hamiltonian simulation (LCHS) for solving linear ordinary differential equations. Instead of representing the quadrature rule with a discrete-variable (DV) ancilla register in qubit-only LCHS, the method encodes the LCHS kernel in a continuous-variable (CV) ancillary mode, thereby eliminating the explicit $O(\\log M_a)$ ancilla-qubit overhead, where $M_a$ is the number of discretized integral terms in the DV quadrature rule. We derive analytical error bounds for two main approximation mechanisms for the ideal kernel state preparation, showing superalgebraic convergence for Schwartz-class kernels in the truncation cutoff $N$. The required CV non-Gaussianity is captured by the finite squeezed-Fock kernel state, which generically has stellar rank $N-1$, identifying the truncation cutoff as a discrete measure of the oracle's non-Gaussian resource. For the hybrid oscillator-qubit evolution, we also obtain a product-formula bound showing that a $p$th-order formula requires $O(t^{1+1/p}(Γ_{p,N}/ε_t)^{1/p})$ Trotter steps to reach error $ε_t$, where $Γ_{p,N}$ collects Pauli commutator terms weighted by powers of the truncated position-operator norm $\\|\\hat{x}\\|_N$. We further derive a perturbation bound for the probability of obtaining the required oscillator measurement outcome, showing that an $ε$-close implementation of the ideal LCHS oracle in operator norm induces only an $O(ε)$ perturbation in the postselection probability. In the heat-equation benchmarks, the Law--Eberly protocol achieves end-to-end solution fidelity at least 99.90%. A comparison with a matrix-product-state-based DV LCHS implementation further shows that, the hybrid construction uses a substantially more compact oracle description with reduce circuit cost.",
+      "pubdate": "Mon, 11 May 2026 15:20:35 +0000",
+      "authors": "Elin Ranjan Das, Muqing Zheng, Rishab Dutta, Ang Li, Timothy Stavenger, Yuan Liu"
     },
-    "12e33a9ee8260378adce2c83fc2d8b9d": {
-      "id": "12e33a9ee8260378adce2c83fc2d8b9d",
-      "link": "http://arxiv.org/abs/2605.07887",
-      "title": "Shuttling of $\\mathbb{Z}_4$ parafermions in an electronic ladder model",
-      "abstract": "Parafermions with non-Abelian statistics have been proposed as a promising platform for quantum computation, potentially enabling a broader set of topologically protected gates than Majorana fermions. The experimental and theoretical exploration of these exotic quasiparticles remains challenging, as their stability is linked to strong electron-electron interactions. A key step toward practical applications is the controlled shuttling of parafermionic modes, which is required for implementing geometric braiding operations. In the present work, we investigate the real-time dynamics of the elementary shuttling process by applying a combination of the density matrix renormalization group and the time-dependent variational principle approaches. We analyze the transport of $\\mathbb{Z}_4$ parafermion edge states and assess the corresponding adiabatic speed limit under experimentally relevant conditions.",
-      "pubdate": "Fri, 08 May 2026 15:34:34 +0000",
-      "authors": "Botond Osváth, Gergely Barcza, László Oroszlány"
+    "fe633c55d28c8488a5e4772201056c1e": {
+      "id": "fe633c55d28c8488a5e4772201056c1e",
+      "link": "http://arxiv.org/abs/2605.10327",
+      "title": "SCALAR: A Neurosymbolic Framework for Automated Conjecture and Reasoning in Quantum Circuit Analysis",
+      "abstract": "In this paper, we present SCALAR (Symbolic Conjecture and LLM-Assisted Reasoning), a neurosymbolic framework for automated conjecture generation in quantum circuit analysis built on top of the CUDA-Q open source framework. The system integrates quantum simulation, symbolic conjecture generation, and LLM-based interpretation. We evaluate SCALAR on 82 MaxCut instances from the MQLib benchmark dataset and extend the analysis to 2,000 randomly generated graphs across four topologies: regular, Erdos-Renyi, Barabasi-Albert, and Watts-Strogatz. The framework generates conjectured bounds relating optimal QAOA parameters to graph invariants, including known relationships such as periodicity constraints on the phase separation parameter $γ$. SCALAR also recovers previously reported parameter transfer phenomena across structurally similar instances. Additionally, the system identifies correlations between graph structural features and optimization landscape properties, which we characterize through invariant-based descriptors. Using CUDA-Q tensor network simulator, we scale experiments to instances of up to 77 qubits. We discuss the accuracy, generality, and limitations of the generated conjectures, including sensitivity to graph class and quantum circuit depth.",
+      "pubdate": "Mon, 11 May 2026 10:31:18 +0000",
+      "authors": "Sean Feeney, Pooja Rao, Andreas Klappenecker, Reuben Tate, Yuri Alexeev, Stefano Mensa, Elica Kyoseva, Stephan Eidenbenz"
+    },
+    "e072b0152eedb2bcfbce6035b1c79ec4": {
+      "id": "e072b0152eedb2bcfbce6035b1c79ec4",
+      "link": "http://arxiv.org/abs/2605.10326",
+      "title": "Statistical mechanics of the $N$-queens problem",
+      "abstract": "We investigate the $N$-queens problem as a lattice gas -- a model in which $N$ queens are placed on an $N \\times N$ chessboard with pairwise repulsive interactions along shared rows, columns, and diagonals -- from the perspective of statistical mechanics. The ground states are exactly the $Q(N)$ solutions of the classical $N$-queens problem, with entropy per queen $s_0 \\approx \\ln N - γ$ ($γ\\approx 1.944$). This entropy reflects a characteristic constraint hierarchy: each successive geometric constraint -- columns, then diagonals -- reduces the entropy from the free-placement value $\\ln N$ by a definite constant. We derive the exact high-temperature energy $E/N \\to 5/3$ as $N \\to \\infty$. Extensive Monte Carlo simulations with $10^8$ sweeps per temperature point for $N = 8$--$1024$ reveal that the specific heat per queen $C_v/N$ converges to a universal function of $T$ as $N \\to \\infty$. The converged curve features a non-divergent peak $C_v^{\\max}/N \\approx 1.63$ at $T^* \\approx 0.235\\,J$, establishing the absence of a thermodynamic phase transition. Combined with the trivially exact high-temperature entropy $S(\\infty)/N = (1/N) \\ln \\binom{N^2}{N}$, the convergence of $C_v/N$ enables a thermodynamic integration of $C_v/T$ from $T = \\infty$ to $T = 0$ that recovers the ground-state entropy -- and hence the Simkin constant $γ$ -- purely from Monte Carlo data. This provides an independent thermodynamic route to a fundamental combinatorial constant. Thermodynamic integration yields $γ_{\\rm MC} = 1.946 \\pm 0.003$ at $N = 1024$, within $0.1\\%$ of the precise combinatorial value $γ= 1.94400(1)$. We further present a transfer-matrix-based tensor network formulation that encodes the non-attacking constraints into a rank-9 site tensor with 17 nonzero elements, providing a complementary exact-enumeration route.",
+      "pubdate": "Mon, 11 May 2026 10:31:16 +0000",
+      "authors": "Zong-Yue Liu, Hai-Jun Liao, Lei Wang"
+    },
+    "41c54e74baa082a3431bed3b9f351875": {
+      "id": "41c54e74baa082a3431bed3b9f351875",
+      "link": "http://arxiv.org/abs/2605.10238",
+      "title": "Local supersolid in moiré modulated Bose-Hubbard model using density-matrix renormalization group method",
+      "abstract": "The search and characterization of supersolid phases remain a central topic in condensed matter physics. Inspired by the experimental discovery of local superfluid and insulating phases in two-dimensional moiré optical lattices [Meng et al., Nature 615, 231 (2023)], we systematically explore the emergence of a local supersolid ($l$SS) phase in a one-dimensional Bose-Hubbard model subjected to a moiré potential, using the density-matrix renormalization group method. We impose a maximum site occupation $n_{\\rm max}=2$ to realize the soft-core boson constraint. In the absence of nearest-neighbor repulsion, we identify the conventional superfluid, local superfluid, Mott insulator, and moiré-induced insulator phases. When the nearest-neighbor repulsion is turned on, the $l$SS phase emerges in the strong-moiré regime. This phase is uniquely characterized by three key signatures: (i) coexisting local staggered density order and local off-diagonal coherence within isolated moiré supercells; (ii) exponentially decaying global off-diagonal correlations; and (iii) a vanishing global structure factor in the thermodynamic limit, while the local structure factor remains finite. These features clearly distinguish the $l$SS from the conventional global supersolid (SS) phase, which exhibits algebraic correlations and a finite global structure factor. Our results provide a complete microscopic picture of local quantum phases in moiré lattices and offer clear experimental observables for detecting $l$SS states with ultracold atoms.",
+      "pubdate": "Mon, 11 May 2026 09:11:42 +0000",
+      "authors": "Siyu Xie, Qiang Xu, Qianqian Shi, Wanzhou Zhang"
+    },
+    "7854da45f2a7b0636d64fd114e965154": {
+      "id": "7854da45f2a7b0636d64fd114e965154",
+      "link": "http://arxiv.org/abs/2605.10101",
+      "title": "Correlation-Driven Orbital-Selective Fermiology and Superconductivity in the Bilayer Nickelate La$_3$Ni$_2$O$_7$",
+      "abstract": "Recent angle-resolved photoemission measurements on La$_3$Ni$_2$O$_7$ have challenged the density-functional-theory-based picture of three Fermi surfaces by revealing that the $d_{z^2}$-derived $γ$ band can reside below the Fermi level. Motivated by this discrepancy, we investigate a realistic bilayer two-orbital Hubbard model using time-dependent variational principle (TDVP)-based cluster perturbation theory (CPT), alongside large-scale density matrix renormalization group (DMRG) calculations. Our TDVP-CPT calculations, performed on clusters of up to 16 physical sites, reveal that electronic correlations drive a pronounced orbital-selective reconstruction of the low-energy spectrum: the $d_{z^2}$ spectral weight is progressively depleted, the $γ$ band sinks below the Fermi level, and pseudogaps open on the remaining $α$ and $β$ bands, leaving Fermi arcs dominated by the $d_{x^2-y^2}$ orbital at strong coupling. Furthermore, large-scale DMRG calculations demonstrate that the leading superconducting correlations evolve consistently with this Fermi surface reconstruction, transitioning from $d_{z^2}$-dominated to $d_{x^2-y^2}$-dominated interlayer spin-singlet pairing while retaining an $s_{\\pm}$ structure. Consequently, our results indicate that the disappearance of the $γ$ pocket is not detrimental to superconductivity; rather, it signals a correlation-driven shift of the pairing channel mediated by interlayer antiferromagnetism, Hund's coupling, and inter-orbital hybridization.",
+      "pubdate": "Mon, 11 May 2026 07:17:45 +0000",
+      "authors": "Yong-Yue Zong, Shun-Li Yu, Jian-Xin Li"
+    },
+    "eeb79cf7022f15901f2bfe8bbd266c94": {
+      "id": "eeb79cf7022f15901f2bfe8bbd266c94",
+      "link": "http://arxiv.org/abs/2605.09705",
+      "title": "Spin-charge separation in two-leg t-J ladders",
+      "abstract": "Spin-charge separation is a hallmark of one-dimensional fermionic systems, yet its realization in higher dimensions remains an open question. To address this issue, we investigate a two-leg t-J ladder using the density matrix renormalization group (DMRG) method and its time-dependent extension. By analyzing ground-state correlations and single-particle removal spectra, we systematically examine the effects of plaquette diagonal hopping, spin exchange, and hole doping. Within appropriate parameter regimes, these factors drive the system from the well-known Luther Emery phase, with gapped spin and gapless charge modes, into a Luttinger liquid phase characterized by gapless spin and charge excitations, where signatures of spin-charge separation emerge. In combination with previous studies using exact diagonalization, our results provide evidence that spin-charge separation may persist in wider ladder systems.",
+      "pubdate": "Sun, 10 May 2026 18:58:09 +0000",
+      "authors": "Luhang Yang, Elbio Dagotto"
+    },
+    "ccf91af84855d50f39c087f8d207cdc0": {
+      "id": "ccf91af84855d50f39c087f8d207cdc0",
+      "link": "http://arxiv.org/abs/2605.09605",
+      "title": "Cocycle Actions on Hidden Quantum Markov Models: Symmetry Protection and Topological Order",
+      "abstract": "We develop a symmetry action framework for hidden quantum Markov models (HQMMs) tailored to one-dimensional quantum spin systems and symmetry-protected topological (SPT) phases. In our setting, a symmetry group $G$ acts projectively on the hidden (virtual) degrees of freedom and linearly on the physical observation space, yielding a global HQMM state that is invariant under the combined action of $G$ for both conventional and causal (input--output) structures. We show that such symmetry actions are naturally classified by a group-cohomology $2$-cocycle $[ω] \\in H^{2}(G,\\mathrm{U}(1))$, in direct analogy with the standard cohomological classification of one-dimensional bosonic SPT phases via projective edge representations. As an explicit example, we apply this construction to the Affleck--Kennedy--Lieb--Tasaki (AKLT) chain, where the hidden layer carries a nontrivial class $[ω] \\in H^{2}(\\mathrm{SO}(3),\\mathrm{U}(1))$ encoding its SPT order. In this case the HQMM formalism reproduces the known SPT properties of the AKLT state while providing a stochastic, Markovian description of the underlying virtual dynamics. Our results establish HQMMs as a natural bridge between quantum stochastic processes, tensor-network descriptions of many-body systems, and symmetry-protected topological order.",
+      "pubdate": "Sun, 10 May 2026 15:35:01 +0000",
+      "authors": "Abdessatar Souissi, Abdessatar Barhoumi"
+    },
+    "b0e0b229f3c5042cec663d9c67e8dd58": {
+      "id": "b0e0b229f3c5042cec663d9c67e8dd58",
+      "link": "http://arxiv.org/abs/2605.09385",
+      "title": "Truncating loopy tensor networks by zero-mode gauge fixing: the $Z_2$ lattice gauge theory at finite temperature",
+      "abstract": "Loopy tensor networks exhibit internal correlations that often render their compression inefficient. We show that even local bond optimization can more effectively exploit locally available information about relevant loop correlations. By cutting a bond, we define a set of states whose linear dependence can be identified through a zero mode of the states' metric tensor and used to truncate the bond dimension. In the absence of an exact zero mode, a linear combination of a small number of the lowest modes can instead be optimized to provide the optimal approximation to a zero mode. The truncation does not require prior gauge fixing. The method is applied to the two-dimensional finite-temperature $Z_2$ lattice gauge theory, whose thermal-state purification is represented by an infinite projected entangled-pair state (iPEPS).",
+      "pubdate": "Sun, 10 May 2026 07:22:12 +0000",
+      "authors": "Jacek Dziarmaga"
+    },
+    "a964e8dc62a5ea02661831b2d79f5db0": {
+      "id": "a964e8dc62a5ea02661831b2d79f5db0",
+      "link": "http://arxiv.org/abs/2605.08683",
+      "title": "High-Precision Variational Quantum SVD via Classical Orthogonality Correction",
+      "abstract": "Evaluating the entanglement spectrum is essential for characterizing exotic quantum phases such as quantum criticality and topological order. However, for large quantum many-body systems, this task is hindered by the exponential measurement complexity of standard tomographic techniques. To address this challenge, we introduce a hybrid quantum-classical variational framework for partial singular value decomposition of bipartite states, built on the canonical form of matrix product states. We employ a deflation-based optimization approach to sequentially extract dominant and subdominant Schmidt components of target states. Because hardware noise and finite circuit depth can compromise the mutual orthogonality of these extracted vectors, we propose an improved deflation algorithm incorporating explicit classical orthogonality correction. This classical post-processing acts as an error-filtering mechanism, enabling shallow and suboptimal quantum circuits. As a result, numerical accuracy is decoupled from quantum circuit optimization, mitigating optimization difficulties caused by barren plateaus and hardware noise. Furthermore, shallow ansatzes enable a concurrent execution strategy. Overlap matrices are evaluated by classical tensor network contractions, while cross terms between the target state and the extracted vectors are computed using an auxiliary reference state. This concurrent hybrid design improves computational throughput and bypasses the overhead of controlled target-state preparation. Numerical benchmarks on the ground states of one- and two-dimensional Heisenberg models demonstrate improved accuracy and numerical stability. By mitigating hurdles of circuit depth, optimization hardness, and measurement complexity, our framework provides a robust pathway for large-scale entanglement spectrum estimation on advanced near-term quantum devices.",
+      "pubdate": "Sat, 09 May 2026 04:49:05 +0000",
+      "authors": "Shohei Miyakoshi, Takanori Sugimoto, Tomonori Shirakawa, Seiji Yunoki, Hiroshi Ueda"
+    },
+    "469ef6dec91fc3acb286918b9f35fcfe": {
+      "id": "469ef6dec91fc3acb286918b9f35fcfe",
+      "link": "http://arxiv.org/abs/2605.08356",
+      "title": "Mesoscopic Regimes of Temporal Entanglement in Ergodic Quantum Systems",
+      "abstract": "We study temporal correlations in interacting quantum systems through the influence functional of a half-infinite quantum Ising chain. Using Rényi entropies and temporal mutual information, we confirm that integrable dynamics is captured by the quasiparticle picture. In contrast, generic ergodic Hamiltonian dynamics exhibits pronounced deviations from random-circuit universality, and its generalization including a symmetry accounting for energy conservation. Instead, we find a long mesoscopic regime suggestive of a slow spectral reorganization of the influence functional. Our results reveal a rich temporal structure in generic Hamiltonian dynamics and point to limitations of existing random-circuit paradigms at experimentally and numerically relevant timescales.",
+      "pubdate": "Fri, 08 May 2026 18:09:34 +0000",
+      "authors": "Sergio Cerezo-Roquebrún, Jan Thorben Schneider, Stefano Carignano, Aleix Bou-Comas, Mari Carmen Bañuls, Esperanza López, Luca Tagliacozzo"
     }
   }
 }
