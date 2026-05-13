@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-13T00:57:38.075848+00:00",
+  "last_updated": "2026-05-13T12:53:50.942155+00:00",
   "entries": {
     "5c6bbf2e8a38d9df63f585c9268253c7": {
       "id": "5c6bbf2e8a38d9df63f585c9268253c7",
@@ -4256,6 +4256,38 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "dd0dc6226f54d942cfa585a37d7d0a94": {
+      "id": "dd0dc6226f54d942cfa585a37d7d0a94",
+      "link": "http://arxiv.org/abs/2605.11557",
+      "title": "Wavelet Variance Equipartition as a Threshold for World-Model Quality and Quantum Kernel TN-Simulability",
+      "abstract": "While world models learn compact representations of complex environments, they lack a physics-grounded metric to assess the structural fidelity of their latent spaces. We identify the wavelet scaling exponent $α$ as a critical diagnostic, proposing optimal representations satisfy variance equipartition ($α\\approx 1/2$) -- mirroring Kolmogorov's inertial range. We establish $α= 1/2$ as a sharp transition boundary for the classical simulability of amplitude-encoded quantum kernels. Using tensor-network theory, we prove latents with $α> 1/2$ reside in an area-law phase admitting efficient classical emulation, while $α< 1/2$ triggers a volume-law phase where the Matrix Product State bond dimension $χ$ grows exponentially with qubit count $n$. Analyzing pre-trained VideoMAE latents reveals a dichotomy: spatial tokens approach the equipartition limit ($α\\approx 0.423$), but permutation-invariant feature channels exhibit unstructured disorder ($α\\approx -0.123$). This forces real-world latents deep into the volume-law phase, providing a data-driven necessary condition for simulation hardness. Finally, we apply Weingarten calculus to derive the exact variance of the scrambled transition probability under a 2-design ensemble. We prove this variance scales strictly as $\\Var[X] = Θ(d^{-2})$. We confirm this numerically with a log-log slope of $-1.881$ ($R^2 = 0.999$), identifying a formidable shot-noise wall demanding a measurement budget of $M = Ω(d^2)$ that constrains quantum machine learning scalability.",
+      "pubdate": "Tue, 12 May 2026 05:41:12 +0000",
+      "authors": "Chon-Fai Kam, Xavier Cadet, Miloud Bessafi, Frederic Cadet"
+    },
+    "f2ae703878afef7310612d3ec24dc121": {
+      "id": "f2ae703878afef7310612d3ec24dc121",
+      "link": "http://arxiv.org/abs/2605.11471",
+      "title": "On the Approximation Complexity of Matrix Product Operator Born Machines",
+      "abstract": "Matrix product operator Born machines (MPO-BMs) are tractable tensor-network models for probabilistic modeling, but their efficient approximation capability remains unclear. We characterize this boundary from both negative and positive perspectives. First, we prove that KL approximation is NP-hard for MPO-BMs in the continuous setting, ruling out universal efficient approximation in the worst case. Second, for score-based variational inference, we show that, under a locality and spectral-gap conditions on the loss-induced Hamiltonian, structured targets (e.g., path-graph Markov random fields) admit MPO-BM approximations with polynomial bond dimension and provable KL guarantees. Third, under the same locality structure, we prove that polynomially many score queries suffice to estimate the induced Hamiltonian and obtain such guarantees. Our results provide a theoretical characterization of when MPO-BMs are fundamentally hard to approximate and when they become efficiently learnable.",
+      "pubdate": "Tue, 12 May 2026 03:38:49 +0000",
+      "authors": "Chao Li, Zerui Tao, Yuchen Cong, Jian Xu, Qibin Zhao"
+    },
+    "56d7dda94e7426e010b6ece8522137e9": {
+      "id": "56d7dda94e7426e010b6ece8522137e9",
+      "link": "http://arxiv.org/abs/2605.11150",
+      "title": "Lecture Notes on Replica Tensor Networks for Random Quantum Circuits",
+      "abstract": "We present a pedagogical, hands-on tutorial on \\emph{replica tensor-network} techniques for random quantum circuits. At its core, the method recasts circuit-averaged observables acting on multiple copies of the system as the contraction of a classical tensor network, equivalently the partition function of a statistical-mechanics model whose effective spins live in the commutant of the gate ensemble. The framework is general: changing the observable or the initial state modifies only the replica boundary conditions, while changing the ensemble modifies the bulk tensors. Focusing on quantum-information diagnostics, from metrics of wavefunction spreadings to entanglement quantifiers, we illustrate the approach in both clean and noisy random unitary circuits. We then briefly explain how the methodology extends to other ensembles, such as orthogonal or Clifford circuits. The lecture notes are accompanied by \\texttt{ReplicaTN}, a self-contained C++/Python library and pedagogical notebooks.",
+      "pubdate": "Mon, 11 May 2026 18:57:53 +0000",
+      "authors": "Xhek Turkeshi"
+    },
+    "435884889ba37a129556ce52a8d10f4a": {
+      "id": "435884889ba37a129556ce52a8d10f4a",
+      "link": "http://arxiv.org/abs/2605.11146",
+      "title": "BCS-BEC crossover in trapped one-dimensional Fermi-Hubbard chains: entanglement and correlation signatures from DMRG and effective-pairing theory",
+      "abstract": "Confined ultracold atoms in optical lattices provide a versatile platform for simulating lattice models of strongly correlated quantum systems, where pairing phenomena and superfluid phases can be explored under controlled conditions. While the crossover between the Bardeen-Cooper-Schrieffer (BCS) phase and the Bose-Einstein condensation (BEC) is well understood in homogeneous systems, spatial confinement breaks translational symmetry and reshapes correlation patterns, making the BCS-BEC identification in trapped geometries challenging and allowing unconventional phases to emerge with no direct analog in homogeneous systems. Here we present a characterization of the BCS-BEC crossover in harmonically confined one-dimensional Fermi-Hubbard chains. Our analysis combines Density Matrix Renormalization Group (DMRG) simulations and entanglement-based diagnostics with effective models describing the formation of tightly bound fermion pairs. This combined approach enables a detailed understanding of how the interplay between interactions and confinement reshapes the crossover, leading to insulating regions coexisting with persistent superfluid correlations. Within this framework, we further introduce conditioned correlation functions whose power-law decay allows a clear distinction between BCS-like and BEC-like regimes. The consistency between the effective descriptions and the numerical DMRG results yields a unified picture of the crossover in harmonically confined geometries.",
+      "pubdate": "Mon, 11 May 2026 18:50:13 +0000",
+      "authors": "G. Diniz, I. M. Carvalho, M. Sanino, F. Iemini, V. V. França"
     }
   }
 }
