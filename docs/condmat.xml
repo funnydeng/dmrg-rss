@@ -8,7 +8,45 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 14 May 2026 00:58:58 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 12:50:45 +0000</lastBuildDate>
+    <item>
+      <link>http://arxiv.org/abs/2605.12665</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2605.12665'&gt;arXiv:2605.12665&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2605.12665</guid>
+      <pubDate>Thu, 14 May 2026 12:50:45 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <title>Lattice Gauging Interfaces and Noninvertible Defects in Higher Dimensions</title>
+      <link>http://arxiv.org/abs/2605.12601</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; David Hofmeier, Giovanna Pimenta, Weiguang Cao&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We study gauging interfaces and their defect descendants in lattice models with generalized symmetries in higher dimensions. We construct explicit interface Hamiltonians for gauging a $\mathbb Z_2^{(0)}$ symmetry in $(2+1)d$ and a $\mathbb Z_2^{(1)}$ symmetry in $(3+1)d$. In higher dimensions, and especially in the presence of higher-form symmetries, the topological nature of gauging interfaces is obscured by the fact that the constrained Hilbert space depends on the location of the interface. We resolve this by introducing movement operators acting on a common unconstrained Hilbert space, which transport both the interface Hamiltonians and the associated constraints. As applications, we analyze condensation defects obtained from finite-region gauging and reconstruct the gauging map from movement operators. Finally, we apply the same framework to subgroup gauging, focusing on the example of gauging $\mathbb Z_2\subset \mathbb Z_4$. This produces a dual symmetry carrying a mixed anomaly, which we diagnose on the lattice through symmetry fractionalization on condensation defects. Our results provide an explicit lattice framework for studying topological interfaces, condensation defects, and the associated anomalies arising from gauging in higher-dimensional systems.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2605.12601'&gt;arXiv:2605.12601&lt;/a&gt;] Published Tue, 12 May 2026 18:00:04 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2605.12601</guid>
+      <pubDate>Tue, 12 May 2026 18:00:04 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <link>http://arxiv.org/abs/2605.12833</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2605.12833'&gt;arXiv:2605.12833&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2605.12833</guid>
+      <pubDate>Thu, 14 May 2026 12:50:45 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <link>http://arxiv.org/abs/2605.12907</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2605.12907'&gt;arXiv:2605.12907&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2605.12907</guid>
+      <pubDate>Thu, 14 May 2026 12:50:45 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <link>http://arxiv.org/abs/2605.12932</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2605.12932'&gt;arXiv:2605.12932&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2605.12932</guid>
+      <pubDate>Thu, 14 May 2026 12:50:45 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <title>A Hybrid Tucker-LSTM Tensor Network Model for SOC Prediction in Electric Vehicles</title>
+      <link>http://arxiv.org/abs/2605.13200</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Han Wang, Ying Wang, Bing Wang&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; Accurate state of charge estimation is critical for the success of electric vehicle battery management strategies, but it is well known that conventional estimators suffer from two fundamental shortcomings: cumulative errors that grow over time and reliance on simplified battery models that do not reflect real world dynamics. Therefore, this paper presents a novel hybrid approach combining Tucker tensor decomposition with LSTM networks, using full - lifecycle EV field data for SOC prediction. The inputs are charge status, mileage, voltage, current, cell differentials, and temporal features. Tucker decomposition is skillfully used to reduce dimensionality while maintaining the temporal structure, hence allowing a direct, fair comparison with standard LSTM. The result is unequivocal: Tucker - LSTM outperforms the baseline on all metrics, with MSE dropping 70.5\% (from 21.07 to 6.22 ), MAE improving 48.7\% (from 3.37\% to 1.73\%), RMSE falling from 4.59\% to 2.49\%, and $R^2$ rising from 0.918 to 0.976. Since the experimental results demonstrably demonstrate that tensor decomposition compresses high-dimensional battery data very well without loss of predictive fidelity, this paper naturally opens up a new direction for tensor-based analytics in electric vehicle battery management.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2605.13200'&gt;arXiv:2605.13200&lt;/a&gt;] Published Wed, 13 May 2026 08:54:17 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2605.13200</guid>
+      <pubDate>Wed, 13 May 2026 08:54:17 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
     <item>
       <title>Full grid solution for multi-asset options pricing with tensor networks</title>
       <link>http://arxiv.org/abs/2601.00009</link>

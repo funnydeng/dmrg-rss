@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-14T00:58:58.237680+00:00",
+  "last_updated": "2026-05-14T12:50:45.122928+00:00",
   "entries": {
     "dd0dc6226f54d942cfa585a37d7d0a94": {
       "id": "dd0dc6226f54d942cfa585a37d7d0a94",
@@ -4288,6 +4288,54 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "4f0006522737ed1dc9276f4919922024": {
+      "id": "4f0006522737ed1dc9276f4919922024",
+      "link": "http://arxiv.org/abs/2605.13200",
+      "title": "A Hybrid Tucker-LSTM Tensor Network Model for SOC Prediction in Electric Vehicles",
+      "abstract": "Accurate state of charge estimation is critical for the success of electric vehicle battery management strategies, but it is well known that conventional estimators suffer from two fundamental shortcomings: cumulative errors that grow over time and reliance on simplified battery models that do not reflect real world dynamics. Therefore, this paper presents a novel hybrid approach combining Tucker tensor decomposition with LSTM networks, using full - lifecycle EV field data for SOC prediction. The inputs are charge status, mileage, voltage, current, cell differentials, and temporal features. Tucker decomposition is skillfully used to reduce dimensionality while maintaining the temporal structure, hence allowing a direct, fair comparison with standard LSTM. The result is unequivocal: Tucker - LSTM outperforms the baseline on all metrics, with MSE dropping 70.5\\% (from 21.07 to 6.22 ), MAE improving 48.7\\% (from 3.37\\% to 1.73\\%), RMSE falling from 4.59\\% to 2.49\\%, and $R^2$ rising from 0.918 to 0.976. Since the experimental results demonstrably demonstrate that tensor decomposition compresses high-dimensional battery data very well without loss of predictive fidelity, this paper naturally opens up a new direction for tensor-based analytics in electric vehicle battery management.",
+      "pubdate": "Wed, 13 May 2026 08:54:17 +0000",
+      "authors": "Han Wang, Ying Wang, Bing Wang"
+    },
+    "db813add6bb1e295be010d11ef38b1f1": {
+      "id": "db813add6bb1e295be010d11ef38b1f1",
+      "link": "http://arxiv.org/abs/2605.12932",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "b8f41eb039b8c5ffc788f5d0b37b7c14": {
+      "id": "b8f41eb039b8c5ffc788f5d0b37b7c14",
+      "link": "http://arxiv.org/abs/2605.12907",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "ed142e1cb67c3304ca398b5d92e720e4": {
+      "id": "ed142e1cb67c3304ca398b5d92e720e4",
+      "link": "http://arxiv.org/abs/2605.12833",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "c0efa31aa191ceadcc9f1750a76a98f2": {
+      "id": "c0efa31aa191ceadcc9f1750a76a98f2",
+      "link": "http://arxiv.org/abs/2605.12601",
+      "title": "Lattice Gauging Interfaces and Noninvertible Defects in Higher Dimensions",
+      "abstract": "We study gauging interfaces and their defect descendants in lattice models with generalized symmetries in higher dimensions. We construct explicit interface Hamiltonians for gauging a $\\mathbb Z_2^{(0)}$ symmetry in $(2+1)d$ and a $\\mathbb Z_2^{(1)}$ symmetry in $(3+1)d$. In higher dimensions, and especially in the presence of higher-form symmetries, the topological nature of gauging interfaces is obscured by the fact that the constrained Hilbert space depends on the location of the interface. We resolve this by introducing movement operators acting on a common unconstrained Hilbert space, which transport both the interface Hamiltonians and the associated constraints. As applications, we analyze condensation defects obtained from finite-region gauging and reconstruct the gauging map from movement operators. Finally, we apply the same framework to subgroup gauging, focusing on the example of gauging $\\mathbb Z_2\\subset \\mathbb Z_4$. This produces a dual symmetry carrying a mixed anomaly, which we diagnose on the lattice through symmetry fractionalization on condensation defects. Our results provide an explicit lattice framework for studying topological interfaces, condensation defects, and the associated anomalies arising from gauging in higher-dimensional systems.",
+      "pubdate": "Tue, 12 May 2026 18:00:04 +0000",
+      "authors": "David Hofmeier, Giovanna Pimenta, Weiguang Cao"
+    },
+    "baab3196788df4c7fa506ebaf36834ce": {
+      "id": "baab3196788df4c7fa506ebaf36834ce",
+      "link": "http://arxiv.org/abs/2605.12665",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
     }
   }
 }
