@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-15T00:56:44.100826+00:00",
+  "last_updated": "2026-05-15T12:45:46.670029+00:00",
   "entries": {
     "4f0006522737ed1dc9276f4919922024": {
       "id": "4f0006522737ed1dc9276f4919922024",
@@ -9,6 +9,22 @@
       "pubdate": "Wed, 13 May 2026 08:54:17 +0000",
       "authors": "Han Wang, Ying Wang, Bing Wang"
     },
+    "db813add6bb1e295be010d11ef38b1f1": {
+      "id": "db813add6bb1e295be010d11ef38b1f1",
+      "link": "http://arxiv.org/abs/2605.12932",
+      "title": "An NPDo Approach for Tensor Block-Diagonalization",
+      "abstract": "This paper is concerned with Partial Tensor Block-Diagonalization of a multiway tensor by orthonormal matrices so that the extracted block-diagonal part optimally represents the tensor. The basic idea is to maximize the block-diagonal part via the tensor's mode-multiplications by orthonormal matrices. For that reason, it will be referred to Principal Tensor Block-Diagonalization (PTBD), which contains the Tucker decomposition (TD) of a tensor as a special case with just one block. Also as a special case is the approximate dominant tensor SVD in which each block-size is 1-by-1. An NPDo approach is proposed to optimize the block-diagonal part for computing \\ptbd. It is shown the NPDo approach combined with Gauss-Seidel-type updating is globally convergent to a stationary point while the objective increases monotonically. Numerical experiments are presented to illustrate the efficiency of the NPDo approach.",
+      "pubdate": "Wed, 13 May 2026 03:09:54 +0000",
+      "authors": "Ren-Cang Li, Li Wang, Mei Yang"
+    },
+    "ed142e1cb67c3304ca398b5d92e720e4": {
+      "id": "ed142e1cb67c3304ca398b5d92e720e4",
+      "link": "http://arxiv.org/abs/2605.12833",
+      "title": "A practical investigation on time integration in the quantized tensor train format",
+      "abstract": "Quantized tensor trains (QTTs) are a multiscale computational framework that can potentially reduce the computational cost of solving partial differential equations and initial value problems by making low-rank approximations. However, its use is somewhat limited in practice, in part due to the challenges that arise when making low-rank approximations of the quantized data. For example, when performing long-time dynamical numerical simulations, it has been observed that the accumulation of numerical errors arising from both the discretization of the partial differential equation itself and the low-rank approximation can lead to increased rank and noise-dominated results. Focusing on a set of advection-dominated test problems relevant to electromagnetic plasmas and electromagnetic fields, this work investigates how the choice in time integrator, the addition of numerical dissipation, and the choice in problem representation can affect the efficiency and success of the QTT calculations.",
+      "pubdate": "Wed, 13 May 2026 00:01:56 +0000",
+      "authors": "Erika Ye"
+    },
     "c0efa31aa191ceadcc9f1750a76a98f2": {
       "id": "c0efa31aa191ceadcc9f1750a76a98f2",
       "link": "http://arxiv.org/abs/2605.12601",
@@ -16,6 +32,14 @@
       "abstract": "We study gauging interfaces and their defect descendants in lattice models with generalized symmetries in higher dimensions. We construct explicit interface Hamiltonians for gauging a $\\mathbb Z_2^{(0)}$ symmetry in $(2+1)d$ and a $\\mathbb Z_2^{(1)}$ symmetry in $(3+1)d$. In higher dimensions, and especially in the presence of higher-form symmetries, the topological nature of gauging interfaces is obscured by the fact that the constrained Hilbert space depends on the location of the interface. We resolve this by introducing movement operators acting on a common unconstrained Hilbert space, which transport both the interface Hamiltonians and the associated constraints. As applications, we analyze condensation defects obtained from finite-region gauging and reconstruct the gauging map from movement operators. Finally, we apply the same framework to subgroup gauging, focusing on the example of gauging $\\mathbb Z_2\\subset \\mathbb Z_4$. This produces a dual symmetry carrying a mixed anomaly, which we diagnose on the lattice through symmetry fractionalization on condensation defects. Our results provide an explicit lattice framework for studying topological interfaces, condensation defects, and the associated anomalies arising from gauging in higher-dimensional systems.",
       "pubdate": "Tue, 12 May 2026 18:00:04 +0000",
       "authors": "David Hofmeier, Giovanna Pimenta, Weiguang Cao"
+    },
+    "baab3196788df4c7fa506ebaf36834ce": {
+      "id": "baab3196788df4c7fa506ebaf36834ce",
+      "link": "http://arxiv.org/abs/2605.12665",
+      "title": "Low Rank Structure of the Reduced Transition Matrix",
+      "abstract": "The influence-matrix formalism provides an alternative route to the classical simulation of quantum dynamics. Because influence matrices retain information only about the effective bath seen by local observables, they are expected to be easier to simulate than the full wavefunction. Recent work, however, has shown that they carry strong temporal correlations even in maximally chaotic systems, making them difficult to represent efficiently. Here we show that the reduced transition matrix, a suitable combination of influence matrices that directly determines local expectation values, can nevertheless be efficiently approximated. We first show that the truncation error is controlled by its singular-value spectrum, which naturally motivates a low-rank approximation. We then prove that, for chaotic dual-unitary circuits, the associated entropy grows at most logarithmically in time. Our conclusions follow from exact results for random dual-unitary circuits and are further supported by numerical results for fixed instances of both dual-unitary and random circuits.",
+      "pubdate": "Tue, 12 May 2026 19:13:34 +0000",
+      "authors": "Cathy Li, Bruno Bertini, Katja Klobas, Tianci Zhou"
     },
     "dd0dc6226f54d942cfa585a37d7d0a94": {
       "id": "dd0dc6226f54d942cfa585a37d7d0a94",
@@ -4305,37 +4329,53 @@
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
     },
-    "db813add6bb1e295be010d11ef38b1f1": {
-      "id": "db813add6bb1e295be010d11ef38b1f1",
-      "link": "http://arxiv.org/abs/2605.12932",
-      "title": "An NPDo Approach for Tensor Block-Diagonalization",
-      "abstract": "This paper is concerned with Partial Tensor Block-Diagonalization of a multiway tensor by orthonormal matrices so that the extracted block-diagonal part optimally represents the tensor. The basic idea is to maximize the block-diagonal part via the tensor's mode-multiplications by orthonormal matrices. For that reason, it will be referred to Principal Tensor Block-Diagonalization (PTBD), which contains the Tucker decomposition (TD) of a tensor as a special case with just one block. Also as a special case is the approximate dominant tensor SVD in which each block-size is 1-by-1. An NPDo approach is proposed to optimize the block-diagonal part for computing \\ptbd. It is shown the NPDo approach combined with Gauss-Seidel-type updating is globally convergent to a stationary point while the objective increases monotonically. Numerical experiments are presented to illustrate the efficiency of the NPDo approach.",
-      "pubdate": "Wed, 13 May 2026 03:09:54 +0000",
-      "authors": "Ren-Cang Li, Li Wang, Mei Yang"
+    "630a12ef66389fe8c32bde05d2ce79da": {
+      "id": "630a12ef66389fe8c32bde05d2ce79da",
+      "link": "http://arxiv.org/abs/2605.15201",
+      "title": "Mixed-State Long-Range Entanglement from Dimensional Constraints",
+      "abstract": "We present a new mechanism for long-range entanglement (LRE) in strongly symmetric many-body mixed states that does not rely on symmetry anomalies or long-range correlations. Our primary example is the maximally mixed state in the translation-invariant subspace on a one-dimensional ring. This state is LRE because translationally symmetric short-range entangled states span a subspace whose dimension grows only polynomially with system size, whereas the full translation-invariant subspace grows exponentially. We further discuss certain unconventional properties of this state, including logarithmically growing conditional mutual information, strong-to-weak spontaneous symmetry-breaking, and Rényi-index-dependent operator-space entanglement. We also construct a geometrically non-local Lindbladian to stabilize this state as the steady state. Our results identify dimensional mismatch as a novel route to LRE that is intrinsic to many-body mixed states.",
+      "pubdate": "Thu, 14 May 2026 17:59:59 +0000",
+      "authors": "Leonardo A. Lessa, Tsung-Cheng Lu"
+    },
+    "77afde7778235c84b9c0dcfc6ad1ee64": {
+      "id": "77afde7778235c84b9c0dcfc6ad1ee64",
+      "link": "http://arxiv.org/abs/2605.15200",
+      "title": "Translation symmetry-enforced long-range entanglement in mixed states",
+      "abstract": "We show by a counting argument that even though translation symmetry admits symmetric short-range entangled (SRE) eigenstates, there are not enough such SRE eigenstates to span the zero momentum sector. This means that the fixed point strong-to-weak spontaneous symmetry breaking state of translation symmetry is long-range entangled: it cannot be written as a mixture of SRE states. This is a subtle form of long-range entanglement in mixed states that cannot be detected by long-range connected correlation functions.",
+      "pubdate": "Thu, 14 May 2026 17:59:57 +0000",
+      "authors": "Ryan Thorngren, Lei Gioia, Carolyn Zhang"
+    },
+    "53cf2505f1c75d857fc50fbb2b6ef1b1": {
+      "id": "53cf2505f1c75d857fc50fbb2b6ef1b1",
+      "link": "http://arxiv.org/abs/2605.14523",
+      "title": "HQTN-SER: Speech Emotion Recognition with Hybrid Quantum Tensor Networks",
+      "abstract": "Speech emotion recognition (SER) remains fragile in real-world conditions because emotional cues are subtle, speaker-dependent, and easily confounded by recording variability, while high-performing deep models typically rely on large and carefully curated training sets. Quantum machine learning offers an alternative way to introduce nonlinear correlation modeling with compact modules, yet existing quantum SER studies remain limited and the impact of circuit structure is not well understood. This paper presents HQTN-SER, a hybrid quantum-classical framework that investigates how quantum tensor network connectivity can support SER under small-qubit settings. HQTN-SER introduces (i) an MPS-inspired quantum tensor network module that enforces structured interactions to model correlations in speech representations with a small number of trainable parameters, and (ii) a fusion strategy that combines quantum measurement features with a learned classical latent embedding for end-to-end emotion classification. We evaluate HQTN-SER on three public benchmarks (RAVDESS, SAVEE, and MDER) under a unified preprocessing and training protocol. The proposed model achieves consistent performance across datasets, RAVDESS = 80.12%, SAVEE = 78.26% and MDER = 73.51% accuracy, with stable convergence and low qubit counts, showing that tensor network structure can be an effective and hardware-aware design choice for quantum-assisted SER. The results provide a reproducible baseline and clarify when structured quantum modules can add value to affective computing today.",
+      "pubdate": "Thu, 14 May 2026 08:07:58 +0000",
+      "authors": "Mahad Mohtashim, Nouhaila Innan, Muhammad Shafique"
+    },
+    "6107ef929c91f91f196a770e13c54c7a": {
+      "id": "6107ef929c91f91f196a770e13c54c7a",
+      "link": "http://arxiv.org/abs/2605.14522",
+      "title": "Matrix-Product Belief Propagation for continuous-state-space variables",
+      "abstract": "Computation of observables in discrete stochastic, possibly conditioned, dynamics over large sparse networks is at the basis of a myriad of applications. The Matrix-Product Belief Propagation method allows a semi-analytical estimation of such observables with a controlled error that depends on the size of the employed matrices, called bond size. Its computational cost is linear in the time horizon and the network size for a large family of models with discrete degrees of freedom. Here, a generalization of this method to models with continuous or mixed continuous/discrete degrees of freedom is presented, using a tunable expansion in a Hilbert function basis. The computational cost of the method is linear in the network size with a prefactor that depends on the basis size and the bond size. The method's efficacy is demonstrated by employing a Fourier basis for a mixed continuous/discrete representation of the Kinetic Ising dynamics with real-valued random couplings, where intermediate ``local fields'' are treated as continuous. The accuracy of the method is verified via comparison with Monte-Carlo simulations. For this model, we calculate time auto-correlations, time evolution of energy and magnetization, and finally we estimate the large deviation function of the magnetization at a given future time.",
+      "pubdate": "Thu, 14 May 2026 08:06:32 +0000",
+      "authors": "Federico Florio, Alfredo Braunstein"
+    },
+    "1a1ee5260e71722306273890537d6a3d": {
+      "id": "1a1ee5260e71722306273890537d6a3d",
+      "link": "http://arxiv.org/abs/2605.14356",
+      "title": "Model Checking Matrix Product States against Linear Chain Logic",
+      "abstract": "Matrix product states (MPS) are a standard tensor-network representation for ground states of one-dimensional quantum many-body systems, and they underpin widely used simulation tools such as DMRG. However, while quantum model checking has been developed mainly for quantum programs and communication protocols (with properties expressed along a time axis), there is still no comparable framework for systematically verifying \\emph{spatial} and \\emph{size-dependent} properties of physical many-body states, where the key parameter is the system size. This paper takes a step toward bridging the gap. We propose \\emph{Linear Chain Logic} (LCL), a spatial logic designed to specify physically meaningful properties of periodic MPS families as the system size grows, such as nontriviality on rings and large-size asymptotic patterns. Our approach builds on a simple but powerful connection: every periodic MPS naturally induces a completely positive map (a quantum operation) on its virtual space, so many quantitative features of the MPS can be analysed through the repeated application of the operation. Using this perspective, we derive an effective procedure to compute the inner products of an MPS at a given size and to support richer LCL specifications, without relying on brute-force state expansion. We then develop approximate model-checking algorithms that combine sound bounding with asymptotic structural analysis, enabling scalable reasoning about large system sizes. Experiments on representative MPS families illustrate that our method can automatically verify nontriviality and detect asymptotic spatial regimes in a way that complements traditional numerical techniques.",
+      "pubdate": "Thu, 14 May 2026 04:33:59 +0000",
+      "authors": "Ming Xu, Yihao Chen, Ji Guan"
     },
     "b8f41eb039b8c5ffc788f5d0b37b7c14": {
       "id": "b8f41eb039b8c5ffc788f5d0b37b7c14",
       "link": "http://arxiv.org/abs/2605.12907",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
-    },
-    "ed142e1cb67c3304ca398b5d92e720e4": {
-      "id": "ed142e1cb67c3304ca398b5d92e720e4",
-      "link": "http://arxiv.org/abs/2605.12833",
-      "title": "A practical investigation on time integration in the quantized tensor train format",
-      "abstract": "Quantized tensor trains (QTTs) are a multiscale computational framework that can potentially reduce the computational cost of solving partial differential equations and initial value problems by making low-rank approximations. However, its use is somewhat limited in practice, in part due to the challenges that arise when making low-rank approximations of the quantized data. For example, when performing long-time dynamical numerical simulations, it has been observed that the accumulation of numerical errors arising from both the discretization of the partial differential equation itself and the low-rank approximation can lead to increased rank and noise-dominated results. Focusing on a set of advection-dominated test problems relevant to electromagnetic plasmas and electromagnetic fields, this work investigates how the choice in time integrator, the addition of numerical dissipation, and the choice in problem representation can affect the efficiency and success of the QTT calculations.",
-      "pubdate": "Wed, 13 May 2026 00:01:56 +0000",
-      "authors": "Erika Ye"
-    },
-    "baab3196788df4c7fa506ebaf36834ce": {
-      "id": "baab3196788df4c7fa506ebaf36834ce",
-      "link": "http://arxiv.org/abs/2605.12665",
-      "title": "Low Rank Structure of the Reduced Transition Matrix",
-      "abstract": "The influence-matrix formalism provides an alternative route to the classical simulation of quantum dynamics. Because influence matrices retain information only about the effective bath seen by local observables, they are expected to be easier to simulate than the full wavefunction. Recent work, however, has shown that they carry strong temporal correlations even in maximally chaotic systems, making them difficult to represent efficiently. Here we show that the reduced transition matrix, a suitable combination of influence matrices that directly determines local expectation values, can nevertheless be efficiently approximated. We first show that the truncation error is controlled by its singular-value spectrum, which naturally motivates a low-rank approximation. We then prove that, for chaotic dual-unitary circuits, the associated entropy grows at most logarithmically in time. Our conclusions follow from exact results for random dual-unitary circuits and are further supported by numerical results for fixed instances of both dual-unitary and random circuits.",
-      "pubdate": "Tue, 12 May 2026 19:13:34 +0000",
-      "authors": "Cathy Li, Bruno Bertini, Katja Klobas, Tianci Zhou"
+      "title": "Grassmann tensor networks",
+      "abstract": "Developing non-perturbative methods to reveal exotic properties of strongly correlated fermionic systems remains one of the most essential tasks of theoretical physics. Tensor network methods with Grassmann algebra offer powerful numerical tools for fermionic many-body systems in the coherent-state path-integral representation. Despite their vast potential for both condensed-matter and particle-physics communities, Grassmann tensor network methods are somewhat underexploited in practical simulations. In this work, we provide a detailed, self-contained introduction to Grassmann tensor network methods, from the basics of the Grassmann tensor operations to the Grassmannization of typical tensor network algorithms. Furthermore, the resulting Grassmann tensor network methods are validated in several interesting models in both particle physics and condensed matter physics.",
+      "pubdate": "Wed, 13 May 2026 02:35:32 +0000",
+      "authors": "Jian-Gang Kong, Jia-Ji Zhu, Z. Y. Xie"
     }
   }
 }
