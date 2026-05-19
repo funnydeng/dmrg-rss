@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-05-18T13:25:18.318026+00:00",
+  "last_updated": "2026-05-19T01:00:46.234936+00:00",
   "entries": {
+    "c479d8be1dab4ab4895e8bc93ca9a6f2": {
+      "id": "c479d8be1dab4ab4895e8bc93ca9a6f2",
+      "link": "http://arxiv.org/abs/2605.15882",
+      "title": "Propagation of conditional nonclassical reservoir states during quantum decoherence",
+      "abstract": "Decoherence is usually described as the loss of local quantum coherence after tracing over environmental degrees of freedom. This reduced description, however, hides the reservoir state that carries the lost coherence. Here we show that spin-boson decoherence can write a postselectable nonclassical imprint into a structured bosonic reservoir. We map zero- and finite-temperature reservoirs to one-dimensional chains, evolve the joint qubit-reservoir state with tensor-network dynamics, and reconstruct the Wigner function of a time-adaptive leading collective reservoir coordinate after transverse qubit readout. The conditioned mapped-reservoir coordinate develops Wigner negativity and interference fringes that are strongly suppressed in the unconditional reservoir state. A parameter sweep shows that the spectral exponent and temperature control the visibility of this conditional nonclassicality, the mapped-chain excitation transport, and the degree to which a single collective coordinate captures the imprint. These results provide a branch-resolved phase-space picture of decoherence: the reservoir is not only a sink for qubit coherence, but can carry a measurement-conditioned nonclassical state in a collective mapped coordinate.",
+      "pubdate": "Fri, 15 May 2026 12:02:47 +0000",
+      "authors": "Jargalsaikhan Artag, Koki Awaya, Takumi Kanezashi, Haruya Nagata, Daisuke Tsukayama, Moe Shimada, Jun-ichi Shirakashi"
+    },
+    "69d58d9abd9d35323338bcb9ab30a65e": {
+      "id": "69d58d9abd9d35323338bcb9ab30a65e",
+      "link": "http://arxiv.org/abs/2605.15382",
+      "title": "Implicit Dynamical Tensor Train Approximation for Kinetic Equations with Stiff Fokker--Planck Collisions",
+      "abstract": "Low-rank methods for kinetic equations have attracted increasing attention due to their effectiveness in reducing the high dimensionality of phase space. In our previous work [G. Wang & J. Hu, J. Comput. Phys. 558 (2026) 114884], we developed a dynamical low-rank method based on the projector-splitting integrator in tensor-train (TT) format, in which explicit time integration is employed in all substeps. As a result, the method is subject to severe stability constraints in the strongly collisional regimes. In this paper, we consider kinetic equations with the (nonlinear) Fokker--Planck collision operator and develop a dynamical low-rank method that employs implicit or implicit-explicit (IMEX) discretizations in appropriate substeps to overcome stiffness. In these implicit substeps, the resulting equations can be formulated as matrix or tensor Sylvester equations, for which we propose efficient direct solvers by exploiting their underlying structure. The overall computational cost of the proposed method scales linearly with respect to the number of grid points in a single velocity dimension, comparable to that of a fully explicit low-rank scheme. We demonstrate the accuracy and efficiency of the proposed method on several representative kinetic test problems.",
+      "pubdate": "Thu, 14 May 2026 20:12:21 +0000",
+      "authors": "Geshuo Wang, Jingwei Hu"
+    },
     "630a12ef66389fe8c32bde05d2ce79da": {
       "id": "630a12ef66389fe8c32bde05d2ce79da",
       "link": "http://arxiv.org/abs/2605.15201",
@@ -4376,22 +4392,6 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
-    },
-    "c479d8be1dab4ab4895e8bc93ca9a6f2": {
-      "id": "c479d8be1dab4ab4895e8bc93ca9a6f2",
-      "link": "http://arxiv.org/abs/2605.15882",
-      "title": "Propagation of conditional nonclassical reservoir states during quantum decoherence",
-      "abstract": "Decoherence is usually described as the loss of local quantum coherence after tracing over environmental degrees of freedom. This reduced description, however, hides the reservoir state that carries the lost coherence. Here we show that spin-boson decoherence can write a postselectable nonclassical imprint into a structured bosonic reservoir. We map zero- and finite-temperature reservoirs to one-dimensional chains, evolve the joint qubit-reservoir state with tensor-network dynamics, and reconstruct the Wigner function of a time-adaptive leading collective reservoir coordinate after transverse qubit readout. The conditioned mapped-reservoir coordinate develops Wigner negativity and interference fringes that are strongly suppressed in the unconditional reservoir state. A parameter sweep shows that the spectral exponent and temperature control the visibility of this conditional nonclassicality, the mapped-chain excitation transport, and the degree to which a single collective coordinate captures the imprint. These results provide a branch-resolved phase-space picture of decoherence: the reservoir is not only a sink for qubit coherence, but can carry a measurement-conditioned nonclassical state in a collective mapped coordinate.",
-      "pubdate": "Fri, 15 May 2026 12:02:47 +0000",
-      "authors": "Jargalsaikhan Artag, Koki Awaya, Takumi Kanezashi, Haruya Nagata, Daisuke Tsukayama, Moe Shimada, Jun-ichi Shirakashi"
-    },
-    "69d58d9abd9d35323338bcb9ab30a65e": {
-      "id": "69d58d9abd9d35323338bcb9ab30a65e",
-      "link": "http://arxiv.org/abs/2605.15382",
-      "title": "Implicit Dynamical Tensor Train Approximation for Kinetic Equations with Stiff Fokker--Planck Collisions",
-      "abstract": "Low-rank methods for kinetic equations have attracted increasing attention due to their effectiveness in reducing the high dimensionality of phase space. In our previous work [G. Wang & J. Hu, J. Comput. Phys. 558 (2026) 114884], we developed a dynamical low-rank method based on the projector-splitting integrator in tensor-train (TT) format, in which explicit time integration is employed in all substeps. As a result, the method is subject to severe stability constraints in the strongly collisional regimes. In this paper, we consider kinetic equations with the (nonlinear) Fokker--Planck collision operator and develop a dynamical low-rank method that employs implicit or implicit-explicit (IMEX) discretizations in appropriate substeps to overcome stiffness. In these implicit substeps, the resulting equations can be formulated as matrix or tensor Sylvester equations, for which we propose efficient direct solvers by exploiting their underlying structure. The overall computational cost of the proposed method scales linearly with respect to the number of grid points in a single velocity dimension, comparable to that of a fully explicit low-rank scheme. We demonstrate the accuracy and efficiency of the proposed method on several representative kinetic test problems.",
-      "pubdate": "Thu, 14 May 2026 20:12:21 +0000",
-      "authors": "Geshuo Wang, Jingwei Hu"
     }
   }
 }
