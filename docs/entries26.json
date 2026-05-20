@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-20T01:02:48.122954+00:00",
+  "last_updated": "2026-05-20T13:05:17.484030+00:00",
   "entries": {
     "273fc475781156e494287d901bed6371": {
       "id": "273fc475781156e494287d901bed6371",
@@ -4488,6 +4488,62 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "9904f259b07e6c3bb30ef4da62a91c41": {
+      "id": "9904f259b07e6c3bb30ef4da62a91c41",
+      "link": "http://arxiv.org/abs/2605.20160",
+      "title": "Towards a Matrix Product Ansatz in Two Dimensions",
+      "abstract": "Matrix product ansatz (MPA) is a powerful framework for constructing exact steady state weights of one dimensional non-equilibrium stochastic processes; but its generalization to higher dimensions is limited. Here, we introduce the MPA formalism for two dimensions (2D). As a concrete application, we introduce and exactly solve a non-conserved assisted exclusion model (NAEM) in one and two dimensions with constrained hopping and local birth-death dynamics: a particle can hop to a neighbouring site only when exactly one of its neighbouring sites is vacant, while creation and annihilation occur exclusively at sites whose neighbours are all occupied. The MPA yields exact steady-state weights and provides a systematic method to compute observables such as density moments and particle currents. In the particle-conserving limit, the system undergoes an absorbing phase transition at the critical density $ρ_c=\\frac12$ with order-parameter exponent $β=3$. We further show that the steady state of the NAEM maps exactly onto the well-studied hard-square lattice gas with nearest-neighbour exclusion, thereby providing a nonequilibrium dynamical route to realizing equilibrium states of constrained lattice gases. Our work generalizes matrix-product methods beyond one dimension, establishing a systematic approach to exact solutions of interacting stochastic systems in 2D.",
+      "pubdate": "Tue, 19 May 2026 17:47:56 +0000",
+      "authors": "Chandraniva Guha Ray, Aikya Banerjee, P. K. Mohanty"
+    },
+    "9827da26e5aabeca71d70678bf12c342": {
+      "id": "9827da26e5aabeca71d70678bf12c342",
+      "link": "http://arxiv.org/abs/2605.19842",
+      "title": "Fast Tensorization of Neural Networks via Slice-wise Feature Distillation",
+      "abstract": "We propose a scalable tensorization framework for neural network compression based on slice-wise feature distillation. Unlike conventional tensor decomposition methods that rely on costly global finetuning, our approach decomposes the network into slices consisting of either individual layers or blocks (e.g., convolutional layers or MLPs), or small groups of consecutive layers, and tensorizes each slice independently to reproduce the intermediate representations of the original pretrained model. This modular strategy improves accuracy recovery, reduces data requirements, and enables efficient parallel optimization. Experiments on ResNet-34 show significant gains over conventional global tensorization, achieving near-lossless compression at moderate compression rates with faster optimization. Results on GPT-2 XL further demonstrate the scalability of the method and its applicability to large-scale models, particularly in distributed settings.",
+      "pubdate": "Tue, 19 May 2026 13:37:53 +0000",
+      "authors": "Safa Hamreras, Sukhbinder Singh, Román Orús"
+    },
+    "bfc6d864087787eec27cbe2c08b5ebb3": {
+      "id": "bfc6d864087787eec27cbe2c08b5ebb3",
+      "link": "http://arxiv.org/abs/2605.19831",
+      "title": "Ground-state Entropy of the Ising model on a Frustrated lattice",
+      "abstract": "We report the ground-state entropy of a 2-d Ising model on the Shastry-Sutherland lattice. We also study a generalization of this model, where a constraint on the zero temperature allowed configurations is removed continuously.",
+      "pubdate": "Tue, 19 May 2026 13:24:39 +0000",
+      "authors": "B Sriram Shastry, Bill Sutherland, Frédéric Mila, Afonso Rufino"
+    },
+    "b5cbd7b3dbbebba62157c59b19d26622": {
+      "id": "b5cbd7b3dbbebba62157c59b19d26622",
+      "link": "http://arxiv.org/abs/2605.19960",
+      "title": "PEPSKit.jl: A Julia package for projected entangled-pair state simulations",
+      "abstract": "We present PEPSKit.jl, a Julia package for simulating two-dimensional quantum many-body systems with infinite projected entangled-pair states (iPEPS). PEPSKit.jl builds on the TensorKit.jl package for tensor computations and provides high-level algorithms for iPEPS simulations that support both Abelian and non-Abelian symmetries, as well as fermionic systems. This work gives an overview of the main package features, which include support for ground-state, time-evolution, and finite-temperature simulations in systems with different physical symmetries and lattice geometries. These capabilities are illustrated through various examples and technical benchmarks.",
+      "pubdate": "Tue, 19 May 2026 15:12:10 +0000",
+      "authors": "Paul Brehmer, Lander Burgelman, Zheng-Yuan Yue, Gleb Fedorovich, Jutho Haegeman, Lukas Devos"
+    },
+    "b2159695c33dada05d8836aca7faab0c": {
+      "id": "b2159695c33dada05d8836aca7faab0c",
+      "link": "http://arxiv.org/abs/2605.19421",
+      "title": "Fractonic Constraints and Magnetic Order in a Dipole-Conserving Spin Chain",
+      "abstract": "This work investigates the competition between dipole conservation, which imposes strong dynamical constraints and prevents the propagation of isolated spin excitations, and Ising-type interactions that favor ordering. Specifically, we explore the ground state phase diagram of a one-dimensional spin chain in the presence of both fractonic constraints and interactions. Despite the kinetic constraints, the system stabilizes an antiferromagnetic dipole-ordered ground state, where the ordering occurs at the level of spin pairs rather than individual spins. At a large Ising interaction strength, the model undergoes a phase transition from a dipole-ordered phase to a spin antiferromagnetic phase. In contrast, for ferromagnetic Ising interactions, the model exhibits both antiferromagnetic and ferromagnetic dipole ordered phases. At sufficiently large negative interaction strength, the dipole ordered phase transitions to a ferromagnetic phase with conventional spin ferromagnetic order. To characterize these distinct phases, we employ density matrix renormalization group (DMRG) simulations alongside large-scale diagonalization. We analyze appropriate order parameters, along with features of the entanglement spectrum and dynamical spectral functions. In limiting cases, the observed transitions can be understood by mapping the dipole conserving model onto effective XXZ models in a restricted Hilbert space of composite spins.",
+      "pubdate": "Tue, 19 May 2026 06:16:00 +0000",
+      "authors": "Prabhakar, Giuseppe De Tomasi, Soumya Bera"
+    },
+    "5109aa6ef89a419cbfb51bec91a34172": {
+      "id": "5109aa6ef89a419cbfb51bec91a34172",
+      "link": "http://arxiv.org/abs/2605.18986",
+      "title": "Non-Gaussianity of random quantum states",
+      "abstract": "We study the fermionic non-Gaussianity in typical quantum states, focusing on Haar random states of qubits with or without a global $U(1)$ symmetry. Using the Weingarten calculus, we derive analytical predictions for the non-Gaussianity, defined as the relative entropy between the reduced density matrix and its Gaussianized counterpart. We identify two regimes controlled by the ratio between the subsystem and the system size, $\\ell/L$. For $\\ell/L < 1/2$, the non-Gaussianity vanishes in the absence of symmetries, because typical reduced density matrices are exponentially close to the maximally mixed state. In the presence of a global $U(1)$ symmetry, instead, it remains small but finite. By contrast, in the regime $\\ell/L > 1/2$, the non-Gaussianity becomes extensive. These results establish the typical scaling of fermionic non-Gaussianity in random states and analyze how this is modified by the presence of global symmetries.",
+      "pubdate": "Mon, 18 May 2026 18:05:19 +0000",
+      "authors": "Filiberto Ares, Sara Murciano, Pasquale Calabrese"
+    },
+    "cc1872b53bb553191a16204bad0ae8aa": {
+      "id": "cc1872b53bb553191a16204bad0ae8aa",
+      "link": "http://arxiv.org/abs/2605.18982",
+      "title": "Magnetic phases in the $J_{1}$-$J_{2}$ antiferromagnetic XY model on the honeycomb lattice",
+      "abstract": "We study ground-state properties and phase diagram of the $J_{1}$-$J_{2}$ antiferromagnetic XY model on the honeycomb lattice by means of the developed corner transfer matrix renormalization group algorithm with the two-site unit cell and the infinite spiral projected entangled pair states ansatz. We identify the main phases: Néel, Ising, collinear, and incommensurate spiral phases, as well as the transitions between them, as functions of the ratio $J_{2}/J_{1}$. In the regime of competing types of ordering, we show that the energies of the dimerized states are systematically higher than the energies in the collinear phase. This collinear phase transforms to the incommensurate spiral phase through the second-order phase transition upon a further increase of $J_2/J_1$.",
+      "pubdate": "Mon, 18 May 2026 18:03:54 +0000",
+      "authors": "I. V. Lukin, M. O. Luhanko, Yu. V. Slyusarenko, A. G. Sotnikov"
     }
   }
 }
