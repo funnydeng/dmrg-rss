@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-21T01:02:59.897902+00:00",
+  "last_updated": "2026-05-21T13:17:56.001083+00:00",
   "entries": {
     "9904f259b07e6c3bb30ef4da62a91c41": {
       "id": "9904f259b07e6c3bb30ef4da62a91c41",
@@ -4544,6 +4544,38 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "f9e8f1ae6d299a16aa93c958bd8fb037": {
+      "id": "f9e8f1ae6d299a16aa93c958bd8fb037",
+      "link": "http://arxiv.org/abs/2605.21447",
+      "title": "Combining non-parametric quantum states and MERA tensor networks for ground-state optimization",
+      "abstract": "Hybrid tensor networks offer a promising route to enhance the expressivity of classical tensor network methods by incorporating quantum states prepared on a quantum computer. Existing approaches are limited by the variational optimization of the quantum component of the tensor network. In this work, we introduce an alternative strategy that combines a non-parametric quantum state prepared through quantum annealing and a classical isometric tensor network. The latter is variationally optimized while the former is used as a fixed, boundary tensor resource in the form of classical shadows. We demonstrate the feasibility of this approach through extensive numerical simulations on the transverse-field Ising model, showing that the optimization procedure remains robust under statistical and hardware noise. Moreover, our results indicate that our newly proposed setup improves the accuracy of the obtained ground state approximation compared to the original quantum simulation, without increasing the depth of the applied quantum circuits. Therefore, this setup offers a practical route to scale variational quantum algorithms towards the quantum utility scale.",
+      "pubdate": "Wed, 20 May 2026 17:35:43 +0000",
+      "authors": "Julian Schuhmacher, Alberto Baiardi, Francesco Tacchino, Ivano Tavernelli"
+    },
+    "8a10cea54bcd809825316b021ce770d0": {
+      "id": "8a10cea54bcd809825316b021ce770d0",
+      "link": "http://arxiv.org/abs/2605.21327",
+      "title": "Universal fusion category symmetries on tensor products of infinite-dimensional Hilbert spaces",
+      "abstract": "We show that anyon chains, after stabilizing with infinite-dimensional ancilla spaces, factorize locally as tensor products of infinite-dimensional Hilbert spaces. This implies that any unitary fusion category can be realized as symmetries on a tensor product of infinite-dimensional Hilbert spaces. We then show that any two anyon chains with the same symmetry category are related by a symmetry-compatible locality-preserving unitary after stabilizing with infinite-dimensional ancilla, showing that for a fixed fusion category, there is a single stable equivalence class of symmetry realizations on the lattice via anyon chains. As a corollary of our proof, we show that the physical boundary algebras of Levin-Wen type models are bounded spread isomorphic after stabilization if and only if they have the same bulk topological order.",
+      "pubdate": "Wed, 20 May 2026 15:53:14 +0000",
+      "authors": "Ian Bunner, Corey Jones"
+    },
+    "96afd4d385c6ed91d2ce211487dc91b0": {
+      "id": "96afd4d385c6ed91d2ce211487dc91b0",
+      "link": "http://arxiv.org/abs/2605.20343",
+      "title": "Velocity collapse and non-conformal spiral phase in the sawtooth spin chain",
+      "abstract": "Recent matrix-product-state calculations show that the spiral phase in the sawtooth chain has numerical signatures that are difficult to reconcile with an ordinary conformal critical point: a large apparent central charge, slow dynamical scaling, nearly flat excitations, and no detectable dimerization. We develop a bosonization theory for this phenomenology by embedding the sawtooth limit in a zigzag ladder described by two coupled SU(2)$_1$ conformal field theories characterized by an extreme velocity ratio. We show that the sawtooth geometry cancels the leading staggered interaction, leaving a marginal twist interaction that selectively collapses the slow apical spin velocity. Crucially, as this velocity vanishes, the generated apical backscattering interaction diverges only in dimensionless units, causing the energy scale to collapse independently of the spatial correlation length. This mechanism naturally accounts for many of the numerical anomalies and we interpret the perturbative flow as an entrance to local quantum criticality in the strong-coupling regime.",
+      "pubdate": "Tue, 19 May 2026 18:01:31 +0000",
+      "authors": "Nai Chao Hu"
+    },
+    "4ed75a8ff75b64146118fbb48cdbba8f": {
+      "id": "4ed75a8ff75b64146118fbb48cdbba8f",
+      "link": "http://arxiv.org/abs/2605.20331",
+      "title": "Bowtie VarQTE: A Resource-Efficient Quantum State Preparation Primitive",
+      "abstract": "The preparation of quantum states is a fundamental requirement for many quantum algorithms. A native route to preparing physically structured states is based on short-time simulation of dynamical processes, such as real or imaginary time evolution. This work presents a resource-efficient framework for the approximation thereof with \\textit{bowtie \\ac{VarQTE}} which uses classical simulation where possible and quantum resources where necessary. We introduce a framework that leverages existing causal light-cones to minimize quantum resource requirements in the evaluation of gradient and quantum geometric tensor terms by utilizing classical simulation methods for causally relevant subcircuits. This in turn enables exact parameter updates according to McLachlan's variational principle and, thereby, improves numerical stability. We conduct a comparison with a state preparation method that is based on a tensor-network compiled Trotter algorithm: approximate quantum compilation (AQC). In recent work, this approach has shown impressive performance. However, its key-bottleneck is the necessity to have a classical (approximate) representation of the target state. Our numerical experiments indicate that bowtie VarQTE can achieve comparable fidelities without this requirement. We further illustrate how bowtie VarQTE can facilitate a state-preparation pipeline that combines the simulation of imaginary and real time evolution for a sample-based quantum algorithm. In fact, results on 2D systems show how bowtie VarQTE can reduce the quantum requirements compared to standard, sample-based Krylov diagonalization calculations. Our results indicate that VarQTE is a promising primitive for the preparation of physically structured quantum states that reduces requirements on quantum resources by leveraging existing structures and the associated possibility of enabling classical simulations.",
+      "pubdate": "Tue, 19 May 2026 18:00:03 +0000",
+      "authors": "Marc Drudis, Alberto Baiardi, Mattia Chiurco, Francesco Tacchino, Stefan Woerner, Christa Zoufal"
     }
   }
 }
