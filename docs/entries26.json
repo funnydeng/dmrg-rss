@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-05-22T12:59:24.948838+00:00",
+  "last_updated": "2026-05-23T00:58:32.240257+00:00",
   "entries": {
+    "557ab5e2e46d1c8f053204f65f619b90": {
+      "id": "557ab5e2e46d1c8f053204f65f619b90",
+      "link": "http://arxiv.org/abs/2605.22459",
+      "title": "Reduced Dynamical Maps in Finite Temperature Vibronic Coupling Models via Choi Matrices: Numerical Methods and Applications",
+      "abstract": "We present a streamlined implementation of a computational framework for constructing and analyzing reduced dynamical maps for complex system--bath models at finite temperature. The methodology is based on three established ingredients of quantum dynamics: the Choi--Jamiołkowski isomorphism for the representation of quantum channels, thermofield (TFD) purification of thermal environments, and tensor-train (TT) propagation of the resulting enlarged pure state. The reduced map is obtained from a single unitary propagation in a thermofield-doubled Hilbert space and represented in matrix form through the Choi--Jamiołkowski isomorphism. The TFD evolution is implemented in the TT representation, enabling efficient propagation of high-dimensional purified thermal states. We illustrate the methodology for exciton transfer in the Fenna--Matthews--Olson complex with site-dependent structured spectral densities represented by discretized bosonic environments. The resulting maps are used to analyze decoherence, relaxation, and finite-memory effects, and to assess the crossover to an effectively time-local description. The proposed approach provides a route to compute reduced propagators and to post-process them into memory kernels, transfer tensors, and effective kinetic rate descriptions for complex molecular systems.",
+      "pubdate": "Thu, 21 May 2026 13:23:35 +0000",
+      "authors": "Raffaele Borrelli, Hideaki Takahashi"
+    },
+    "54087f8b64a7c06f3013b5b688226707": {
+      "id": "54087f8b64a7c06f3013b5b688226707",
+      "link": "http://arxiv.org/abs/2605.22128",
+      "title": "Superconductivity in doped spin multimer systems",
+      "abstract": "Binding energy, which quantifies pair formation, is a key factor in the emergence of superconductivity. Here, we show that even when multiple spins are complexly coupled, hole-doped systems, which can be mapped onto the universal hardcore boson model in the strong-binding-energy limit, exhibit promising signatures of superconductivity. We analytically and numerically demonstrate this concept in the double Kondo lattice model. Using the density-matrix renormalization group method, we show that a pairing state is maintained via a crossover even for parameters away from the strong-coupling regime. Additionally, we find that once binding energies are sufficiently generated, pair correlations develop similarly regardless of the details of local spin correlations. Our findings suggest useful guidelines for research on superconductivity.",
+      "pubdate": "Thu, 21 May 2026 08:04:46 +0000",
+      "authors": "Ritsuki Hirabayashi, Masataka Kakoi, Ryota Ueda, Kazuhiko Kuroki, Tatsuya Kaneko"
+    },
+    "eb2031c4243e5fcf1750dda068b7992c": {
+      "id": "eb2031c4243e5fcf1750dda068b7992c",
+      "link": "http://arxiv.org/abs/2605.21709",
+      "title": "Stable full-field simulation of a multiscale elliptic equation by means of Quantized Tensor Trains",
+      "abstract": "In this article, we design an original solver based on Quantized Tensor Trains (QTT) for linear elliptic equations with heterogeneous coefficient field, that allows for extremely fine meshes. It can achieve full-field simulations in dimensions $d=2$ and $d=3$ with a number of Degrees of Freedom (DoFs) up to $20$ orders of magnitude beyond the classical solvers, recovering accurately the solution as well as its gradient in the $\\LL^2$ norm. For treating such an enormous amount of data, the solver crucially relies on the exponential compression properties of QTTs. This significantly improves upon the existing literature. The main ingredient of the proposed solver consists in the introduction of a penalization term involving the Helmholtz--Leray projector in the equation governing the gradient unknown. For practical reasons related to the expression of the Helmholtz--Leray projector, the penalized equation is solved in Fourier space. The primal solution is then obtained from the gradient via the Green operator. A core property of the solver is that it is unconditionally stable with respect to the mesh size. Based on numerical evidence supported by mathematical analysis, we show that reliable gradients and solutions can be obtained, and guaranteed by the proposed a posteriori error estimator. As an illustration, we successfully solve an elliptic equation in a microstructured material with up to $10^{37}$ virtual degrees of freedom in dimension $d=3$.",
+      "pubdate": "Wed, 20 May 2026 20:12:29 +0000",
+      "authors": "Marc Josien, Anas El Hachimi, Isabelle Ramière"
+    },
+    "05f114e2e56eec1ca1f2e0bad8044204": {
+      "id": "05f114e2e56eec1ca1f2e0bad8044204",
+      "link": "http://arxiv.org/abs/2605.21597",
+      "title": "Matrix Product Operator Encodings of the Magnus Expansion and Dyson Series",
+      "abstract": "We introduce a matrix product operator (MPO) encoding of the Magnus expansion and the Dyson series for one-dimensional quantum lattice models with time-dependent Hamiltonians. The MPO construction can be made accurate up to arbitrary order in the time step, it can be applied to both finite and infinite systems, and it can handle long-range interactions. The resulting MPO can be combined with state-of-the-art time evolution algorithms based on matrix product states, allowing for drastic improvements in simulating evolution under time-dependent Hamiltonians. Our MPO construction can also be used for the optimization of quantum circuits in the context of quantum simulation of time-dependent Hamiltonians.",
+      "pubdate": "Wed, 20 May 2026 18:00:49 +0000",
+      "authors": "Victor Vanthilt, Maarten Van Damme, Jutho Haegeman, Ian P. McCulloch, Laurens Vanderstraeten"
+    },
+    "f51939e539c101561af83aad128713c7": {
+      "id": "f51939e539c101561af83aad128713c7",
+      "link": "http://arxiv.org/abs/2605.21585",
+      "title": "Robust fluctuating intertwined charge stripes in the Emery model",
+      "abstract": "The single-band Hubbard model is one of the most extensively studied models in condensed matter physics, giving rise to intertwined spin and charge stripes that coexist with, or lie in the vicinity of, superconductivity in the phase diagram. However, whether the low energy physics of the single-band Hubbard model is fully equivalent to the multi-band (multi-orbital) Emery model remains an unsettled question. While the intertwined stripes and nematicity have been studied in the single-band Hubbard model, a comprehensive picture in the Emery model is lacking. In this paper, we focus on the less investigated intertwined charge stripes using complementary density matrix renormalization group (DMRG) and determinant quantum Monte Carlo (DQMC) techniques. Our ground state DMRG confirms the presence of the oxygen-centered charge stripes at a reduced amplitude in the Emery model parameter regime widely used in the study of intertwined stripes. Close analysis of the oxygen orbital structure of the static charge correlation function from DQMC reveals the charge stripe pattern in real-space, showcasing stronger charge density modulation on $p$-orbitals pointing along ``the rivers of charge'', consistent with DMRG. For the parameter set with the largest fermion signs, we managed to reach a temperature where the system first demonstrated tendencies to form purely unidirectional spin and charge stripes, and the $B_{1g}$ component becomes dominant in the bond-charge nematic susceptibility. This observation correlates with the doping dependence of the kinetic energy anisotropy, suggesting a close relation between the nematicity and charge stripes in the Emery model.",
+      "pubdate": "Wed, 20 May 2026 18:00:02 +0000",
+      "authors": "Rong Zhang, Sijia Zhao, Hong-Chen Jiang, Brian Moritz, Edwin W. Huang, Thomas P. Devereaux"
+    },
     "f9e8f1ae6d299a16aa93c958bd8fb037": {
       "id": "f9e8f1ae6d299a16aa93c958bd8fb037",
       "link": "http://arxiv.org/abs/2605.21447",
@@ -4576,46 +4616,6 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
-    },
-    "557ab5e2e46d1c8f053204f65f619b90": {
-      "id": "557ab5e2e46d1c8f053204f65f619b90",
-      "link": "http://arxiv.org/abs/2605.22459",
-      "title": "Reduced Dynamical Maps in Finite Temperature Vibronic Coupling Models via Choi Matrices: Numerical Methods and Applications",
-      "abstract": "We present a streamlined implementation of a computational framework for constructing and analyzing reduced dynamical maps for complex system--bath models at finite temperature. The methodology is based on three established ingredients of quantum dynamics: the Choi--Jamiołkowski isomorphism for the representation of quantum channels, thermofield (TFD) purification of thermal environments, and tensor-train (TT) propagation of the resulting enlarged pure state. The reduced map is obtained from a single unitary propagation in a thermofield-doubled Hilbert space and represented in matrix form through the Choi--Jamiołkowski isomorphism. The TFD evolution is implemented in the TT representation, enabling efficient propagation of high-dimensional purified thermal states. We illustrate the methodology for exciton transfer in the Fenna--Matthews--Olson complex with site-dependent structured spectral densities represented by discretized bosonic environments. The resulting maps are used to analyze decoherence, relaxation, and finite-memory effects, and to assess the crossover to an effectively time-local description. The proposed approach provides a route to compute reduced propagators and to post-process them into memory kernels, transfer tensors, and effective kinetic rate descriptions for complex molecular systems.",
-      "pubdate": "Thu, 21 May 2026 13:23:35 +0000",
-      "authors": "Raffaele Borrelli, Hideaki Takahashi"
-    },
-    "54087f8b64a7c06f3013b5b688226707": {
-      "id": "54087f8b64a7c06f3013b5b688226707",
-      "link": "http://arxiv.org/abs/2605.22128",
-      "title": "Superconductivity in doped spin multimer systems",
-      "abstract": "Binding energy, which quantifies pair formation, is a key factor in the emergence of superconductivity. Here, we show that even when multiple spins are complexly coupled, hole-doped systems, which can be mapped onto the universal hardcore boson model in the strong-binding-energy limit, exhibit promising signatures of superconductivity. We analytically and numerically demonstrate this concept in the double Kondo lattice model. Using the density-matrix renormalization group method, we show that a pairing state is maintained via a crossover even for parameters away from the strong-coupling regime. Additionally, we find that once binding energies are sufficiently generated, pair correlations develop similarly regardless of the details of local spin correlations. Our findings suggest useful guidelines for research on superconductivity.",
-      "pubdate": "Thu, 21 May 2026 08:04:46 +0000",
-      "authors": "Ritsuki Hirabayashi, Masataka Kakoi, Ryota Ueda, Kazuhiko Kuroki, Tatsuya Kaneko"
-    },
-    "eb2031c4243e5fcf1750dda068b7992c": {
-      "id": "eb2031c4243e5fcf1750dda068b7992c",
-      "link": "http://arxiv.org/abs/2605.21709",
-      "title": "Stable full-field simulation of a multiscale elliptic equation by means of Quantized Tensor Trains",
-      "abstract": "In this article, we design an original solver based on Quantized Tensor Trains (QTT) for linear elliptic equations with heterogeneous coefficient field, that allows for extremely fine meshes. It can achieve full-field simulations in dimensions $d=2$ and $d=3$ with a number of Degrees of Freedom (DoFs) up to $20$ orders of magnitude beyond the classical solvers, recovering accurately the solution as well as its gradient in the $\\LL^2$ norm. For treating such an enormous amount of data, the solver crucially relies on the exponential compression properties of QTTs. This significantly improves upon the existing literature. The main ingredient of the proposed solver consists in the introduction of a penalization term involving the Helmholtz--Leray projector in the equation governing the gradient unknown. For practical reasons related to the expression of the Helmholtz--Leray projector, the penalized equation is solved in Fourier space. The primal solution is then obtained from the gradient via the Green operator. A core property of the solver is that it is unconditionally stable with respect to the mesh size. Based on numerical evidence supported by mathematical analysis, we show that reliable gradients and solutions can be obtained, and guaranteed by the proposed a posteriori error estimator. As an illustration, we successfully solve an elliptic equation in a microstructured material with up to $10^{37}$ virtual degrees of freedom in dimension $d=3$.",
-      "pubdate": "Wed, 20 May 2026 20:12:29 +0000",
-      "authors": "Marc Josien, Anas El Hachimi, Isabelle Ramière"
-    },
-    "05f114e2e56eec1ca1f2e0bad8044204": {
-      "id": "05f114e2e56eec1ca1f2e0bad8044204",
-      "link": "http://arxiv.org/abs/2605.21597",
-      "title": "Matrix Product Operator Encodings of the Magnus Expansion and Dyson Series",
-      "abstract": "We introduce a matrix product operator (MPO) encoding of the Magnus expansion and the Dyson series for one-dimensional quantum lattice models with time-dependent Hamiltonians. The MPO construction can be made accurate up to arbitrary order in the time step, it can be applied to both finite and infinite systems, and it can handle long-range interactions. The resulting MPO can be combined with state-of-the-art time evolution algorithms based on matrix product states, allowing for drastic improvements in simulating evolution under time-dependent Hamiltonians. Our MPO construction can also be used for the optimization of quantum circuits in the context of quantum simulation of time-dependent Hamiltonians.",
-      "pubdate": "Wed, 20 May 2026 18:00:49 +0000",
-      "authors": "Victor Vanthilt, Maarten Van Damme, Jutho Haegeman, Ian P. McCulloch, Laurens Vanderstraeten"
-    },
-    "f51939e539c101561af83aad128713c7": {
-      "id": "f51939e539c101561af83aad128713c7",
-      "link": "http://arxiv.org/abs/2605.21585",
-      "title": "Robust fluctuating intertwined charge stripes in the Emery model",
-      "abstract": "The single-band Hubbard model is one of the most extensively studied models in condensed matter physics, giving rise to intertwined spin and charge stripes that coexist with, or lie in the vicinity of, superconductivity in the phase diagram. However, whether the low energy physics of the single-band Hubbard model is fully equivalent to the multi-band (multi-orbital) Emery model remains an unsettled question. While the intertwined stripes and nematicity have been studied in the single-band Hubbard model, a comprehensive picture in the Emery model is lacking. In this paper, we focus on the less investigated intertwined charge stripes using complementary density matrix renormalization group (DMRG) and determinant quantum Monte Carlo (DQMC) techniques. Our ground state DMRG confirms the presence of the oxygen-centered charge stripes at a reduced amplitude in the Emery model parameter regime widely used in the study of intertwined stripes. Close analysis of the oxygen orbital structure of the static charge correlation function from DQMC reveals the charge stripe pattern in real-space, showcasing stronger charge density modulation on $p$-orbitals pointing along ``the rivers of charge'', consistent with DMRG. For the parameter set with the largest fermion signs, we managed to reach a temperature where the system first demonstrated tendencies to form purely unidirectional spin and charge stripes, and the $B_{1g}$ component becomes dominant in the bond-charge nematic susceptibility. This observation correlates with the doping dependence of the kinetic energy anisotropy, suggesting a close relation between the nematicity and charge stripes in the Emery model.",
-      "pubdate": "Wed, 20 May 2026 18:00:02 +0000",
-      "authors": "Rong Zhang, Sijia Zhao, Hong-Chen Jiang, Brian Moritz, Edwin W. Huang, Thomas P. Devereaux"
     }
   }
 }
