@@ -1,6 +1,38 @@
 {
-  "last_updated": "2026-05-25T13:24:19.624532+00:00",
+  "last_updated": "2026-05-26T00:59:39.760980+00:00",
   "entries": {
+    "52ec2ad299906db5316cd16945c17f50": {
+      "id": "52ec2ad299906db5316cd16945c17f50",
+      "link": "http://arxiv.org/abs/2605.23830",
+      "title": "IntegrateUnitary.jl: A Julia package for symbolic integration over Haar measures",
+      "abstract": "Symbolic integration over the Haar measure of compact groups is a computational cornerstone in quantum information science and random matrix theory. We present \\texttt{IntegrateUnitary.jl}, a comprehensive Julia package for computing exact expectations of polynomial functions over a wide range of compact groups ($U(d)$, $O(d)$, $Sp(d)$, and $SU(d)$ for balanced polynomials), circular and Gaussian ensembles, Ginibre ensembles, permutation groups, random pure states, and unitary $t$-designs. The package provides a fully open-source implementation of the Weingarten calculus and Wick contractions with broad symbolic-$d$ support for entry-wise and trace-polynomial integrals, while selected workflows currently require concrete integer dimensions (including higher pure trace moments $|\\mathrm{tr}(U)|^{2k}$ for $k > 1$ and HCIZ with \\texttt{SymbolicMatrix} inputs, and direct matrix-valued integration of \\texttt{SymbolicMatrix}/\\texttt{SymbolicMatrixProduct} expressions), automatic asymptotic expansions, a high-level symbolic trace interface that reconstructs Weingarten graphs from index-free expressions, and a bridge to \\texttt{ITensors.jl} for tensor network averaging. We discuss the underlying algorithms, including the Murnaghan-Nakayama rule and symplectic-orthogonal duality, and demonstrate that the package efficiently handles high-degree moments and quantum information metrics.",
+      "pubdate": "Fri, 22 May 2026 16:36:35 +0000",
+      "authors": "Łukasz Pawela, Zbigniew Puchała"
+    },
+    "aa0b2cacdae2ad0ec4d396350953c4c1": {
+      "id": "aa0b2cacdae2ad0ec4d396350953c4c1",
+      "link": "http://arxiv.org/abs/2605.23670",
+      "title": "Twirled Perfect Tensor Networks: Computationally covariant holographic tensor networks",
+      "abstract": "We define a novel class of tensor networks motivated by the Python's Lunch Conjecture (PLC) in local tensor network models of the black hole interior. We start from the observation that, for extended black brane states with short-range correlations, the PLC predicts a complexity that is smaller than the upper bound for generic short-range correlated states. We argue that the PLC makes implicit assumptions about the fine structure of the relevant tensor networks modeling gravity that render them non-generic. We demonstrate this explicitly in random tensor network models of the python's lunch, where the exponential complexity is not generally controlled by the PLC exponent. We trace the difference with the PLC to a lack of \"computational covariance\" in random tensor networks: while the PLC is motivated by an ability to arbitrarily decompose space into low-complexity units provided certain basic rules are followed, we show that random tensor networks do not generically have this property. We propose another class of tensor networks built from what we call \"twirled perfect tensors\" that do satisfy the computational covariance property and have a complexity bounded by the PLC value. We still find a discrete limitation from local postselection that appears to be absent in gravity. Moreover, we show that this class of tensor networks combines desirable holographic features of perfect tensor networks and random tensor networks, for example, it obeys a lattice Ryu-Takayanagi formula for arbitrary boundary subregions. Though motivated by holography, these tensor networks provide a flexible framework with potential applications beyond quantum gravity.",
+      "pubdate": "Fri, 22 May 2026 14:18:32 +0000",
+      "authors": "Gurbir Arora, Matthew Headrick, Albion Lawrence, Martin Sasieta, Brian Swingle, Connor Wolfe"
+    },
+    "9a5abd0fc57081385cf70a311ae761f1": {
+      "id": "9a5abd0fc57081385cf70a311ae761f1",
+      "link": "http://arxiv.org/abs/2605.23584",
+      "title": "Quantum resource redistribution drives spectral splits in dense neutrino gases",
+      "abstract": "Whether a quantum many-body system can be efficiently simulated hinges not only on its size but also on how quantum resources are organized within it. We characterize the quantum resource landscape of collective neutrino oscillations using entanglement entropy, non-local magic, and matrix product state bond dimension. Using tensor network simulations of neutrinos in the two-flavor sector, we demonstrate that spectral splits--sharp energy-dependent flavor swaps--emerge precisely where entanglement entropy is maximized and non-local magic is minimized locally. This anticorrelation reveals that spectral splits arise not from generic resource growth but from a structured redistribution among flavor modes. The resource dynamics trace constrained arcs in the entanglement-magic phase space, bounded by entanglement spectrum normalization. These findings establish a direct, quantitative link between quantum resources governing computational complexity and astrophysical observables, informing the design of tensor network and quantum circuit simulations of dense neutrino environments.",
+      "pubdate": "Fri, 22 May 2026 12:54:10 +0000",
+      "authors": "Michael Hite, Pooja Siwach"
+    },
+    "97ad379641e35d20485e19b2010120d2": {
+      "id": "97ad379641e35d20485e19b2010120d2",
+      "link": "http://arxiv.org/abs/2605.22977",
+      "title": "Absorbing Many-Body Correlations into Core-Optimized Orbitals",
+      "abstract": "The cost of simulating quantum many-body systems - on classical or quantum hardware - scales with the number of variational parameters, so progress at fixed computational budget hinges on more parameter-efficient ansätze. Configuration Interaction (CI) is widely dismissed as parameter-heavy; we show this verdict is an artifact of the orbital basis. Co-optimizing the orbital basis with a sparse CI wavefunction - a method we call Core-Optimized Orbitals (COO) - absorbs a large fraction of the dynamical correlation directly into the single-particle basis, cutting the determinant count by several orders of magnitude beyond the already compact TrimCI ansatz on which it builds. On [Fe$_4$S$_4$] (54e, 36o), a billion-determinant TrimCI+COO wavefunction reaches accuracy that would require $3\\!\\times\\!10^{14}$ determinants in a localized basis. At matched accuracy, it is $8\\times$ more compact than the largest unrestricted-DMRG benchmark ($25\\times$ with PT2). Across the iron-sulfur series - from [Fe$_2$S$_2$] (30e,20o) to the P-cluster (114e,73o) - TrimCI+COO is $10$-$100\\times$ more compact than SU(2)-adapted DMRG with entanglement-minimized orbitals at matched accuracy. A tunable Hubbard-on-graph model factorizes the advantage into an orbital-basis gain and an ansatz gain, the latter capturing multi-center entanglement that resists MPS localization. COO therefore changes the picture of CI efficiency: sparse CI with optimized orbitals can outperform state-of-the-art tensor networks on strongly correlated multi-center systems.",
+      "pubdate": "Thu, 21 May 2026 19:15:57 +0000",
+      "authors": "Hao Zhang, Matthew Otten"
+    },
     "557ab5e2e46d1c8f053204f65f619b90": {
       "id": "557ab5e2e46d1c8f053204f65f619b90",
       "link": "http://arxiv.org/abs/2605.22459",
@@ -4620,74 +4652,42 @@
     "d890b8aacc9edd6e69453a07d63f4a55": {
       "id": "d890b8aacc9edd6e69453a07d63f4a55",
       "link": "http://arxiv.org/abs/2605.23848",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
-    },
-    "52ec2ad299906db5316cd16945c17f50": {
-      "id": "52ec2ad299906db5316cd16945c17f50",
-      "link": "http://arxiv.org/abs/2605.23830",
-      "title": "IntegrateUnitary.jl: A Julia package for symbolic integration over Haar measures",
-      "abstract": "Symbolic integration over the Haar measure of compact groups is a computational cornerstone in quantum information science and random matrix theory. We present \\texttt{IntegrateUnitary.jl}, a comprehensive Julia package for computing exact expectations of polynomial functions over a wide range of compact groups ($U(d)$, $O(d)$, $Sp(d)$, and $SU(d)$ for balanced polynomials), circular and Gaussian ensembles, Ginibre ensembles, permutation groups, random pure states, and unitary $t$-designs. The package provides a fully open-source implementation of the Weingarten calculus and Wick contractions with broad symbolic-$d$ support for entry-wise and trace-polynomial integrals, while selected workflows currently require concrete integer dimensions (including higher pure trace moments $|\\mathrm{tr}(U)|^{2k}$ for $k > 1$ and HCIZ with \\texttt{SymbolicMatrix} inputs, and direct matrix-valued integration of \\texttt{SymbolicMatrix}/\\texttt{SymbolicMatrixProduct} expressions), automatic asymptotic expansions, a high-level symbolic trace interface that reconstructs Weingarten graphs from index-free expressions, and a bridge to \\texttt{ITensors.jl} for tensor network averaging. We discuss the underlying algorithms, including the Murnaghan-Nakayama rule and symplectic-orthogonal duality, and demonstrate that the package efficiently handles high-degree moments and quantum information metrics.",
-      "pubdate": "Fri, 22 May 2026 16:36:35 +0000",
-      "authors": "Łukasz Pawela, Zbigniew Puchała"
+      "title": "A new Ising/tricritical-Ising interface: From ${W}_3$ symmetry to Rydberg atoms",
+      "abstract": "We consider interfaces between critical spin-chains in different universality classes, described in the continuum limit by defect/interface conformal field theory (DCFT/ICFT). We find a new conformal interface between the Tricritical Ising (TIM) and the Ising CFT. We also explore the possibility of its experimental realizations in the context of Rydberg atom arrays. Our analysis emphasizes non-invertible symmetries and consistency under modular transformations, and uses defect couplings and the defect spectrum -- including in the case of mixed boundary conditions -- to make sharp experimental predictions. The structure of the observables hinges on a newly discovered pattern of emergent ${W}_3$ chiral symmetry for the Tricritical-Ising/Ising interface.",
+      "pubdate": "Fri, 22 May 2026 17:02:23 +0000",
+      "authors": "António Antunes, Junchen Rong"
     },
     "cbe707034c8f1922e663ead3009529e4": {
       "id": "cbe707034c8f1922e663ead3009529e4",
       "link": "http://arxiv.org/abs/2605.23769",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
-    },
-    "aa0b2cacdae2ad0ec4d396350953c4c1": {
-      "id": "aa0b2cacdae2ad0ec4d396350953c4c1",
-      "link": "http://arxiv.org/abs/2605.23670",
-      "title": "Twirled Perfect Tensor Networks: Computationally covariant holographic tensor networks",
-      "abstract": "We define a novel class of tensor networks motivated by the Python's Lunch Conjecture (PLC) in local tensor network models of the black hole interior. We start from the observation that, for extended black brane states with short-range correlations, the PLC predicts a complexity that is smaller than the upper bound for generic short-range correlated states. We argue that the PLC makes implicit assumptions about the fine structure of the relevant tensor networks modeling gravity that render them non-generic. We demonstrate this explicitly in random tensor network models of the python's lunch, where the exponential complexity is not generally controlled by the PLC exponent. We trace the difference with the PLC to a lack of \"computational covariance\" in random tensor networks: while the PLC is motivated by an ability to arbitrarily decompose space into low-complexity units provided certain basic rules are followed, we show that random tensor networks do not generically have this property. We propose another class of tensor networks built from what we call \"twirled perfect tensors\" that do satisfy the computational covariance property and have a complexity bounded by the PLC value. We still find a discrete limitation from local postselection that appears to be absent in gravity. Moreover, we show that this class of tensor networks combines desirable holographic features of perfect tensor networks and random tensor networks, for example, it obeys a lattice Ryu-Takayanagi formula for arbitrary boundary subregions. Though motivated by holography, these tensor networks provide a flexible framework with potential applications beyond quantum gravity.",
-      "pubdate": "Fri, 22 May 2026 14:18:32 +0000",
-      "authors": "Gurbir Arora, Matthew Headrick, Albion Lawrence, Martin Sasieta, Brian Swingle, Connor Wolfe"
+      "title": "Interaction-Split Edge Spectral Flow and Neutral Triplet Boundary Modes in a C = 2 Hubbard Pump",
+      "abstract": "We show that a sliding spatial modulation of the on-site Hubbard interaction realizes a many-body Thouless pump whose boundary spectral flow is reconstructed by correlations. For a period-three Hubbard chain at filling $ρ=2/3$, density-matrix renormalization group (DMRG) calculations identify a correlated insulator with many-body Chern number $C=+2$, corresponding to two units of charge pumped per cycle. Its excitation spectrum separates the charge gap from the lowest neutral spin gap, revealing an interacting bulk response beyond a simple spin-degenerate band pump. Under open boundary conditions, this contrast becomes even more pronounced. A spin-degenerate Hartree/Aubry-André-Harper reference pump exhibits simultaneous edge flow in the two spin channels, whereas the full modulated Hubbard model suppresses the boundary doublon channel and splits the spectral flow into two distinct edge events. Between these events, the boundary charge is neutralized while a neutral, spinful triplet-like excitation is localized at the edge. The global $μ-U$ phase diagram reveals filling-dependent topology: the $ρ=2/3$ regime remains in the $C=+2$ sector, while $ρ=4/3$ regime undergoes a spin-gap-closing transition from a $C=-2$ pump to a distinct $C=+1$ topological Mott pump.",
+      "pubdate": "Fri, 22 May 2026 15:40:22 +0000",
+      "authors": "Yong-Feng Yang, Zhao-Rui Tian, Chen Cheng, Hong-Gang Luo"
     },
     "d025b0f2ed2c2d6f9d4334047d3755b7": {
       "id": "d025b0f2ed2c2d6f9d4334047d3755b7",
       "link": "http://arxiv.org/abs/2605.23639",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
-    },
-    "9a5abd0fc57081385cf70a311ae761f1": {
-      "id": "9a5abd0fc57081385cf70a311ae761f1",
-      "link": "http://arxiv.org/abs/2605.23584",
-      "title": "Quantum resource redistribution drives spectral splits in dense neutrino gases",
-      "abstract": "Whether a quantum many-body system can be efficiently simulated hinges not only on its size but also on how quantum resources are organized within it. We characterize the quantum resource landscape of collective neutrino oscillations using entanglement entropy, non-local magic, and matrix product state bond dimension. Using tensor network simulations of neutrinos in the two-flavor sector, we demonstrate that spectral splits--sharp energy-dependent flavor swaps--emerge precisely where entanglement entropy is maximized and non-local magic is minimized locally. This anticorrelation reveals that spectral splits arise not from generic resource growth but from a structured redistribution among flavor modes. The resource dynamics trace constrained arcs in the entanglement-magic phase space, bounded by entanglement spectrum normalization. These findings establish a direct, quantitative link between quantum resources governing computational complexity and astrophysical observables, informing the design of tensor network and quantum circuit simulations of dense neutrino environments.",
-      "pubdate": "Fri, 22 May 2026 12:54:10 +0000",
-      "authors": "Michael Hite, Pooja Siwach"
-    },
-    "97ad379641e35d20485e19b2010120d2": {
-      "id": "97ad379641e35d20485e19b2010120d2",
-      "link": "http://arxiv.org/abs/2605.22977",
-      "title": "Absorbing Many-Body Correlations into Core-Optimized Orbitals",
-      "abstract": "The cost of simulating quantum many-body systems - on classical or quantum hardware - scales with the number of variational parameters, so progress at fixed computational budget hinges on more parameter-efficient ansätze. Configuration Interaction (CI) is widely dismissed as parameter-heavy; we show this verdict is an artifact of the orbital basis. Co-optimizing the orbital basis with a sparse CI wavefunction - a method we call Core-Optimized Orbitals (COO) - absorbs a large fraction of the dynamical correlation directly into the single-particle basis, cutting the determinant count by several orders of magnitude beyond the already compact TrimCI ansatz on which it builds. On [Fe$_4$S$_4$] (54e, 36o), a billion-determinant TrimCI+COO wavefunction reaches accuracy that would require $3\\!\\times\\!10^{14}$ determinants in a localized basis. At matched accuracy, it is $8\\times$ more compact than the largest unrestricted-DMRG benchmark ($25\\times$ with PT2). Across the iron-sulfur series - from [Fe$_2$S$_2$] (30e,20o) to the P-cluster (114e,73o) - TrimCI+COO is $10$-$100\\times$ more compact than SU(2)-adapted DMRG with entanglement-minimized orbitals at matched accuracy. A tunable Hubbard-on-graph model factorizes the advantage into an orbital-basis gain and an ansatz gain, the latter capturing multi-center entanglement that resists MPS localization. COO therefore changes the picture of CI efficiency: sparse CI with optimized orbitals can outperform state-of-the-art tensor networks on strongly correlated multi-center systems.",
-      "pubdate": "Thu, 21 May 2026 19:15:57 +0000",
-      "authors": "Hao Zhang, Matthew Otten"
+      "title": "Quantum Ghost Spectroscopy Reveals Hidden Electronic Coherence in Molecular Aggregates",
+      "abstract": "Ultrafast spectroscopy of molecular systems is fundamentally constrained by the Fourier uncertainty principle: high temporal resolution smears out electronic state signatures, while high spectral resolution obscures dynamic information. Here we overcome this limitation using time-resolved quantum ghost spectroscopy (tr-QGS) with entangled photon pairs, which enables independent control of temporal and spectral scales. We apply this approach to perylene bismide (PBI-1) trimers for energy transfer,by combining a quantum description of light-molecule interaction with time-dependent density matrix renormalization group (TD-DMRG) simulations. This explicitly includes five vibrational modes and nonadiabatic coupling between electronic states. Our simulations reveal that tr-QGS uniquely captures electronic coherence oscillating at 0.7 eV for >50 fs, a signature of nonadiabatic coupling that was obscured in conventional time-resolved fluorescence due to Fourier-limited broadening. Moreover, we observe a direct transfer from electronic to vibrational coherence at 200 fs, providing real-time visualization of vibronic relaxation pathways. The entangled photon correlation enables a sensitivity below the shot-noise limit and suppresses photobleaching artifacts that plague classical measurements. These results establish tr-QGS as a transformative tool for interrogating nonadiabatic dynamics in molecular aggregates, light-harvesting complexes, and photocatalysts, offering a route to reveal quantum coherence in chemistry with unprecedented time-energy precision.",
+      "pubdate": "Fri, 22 May 2026 13:53:35 +0000",
+      "authors": "Mingran Zhang, Yihe Xu, Vladislav V. Yakovlev, Zhedong Zhang"
     },
     "af37011f720fce5258f076ddd65ee653": {
       "id": "af37011f720fce5258f076ddd65ee653",
       "link": "http://arxiv.org/abs/2605.22947",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
+      "title": "Entanglement-facilitated macroscopic cluster formation in quantum many-body dynamics",
+      "abstract": "The capacity of a quantum many-body system to preserve global information -- encoded in the non-local correlations -- is a prerequisite for robust quantum computing. Unlike local degrees of freedom, large structures offer inherent resilience to noise, but their stability is often compromised by dynamical fragmentation and local excitations. In this work, we investigate under what initial conditions the quantum dynamics can sustain system-size cluster structures by examining false-vacuum decay dynamics in a 2D quantum Ising model. We find that while product states rapidly fragment into uncorrelated domains, initial-state entanglement suppresses the proliferation of true-vacuum bubbles and stabilises macroscopic connected clusters. We find that this passive stabilisation is not a mere consequence of entanglement entropy but rather depends on the specific pre-quench correlations. Our results establish a connection between initial-state preparation and the preservation of global structures, highlighting the role of entanglement for the passive protection of information in 2D quantum many-body simulation.",
+      "pubdate": "Thu, 21 May 2026 18:21:14 +0000",
+      "authors": "Xiao Wang, Alexander Yosifov, Aditya Iyer, Jinzhao Sun"
     },
     "6c1f08d40de71729205615766b232798": {
       "id": "6c1f08d40de71729205615766b232798",
       "link": "http://arxiv.org/abs/2605.22869",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
+      "title": "FuRA: Full-Rank Parameter-Efficient Fine-Tuning with Spectral Preconditioning",
+      "abstract": "Both full fine-tuning (Full FT) and parameter-efficient fine-tuning methods such as LoRA introduce weight updates without accounting for the spectral structure established during pretraining. As a result, noisy gradients from limited fine-tuning data can perturb robust pretrained features. We identify spectral preconditioning as the missing ingredient: reparameterizing each weight matrix through its full-rank singular value decomposition (SVD) and freezing one singular basis constrains updates to the pretrained column space, yielding a preconditioned optimization scheme that outperforms unconstrained Full FT at the same trainable parameter count. Building on this insight, we propose FuRA (Full-Rank Adaptation), an efficient full-rank adaptation framework based on a block tensor-train factorization W = LSR, where the large core L is fixed to the pretrained block-wise SVD basis, while only the compact core R and the block-wise singular values S are optimized. This design simultaneously provides full-rank spectral preconditioning, preserves full-rank update expressivity, and achieves parameter, memory, and step-time efficiency comparable to LoRA. FuRA consistently outperforms Full FT across multiple settings, including LLM fine-tuning (+1.37 on LLaMA-3-8B commonsense reasoning), LLM reinforcement learning for mathematical reasoning, and visual instruction tuning for VLMs. Furthermore, the 4-bit quantized variant, QFuRA, also surpasses QLoRA. Code is available at https://github.com/olokevin/FuRA-NIPS",
+      "pubdate": "Tue, 19 May 2026 22:11:25 +0000",
+      "authors": "Yequan Zhao, Ruijie Zhang, Liyan Tan, Niall Moran, Tong Qin, Zheng Zhang"
     }
   }
 }
