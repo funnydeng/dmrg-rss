@@ -1,6 +1,70 @@
 {
-  "last_updated": "2026-05-27T13:22:05.049558+00:00",
+  "last_updated": "2026-05-28T00:56:28.133117+00:00",
   "entries": {
+    "bf5eeba5ec6d814d78726f3895d5198b": {
+      "id": "bf5eeba5ec6d814d78726f3895d5198b",
+      "link": "http://arxiv.org/abs/2605.27350",
+      "title": "Postselection-free ballistic-diffusive transition in monitored spin chains",
+      "abstract": "We study spin and entanglement dynamics in spin-1/2 XXZ chains under periodic monitoring and show that this system exhibits two measurement-induced phase transitions: a steady-state entanglement phase transition similar to those in monitored quantum circuits and a ballistic-to-diffusive transition in transient dynamics. Specifically, we discover that at low monitoring rate, an initial configuration containing a domain wall $|\\uparrow\\uparrow\\uparrow\\ldots \\downarrow\\downarrow\\downarrow\\ldots\\rangle$ spreads ballistically while, at large monitoring rates, the domain melting is diffusive. Extensive numerical simulations, supported by theoretical arguments, indicate that the ballistic-diffusive transition is intimately interlinked with the entanglement phase transition. In contrast to the entanglement phase transitions, which require exponentially complex postselection, the ballistic-diffusive transition can be observed without postselection and constitutes an experimentally accessible manifestation of the many-body Zeno effect.",
+      "pubdate": "Tue, 26 May 2026 17:51:57 +0000",
+      "authors": "K. G. S. H. Gunawardana, Ali G. Moghaddam, Teemu Ojanen"
+    },
+    "4a15915313dc7a8575ec2781b18a2af6": {
+      "id": "4a15915313dc7a8575ec2781b18a2af6",
+      "link": "http://arxiv.org/abs/2605.27326",
+      "title": "Autonomous oscillations in quantum electromechanics: tensor network treatment",
+      "abstract": "Transport-induced self-sustained oscillations in electromechanical systems convert a static electrochemical bias into robust, autonomous oscillatory motion in the absence of any external periodic drive. However, an exact description of such self-oscillations remains challenging in nanoscale electromechanical devices featuring a simultaneously large bosonic Hilbert space, strong interactions, and structured fermionic leads. We formulate a tensor-network framework that combines a binary representation of the vibrational mode with mesoscopic reservoir embeddings that enable controlled access to the self-oscillatory steady states and relevant transport observables without explicit real-time propagation. We demonstrate the emergence of mechanical self-oscillations across a broad set of operating conditions, in which strong electromechanical backaction, nonadiabatic oscillator dynamics, and energy-dependent electronic tunneling processes compete. Furthermore, we observe that for both slow and fast vibrating mechanical modes, suppressed vibrational occupation fluctuations in the self-oscillation window along the electromechanical coupling strength sweep is preceded by a peak in the occupation fluctuations. Collectively, we explore how both intrinsic system properties and environmental parameters govern such autonomous oscillations over a broad range of operating conditions. The generality of our framework will enable the method to be employed straightforwardly to more complicated or experimentally relevant scenarios.",
+      "pubdate": "Tue, 26 May 2026 17:35:54 +0000",
+      "authors": "Mahasweta Pandit, Sheikh Parvez Mandal, Mark T. Mitchison, Javier Prior"
+    },
+    "4bd7938e03b432a57874f6e09b5c8c52": {
+      "id": "4bd7938e03b432a57874f6e09b5c8c52",
+      "link": "http://arxiv.org/abs/2605.27193",
+      "title": "Algebras of order parameters in one-dimensional spin systems",
+      "abstract": "We study order parameters in one-dimensional quantum lattice models with finite invertible or non-invertible symmetry. We investigate what properties a string operator must satisfy in order to acquire a non-vanishing expectation value in a given gapped phase. We deduce that multiplets of string order parameters organise into a Lagrangian algebra in the Drinfel'd centre of the symmetry category. In particular, we highlight the role of the multiplication rule as governing the fusion of the twisted sector local operators that constitute the string operator in the infrared limit. Our derivations exploit the tensor network approach to the classification of gapped phases and its reformulation in terms of module categories over the symmetry category. Within this framework, a gapped phase is associated with a pattern of spontaneous symmetry breaking wherein a Morita class of algebras of topological lines is preserved in the ground state subspace. The crux of the proof is to show that the expectation value of any string operator explicitly depends on the tube algebra module associated with the Lagrangian algebra, which is realised as the full centre of the corresponding module category. Finally, we demonstrate that these techniques extend to phases of symmetric mixed states.",
+      "pubdate": "Tue, 26 May 2026 15:45:35 +0000",
+      "authors": "Ameya Chavda, Clement Delcamp, Alex Turzillo, Minyoung You"
+    },
+    "dd05c7c1bd62cc9314192b87191c34de": {
+      "id": "dd05c7c1bd62cc9314192b87191c34de",
+      "link": "http://arxiv.org/abs/2605.27191",
+      "title": "Statistical and Algorithmic Foundations of Probing Quantum Systems with Compressive Measurements: A Review",
+      "abstract": "Quantum state tomography (QST) is a fundamental task in quantum information science that aims to reconstruct unknown quantum states from measurement data. However, the exponential growth of Hilbert-space dimension with system size makes full tomography of general quantum states statistically and computationally prohibitive. This challenge has motivated extensive research on structured quantum state tomography, where prior structure, such as low-rankness, tensor-network representations, shallow quantum circuits, and neural quantum states, can substantially reduce the effective degrees of freedom and enable scalable recovery. In this review, we provide a unified perspective on QST for structured quantum states through three closely related themes: compact state representations, measurement design, and computational algorithms. After reviewing common models for structured quantum states, we survey existing work on geometric preservation properties of measurement frameworks, ranging from informationally complete POVMs to randomized measurements, and their implications for sample complexity. On the algorithmic side, we review optimization methods for reconstructing structured quantum states from empirical measurements. By connecting QST with broader principles from compressive sensing, matrix sensing, and structured inverse problems, this survey highlights common theoretical foundations underlying sample complexity, measurement efficiency, and scalable recovery.",
+      "pubdate": "Tue, 26 May 2026 15:44:42 +0000",
+      "authors": "Zhen Qin, Michael B. Wakin, Zhihui Zhu"
+    },
+    "a998e2dd91bd9105b30974c7d01e44d4": {
+      "id": "a998e2dd91bd9105b30974c7d01e44d4",
+      "link": "http://arxiv.org/abs/2605.27166",
+      "title": "Quantum criticality and factorization in a constrained Rydberg spin chain",
+      "abstract": "We investigate the zero-temperature phase diagram of a one-dimensional constrained quantum spin chain realized in coherently driven Rydberg-atom arrays with competing local Rabi driving and dipole-dipole exchange interactions. Projecting onto the blockade-constrained Hilbert space yields an effective model in which local and nonlocal quantum fluctuations compete on equal footing. Combining exact diagonalization, the density-matrix renormalization group, and variational uniform matrix-product-state calculations, we establish a complete phase diagram comprising a Luttinger liquid, an antiferromagnetic ordered phase, and a polarized paramagnet. We identify two distinct mechanisms for the destruction of antiferromagnetic order: a conventional Ising transition at strong driving and a continuous quantum melting into the Luttinger liquid at weak driving, characterized using entanglement-based diagnostics and finite-entanglement scaling. In addition, we uncover an exact ground-state factorization line embedded within the ordered phase, providing an analytically tractable zero-entanglement reference point for experiments with programmable Rydberg quantum simulators.",
+      "pubdate": "Tue, 26 May 2026 15:23:25 +0000",
+      "authors": "Yuan Jiang, Wen-Long You, Liangsheng Li, Maoxin Liu"
+    },
+    "f073ab24c0e00423302e012a9d1a47be": {
+      "id": "f073ab24c0e00423302e012a9d1a47be",
+      "link": "http://arxiv.org/abs/2605.26219",
+      "title": "Entanglement Pattern Transition of Quantum States from Directed Percolation",
+      "abstract": "Changes in the entanglement structure and critical phenomena are hallmarks of quantum phase transitions. Here, we discuss how they appear in transitions between classes of states with distinct entanglement patterns beyond the paradigm of stable equilibrium phases of matter. Using a mapping between stochastic automata and isometric Tensor Network States (isoTNS), we construct a two-dimensional quantum state from the Domany-Kinzel automaton, which is a (1+1)D process with an absorbing phase transition in the directed percolation class. At the critical point of the automaton, the corresponding isoTNS hosts algebraic correlations in all spatial directions. The continuous parent Hamiltonian of this state has a degenerate ground state manifold. It consists of a product state (the absorbing state) and a second state that undergoes a transition from pairwise entanglement between distant regions, similarly to the W state, to a state with trivial entanglement. Our results demonstrate how the correspondence between isoTNS and classical stochastic evolution can be used to probe the Hilbert space structure beyond stable ground state manifolds.",
+      "pubdate": "Mon, 25 May 2026 18:00:04 +0000",
+      "authors": "Julian Boesl, Frank Pollmann, Michael Knap"
+    },
+    "422e595c4b13aa4a61b541b83bd11f33": {
+      "id": "422e595c4b13aa4a61b541b83bd11f33",
+      "link": "http://arxiv.org/abs/2605.26208",
+      "title": "Mapping twist fields to local operators via tensor networks",
+      "abstract": "Twist fields are a powerful formal tool to compute Rényi entropies in quantum many-body systems, but their conventional formulation in tensor network states involves operations acting on virtual degrees of freedom, which are not directly accessible in experiments. In this work, we construct explicit local operators acting on the physical Hilbert space whose expectation values reproduce the action of twist fields in matrix product states. Our construction is exact in the injectivity limit and when the tensor is chosen at the center of orthogonality, and provides a direct operational method to evaluate Rényi entropies without accessing auxiliary tensor indices. We test our formulation numerically in the transverse-field Ising model, demonstrating rapid convergence to the exact entanglement entropy as the injectivity scale is reached. Furthermore, we show that twist operators determined from relatively small reference systems can be reliably transferred to larger systems, once the reference size exceeds a characteristic scale set by the correlation length. Since the resulting operators admit a decomposition in terms of a finite number of local observables, our results provide a scalable and experimentally accessible framework to probe entanglement in quantum simulators.",
+      "pubdate": "Mon, 25 May 2026 18:00:01 +0000",
+      "authors": "Andrea Bulgarelli, Marco Panero, Paolo Stornati, Luca Tagliacozzo"
+    },
+    "333e93c4ba9cb63c6e21365c72c1c94c": {
+      "id": "333e93c4ba9cb63c6e21365c72c1c94c",
+      "link": "http://arxiv.org/abs/2605.26205",
+      "title": "Exact strong zero modes are generic in integrable spin systems with large anisotropy",
+      "abstract": "Strong zero modes (SZMs) are edge-localized operators that commute with the Hamiltonian up to corrections exponentially small in system size, yielding anomalously long edge coherence times. In some settings, notably certain integrable models, this commutator can be made to vanish exactly at finite size, defining an exact SZM (ESZM). Existing ESZM constructions in the integrable setting, however, have proceeded model by model and have not been unified into a common framework. Here, I show that ESZMs arise generically in a broad family of integrable spin models with anisotropic interactions. Their existence follows from two algebraic properties of the underlying R- and K-matrices -- quasi-periodicity in the spectral parameter and tracelessness, respectively -- providing a uniform, model-independent mechanism. The framework recovers the known ESZM in XXZ chain and its higher-spin generalizations as special cases and predicts ESZMs in previously unrecognized models.",
+      "pubdate": "Mon, 25 May 2026 18:00:00 +0000",
+      "authors": "Sascha Gehrmann"
+    },
     "04947d78fd793382e2164e07e62dd584": {
       "id": "04947d78fd793382e2164e07e62dd584",
       "link": "http://arxiv.org/abs/2605.25830",
@@ -4792,70 +4856,6 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
-    },
-    "bf5eeba5ec6d814d78726f3895d5198b": {
-      "id": "bf5eeba5ec6d814d78726f3895d5198b",
-      "link": "http://arxiv.org/abs/2605.27350",
-      "title": "Postselection-free ballistic-diffusive transition in monitored spin chains",
-      "abstract": "We study spin and entanglement dynamics in spin-1/2 XXZ chains under periodic monitoring and show that this system exhibits two measurement-induced phase transitions: a steady-state entanglement phase transition similar to those in monitored quantum circuits and a ballistic-to-diffusive transition in transient dynamics. Specifically, we discover that at low monitoring rate, an initial configuration containing a domain wall $|\\uparrow\\uparrow\\uparrow\\ldots \\downarrow\\downarrow\\downarrow\\ldots\\rangle$ spreads ballistically while, at large monitoring rates, the domain melting is diffusive. Extensive numerical simulations, supported by theoretical arguments, indicate that the ballistic-diffusive transition is intimately interlinked with the entanglement phase transition. In contrast to the entanglement phase transitions, which require exponentially complex postselection, the ballistic-diffusive transition can be observed without postselection and constitutes an experimentally accessible manifestation of the many-body Zeno effect.",
-      "pubdate": "Tue, 26 May 2026 17:51:57 +0000",
-      "authors": "K. G. S. H. Gunawardana, Ali G. Moghaddam, Teemu Ojanen"
-    },
-    "4a15915313dc7a8575ec2781b18a2af6": {
-      "id": "4a15915313dc7a8575ec2781b18a2af6",
-      "link": "http://arxiv.org/abs/2605.27326",
-      "title": "Autonomous oscillations in quantum electromechanics: tensor network treatment",
-      "abstract": "Transport-induced self-sustained oscillations in electromechanical systems convert a static electrochemical bias into robust, autonomous oscillatory motion in the absence of any external periodic drive. However, an exact description of such self-oscillations remains challenging in nanoscale electromechanical devices featuring a simultaneously large bosonic Hilbert space, strong interactions, and structured fermionic leads. We formulate a tensor-network framework that combines a binary representation of the vibrational mode with mesoscopic reservoir embeddings that enable controlled access to the self-oscillatory steady states and relevant transport observables without explicit real-time propagation. We demonstrate the emergence of mechanical self-oscillations across a broad set of operating conditions, in which strong electromechanical backaction, nonadiabatic oscillator dynamics, and energy-dependent electronic tunneling processes compete. Furthermore, we observe that for both slow and fast vibrating mechanical modes, suppressed vibrational occupation fluctuations in the self-oscillation window along the electromechanical coupling strength sweep is preceded by a peak in the occupation fluctuations. Collectively, we explore how both intrinsic system properties and environmental parameters govern such autonomous oscillations over a broad range of operating conditions. The generality of our framework will enable the method to be employed straightforwardly to more complicated or experimentally relevant scenarios.",
-      "pubdate": "Tue, 26 May 2026 17:35:54 +0000",
-      "authors": "Mahasweta Pandit, Sheikh Parvez Mandal, Mark T. Mitchison, Javier Prior"
-    },
-    "4bd7938e03b432a57874f6e09b5c8c52": {
-      "id": "4bd7938e03b432a57874f6e09b5c8c52",
-      "link": "http://arxiv.org/abs/2605.27193",
-      "title": "Algebras of order parameters in one-dimensional spin systems",
-      "abstract": "We study order parameters in one-dimensional quantum lattice models with finite invertible or non-invertible symmetry. We investigate what properties a string operator must satisfy in order to acquire a non-vanishing expectation value in a given gapped phase. We deduce that multiplets of string order parameters organise into a Lagrangian algebra in the Drinfel'd centre of the symmetry category. In particular, we highlight the role of the multiplication rule as governing the fusion of the twisted sector local operators that constitute the string operator in the infrared limit. Our derivations exploit the tensor network approach to the classification of gapped phases and its reformulation in terms of module categories over the symmetry category. Within this framework, a gapped phase is associated with a pattern of spontaneous symmetry breaking wherein a Morita class of algebras of topological lines is preserved in the ground state subspace. The crux of the proof is to show that the expectation value of any string operator explicitly depends on the tube algebra module associated with the Lagrangian algebra, which is realised as the full centre of the corresponding module category. Finally, we demonstrate that these techniques extend to phases of symmetric mixed states.",
-      "pubdate": "Tue, 26 May 2026 15:45:35 +0000",
-      "authors": "Ameya Chavda, Clement Delcamp, Alex Turzillo, Minyoung You"
-    },
-    "dd05c7c1bd62cc9314192b87191c34de": {
-      "id": "dd05c7c1bd62cc9314192b87191c34de",
-      "link": "http://arxiv.org/abs/2605.27191",
-      "title": "Statistical and Algorithmic Foundations of Probing Quantum Systems with Compressive Measurements: A Review",
-      "abstract": "Quantum state tomography (QST) is a fundamental task in quantum information science that aims to reconstruct unknown quantum states from measurement data. However, the exponential growth of Hilbert-space dimension with system size makes full tomography of general quantum states statistically and computationally prohibitive. This challenge has motivated extensive research on structured quantum state tomography, where prior structure, such as low-rankness, tensor-network representations, shallow quantum circuits, and neural quantum states, can substantially reduce the effective degrees of freedom and enable scalable recovery. In this review, we provide a unified perspective on QST for structured quantum states through three closely related themes: compact state representations, measurement design, and computational algorithms. After reviewing common models for structured quantum states, we survey existing work on geometric preservation properties of measurement frameworks, ranging from informationally complete POVMs to randomized measurements, and their implications for sample complexity. On the algorithmic side, we review optimization methods for reconstructing structured quantum states from empirical measurements. By connecting QST with broader principles from compressive sensing, matrix sensing, and structured inverse problems, this survey highlights common theoretical foundations underlying sample complexity, measurement efficiency, and scalable recovery.",
-      "pubdate": "Tue, 26 May 2026 15:44:42 +0000",
-      "authors": "Zhen Qin, Michael B. Wakin, Zhihui Zhu"
-    },
-    "a998e2dd91bd9105b30974c7d01e44d4": {
-      "id": "a998e2dd91bd9105b30974c7d01e44d4",
-      "link": "http://arxiv.org/abs/2605.27166",
-      "title": "Quantum criticality and factorization in a constrained Rydberg spin chain",
-      "abstract": "We investigate the zero-temperature phase diagram of a one-dimensional constrained quantum spin chain realized in coherently driven Rydberg-atom arrays with competing local Rabi driving and dipole-dipole exchange interactions. Projecting onto the blockade-constrained Hilbert space yields an effective model in which local and nonlocal quantum fluctuations compete on equal footing. Combining exact diagonalization, the density-matrix renormalization group, and variational uniform matrix-product-state calculations, we establish a complete phase diagram comprising a Luttinger liquid, an antiferromagnetic ordered phase, and a polarized paramagnet. We identify two distinct mechanisms for the destruction of antiferromagnetic order: a conventional Ising transition at strong driving and a continuous quantum melting into the Luttinger liquid at weak driving, characterized using entanglement-based diagnostics and finite-entanglement scaling. In addition, we uncover an exact ground-state factorization line embedded within the ordered phase, providing an analytically tractable zero-entanglement reference point for experiments with programmable Rydberg quantum simulators.",
-      "pubdate": "Tue, 26 May 2026 15:23:25 +0000",
-      "authors": "Yuan Jiang, Wen-Long You, Liangsheng Li, Maoxin Liu"
-    },
-    "f073ab24c0e00423302e012a9d1a47be": {
-      "id": "f073ab24c0e00423302e012a9d1a47be",
-      "link": "http://arxiv.org/abs/2605.26219",
-      "title": "Entanglement Pattern Transition of Quantum States from Directed Percolation",
-      "abstract": "Changes in the entanglement structure and critical phenomena are hallmarks of quantum phase transitions. Here, we discuss how they appear in transitions between classes of states with distinct entanglement patterns beyond the paradigm of stable equilibrium phases of matter. Using a mapping between stochastic automata and isometric Tensor Network States (isoTNS), we construct a two-dimensional quantum state from the Domany-Kinzel automaton, which is a (1+1)D process with an absorbing phase transition in the directed percolation class. At the critical point of the automaton, the corresponding isoTNS hosts algebraic correlations in all spatial directions. The continuous parent Hamiltonian of this state has a degenerate ground state manifold. It consists of a product state (the absorbing state) and a second state that undergoes a transition from pairwise entanglement between distant regions, similarly to the W state, to a state with trivial entanglement. Our results demonstrate how the correspondence between isoTNS and classical stochastic evolution can be used to probe the Hilbert space structure beyond stable ground state manifolds.",
-      "pubdate": "Mon, 25 May 2026 18:00:04 +0000",
-      "authors": "Julian Boesl, Frank Pollmann, Michael Knap"
-    },
-    "422e595c4b13aa4a61b541b83bd11f33": {
-      "id": "422e595c4b13aa4a61b541b83bd11f33",
-      "link": "http://arxiv.org/abs/2605.26208",
-      "title": "Mapping twist fields to local operators via tensor networks",
-      "abstract": "Twist fields are a powerful formal tool to compute Rényi entropies in quantum many-body systems, but their conventional formulation in tensor network states involves operations acting on virtual degrees of freedom, which are not directly accessible in experiments. In this work, we construct explicit local operators acting on the physical Hilbert space whose expectation values reproduce the action of twist fields in matrix product states. Our construction is exact in the injectivity limit and when the tensor is chosen at the center of orthogonality, and provides a direct operational method to evaluate Rényi entropies without accessing auxiliary tensor indices. We test our formulation numerically in the transverse-field Ising model, demonstrating rapid convergence to the exact entanglement entropy as the injectivity scale is reached. Furthermore, we show that twist operators determined from relatively small reference systems can be reliably transferred to larger systems, once the reference size exceeds a characteristic scale set by the correlation length. Since the resulting operators admit a decomposition in terms of a finite number of local observables, our results provide a scalable and experimentally accessible framework to probe entanglement in quantum simulators.",
-      "pubdate": "Mon, 25 May 2026 18:00:01 +0000",
-      "authors": "Andrea Bulgarelli, Marco Panero, Paolo Stornati, Luca Tagliacozzo"
-    },
-    "333e93c4ba9cb63c6e21365c72c1c94c": {
-      "id": "333e93c4ba9cb63c6e21365c72c1c94c",
-      "link": "http://arxiv.org/abs/2605.26205",
-      "title": "Exact strong zero modes are generic in integrable spin systems with large anisotropy",
-      "abstract": "Strong zero modes (SZMs) are edge-localized operators that commute with the Hamiltonian up to corrections exponentially small in system size, yielding anomalously long edge coherence times. In some settings, notably certain integrable models, this commutator can be made to vanish exactly at finite size, defining an exact SZM (ESZM). Existing ESZM constructions in the integrable setting, however, have proceeded model by model and have not been unified into a common framework. Here, I show that ESZMs arise generically in a broad family of integrable spin models with anisotropic interactions. Their existence follows from two algebraic properties of the underlying R- and K-matrices -- quasi-periodicity in the spectral parameter and tracelessness, respectively -- providing a uniform, model-independent mechanism. The framework recovers the known ESZM in XXZ chain and its higher-spin generalizations as special cases and predicts ESZMs in previously unrecognized models.",
-      "pubdate": "Mon, 25 May 2026 18:00:00 +0000",
-      "authors": "Sascha Gehrmann"
     }
   }
 }
