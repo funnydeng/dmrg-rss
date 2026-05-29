@@ -8,51 +8,30 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 28 May 2026 13:30:31 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 01:06:40 +0000</lastBuildDate>
     <item>
       <link>http://arxiv.org/abs/2605.27425</link>
       <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2605.27425'&gt;arXiv:2605.27425&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
       <guid isPermaLink="false">http://arxiv.org/abs/2605.27425</guid>
-      <pubDate>Thu, 28 May 2026 13:30:31 +0000</pubDate>
+      <pubDate>Fri, 29 May 2026 01:06:41 +0000</pubDate>
     <dc:creator>Unknown</dc:creator></item>
     <item>
       <link>http://arxiv.org/abs/2605.27515</link>
       <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2605.27515'&gt;arXiv:2605.27515&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
       <guid isPermaLink="false">http://arxiv.org/abs/2605.27515</guid>
-      <pubDate>Thu, 28 May 2026 13:30:31 +0000</pubDate>
+      <pubDate>Fri, 29 May 2026 01:06:41 +0000</pubDate>
     <dc:creator>Unknown</dc:creator></item>
     <item>
       <link>http://arxiv.org/abs/2605.27530</link>
       <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2605.27530'&gt;arXiv:2605.27530&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
       <guid isPermaLink="false">http://arxiv.org/abs/2605.27530</guid>
-      <pubDate>Thu, 28 May 2026 13:30:31 +0000</pubDate>
+      <pubDate>Fri, 29 May 2026 01:06:41 +0000</pubDate>
     <dc:creator>Unknown</dc:creator></item>
     <item>
       <link>http://arxiv.org/abs/2605.28040</link>
       <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2605.28040'&gt;arXiv:2605.28040&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
       <guid isPermaLink="false">http://arxiv.org/abs/2605.28040</guid>
-      <pubDate>Thu, 28 May 2026 13:30:31 +0000</pubDate>
-    <dc:creator>Unknown</dc:creator></item>
-    <item>
-      <title>Faster matrix product state preparation by exploiting symmetry-induced block-sparsity</title>
-      <link>http://arxiv.org/abs/2605.28489</link>
-      <description>&lt;b&gt;Author(s):&lt;/b&gt; Felix Rupprecht, Sabine Wölk&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; Matrix product states (MPS) serve as a key tool for studying quantum systems from chemistry and condensed-matter physics, making their preparation on quantum computers an important task in interfacing classical and quantum simulation. Many systems of interest have $U(1)$-symmetries induced by particle number and spin projection conservation, allowing to restrict the MPS tensors to be of block-sparse form, a property widely used in the implementation of classical algorithms such as the density matrix renormalization group. We reduce the cost of fault-tolerantly preparing block-sparse MPS within the standard ancilla-assisted linear-depth approach by implementing row and column permutations that transform the block-sparse matrices into block-diagonal form. These block-diagonal unitaries are then implemented via unitary synthesis, with the cost being determined by the size of the largest block. In this context, we modify the unitary synthesis approach of Berry et al. in order to reduce the Toffoli cost for real-valued unitaries by a factor of $\sqrt{2}$. In numerical benchmarks, we achieve Toffoli cost improvement factors of $10 - 30$ compared to the state-of-the-art for MPS of various molecular systems.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2605.28489'&gt;arXiv:2605.28489&lt;/a&gt;] Published Wed, 27 May 2026 13:45:23 UTC&lt;/b&gt;</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2605.28489</guid>
-      <pubDate>Wed, 27 May 2026 13:45:23 +0000</pubDate>
-    <dc:creator>Unknown</dc:creator></item>
-    <item>
-      <title>String nets for twisted pivotal categories</title>
-      <link>http://arxiv.org/abs/2605.28650</link>
-      <description>&lt;b&gt;Author(s):&lt;/b&gt; Benjamin Haïoun, William Stewart, Filippos Sytilidis&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We develop a graphical calculus for monoidal categories equipped with twisted pivotal structures, which are a generalization of pivotal structures originating from the study of orientation structures in the context of the Cobordism Hypothesis. This graphical calculus depends on a possibly singular foliation, and we use it to construct twisted string net modules for surfaces equipped with a Morse function or a Morse foliation. We prove that, despite the apparent dependence on this Morse function, the twisted string net modules assemble in an oriented categorified 2-TQFT. We study when the twisted string net module of the 2-sphere vanishes, relate it to the distinguished invertible object for finite tensor categories and exhibit examples of non-unimodular finite tensor categories with non-vanishing twisted string net module on the 2-sphere. This vanishing is expected to be the main obstruction for extending our categorified 2-TQFT to a non-compact 3-TQFT.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2605.28650'&gt;arXiv:2605.28650&lt;/a&gt;] Published Wed, 27 May 2026 15:53:18 UTC&lt;/b&gt;</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2605.28650</guid>
-      <pubDate>Wed, 27 May 2026 15:53:18 +0000</pubDate>
-    <dc:creator>Unknown</dc:creator></item>
-    <item>
-      <title>Non-invertible symmetry enriched string net topological orders</title>
-      <link>http://arxiv.org/abs/2605.28794</link>
-      <description>&lt;b&gt;Author(s):&lt;/b&gt; Luisa Eck, Peter Huston, Kyle Kawagoe, David Penneys&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We propose a definition of a non-invertible symmetry enriched topological order (NI-SETO), and we implement our definition for string net models. We do so in two ways, using full inclusions of unitary fusion categories (UFCs), as well as anyon condensation. In both cases, the NI-SETO is a relative center of UFCs. All NI-SETOs can be realized in either model, where we can use enriched UFCs to get chiral examples on the boundary of a 3D Walker-Wang model representing the anomaly. We describe several examples of NI-SETOs and compute the qualitative symmetry action on anyons and symmetry defects using tube algebra techniques.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2605.28794'&gt;arXiv:2605.28794&lt;/a&gt;] Published Wed, 27 May 2026 17:51:06 UTC&lt;/b&gt;</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2605.28794</guid>
-      <pubDate>Wed, 27 May 2026 17:51:06 +0000</pubDate>
+      <pubDate>Fri, 29 May 2026 01:06:41 +0000</pubDate>
     <dc:creator>Unknown</dc:creator></item>
     <item>
       <title>Full grid solution for multi-asset options pricing with tensor networks</title>
@@ -4302,6 +4281,27 @@
       <description>&lt;b&gt;Author(s):&lt;/b&gt; K. G. S. H. Gunawardana, Ali G. Moghaddam, Teemu Ojanen&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We study spin and entanglement dynamics in spin-1/2 XXZ chains under periodic monitoring and show that this system exhibits two measurement-induced phase transitions: a steady-state entanglement phase transition similar to those in monitored quantum circuits and a ballistic-to-diffusive transition in transient dynamics. Specifically, we discover that at low monitoring rate, an initial configuration containing a domain wall $|\uparrow\uparrow\uparrow\ldots \downarrow\downarrow\downarrow\ldots\rangle$ spreads ballistically while, at large monitoring rates, the domain melting is diffusive. Extensive numerical simulations, supported by theoretical arguments, indicate that the ballistic-diffusive transition is intimately interlinked with the entanglement phase transition. In contrast to the entanglement phase transitions, which require exponentially complex postselection, the ballistic-diffusive transition can be observed without postselection and constitutes an experimentally accessible manifestation of the many-body Zeno effect.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2605.27350'&gt;arXiv:2605.27350&lt;/a&gt;] Published Tue, 26 May 2026 17:51:57 UTC&lt;/b&gt;</description>
       <guid isPermaLink="false">http://arxiv.org/abs/2605.27350</guid>
       <pubDate>Tue, 26 May 2026 17:51:57 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <title>Faster matrix product state preparation by exploiting symmetry-induced block-sparsity</title>
+      <link>http://arxiv.org/abs/2605.28489</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Felix Rupprecht, Sabine Wölk&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; Matrix product states (MPS) serve as a key tool for studying quantum systems from chemistry and condensed-matter physics, making their preparation on quantum computers an important task in interfacing classical and quantum simulation. Many systems of interest have $U(1)$-symmetries induced by particle number and spin projection conservation, allowing to restrict the MPS tensors to be of block-sparse form, a property widely used in the implementation of classical algorithms such as the density matrix renormalization group. We reduce the cost of fault-tolerantly preparing block-sparse MPS within the standard ancilla-assisted linear-depth approach by implementing row and column permutations that transform the block-sparse matrices into block-diagonal form. These block-diagonal unitaries are then implemented via unitary synthesis, with the cost being determined by the size of the largest block. In this context, we modify the unitary synthesis approach of Berry et al. in order to reduce the Toffoli cost for real-valued unitaries by a factor of $\sqrt{2}$. In numerical benchmarks, we achieve Toffoli cost improvement factors of $10 - 30$ compared to the state-of-the-art for MPS of various molecular systems.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2605.28489'&gt;arXiv:2605.28489&lt;/a&gt;] Published Wed, 27 May 2026 13:45:23 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2605.28489</guid>
+      <pubDate>Wed, 27 May 2026 13:45:23 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <title>String nets for twisted pivotal categories</title>
+      <link>http://arxiv.org/abs/2605.28650</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Benjamin Haïoun, William Stewart, Filippos Sytilidis&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We develop a graphical calculus for monoidal categories equipped with twisted pivotal structures, which are a generalization of pivotal structures originating from the study of orientation structures in the context of the Cobordism Hypothesis. This graphical calculus depends on a possibly singular foliation, and we use it to construct twisted string net modules for surfaces equipped with a Morse function or a Morse foliation. We prove that, despite the apparent dependence on this Morse function, the twisted string net modules assemble in an oriented categorified 2-TQFT. We study when the twisted string net module of the 2-sphere vanishes, relate it to the distinguished invertible object for finite tensor categories and exhibit examples of non-unimodular finite tensor categories with non-vanishing twisted string net module on the 2-sphere. This vanishing is expected to be the main obstruction for extending our categorified 2-TQFT to a non-compact 3-TQFT.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2605.28650'&gt;arXiv:2605.28650&lt;/a&gt;] Published Wed, 27 May 2026 15:53:18 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2605.28650</guid>
+      <pubDate>Wed, 27 May 2026 15:53:18 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <title>Non-invertible symmetry enriched string net topological orders</title>
+      <link>http://arxiv.org/abs/2605.28794</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Luisa Eck, Peter Huston, Kyle Kawagoe, David Penneys&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We propose a definition of a non-invertible symmetry enriched topological order (NI-SETO), and we implement our definition for string net models. We do so in two ways, using full inclusions of unitary fusion categories (UFCs), as well as anyon condensation. In both cases, the NI-SETO is a relative center of UFCs. All NI-SETOs can be realized in either model, where we can use enriched UFCs to get chiral examples on the boundary of a 3D Walker-Wang model representing the anomaly. We describe several examples of NI-SETOs and compute the qualitative symmetry action on anyons and symmetry defects using tube algebra techniques.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2605.28794'&gt;arXiv:2605.28794&lt;/a&gt;] Published Wed, 27 May 2026 17:51:06 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2605.28794</guid>
+      <pubDate>Wed, 27 May 2026 17:51:06 +0000</pubDate>
     <dc:creator>Unknown</dc:creator></item>
   </channel>
 </rss>

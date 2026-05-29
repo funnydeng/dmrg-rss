@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-05-28T13:30:31.116849+00:00",
+  "last_updated": "2026-05-29T01:06:40.275411+00:00",
   "entries": {
+    "4dee48fa7839171f0caeaa930047fb86": {
+      "id": "4dee48fa7839171f0caeaa930047fb86",
+      "link": "http://arxiv.org/abs/2605.28794",
+      "title": "Non-invertible symmetry enriched string net topological orders",
+      "abstract": "We propose a definition of a non-invertible symmetry enriched topological order (NI-SETO), and we implement our definition for string net models. We do so in two ways, using full inclusions of unitary fusion categories (UFCs), as well as anyon condensation. In both cases, the NI-SETO is a relative center of UFCs. All NI-SETOs can be realized in either model, where we can use enriched UFCs to get chiral examples on the boundary of a 3D Walker-Wang model representing the anomaly. We describe several examples of NI-SETOs and compute the qualitative symmetry action on anyons and symmetry defects using tube algebra techniques.",
+      "pubdate": "Wed, 27 May 2026 17:51:06 +0000",
+      "authors": "Luisa Eck, Peter Huston, Kyle Kawagoe, David Penneys"
+    },
+    "e05cbc71a1348f5236f8ea984d5b775c": {
+      "id": "e05cbc71a1348f5236f8ea984d5b775c",
+      "link": "http://arxiv.org/abs/2605.28650",
+      "title": "String nets for twisted pivotal categories",
+      "abstract": "We develop a graphical calculus for monoidal categories equipped with twisted pivotal structures, which are a generalization of pivotal structures originating from the study of orientation structures in the context of the Cobordism Hypothesis. This graphical calculus depends on a possibly singular foliation, and we use it to construct twisted string net modules for surfaces equipped with a Morse function or a Morse foliation. We prove that, despite the apparent dependence on this Morse function, the twisted string net modules assemble in an oriented categorified 2-TQFT. We study when the twisted string net module of the 2-sphere vanishes, relate it to the distinguished invertible object for finite tensor categories and exhibit examples of non-unimodular finite tensor categories with non-vanishing twisted string net module on the 2-sphere. This vanishing is expected to be the main obstruction for extending our categorified 2-TQFT to a non-compact 3-TQFT.",
+      "pubdate": "Wed, 27 May 2026 15:53:18 +0000",
+      "authors": "Benjamin Haïoun, William Stewart, Filippos Sytilidis"
+    },
+    "d4cb11ddc646ce89a7a109cca55ef538": {
+      "id": "d4cb11ddc646ce89a7a109cca55ef538",
+      "link": "http://arxiv.org/abs/2605.28489",
+      "title": "Faster matrix product state preparation by exploiting symmetry-induced block-sparsity",
+      "abstract": "Matrix product states (MPS) serve as a key tool for studying quantum systems from chemistry and condensed-matter physics, making their preparation on quantum computers an important task in interfacing classical and quantum simulation. Many systems of interest have $U(1)$-symmetries induced by particle number and spin projection conservation, allowing to restrict the MPS tensors to be of block-sparse form, a property widely used in the implementation of classical algorithms such as the density matrix renormalization group. We reduce the cost of fault-tolerantly preparing block-sparse MPS within the standard ancilla-assisted linear-depth approach by implementing row and column permutations that transform the block-sparse matrices into block-diagonal form. These block-diagonal unitaries are then implemented via unitary synthesis, with the cost being determined by the size of the largest block. In this context, we modify the unitary synthesis approach of Berry et al. in order to reduce the Toffoli cost for real-valued unitaries by a factor of $\\sqrt{2}$. In numerical benchmarks, we achieve Toffoli cost improvement factors of $10 - 30$ compared to the state-of-the-art for MPS of various molecular systems.",
+      "pubdate": "Wed, 27 May 2026 13:45:23 +0000",
+      "authors": "Felix Rupprecht, Sabine Wölk"
+    },
     "bf5eeba5ec6d814d78726f3895d5198b": {
       "id": "bf5eeba5ec6d814d78726f3895d5198b",
       "link": "http://arxiv.org/abs/2605.27350",
@@ -4856,30 +4880,6 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
-    },
-    "4dee48fa7839171f0caeaa930047fb86": {
-      "id": "4dee48fa7839171f0caeaa930047fb86",
-      "link": "http://arxiv.org/abs/2605.28794",
-      "title": "Non-invertible symmetry enriched string net topological orders",
-      "abstract": "We propose a definition of a non-invertible symmetry enriched topological order (NI-SETO), and we implement our definition for string net models. We do so in two ways, using full inclusions of unitary fusion categories (UFCs), as well as anyon condensation. In both cases, the NI-SETO is a relative center of UFCs. All NI-SETOs can be realized in either model, where we can use enriched UFCs to get chiral examples on the boundary of a 3D Walker-Wang model representing the anomaly. We describe several examples of NI-SETOs and compute the qualitative symmetry action on anyons and symmetry defects using tube algebra techniques.",
-      "pubdate": "Wed, 27 May 2026 17:51:06 +0000",
-      "authors": "Luisa Eck, Peter Huston, Kyle Kawagoe, David Penneys"
-    },
-    "e05cbc71a1348f5236f8ea984d5b775c": {
-      "id": "e05cbc71a1348f5236f8ea984d5b775c",
-      "link": "http://arxiv.org/abs/2605.28650",
-      "title": "String nets for twisted pivotal categories",
-      "abstract": "We develop a graphical calculus for monoidal categories equipped with twisted pivotal structures, which are a generalization of pivotal structures originating from the study of orientation structures in the context of the Cobordism Hypothesis. This graphical calculus depends on a possibly singular foliation, and we use it to construct twisted string net modules for surfaces equipped with a Morse function or a Morse foliation. We prove that, despite the apparent dependence on this Morse function, the twisted string net modules assemble in an oriented categorified 2-TQFT. We study when the twisted string net module of the 2-sphere vanishes, relate it to the distinguished invertible object for finite tensor categories and exhibit examples of non-unimodular finite tensor categories with non-vanishing twisted string net module on the 2-sphere. This vanishing is expected to be the main obstruction for extending our categorified 2-TQFT to a non-compact 3-TQFT.",
-      "pubdate": "Wed, 27 May 2026 15:53:18 +0000",
-      "authors": "Benjamin Haïoun, William Stewart, Filippos Sytilidis"
-    },
-    "d4cb11ddc646ce89a7a109cca55ef538": {
-      "id": "d4cb11ddc646ce89a7a109cca55ef538",
-      "link": "http://arxiv.org/abs/2605.28489",
-      "title": "Faster matrix product state preparation by exploiting symmetry-induced block-sparsity",
-      "abstract": "Matrix product states (MPS) serve as a key tool for studying quantum systems from chemistry and condensed-matter physics, making their preparation on quantum computers an important task in interfacing classical and quantum simulation. Many systems of interest have $U(1)$-symmetries induced by particle number and spin projection conservation, allowing to restrict the MPS tensors to be of block-sparse form, a property widely used in the implementation of classical algorithms such as the density matrix renormalization group. We reduce the cost of fault-tolerantly preparing block-sparse MPS within the standard ancilla-assisted linear-depth approach by implementing row and column permutations that transform the block-sparse matrices into block-diagonal form. These block-diagonal unitaries are then implemented via unitary synthesis, with the cost being determined by the size of the largest block. In this context, we modify the unitary synthesis approach of Berry et al. in order to reduce the Toffoli cost for real-valued unitaries by a factor of $\\sqrt{2}$. In numerical benchmarks, we achieve Toffoli cost improvement factors of $10 - 30$ compared to the state-of-the-art for MPS of various molecular systems.",
-      "pubdate": "Wed, 27 May 2026 13:45:23 +0000",
-      "authors": "Felix Rupprecht, Sabine Wölk"
     },
     "aa997a50841aa1960173b3f4786c8acd": {
       "id": "aa997a50841aa1960173b3f4786c8acd",
