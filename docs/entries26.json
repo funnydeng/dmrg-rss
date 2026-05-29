@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-29T01:06:40.275411+00:00",
+  "last_updated": "2026-05-29T13:25:11.430038+00:00",
   "entries": {
     "4dee48fa7839171f0caeaa930047fb86": {
       "id": "4dee48fa7839171f0caeaa930047fb86",
@@ -4880,6 +4880,70 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "1691b0314f6d27522acfc61bc1fd2967": {
+      "id": "1691b0314f6d27522acfc61bc1fd2967",
+      "link": "http://arxiv.org/abs/2605.30240",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "4912501f75c4cfd09ecb3fea2e78beef": {
+      "id": "4912501f75c4cfd09ecb3fea2e78beef",
+      "link": "http://arxiv.org/abs/2605.30141",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "1023818fb4f1ff5463a53860b2e3e221": {
+      "id": "1023818fb4f1ff5463a53860b2e3e221",
+      "link": "http://arxiv.org/abs/2605.29944",
+      "title": "Quadratic Sums-of-Powers for Fixed-Parameter Tractable Quantum-Circuit Simulation",
+      "abstract": "Strongly simulating a quantum circuit, that is, computing an output amplitude, amounts to summing the circuit's Feynman paths, a weighted count over assignments to the Boolean ``path'' variables. The circuit's gates induce correlations among these variables, forming a graph whose structure determines the hardness of the simulation task. This sum-of-powers viewpoint underlies recent simulators built on knowledge-representation tools from artificial intelligence, namely binary decision diagrams and weighted model counting. We show that the structural quantity most accurately governing the difficulty is the rank-width of the path-variable graph, and we give an algorithm that evaluates the amplitude in time that is exponential only in this rank-width and polynomial in the circuit size. Rank-width can be far smaller than the widths that control competing methods: as corollaries, our algorithm reproduces a recent decision-diagram simulation breakthrough as a special case and matches the Markov--Shi tensor-network contraction bound. To complement this, we exhibit circuit families on which our algorithm provably beats both competing methods. The new method applies to every circuit built from Hadamard and diagonal gates, in particular to circuits over Clifford+T. In practical terms, general-purpose decision-diagram and model-counting tools can serve as the workhorse, with our specialized algorithm dispatched to exploit a small rank-width of the associated graph when it is present.",
+      "pubdate": "Thu, 28 May 2026 13:54:42 +0000",
+      "authors": "Alexis de Colnet, Floris Geerts, Rihan Hai, Alfons Laarman, Joon Hyung Lee, Guillermo A. Pérez"
+    },
+    "3c8940d76776689d433124acf23db9a0": {
+      "id": "3c8940d76776689d433124acf23db9a0",
+      "link": "http://arxiv.org/abs/2605.29521",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "348ca58526aa410a02bed4b47a975a1e": {
+      "id": "348ca58526aa410a02bed4b47a975a1e",
+      "link": "http://arxiv.org/abs/2605.29514",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "9f61bb84cb90cf4f3d399ad22df0cb99": {
+      "id": "9f61bb84cb90cf4f3d399ad22df0cb99",
+      "link": "http://arxiv.org/abs/2605.28986",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "09afec59d7734af3327f81413dc7e5b5": {
+      "id": "09afec59d7734af3327f81413dc7e5b5",
+      "link": "http://arxiv.org/abs/2605.28946",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "77748559534c79280f84dff895c4ed2e": {
+      "id": "77748559534c79280f84dff895c4ed2e",
+      "link": "http://arxiv.org/abs/2605.28861",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
     },
     "aa997a50841aa1960173b3f4786c8acd": {
       "id": "aa997a50841aa1960173b3f4786c8acd",
