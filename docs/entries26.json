@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-30T12:33:38.309300+00:00",
+  "last_updated": "2026-05-31T01:06:07.464535+00:00",
   "entries": {
     "1691b0314f6d27522acfc61bc1fd2967": {
       "id": "1691b0314f6d27522acfc61bc1fd2967",
@@ -33,6 +33,38 @@
       "pubdate": "Thu, 28 May 2026 07:38:59 +0000",
       "authors": "Calvin Brooks, Henry Zou, Trevor David Rhone"
     },
+    "348ca58526aa410a02bed4b47a975a1e": {
+      "id": "348ca58526aa410a02bed4b47a975a1e",
+      "link": "http://arxiv.org/abs/2605.29514",
+      "title": "Non-Clifford Crosstalk Noise in Surface Codes Using Hybrid Stabilizer-Tensor Network Methods",
+      "abstract": "Scalable realisation of quantum computing is reliant on the development of fault tolerant devices. Analysis of quantum error correction protocols typically considers incoherent noise models or noise-free syndrome measurements. While this is simple to simulate classically and straightforward to compute analytically, these simplifications are unable to capture the full dynamics of a noisy quantum system. In this work we use advanced hybrid stabilizer-tensor network simulation techniques to simulate coherent quantum crosstalk noise during syndrome extraction on a surface code. We show that the inclusion of coherence increases logical error rates and lowers the code threshold. In addition, we show that the specific distribution of the noise can quantitatively change logical error rates. The methods in this work allow simulation of quantum error correction with noise models previously inaccessible to classical simulation, providing new insights on the effect of crosstalk noise on quantum error correction codes.",
+      "pubdate": "Thu, 28 May 2026 07:35:40 +0000",
+      "authors": "Ben Harper, Azar C. Nakhl, Martin Sevior, Muhammad Usman"
+    },
+    "9f61bb84cb90cf4f3d399ad22df0cb99": {
+      "id": "9f61bb84cb90cf4f3d399ad22df0cb99",
+      "link": "http://arxiv.org/abs/2605.28986",
+      "title": "Comparing Classical Simulation and Sample-Based Learning of Quantum Systems: Learning the Hardness of Quantum Systems from Samples",
+      "abstract": "We investigate the relationship between two distinct classical approaches to quantum systems: direct simulation from a classical description and sample-based learning from measurement data. While both tasks ultimately aim to reproduce Born-rule statistics, complexity-theoretic results suggest that simulability and learnability need not coincide in general. Here we study this relationship empirically using a fixed deep energy-based generative model trained on measurement samples from controlled families of quantum states. We independently tune two quantum resources associated with classical simulation cost: entanglement, through the bond dimension of random matrix product states, and non-stabilizerness, through the number of T gates in Clifford-dominated circuits. Learning difficulty is characterized using two probes of neural-network complexity: the largest Hessian eigenvalue at convergence and Random Subspace Optimization. For both quantum resources, increasing simulation hardness systematically correlates with sharper loss landscapes and degraded reconstruction performance under constrained capacity. Our results indicate that, within the regimes studied here, classical learnability tracks known simulation complexity measures, suggesting that neural-network training dynamics can provide an empirical probe of quantum computational hardness.",
+      "pubdate": "Wed, 27 May 2026 18:44:36 +0000",
+      "authors": "João Pedro Del Rey, Raúl O. Vallejos, Fernando de Melo"
+    },
+    "09afec59d7734af3327f81413dc7e5b5": {
+      "id": "09afec59d7734af3327f81413dc7e5b5",
+      "link": "http://arxiv.org/abs/2605.28946",
+      "title": "Constrained integrability and anyonic chains",
+      "abstract": "We review the notion of Yang-Baxter integrability for spin chains that have Hilbert spaces with constraints, such as a Rydberg blockade. We focus on anyonic chains, whose constraints arise from the fusion rules of the fusion categories on which they are based. We discuss the emergence of Temperley-Lieb algebras and present a new result on which types of anyonic chains exhibit them. We then give an overview of known results for integrable anyonic chains and extend them to several fusion categories up to rank $7$. Using a modification of the boost operator formalism, we find several new integrable anyonic chains and discuss some of their properties. These include spin-$\\frac32$ models for $\\mathfrak{su}(2)_k$ fusion categories, anyonic chains based on the Tambara-Yamagami fusion categories TY$(\\mathbb{Z}_n)$, and product fusion categories Fib$\\times$Fib and Fib$\\times$Ising. We review recent results for spin chains based on the Haagerup-Izumi fusion category HI$(\\mathbb{Z}_3)$, and present preliminary numerics for a HI$(\\mathbb{Z}_5)$ model.",
+      "pubdate": "Wed, 27 May 2026 18:00:05 +0000",
+      "authors": "Matthew Blakeney, Luke Corcoran, Marius de Leeuw"
+    },
+    "77748559534c79280f84dff895c4ed2e": {
+      "id": "77748559534c79280f84dff895c4ed2e",
+      "link": "http://arxiv.org/abs/2605.28861",
+      "title": "Comment on \"Spin-1/2 Kagome Heisenberg Antiferromagnet: Machine Learning Discovery of the Spinon Pair-Density-Wave Ground State\"",
+      "abstract": "A recent article [Phys. Rev. X 15, 011047 (2025)] utilizes group-equivariant convolutional neural networks to study the ground state of the kagome Heisenberg antiferromagnet. On the largest finite-size cluster studied to date ($N=108$), the authors report variational energies significantly lower than other numerical methods, including state-of-the-art density matrix renormalization group (DMRG) calculations. In contrast to previous results suggesting a possible spin-liquid ground state, the authors observe a spinon pair-density-wave ground state. We find that: (i) the reported low energies are artifacts of broken ergodicity in the Metropolis--Hastings sampling, since the single-spin-flip update rule utilized by the authors effectively freezes the Markov chains; and (ii) when ergodic sampling is enforced via spin-exchange updates, the neural network converges to energies significantly higher than existing DMRG results, calling the paper's claims into question.",
+      "pubdate": "Thu, 21 May 2026 19:06:19 +0000",
+      "authors": "Helia Kamal, Dominik Kufel, DinhDuy Vu, Chris R. Laumann, Norman Y. Yao"
+    },
     "4dee48fa7839171f0caeaa930047fb86": {
       "id": "4dee48fa7839171f0caeaa930047fb86",
       "link": "http://arxiv.org/abs/2605.28794",
@@ -56,6 +88,38 @@
       "abstract": "Matrix product states (MPS) serve as a key tool for studying quantum systems from chemistry and condensed-matter physics, making their preparation on quantum computers an important task in interfacing classical and quantum simulation. Many systems of interest have $U(1)$-symmetries induced by particle number and spin projection conservation, allowing to restrict the MPS tensors to be of block-sparse form, a property widely used in the implementation of classical algorithms such as the density matrix renormalization group. We reduce the cost of fault-tolerantly preparing block-sparse MPS within the standard ancilla-assisted linear-depth approach by implementing row and column permutations that transform the block-sparse matrices into block-diagonal form. These block-diagonal unitaries are then implemented via unitary synthesis, with the cost being determined by the size of the largest block. In this context, we modify the unitary synthesis approach of Berry et al. in order to reduce the Toffoli cost for real-valued unitaries by a factor of $\\sqrt{2}$. In numerical benchmarks, we achieve Toffoli cost improvement factors of $10 - 30$ compared to the state-of-the-art for MPS of various molecular systems.",
       "pubdate": "Wed, 27 May 2026 13:45:23 +0000",
       "authors": "Felix Rupprecht, Sabine Wölk"
+    },
+    "aa997a50841aa1960173b3f4786c8acd": {
+      "id": "aa997a50841aa1960173b3f4786c8acd",
+      "link": "http://arxiv.org/abs/2605.28040",
+      "title": "Filter-assisted quantum subspace diagonalization via wavefunction sparsity engineering",
+      "abstract": "Subspace diagonalization techniques based on quantum sampling, such as quantum selected configuration interaction (QSCI) and sample-based quantum diagonalization (SQD), have recently emerged as promising quantum-centric approaches for approximating ground-state energies of many-body systems. However, their performance is fundamentally limited by an intrinsic trade-off between sampling efficiency and the sparsity of the ground-state wavefunction, which becomes particularly severe in strongly correlated systems. Here, we introduce a filter-assisted SQD protocol that engineers wavefunction sparsity via a quantum filter, i.e., a unitary transformation of the Hamiltonian designed to concentrate the ground-state weight onto a small number of computational basis states. Using the Gini coefficient as a robust sparsity measure, we establish a quantitative relationship between wavefunction sparsity and the resource requirements of SQD, providing theoretical bounds on the required subspace dimension and sampling cost. To realize the quantum filter, we employ a tensor-network-based circuit-encoding algorithm that maps target states to quantum circuits with controllable fidelity. We benchmark our approach on the quantum Ising model with transverse and longitudinal fields using both numerical simulations and quantum hardware experiments. Our results demonstrate that, compared with standard SQD, the proposed protocol significantly enhances wavefunction sparsity, reduces ground-state energy estimation errors by orders of magnitude, and substantially lowers sampling overhead. These findings establish filter-assisted subspace diagonalization as a powerful and scalable framework for quantum many-body calculations in the strongly correlated regime.",
+      "pubdate": "Wed, 27 May 2026 06:42:58 +0000",
+      "authors": "Han Xu, Tomonori Shirakawa, Seiji Yunoki"
+    },
+    "504721bd46590e8d5956154f6f6ceb0f": {
+      "id": "504721bd46590e8d5956154f6f6ceb0f",
+      "link": "http://arxiv.org/abs/2605.27530",
+      "title": "Observing conformal Floquet dynamics on a digital quantum processor",
+      "abstract": "Quantum simulations are traditionally confined to exploring dynamics starting from unentangled or low-entanglement states due to severe bottlenecks in protocol design, hardware performance, and classical verification. Here, we report the first experimental observation of non-equilibrium dynamics initiated directly from a many-body critical state. Using a fully-connected trapped-ion processor, we prepare the critical ground state of a transverse-field Ising model via a hardware-tailored, logarithmic-depth quantum circuit based on multi-scale entanglement renormalization. Following this initialization, we apply a deep Floquet drive that maintains emergent conformal symmetry, enabling us to benchmark the lattice dynamics against analytical results from continuum theory. In the resulting conformal heating phase, we extract a central charge consistent with the Ising universality class ($c=1/2$) from the universal decay of the Loschmidt echo and observe spatial energy localization predicted by field theory. Conversely, the non-heating phase exhibits global finite-time revivals. This work establishes a scalable and versatile framework for exploring critical quantum dynamics.",
+      "pubdate": "Tue, 26 May 2026 18:05:16 +0000",
+      "authors": "Liang-Hong Mo, Bastien Lapierre, Qiang Miao"
+    },
+    "e5d26a63a540631bc67fa6e759aca78c": {
+      "id": "e5d26a63a540631bc67fa6e759aca78c",
+      "link": "http://arxiv.org/abs/2605.27515",
+      "title": "A multilevel tensor network compression technique for simulating Lindblad dynamics in superconducting circuits",
+      "abstract": "Designing superconducting quantum hardware requires simulation tools that can account for various deviations from ideal scenarios. This, in turn, requires approaches that automatically detect certain structures and leverage them to make the computation affordable. Here, we develop a tensor network based technique to simulate the Lindblad dynamics of a few interacting bosonic modes with a focus on superconducting quantum circuits. The technique detects and takes advantage of two very common situations: (i) the density matrix being pure or not far from pure and (ii) the entanglement between different modes being moderate (typically qubit-like). However, (iii) the occupation of the modes can be arbitrarily high (making naïve truncations inefficient). To leverage these features, we use three different nested levels of tensor network compression: (i) we work with a global purification of the density matrix, (ii) we compress the connection between different modes to account for the moderate entanglement and (iii) we use a quantics representation of the Fock occupation number. We showcase the technique for the simulation of large cat qubits as well as for the ionization of transmon qubits, demonstrating orders-of-magnitude speed-up with respect to brute force approaches. In the latter example, it brings the simulation, previously reported on a large supercomputing infrastructure, to laptop level. The favorable scaling with system size should bring genuine computer assisted design of these systems within scope.",
+      "pubdate": "Tue, 26 May 2026 18:00:04 +0000",
+      "authors": "Adrien Moulinas, Xavier Waintal"
+    },
+    "3928a0553bfea217fdf56cf9feac0915": {
+      "id": "3928a0553bfea217fdf56cf9feac0915",
+      "link": "http://arxiv.org/abs/2605.27425",
+      "title": "Quantum-Inspired Hamiltonian Optimization, Stochastic Tensor Networks and Adaptive Congestion Routing for Large-Scale QKD Networks",
+      "abstract": "Quantum Key Distribution (QKD) networks require routing methodologies capable of jointly optimizing latency, secret key generation rate, congestion, finite capacity and operational security constraints under dynamically evolving traffic conditions. In this work we introduce a quantum-inspired optimization framework for adaptive multi-demand routing in QKD communication networks based on effective Hamiltonian modelling, Quantum Monte Carlo inspired annealing and stochastic Tensor-Network State (TNS) compression. The communication network is represented as a stochastic interacting graph whose routing configurations evolve under an effective Hamiltonian containing latency, keyrate, congestion, risk and capacity terms. The resulting optimization landscape is explored through two complementary approaches: a stochastic Metropolis annealer based on incremental local Hamiltonian updates, and a stochastic boundary-MPS tensor-network approximation that compresses the low-energy routing sector through thermal branch selection. The resulting framework establishes a scalable bridge between QKD network orchestration, statistical-physics-inspired optimization, tensor-network compression and future quantum-native routing systems.",
+      "pubdate": "Tue, 19 May 2026 22:05:10 +0000",
+      "authors": "Jose Luis Rosales"
     },
     "bf5eeba5ec6d814d78726f3895d5198b": {
       "id": "bf5eeba5ec6d814d78726f3895d5198b",
@@ -4912,70 +4976,6 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
-    },
-    "348ca58526aa410a02bed4b47a975a1e": {
-      "id": "348ca58526aa410a02bed4b47a975a1e",
-      "link": "http://arxiv.org/abs/2605.29514",
-      "title": "Non-Clifford Crosstalk Noise in Surface Codes Using Hybrid Stabilizer-Tensor Network Methods",
-      "abstract": "Scalable realisation of quantum computing is reliant on the development of fault tolerant devices. Analysis of quantum error correction protocols typically considers incoherent noise models or noise-free syndrome measurements. While this is simple to simulate classically and straightforward to compute analytically, these simplifications are unable to capture the full dynamics of a noisy quantum system. In this work we use advanced hybrid stabilizer-tensor network simulation techniques to simulate coherent quantum crosstalk noise during syndrome extraction on a surface code. We show that the inclusion of coherence increases logical error rates and lowers the code threshold. In addition, we show that the specific distribution of the noise can quantitatively change logical error rates. The methods in this work allow simulation of quantum error correction with noise models previously inaccessible to classical simulation, providing new insights on the effect of crosstalk noise on quantum error correction codes.",
-      "pubdate": "Thu, 28 May 2026 07:35:40 +0000",
-      "authors": "Ben Harper, Azar C. Nakhl, Martin Sevior, Muhammad Usman"
-    },
-    "9f61bb84cb90cf4f3d399ad22df0cb99": {
-      "id": "9f61bb84cb90cf4f3d399ad22df0cb99",
-      "link": "http://arxiv.org/abs/2605.28986",
-      "title": "Comparing Classical Simulation and Sample-Based Learning of Quantum Systems: Learning the Hardness of Quantum Systems from Samples",
-      "abstract": "We investigate the relationship between two distinct classical approaches to quantum systems: direct simulation from a classical description and sample-based learning from measurement data. While both tasks ultimately aim to reproduce Born-rule statistics, complexity-theoretic results suggest that simulability and learnability need not coincide in general. Here we study this relationship empirically using a fixed deep energy-based generative model trained on measurement samples from controlled families of quantum states. We independently tune two quantum resources associated with classical simulation cost: entanglement, through the bond dimension of random matrix product states, and non-stabilizerness, through the number of T gates in Clifford-dominated circuits. Learning difficulty is characterized using two probes of neural-network complexity: the largest Hessian eigenvalue at convergence and Random Subspace Optimization. For both quantum resources, increasing simulation hardness systematically correlates with sharper loss landscapes and degraded reconstruction performance under constrained capacity. Our results indicate that, within the regimes studied here, classical learnability tracks known simulation complexity measures, suggesting that neural-network training dynamics can provide an empirical probe of quantum computational hardness.",
-      "pubdate": "Wed, 27 May 2026 18:44:36 +0000",
-      "authors": "João Pedro Del Rey, Raúl O. Vallejos, Fernando de Melo"
-    },
-    "09afec59d7734af3327f81413dc7e5b5": {
-      "id": "09afec59d7734af3327f81413dc7e5b5",
-      "link": "http://arxiv.org/abs/2605.28946",
-      "title": "Constrained integrability and anyonic chains",
-      "abstract": "We review the notion of Yang-Baxter integrability for spin chains that have Hilbert spaces with constraints, such as a Rydberg blockade. We focus on anyonic chains, whose constraints arise from the fusion rules of the fusion categories on which they are based. We discuss the emergence of Temperley-Lieb algebras and present a new result on which types of anyonic chains exhibit them. We then give an overview of known results for integrable anyonic chains and extend them to several fusion categories up to rank $7$. Using a modification of the boost operator formalism, we find several new integrable anyonic chains and discuss some of their properties. These include spin-$\\frac32$ models for $\\mathfrak{su}(2)_k$ fusion categories, anyonic chains based on the Tambara-Yamagami fusion categories TY$(\\mathbb{Z}_n)$, and product fusion categories Fib$\\times$Fib and Fib$\\times$Ising. We review recent results for spin chains based on the Haagerup-Izumi fusion category HI$(\\mathbb{Z}_3)$, and present preliminary numerics for a HI$(\\mathbb{Z}_5)$ model.",
-      "pubdate": "Wed, 27 May 2026 18:00:05 +0000",
-      "authors": "Matthew Blakeney, Luke Corcoran, Marius de Leeuw"
-    },
-    "77748559534c79280f84dff895c4ed2e": {
-      "id": "77748559534c79280f84dff895c4ed2e",
-      "link": "http://arxiv.org/abs/2605.28861",
-      "title": "Comment on \"Spin-1/2 Kagome Heisenberg Antiferromagnet: Machine Learning Discovery of the Spinon Pair-Density-Wave Ground State\"",
-      "abstract": "A recent article [Phys. Rev. X 15, 011047 (2025)] utilizes group-equivariant convolutional neural networks to study the ground state of the kagome Heisenberg antiferromagnet. On the largest finite-size cluster studied to date ($N=108$), the authors report variational energies significantly lower than other numerical methods, including state-of-the-art density matrix renormalization group (DMRG) calculations. In contrast to previous results suggesting a possible spin-liquid ground state, the authors observe a spinon pair-density-wave ground state. We find that: (i) the reported low energies are artifacts of broken ergodicity in the Metropolis--Hastings sampling, since the single-spin-flip update rule utilized by the authors effectively freezes the Markov chains; and (ii) when ergodic sampling is enforced via spin-exchange updates, the neural network converges to energies significantly higher than existing DMRG results, calling the paper's claims into question.",
-      "pubdate": "Thu, 21 May 2026 19:06:19 +0000",
-      "authors": "Helia Kamal, Dominik Kufel, DinhDuy Vu, Chris R. Laumann, Norman Y. Yao"
-    },
-    "aa997a50841aa1960173b3f4786c8acd": {
-      "id": "aa997a50841aa1960173b3f4786c8acd",
-      "link": "http://arxiv.org/abs/2605.28040",
-      "title": "Filter-assisted quantum subspace diagonalization via wavefunction sparsity engineering",
-      "abstract": "Subspace diagonalization techniques based on quantum sampling, such as quantum selected configuration interaction (QSCI) and sample-based quantum diagonalization (SQD), have recently emerged as promising quantum-centric approaches for approximating ground-state energies of many-body systems. However, their performance is fundamentally limited by an intrinsic trade-off between sampling efficiency and the sparsity of the ground-state wavefunction, which becomes particularly severe in strongly correlated systems. Here, we introduce a filter-assisted SQD protocol that engineers wavefunction sparsity via a quantum filter, i.e., a unitary transformation of the Hamiltonian designed to concentrate the ground-state weight onto a small number of computational basis states. Using the Gini coefficient as a robust sparsity measure, we establish a quantitative relationship between wavefunction sparsity and the resource requirements of SQD, providing theoretical bounds on the required subspace dimension and sampling cost. To realize the quantum filter, we employ a tensor-network-based circuit-encoding algorithm that maps target states to quantum circuits with controllable fidelity. We benchmark our approach on the quantum Ising model with transverse and longitudinal fields using both numerical simulations and quantum hardware experiments. Our results demonstrate that, compared with standard SQD, the proposed protocol significantly enhances wavefunction sparsity, reduces ground-state energy estimation errors by orders of magnitude, and substantially lowers sampling overhead. These findings establish filter-assisted subspace diagonalization as a powerful and scalable framework for quantum many-body calculations in the strongly correlated regime.",
-      "pubdate": "Wed, 27 May 2026 06:42:58 +0000",
-      "authors": "Han Xu, Tomonori Shirakawa, Seiji Yunoki"
-    },
-    "504721bd46590e8d5956154f6f6ceb0f": {
-      "id": "504721bd46590e8d5956154f6f6ceb0f",
-      "link": "http://arxiv.org/abs/2605.27530",
-      "title": "Observing conformal Floquet dynamics on a digital quantum processor",
-      "abstract": "Quantum simulations are traditionally confined to exploring dynamics starting from unentangled or low-entanglement states due to severe bottlenecks in protocol design, hardware performance, and classical verification. Here, we report the first experimental observation of non-equilibrium dynamics initiated directly from a many-body critical state. Using a fully-connected trapped-ion processor, we prepare the critical ground state of a transverse-field Ising model via a hardware-tailored, logarithmic-depth quantum circuit based on multi-scale entanglement renormalization. Following this initialization, we apply a deep Floquet drive that maintains emergent conformal symmetry, enabling us to benchmark the lattice dynamics against analytical results from continuum theory. In the resulting conformal heating phase, we extract a central charge consistent with the Ising universality class ($c=1/2$) from the universal decay of the Loschmidt echo and observe spatial energy localization predicted by field theory. Conversely, the non-heating phase exhibits global finite-time revivals. This work establishes a scalable and versatile framework for exploring critical quantum dynamics.",
-      "pubdate": "Tue, 26 May 2026 18:05:16 +0000",
-      "authors": "Liang-Hong Mo, Bastien Lapierre, Qiang Miao"
-    },
-    "e5d26a63a540631bc67fa6e759aca78c": {
-      "id": "e5d26a63a540631bc67fa6e759aca78c",
-      "link": "http://arxiv.org/abs/2605.27515",
-      "title": "A multilevel tensor network compression technique for simulating Lindblad dynamics in superconducting circuits",
-      "abstract": "Designing superconducting quantum hardware requires simulation tools that can account for various deviations from ideal scenarios. This, in turn, requires approaches that automatically detect certain structures and leverage them to make the computation affordable. Here, we develop a tensor network based technique to simulate the Lindblad dynamics of a few interacting bosonic modes with a focus on superconducting quantum circuits. The technique detects and takes advantage of two very common situations: (i) the density matrix being pure or not far from pure and (ii) the entanglement between different modes being moderate (typically qubit-like). However, (iii) the occupation of the modes can be arbitrarily high (making naïve truncations inefficient). To leverage these features, we use three different nested levels of tensor network compression: (i) we work with a global purification of the density matrix, (ii) we compress the connection between different modes to account for the moderate entanglement and (iii) we use a quantics representation of the Fock occupation number. We showcase the technique for the simulation of large cat qubits as well as for the ionization of transmon qubits, demonstrating orders-of-magnitude speed-up with respect to brute force approaches. In the latter example, it brings the simulation, previously reported on a large supercomputing infrastructure, to laptop level. The favorable scaling with system size should bring genuine computer assisted design of these systems within scope.",
-      "pubdate": "Tue, 26 May 2026 18:00:04 +0000",
-      "authors": "Adrien Moulinas, Xavier Waintal"
-    },
-    "3928a0553bfea217fdf56cf9feac0915": {
-      "id": "3928a0553bfea217fdf56cf9feac0915",
-      "link": "http://arxiv.org/abs/2605.27425",
-      "title": "Quantum-Inspired Hamiltonian Optimization, Stochastic Tensor Networks and Adaptive Congestion Routing for Large-Scale QKD Networks",
-      "abstract": "Quantum Key Distribution (QKD) networks require routing methodologies capable of jointly optimizing latency, secret key generation rate, congestion, finite capacity and operational security constraints under dynamically evolving traffic conditions. In this work we introduce a quantum-inspired optimization framework for adaptive multi-demand routing in QKD communication networks based on effective Hamiltonian modelling, Quantum Monte Carlo inspired annealing and stochastic Tensor-Network State (TNS) compression. The communication network is represented as a stochastic interacting graph whose routing configurations evolve under an effective Hamiltonian containing latency, keyrate, congestion, risk and capacity terms. The resulting optimization landscape is explored through two complementary approaches: a stochastic Metropolis annealer based on incremental local Hamiltonian updates, and a stochastic boundary-MPS tensor-network approximation that compresses the low-energy routing sector through thermal branch selection. The resulting framework establishes a scalable bridge between QKD network orchestration, statistical-physics-inspired optimization, tensor-network compression and future quantum-native routing systems.",
-      "pubdate": "Tue, 19 May 2026 22:05:10 +0000",
-      "authors": "Jose Luis Rosales"
     }
   }
 }
