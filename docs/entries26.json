@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-01T01:09:34.506407+00:00",
+  "last_updated": "2026-06-01T14:11:31.582786+00:00",
   "entries": {
     "1691b0314f6d27522acfc61bc1fd2967": {
       "id": "1691b0314f6d27522acfc61bc1fd2967",
@@ -4976,6 +4976,14 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "9e7f32425d80bdf24260685ae9ed66b6": {
+      "id": "9e7f32425d80bdf24260685ae9ed66b6",
+      "link": "http://arxiv.org/abs/2605.31485",
+      "title": "Graphical einops: bridging tensor networks and computation graphs",
+      "abstract": "Architecture diagrams are ubiquitous in deep learning, but they are usually only representational: the tensor-program identities they suggest are still proved by prose and tensor-axis manipulation. We introduce a formal graphical calculus for the structural fragment of tensor programming underlying einops, making such diagrams proof-enabling. Our calculus represents tensor axes as nested graded tubes around a base type. The tube boundary recovers the undirected tensor-network view of axes, while the directed interior retains the operational reading of computation graphs. The key rewrite is grade-naturality: sliding spectacles over tubes. Standard equivariance proofs become short diagrammatic derivations. We additionally demonstrate how our rewrite system may be applied to convert attention masks into pre-processing operations, recovering efficient implementations of sparse attention blocks.",
+      "pubdate": "Fri, 29 May 2026 16:08:49 +0000",
+      "authors": "Vincent Wang-Maścianica, Nikhil Khatri"
     }
   }
 }

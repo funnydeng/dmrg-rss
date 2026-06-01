@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 01 Jun 2026 01:09:34 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 14:11:31 +0000</lastBuildDate>
+    <item>
+      <title>Graphical einops: bridging tensor networks and computation graphs</title>
+      <link>http://arxiv.org/abs/2605.31485</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Vincent Wang-Maścianica, Nikhil Khatri&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; Architecture diagrams are ubiquitous in deep learning, but they are usually only representational: the tensor-program identities they suggest are still proved by prose and tensor-axis manipulation. We introduce a formal graphical calculus for the structural fragment of tensor programming underlying einops, making such diagrams proof-enabling. Our calculus represents tensor axes as nested graded tubes around a base type. The tube boundary recovers the undirected tensor-network view of axes, while the directed interior retains the operational reading of computation graphs. The key rewrite is grade-naturality: sliding spectacles over tubes. Standard equivariance proofs become short diagrammatic derivations. We additionally demonstrate how our rewrite system may be applied to convert attention masks into pre-processing operations, recovering efficient implementations of sparse attention blocks.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2605.31485'&gt;arXiv:2605.31485&lt;/a&gt;] Published Fri, 29 May 2026 16:08:49 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2605.31485</guid>
+      <pubDate>Fri, 29 May 2026 16:08:49 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
     <item>
       <title>Full grid solution for multi-asset options pricing with tensor networks</title>
       <link>http://arxiv.org/abs/2601.00009</link>
