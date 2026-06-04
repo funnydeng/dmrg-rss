@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-06-04T01:17:50.230780+00:00",
+  "last_updated": "2026-06-04T13:17:28.818192+00:00",
   "entries": {
+    "50b73070dbbf9ef7e7b58decc74ce715": {
+      "id": "50b73070dbbf9ef7e7b58decc74ce715",
+      "link": "http://arxiv.org/abs/2606.03891",
+      "title": "Efficient Quantum Error Mitigation for Unitary k-Designs",
+      "abstract": "Quantum circuit ensembles that have the properties of unitary k-designs represent applications where there is no obvious bias toward any particular Pauli support, as is the case in simulating systems exhibiting ''quantum chaos,'' which range from quantum dynamics near black holes to gapless spin fluid analysis. However, noisy hardware makes quantum circuits prone to a myriad of error sources, of which depolarizing and coherent error can be particularly destructive. To combat depolarizing error, popular techniques typically involve circuit or gate folding, which can be time-intensive procedures due to increased circuit depth and shot overhead. Other tensor-network-based mitigation techniques suffer from intractability in high-entanglement regimes. In this work, we leverage the structure of unitary k-design Pauli support distributions by introducing a technique we name ''circuit balancing,'' along with gate benchmarking data, in order to estimate circuit-wide depolarization. We describe how to invert the diagnosed circuit depolarization even in the presence of coherent error, via Pauli twirling. We provide asymptotics to estimate the number of twirls needed to maintain a desired output fidelity. We test our method numerically in a variety of simulation settings and find that it can significantly reduce average random circuit infidelity. Further, we employ our methods to find significant infidelity reductions when running a random circuit ensemble on a contemporary superconducting quantum computer, IBM Fez. Overall, we show that the method effectively reduces gate-based error for unitary k-designs without incurring any two-qubit gate overhead.",
+      "pubdate": "Tue, 02 Jun 2026 16:52:08 +0000",
+      "authors": "Ayush Pancholy, K. Birgitta Whaley"
+    },
+    "cbbf5dd07d320826b72870c1024f73aa": {
+      "id": "cbbf5dd07d320826b72870c1024f73aa",
+      "link": "http://arxiv.org/abs/2606.03517",
+      "title": "Scalable On-Hardware Training of Quantum Neural Networks and Application to Clinical Data Imputation",
+      "abstract": "Training quantum neural networks (QNNs) on quantum hardware is currently bottlenecked by the cost of gradient estimation: standard parameter-shift methods require a number of circuit evaluations that grows quadratically with the number of trainable parameters, making hardware-based optimisation impractical beyond small system sizes. In this work, we introduce a training framework that reduces this cost to logarithmic in the number of qubits, making gradient-based QNN optimisation feasible on near-term hardware at increasing scales. Our framework combines three co-designed ingredients: (i) a structured, subspace-preserving Butterfly circuit architecture with $O(n \\log n)$ parameters and logarithmic depth; (ii) a layer-wise training strategy that confines on-hardware optimisation to one small, well-structured layer at a time; and (iii) a parallelised parameter-shift rule that exploits the commuting structure within each Butterfly layer to extract all gradients in a constant number of circuit executions. Together these reduce the number of distinct circuit evaluations per optimisation step from $O(n^2)$ to $O(\\log n)$. We validate the framework on clinical data imputation using the MIMIC-III electronic health record dataset, a demanding benchmark sensitive to optimisation instability and model variance. Hybrid classical-quantum models are trained directly on IonQ Forte Enterprise trapped-ion hardware at 16 qubits without performance degradation relative to ideal or noisy simulation and via tensor-network simulation at 32 qubits, with 32-qubit inference executed on hardware. The resulting models match or exceed strong classical neural baselines in downstream patient survival prediction while exhibiting reduced variance across runs, demonstrating that the proposed framework enables practical, scalable QNN training under realistic hardware constraints.",
+      "pubdate": "Tue, 02 Jun 2026 11:38:48 +0000",
+      "authors": "Natansh Mathur, Panagiotis Kl. Barkoutsos, Masako Yamada, Martin Roetteler, Iordanis Kerenidis"
+    },
+    "a69bcfa5a6eb804aa690c125f4865e3c": {
+      "id": "a69bcfa5a6eb804aa690c125f4865e3c",
+      "link": "http://arxiv.org/abs/2606.03212",
+      "title": "Bayesian Tensor Decomposition with Diffusion Model Prior",
+      "abstract": "Low-rank tensor decomposition (TD) is usually effective on clean, fully observed data, but it often degrades under severe missingness or noise. Low-rankness is itself a useful but limited structural prior, and additional handcrafted priors (e.g., sparsity or smoothness) still fall short of capturing the rich statistics of real-world data. To compensate for this weak inductive bias under heavy corruption, one would like to inject a learned, data-driven prior; however, the state-of-the-art diffusion models are not readily compatible with current TD and tractable posterior inference. To address these challenges, we introduce DiffBCP, a hybrid-prior Bayesian CP decomposition framework that couples a cumulative shrinkage process prior over the CP factors for automatic rank selection with an off-the-shelf pre-trained diffusion model as an implicit data prior on the reconstructed tensor. To make posterior inference tractable despite the coupling among the likelihood, low-rank constraint, and diffusion prior, we develop a split Gibbs sampler: CP factors admit conjugate updates, while the diffusion block is sampled via low-rank-guided denoising. A noise-adaptive coupling schedule further reduces sensitivity to hand-tuned annealing. Experiments on image inpainting and denoising, including high-resolution out-of-distribution images, show consistent gains over Bayesian, nonlinear, and plug-and-play TD baselines.",
+      "pubdate": "Tue, 02 Jun 2026 06:13:42 +0000",
+      "authors": "Zerui Tao, Qibin Zhao"
+    },
     "9f2aa2f8bfe91d89f53c803e6f987d5a": {
       "id": "9f2aa2f8bfe91d89f53c803e6f987d5a",
       "link": "http://arxiv.org/abs/2606.01568",
@@ -5073,53 +5097,85 @@
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
     },
-    "50b73070dbbf9ef7e7b58decc74ce715": {
-      "id": "50b73070dbbf9ef7e7b58decc74ce715",
-      "link": "http://arxiv.org/abs/2606.03891",
-      "title": "Efficient Quantum Error Mitigation for Unitary k-Designs",
-      "abstract": "Quantum circuit ensembles that have the properties of unitary k-designs represent applications where there is no obvious bias toward any particular Pauli support, as is the case in simulating systems exhibiting ''quantum chaos,'' which range from quantum dynamics near black holes to gapless spin fluid analysis. However, noisy hardware makes quantum circuits prone to a myriad of error sources, of which depolarizing and coherent error can be particularly destructive. To combat depolarizing error, popular techniques typically involve circuit or gate folding, which can be time-intensive procedures due to increased circuit depth and shot overhead. Other tensor-network-based mitigation techniques suffer from intractability in high-entanglement regimes. In this work, we leverage the structure of unitary k-design Pauli support distributions by introducing a technique we name ''circuit balancing,'' along with gate benchmarking data, in order to estimate circuit-wide depolarization. We describe how to invert the diagnosed circuit depolarization even in the presence of coherent error, via Pauli twirling. We provide asymptotics to estimate the number of twirls needed to maintain a desired output fidelity. We test our method numerically in a variety of simulation settings and find that it can significantly reduce average random circuit infidelity. Further, we employ our methods to find significant infidelity reductions when running a random circuit ensemble on a contemporary superconducting quantum computer, IBM Fez. Overall, we show that the method effectively reduces gate-based error for unitary k-designs without incurring any two-qubit gate overhead.",
-      "pubdate": "Tue, 02 Jun 2026 16:52:08 +0000",
-      "authors": "Ayush Pancholy, K. Birgitta Whaley"
+    "21f78645141cbe9cc3c987751c01cc58": {
+      "id": "21f78645141cbe9cc3c987751c01cc58",
+      "link": "http://arxiv.org/abs/2606.05042",
+      "title": "In-Context Graphical Inference",
+      "abstract": "Marginal inference in discrete graphical models forces a choice between exactness and scalability: exact algorithms are intractable for high-treewidth graphs, while iterative approximations (Belief Propagation, variational methods) sacrifice convergence guarantees on frustrated topologies. We argue that this dichotomy stems from a mismatched inductive bias: iterative methods abandon the sequential elimination structure that makes exact inference correct. We introduce In-Context Graphical Inference (ICG-I), an autoregressive Graph Transformer that restores this structure by mimicking Variable Elimination with learned, Tensor- Train-compressed intermediate factors, paired with a Dirichlet output layer and Weighted Conformal Prediction for calibrated, distribution-free coverage guarantees under topological shift. We prove that TT compression errors propagate at most lincarly through the autoregressive chain, that the Dirichlet-Multinomial loss is a proper scoring rule, and that WCP maintains coverage with a quantifiable degradation under estimated density ratios. We conducted intensive experiments to evaluate ICG-I and achieved state-of-the-art performance across all benchmarks. ICG-I reduces MAE from 0.041 (best baseline) to 0.020 on standard instances and achieves 0.048 on N=500 frustrated spin glasses where BP diverges entirely.",
+      "pubdate": "Wed, 03 Jun 2026 16:04:00 +0000",
+      "authors": "Zehua Cheng, Wei Dai, Jiahao Sun"
     },
-    "cbbf5dd07d320826b72870c1024f73aa": {
-      "id": "cbbf5dd07d320826b72870c1024f73aa",
-      "link": "http://arxiv.org/abs/2606.03517",
-      "title": "Scalable On-Hardware Training of Quantum Neural Networks and Application to Clinical Data Imputation",
-      "abstract": "Training quantum neural networks (QNNs) on quantum hardware is currently bottlenecked by the cost of gradient estimation: standard parameter-shift methods require a number of circuit evaluations that grows quadratically with the number of trainable parameters, making hardware-based optimisation impractical beyond small system sizes. In this work, we introduce a training framework that reduces this cost to logarithmic in the number of qubits, making gradient-based QNN optimisation feasible on near-term hardware at increasing scales. Our framework combines three co-designed ingredients: (i) a structured, subspace-preserving Butterfly circuit architecture with $O(n \\log n)$ parameters and logarithmic depth; (ii) a layer-wise training strategy that confines on-hardware optimisation to one small, well-structured layer at a time; and (iii) a parallelised parameter-shift rule that exploits the commuting structure within each Butterfly layer to extract all gradients in a constant number of circuit executions. Together these reduce the number of distinct circuit evaluations per optimisation step from $O(n^2)$ to $O(\\log n)$. We validate the framework on clinical data imputation using the MIMIC-III electronic health record dataset, a demanding benchmark sensitive to optimisation instability and model variance. Hybrid classical-quantum models are trained directly on IonQ Forte Enterprise trapped-ion hardware at 16 qubits without performance degradation relative to ideal or noisy simulation and via tensor-network simulation at 32 qubits, with 32-qubit inference executed on hardware. The resulting models match or exceed strong classical neural baselines in downstream patient survival prediction while exhibiting reduced variance across runs, demonstrating that the proposed framework enables practical, scalable QNN training under realistic hardware constraints.",
-      "pubdate": "Tue, 02 Jun 2026 11:38:48 +0000",
-      "authors": "Natansh Mathur, Panagiotis Kl. Barkoutsos, Masako Yamada, Martin Roetteler, Iordanis Kerenidis"
+    "c8960f9f8e6a7a69293b96f164bef32f": {
+      "id": "c8960f9f8e6a7a69293b96f164bef32f",
+      "link": "http://arxiv.org/abs/2606.04958",
+      "title": "Cooper quartets and fractional vortices in frustrated Josephson junction dice arrays",
+      "abstract": "Superconductivity mediated by Cooper quartets of charge 4e is a phenomenon of key importance for both the understanding of certain exotic superconductors and the engineering of quantum memories protected at the hardware level by topological order. Josephson junction arrays in the shape of the dice lattice constitute one of the main candidates for the realization of this phase of matter. Here, we analyze numerical signatures of the emergence of this exotic phase when superconducting dice arrays are frustrated by inserting one third of a flux quantum per rhombic plaquette. We adopt simulations of relaxation dynamics to study the critical current of such devices and analyse the Fourier decomposition of their bulk supercurrents. A further characterization of these systems at finite temperature is obtained through Monte Carlo techniques and two-dimensional infinite tensor networks. Our results indicate that the observed peaks of the critical current and temperature at frustration 1/3 correspond to a superconductor-insulator phase transition compatible with the deconfinement of half-vortices, while the low-temperature correlation functions of the model confirm the onset of a 4e superconducting phase mediated by Cooper quartets. We finally address the effects of Josephson energy and flux disorder typical of experimental arrays, and comment on the role of charging energies in the corresponding two-dimensional quantum model.",
+      "pubdate": "Wed, 03 Jun 2026 14:46:47 +0000",
+      "authors": "Erik Lennart Weerda, Olav F. Syljuåsen, Matteo Rizzi, Michele Burrello"
+    },
+    "a966bd2f522ba5d45848a142a5d8b335": {
+      "id": "a966bd2f522ba5d45848a142a5d8b335",
+      "link": "http://arxiv.org/abs/2606.04771",
+      "title": "Pushing the Classical Frontier of 1D Fermi-Hubbard Quench Dynamics Beyond Current Quantum Simulations",
+      "abstract": "Establishing quantum advantage requires comparison against the best achievable classical simulation. The Q-CTRL team recently simulated quench dynamics of the one-dimensional Fermi-Hubbard model on an IBM processor, completing a $L=60$ evolution to time $t=6$ in under three minutes and claiming a $3000\\times$ speedup over classical Time-Dependent Variational Principle (TDVP) simulation at bond dimension $χ=4096$. Their classical benchmark required over 160 hours on a CPU cluster, failed to converge in the high-entanglement regime $t\\in[5.2,6]$, and left the most challenging window of the experiment unverified. Here, we push the boundaries of classical simulation by exploiting the full $\\mathrm{U}(1)\\times\\mathrm{SU}(2)$ symmetry of the Fermi-Hubbard Hamiltonian combined with GPU-accelerated tensor contractions. Reaching bond dimensions up to $χ\\approx62{,}000$ on four NVIDIA H200 GPUs -- among the largest ever achieved in TDVP simulations and fifteen times larger than Q-CTRL's classical baseline -- we achieve fully converged results across the entire simulation window, including rigorous certification of the previously unresolved high-entanglement regime $t\\in[5.2,6]$. We further advance the classical frontier to $t=7$, which lies beyond the quantum hardware experiment and any previously verified classical evolution of the full wavefunction. At the bond dimension comparable to Q-CTRL's best classical run, our GPU implementation completes in $\\sim\\!100$ minutes, directly reducing the claimed $3000\\times$ quantum advantage to $\\sim\\!36\\times$. These results substantially narrow the quantum-classical performance gap and establish a new standard for tensor-network benchmarking of large-scale quantum simulations.",
+      "pubdate": "Wed, 03 Jun 2026 11:52:47 +0000",
+      "authors": "Roman Rausch, Sukhbinder Singh, Saeed S. Jahromi, Augustine Kshetrimayum, Roman Orus"
+    },
+    "188e461c47722d096f82e1cba710b63a": {
+      "id": "188e461c47722d096f82e1cba710b63a",
+      "link": "http://arxiv.org/abs/2606.04608",
+      "title": "Correlated States in Quantum Dot Clusters Coupled to a Common Superconductor",
+      "abstract": "We study an effective model of regular quantum dot clusters coupled to a common superconductor. By applying a canonical transformation, we map the system onto a particle-number-conserving representation, making it directly accessible to standard fermionic neural-network quantum-state variational Monte Carlo methods. We show that the superconducting gap closes at a particular high-symmetry point, which, in finite non-interacting systems, corresponds to crossings between singlet ground states of different character. Combining exact methods, density matrix renormalization group, and neural quantum-state variational Monte Carlo calculations, we identify three distinct interacting regimes: a trivial superconducting singlet phase, a strongly correlated regime connected to an effective Heisenberg model, and a critical intermediate regime with qualitatively different behavior in one and two dimensions. In one-dimensional systems, the intermediate regime exhibits a sequence of singlet-doublet transitions and becomes gapless in the thermodynamic limit even for finite Coulomb interaction. In two-dimensional clusters, we find robust triplet ground states. Furthermore, our results demonstrate that relatively standard fermionic neural quantum states provide an efficient approach for correlated superconducting nanostructures.",
+      "pubdate": "Wed, 03 Jun 2026 08:45:29 +0000",
+      "authors": "Martin Žonda, Jakub Rękas, Tobiáš Poláček, Jana Kodrlová, Vladislav Pokorný, Martin Friák"
+    },
+    "a287e5879a885e658bf67b4b45084070": {
+      "id": "a287e5879a885e658bf67b4b45084070",
+      "link": "http://arxiv.org/abs/2606.04506",
+      "title": "Factorizing binary tensors into quantics tensor trains",
+      "abstract": "The conversion of functions to quantics tensor trains is a well-established procedure and can either be done analytically or numerically. Numerical conversion schemes are based on singular value decompositions, where access to the full tensor is necessary, or on cross interpolations, which only depend on sampling a function. When dealing with large binary tensors, the first approach becomes prohibitively expensive while the second approach might fail to converge due to the non-smoothness of the data. In this work, we provide insight into how binary tensors, where the positions of the non-zero entries are defined by some Boolean function, can be converted into quantics tensor trains with a hybrid analytical-numerical approach utilizing the rank product. The proposed construction scheme nicely reproduces results from the literature and can be used for discrete convolutions, the construction of discrete wavelet transforms or slicing and assignment operations of multi-dimensional quantics tensor trains.",
+      "pubdate": "Wed, 03 Jun 2026 06:37:24 +0000",
+      "authors": "Paul Haubenwallner, Matthias Heller"
+    },
+    "37eabff495a0b548b8bd41f9a321bd77": {
+      "id": "37eabff495a0b548b8bd41f9a321bd77",
+      "link": "http://arxiv.org/abs/2606.04470",
+      "title": "Multi-entropy in random tensor networks",
+      "abstract": "We study the evaluation of Rényi multi-entropies $S^{(q)}_n$ in Random Tensor Network (RTN) states in the large bond-dimension limit. For the case of Rényi index $n=2$ and arbitrary number of parties $q$, we prove that that multi-entropies are determined by minimal multiway cuts through the network. When the minimal multiway cut is degenerate, we characterize the full minimizer set via compatible families of minimal cuts and give a criterion for all minimizers to come from ordinary cut partitions. For $n=2$, this gives a natural generalization of the minimal cut description of bipartite entanglement to multipartite systems with arbitrarily many parties. For the case of integer $n>2$, we show that the minimal multiway cut conjecture is in general \\emph{not true} by providing explicit counter examples for both the single random tensor and for the network built from isometric tilings. We discuss the implication for our results on the multipartite entanglement structures in RTN and holography.",
+      "pubdate": "Wed, 03 Jun 2026 05:30:41 +0000",
+      "authors": "Miao Hu, Simon Lin, Ion Nechita"
     },
     "60b0f2cd1af31fed437764d46a3b9f68": {
       "id": "60b0f2cd1af31fed437764d46a3b9f68",
       "link": "http://arxiv.org/abs/2606.03465",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
-    },
-    "a69bcfa5a6eb804aa690c125f4865e3c": {
-      "id": "a69bcfa5a6eb804aa690c125f4865e3c",
-      "link": "http://arxiv.org/abs/2606.03212",
-      "title": "Bayesian Tensor Decomposition with Diffusion Model Prior",
-      "abstract": "Low-rank tensor decomposition (TD) is usually effective on clean, fully observed data, but it often degrades under severe missingness or noise. Low-rankness is itself a useful but limited structural prior, and additional handcrafted priors (e.g., sparsity or smoothness) still fall short of capturing the rich statistics of real-world data. To compensate for this weak inductive bias under heavy corruption, one would like to inject a learned, data-driven prior; however, the state-of-the-art diffusion models are not readily compatible with current TD and tractable posterior inference. To address these challenges, we introduce DiffBCP, a hybrid-prior Bayesian CP decomposition framework that couples a cumulative shrinkage process prior over the CP factors for automatic rank selection with an off-the-shelf pre-trained diffusion model as an implicit data prior on the reconstructed tensor. To make posterior inference tractable despite the coupling among the likelihood, low-rank constraint, and diffusion prior, we develop a split Gibbs sampler: CP factors admit conjugate updates, while the diffusion block is sampled via low-rank-guided denoising. A noise-adaptive coupling schedule further reduces sensitivity to hand-tuned annealing. Experiments on image inpainting and denoising, including high-resolution out-of-distribution images, show consistent gains over Bayesian, nonlinear, and plug-and-play TD baselines.",
-      "pubdate": "Tue, 02 Jun 2026 06:13:42 +0000",
-      "authors": "Zerui Tao, Qibin Zhao"
+      "title": "Rethinking the Role of Tensor Decompositions in Post-Training LLM Compression",
+      "abstract": "Post-training compression is essential for deploying large language models (LLMs) under tight resource constraints. Tensor decompositions have emerged as a promising direction, offering compact parameterizations well suited to Transformer weight structures. However, existing studies evaluate these methods in narrow settings, leaving unclear whether tensorization is effective at large-scale deployment. We systematically evaluate tensor compression across dense and MoE architectures, establishing performance trade-offs grounded in both empirical analysis and theoretical analysis. We identify a fundamental mismatch between the shared subspaces assumed by tensor decompositions and the heterogeneous representations learned by modern LLMs, thereby delineating their practical limits and clarifying their viable role in large-scale deployment. The code is available at https://github.com/brain-lab-research/TT-LLM.",
+      "pubdate": "Tue, 02 Jun 2026 10:45:21 +0000",
+      "authors": "Artur Zagitov, Alexander Miasnikov, Maxim Krutikov, Vladimir Aletov, Gleb Molodtsov, Nail Bashirov, Artem Tsedenov, Aleksandr Beznosikov"
     },
     "a0fadd8d15efef9bed9ff06b5e6a19af": {
       "id": "a0fadd8d15efef9bed9ff06b5e6a19af",
       "link": "http://arxiv.org/abs/2606.02930",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
+      "title": "Fast Tensor Network Imaginary Time Evolution by Implicit Stepping on Logarithmic Grids",
+      "abstract": "We present a new method for the efficient imaginary time evolution of quantum many-body wavefunctions represented by matrix product states (MPS). We first show that logarithmic time grids are sufficient to resolve long imaginary time dynamics, yielding an exponential reduction in the number of time steps compared with standard approaches. We then show that A-stable implicit time-stepping methods for ordinary differential equations allow stable propagation for any time step size. The resulting scheme requires only matrix-vector products and linear solves, standard operations in the MPS toolbox. We validate our approach with two examples: a Heisenberg spin chain, which we use to demonstrate a speedup of several orders of magnitude over the standard time-dependent variational principle method with uniform time steps, and a single-site Anderson impurity model with a metallic bath, for which propagation to large imaginary times allows one to observe the exponential dependence of the Kondo temperature on the interaction strength.",
+      "pubdate": "Mon, 01 Jun 2026 22:25:24 +0000",
+      "authors": "John P. Zima, E. Miles Stoudenmire, Steven R. White, Olivier Parcollet, Jason Kaye"
     },
     "99f9bfdcf56bcb0b0e14a82f80a75733": {
       "id": "99f9bfdcf56bcb0b0e14a82f80a75733",
       "link": "http://arxiv.org/abs/2606.02845",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
+      "title": "Phase transitions through excited-state level crossings and topological indicators: the case of the XXZ chain with staggered Ising interaction",
+      "abstract": "We combine two ways of determining the phase diagram of the spin-$1/2$ XXZ chain with a staggered Ising interaction and uniform transverse exchange, based on exact diagonalization. The model realizes a competition between Néel order and bond-dimerized phases generated by the alternating Ising interaction. The simplest approach to determine the phase boundaries is to use topological indicators based on generalized position operators. We show that in general, the bosonized and numerical results for the topological indicators agree. The second is based on crossings of excited energy levels and justified by conformal-field theory. In spite of the partial loss of translational symmetry caused by the alternating Ising interaction, we find that the latter method provides an accurate determination of the boundary between Néel and dimerized phases. Instead, while the jumps of a topological indicator provide a qualitatively correct phase diagram, its accuracy is affected when the gap is very small (or the correlation length very large) at one side of the transition, as we show using field-theoretical arguments. The combination of both methods provides a more efficient way of calculating phase diagrams for correlated one-dimensional models than other widely used conventional approaches.",
+      "pubdate": "Mon, 01 Jun 2026 20:10:21 +0000",
+      "authors": "B. F. Márquez, K. Hallberg, A. A. Aligia"
+    },
+    "eb2a513b002799f6f7baa79e9235760c": {
+      "id": "eb2a513b002799f6f7baa79e9235760c",
+      "link": "http://arxiv.org/abs/2606.02721",
+      "title": "Simulating Condensed Matter Physics on Quantum Hardware",
+      "abstract": "Quantum hardware platforms are getting increasingly sophisticated in their ability to simulate condensed matter, including but not limited to strongly-correlated, topological, and non-equilibrium phenomena. This review surveys recent progress in quantum-hardware-based simulations of condensed matter, primarily emphasizing gate-based digital quantum computer simulation, with analog experiments discussed as complementary benchmarks. We first review major hardware platforms, including superconducting qubits, trapped-ions, ultracold atoms, Rydberg arrays, photonic systems, and moire quantum materials. We then introduce the basic ingredients of digital quantum simulation. Building on this foundation, we discuss representative applications to condensed-matter physics, spanning ground-state problems, strongly correlated matter, topological phases, non-equilibrium dynamics, open-system physics, and high-energy-physics-inspired simulations. Finally, we summarize key methodological tools used in state-of-the-art quantum-simulation workflows. We emphasize that present noisy quantum simulations serve not only as near-term demonstrations, but also as prototypes for the encodings, diagnostic protocols and error-control strategies required for future fault-tolerant quantum simulation.",
+      "pubdate": "Mon, 01 Jun 2026 18:00:07 +0000",
+      "authors": "Ruizhe Shen, Tianqi Chen, Tommy Tai, Jin Ming Koh, Pouyan Ghaemi, Ching Hua Lee"
     }
   }
 }
