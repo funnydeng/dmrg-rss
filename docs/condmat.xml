@@ -8,42 +8,45 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 03 Jun 2026 13:54:23 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 01:17:50 +0000</lastBuildDate>
     <item>
       <link>http://arxiv.org/abs/2606.02845</link>
       <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2606.02845'&gt;arXiv:2606.02845&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
       <guid isPermaLink="false">http://arxiv.org/abs/2606.02845</guid>
-      <pubDate>Wed, 03 Jun 2026 13:54:23 +0000</pubDate>
+      <pubDate>Thu, 04 Jun 2026 01:17:51 +0000</pubDate>
     <dc:creator>Unknown</dc:creator></item>
     <item>
       <link>http://arxiv.org/abs/2606.02930</link>
       <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2606.02930'&gt;arXiv:2606.02930&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
       <guid isPermaLink="false">http://arxiv.org/abs/2606.02930</guid>
-      <pubDate>Wed, 03 Jun 2026 13:54:23 +0000</pubDate>
+      <pubDate>Thu, 04 Jun 2026 01:17:51 +0000</pubDate>
     <dc:creator>Unknown</dc:creator></item>
     <item>
+      <title>Bayesian Tensor Decomposition with Diffusion Model Prior</title>
       <link>http://arxiv.org/abs/2606.03212</link>
-      <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2606.03212'&gt;arXiv:2606.03212&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Zerui Tao, Qibin Zhao&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; Low-rank tensor decomposition (TD) is usually effective on clean, fully observed data, but it often degrades under severe missingness or noise. Low-rankness is itself a useful but limited structural prior, and additional handcrafted priors (e.g., sparsity or smoothness) still fall short of capturing the rich statistics of real-world data. To compensate for this weak inductive bias under heavy corruption, one would like to inject a learned, data-driven prior; however, the state-of-the-art diffusion models are not readily compatible with current TD and tractable posterior inference. To address these challenges, we introduce DiffBCP, a hybrid-prior Bayesian CP decomposition framework that couples a cumulative shrinkage process prior over the CP factors for automatic rank selection with an off-the-shelf pre-trained diffusion model as an implicit data prior on the reconstructed tensor. To make posterior inference tractable despite the coupling among the likelihood, low-rank constraint, and diffusion prior, we develop a split Gibbs sampler: CP factors admit conjugate updates, while the diffusion block is sampled via low-rank-guided denoising. A noise-adaptive coupling schedule further reduces sensitivity to hand-tuned annealing. Experiments on image inpainting and denoising, including high-resolution out-of-distribution images, show consistent gains over Bayesian, nonlinear, and plug-and-play TD baselines.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2606.03212'&gt;arXiv:2606.03212&lt;/a&gt;] Published Tue, 02 Jun 2026 06:13:42 UTC&lt;/b&gt;</description>
       <guid isPermaLink="false">http://arxiv.org/abs/2606.03212</guid>
-      <pubDate>Wed, 03 Jun 2026 13:54:23 +0000</pubDate>
+      <pubDate>Tue, 02 Jun 2026 06:13:42 +0000</pubDate>
     <dc:creator>Unknown</dc:creator></item>
     <item>
       <link>http://arxiv.org/abs/2606.03465</link>
       <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2606.03465'&gt;arXiv:2606.03465&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
       <guid isPermaLink="false">http://arxiv.org/abs/2606.03465</guid>
-      <pubDate>Wed, 03 Jun 2026 13:54:23 +0000</pubDate>
+      <pubDate>Thu, 04 Jun 2026 01:17:51 +0000</pubDate>
     <dc:creator>Unknown</dc:creator></item>
     <item>
+      <title>Scalable On-Hardware Training of Quantum Neural Networks and Application to Clinical Data Imputation</title>
       <link>http://arxiv.org/abs/2606.03517</link>
-      <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2606.03517'&gt;arXiv:2606.03517&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Natansh Mathur, Panagiotis Kl. Barkoutsos, Masako Yamada, Martin Roetteler, Iordanis Kerenidis&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; Training quantum neural networks (QNNs) on quantum hardware is currently bottlenecked by the cost of gradient estimation: standard parameter-shift methods require a number of circuit evaluations that grows quadratically with the number of trainable parameters, making hardware-based optimisation impractical beyond small system sizes. In this work, we introduce a training framework that reduces this cost to logarithmic in the number of qubits, making gradient-based QNN optimisation feasible on near-term hardware at increasing scales. Our framework combines three co-designed ingredients: (i) a structured, subspace-preserving Butterfly circuit architecture with $O(n \log n)$ parameters and logarithmic depth; (ii) a layer-wise training strategy that confines on-hardware optimisation to one small, well-structured layer at a time; and (iii) a parallelised parameter-shift rule that exploits the commuting structure within each Butterfly layer to extract all gradients in a constant number of circuit executions. Together these reduce the number of distinct circuit evaluations per optimisation step from $O(n^2)$ to $O(\log n)$. We validate the framework on clinical data imputation using the MIMIC-III electronic health record dataset, a demanding benchmark sensitive to optimisation instability and model variance. Hybrid classical-quantum models are trained directly on IonQ Forte Enterprise trapped-ion hardware at 16 qubits without performance degradation relative to ideal or noisy simulation and via tensor-network simulation at 32 qubits, with 32-qubit inference executed on hardware. The resulting models match or exceed strong classical neural baselines in downstream patient survival prediction while exhibiting reduced variance across runs, demonstrating that the proposed framework enables practical, scalable QNN training under realistic hardware constraints.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2606.03517'&gt;arXiv:2606.03517&lt;/a&gt;] Published Tue, 02 Jun 2026 11:38:48 UTC&lt;/b&gt;</description>
       <guid isPermaLink="false">http://arxiv.org/abs/2606.03517</guid>
-      <pubDate>Wed, 03 Jun 2026 13:54:23 +0000</pubDate>
+      <pubDate>Tue, 02 Jun 2026 11:38:48 +0000</pubDate>
     <dc:creator>Unknown</dc:creator></item>
     <item>
+      <title>Efficient Quantum Error Mitigation for Unitary k-Designs</title>
       <link>http://arxiv.org/abs/2606.03891</link>
-      <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2606.03891'&gt;arXiv:2606.03891&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Ayush Pancholy, K. Birgitta Whaley&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; Quantum circuit ensembles that have the properties of unitary k-designs represent applications where there is no obvious bias toward any particular Pauli support, as is the case in simulating systems exhibiting ''quantum chaos,'' which range from quantum dynamics near black holes to gapless spin fluid analysis. However, noisy hardware makes quantum circuits prone to a myriad of error sources, of which depolarizing and coherent error can be particularly destructive. To combat depolarizing error, popular techniques typically involve circuit or gate folding, which can be time-intensive procedures due to increased circuit depth and shot overhead. Other tensor-network-based mitigation techniques suffer from intractability in high-entanglement regimes. In this work, we leverage the structure of unitary k-design Pauli support distributions by introducing a technique we name ''circuit balancing,'' along with gate benchmarking data, in order to estimate circuit-wide depolarization. We describe how to invert the diagnosed circuit depolarization even in the presence of coherent error, via Pauli twirling. We provide asymptotics to estimate the number of twirls needed to maintain a desired output fidelity. We test our method numerically in a variety of simulation settings and find that it can significantly reduce average random circuit infidelity. Further, we employ our methods to find significant infidelity reductions when running a random circuit ensemble on a contemporary superconducting quantum computer, IBM Fez. Overall, we show that the method effectively reduces gate-based error for unitary k-designs without incurring any two-qubit gate overhead.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2606.03891'&gt;arXiv:2606.03891&lt;/a&gt;] Published Tue, 02 Jun 2026 16:52:08 UTC&lt;/b&gt;</description>
       <guid isPermaLink="false">http://arxiv.org/abs/2606.03891</guid>
-      <pubDate>Wed, 03 Jun 2026 13:54:23 +0000</pubDate>
+      <pubDate>Tue, 02 Jun 2026 16:52:08 +0000</pubDate>
     <dc:creator>Unknown</dc:creator></item>
     <item>
       <title>Full grid solution for multi-asset options pricing with tensor networks</title>
