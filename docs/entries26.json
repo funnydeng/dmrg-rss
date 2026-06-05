@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-05T01:05:21.673794+00:00",
+  "last_updated": "2026-06-05T13:15:31.795448+00:00",
   "entries": {
     "21f78645141cbe9cc3c987751c01cc58": {
       "id": "21f78645141cbe9cc3c987751c01cc58",
@@ -5176,6 +5176,38 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "afc0f4716b8efbda32ffe5750e40497e": {
+      "id": "afc0f4716b8efbda32ffe5750e40497e",
+      "link": "http://arxiv.org/abs/2606.06362",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "481b29dd31b3204237285ddb00bedf67": {
+      "id": "481b29dd31b3204237285ddb00bedf67",
+      "link": "http://arxiv.org/abs/2606.06093",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "494c26f1221894dde2fb148c22a5c37f": {
+      "id": "494c26f1221894dde2fb148c22a5c37f",
+      "link": "http://arxiv.org/abs/2606.05311",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "059f59d94ebe704f5756cc863f434d53": {
+      "id": "059f59d94ebe704f5756cc863f434d53",
+      "link": "http://arxiv.org/abs/2606.05293",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
     }
   }
 }
