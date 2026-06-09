@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-06-08T13:37:25.749180+00:00",
+  "last_updated": "2026-06-09T01:00:33.092458+00:00",
   "entries": {
+    "eb5925f567783aef13e63ca028d3e814": {
+      "id": "eb5925f567783aef13e63ca028d3e814",
+      "link": "http://arxiv.org/abs/2606.06653",
+      "title": "Higher-order Symmetric Quantum Mpemba Effect in Fragmented Systems",
+      "abstract": "A quantum system can restore a broken symmetry faster the more strongly it initially breaks it, an anomaly known as the quantum Mpemba effect. Whether this effect survives once conservation laws fragment the Hilbert space into exponentially many disconnected Krylov sectors has remained open. We address this question for circuits and Hamiltonians with simultaneous charge and dipole conservation, the paradigmatic setting for strong Hilbert-space fragmentation. Combining a replica tensor-network formulation for charge and dipole-conserving gates, which reaches the annealed Rényi-2 entanglement asymmetry up to $L=128$, with Hamiltonian simulations and an exactly solvable dissipative model, we uncover a higher-order symmetric quantum Mpemba effect: the charge and dipole asymmetries each display Mpemba-like crossings on parametrically distinct timescales. Resolving the state into frozen and active Krylov sectors reveals the mechanism: frozen fragments retain a finite asymmetry that obstructs full restoration, while active fragments host the relaxation responsible for the crossings. Fragmentation thus does not preclude the quantum Mpemba effect but reshapes it into frozen memory and active-fragment relaxation, providing a framework for the Mpemba phenomenology of higher-moment symmetries.",
+      "pubdate": "Thu, 04 Jun 2026 18:59:08 +0000",
+      "authors": "Sreemayee Aditya, Sara Murciano, Xhek Turkeshi"
+    },
+    "8fb8b2cecfcd957ae17846a143efa7e6": {
+      "id": "8fb8b2cecfcd957ae17846a143efa7e6",
+      "link": "http://arxiv.org/abs/2606.06605",
+      "title": "Tensor network study of deconfined quantum criticality in a one-dimensional spin-phonon model",
+      "abstract": "Deconfined quantum critical points (DQCPs) describe continuous transitions between ordered phases beyond the Landau paradigm. A simple example is the Néel antiferromagnet (AFM) to valence bond solid (VBS) transition in a 1D antiferromagnetic $J_1-J_2$ model. In analogy to the spin-Peierls instability of critical spin chains, DQCPs are predicted to be unstable towards lattice distortions below a critical phonon frequency. In this work, we use tensor network simulations to investigate this instability in the antiferromagnetic $J_1-J_2$ model coupled to lattice vibrations. We confirm the stability of DQCP for large phonon frequencies and demonstrate that the transition turns strongly first-order below a critical frequency. The instability is caused by a reduction of the Luttinger parameter due to spin-phonon interactions and we identify the effective theory of the behavior as the double sine-Gordon model. The same effective theory is known to describe the classical Ashkin-Teller model, which enables us to show that the critical endpoint is in the four-state Potts universality class. Furthermore, we provide quantitative numerical scaling results for the phonon spectral function, offering an experimental signature to probe DQCP-phonon coupling in low-dimensional materials.",
+      "pubdate": "Thu, 04 Jun 2026 18:01:03 +0000",
+      "authors": "Anton Romen, Josef Willsher, David Hofmeier, Johannes Knolle, Michael Knap"
+    },
     "afc0f4716b8efbda32ffe5750e40497e": {
       "id": "afc0f4716b8efbda32ffe5750e40497e",
       "link": "http://arxiv.org/abs/2606.06362",
@@ -5208,22 +5224,6 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
-    },
-    "eb5925f567783aef13e63ca028d3e814": {
-      "id": "eb5925f567783aef13e63ca028d3e814",
-      "link": "http://arxiv.org/abs/2606.06653",
-      "title": "Higher-order Symmetric Quantum Mpemba Effect in Fragmented Systems",
-      "abstract": "A quantum system can restore a broken symmetry faster the more strongly it initially breaks it, an anomaly known as the quantum Mpemba effect. Whether this effect survives once conservation laws fragment the Hilbert space into exponentially many disconnected Krylov sectors has remained open. We address this question for circuits and Hamiltonians with simultaneous charge and dipole conservation, the paradigmatic setting for strong Hilbert-space fragmentation. Combining a replica tensor-network formulation for charge and dipole-conserving gates, which reaches the annealed Rényi-2 entanglement asymmetry up to $L=128$, with Hamiltonian simulations and an exactly solvable dissipative model, we uncover a higher-order symmetric quantum Mpemba effect: the charge and dipole asymmetries each display Mpemba-like crossings on parametrically distinct timescales. Resolving the state into frozen and active Krylov sectors reveals the mechanism: frozen fragments retain a finite asymmetry that obstructs full restoration, while active fragments host the relaxation responsible for the crossings. Fragmentation thus does not preclude the quantum Mpemba effect but reshapes it into frozen memory and active-fragment relaxation, providing a framework for the Mpemba phenomenology of higher-moment symmetries.",
-      "pubdate": "Thu, 04 Jun 2026 18:59:08 +0000",
-      "authors": "Sreemayee Aditya, Sara Murciano, Xhek Turkeshi"
-    },
-    "8fb8b2cecfcd957ae17846a143efa7e6": {
-      "id": "8fb8b2cecfcd957ae17846a143efa7e6",
-      "link": "http://arxiv.org/abs/2606.06605",
-      "title": "Tensor network study of deconfined quantum criticality in a one-dimensional spin-phonon model",
-      "abstract": "Deconfined quantum critical points (DQCPs) describe continuous transitions between ordered phases beyond the Landau paradigm. A simple example is the Néel antiferromagnet (AFM) to valence bond solid (VBS) transition in a 1D antiferromagnetic $J_1-J_2$ model. In analogy to the spin-Peierls instability of critical spin chains, DQCPs are predicted to be unstable towards lattice distortions below a critical phonon frequency. In this work, we use tensor network simulations to investigate this instability in the antiferromagnetic $J_1-J_2$ model coupled to lattice vibrations. We confirm the stability of DQCP for large phonon frequencies and demonstrate that the transition turns strongly first-order below a critical frequency. The instability is caused by a reduction of the Luttinger parameter due to spin-phonon interactions and we identify the effective theory of the behavior as the double sine-Gordon model. The same effective theory is known to describe the classical Ashkin-Teller model, which enables us to show that the critical endpoint is in the four-state Potts universality class. Furthermore, we provide quantitative numerical scaling results for the phonon spectral function, offering an experimental signature to probe DQCP-phonon coupling in low-dimensional materials.",
-      "pubdate": "Thu, 04 Jun 2026 18:01:03 +0000",
-      "authors": "Anton Romen, Josef Willsher, David Hofmeier, Johannes Knolle, Michael Knap"
     }
   }
 }
