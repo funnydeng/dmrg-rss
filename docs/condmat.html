@@ -536,10 +536,65 @@
         </div>
     </div>
     
-<p><em>Generated on 2026-06-09 01:00:34</em></p>
-<p>Total papers: 653
+<p><em>Generated on 2026-06-09 13:09:23</em></p>
+<p>Total papers: 660
 </p>
 <h2>Recent Papers</h2>
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2606.09469'>Hardware-Aware QAOA for Honeypot Traffic Partitioning on 100+ Qubit IBM Quantum Processors</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Cameron V. Cogburn, Casimer DeCusatis, Evan Spillane</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2606.09469 | <strong>Date:</strong> 2026-06-08</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> Denial-of-service (DoS) and distributed denial-of-service (DDoS) mitigation requires separating malicious traffic from benign traffic while minimizing disruption to legitimate users. Prior work proposed mapping honeypot traffic partitioning to a weighted MaxCut problem and solving the resulting graphs with variational quantum algorithms. We extend this proof of principle direction with a reproducible event-level honeypot-to-QUBO pipeline, labeled temporal bipartite benchmark graphs with 16, 32, 66, and 110 event nodes, QAOA executions on IBM quantum hardware, classical heuristic baselines, a noiseless matrix product state reference, and a routing overhead analysis across quantum processor architectures. The largest benchmark is a 110-node, 181-edge instance executed on three IBM backends. Our results show that a shallow QAOA can execute real traffic partitioning workloads at the utility scale, while backend architecture and routing overhead affect objective quality, security metrics, and observed runtime. Because simple classical heuristics can solve the current labeled benchmark graphs, these experiments are not a quantum advantage claim. Instead, we deliberately use a fixed, shallow QAOA implementation to enable controlled comparisons across problem sizes and hardware architectures. This work establishes a hardware feasibility and architecture benchmark framework, and demonstrates that MaxCut cost, security quality, routing overhead, and runtime must be reported as separate metrics for cybersecurity relevant quantum optimization.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2606.08760'>Visual-to-Code Authoring, Tensor-Network Debugging, and Quantum-Circuit Inspection Tools in Python</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Alejandro Mata Ali</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2606.08760 | <strong>Date:</strong> 2026-06-07</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> Tensor networks and quantum circuits are structural objects whose meaning depends on connectivity, indices, contraction order, gate placement, measurements, and related design choices. They are often easier to reason about visually than as code, yet in Python they are frequently constructed, transformed, and checked through backend-specific objects or compact symbolic expressions. This can make structural mistakes hard to notice during development, debugging, and communication. This paper presents three complementary packages: Tensor-Network-Visualization for visual debugging and structural inspection of supported tensor-network and traced einsum workflows; Tensor-Network-Editor for visual-to-code authoring, backend code generation, JSON preservation, export, and design-level analysis; and Quantum Circuit Drawer for clear circuit rendering, inspection, and complementary comparison of circuits or documented result distributions. The packages form a visual authoring and inspection layer around existing tensor-network libraries, array-based scientific Python workflows, and quantum SDKs. They are not simulators: they do not implement new contraction algorithms, execute quantum circuits, or guarantee full semantic equivalence across arbitrary backends. Their contribution is to make structural artifacts visible, editable, inspectable, comparable, exportable, and reproducible within those ecosystems.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2606.08707'>Simulating quantum circuits with a neural statebank</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Taige Wang, Liang Fu</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2606.08707 | <strong>Date:</strong> 2026-06-07</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> Predicting the output of quantum circuits is a central bottleneck for verifying quantum processors because a generic wavefunction grows exponentially with system size. We introduce a neural statebank that learns this wavefunction along the circuit trajectory. Each layer is stored as an autoregressive Transformer checkpoint trained from local gate updates to the preceding checkpoint, producing a compact neural representation that can evaluate amplitudes and generate independent samples. On long-range circuits combining entanglement, magic, and non-diagonal branching, a 0.3-million-parameter statebank reaches <span class="katex-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∼</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>2</mn></mrow></msup></mrow><annotation encoding="application/x-tex">\sim 10^{-2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">∼</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span></span> infidelity at 34 qubits, outperforming the other tested approximate simulators while using far less memory than exact state-vector evolution. The same architecture accurately simulates quantum approximate optimization, Clifford+<span class="katex-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>T</mi></mrow><annotation encoding="application/x-tex">T</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.1389em;">T</span></span></span></span></span>, and Clifford circuits.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2606.08565'>EinSort: Sorting is All We Need for Tensorizing LLM</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Toshiaki Koike-Akino, Jing Liu, Ye Wang</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2606.08565 | <strong>Date:</strong> 2026-06-07</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> Tensor networks provide efficient representations for compressing large neural networks. By carefully designing shapes and topologies, they can significantly reduce memory and computational costs. However, identifying implicit low-rank structures in large foundation models remains challenging due to their enormous scale and un-structured weight distributions. We propose an adaptive tensorization method that discovers inherent low-rank structure in a target tensor by index ordering. Experiments on weight and KV-cache compression demonstrate improved reconstruction quality compared to baselines.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2606.08347'>Tensorizing Engram: Sharing Latents Across N-Gram Embeddings is Beneficial in LLMs</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Wuyang Zhou, Yuxuan Gu, Giorgos Iacovides, Yuning Qiu, Qibin Zhao, Danilo Mandic</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2606.08347 | <strong>Date:</strong> 2026-06-06</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> Modern language models represent text using discrete token-level embeddings, which forces recurring multi-token patterns to be learned implicitly across Transformer layers. Both Over-tokenized Transformers and Engram attempt to address this limitation by explicitly incorporating multi-token (n-gram) memories. However, they rely on separate hash tables for each n-gram order, which introduces hash collisions and prevents nested n-grams from sharing the underlying latent structures. To address these issues, we propose Tensorized Engram (TN-gram), a compact memory module that represents tensorized n-gram embeddings through shared factors in the Canonical Polyadic (CP) form. TN-gram learns shared token-position factors together with order-absorption vectors to encode the embeddings of different n-gram order. Comprehensive experiments demonstrate that TN-gram matches or even outperforms Engram-style n-gram modules while requiring much fewer parameters.
+                    </div>
+                </article>
+                <hr>
+                
 
                 <article class='paper-entry'>
                     <h3><a href='http://arxiv.org/abs/2606.06653'>Higher-order Symmetric Quantum Mpemba Effect in Fragmented Systems</a></h3>
@@ -861,6 +916,17 @@
                 
 
                 <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2606.07609'>Finite-temperature formation of magnetic plateaus and simplex liquid states on the frustrated ruby lattice</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Antonio Francesco Mello, E. Miles Stoudenmire, Joseph Tindall</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2606.07609 | <strong>Date:</strong> 2026-05-29</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> Geometric frustration in quantum systems can stabilize unconventional phases of matter that avoid traditional magnetic ordering at low temperatures. Here, we observe this phenomenon while mapping out the finite temperature phase diagram of the spin-1/2 Heisenberg antiferromagnet on the ruby lattice with next-nearest-neighbor interactions. Using an infinite tensor network state (iTNS) optimized and measured with belief propagation (BP) and corrections to BP, we observe the low temperature formation of stable magnetic plateaus at various magnetic field strengths. We find these plateaus host a novel `simplex liquid state' -- a disordered phase involving strongly paired spin simplices that retains non-zero residual entropy due to an exponentially large subspace of crystalline configurations. We accurately quantify the energy gap associated with these states and show that, as the temperature of the system is lowered, it does not go through a phase transition to reach them: the heat capacity remains finite and continuous at all observed temperatures. Our work demonstrates how BP-based tensor network techniques provide a powerful route to understanding frustrated quantum magnets at finite temperature.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
                     <h3><a href='http://arxiv.org/abs/2606.00130'>Automatically Differentiable Nonlinear Tensor Networks (ADNTNs) for Exponential Compression of Deep Neural Networks</a></h3>
                     <p class='meta'><strong>Authors:</strong> Andrzej Cichocki, Michal Wietczak</p>
                     <p class='meta'><strong>arXiv ID:</strong> 2606.00130 | <strong>Date:</strong> 2026-05-28</p>
@@ -1163,6 +1229,17 @@ M834 80h400000v40h-400000z"/></svg></span></span></span><span class="vlist-s">�
                     <p class='meta'><strong>arXiv ID:</strong> 2605.25611 | <strong>Date:</strong> 2026-05-25</p>
                     <div class='abstract'>
                         <strong>Abstract:</strong> Topological order is defined by topological invariants, rather than symmetries and local order parameters. Nonetheless some topological phases can be characterized by string order parameters and entanglement. In this article we study how string order parameters and entanglement spectra behave out-of-equilibrium following quenches in one dimensional topological models with <span class="katex-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="double-struck">Z</mi></mrow><annotation encoding="application/x-tex">\mathbb{Z}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6889em;"></span><span class="mord mathbb">Z</span></span></span></span></span> invariants. Previously it has been suggested that string order parameters could serve as an experimental probe of dynamical quantum phase transitions. Despite the existence of clear zeroes in the order parameters at critical times, we show that in general there is no exact quantitative or qualitative connection with the critical times of dynamical quantum phase transitions. Another possible connection is of dynamical string order parameter zeroes and dynamical crossings at the center of entanglement spectra. Here we see that there can sometimes be a connection, but it is not typical. Again there is no general quantitative or qualitative connection. Each dynamical form of criticality behaves independently, though we do see that critical times tend to be of the same order of magnitude and give an argument for why this is the case. We also find that a string order parameter which labels one topological phase can undergo non-trivial dynamics even following a quench between \emph{other} topological phases. We elucidate where connections can be made, and where they result from a consideration of insufficiently general models. These results cast doubt on the idea of genuine dynamical phases following quenches in such models.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2606.07557'>SPIN: Decentralized Swarm Control via Tensorized Policy Coordination</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Zhaowen Fan</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2606.07557 | <strong>Date:</strong> 2026-05-25</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> Decentralized multi-agent swarm coordination on resource-constrained edge platforms remains fundamentally bottlenecked by the exponential scaling of joint action spaces and high-latency communication overhead. This paper introduces the Swarm Policy Interference Network (SPIN) framework, an architectural paradigm that bypasses these limitations by modeling swarm topologies as a compressed tensor network. We factorize the joint policy tensors of local multi-agent cliques into Matrix Product State (MPS) chains, reducing the computational complexity of evaluation from an exponential <span class="katex-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>O</mi><mo stretchy="false">(</mo><msup><mi>n</mi><mi>m</mi></msup><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">O(n^m)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.0278em;">O</span><span class="mopen">(</span><span class="mord"><span class="mord mathnormal">n</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6644em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">m</span></span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span></span> wall to a strictly linear <span class="katex-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>O</mi><mo stretchy="false">(</mo><mi>m</mi><mo>⋅</mo><mi>n</mi><mo>⋅</mo><msup><mi>χ</mi><mn>2</mn></msup><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">O(m \cdot n \cdot χ^2)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.0278em;">O</span><span class="mopen">(</span><span class="mord mathnormal">m</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.4445em;"></span><span class="mord mathnormal">n</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.0641em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathnormal">χ</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span></span> constraint. To bridge local continuous spatial geometry with this discrete algebraic backend without requiring power-intensive online training loops, we introduce a decoupled, hybrid neuro-symbolic control pipeline. Local multi-layered neural networks operate as structural coordination encoders, pre-trained offline to nonlinearly map hand-engineered geometric descriptors into abstract environmental target measures. At runtime, edge agents execute instantaneous behavioral adaptations by applying the Radon-Nikodým derivative directly as a zero-shot importance-reweighting filter. We validate the framework within a discrete-time multi-agent simulation sandbox spanning tracking, decentralized dispersion/area coverage, and multi-goal coordination regimes. Qualitative telemetry demonstrates that the integrated pipeline achieves stable target-directed motion, anti-collapse spatial spreading under decentralized constraints, and structured subgroup formation across multiple targets, providing a mathematically grounded route to tractable, low-power edge swarm intelligence.
                     </div>
                 </article>
                 <hr>
