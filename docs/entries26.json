@@ -1,6 +1,86 @@
 {
-  "last_updated": "2026-06-11T13:33:39.657881+00:00",
+  "last_updated": "2026-06-12T01:10:41.397184+00:00",
   "entries": {
+    "5504b9b61ac81776a7fe6590bc33ece0": {
+      "id": "5504b9b61ac81776a7fe6590bc33ece0",
+      "link": "http://arxiv.org/abs/2606.12159",
+      "title": "Grand-canonical phase diagram and chiral-current suppression at $π$ flux in a bosonic two-leg ladder",
+      "abstract": "We investigate the ground-state phase diagram of repulsively interacting bosons on a two-leg ladder threaded by a uniform artificial magnetic flux, using the cluster Gutzwiller mean-field method. In the strong-rung-coupling regime, self-consistent calculations are performed on a $2\\times4$ cluster. By analyzing the superfluid order parameter, leg-resolved currents, chiral current, the current ratio on adjacent legs, and the density imbalance between the two legs, we distinguish Mott-insulating from superfluid regimes and characterize the observed states as Meissner-like, vortex-like (superfluid or Mott insulating), or biased-ladder. In regions overlapping with previous DMRG studies, our results qualitatively agree with the established phase structure, demonstrating that the cluster Gutzwiller approach balances computational efficiency and physical accuracy. We then construct the first grand-canonical $t$--$μ$ phase diagrams for this system, revealing how the magnetic flux modifies the shape, tilt, and extent of the Mott lobes. We further explore previously inaccessible regimes, including higher fillings $ρ\\gtrsim1$ and the intermediate interaction window $U/t\\in[7.69,9.09]$. Special attention is paid to $\\varphi=π$, where the effective triangular-ladder mapping becomes singular. Owing to the equivalence of $\\varphi=π$ and $-π$ modulo $2π$, a combined symmetry forbids net chiral currents, leading to a nonchiral Mott-insulating state, in contrast to the chiral-superfluid tendency expected away from $\\varphi=π$. Our results offer a computationally efficient route for mapping the global phase structure of bosonic flux ladders and provide guidance for future ultracold-atom experiments in artificial gauge fields.",
+      "pubdate": "Wed, 10 Jun 2026 14:45:40 +0000",
+      "authors": "Meng Zhang, Qingyun Xu, Zhi Lin"
+    },
+    "879c78e670b881e352a43451209e2ea8": {
+      "id": "879c78e670b881e352a43451209e2ea8",
+      "link": "http://arxiv.org/abs/2606.12056",
+      "title": "Clifford disentanglers for entanglement reduction in molecular electronic structure simulations",
+      "abstract": "Entanglement is a key bottleneck limiting the efficiency of tensor-network and quantum simulations of molecular electronic structures. Here, we systematically assess and extend Clifford disentanglers as a structure-preserving approach to entanglement reduction: they can modify the entanglement structure of qubit wavefunctions while retaining the Pauli-string form of qubit Hamiltonians. To enable a practical search over Clifford transformations, we classify Clifford operators by their action on the Schmidt spectrum across a bipartition, reducing the two- and four-qubit search spaces to 20 and 91392 representatives, respectively. Embedded in an iterative Clifford-augmented matrix product state framework, these transformations reduce the energy errors at fixed bond dimension for the molecular test cases studied and mitigate the dependence on orbital orderings and fermion-to-qubit mappings. We further show that Clifford disentanglers can also benefit quantum simulations such as the shallow-circuit variational quantum eigensolver calculations. Together, these results establish Clifford disentanglers as a useful structure-preserving entanglement-engineering tool for tensor-network and quantum simulations of molecular electronic structure, while also clarifying their correlation dependence and motivating future developments.",
+      "pubdate": "Wed, 10 Jun 2026 13:22:04 +0000",
+      "authors": "Longfei Chang, Zibo Wu, Yunzhi Li, Haiqi Liu, Jiajun Ren, Mingpu Qin, Zhendong Li, Wei-Hai Fang"
+    },
+    "0633854c99e316264e9e5984c69d8c5e": {
+      "id": "0633854c99e316264e9e5984c69d8c5e",
+      "link": "http://arxiv.org/abs/2606.11885",
+      "title": "Universal Information-Theoretic Structure of the Quasi-Stationary Domany--Kinzel Automaton",
+      "abstract": "We characterize the quasi-stationary distribution (QSD) of the bond directed-percolation line of the Domany--Kinzel automaton using a matrix-product-state representation of the probability distribution, obtained by projecting out the absorbing state and iterating the transfer matrix. Unlike moment- or sampling-based methods, this yields the full conditional distribution and direct access to information-theoretic diagnostics. The spatial structure of the QSD changes sharply across the transition: the active phase is bulk-like with finite density, whereas in the inactive phase the surviving activity collapses into a single flock occupying a vanishing fraction of the chain, with an internal filling that ranges from a single cluster deep in the inactive phase to a loose, partially filled group near criticality. This picture carries a sharp information-theoretic signature: throughout the inactive phase the bipartite mutual information of the QSD equals the entropy of a single binary choice -- whether the flock lies to the left or right of the cut -- so the surviving clusters together encode just one bit of positional information, corresponding to a single effective cluster. The approach extends matrix-product-state techniques to the projected eigenvector defining a QSD, opening information-theoretic diagnostics for absorbing-state systems that bulk-observable methods cannot reach.",
+      "pubdate": "Wed, 10 Jun 2026 10:13:35 +0000",
+      "authors": "Hyun-Yong Lee, Kenji Harada, Naoki Kawashima"
+    },
+    "e4831a496dc4aa6c91b430fd534b08ee": {
+      "id": "e4831a496dc4aa6c91b430fd534b08ee",
+      "link": "http://arxiv.org/abs/2606.11882",
+      "title": "Tensor-Network Algorithm for Many-Body Trace Norms",
+      "abstract": "Trace norms are fundamental to quantum information theory, yet in many-body systems their evaluation remains a major computational bottleneck, as it generally requires diagonalizing exponentially large operators. Here, we overcome this bottleneck by introducing a controlled tensor-network algorithm for estimating the trace norm of matrix product operators without full diagonalization. The key idea is to combine Zolotarev's rational approximation to the sign function with a variational formulation solved using a density-matrix-renormalization-group-like algorithm. The resulting approximation is systematically improvable, with its accuracy controlled by the rational approximation parameters and the spectral weight near zero. Beyond the reach of exact diagonalization, we demonstrate controlled trace-norm calculations for entanglement negativity, quantum fidelity and quantum Fisher information, achieving substantially improved accuracy over polynomial-based Lanczos approaches. Our results establish trace-norm-based quantities as practical tensor-network observables, opening a route toward tensor-network studies of quantum information in mixed states.",
+      "pubdate": "Wed, 10 Jun 2026 10:07:50 +0000",
+      "authors": "Seunghun Lee, Eun-Gook Moon"
+    },
+    "4e065b47e742c75bee9910c7fa17bfe6": {
+      "id": "4e065b47e742c75bee9910c7fa17bfe6",
+      "link": "http://arxiv.org/abs/2606.11847",
+      "title": "Degree of tensor train varieties via integral geometry",
+      "abstract": "In this work we consider tensor train varieties. These are varieties of tensors arising in a range of fields, including quantum many-body physics and machine learning. Using methods from integral geometry, we obtain a combinatorial expression for their degrees. We provide the ready-to-use julia package TTVarietyDegree.jl.",
+      "pubdate": "Wed, 10 Jun 2026 09:23:04 +0000",
+      "authors": "Andrea Rosana, Otto T. P. Schmidt"
+    },
+    "959a5221db43767d78a1b4b4afa30cb5": {
+      "id": "959a5221db43767d78a1b4b4afa30cb5",
+      "link": "http://arxiv.org/abs/2606.11620",
+      "title": "Family-Aware Residual Architecture for Predicting Quantum Circuit Simulation Performance",
+      "abstract": "Approximate tensor-network simulators enable classical simulation of quantum circuits beyond the reach of exact methods, but selecting optimal approximation parameters -- such as bond dimension thresholds -- remains a costly trial-and-error process. We present a family-aware neural architecture that predicts both the minimum approximation threshold required to achieve target fidelity and the expected wall-clock runtime for quantum circuit simulation, given only the circuit's OpenQASM description and execution context. Our key insight is that quantum circuits from different algorithmic families (e.g., QFT, Grover, VQE) exhibit fundamentally distinct simulation cost profiles due to their differing entanglement structures. We employ family-conditioned residual corrections -- additive, family-specific adjustments atop a shared backbone, drawing on established conditional computation techniques -- enabling the model to capture both universal circuit properties and algorithmic nuances. The architecture incorporates a pretrained family classifier (97.5% accuracy) and domain-informed algorithm fingerprint features derived from gate-composition heuristics. Evaluated on circuits spanning 7--130 qubits across 10 algorithm families, our system achieves 79.5% exact threshold accuracy (91.2% within one rung) and $R^2 = 0.82$ runtime correlation, with inference completing in approximately 50 ms -- replacing trial-and-error simulation runs that may take minutes to hours. Ablation studies confirm that family-aware modeling provides the single largest performance improvement (+3.2 percentage points), validating the hypothesis that algorithm family is a first-class feature for simulation cost prediction.",
+      "pubdate": "Wed, 10 Jun 2026 03:31:37 +0000",
+      "authors": "Honjar Xing, Yehong Jiang, Xianbang Wang, Zehua Wang, Zhicheng Jiang"
+    },
+    "59a91547e357cb20d1ad303a95d559e4": {
+      "id": "59a91547e357cb20d1ad303a95d559e4",
+      "link": "http://arxiv.org/abs/2606.11603",
+      "title": "A Two-Sided Sketching Algorithm for Low-rank Tensor Train Approximation",
+      "abstract": "Tensor train (TT) decomposition is a powerful method to acquire low-rank tensors. However, the computational process is frequently obstructed by the large-scale matrix singular value decomposition (SVD). The sketching algorithm serves as an efficient data compression technique that can quickly derive low-rank matrix approximations. In this paper, we propose a randomized algorithm to obtain the TT approximation of tensors using a one-pass sketching algorithm and subspace iteration, and offer thorough error-bound and robustness analysis. Numerical experiments on synthetic and real-world datasets demonstrate the effectiveness and efficiency of the proposed algorithm.",
+      "pubdate": "Wed, 10 Jun 2026 03:00:32 +0000",
+      "authors": "Gaohang Yu, Yihao Pan, Ailun Jian, Xiaohao Cai"
+    },
+    "335c9bd4ba859999497aa02938fe6aae": {
+      "id": "335c9bd4ba859999497aa02938fe6aae",
+      "link": "http://arxiv.org/abs/2606.11579",
+      "title": "Tensor-Network-Based Distributed Quantum Dynamics on Independent Quantum Computers",
+      "abstract": "We present an approach based on tensor networks for distributed quantum computing simulation of chemical wavepacket dynamics in a continuous variable representation. The central idea is that the tensor-network representation of the multidimensional time-evolution operator naturally induces an elevated Hilbert space where the dynamics decomposes into a set of independent lower-dimensional propagations. This transformation converts an entangled quantum evolution into a set of parallel computational tasks that can be executed asynchronously across heterogeneous quantum and classical computing architectures. The resulting formalism establishes a direct connection between tensor-network decompositions, uniformly controlled quantum circuits, and asynchronous distributed quantum computing. The approach is developed with a goal towards hybrid quantum/classical implementation, and is appropriate for a general heterogeneous mixture of quantum hardware systems. The experimental realization of the asynchronously distributed quantum processes that arise from the tensor-network decomposition are carried out on the Sandia National Laboratories' trapped-ion quantum computer, where the circuits are compiled using native partial-entangling $XX(θ)$ gates, reducing the expected two-qubit gate infidelity by more than 30\\% relative to conventional fully entangling decompositions. We demonstrate the methodology by quantum computing the vibrational spectra of a small protonated water cluster that shows critical quantum nuclear behavior. Such water cluster systems have been found to be challenging for experimental action spectroscopy and for theory, and here, for the first time, we provide results for vibrational spectroscopy that are in agreement with the respective classical results to within 4cm$^{-1}$, thus allowing for the potential for spectroscopic accuracy from quantum computations.",
+      "pubdate": "Wed, 10 Jun 2026 02:13:24 +0000",
+      "authors": "Anurag Dwivedi, Melissa C. Revelle, Daniel S. Lobser, Brian K. McFarland, Edward C. Tortorici, Christopher G. Yale, Susan M. Clark, Philip Richerme, Srinivasan S. Iyengar"
+    },
+    "0493934168001e7f1788ffef1eea8954": {
+      "id": "0493934168001e7f1788ffef1eea8954",
+      "link": "http://arxiv.org/abs/2606.11561",
+      "title": "Diffusive Relaxation of Participation Entropy in U(1)-symmetric Dynamics",
+      "abstract": "Participation entropy (PE) quantifies the spread of a many-body wavefunction across configuration space. While PE relaxes rapidly in generic chaotic systems, we show that $\\mathrm{U}(1)$ conservation laws slow it down by imprinting with the slow hydrodynamic modes. Using a cluster expansion around equilibrium, we show that, after local density inhomogeneities decay, the leading PE deficit is dominated by squared connected density correlations. The long time relaxation is therefore controlled by diffusive correlation spreading, giving $ΔS(t)\\sim t^{-1/2}$ in the hydrodynamic regime and crossing over to $\\sim \\exp[-O(t/L^2)]$ when $t\\geq L^2$. We confirm this entropy correlation relation using exact computation and infinite system tensor network simulations in various quantum $\\mathrm{U}(1)$ conserving circuits. Our results establish PE as a sensitive probe of hydrodynamic memory and suggest that slow relaxation is a generic consequence of conservation laws.",
+      "pubdate": "Wed, 10 Jun 2026 01:40:54 +0000",
+      "authors": "Hanchen Liu, Tianci Zhou, Xiao Chen"
+    },
+    "7d0a956f5bc0be0560d6fff9c5f224a8": {
+      "id": "7d0a956f5bc0be0560d6fff9c5f224a8",
+      "link": "http://arxiv.org/abs/2606.11240",
+      "title": "Physically Constrained Ensemble Gaussian Process Modelling for Expensive Quantum Systems with Heteroskedastic Noise",
+      "abstract": "Accurate modeling of quantum many-body systems often requires computationally expensive simulations such as Density Matrix Renormalization Group (DMRG) or Quantum Monte Carlo (QMC) calculations. These methods, while precise, impose significant time and resource constraints, limiting their use in exhaustive parameter exploration. Moreover, these expensive simulations can contain variable errors over the large unknown parameter space, which needs to be quantified and propagated. Thus, predictive modelling is required to estimate the functional space accurately over scarcely sampled data with heteroskedastic noise, while preserving the physical relevance of the estimation. Therefore, we present a Physically Constrained Ensemble Gaussian Process (pc-EGP) framework designed to efficiently model complex and noisy quantum systems under physical consistency constraints. The proposed method first enforces physical constraints as a user controlled weighted penalty to the data-driven loss function of the Gaussian Process (GP) surrogates. Then an ensemble of such GP models is trained with variable noisy simulations via numerical quadrature method where these multiple GP(s) at different nodes is integrated as a quadrature weighted average. We first demonstrate the framework on synthetically generated data before applying to quantum systems. In the first case study, we leverage DMRG simulations of the Bose-Hubbard Model to predict the critical interaction parameter Uc governing the superfluid-to-Mott-insulator transition. In the second case study, we demonstrate our method on QMC simulations, of a quantum liquid confined inside a nanoporous silicate with the goal of optimizing a chemical environment to realize a one-dimensional superfluid. Compared to conventional GP, pc-EGP achieves a better balance of accuracy and physically meaningful predictions.",
+      "pubdate": "Fri, 29 May 2026 19:14:11 +0000",
+      "authors": "Arpan Biswas, Surtirtha Paul, Joseph Agada, Matthias Thamm, Adrian Del Maestro"
+    },
     "b39aafb2dc333e66be653241b3af3bdd": {
       "id": "b39aafb2dc333e66be653241b3af3bdd",
       "link": "http://arxiv.org/abs/2606.10773",
@@ -5321,93 +5401,13 @@
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
     },
-    "5504b9b61ac81776a7fe6590bc33ece0": {
-      "id": "5504b9b61ac81776a7fe6590bc33ece0",
-      "link": "http://arxiv.org/abs/2606.12159",
-      "title": "Grand-canonical phase diagram and chiral-current suppression at $π$ flux in a bosonic two-leg ladder",
-      "abstract": "We investigate the ground-state phase diagram of repulsively interacting bosons on a two-leg ladder threaded by a uniform artificial magnetic flux, using the cluster Gutzwiller mean-field method. In the strong-rung-coupling regime, self-consistent calculations are performed on a $2\\times4$ cluster. By analyzing the superfluid order parameter, leg-resolved currents, chiral current, the current ratio on adjacent legs, and the density imbalance between the two legs, we distinguish Mott-insulating from superfluid regimes and characterize the observed states as Meissner-like, vortex-like (superfluid or Mott insulating), or biased-ladder. In regions overlapping with previous DMRG studies, our results qualitatively agree with the established phase structure, demonstrating that the cluster Gutzwiller approach balances computational efficiency and physical accuracy. We then construct the first grand-canonical $t$--$μ$ phase diagrams for this system, revealing how the magnetic flux modifies the shape, tilt, and extent of the Mott lobes. We further explore previously inaccessible regimes, including higher fillings $ρ\\gtrsim1$ and the intermediate interaction window $U/t\\in[7.69,9.09]$. Special attention is paid to $\\varphi=π$, where the effective triangular-ladder mapping becomes singular. Owing to the equivalence of $\\varphi=π$ and $-π$ modulo $2π$, a combined symmetry forbids net chiral currents, leading to a nonchiral Mott-insulating state, in contrast to the chiral-superfluid tendency expected away from $\\varphi=π$. Our results offer a computationally efficient route for mapping the global phase structure of bosonic flux ladders and provide guidance for future ultracold-atom experiments in artificial gauge fields.",
-      "pubdate": "Wed, 10 Jun 2026 14:45:40 +0000",
-      "authors": "Meng Zhang, Qingyun Xu, Zhi Lin"
-    },
     "a485a7249f054140e77fadc7b63d9321": {
       "id": "a485a7249f054140e77fadc7b63d9321",
       "link": "http://arxiv.org/abs/2606.12132",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
-    },
-    "879c78e670b881e352a43451209e2ea8": {
-      "id": "879c78e670b881e352a43451209e2ea8",
-      "link": "http://arxiv.org/abs/2606.12056",
-      "title": "Clifford disentanglers for entanglement reduction in molecular electronic structure simulations",
-      "abstract": "Entanglement is a key bottleneck limiting the efficiency of tensor-network and quantum simulations of molecular electronic structures. Here, we systematically assess and extend Clifford disentanglers as a structure-preserving approach to entanglement reduction: they can modify the entanglement structure of qubit wavefunctions while retaining the Pauli-string form of qubit Hamiltonians. To enable a practical search over Clifford transformations, we classify Clifford operators by their action on the Schmidt spectrum across a bipartition, reducing the two- and four-qubit search spaces to 20 and 91392 representatives, respectively. Embedded in an iterative Clifford-augmented matrix product state framework, these transformations reduce the energy errors at fixed bond dimension for the molecular test cases studied and mitigate the dependence on orbital orderings and fermion-to-qubit mappings. We further show that Clifford disentanglers can also benefit quantum simulations such as the shallow-circuit variational quantum eigensolver calculations. Together, these results establish Clifford disentanglers as a useful structure-preserving entanglement-engineering tool for tensor-network and quantum simulations of molecular electronic structure, while also clarifying their correlation dependence and motivating future developments.",
-      "pubdate": "Wed, 10 Jun 2026 13:22:04 +0000",
-      "authors": "Longfei Chang, Zibo Wu, Yunzhi Li, Haiqi Liu, Jiajun Ren, Mingpu Qin, Zhendong Li, Wei-Hai Fang"
-    },
-    "0633854c99e316264e9e5984c69d8c5e": {
-      "id": "0633854c99e316264e9e5984c69d8c5e",
-      "link": "http://arxiv.org/abs/2606.11885",
-      "title": "Universal Information-Theoretic Structure of the Quasi-Stationary Domany--Kinzel Automaton",
-      "abstract": "We characterize the quasi-stationary distribution (QSD) of the bond directed-percolation line of the Domany--Kinzel automaton using a matrix-product-state representation of the probability distribution, obtained by projecting out the absorbing state and iterating the transfer matrix. Unlike moment- or sampling-based methods, this yields the full conditional distribution and direct access to information-theoretic diagnostics. The spatial structure of the QSD changes sharply across the transition: the active phase is bulk-like with finite density, whereas in the inactive phase the surviving activity collapses into a single flock occupying a vanishing fraction of the chain, with an internal filling that ranges from a single cluster deep in the inactive phase to a loose, partially filled group near criticality. This picture carries a sharp information-theoretic signature: throughout the inactive phase the bipartite mutual information of the QSD equals the entropy of a single binary choice -- whether the flock lies to the left or right of the cut -- so the surviving clusters together encode just one bit of positional information, corresponding to a single effective cluster. The approach extends matrix-product-state techniques to the projected eigenvector defining a QSD, opening information-theoretic diagnostics for absorbing-state systems that bulk-observable methods cannot reach.",
-      "pubdate": "Wed, 10 Jun 2026 10:13:35 +0000",
-      "authors": "Hyun-Yong Lee, Kenji Harada, Naoki Kawashima"
-    },
-    "e4831a496dc4aa6c91b430fd534b08ee": {
-      "id": "e4831a496dc4aa6c91b430fd534b08ee",
-      "link": "http://arxiv.org/abs/2606.11882",
-      "title": "Tensor-Network Algorithm for Many-Body Trace Norms",
-      "abstract": "Trace norms are fundamental to quantum information theory, yet in many-body systems their evaluation remains a major computational bottleneck, as it generally requires diagonalizing exponentially large operators. Here, we overcome this bottleneck by introducing a controlled tensor-network algorithm for estimating the trace norm of matrix product operators without full diagonalization. The key idea is to combine Zolotarev's rational approximation to the sign function with a variational formulation solved using a density-matrix-renormalization-group-like algorithm. The resulting approximation is systematically improvable, with its accuracy controlled by the rational approximation parameters and the spectral weight near zero. Beyond the reach of exact diagonalization, we demonstrate controlled trace-norm calculations for entanglement negativity, quantum fidelity and quantum Fisher information, achieving substantially improved accuracy over polynomial-based Lanczos approaches. Our results establish trace-norm-based quantities as practical tensor-network observables, opening a route toward tensor-network studies of quantum information in mixed states.",
-      "pubdate": "Wed, 10 Jun 2026 10:07:50 +0000",
-      "authors": "Seunghun Lee, Eun-Gook Moon"
-    },
-    "4e065b47e742c75bee9910c7fa17bfe6": {
-      "id": "4e065b47e742c75bee9910c7fa17bfe6",
-      "link": "http://arxiv.org/abs/2606.11847",
-      "title": "Degree of tensor train varieties via integral geometry",
-      "abstract": "In this work we consider tensor train varieties. These are varieties of tensors arising in a range of fields, including quantum many-body physics and machine learning. Using methods from integral geometry, we obtain a combinatorial expression for their degrees. We provide the ready-to-use julia package TTVarietyDegree.jl.",
-      "pubdate": "Wed, 10 Jun 2026 09:23:04 +0000",
-      "authors": "Andrea Rosana, Otto T. P. Schmidt"
-    },
-    "959a5221db43767d78a1b4b4afa30cb5": {
-      "id": "959a5221db43767d78a1b4b4afa30cb5",
-      "link": "http://arxiv.org/abs/2606.11620",
-      "title": "Family-Aware Residual Architecture for Predicting Quantum Circuit Simulation Performance",
-      "abstract": "Approximate tensor-network simulators enable classical simulation of quantum circuits beyond the reach of exact methods, but selecting optimal approximation parameters -- such as bond dimension thresholds -- remains a costly trial-and-error process. We present a family-aware neural architecture that predicts both the minimum approximation threshold required to achieve target fidelity and the expected wall-clock runtime for quantum circuit simulation, given only the circuit's OpenQASM description and execution context. Our key insight is that quantum circuits from different algorithmic families (e.g., QFT, Grover, VQE) exhibit fundamentally distinct simulation cost profiles due to their differing entanglement structures. We employ family-conditioned residual corrections -- additive, family-specific adjustments atop a shared backbone, drawing on established conditional computation techniques -- enabling the model to capture both universal circuit properties and algorithmic nuances. The architecture incorporates a pretrained family classifier (97.5% accuracy) and domain-informed algorithm fingerprint features derived from gate-composition heuristics. Evaluated on circuits spanning 7--130 qubits across 10 algorithm families, our system achieves 79.5% exact threshold accuracy (91.2% within one rung) and $R^2 = 0.82$ runtime correlation, with inference completing in approximately 50 ms -- replacing trial-and-error simulation runs that may take minutes to hours. Ablation studies confirm that family-aware modeling provides the single largest performance improvement (+3.2 percentage points), validating the hypothesis that algorithm family is a first-class feature for simulation cost prediction.",
-      "pubdate": "Wed, 10 Jun 2026 03:31:37 +0000",
-      "authors": "Honjar Xing, Yehong Jiang, Xianbang Wang, Zehua Wang, Zhicheng Jiang"
-    },
-    "59a91547e357cb20d1ad303a95d559e4": {
-      "id": "59a91547e357cb20d1ad303a95d559e4",
-      "link": "http://arxiv.org/abs/2606.11603",
-      "title": "A Two-Sided Sketching Algorithm for Low-rank Tensor Train Approximation",
-      "abstract": "Tensor train (TT) decomposition is a powerful method to acquire low-rank tensors. However, the computational process is frequently obstructed by the large-scale matrix singular value decomposition (SVD). The sketching algorithm serves as an efficient data compression technique that can quickly derive low-rank matrix approximations. In this paper, we propose a randomized algorithm to obtain the TT approximation of tensors using a one-pass sketching algorithm and subspace iteration, and offer thorough error-bound and robustness analysis. Numerical experiments on synthetic and real-world datasets demonstrate the effectiveness and efficiency of the proposed algorithm.",
-      "pubdate": "Wed, 10 Jun 2026 03:00:32 +0000",
-      "authors": "Gaohang Yu, Yihao Pan, Ailun Jian, Xiaohao Cai"
-    },
-    "335c9bd4ba859999497aa02938fe6aae": {
-      "id": "335c9bd4ba859999497aa02938fe6aae",
-      "link": "http://arxiv.org/abs/2606.11579",
-      "title": "Tensor-Network-Based Distributed Quantum Dynamics on Independent Quantum Computers",
-      "abstract": "We present an approach based on tensor networks for distributed quantum computing simulation of chemical wavepacket dynamics in a continuous variable representation. The central idea is that the tensor-network representation of the multidimensional time-evolution operator naturally induces an elevated Hilbert space where the dynamics decomposes into a set of independent lower-dimensional propagations. This transformation converts an entangled quantum evolution into a set of parallel computational tasks that can be executed asynchronously across heterogeneous quantum and classical computing architectures. The resulting formalism establishes a direct connection between tensor-network decompositions, uniformly controlled quantum circuits, and asynchronous distributed quantum computing. The approach is developed with a goal towards hybrid quantum/classical implementation, and is appropriate for a general heterogeneous mixture of quantum hardware systems. The experimental realization of the asynchronously distributed quantum processes that arise from the tensor-network decomposition are carried out on the Sandia National Laboratories' trapped-ion quantum computer, where the circuits are compiled using native partial-entangling $XX(θ)$ gates, reducing the expected two-qubit gate infidelity by more than 30\\% relative to conventional fully entangling decompositions. We demonstrate the methodology by quantum computing the vibrational spectra of a small protonated water cluster that shows critical quantum nuclear behavior. Such water cluster systems have been found to be challenging for experimental action spectroscopy and for theory, and here, for the first time, we provide results for vibrational spectroscopy that are in agreement with the respective classical results to within 4cm$^{-1}$, thus allowing for the potential for spectroscopic accuracy from quantum computations.",
-      "pubdate": "Wed, 10 Jun 2026 02:13:24 +0000",
-      "authors": "Anurag Dwivedi, Melissa C. Revelle, Daniel S. Lobser, Brian K. McFarland, Edward C. Tortorici, Christopher G. Yale, Susan M. Clark, Philip Richerme, Srinivasan S. Iyengar"
-    },
-    "0493934168001e7f1788ffef1eea8954": {
-      "id": "0493934168001e7f1788ffef1eea8954",
-      "link": "http://arxiv.org/abs/2606.11561",
-      "title": "Diffusive Relaxation of Participation Entropy in U(1)-symmetric Dynamics",
-      "abstract": "Participation entropy (PE) quantifies the spread of a many-body wavefunction across configuration space. While PE relaxes rapidly in generic chaotic systems, we show that $\\mathrm{U}(1)$ conservation laws slow it down by imprinting with the slow hydrodynamic modes. Using a cluster expansion around equilibrium, we show that, after local density inhomogeneities decay, the leading PE deficit is dominated by squared connected density correlations. The long time relaxation is therefore controlled by diffusive correlation spreading, giving $ΔS(t)\\sim t^{-1/2}$ in the hydrodynamic regime and crossing over to $\\sim \\exp[-O(t/L^2)]$ when $t\\geq L^2$. We confirm this entropy correlation relation using exact computation and infinite system tensor network simulations in various quantum $\\mathrm{U}(1)$ conserving circuits. Our results establish PE as a sensitive probe of hydrodynamic memory and suggest that slow relaxation is a generic consequence of conservation laws.",
-      "pubdate": "Wed, 10 Jun 2026 01:40:54 +0000",
-      "authors": "Hanchen Liu, Tianci Zhou, Xiao Chen"
-    },
-    "7d0a956f5bc0be0560d6fff9c5f224a8": {
-      "id": "7d0a956f5bc0be0560d6fff9c5f224a8",
-      "link": "http://arxiv.org/abs/2606.11240",
-      "title": "Physically Constrained Ensemble Gaussian Process Modelling for Expensive Quantum Systems with Heteroskedastic Noise",
-      "abstract": "Accurate modeling of quantum many-body systems often requires computationally expensive simulations such as Density Matrix Renormalization Group (DMRG) or Quantum Monte Carlo (QMC) calculations. These methods, while precise, impose significant time and resource constraints, limiting their use in exhaustive parameter exploration. Moreover, these expensive simulations can contain variable errors over the large unknown parameter space, which needs to be quantified and propagated. Thus, predictive modelling is required to estimate the functional space accurately over scarcely sampled data with heteroskedastic noise, while preserving the physical relevance of the estimation. Therefore, we present a Physically Constrained Ensemble Gaussian Process (pc-EGP) framework designed to efficiently model complex and noisy quantum systems under physical consistency constraints. The proposed method first enforces physical constraints as a user controlled weighted penalty to the data-driven loss function of the Gaussian Process (GP) surrogates. Then an ensemble of such GP models is trained with variable noisy simulations via numerical quadrature method where these multiple GP(s) at different nodes is integrated as a quadrature weighted average. We first demonstrate the framework on synthetically generated data before applying to quantum systems. In the first case study, we leverage DMRG simulations of the Bose-Hubbard Model to predict the critical interaction parameter Uc governing the superfluid-to-Mott-insulator transition. In the second case study, we demonstrate our method on QMC simulations, of a quantum liquid confined inside a nanoporous silicate with the goal of optimizing a chemical environment to realize a one-dimensional superfluid. Compared to conventional GP, pc-EGP achieves a better balance of accuracy and physically meaningful predictions.",
-      "pubdate": "Fri, 29 May 2026 19:14:11 +0000",
-      "authors": "Arpan Biswas, Surtirtha Paul, Joseph Agada, Matthias Thamm, Adrian Del Maestro"
+      "title": "From Topological Order to Mixed-State Phases: A Ground-State Probe of Fractionalized Excitations",
+      "abstract": "How do we detect topological phases from a single ground state? Entanglement entropy and spectrum have long been the standard tools -- but the reduced density matrix (RDM) itself contains far more information. We show that the RDM of a 2D topologically ordered system, expressed at the entanglement cut, realizes a 1D mixed-state phase. For the $\\mathbb{Z}_2$ toric code phase, it is a 1D $\\mathbb{Z}_2$ strong-to-weak spontaneous symmetry breaking (SW-SSB) phase, where deconfinement of anyons manifests as the short-range correlation of both $\\mathbb{Z}_2$ charge and $\\mathbb{Z}_2$ domain-wall in the RDM. The bulk $e$-$m$ duality translates into a Kramers--Wannier self-duality of the SW-SSB phase. Extending the framework to gapped $\\mathbb{Z}_2$ spin liquids, the global spin-rotation symmetry manifests as an additional weak symmetry for the 1D RDM. Spin-$\\frac{1}{2}$ spinons result in a cusp on the disorder parameter of spin-rotation at $θ=π$, providing a direct, ground-state signature of symmetry fractionalization. We verify this prediction analytically using the matrix product density operator formalism and numerically for the kagome-lattice resonating valence bond state. The proposed observable requires only a single ground-state wavefunction, making it amenable to quantum simulation platforms.",
+      "pubdate": "Wed, 10 Jun 2026 14:26:18 +0000",
+      "authors": "Yunlong Zang, Yu-Bin Li, Shenghan Jiang"
     }
   }
 }
