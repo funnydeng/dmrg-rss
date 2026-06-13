@@ -1,6 +1,38 @@
 {
-  "last_updated": "2026-06-12T13:19:56.525740+00:00",
+  "last_updated": "2026-06-13T01:09:16.283298+00:00",
   "entries": {
+    "dbcf0ff9e076a56c5cf479dbc9450520": {
+      "id": "dbcf0ff9e076a56c5cf479dbc9450520",
+      "link": "http://arxiv.org/abs/2606.13606",
+      "title": "Diffusive Dynamics of Nonstabilizerness",
+      "abstract": "Symmetries shape the quantum-information dynamics of many-body systems, but their effect on nonstabilizerness, the resource complementary to entanglement, is less understood. We compute the stabilizer Rényi entropy, a measure of nonstabilizerness, in $\\mathrm{U}(1)$-symmetric one-dimensional random circuits. The disorder-averaged dynamics is captured by a four-replica tensor network, which we evaluate by $S_4$-adapted infinite time-evolving block decimation (iTEBD) directly in the thermodynamic limit. Together with a hydrodynamic argument, our results identify a diffusive universality class for the late-time approach of nonstabilizerness to its random-state value, with the stabilizer Rényi entropy gap closing as $1/t$. The same scaling is verified in an energy-conserving nonintegrable Ising chain. More broadly, our framework provides a hydrodynamic perspective on nonstabilizerness generation and offers insight into the design of approximate Haar-random states in Hamiltonian dynamics.",
+      "pubdate": "Thu, 11 Jun 2026 17:22:50 +0000",
+      "authors": "Zhenyu Xiao, Shinsei Ryu"
+    },
+    "9710074d33bb3dc6eec924995b05f2e3": {
+      "id": "9710074d33bb3dc6eec924995b05f2e3",
+      "link": "http://arxiv.org/abs/2606.12685",
+      "title": "Multiple Topological Haldane Phases for Symmetry-Protected Quantum Information Processing",
+      "abstract": "Symmetry-protected topological phases have attracted significant interest at the fundamental level and as a potential platform for quantum information processing, owing to their protected edge states and resilience to perturbations. Applying these features for practical and efficient quantum computation is highly desirable, but remains an open challenge. Here, we demonstrate the partitioning into multiple independent Haldane phase subsystems of a single spin-1/2 ladder system and propose this as a scalable architecture for gate-based quantum computation, which takes advantage of the symmetry-protected topological order. We encode qubits in the two topological states of the $S^{z}=0$ sector of each subsystem. Finite-size effects, typically viewed as detrimental, instead provide a controllable energy splitting that enables single-qubit rotations using only local magnetic fields. An Ising-type interaction between neighboring subsystem edges generates entangling gates, enabling universal quantum computation driven by two control parameters that are easily accessible experimentally. Our results demonstrate how symmetry-protected topological phases can be directly harnessed for circuit-model quantum computation in realistic systems.",
+      "pubdate": "Wed, 10 Jun 2026 21:15:13 +0000",
+      "authors": "João Pedro Gama D'Elia, Irene D'Amico, Thereza Paiva"
+    },
+    "beb93326cb0570bb35fe585f76e0171c": {
+      "id": "beb93326cb0570bb35fe585f76e0171c",
+      "link": "http://arxiv.org/abs/2606.12539",
+      "title": "Unifying spacetime approaches to quantum mechanics",
+      "abstract": "Recent efforts to formulate quantum mechanics in a way that treats space and time on a more equal footing have led to a large variety of spacetime-oriented approaches. In this work we present a detailed study of spacetime states, the objects that play the role of quantum states in the recently introduced framework of spacetime quantum mechanics, and show that the main proposals in the literature are different manifestations of the same underlying object. Path integrals, quantum states over time, pseudo-density matrices, the Page and Wootters mechanism, superdensity operators, and timelike-entanglement proposals all arise from spacetime states through particular evaluations, reduced information, linear maps, or quantum channels. This unification provides explicit mathematical representations of these formalisms, reveals relations among them, and clarifies the spacetime information each one captures. We also study the broader relevance of the spacetime-state point of view for Leggett-Garg inequalities, OTOCs, temporal tensor networks, fermionic systems, relativistic QFTs, quantum reference frames, and classical physics, together with additional insights and perspectives revealed by the common unifying framework.",
+      "pubdate": "Wed, 10 Jun 2026 18:00:09 +0000",
+      "authors": "N. L. Diaz, M. Cerezo, Paolo Braccia"
+    },
+    "75c0392daf75c3305ff9195fc9c503c5": {
+      "id": "75c0392daf75c3305ff9195fc9c503c5",
+      "link": "http://arxiv.org/abs/2606.12538",
+      "title": "Influence-solvability: a systematic theory of $(1+1)D$ solvability and its application to brickwork circuits",
+      "abstract": "`Solvable' circuits, such as dual unitaries and its generalisations, have arisen as paradigmatic examples of tractable chaotic non-equilibrium dynamics, both in classical and quantum systems. However, while increasingly more complicated sufficient conditions have been proposed, a systematic theory classifying and understanding general features of solvable circuits is missing. We develop such a theory by introducing influence-solvable circuits, a class of $(1+1)D$ circuits whose influence matrix, which represents the `bath' generated by its own evolution, is given by a uniform MPS with finite bond-dimension $χ$. This property allows for efficient computation of subsystem dynamics and essentially contains all known examples of solvable circuits. We derive a set of necessary and sufficient local conditions by using a version of the fundamental theorem of MPS for open boundary conditions. Next we apply our theory to brickwork circuits with $χ=1$ influence-solvability and perform a systematic classification of classical brickwork circuits with local dimension up to $d=3$ and quantum brickwork circuits with $d=2$. Our search reveals new solvable circuits that are not captured by known solvability conditions.",
+      "pubdate": "Wed, 10 Jun 2026 18:00:08 +0000",
+      "authors": "Friedrich Hübner, Sun Woo P. Kim"
+    },
     "5504b9b61ac81776a7fe6590bc33ece0": {
       "id": "5504b9b61ac81776a7fe6590bc33ece0",
       "link": "http://arxiv.org/abs/2606.12159",
@@ -5408,38 +5440,6 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
-    },
-    "dbcf0ff9e076a56c5cf479dbc9450520": {
-      "id": "dbcf0ff9e076a56c5cf479dbc9450520",
-      "link": "http://arxiv.org/abs/2606.13606",
-      "title": "Diffusive Dynamics of Nonstabilizerness",
-      "abstract": "Symmetries shape the quantum-information dynamics of many-body systems, but their effect on nonstabilizerness, the resource complementary to entanglement, is less understood. We compute the stabilizer Rényi entropy, a measure of nonstabilizerness, in $\\mathrm{U}(1)$-symmetric one-dimensional random circuits. The disorder-averaged dynamics is captured by a four-replica tensor network, which we evaluate by $S_4$-adapted infinite time-evolving block decimation (iTEBD) directly in the thermodynamic limit. Together with a hydrodynamic argument, our results identify a diffusive universality class for the late-time approach of nonstabilizerness to its random-state value, with the stabilizer Rényi entropy gap closing as $1/t$. The same scaling is verified in an energy-conserving nonintegrable Ising chain. More broadly, our framework provides a hydrodynamic perspective on nonstabilizerness generation and offers insight into the design of approximate Haar-random states in Hamiltonian dynamics.",
-      "pubdate": "Thu, 11 Jun 2026 17:22:50 +0000",
-      "authors": "Zhenyu Xiao, Shinsei Ryu"
-    },
-    "9710074d33bb3dc6eec924995b05f2e3": {
-      "id": "9710074d33bb3dc6eec924995b05f2e3",
-      "link": "http://arxiv.org/abs/2606.12685",
-      "title": "Multiple Topological Haldane Phases for Symmetry-Protected Quantum Information Processing",
-      "abstract": "Symmetry-protected topological phases have attracted significant interest at the fundamental level and as a potential platform for quantum information processing, owing to their protected edge states and resilience to perturbations. Applying these features for practical and efficient quantum computation is highly desirable, but remains an open challenge. Here, we demonstrate the partitioning into multiple independent Haldane phase subsystems of a single spin-1/2 ladder system and propose this as a scalable architecture for gate-based quantum computation, which takes advantage of the symmetry-protected topological order. We encode qubits in the two topological states of the $S^{z}=0$ sector of each subsystem. Finite-size effects, typically viewed as detrimental, instead provide a controllable energy splitting that enables single-qubit rotations using only local magnetic fields. An Ising-type interaction between neighboring subsystem edges generates entangling gates, enabling universal quantum computation driven by two control parameters that are easily accessible experimentally. Our results demonstrate how symmetry-protected topological phases can be directly harnessed for circuit-model quantum computation in realistic systems.",
-      "pubdate": "Wed, 10 Jun 2026 21:15:13 +0000",
-      "authors": "João Pedro Gama D'Elia, Irene D'Amico, Thereza Paiva"
-    },
-    "beb93326cb0570bb35fe585f76e0171c": {
-      "id": "beb93326cb0570bb35fe585f76e0171c",
-      "link": "http://arxiv.org/abs/2606.12539",
-      "title": "Unifying spacetime approaches to quantum mechanics",
-      "abstract": "Recent efforts to formulate quantum mechanics in a way that treats space and time on a more equal footing have led to a large variety of spacetime-oriented approaches. In this work we present a detailed study of spacetime states, the objects that play the role of quantum states in the recently introduced framework of spacetime quantum mechanics, and show that the main proposals in the literature are different manifestations of the same underlying object. Path integrals, quantum states over time, pseudo-density matrices, the Page and Wootters mechanism, superdensity operators, and timelike-entanglement proposals all arise from spacetime states through particular evaluations, reduced information, linear maps, or quantum channels. This unification provides explicit mathematical representations of these formalisms, reveals relations among them, and clarifies the spacetime information each one captures. We also study the broader relevance of the spacetime-state point of view for Leggett-Garg inequalities, OTOCs, temporal tensor networks, fermionic systems, relativistic QFTs, quantum reference frames, and classical physics, together with additional insights and perspectives revealed by the common unifying framework.",
-      "pubdate": "Wed, 10 Jun 2026 18:00:09 +0000",
-      "authors": "N. L. Diaz, M. Cerezo, Paolo Braccia"
-    },
-    "75c0392daf75c3305ff9195fc9c503c5": {
-      "id": "75c0392daf75c3305ff9195fc9c503c5",
-      "link": "http://arxiv.org/abs/2606.12538",
-      "title": "Influence-solvability: a systematic theory of $(1+1)D$ solvability and its application to brickwork circuits",
-      "abstract": "`Solvable' circuits, such as dual unitaries and its generalisations, have arisen as paradigmatic examples of tractable chaotic non-equilibrium dynamics, both in classical and quantum systems. However, while increasingly more complicated sufficient conditions have been proposed, a systematic theory classifying and understanding general features of solvable circuits is missing. We develop such a theory by introducing influence-solvable circuits, a class of $(1+1)D$ circuits whose influence matrix, which represents the `bath' generated by its own evolution, is given by a uniform MPS with finite bond-dimension $χ$. This property allows for efficient computation of subsystem dynamics and essentially contains all known examples of solvable circuits. We derive a set of necessary and sufficient local conditions by using a version of the fundamental theorem of MPS for open boundary conditions. Next we apply our theory to brickwork circuits with $χ=1$ influence-solvability and perform a systematic classification of classical brickwork circuits with local dimension up to $d=3$ and quantum brickwork circuits with $d=2$. Our search reveals new solvable circuits that are not captured by known solvability conditions.",
-      "pubdate": "Wed, 10 Jun 2026 18:00:08 +0000",
-      "authors": "Friedrich Hübner, Sun Woo P. Kim"
     }
   }
 }
