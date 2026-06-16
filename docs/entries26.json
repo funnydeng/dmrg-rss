@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-06-15T14:16:57.778052+00:00",
+  "last_updated": "2026-06-16T01:16:00.904361+00:00",
   "entries": {
+    "27fcc1f95b73e47cb8120783c8e5319c": {
+      "id": "27fcc1f95b73e47cb8120783c8e5319c",
+      "link": "http://arxiv.org/abs/2606.14635",
+      "title": "Open Wilson chain numerical renormalization group approach to steady-state non-equilibrium quantum transport",
+      "abstract": "The numerical renormalization group (NRG) approach was developed to identify and quantify different equilibrium regimes of quantum impurity systems (QISs) with unprecedented accuracy by a tailored finite size representation. Out of equilibrium, the steady-state density operator is not of the Boltzmannian form but one that is determined by the imposed boundary conditions. We extend the NRG to the nonequilibrium setting by augmenting each Wilson site with a reservoir, whose coupling functions are calculated via a continuous fraction expansion in order to recover the continuum limit exactly. The nonequilibrium parameters such as a finite bias as well as a finite temperature gradient enters through the Bloch-Redfield tensor (BRT), whose zero eigenvector gives the steady-state density operator. We used the resulting open chain full density matrix (OC-FDM) approach with an effective single lead description to investigate the charge and spin transport through a quantum dot (QD) under finite bias and temperature gradient. The influence of lead asymmetry and an external magnetic field on the transport properties are also studied. For completeness, we have also investigated local properties of the QD, such as charge fluctuations and find excellent agreement with real-time quantum Monte Carlo (RT-QMC) data. The OC-FDM approach was able to explore Kondo energy scales as low as $T_K/D \\approx 10^{-8}$ in the non-equilibrium regime, as well as show convergence with the established equilibrium benchmarks, such as a quantitative agreement with full density matrix numerical renormalization group (FDM-NRG) and Fermi-liquid scaling at small bias and temperature. Owing to the effective single lead description, a single OC-FDM data point takes orders of magnitude less time on a standard laptop, compared to other state-of-the-art numerical methods.",
+      "pubdate": "Fri, 12 Jun 2026 17:01:08 +0000",
+      "authors": "Anand Manaparambil, Frithjof B. Anders"
+    },
+    "102680ba74ad545455e5fb2f5bae32ff": {
+      "id": "102680ba74ad545455e5fb2f5bae32ff",
+      "link": "http://arxiv.org/abs/2606.14627",
+      "title": "Algebraic Operations on Tensor Trains",
+      "abstract": "The tensor train (TT) model is widely used to approximate high-dimensional tensors, enabling efficient handling of data that may exceed available memory. TT helps address the curse of dimensionality in applications such as system identification and dynamic programming. In some applications, TT is known as a ``matrix product state\" (MPS). This paper introduces algorithms that facilitate the summation, Hadamard (elementwise) product, and matrix--vector product of matrices and vectors (tensors) represented in the tensor train (TT) format. The last product is also known under the acronym MPO--MPS. The proposed algorithms achieve an improved tradeoff between computational efficiency and accuracy compared to state-of-the-art methods.",
+      "pubdate": "Fri, 12 Jun 2026 16:53:14 +0000",
+      "authors": "Petr Tichavsky"
+    },
+    "146b36ab785d6641592cd31ee14b8d51": {
+      "id": "146b36ab785d6641592cd31ee14b8d51",
+      "link": "http://arxiv.org/abs/2606.14613",
+      "title": "Tensor network manifolds and Riemannian fundamental theorem for tensor networks",
+      "abstract": "Tensor networks provide a powerful framework for efficiently representing high-dimensional data and many-body quantum states. Endowing tensor networks with a Riemannian manifold structure provides a natural setting for numerical optimization and analysis. A central feature of tensor networks is their gauge freedom, whose characterisation (captured by so-called fundamental theorems) underlies both their intrinsic structure and the design of numerical algorithms. In this work, we study the interaction between the Riemannian manifold structure and the gauge freedom for several families of tensor networks. Using group actions and Riemannian submersions, we establish a Riemannian fundamental theorem for the tensor network families studied.",
+      "pubdate": "Fri, 12 Jun 2026 16:39:45 +0000",
+      "authors": "Pablo Páez-Velasco"
+    },
+    "826e3e32ffec7042ee6e16ba826c9cda": {
+      "id": "826e3e32ffec7042ee6e16ba826c9cda",
+      "link": "http://arxiv.org/abs/2606.13912",
+      "title": "Direct/adaptive-mixture phase-gradient learning for neural-network quantum states with complex phase structure",
+      "abstract": "Neural-network quantum states (NQS) are a leading variational tool for quantum many-body physics, yet their optimization is fragile whenever the ground state carries a non-trivial sign or complex phase structure, a situation generic to gauge fields, broken time-reversal symmetry, and fermionic statistics. We trace this fragility to the stochastic estimator of the phase gradient rather than to network expressiveness. The phase sector of the Monte Carlo energy gradient is a noisy score-function estimator; differentiating the local energy instead yields a direct estimator that is unbiased for the same phase force, has far lower variance, and requires only a separated amplitude--phase ansatz. Demonstrated on a 100-site flux ladder, a small network trained this way reaches $0.89\\%$ median error, where tuned standard baselines plateau at $1.8\\%$ and wider or deeper standard-gradient networks degrade from $8.4\\%$ to $24.6\\%$. The advantage carries over to chiral XXX chains: the direct estimator again converges to a markedly lower error than the standard one, across $α$ and size; it grows with flux and vanishes in zero-flux controls. An adaptive-mixture of the two estimators is provably never worse in variance than the better endpoint at the optimal mixing coefficient, with seed-resolved diagnostics tracing much of the gain to eliminating failed runs. Estimator design thus emerges as a first-class lever for complex-valued neural quantum states.",
+      "pubdate": "Thu, 11 Jun 2026 21:05:28 +0000",
+      "authors": "Yi-Ran Xue, Rui Wang, Baigeng Wang, Chenan Wei"
+    },
+    "147e60f28ac69f228b56f4a9e4c8112f": {
+      "id": "147e60f28ac69f228b56f4a9e4c8112f",
+      "link": "http://arxiv.org/abs/2606.13779",
+      "title": "Computational regimes in matrix-product-state-based quantum trajectory simulations",
+      "abstract": "Efficient simulation of open quantum systems is central to modeling noisy quantum hardware and many-body dynamics. In trajectory-based tensor network methods, cost is often associated with trajectory-level quantities such as entanglement growth or bond dimension. However, the total cost of a fixed-accuracy simulation also depends on statistical sampling, and the interplay between per-trajectory complexity and sampling effort remains poorly understood. Here we introduce a cost-resolved framework for matrix product state (MPS)-based quantum trajectory simulations that decomposes total cost into memory per trajectory, runtime per trajectory, and sampling effort. We show that physically equivalent stochastic unravelings of the same Lindblad dynamics do not necessarily reduce total cost, but instead redistribute cost between trajectory complexity and statistical convergence. This trade-off is quantified by two dimensionless inflation factors: a bond dimension inflation $α$ and a sampling inflation $κ$, which together determine the preferred unraveling under hardware-dependent memory and parallelism constraints. We provide a practical protocol for extracting $(α,κ)$ from modest pilot simulations and demonstrate it using benchmarks across multiple noise channels. The resulting decision maps show that the computationally favorable unraveling can change with noise strength, time-step resolution, system size, and available parallelism. These results establish unraveling choice as a hardware-aware simulation design problem rather than an intrinsic optimization of trajectory entanglement alone.",
+      "pubdate": "Thu, 11 Jun 2026 18:00:02 +0000",
+      "authors": "Aaron Sander, Simon Cichy, Martin Eigel, Jens Eisert, Maximilian Fröhlich, Tom Peham, Robert Wille"
+    },
     "dbcf0ff9e076a56c5cf479dbc9450520": {
       "id": "dbcf0ff9e076a56c5cf479dbc9450520",
       "link": "http://arxiv.org/abs/2606.13606",
@@ -5440,46 +5480,6 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
-    },
-    "27fcc1f95b73e47cb8120783c8e5319c": {
-      "id": "27fcc1f95b73e47cb8120783c8e5319c",
-      "link": "http://arxiv.org/abs/2606.14635",
-      "title": "Open Wilson chain numerical renormalization group approach to steady-state non-equilibrium quantum transport",
-      "abstract": "The numerical renormalization group (NRG) approach was developed to identify and quantify different equilibrium regimes of quantum impurity systems (QISs) with unprecedented accuracy by a tailored finite size representation. Out of equilibrium, the steady-state density operator is not of the Boltzmannian form but one that is determined by the imposed boundary conditions. We extend the NRG to the nonequilibrium setting by augmenting each Wilson site with a reservoir, whose coupling functions are calculated via a continuous fraction expansion in order to recover the continuum limit exactly. The nonequilibrium parameters such as a finite bias as well as a finite temperature gradient enters through the Bloch-Redfield tensor (BRT), whose zero eigenvector gives the steady-state density operator. We used the resulting open chain full density matrix (OC-FDM) approach with an effective single lead description to investigate the charge and spin transport through a quantum dot (QD) under finite bias and temperature gradient. The influence of lead asymmetry and an external magnetic field on the transport properties are also studied. For completeness, we have also investigated local properties of the QD, such as charge fluctuations and find excellent agreement with real-time quantum Monte Carlo (RT-QMC) data. The OC-FDM approach was able to explore Kondo energy scales as low as $T_K/D \\approx 10^{-8}$ in the non-equilibrium regime, as well as show convergence with the established equilibrium benchmarks, such as a quantitative agreement with full density matrix numerical renormalization group (FDM-NRG) and Fermi-liquid scaling at small bias and temperature. Owing to the effective single lead description, a single OC-FDM data point takes orders of magnitude less time on a standard laptop, compared to other state-of-the-art numerical methods.",
-      "pubdate": "Fri, 12 Jun 2026 17:01:08 +0000",
-      "authors": "Anand Manaparambil, Frithjof B. Anders"
-    },
-    "102680ba74ad545455e5fb2f5bae32ff": {
-      "id": "102680ba74ad545455e5fb2f5bae32ff",
-      "link": "http://arxiv.org/abs/2606.14627",
-      "title": "Algebraic Operations on Tensor Trains",
-      "abstract": "The tensor train (TT) model is widely used to approximate high-dimensional tensors, enabling efficient handling of data that may exceed available memory. TT helps address the curse of dimensionality in applications such as system identification and dynamic programming. In some applications, TT is known as a ``matrix product state\" (MPS). This paper introduces algorithms that facilitate the summation, Hadamard (elementwise) product, and matrix--vector product of matrices and vectors (tensors) represented in the tensor train (TT) format. The last product is also known under the acronym MPO--MPS. The proposed algorithms achieve an improved tradeoff between computational efficiency and accuracy compared to state-of-the-art methods.",
-      "pubdate": "Fri, 12 Jun 2026 16:53:14 +0000",
-      "authors": "Petr Tichavsky"
-    },
-    "146b36ab785d6641592cd31ee14b8d51": {
-      "id": "146b36ab785d6641592cd31ee14b8d51",
-      "link": "http://arxiv.org/abs/2606.14613",
-      "title": "Tensor network manifolds and Riemannian fundamental theorem for tensor networks",
-      "abstract": "Tensor networks provide a powerful framework for efficiently representing high-dimensional data and many-body quantum states. Endowing tensor networks with a Riemannian manifold structure provides a natural setting for numerical optimization and analysis. A central feature of tensor networks is their gauge freedom, whose characterisation (captured by so-called fundamental theorems) underlies both their intrinsic structure and the design of numerical algorithms. In this work, we study the interaction between the Riemannian manifold structure and the gauge freedom for several families of tensor networks. Using group actions and Riemannian submersions, we establish a Riemannian fundamental theorem for the tensor network families studied.",
-      "pubdate": "Fri, 12 Jun 2026 16:39:45 +0000",
-      "authors": "Pablo Páez-Velasco"
-    },
-    "826e3e32ffec7042ee6e16ba826c9cda": {
-      "id": "826e3e32ffec7042ee6e16ba826c9cda",
-      "link": "http://arxiv.org/abs/2606.13912",
-      "title": "Direct/adaptive-mixture phase-gradient learning for neural-network quantum states with complex phase structure",
-      "abstract": "Neural-network quantum states (NQS) are a leading variational tool for quantum many-body physics, yet their optimization is fragile whenever the ground state carries a non-trivial sign or complex phase structure, a situation generic to gauge fields, broken time-reversal symmetry, and fermionic statistics. We trace this fragility to the stochastic estimator of the phase gradient rather than to network expressiveness. The phase sector of the Monte Carlo energy gradient is a noisy score-function estimator; differentiating the local energy instead yields a direct estimator that is unbiased for the same phase force, has far lower variance, and requires only a separated amplitude--phase ansatz. Demonstrated on a 100-site flux ladder, a small network trained this way reaches $0.89\\%$ median error, where tuned standard baselines plateau at $1.8\\%$ and wider or deeper standard-gradient networks degrade from $8.4\\%$ to $24.6\\%$. The advantage carries over to chiral XXX chains: the direct estimator again converges to a markedly lower error than the standard one, across $α$ and size; it grows with flux and vanishes in zero-flux controls. An adaptive-mixture of the two estimators is provably never worse in variance than the better endpoint at the optimal mixing coefficient, with seed-resolved diagnostics tracing much of the gain to eliminating failed runs. Estimator design thus emerges as a first-class lever for complex-valued neural quantum states.",
-      "pubdate": "Thu, 11 Jun 2026 21:05:28 +0000",
-      "authors": "Yi-Ran Xue, Rui Wang, Baigeng Wang, Chenan Wei"
-    },
-    "147e60f28ac69f228b56f4a9e4c8112f": {
-      "id": "147e60f28ac69f228b56f4a9e4c8112f",
-      "link": "http://arxiv.org/abs/2606.13779",
-      "title": "Computational regimes in matrix-product-state-based quantum trajectory simulations",
-      "abstract": "Efficient simulation of open quantum systems is central to modeling noisy quantum hardware and many-body dynamics. In trajectory-based tensor network methods, cost is often associated with trajectory-level quantities such as entanglement growth or bond dimension. However, the total cost of a fixed-accuracy simulation also depends on statistical sampling, and the interplay between per-trajectory complexity and sampling effort remains poorly understood. Here we introduce a cost-resolved framework for matrix product state (MPS)-based quantum trajectory simulations that decomposes total cost into memory per trajectory, runtime per trajectory, and sampling effort. We show that physically equivalent stochastic unravelings of the same Lindblad dynamics do not necessarily reduce total cost, but instead redistribute cost between trajectory complexity and statistical convergence. This trade-off is quantified by two dimensionless inflation factors: a bond dimension inflation $α$ and a sampling inflation $κ$, which together determine the preferred unraveling under hardware-dependent memory and parallelism constraints. We provide a practical protocol for extracting $(α,κ)$ from modest pilot simulations and demonstrate it using benchmarks across multiple noise channels. The resulting decision maps show that the computationally favorable unraveling can change with noise strength, time-step resolution, system size, and available parallelism. These results establish unraveling choice as a hardware-aware simulation design problem rather than an intrinsic optimization of trajectory entanglement alone.",
-      "pubdate": "Thu, 11 Jun 2026 18:00:02 +0000",
-      "authors": "Aaron Sander, Simon Cichy, Martin Eigel, Jens Eisert, Maximilian Fröhlich, Tom Peham, Robert Wille"
     }
   }
 }
