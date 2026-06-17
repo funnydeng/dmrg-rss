@@ -1,6 +1,70 @@
 {
-  "last_updated": "2026-06-16T13:57:53.047473+00:00",
+  "last_updated": "2026-06-17T01:10:47.324100+00:00",
   "entries": {
+    "5e6d2f76b1515b24d4e756b2318761a6": {
+      "id": "5e6d2f76b1515b24d4e756b2318761a6",
+      "link": "http://arxiv.org/abs/2606.17045",
+      "title": "Compact Spin-Charge Separated Neural Quantum States for Valence-Bond States",
+      "abstract": "Neural-network quantum states (NQS) provide a flexible nonlinear representation of quantum many-body wavefunctions, but their efficiency depends sensitively on whether the architecture reflects the sign structure and constrained Hilbert space of the target state. In this work, we propose a solvable-point-guided strategy: design the architecture at an exactly solvable point where the correct local rules can be read off, then refine to the non-exact regime by enlarging only the kernel size and hidden dimension. The strategy is built from four physics-motivated designs: a stride-matched local-rule convolution, geometric pooling, a sign-resolving $\\tanh(x^{2k+1})$ activation, and explicit spin-hole sector separation. We test this approach on quasi-one-dimensional valence-bond-solid (VBS) states and their doped soliton variants (sVBS), the exact ground states of a $t$-$J$-like model with a single mobile hole. In finite-size benchmarks, this architecture reaches high fidelity for the exact sVBS state with substantially fewer parameters than generic fully connected, convolutional, and transformer baselines tested under the same setup. For the spin sector, the learned local rule transfers from small to larger systems without retraining. Away from the solvable point, increasing kernel size and hidden dimension systematically improves accuracy, and the model shows approximately $L^2$ parameter scaling in the gapless regime for system size $L$, compared with approximately $L^4$ for matrix-product states in the same regime. Our work establishes a recipe for compact NQS in sign-structured, constrained Hilbert spaces and paves the pathway to physics-informed architectures for the broader $t$-$J$ and Hubbard families.",
+      "pubdate": "Mon, 15 Jun 2026 17:57:33 +0000",
+      "authors": "Ang-Kun Wu, Louis Primeau, Yixin Zhang, Jingtao Zhang, Adrian Del Maestro, Yang Zhang"
+    },
+    "f364a66cebcf7d3238f975cdf1be05a7": {
+      "id": "f364a66cebcf7d3238f975cdf1be05a7",
+      "link": "http://arxiv.org/abs/2606.16968",
+      "title": "Electronic Green's function across the pseudogap to stripe transition in the $t$-$t'$-$J$ model",
+      "abstract": "Superconducting domes in strongly correlated electronic systems are often accompanied by charge density waves and peculiar features in the electronic structure. The appearance of a pseudogap, in particular, and its relation to charge density waves remains insufficiently understood. Here, we investigate the electronic Green's function of the underdoped $t$-$t'$-$J$ model of the cuprate superconductors using tensor network algorithms for finite temperature dynamics on cylinders of width $4$. We find the prominent momentum differentiation, the hallmark of the pseudogap, to be strongly dependent on $t'$, which develops into a momentum-dependent opening of a gap upon decreasing temperature, consistent with the formation of a Fermi arc at intermediate temperatures. The nodal gap around ${\\bf k}=(π/2,π/2)$ closes and fills with increasing temperature as coherent stripe order melts into a regime of fluctuating charge clusters.",
+      "pubdate": "Mon, 15 Jun 2026 17:05:50 +0000",
+      "authors": "Martin Ulaga, Aritra Sinha, Alexander Wietek"
+    },
+    "9cfd6df0302cc6e97d63799a1e516283": {
+      "id": "9cfd6df0302cc6e97d63799a1e516283",
+      "link": "http://arxiv.org/abs/2606.16424",
+      "title": "Real-space spectral functions of three-dimensional billion-size topological non-Hermitian matter with tensor networks",
+      "abstract": "Non-Hermitian systems host a wide range of unconventional topological phenomena while large-scale simulations in finite three dimensional systems remain challenging because of the rapidly growing number of sites. In particular, higher-order topological corner modes are often studied only in small lattices, where strong finite-size effects can mask their intrinsic behavior. Here, we develop a tensor-network framework that combines quantics tensor cross interpolation with the kernel polynomial method, enabling compact representations of large non-Hermitian tight-binding Hamiltonians and direct calculations of real-space spectral functions for systems exceeding one billion lattice sites. Using this approach, we investigate three-dimensional non-Hermitian higher-order topological insulators with with structured real-space geometries. The unprecedented system size enables direct access to the macroscopic regime and allows corner-mode spectral responses to be resolved in genuinely three-dimensional systems.By tuning the loss strength, we identify distinct in-gap corner modes across weak- and strong-loss regimes.Our results establish tensor-network algorithms as a powerful strategy to perform real-space spectral calculations in exceptionally large non-Hermitian systems.",
+      "pubdate": "Mon, 15 Jun 2026 09:02:11 +0000",
+      "authors": "Yitao Sun, Jose L. Lado, Guangze Chen"
+    },
+    "5d091ca57a19cb2833750851c57b5e54": {
+      "id": "5d091ca57a19cb2833750851c57b5e54",
+      "link": "http://arxiv.org/abs/2606.15679",
+      "title": "Stochastic trace estimation with tensor train random vectors",
+      "abstract": "Stochastic trace estimation is a standard tool for approximating the trace of a large-scale matrix available only through matrix-vector products. However, in tensor-structured settings, unstructured Gaussian or Rademacher test vectors may be prohibitively expensive to store and compute with, while cheaper rank-one tensor-product vectors can require sample complexities that grow exponentially with the tensor order. This work studies Gaussian random tensor train vectors as a structured alternative for stochastic trace estimation. We show that, with a suitable choice of the tensor train rank, random tensor train vectors recover dimension-independent guarantees for the Girard--Hutchinson estimator. In particular, a median-of-means variant with tensor train rank $r \\geq d-1$ achieves the same dependence on the accuracy $\\varepsilon$ and failure probability $δ$ as the classical estimator based on unstructured Gaussian vectors. We further prove an oblivious subspace injection result for sketches formed from independent Gaussian random tensor train vectors: tensor train rank $r\\geq d-1$ and $\\mathcal{O}(\\varepsilon^{-2}(k+\\log(1/δ)))$ samples suffice for a $k$-dimensional target subspace. Finally, we investigate the use of such sketches within the Nyström++ framework. We show that the resulting estimator can achieve the desired $\\mathcal{O}(\\varepsilon^{-1})$ sample complexity under an additional spectral-tail condition. These results provide clarififcation on both the potential and the limitations of random tensor train vectors in stochastic trace estimation.",
+      "pubdate": "Sun, 14 Jun 2026 08:55:47 +0000",
+      "authors": "Zvonimir Bujanović, Daniel Kressner, Hrvoje Olić"
+    },
+    "c57c739e9f3bca02f8d72ded42dbf957": {
+      "id": "c57c739e9f3bca02f8d72ded42dbf957",
+      "link": "http://arxiv.org/abs/2606.15588",
+      "title": "Topological Tricritical Ising Universality Class in One Dimension",
+      "abstract": "Recent advances have revealed that quantum critical universality can be enriched by nontrivial topology. Here we study the tricritical point of the one-dimensional cluster O Brien-Fendley model and show that it realizes a topologically nontrivial tricritical Ising ($\\text{TCI}^*$) universality class. The transition shares the local bulk conformal data of ordinary TCI criticality, while realizing a distinct symmetry-enriched topological sector, manifested through a protected twofold degeneracy under open boundary conditions. We further show that TCI criticality admits two spontaneously fixed boundary conditions, realized respectively through symmetry enrichment and boundary renormalization-group flow, which are distinguished by the $\\mathbb{Z}_2^T$ charge of the disorder field. Remarkably, we find that the topological twofold degeneracy at the $\\text{TCI}^*$ critical point exhibits an exponential energy splitting, in stark contrast to the algebraic splitting at the $\\text{Ising}^*$ critical point. These results reveal a symmetry-enriched form of TCI criticality and uncover topologically distinct boundary structures beyond those of the ordinary TCI theory.",
+      "pubdate": "Sun, 14 Jun 2026 04:16:10 +0000",
+      "authors": "Sheng Yang, Hai-Qing Lin, Xue-Jia Yu"
+    },
+    "c216a7b1e6cd7226f7c4e63e542a5dcc": {
+      "id": "c216a7b1e6cd7226f7c4e63e542a5dcc",
+      "link": "http://arxiv.org/abs/2606.15350",
+      "title": "Linear algebra at exponential scale via tensor network dimension reduction",
+      "abstract": "Many problems in modern scientific computing are challenging because of a \\emph{curse of dimension}, where their mathematical formulation involves objects whose dimension is \\emph{exponential} in the nominal \"size\" of the problem. Tensor networks can provide a compact representation for exponentially large vectors and matrices that arise in applications, but these representations do not always lead to reliable algorithms. This paper develops and analyzes techniques for randomized dimension reduction of tensor network data. These techniques support a suite of efficient algorithms for provably solving exponential-scale linear algebra problems, including trace estimation and eigenvalue approximation. The paper includes several stylized illustrations from quantum many-body physics with ambient dimension up to $2^{200}$.",
+      "pubdate": "Sat, 13 Jun 2026 15:29:19 +0000",
+      "authors": "Chris Camaño, Ethan N. Epperly, Raphael A. Meyer, Joel A. Tropp"
+    },
+    "a9c5c3c4f09775380c0fa21f3afc7841": {
+      "id": "a9c5c3c4f09775380c0fa21f3afc7841",
+      "link": "http://arxiv.org/abs/2606.14934",
+      "title": "Separable Neural Architectures as Physical World Models: from Mathematical Theory to Applications",
+      "abstract": "This work introduces the Separable Neural Architecture (SNA), a function representational class combining neural approximation with tensor decomposition. The SNA decouples localized coordinate functions (atoms) from global interactions governed by a sparse, low-rank interaction object. This architecture possesses a compact and smooth inductive bias well-suited for solving partial differential equations (PDEs). When viewed as a Galerkin trial space under the variational SNA (VSNA) framework, the formulation satisfies classical variational guarantees under Lax-Milgram: well-posedness, quasi-optimality, convergence, and stability. In high-dimensional spatiotemporal--parametric PDEs, the VSNA mitigates the curse of dimensionality by scaling algebraically rather than exponentially. Exploiting an entirely factorized, tensor-native alternating least squares (ALS) optimization framework reduces this cost to linear in dimension. The VSNA is validated across elliptic, hyperbolic, and parabolic systems, demonstrating close alignment with predicted algebraic and spectral scaling rates. We showcase the SNA as a \"solve once, query anywhere\" physical world model via two engineering case studies: a 7D parametric manufacturing simulation and an experimental thermal-to-property inversion pipeline for Inconel 718. The VSNA executes a 1,000,000-query Monte Carlo sweep in 102s on a standard laptop CPU, yielding a 150,000x speedup over a full-grid finite element baseline hosted on an NVIDIA A100 GPU. It further enables real-time generative inverse-mode reconstructions under 100ms. These results demonstrate that the SNA serves as a compact mathematical substrate for continuous parameter manifolds to enable real-time inversion, optimization loops, and rapid uncertainty propagation.",
+      "pubdate": "Fri, 12 Jun 2026 20:14:49 +0000",
+      "authors": "Reza T Batley, Andrew Kichline, Sourav Saha"
+    },
+    "5c9e9792be97f5f4f39db9277d7665e7": {
+      "id": "5c9e9792be97f5f4f39db9277d7665e7",
+      "link": "http://arxiv.org/abs/2606.14873",
+      "title": "Finite-Element Matrix Product States for Continuum Models in One Dimension",
+      "abstract": "We present a matrix product state framework for simulating one-dimensional quantum many-body systems in the continuum using non-orthogonal single-particle basis sets. By mapping the physical problem to an auxiliary computational space, we show that the resulting many-body overlap operator can be efficiently encoded as a matrix product operator for sufficiently localized orbitals, thereby generalizing a construction that first appeared in [arXiv:2405.10285]. This construction recasts the variational ground-state search into a generalized eigenvalue problem, which can be solved using a generalized density matrix renormalization group algorithm. As a primary application, we employ a first-order finite-element expansion to study the ground state properties of the Lieb-Liniger gas in the presence of inhomogeneities. This approach also provides a natural setting for exactly refining the lattice, thereby enabling multigrid optimization strategies for matrix product states.",
+      "pubdate": "Fri, 12 Jun 2026 18:20:21 +0000",
+      "authors": "Akshay Shankar, Karel Van Acoleyen, Jutho Haegeman"
+    },
     "27fcc1f95b73e47cb8120783c8e5319c": {
       "id": "27fcc1f95b73e47cb8120783c8e5319c",
       "link": "http://arxiv.org/abs/2606.14635",
@@ -5480,70 +5544,6 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
-    },
-    "5e6d2f76b1515b24d4e756b2318761a6": {
-      "id": "5e6d2f76b1515b24d4e756b2318761a6",
-      "link": "http://arxiv.org/abs/2606.17045",
-      "title": "Compact Spin-Charge Separated Neural Quantum States for Valence-Bond States",
-      "abstract": "Neural-network quantum states (NQS) provide a flexible nonlinear representation of quantum many-body wavefunctions, but their efficiency depends sensitively on whether the architecture reflects the sign structure and constrained Hilbert space of the target state. In this work, we propose a solvable-point-guided strategy: design the architecture at an exactly solvable point where the correct local rules can be read off, then refine to the non-exact regime by enlarging only the kernel size and hidden dimension. The strategy is built from four physics-motivated designs: a stride-matched local-rule convolution, geometric pooling, a sign-resolving $\\tanh(x^{2k+1})$ activation, and explicit spin-hole sector separation. We test this approach on quasi-one-dimensional valence-bond-solid (VBS) states and their doped soliton variants (sVBS), the exact ground states of a $t$-$J$-like model with a single mobile hole. In finite-size benchmarks, this architecture reaches high fidelity for the exact sVBS state with substantially fewer parameters than generic fully connected, convolutional, and transformer baselines tested under the same setup. For the spin sector, the learned local rule transfers from small to larger systems without retraining. Away from the solvable point, increasing kernel size and hidden dimension systematically improves accuracy, and the model shows approximately $L^2$ parameter scaling in the gapless regime for system size $L$, compared with approximately $L^4$ for matrix-product states in the same regime. Our work establishes a recipe for compact NQS in sign-structured, constrained Hilbert spaces and paves the pathway to physics-informed architectures for the broader $t$-$J$ and Hubbard families.",
-      "pubdate": "Mon, 15 Jun 2026 17:57:33 +0000",
-      "authors": "Ang-Kun Wu, Louis Primeau, Yixin Zhang, Jingtao Zhang, Adrian Del Maestro, Yang Zhang"
-    },
-    "f364a66cebcf7d3238f975cdf1be05a7": {
-      "id": "f364a66cebcf7d3238f975cdf1be05a7",
-      "link": "http://arxiv.org/abs/2606.16968",
-      "title": "Electronic Green's function across the pseudogap to stripe transition in the $t$-$t'$-$J$ model",
-      "abstract": "Superconducting domes in strongly correlated electronic systems are often accompanied by charge density waves and peculiar features in the electronic structure. The appearance of a pseudogap, in particular, and its relation to charge density waves remains insufficiently understood. Here, we investigate the electronic Green's function of the underdoped $t$-$t'$-$J$ model of the cuprate superconductors using tensor network algorithms for finite temperature dynamics on cylinders of width $4$. We find the prominent momentum differentiation, the hallmark of the pseudogap, to be strongly dependent on $t'$, which develops into a momentum-dependent opening of a gap upon decreasing temperature, consistent with the formation of a Fermi arc at intermediate temperatures. The nodal gap around ${\\bf k}=(π/2,π/2)$ closes and fills with increasing temperature as coherent stripe order melts into a regime of fluctuating charge clusters.",
-      "pubdate": "Mon, 15 Jun 2026 17:05:50 +0000",
-      "authors": "Martin Ulaga, Aritra Sinha, Alexander Wietek"
-    },
-    "9cfd6df0302cc6e97d63799a1e516283": {
-      "id": "9cfd6df0302cc6e97d63799a1e516283",
-      "link": "http://arxiv.org/abs/2606.16424",
-      "title": "Real-space spectral functions of three-dimensional billion-size topological non-Hermitian matter with tensor networks",
-      "abstract": "Non-Hermitian systems host a wide range of unconventional topological phenomena while large-scale simulations in finite three dimensional systems remain challenging because of the rapidly growing number of sites. In particular, higher-order topological corner modes are often studied only in small lattices, where strong finite-size effects can mask their intrinsic behavior. Here, we develop a tensor-network framework that combines quantics tensor cross interpolation with the kernel polynomial method, enabling compact representations of large non-Hermitian tight-binding Hamiltonians and direct calculations of real-space spectral functions for systems exceeding one billion lattice sites. Using this approach, we investigate three-dimensional non-Hermitian higher-order topological insulators with with structured real-space geometries. The unprecedented system size enables direct access to the macroscopic regime and allows corner-mode spectral responses to be resolved in genuinely three-dimensional systems.By tuning the loss strength, we identify distinct in-gap corner modes across weak- and strong-loss regimes.Our results establish tensor-network algorithms as a powerful strategy to perform real-space spectral calculations in exceptionally large non-Hermitian systems.",
-      "pubdate": "Mon, 15 Jun 2026 09:02:11 +0000",
-      "authors": "Yitao Sun, Jose L. Lado, Guangze Chen"
-    },
-    "5d091ca57a19cb2833750851c57b5e54": {
-      "id": "5d091ca57a19cb2833750851c57b5e54",
-      "link": "http://arxiv.org/abs/2606.15679",
-      "title": "Stochastic trace estimation with tensor train random vectors",
-      "abstract": "Stochastic trace estimation is a standard tool for approximating the trace of a large-scale matrix available only through matrix-vector products. However, in tensor-structured settings, unstructured Gaussian or Rademacher test vectors may be prohibitively expensive to store and compute with, while cheaper rank-one tensor-product vectors can require sample complexities that grow exponentially with the tensor order. This work studies Gaussian random tensor train vectors as a structured alternative for stochastic trace estimation. We show that, with a suitable choice of the tensor train rank, random tensor train vectors recover dimension-independent guarantees for the Girard--Hutchinson estimator. In particular, a median-of-means variant with tensor train rank $r \\geq d-1$ achieves the same dependence on the accuracy $\\varepsilon$ and failure probability $δ$ as the classical estimator based on unstructured Gaussian vectors. We further prove an oblivious subspace injection result for sketches formed from independent Gaussian random tensor train vectors: tensor train rank $r\\geq d-1$ and $\\mathcal{O}(\\varepsilon^{-2}(k+\\log(1/δ)))$ samples suffice for a $k$-dimensional target subspace. Finally, we investigate the use of such sketches within the Nyström++ framework. We show that the resulting estimator can achieve the desired $\\mathcal{O}(\\varepsilon^{-1})$ sample complexity under an additional spectral-tail condition. These results provide clarififcation on both the potential and the limitations of random tensor train vectors in stochastic trace estimation.",
-      "pubdate": "Sun, 14 Jun 2026 08:55:47 +0000",
-      "authors": "Zvonimir Bujanović, Daniel Kressner, Hrvoje Olić"
-    },
-    "c57c739e9f3bca02f8d72ded42dbf957": {
-      "id": "c57c739e9f3bca02f8d72ded42dbf957",
-      "link": "http://arxiv.org/abs/2606.15588",
-      "title": "Topological Tricritical Ising Universality Class in One Dimension",
-      "abstract": "Recent advances have revealed that quantum critical universality can be enriched by nontrivial topology. Here we study the tricritical point of the one-dimensional cluster O Brien-Fendley model and show that it realizes a topologically nontrivial tricritical Ising ($\\text{TCI}^*$) universality class. The transition shares the local bulk conformal data of ordinary TCI criticality, while realizing a distinct symmetry-enriched topological sector, manifested through a protected twofold degeneracy under open boundary conditions. We further show that TCI criticality admits two spontaneously fixed boundary conditions, realized respectively through symmetry enrichment and boundary renormalization-group flow, which are distinguished by the $\\mathbb{Z}_2^T$ charge of the disorder field. Remarkably, we find that the topological twofold degeneracy at the $\\text{TCI}^*$ critical point exhibits an exponential energy splitting, in stark contrast to the algebraic splitting at the $\\text{Ising}^*$ critical point. These results reveal a symmetry-enriched form of TCI criticality and uncover topologically distinct boundary structures beyond those of the ordinary TCI theory.",
-      "pubdate": "Sun, 14 Jun 2026 04:16:10 +0000",
-      "authors": "Sheng Yang, Hai-Qing Lin, Xue-Jia Yu"
-    },
-    "c216a7b1e6cd7226f7c4e63e542a5dcc": {
-      "id": "c216a7b1e6cd7226f7c4e63e542a5dcc",
-      "link": "http://arxiv.org/abs/2606.15350",
-      "title": "Linear algebra at exponential scale via tensor network dimension reduction",
-      "abstract": "Many problems in modern scientific computing are challenging because of a \\emph{curse of dimension}, where their mathematical formulation involves objects whose dimension is \\emph{exponential} in the nominal \"size\" of the problem. Tensor networks can provide a compact representation for exponentially large vectors and matrices that arise in applications, but these representations do not always lead to reliable algorithms. This paper develops and analyzes techniques for randomized dimension reduction of tensor network data. These techniques support a suite of efficient algorithms for provably solving exponential-scale linear algebra problems, including trace estimation and eigenvalue approximation. The paper includes several stylized illustrations from quantum many-body physics with ambient dimension up to $2^{200}$.",
-      "pubdate": "Sat, 13 Jun 2026 15:29:19 +0000",
-      "authors": "Chris Camaño, Ethan N. Epperly, Raphael A. Meyer, Joel A. Tropp"
-    },
-    "a9c5c3c4f09775380c0fa21f3afc7841": {
-      "id": "a9c5c3c4f09775380c0fa21f3afc7841",
-      "link": "http://arxiv.org/abs/2606.14934",
-      "title": "Separable Neural Architectures as Physical World Models: from Mathematical Theory to Applications",
-      "abstract": "This work introduces the Separable Neural Architecture (SNA), a function representational class combining neural approximation with tensor decomposition. The SNA decouples localized coordinate functions (atoms) from global interactions governed by a sparse, low-rank interaction object. This architecture possesses a compact and smooth inductive bias well-suited for solving partial differential equations (PDEs). When viewed as a Galerkin trial space under the variational SNA (VSNA) framework, the formulation satisfies classical variational guarantees under Lax-Milgram: well-posedness, quasi-optimality, convergence, and stability. In high-dimensional spatiotemporal--parametric PDEs, the VSNA mitigates the curse of dimensionality by scaling algebraically rather than exponentially. Exploiting an entirely factorized, tensor-native alternating least squares (ALS) optimization framework reduces this cost to linear in dimension. The VSNA is validated across elliptic, hyperbolic, and parabolic systems, demonstrating close alignment with predicted algebraic and spectral scaling rates. We showcase the SNA as a \"solve once, query anywhere\" physical world model via two engineering case studies: a 7D parametric manufacturing simulation and an experimental thermal-to-property inversion pipeline for Inconel 718. The VSNA executes a 1,000,000-query Monte Carlo sweep in 102s on a standard laptop CPU, yielding a 150,000x speedup over a full-grid finite element baseline hosted on an NVIDIA A100 GPU. It further enables real-time generative inverse-mode reconstructions under 100ms. These results demonstrate that the SNA serves as a compact mathematical substrate for continuous parameter manifolds to enable real-time inversion, optimization loops, and rapid uncertainty propagation.",
-      "pubdate": "Fri, 12 Jun 2026 20:14:49 +0000",
-      "authors": "Reza T Batley, Andrew Kichline, Sourav Saha"
-    },
-    "5c9e9792be97f5f4f39db9277d7665e7": {
-      "id": "5c9e9792be97f5f4f39db9277d7665e7",
-      "link": "http://arxiv.org/abs/2606.14873",
-      "title": "Finite-Element Matrix Product States for Continuum Models in One Dimension",
-      "abstract": "We present a matrix product state framework for simulating one-dimensional quantum many-body systems in the continuum using non-orthogonal single-particle basis sets. By mapping the physical problem to an auxiliary computational space, we show that the resulting many-body overlap operator can be efficiently encoded as a matrix product operator for sufficiently localized orbitals, thereby generalizing a construction that first appeared in [arXiv:2405.10285]. This construction recasts the variational ground-state search into a generalized eigenvalue problem, which can be solved using a generalized density matrix renormalization group algorithm. As a primary application, we employ a first-order finite-element expansion to study the ground state properties of the Lieb-Liniger gas in the presence of inhomogeneities. This approach also provides a natural setting for exactly refining the lattice, thereby enabling multigrid optimization strategies for matrix product states.",
-      "pubdate": "Fri, 12 Jun 2026 18:20:21 +0000",
-      "authors": "Akshay Shankar, Karel Van Acoleyen, Jutho Haegeman"
     }
   }
 }
