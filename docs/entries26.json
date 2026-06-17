@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-17T01:10:47.324100+00:00",
+  "last_updated": "2026-06-17T13:24:59.400024+00:00",
   "entries": {
     "5e6d2f76b1515b24d4e756b2318761a6": {
       "id": "5e6d2f76b1515b24d4e756b2318761a6",
@@ -5544,6 +5544,38 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "0c17937e5fd93b1971549d5fad4b4a51": {
+      "id": "0c17937e5fd93b1971549d5fad4b4a51",
+      "link": "http://arxiv.org/abs/2606.17983",
+      "title": "Emergent de Sitter Space and Non-Unitary Tensor Networks from Non-Hermitian Quantum Criticality",
+      "abstract": "Extending the holographic principle to de Sitter (dS) spacetimes remains one of the most vital open frontiers in quantum gravity, where a microscopic, bottom-up tensor-network framework that relates boundary quantum data to emergent de Sitter spacetime is still lacking. In this work, we first show the emergence of de Sitter spacetime from boundary entanglement by formulating a non-unitary continuous multi-scale entanglement renormalization ansatz (cMERA) for a concrete non-Hermitian critical fermion chain. Within this emergent spacetime, we analyze the associated geodesics and show that they act as extremal Ryu-Takayanagi (RT) surfaces undergoing a smooth timelike-to-null transition. Remarkably, we demonstrate that this continuum trajectory dictates a distinct tensor-network architecture in which the bond-counting contribution naturally truncates at the discrete timelike-to-null transition toward the deep infrared. In the resulting architecture, the null ray along the horizon is represented by zero-cost links, since the associated cut severs no tensor legs. This network structure successfully reproduces the logarithmic scaling of non-unitary critical entanglement entropy, offering a bond-counting picture for the de Sitter RT formula. Our results provide the long-sought dS/(c)MERA correspondence at the level of both emergent spacetime and discrete holographic entanglement.",
+      "pubdate": "Tue, 16 Jun 2026 14:34:01 +0000",
+      "authors": "Kuang-Hung Chou, Po-Yao Chang"
+    },
+    "b145df174207c58268900146d92c2f93": {
+      "id": "b145df174207c58268900146d92c2f93",
+      "link": "http://arxiv.org/abs/2606.17751",
+      "title": "Cavity method for permutation models on Cayley trees",
+      "abstract": "Motivated by permutation statistical models arising in random tensor networks, we study permutation models on a Cayley tree whose variables take values in the symmetric group $\\Sn$. The pair interaction is assumed to depend only on the cycle type of the relative permutation. Then the Boltzmann weight is written as a class function on $\\Sn$. This property diagonalizes the edge convolution operator in irreducible representation sectors. As a result, the linear stability of the uniform paramagnetic cavity solution is controlled by the character eigenvalue ratios. For cycle-factorized weights, these eigenvalues can be expressed as specializations of Schur functions. We derive the instability criteria and also verify their validity by comparison with direct numerical iterations of the cavity equation.",
+      "pubdate": "Tue, 16 Jun 2026 10:12:41 +0000",
+      "authors": "Masayuki Ohzeki"
+    },
+    "25cbdf771fa8b99b1e12d8b79af6bb47": {
+      "id": "25cbdf771fa8b99b1e12d8b79af6bb47",
+      "link": "http://arxiv.org/abs/2606.17147",
+      "title": "When Renormalisation Remembers: UV/IR Mixing as an Entanglement Bridge",
+      "abstract": "Renormalisation is traditionally understood to be a Wilsonian memoryless process in which ultraviolet (UV) degrees of freedom gradually decouple, leaving an autonomous infrared (IR) description. However this need not be the case: in UV/IR mixed theories correlations between widely separated scales can persist. In this work I recast UV/IR mixing as a Hilbert-space phenomenon, realised as correlations across renormalisation scales. This formulation is implemented using the Born-Reciprocal Tensor Network (BRTN), a new configuration of tensor network that is globally symmetric under phase-space reciprocity. On this network I prepare the vacuum and reproduce the expected radiative corrections. The resulting renormalisation geometry exhibits memory, with a bridge linking reciprocal representations of IR physics, whose cross-bridge entanglement provides a precise criterion for the viability of an effective description. I analyse when this criterion is met, and show that there is a large-volume limit, with the fundamental scale held fixed, in which the obstruction to a local description scales away: Wilsonian behaviour is restored and renormalisation forgets. The BRTN therefore provides a concrete and calculable platform for UV/IR mixing.",
+      "pubdate": "Mon, 15 Jun 2026 18:00:02 +0000",
+      "authors": "Steven Abel"
+    },
+    "cb8dd0b381d8e45320440d2e1964a48f": {
+      "id": "cb8dd0b381d8e45320440d2e1964a48f",
+      "link": "http://arxiv.org/abs/2606.17064",
+      "title": "Tensor network compression using fluid dynamics as a testbed: Analytical foundations in one dimension",
+      "abstract": "High performance computers produce extreme-scale data sets that require sampling or compression if they are to be used to their full potential. Existing data compression techniques typically exploit features such as sparsity in the data, homogeneity in the data, or {\\it a priori} knowledge of what subsets of data are of most interest. Fluid dynamics data in general do not exhibit these features and so are attractive test beds for generic compression techniques that are objective, robust, and tuneable with respect to information lost due to compression. Presented here is a method based on tensor networks, specifically matrix product states or tensor trains, that meets these requirements. The method is demonstrated for compression in one-dimension and is extensible to higher dimensionality. Lossless compression is demonstrated for random Fourier series for sufficiently high bond dimension of the tensor network, with the memory required to store the tensor network scaling directly proportional to the bond dimension. The lossy compression exhibited at lower bond dimension can be well within the relative error of many fluid simulations. The compression algorithm is tested for the time evolution of Burger's equation with excellent results. We additionally demonstrate the capability to perform computations in the compressed form through a tensor network periodic convolution that can be orders of magnitude faster than using fast Fourier transforms and the convolution theorem. In addition to being an attractive method for working with data sets generated by existing computers, the tensor network methods utilised are directly translatable to the emerging paradigm of quantum computing.",
+      "pubdate": "Thu, 04 Jun 2026 11:12:08 +0000",
+      "authors": "Matthew D. Horner, Callum W. Duncan, Oliver T. Brown, Stephen M. de Bruyn Kops, Muralikrishnan Gopalakrishnan Meena"
     }
   }
 }
