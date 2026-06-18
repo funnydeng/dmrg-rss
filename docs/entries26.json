@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-18T01:09:27.805563+00:00",
+  "last_updated": "2026-06-18T13:20:22.822118+00:00",
   "entries": {
     "0c17937e5fd93b1971549d5fad4b4a51": {
       "id": "0c17937e5fd93b1971549d5fad4b4a51",
@@ -5576,6 +5576,46 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "592b2f13a85d0caf19ad3a878de3403d": {
+      "id": "592b2f13a85d0caf19ad3a878de3403d",
+      "link": "http://arxiv.org/abs/2606.19239",
+      "title": "Quantum-Classical Auxiliary-Field Quantum Monte Carlo at the Edge of Practicability",
+      "abstract": "We introduce algorithmic improvements to quantum-classical auxiliary-field quantum Monte Carlo (QC-AFQMC) that reduce the dominant per-step classical scaling from $\\tilde{\\mathcal{O}}(N^{5.5})$ to $\\tilde{\\mathcal{O}}(N^{4.5})$ as a function of the number of molecular spin-orbitals $N$. Central to this improvement is the application of Aitken's block transformation to handle singular Pfaffians arising in the estimation of overlaps between a quantum trial state and classical Slater-determinant walkers. Together with the use of algorithmic differentiation for the computation of the force bias, this yields a $248\\times$ estimated runtime improvement for a system of 100 molecular orbitals. Using our workflow, we demonstrate a ground-state energy calculation for $H_8$ from quantum data collected on IQM Emerald and post-processed with a tensor-network-based error-mitigation technique. We further validate the method's scalability through noiseless simulation of hydrogen chains up to $H_{12}$, and on the lithium-air battery related rearrangement pathway of the $Li_2O_4$ lithium superoxide dimer in a (26e, 20o) active space. We estimate both quantum and classical runtimes for a potential fault-tolerant implementation of QC-AFQMC, showing that the method holds promise for the early fault-tolerant era. These results move QC-AFQMC a step closer to treating chemically relevant systems.",
+      "pubdate": "Wed, 17 Jun 2026 16:19:25 +0000",
+      "authors": "Francesco Nappi, Matthew Kiser, Fedor Šimkovic"
+    },
+    "1f40f9cebe7a6b4ef11b4008c21b3c08": {
+      "id": "1f40f9cebe7a6b4ef11b4008c21b3c08",
+      "link": "http://arxiv.org/abs/2606.19206",
+      "title": "Mapping the non-equilibrium interacting Anderson Impurity Model to an effective Gaussian theory",
+      "abstract": "Quantum impurity models with strong electron correlations, such as the paradigmatic Anderson Impurity Model (AIM), are central to our understanding of a range of physical phenomena including local moment formation, Coulomb blockade and Kondo screening. They describe magnetic atoms and molecules on surfaces, quantum dot circuits, and correlated materials through dynamical mean field theory. The physics of such systems in strongly non-equilibrium conditions is particularly complex and challenging to capture, whereas Gaussian models of free fermions can be easily solved. Here we show that the time-evolving dynamics of the AIM after a quench can be described by a completely non-interacting version of the model, at the expense of coupling to additional static auxiliary degrees of freedom. Starting from the full solution of the quenched AIM using ED and DMRG, we study the properties of this mapping using numerical optimization, and uncover intriguing structure in the auxiliary system. The method allows us to understand interacting non-equilibrium dynamics through the simpler lens of an effective non-interacting system of larger dimension.",
+      "pubdate": "Wed, 17 Jun 2026 15:43:44 +0000",
+      "authors": "Emmanuel Bogacz, Graham Kells, Andrew K. Mitchell"
+    },
+    "04c012984602888528bd8594fae7a1eb": {
+      "id": "04c012984602888528bd8594fae7a1eb",
+      "link": "http://arxiv.org/abs/2606.19083",
+      "title": "Matrix Product Operators In The Age of Block Encoding",
+      "abstract": "We develop a block-encoding compiler that speeds up linear combination of unitaries Hamiltonian simulation programs by treating matrix product operators as compressed, virtual-path LCU programs. In showing how these new conditional PREP and SELECT stages are compiled in terms of a parent matrix product operator, we go beyond typical operator splitting product formulas and illustrate how tensor networks are a natural language and valid intermediate representation for quantum circuits. Our results are numerically verified for two important cases, namely, Heisenberg and perturbed Heisenberg-adjacent chain real-time evolution, and highlight polynomial speedups. Specifically, we highlight a polynomial speedup that avoids the $\\mathcal{O}(N^K)$ Pauli-string growth when the compressed MPO bond dimension and path normalization remain mild. We quantify how MPO truncation error and bond-dimension budgets affect the compiled polynomial representation. Our algorithms show how classical pre-processing in terms of tensor network data structures opens new avenues to accelerate quantum algorithms.",
+      "pubdate": "Wed, 17 Jun 2026 13:53:02 +0000",
+      "authors": "Eugene Dumitrescu"
+    },
+    "1d270121f3ff9934144aee9a4ad80d2e": {
+      "id": "1d270121f3ff9934144aee9a4ad80d2e",
+      "link": "http://arxiv.org/abs/2606.19033",
+      "title": "Contextuality as a Diagnostic of Translation-Symmetry Breaking in Translation-Invariant 1D Hamiltonians",
+      "abstract": "Bell- and contextuality-type inequalities have become practical probes of many-body quantum correlations, often involving only few-body correlators and quantities with a direct Hamiltonian interpretation such as an energy density. Here we show that, in infinite one-dimensional translation-invariant chains, contextuality can acquire a genuinely thermodynamic meaning: within the witness families studied, the maximal quantum violation coincides with spontaneous breaking of one-site translation symmetry, producing strictly $p$-periodic ground states with $p>1$. Along natural continuous interpolations between classical-bound and quantum-optimal Hamiltonians, the classical bound marks a symmetry-breaking point where competing classical periodicities are lifted in favor of a unique quantum-selected period. At the quantum optimum, the studied families admit exact finite-size reductions: a translation-invariant contextuality witness induces a $p$-site periodic-boundary-condition inequality with identical classical and quantum bounds (hence no loss under reduction), and in several cases the resulting finite inequalities are tight. This reduction turns an infinite-chain contextuality certification into a compact, hardware-testable benchmark on a small ring, requiring only local energy measurements. We establish the mechanism analytically in representative two- and three-body witness models and corroborate it more broadly using a translation-invariant adaptation of semidefinite-program hierarchies together with variational matrix-product-state algorithms.",
+      "pubdate": "Wed, 17 Jun 2026 12:59:07 +0000",
+      "authors": "Xiao Zeng, Kaiyan Yang, Lingxia Zhang, Zizhu Wang"
+    },
+    "4d328a3fcd1195b21d47b70542d0cef3": {
+      "id": "4d328a3fcd1195b21d47b70542d0cef3",
+      "link": "http://arxiv.org/abs/2606.18339",
+      "title": "Ground state preparation of random all-to-all Hamiltonians using ADAPT-VQE",
+      "abstract": "The ground state of random Hamiltonians with all-to-all interactions such as the quantum Sherrington-Kirkpatrick (SK) model and the Sachdev-Ye-Kitaev (SYK) model follow volume-law entanglement and are expected to be hard to model using tensor networks. In recent years, some progress has been made to push the limit of classical methods using neural quantum states. However, it remains an open question whether there exist quantum algorithms that could offer a quantum advantage over the state-of-the-art classical methods in simulating random Hamiltonians. In this work, we show that one such algorithm, TETRIS-ADAPT-VQE, can construct accurate ground states for dense and sparse SYK models containing up to $N=20$ Majorana fermions achieving fidelities $\\geq 99.3\\%$ and for the quantum SK model with up to $L=18$ sites achieving fidelities $\\geq 99.9998\\%$. We find that while the preparation of ground states is efficient (in terms of operator pool size and circuit depth) for the SK model, it is not efficient for either dense or moderately sparse SYK models.",
+      "pubdate": "Tue, 16 Jun 2026 18:00:00 +0000",
+      "authors": "Sabhyata Gupta, Bharath Sambasivam, Sophia E. Economou, Edwin Barnes, Alexander F. Kemper, Raghav G. Jha"
     }
   }
 }
