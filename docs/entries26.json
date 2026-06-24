@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-24T00:57:55.899593+00:00",
+  "last_updated": "2026-06-24T12:54:43.606486+00:00",
   "entries": {
     "5d45446a69414ed0edaab67b036f6283": {
       "id": "5d45446a69414ed0edaab67b036f6283",
@@ -5816,6 +5816,54 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "13f3d332b6b7cd23a198e2fea5dfb3cd": {
+      "id": "13f3d332b6b7cd23a198e2fea5dfb3cd",
+      "link": "http://arxiv.org/abs/2606.24803",
+      "title": "Introduction to matrix-product states and tensor networks",
+      "abstract": "These notes provide an introduction to tensor-network methods in quantum many-body physics, with an emphasis on matrix-product states (MPS). They develop the basic tensor-network language, including graphical notation, virtual indices, bond dimensions, gauge freedom, canonical forms, QR and singular-value decompositions, and the role of entanglement in controlling the efficiency of the representation. The main MPS algorithms are then introduced, including contractions, correlation functions, matrix-product operators, DMRG, and time-evolution methods. The notes also briefly discuss projected entangled-pair states (PEPS) as a higher-dimensional generalization of MPS, together with the basic ideas behind approximate PEPS contraction. Finally, tensor-network representations of mixed states, quantum channels, and Lindblad dynamics are presented, with applications to thermal states and open quantum systems. The presentation is accompanied by short Julia code examples based on ITensor, ITensorMPS, and TensorMixedStates. These notes were written for the 9th Les Houches Summer School on Computational Physics: Open Quantum Systems, held in June 2026.",
+      "pubdate": "Tue, 23 Jun 2026 16:53:38 +0000",
+      "authors": "Grégoire Misguich"
+    },
+    "4a82cf015b01a0a53b141aee64d8a13c": {
+      "id": "4a82cf015b01a0a53b141aee64d8a13c",
+      "link": "http://arxiv.org/abs/2606.24713",
+      "title": "Symmetric mass generation of interacting chiral fermions on a one-dimensional lattice without fermion doubling",
+      "abstract": "Symmetric mass generation is the interaction-induced opening of a fermion gap without spontaneous symmetry breaking. The anomaly-free 3-4-5-0 model of Wang and Wen provides a minimal one-dimensional setting for this phenomenon, but a direct lattice realization faces two obstacles: fermion doubling for local chiral discretizations and perturbative irrelevance of the six-fermion gapping interaction. We address both obstacles. First, we formulate the model on a strictly one-dimensional tangent-fermion lattice, where a nonlocal hopping produces a single chiral branch without a mirror partner while retaining an efficient tensor-network representation. Second, we add a Hubbard-type density-density interaction (Luttinger parameter $K$) that reduces the scaling dimension of the 3-4-5-0 interaction from $5$ to $5K$, making it relevant for $K<2/5$. Density-matrix renormalization group calculations show the opening of an excitation gap in this regime without the appearance of a degenerate ground state, the hallmark of symmetric mass generation.",
+      "pubdate": "Tue, 23 Jun 2026 15:34:45 +0000",
+      "authors": "V. A. Zakharov, Atsushi Ueda, Frank Verstraete, C. W. J. Beenakker"
+    },
+    "707bc595352fb2a5cb906503befa3f35": {
+      "id": "707bc595352fb2a5cb906503befa3f35",
+      "link": "http://arxiv.org/abs/2606.24475",
+      "title": "Exact log-depth preparation of highly entangled matrix product states",
+      "abstract": "Preparing matrix product states (MPS) on a quantum device is a key subroutine in many quantum algorithms. The most competitive methods, based on the renormalisation group, prepare translationally invariant MPS of size $L$ and bond dimension $χ$, up to an error $\\varepsilon$, in circuit depth $\\tilde O(χ^{4}\\log(L/\\varepsilon))$ or $\\tilde O(χ^{6}\\log\\log(L/\\varepsilon))$. We improve multiple aspects of these methods. First, using block-encoded correction maps, whose post-selection succeeds with constant probability, we render the preparation exact without sacrificing the scaling in $L$. Second, through a generalisation of oblivious amplitude amplification to isometries, we reduce the bond-dimension dependence, improving the depth to $\\tilde O(χ^{2}\\log L + χ^{4})$ or $\\tilde O(χ^{2}\\log\\log L + χ^{4})$, and even to $\\tilde O(χ^{3}\\log L)$ for incoherent preparations. Finally, we extend the framework to non-translationally invariant MPS and prove logarithmic-depth exact preparation for independent and identically distributed random tensor sequences. Confirmed by numerical studies, these results constitute, to the best of our knowledge, the most efficient exact MPS preparation protocols in the relevant parameter regimes.",
+      "pubdate": "Tue, 23 Jun 2026 12:08:42 +0000",
+      "authors": "Keisuke Murota, Frédéric Sauvage, Marco Ballarin, Gabriel Matos, Enrico Rinaldi"
+    },
+    "4f538768dfdb75f40229dc2156c81e37": {
+      "id": "4f538768dfdb75f40229dc2156c81e37",
+      "link": "http://arxiv.org/abs/2606.23949",
+      "title": "Variational inference and density estimation with non-negative tensor of hierarchical tucker format",
+      "abstract": "In this work, we present an efficient method to compress a high-dimensional discrete probability function, i.e., a probability tensor, into a non-negative hierarchical Tucker format. The methodology is a two-stage procedure. In the first stage, we take an existing interpolation method to compress the target tensor into a hierarchical Tucker (HT) in a manner similar to the CUR decomposition for low-rank matrix reconstruction. In the second stage, we fit the first-stage output against a non-negative hierarchical Tucker ansatz using a second-order method tailored specifically for this setting. When the tensor is of order \\(d\\), both stages admit an \\(\\mathcal{O}(d)\\) computational complexity, and therefore the proposed methodology readily extends into high-dimensional settings. Numerical experiments show success in compressing various high-dimensional probability tensors.",
+      "pubdate": "Mon, 22 Jun 2026 21:20:04 +0000",
+      "authors": "Xun Tang, Haoxuan Chen, Lexing Ying"
+    },
+    "c2d49a6995b910ed762b14de25a965ea": {
+      "id": "c2d49a6995b910ed762b14de25a965ea",
+      "link": "http://arxiv.org/abs/2606.23823",
+      "title": "Wavelet Matrix Product States for Quantum Fields",
+      "abstract": "We introduce a variational method to solve continuum quantum models with discrete tensor network techniques. The method leverages wavelet matrix product states (wMPS): matrix product states built on top of sufficiently regular ($N\\geq 6$) Daubechies scaling functions. These states live in the continuum field theory Fock space, have finite energy density, and can be optimized with standard algorithms, without restriction to free theories. Further, exploiting the multi-resolution analysis built into wavelets, and its quantum circuit description, we can iteratively refine wMPS to obtain accurate approximations at arbitrarily fine length-scales. We showcase the efficiency of the method on the Lieb-Liniger model, computing energy density and correlation functions.",
+      "pubdate": "Mon, 22 Jun 2026 18:07:17 +0000",
+      "authors": "Molly Kaplan, Antoine Tilloy"
+    },
+    "d0f09a0c2865d6aa6edf11549fd0a0b5": {
+      "id": "d0f09a0c2865d6aa6edf11549fd0a0b5",
+      "link": "http://arxiv.org/abs/2606.23803",
+      "title": "Infinite-Level Hierarchy of Solvable Quantum Circuits",
+      "abstract": "Dual-unitary circuits have emerged as a paradigm of exactly solvable yet non-integrable quantum dynamics. Recently, a generalization of dual unitarity attempting to extend the phenomenology of exactly solvable circuits has been introduced through a hierarchy of conditions, with dual unitarity as the first level. However, beyond the second level the proposed generalized dual-unitary hierarchy ceases to be solvable in the whole spacetime. We present an infinite hierarchy of solvability conditions remedying this problem. These new conditions can be combined with the generalized dual-unitary hierarchy to obtain circuits for which correlation functions and entanglement dynamics can be analyzed exactly in the whole spacetime. We show that this novel hierarchy possesses non-trivial solutions at every level. Our results demonstrate that dual unitarity can be systematically extended while preserving solvability, opening up investigations of exactly solvable non-integrable systems with more general properties.",
+      "pubdate": "Mon, 22 Jun 2026 18:00:05 +0000",
+      "authors": "Michael A. Rampp, Suhail A. Rather, Pieter W. Claeys"
     }
   }
 }
