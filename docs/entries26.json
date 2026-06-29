@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-29T01:06:14.902899+00:00",
+  "last_updated": "2026-06-29T13:42:13.065521+00:00",
   "entries": {
     "51850892dc24322a0ff978609981eb2c": {
       "id": "51850892dc24322a0ff978609981eb2c",
@@ -5952,6 +5952,38 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "2e2753b8f6bf716bf433439389cf69ff": {
+      "id": "2e2753b8f6bf716bf433439389cf69ff",
+      "link": "http://arxiv.org/abs/2606.28169",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "207de797795dcee17ad2790bf6c8d28e": {
+      "id": "207de797795dcee17ad2790bf6c8d28e",
+      "link": "http://arxiv.org/abs/2606.28000",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "48a762cfb1846f0d75aabb66a0caedbd": {
+      "id": "48a762cfb1846f0d75aabb66a0caedbd",
+      "link": "http://arxiv.org/abs/2606.27991",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "64903eec6135d146d7baff7ba518aa67": {
+      "id": "64903eec6135d146d7baff7ba518aa67",
+      "link": "http://arxiv.org/abs/2606.27493",
+      "title": "SU(4) Heisenberg model on the hyperhoneycomb lattice",
+      "abstract": "We study the ground state of the SU(4) Heisenberg model on the hyperhoneycomb lattice using three-dimensional projected entangled pair states. We show that it is possible to compute physical observables for the ground states using loop expansions, which converge quickly on tree-like lattices. Our extrapolations to the limit of infinite bond dimensions point toward gapless spin-liquid ground state.",
+      "pubdate": "Thu, 25 Jun 2026 19:16:57 +0000",
+      "authors": "I. V. Lukin, A. G. Sotnikov"
     }
   }
 }

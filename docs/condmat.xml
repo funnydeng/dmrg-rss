@@ -8,7 +8,32 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 29 Jun 2026 01:06:14 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 13:42:13 +0000</lastBuildDate>
+    <item>
+      <title>SU(4) Heisenberg model on the hyperhoneycomb lattice</title>
+      <link>http://arxiv.org/abs/2606.27493</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; I. V. Lukin, A. G. Sotnikov&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We study the ground state of the SU(4) Heisenberg model on the hyperhoneycomb lattice using three-dimensional projected entangled pair states. We show that it is possible to compute physical observables for the ground states using loop expansions, which converge quickly on tree-like lattices. Our extrapolations to the limit of infinite bond dimensions point toward gapless spin-liquid ground state.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2606.27493'&gt;arXiv:2606.27493&lt;/a&gt;] Published Thu, 25 Jun 2026 19:16:57 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2606.27493</guid>
+      <pubDate>Thu, 25 Jun 2026 19:16:57 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <link>http://arxiv.org/abs/2606.27991</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2606.27991'&gt;arXiv:2606.27991&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2606.27991</guid>
+      <pubDate>Mon, 29 Jun 2026 13:42:13 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <link>http://arxiv.org/abs/2606.28000</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2606.28000'&gt;arXiv:2606.28000&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2606.28000</guid>
+      <pubDate>Mon, 29 Jun 2026 13:42:13 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <link>http://arxiv.org/abs/2606.28169</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2606.28169'&gt;arXiv:2606.28169&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2606.28169</guid>
+      <pubDate>Mon, 29 Jun 2026 13:42:13 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
     <item>
       <title>Full grid solution for multi-asset options pricing with tensor networks</title>
       <link>http://arxiv.org/abs/2601.00009</link>
