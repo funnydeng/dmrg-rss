@@ -1,6 +1,14 @@
 {
-  "last_updated": "2026-06-29T13:42:13.065521+00:00",
+  "last_updated": "2026-06-30T01:03:41.377176+00:00",
   "entries": {
+    "64903eec6135d146d7baff7ba518aa67": {
+      "id": "64903eec6135d146d7baff7ba518aa67",
+      "link": "http://arxiv.org/abs/2606.27493",
+      "title": "SU(4) Heisenberg model on the hyperhoneycomb lattice",
+      "abstract": "We study the ground state of the SU(4) Heisenberg model on the hyperhoneycomb lattice using three-dimensional projected entangled pair states. We show that it is possible to compute physical observables for the ground states using loop expansions, which converge quickly on tree-like lattices. Our extrapolations to the limit of infinite bond dimensions point toward gapless spin-liquid ground state.",
+      "pubdate": "Thu, 25 Jun 2026 19:16:57 +0000",
+      "authors": "I. V. Lukin, A. G. Sotnikov"
+    },
     "51850892dc24322a0ff978609981eb2c": {
       "id": "51850892dc24322a0ff978609981eb2c",
       "link": "http://arxiv.org/abs/2606.27358",
@@ -5956,10 +5964,10 @@
     "2e2753b8f6bf716bf433439389cf69ff": {
       "id": "2e2753b8f6bf716bf433439389cf69ff",
       "link": "http://arxiv.org/abs/2606.28169",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
+      "title": "Time Evolution on Hybrid Tensor Networks -- A Novel and Parallelizable Algorithm",
+      "abstract": "We develop a novel time-evolution algorithm for matrix product states based on the recently introduced hybrid tensor network (hTN) framework. We retain the tensors close to the boundary on the classical computer and offload the highly entangled inner ones to the quantum computer. In our variant, we employ the Basis Update and Galerkin (BUG) integrator to time-evolve the classical tensors, and we develop a coupling scheme between the classical and quantum parts. Our framework admits modular combination with any quantum time-evolution method, such as (classically pre-optimized) Trotterization. The ratio of classical and quantum tensor degrees of freedom can be dynamically adjusted during the time evolution, which can be advantageous when the classical memory requirements become prohibitive. The quantum and classical components can run in parallel during a single time step and are not constrained by synchronization barriers or mid-circuit measurements. We describe the detailed steps and pseudocode for our algorithm specialized for tensor networks originating from the matrix product state Ansatz.",
+      "pubdate": "Fri, 26 Jun 2026 15:02:02 +0000",
+      "authors": "Tobias V. Bauer, Richard M. Milbradt, Christian B. Mendl"
     },
     "207de797795dcee17ad2790bf6c8d28e": {
       "id": "207de797795dcee17ad2790bf6c8d28e",
@@ -5976,14 +5984,6 @@
       "abstract": "",
       "pubdate": null,
       "authors": ""
-    },
-    "64903eec6135d146d7baff7ba518aa67": {
-      "id": "64903eec6135d146d7baff7ba518aa67",
-      "link": "http://arxiv.org/abs/2606.27493",
-      "title": "SU(4) Heisenberg model on the hyperhoneycomb lattice",
-      "abstract": "We study the ground state of the SU(4) Heisenberg model on the hyperhoneycomb lattice using three-dimensional projected entangled pair states. We show that it is possible to compute physical observables for the ground states using loop expansions, which converge quickly on tree-like lattices. Our extrapolations to the limit of infinite bond dimensions point toward gapless spin-liquid ground state.",
-      "pubdate": "Thu, 25 Jun 2026 19:16:57 +0000",
-      "authors": "I. V. Lukin, A. G. Sotnikov"
     }
   }
 }

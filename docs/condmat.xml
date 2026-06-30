@@ -8,31 +8,25 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 29 Jun 2026 13:42:13 +0000</lastBuildDate>
-    <item>
-      <title>SU(4) Heisenberg model on the hyperhoneycomb lattice</title>
-      <link>http://arxiv.org/abs/2606.27493</link>
-      <description>&lt;b&gt;Author(s):&lt;/b&gt; I. V. Lukin, A. G. Sotnikov&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We study the ground state of the SU(4) Heisenberg model on the hyperhoneycomb lattice using three-dimensional projected entangled pair states. We show that it is possible to compute physical observables for the ground states using loop expansions, which converge quickly on tree-like lattices. Our extrapolations to the limit of infinite bond dimensions point toward gapless spin-liquid ground state.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2606.27493'&gt;arXiv:2606.27493&lt;/a&gt;] Published Thu, 25 Jun 2026 19:16:57 UTC&lt;/b&gt;</description>
-      <guid isPermaLink="false">http://arxiv.org/abs/2606.27493</guid>
-      <pubDate>Thu, 25 Jun 2026 19:16:57 +0000</pubDate>
-    <dc:creator>Unknown</dc:creator></item>
+    <lastBuildDate>Tue, 30 Jun 2026 01:03:41 +0000</lastBuildDate>
     <item>
       <link>http://arxiv.org/abs/2606.27991</link>
       <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2606.27991'&gt;arXiv:2606.27991&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
       <guid isPermaLink="false">http://arxiv.org/abs/2606.27991</guid>
-      <pubDate>Mon, 29 Jun 2026 13:42:13 +0000</pubDate>
+      <pubDate>Tue, 30 Jun 2026 01:03:42 +0000</pubDate>
     <dc:creator>Unknown</dc:creator></item>
     <item>
       <link>http://arxiv.org/abs/2606.28000</link>
       <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2606.28000'&gt;arXiv:2606.28000&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
       <guid isPermaLink="false">http://arxiv.org/abs/2606.28000</guid>
-      <pubDate>Mon, 29 Jun 2026 13:42:13 +0000</pubDate>
+      <pubDate>Tue, 30 Jun 2026 01:03:42 +0000</pubDate>
     <dc:creator>Unknown</dc:creator></item>
     <item>
+      <title>Time Evolution on Hybrid Tensor Networks -- A Novel and Parallelizable Algorithm</title>
       <link>http://arxiv.org/abs/2606.28169</link>
-      <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2606.28169'&gt;arXiv:2606.28169&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Tobias V. Bauer, Richard M. Milbradt, Christian B. Mendl&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We develop a novel time-evolution algorithm for matrix product states based on the recently introduced hybrid tensor network (hTN) framework. We retain the tensors close to the boundary on the classical computer and offload the highly entangled inner ones to the quantum computer. In our variant, we employ the Basis Update and Galerkin (BUG) integrator to time-evolve the classical tensors, and we develop a coupling scheme between the classical and quantum parts. Our framework admits modular combination with any quantum time-evolution method, such as (classically pre-optimized) Trotterization. The ratio of classical and quantum tensor degrees of freedom can be dynamically adjusted during the time evolution, which can be advantageous when the classical memory requirements become prohibitive. The quantum and classical components can run in parallel during a single time step and are not constrained by synchronization barriers or mid-circuit measurements. We describe the detailed steps and pseudocode for our algorithm specialized for tensor networks originating from the matrix product state Ansatz.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2606.28169'&gt;arXiv:2606.28169&lt;/a&gt;] Published Fri, 26 Jun 2026 15:02:02 UTC&lt;/b&gt;</description>
       <guid isPermaLink="false">http://arxiv.org/abs/2606.28169</guid>
-      <pubDate>Mon, 29 Jun 2026 13:42:13 +0000</pubDate>
+      <pubDate>Fri, 26 Jun 2026 15:02:02 +0000</pubDate>
     <dc:creator>Unknown</dc:creator></item>
     <item>
       <title>Full grid solution for multi-asset options pricing with tensor networks</title>
@@ -5241,6 +5235,13 @@
       <description>&lt;b&gt;Author(s):&lt;/b&gt; Yichen Xu, Xiao Wang&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We introduce a surface-code cultivation protocol for reusable logical catalyst states that implement exact fine dyadic phase gates $Z^{2^{-b}}$ by phase kickback. The catalyst is an eigenstate of a high-period Clifford circuit $U$, with a direct construction supported on $O(2^b)$ logical qubits. Once cultivated, each invocation implements the target phase through a controlled-$U$ gadget, removing Clifford+$T$ synthesis approximation error from the online gate and making the online non-Clifford depth independent of the target logical accuracy. As a concrete demonstration, we construct a catalyst for $\sqrt{T}=Z^{1/8}$, where $U$ is a nine-qubit brickwork Clifford circuit and controlled-$U$ consists of eight controlled-CNOTs. Starting from nine distance-three rotated-surface-code blocks, we cultivate the catalyst through logical-$U$ checks, syndrome extraction and postselection, code growth, and complementary-gap decoding. Due to the intrinsic fault tolerance of the phase read-out, a \emph{single} verification round already reaches the leading error-corrected scaling, in contrast to the repeated logical checks required when cultivating single-qubit magic states. A hybrid tensor-network and stabilizer simulation shows that, at physical error rate $p=10^{-3}$, the postselected catalyst can be grown to distance-seven rotated-surface-code blocks with logical leakage rate $\sim 10^{-6}$ using around seven expected attempts, and can be suppressed further with stronger postselection. Compared with existing protocols, our approach trades offline, phase-specific catalyst cultivation for exactness, reusability, and constant-depth online implementation of fixed fine dyadic phases in codes with restricted transversal gate sets.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2606.27358'&gt;arXiv:2606.27358&lt;/a&gt;] Published Thu, 25 Jun 2026 17:58:01 UTC&lt;/b&gt;</description>
       <guid isPermaLink="false">http://arxiv.org/abs/2606.27358</guid>
       <pubDate>Thu, 25 Jun 2026 17:58:01 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <title>SU(4) Heisenberg model on the hyperhoneycomb lattice</title>
+      <link>http://arxiv.org/abs/2606.27493</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; I. V. Lukin, A. G. Sotnikov&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; We study the ground state of the SU(4) Heisenberg model on the hyperhoneycomb lattice using three-dimensional projected entangled pair states. We show that it is possible to compute physical observables for the ground states using loop expansions, which converge quickly on tree-like lattices. Our extrapolations to the limit of infinite bond dimensions point toward gapless spin-liquid ground state.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2606.27493'&gt;arXiv:2606.27493&lt;/a&gt;] Published Thu, 25 Jun 2026 19:16:57 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2606.27493</guid>
+      <pubDate>Thu, 25 Jun 2026 19:16:57 +0000</pubDate>
     <dc:creator>Unknown</dc:creator></item>
   </channel>
 </rss>
