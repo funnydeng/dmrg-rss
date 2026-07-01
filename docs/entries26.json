@@ -1,6 +1,102 @@
 {
-  "last_updated": "2026-06-30T12:50:21.918109+00:00",
+  "last_updated": "2026-07-01T01:06:30.593923+00:00",
   "entries": {
+    "0125e4dc54f771bd31ecb8d5048c742c": {
+      "id": "0125e4dc54f771bd31ecb8d5048c742c",
+      "link": "http://arxiv.org/abs/2606.30569",
+      "title": "Revisiting crossed-correlated baths in open quantum systems simulated by HEOM or T-TEDOPA",
+      "abstract": "Excited-state dynamics of open quantum systems is analyzed by the hierarchical equations of motion (HEOM) or the thermalized time-evolving density operator with orthogonal polynomials algorithm (T-TEDOPA) method when a discrete $ab$ $initio$ linear vibronic model is parametrized by continuous temperature-dependent spectral densities leading to crossed correlation functions, i.e. correlated fluctuations of the energy gap collective modes. We focus on a conical intersection involving two collective modes tuning the energy of each excited state and we revisit the transformation of the initial correlated tuning baths to de-correlated shared baths in order to reduce the computational resources. While a completely frequency-dependent transformation poses problems for HEOM, we find that in some particular cases, an optimal approximate frequency-independent transformation may be derived. On the contrary, T-TEDOPA is very efficient and allows to use this frequency-dependent transformation at the price of managing long-range couplings in the tensor chain. An illustrative application is shown by using the linear vibronic coupling model of a planar symmetrical (phenylethynyl)benzene dimer.",
+      "pubdate": "Mon, 29 Jun 2026 17:11:04 +0000",
+      "authors": "Brieuc Le Dé, Etienne Mangaud, Alex W. Chin, Michèle Desouter-Lecomte"
+    },
+    "a3030c23f48a876b2d3c4cec68bb739b": {
+      "id": "a3030c23f48a876b2d3c4cec68bb739b",
+      "link": "http://arxiv.org/abs/2606.30466",
+      "title": "Holography and Kinematic Space for Gravitational Sub-regions in AdS",
+      "abstract": "It is well-known in integral geometry that a maximally symmetric Riemannian manifold, such as a static slice of vacuum AdS spacetime, can be perfectly covered by the geodesics in the Kinematic space, which we call the partial-entanglement-entropy (PEE) threads. In this context, the area of a codimension-one surface in the manifold can be computed by counting its intersections with the PEE threads, which is the celebrated Crofton formula. In this paper, we analyze the Kinematic space for a generic subregion in vacuum AdS space, and propose that the PEE threads emanate from a co-dimension one surface can perfectly cover a subregion in the manifold. Furthermore, we build holographic tensor network models on the network of the PEE threads confined in a subregion, thereby providing a concrete framework that realizes the surface-state correspondence and the generalized entanglement wedges for gravitational subregions.",
+      "pubdate": "Mon, 29 Jun 2026 15:29:53 +0000",
+      "authors": "Debarshi Basu, Qiang Wen"
+    },
+    "f5da323d9308a51b7352ff64252955bc": {
+      "id": "f5da323d9308a51b7352ff64252955bc",
+      "link": "http://arxiv.org/abs/2606.30465",
+      "title": "Heat rectification through a quantum two-level system",
+      "abstract": "We study heat rectification through a quantum two-level system asymmetrically coupled to two thermal baths, as described by the Ohmic spin-boson model. We evaluate the steady-state heat current using a tensor-network approach, which enables us to access the strongly correlated regime, and benchmark the results against analytical formulas in several limiting regimes, including the weak-coupling and incoherent-tunneling regimes. We identify a scaling regime where the studied system flows from an ultraviolet regime, at temperatures larger than the Kondo temperature, to an infrared regime, at temperatures lower than the Kondo temperature. By applying perturbation theory near the infrared fixed point, we find that the rectification ratio follows a universal power law. Our numerical results agree well with this analytical prediction. Our results provide a fundamental understanding of how dissipation-induced many-body physics affects heat transport.",
+      "pubdate": "Mon, 29 Jun 2026 15:28:50 +0000",
+      "authors": "Tsuyoshi Yamamoto, Manuel Houzet"
+    },
+    "d31ef210610dec36372c4f4954dfd093": {
+      "id": "d31ef210610dec36372c4f4954dfd093",
+      "link": "http://arxiv.org/abs/2606.30176",
+      "title": "Trimers in the Extended Hubbard Model",
+      "abstract": "The Lieb theorem is a cornerstone of quantum magnetism theory in condensed matter. In this work, we investigate the instability of the Lieb insulating ferrimagnetic phase in the extended Hubbard model on a trimer chain at half-filling, with one electron per site, under increasing the nearest-neighbor Coulomb coupling $V$. Our results show that despite a noticeable increase in doublon density with $V$, the ferrimagnetic insulating phase remains robust up to the phase separation (PS) line, which is observed at $V \\gtrsim U/4$, where $U$ is the local Coulomb repulsion. Above the PS line, one of the coexisting phases is primarily populated by doublons on one of the two sublattices of the chain. This phase coexists with a metallic, unsaturated ferromagnetic phase for $U \\gtrsim t$, and with a singlet phase for $U \\lesssim t$, where $t$ is the intra-trimer hopping amplitude. We estimate the PS and the crossover lines with the help of density matrix renormalization group calculations.",
+      "pubdate": "Mon, 29 Jun 2026 11:51:02 +0000",
+      "authors": "R. R. Montenegro-Filho, D. R. B. Silva, D. Cogollo, M. D. Coutinho-Filho"
+    },
+    "867c91d015b128562cbe271f19f2c606": {
+      "id": "867c91d015b128562cbe271f19f2c606",
+      "link": "http://arxiv.org/abs/2606.30173",
+      "title": "Low-Rank Tensor Completion using Tensor Train Decomposition via Riemannian Optimization on the Quotient Geometry",
+      "abstract": "Owing to the effectiveness of Tensor Train (TT) decomposition in managing high-order tensors, low-rank tensor completion within the TT-format has emerged as a prominent research focus. In this paper, we leverage the left-orthogonal property of the TT-decomposition to construct a novel quotient manifold and introduce a family of admissible Riemannian metrics. Within this geometric framework, we propose a new approach to constructing retractions compatible with the quotient structure, realized via two novel retractions based on recursive polar and QR decompositions that respect the recursive orthogonalization structure of the TT format. We then derive Riemannian gradient descent and conjugate gradient methods to solve the tensor completion problem. Theoretically, our approach streamlines the horizontal projection by reducing the number of unknowns per block from a quadratic dependence on the TT-ranks to a near-half scaling, thereby enhancing computational efficiency over conventional quotient-based methods. Numerical experiments demonstrate that the proposed algorithms achieve reconstruction accuracy comparable to state-of-the-art TT-based geometric methods.",
+      "pubdate": "Mon, 29 Jun 2026 11:49:44 +0000",
+      "authors": "Zhenlong Hu, Zhongming Chen, Defeng Sun, Liping Zhang"
+    },
+    "001b1b6aeacd10fffddff690763b6e33": {
+      "id": "001b1b6aeacd10fffddff690763b6e33",
+      "link": "http://arxiv.org/abs/2606.29662",
+      "title": "Fixed-parameter tractable computation of Reshetikhin--Turaev knot polynomials via tensor networks",
+      "abstract": "We give a thorough analysis of the time complexity of computing Reshetikhin--Turaev knot polynomials via tensor contractions on the associated tensor networks, showing that the computation is fixed-parameter tractable with respect to a parameter at most linear in the tree-width of the input knot diagram. When combined with existing approximation algorithms for tree decomposition, this recovers the sub-exponential bound $e^{O(\\sqrt{n})}$ for the time complexity of computing any Reshetikhin--Turaev knot polynomial. We accompany this paper with an implementation of such an algorithm in SnapPy, which computes any Reshetikhin--Turaev knot polynomial given its $R$-matrix and ribbon element.",
+      "pubdate": "Mon, 29 Jun 2026 00:12:48 +0000",
+      "authors": "Shana Yunsheng Li"
+    },
+    "6f55c53bc90a94a689c7b23c98c8ae1f": {
+      "id": "6f55c53bc90a94a689c7b23c98c8ae1f",
+      "link": "http://arxiv.org/abs/2606.29133",
+      "title": "Shadow tomography for classical tensor network simulations",
+      "abstract": "Shadow tomography has appeared as a powerful tool for estimating observables on quantum computers from a small number of samples. We show that shadow-tomography-inspired ideas can offer similarly improved sample scaling for estimating observables on tensor network states on classical computers after proper adaptation. We develop strategies for both spin (bosonic) and fermionic systems, tailored to the contraction requirements of tensor networks, and generate scaling improvements of factors of $O(N)$ to $O(N^{3})$ (where $N$ is system size), depending on the specific task and system type. For the important and difficult task of evaluating the expectation value of long-range interacting Hamiltonians, we achieve the optimal $O(1)$ overall scaling (up to logarithmic factors) for an arbitrarily fixed relative Monte Carlo error in both spin and fermionic systems. Additionally, we show that shadow estimators offer more stable gradients of observables in variational optimization tasks than standard Monte Carlo estimators. We demonstrate practical advantage by simulating systems with long-range interactions, including the 2D long-range Heisenberg model and an ab-initio quantum chemistry Hamiltonian.",
+      "pubdate": "Sun, 28 Jun 2026 00:43:06 +0000",
+      "authors": "Jiace Sun, Garnet Kin-Lic Chan"
+    },
+    "a9e3f2569535a3c9a730668f6efc0ec8": {
+      "id": "a9e3f2569535a3c9a730668f6efc0ec8",
+      "link": "http://arxiv.org/abs/2606.28855",
+      "title": "Nonequilibrium electron-phonon dynamics with high momentum resolution: Thermalization bottlenecks and the effects of phonon dispersion",
+      "abstract": "The nonequilibrium electron-phonon interplay is central to thermalization of solids, yet the microscopic picture of transient states and relaxation pathways remains incomplete. Previous nonequilibrium Green's function (NEGF) studies were restricted to local phonons and local self-energy approximations, leaving momentum-dependent dynamics largely unexplored. In this work, we demonstrate the power of the recently developed quantics-tensor-train (QTT) NEGF framework through large-scale lattice simulations with arbitrary phonon dispersions. QTTs provide a memory-efficient representation of two-time Green's functions, enabling momentum-resolved simulations with full electron-phonon feedback on lattices up to 256x256 sites. Comparing optical and acoustic phonon models, we reveal a hierarchy of relaxation bottlenecks that extends the well-known phonon-window bottleneck effect. For optical phonons, we confirm the main phonon-energy window and uncover a reduced window separating momentum-space regions of excess and deficit electronic population. We also identify a separate bottleneck in phonon thermalization, rooted in the momentum-dependent coupling to the particle-hole continuum. For acoustic phonons, the phonon-energy window acquires pronounced momentum dependence dictated by simultaneous energy-momentum conservation. The reduced window becomes asymmetric; directional scattering between Brillouin-zone regions creates a persistent bottleneck for low-momentum phonon modes. The high momentum and frequency resolution of our spectra further reveals a direct correspondence between phonon relaxation and charge response. Our results establish QTT-NEGF simulations as a scalable and controlled framework for quantitative nonequilibrium electron-phonon dynamics, overcoming previous lattice-size and propagation-time limitations and providing accurate reference data for time-resolved spectroscopies.",
+      "pubdate": "Sat, 27 Jun 2026 10:42:01 +0000",
+      "authors": "Maksymilian Środa, Philipp Werner"
+    },
+    "e730fd506ec80abbe9ccda0dcec9394c": {
+      "id": "e730fd506ec80abbe9ccda0dcec9394c",
+      "link": "http://arxiv.org/abs/2606.28521",
+      "title": "Mixed-spin Heisenberg ladders in a magnetic field",
+      "abstract": "In this work, we study alternating mixed-spin $(s,S)$ Heisenberg ladders in the magnetic field $h$ using density matrix renormalization group and linear spin-wave calculations. The $h$ \\textit{versus} interchain coupling $J_\\perp$ phase diagram for the $(1/2,1)$ case is investigated in detail. { In particular, we demonstrate the compatibility between the critical line estimates and magnetic ordering by analyzing chains with variable values of $J_\\perp$ and of $h$ along the chain, $J_\\perp$ and $h$ scans, and considering the usual case of chains with uniform couplings}. The magnetization plateau at 1/3 of saturation magnetization, 1/3 - plateau, is observed for $J_\\perp>0$ and in a limited range for $J_\\perp<0$. The critical Kosterlitz-Thouless transition point, where the 1/3 - plateau closes, is identified through a finite-size analysis of the transverse spin correlation functions.",
+      "pubdate": "Fri, 26 Jun 2026 18:17:49 +0000",
+      "authors": "D. S. Almeida, A. S. Bibiano, W. M. da Silva, R. R. Montenegro-Filho"
+    },
+    "186a083e96be70652d39a050601cfa70": {
+      "id": "186a083e96be70652d39a050601cfa70",
+      "link": "http://arxiv.org/abs/2606.28495",
+      "title": "Monotonic Impurity Entropy beyond Unitarity: the $\\mathscr{PT}-$Symmetric Quantum Impurity Model",
+      "abstract": "Quantum impurity models provide a paradigmatic setting for studying Kondo screening, boundary criticality, and impurity entropies. While these phenomena are well understood in unitary systems, their fate in non-Hermitian many-body settings remains largely unexplored. We study a $\\mathscr{PT}$-symmetric quantum impurity model consisting of a unitary $SU(2)_1$ Wess--Zumino--Witten bulk coupled to two impurity spins through complex-conjugate boundary Kondo interactions. Using an integrable lattice realization with $\\mathscr{PT}$-symmetric boundary impurities, solved by the Bethe Ansatz and benchmarked against finite-temperature matrix-product-state calculations, we determine the impurity contribution to the free energy and entropy. In the Kondo-screened regime, where the spectrum remains entirely real and the impurities are screened by many-body Kondo clouds, we find that the impurity entropy decreases monotonically from $\\ln 4$ in the ultraviolet to $0$ in the infrared. This monotonic flow persists despite the nonunitary nature of the boundary interaction, which places the system beyond the standard assumptions of the $g$-theorem.",
+      "pubdate": "Fri, 26 Jun 2026 18:00:03 +0000",
+      "authors": "Pradip Kattel, Abay Zhakenov, Natan Andrei"
+    },
+    "dc20e42c9e6d581baf0e459326c990f6": {
+      "id": "dc20e42c9e6d581baf0e459326c990f6",
+      "link": "http://arxiv.org/abs/2606.28484",
+      "title": "Subregion observer rules from generalized entanglement wedges",
+      "abstract": "We consider rules for modifying holographic tensor networks proposed in two independent contexts: by the Colorado (CO) group in 2503.09681 to incorporate observers in holographic maps, and by Kaya-Rath-Ritchie (KRR) in 2506.10064 to derive the Bousso-Penington generalized entanglement wedge proposal. Interestingly, these two sets of tensor network rules are exactly equivalent. This suggests a more general connection between these Abdalla-Antonini-Iliesiu-Levine (AAIL) inspired observer rules and generalized entanglement wedges. To pursue this connection, we first use KRR's analogous rules for the gravitational path integral (based on fixed geometry states) to generalize AAIL's path integral rules to include observers occupying a bulk subregion. Additionally, we leverage the connection in the opposite direction by using the AAIL rules to derive the Bousso-Penington proposal for pointlike bulk regions in JT gravity.",
+      "pubdate": "Fri, 26 Jun 2026 18:00:01 +0000",
+      "authors": "Lana Bozanic, Kenneth Higginbotham, Chris Waddell"
+    },
+    "298e7f3614be31f12b0f4c7352ae383a": {
+      "id": "298e7f3614be31f12b0f4c7352ae383a",
+      "link": "http://arxiv.org/abs/2606.28470",
+      "title": "Modelling Emotional Memory in Children with Tensor Networks",
+      "abstract": "We demonstrate how emotional valence influences the order-dependent structure of children's recognition memory: correct recall of a sequence of emotionally-valenced toys depended not just on the valence of a given toy itself, but also on the valence of the toys shown before and after it. Whilst standard psychological models confirm that order-dependence differs across an event (a set of toys shown in sequence), accuracy is low and the model does not reflect how memory for an emotional object influences others in the set. A classical tensor network model factoring in valence is able to achieve a 77.98\\% accuracy in modelling the results of the study. While not strictly a ``quantum cognition'' model, this massive increase in accuracy shows the value of quantum-inspired methods for modelling order-dependent phenomena, such as emotional memory. Further, the task protocol we introduce presents a novel, real-world tool for exploring emotional temporal memory in children for analysis using classical and quantum-like models of cognition.",
+      "pubdate": "Fri, 26 Jun 2026 14:31:09 +0000",
+      "authors": "Henry Groves, Lucia F. Jackson, Barbara-Anne Robertson, Jonte R. Hance"
+    },
     "2e2753b8f6bf716bf433439389cf69ff": {
       "id": "2e2753b8f6bf716bf433439389cf69ff",
       "link": "http://arxiv.org/abs/2606.28169",
@@ -8,6 +104,22 @@
       "abstract": "We develop a novel time-evolution algorithm for matrix product states based on the recently introduced hybrid tensor network (hTN) framework. We retain the tensors close to the boundary on the classical computer and offload the highly entangled inner ones to the quantum computer. In our variant, we employ the Basis Update and Galerkin (BUG) integrator to time-evolve the classical tensors, and we develop a coupling scheme between the classical and quantum parts. Our framework admits modular combination with any quantum time-evolution method, such as (classically pre-optimized) Trotterization. The ratio of classical and quantum tensor degrees of freedom can be dynamically adjusted during the time evolution, which can be advantageous when the classical memory requirements become prohibitive. The quantum and classical components can run in parallel during a single time step and are not constrained by synchronization barriers or mid-circuit measurements. We describe the detailed steps and pseudocode for our algorithm specialized for tensor networks originating from the matrix product state Ansatz.",
       "pubdate": "Fri, 26 Jun 2026 15:02:02 +0000",
       "authors": "Tobias V. Bauer, Richard M. Milbradt, Christian B. Mendl"
+    },
+    "207de797795dcee17ad2790bf6c8d28e": {
+      "id": "207de797795dcee17ad2790bf6c8d28e",
+      "link": "http://arxiv.org/abs/2606.28000",
+      "title": "Ferrimagnetic and Haldane-type phases in a mixed-spin $1$-$\\tfrac{1}{2}$-$\\tfrac{1}{2}$ quantum trimer chain",
+      "abstract": "Bipartite Lieb-Mattis ferrimagnetism and the symmetry-protected Haldane phase are paradigmatic mechanisms in quasi-one-dimensional quantum magnets. Both emerge, in distinct regimes, in a mixed-spin $1$-$\\tfrac{1}{2}$-$\\tfrac{1}{2}$ Heisenberg trimer chain with antiferromagnetic backbone exchange $J$ and a side spin-$\\tfrac{1}{2}$ coupled to each backbone spin by an exchange $J_t$ of either sign. Using the density matrix renormalization group, we compute magnetization curves and the entanglement spectrum and entropy. For $J_t>0$ a robust ferrimagnetic plateau forms at magnetization per unit cell $m=1$, whose multiplet entropy reflects how the conserved magnetization splits between the halves. For $J_t<0$ an $m=0$ plateau opens and grows with $|J_t|$, while the $m=1$ plateau closes. As $J_t\\to-\\infty$ the chain maps onto a spin-$1$ Heisenberg chain with coupling $J/2$: the $m=0$ width $Δh\\simeq 0.196$ matches half the Haldane gap. Exponentially localized spin-$\\tfrac{1}{2}$ edge states and the even-fold degeneracy of the entanglement spectrum confirm the Haldane character of the $m=0$ phase.",
+      "pubdate": "Fri, 26 Jun 2026 11:55:15 +0000",
+      "authors": "A. Felinto, R. R. Montenegro-Filho"
+    },
+    "48a762cfb1846f0d75aabb66a0caedbd": {
+      "id": "48a762cfb1846f0d75aabb66a0caedbd",
+      "link": "http://arxiv.org/abs/2606.27991",
+      "title": "Competing spin-1 and spin-2 regimes in a frustrated four-leg spin-1/2 ladder",
+      "abstract": "We investigate a frustrated four-leg spin-$1/2$ ladder using density matrix renormalization group calculations. The uniform system displays three regimes: short-range antiferromagnetic legs, short-range ferromagnetic legs, and an effective spin-2 Heisenberg chain, separated by a crossover and a first-order transition. The spin-2 regime is confirmed through its finite string order parameter, edge-localized excitations, and excellent agreement with a projected $S_r=2$ effective Hamiltonian. Recasting the model as two frustrated two-leg ladders coupled by rung and diagonal interactions, we track how the trivial and Haldane phases of an isolated ladder evolve as interladder couplings are introduced. The resulting phase diagrams reveal crossover and first-order lines whose locations are captured by the spin-2 projection and show how singlet- and triplet-dominated regimes reorganize when two ladders merge into a four-leg structure, clarifying the emergence of effective spin-1 versus spin-2 behavior.",
+      "pubdate": "Fri, 26 Jun 2026 11:42:11 +0000",
+      "authors": "D. S. Almeida, R. R. Montenegro-Filho"
     },
     "64903eec6135d146d7baff7ba518aa67": {
       "id": "64903eec6135d146d7baff7ba518aa67",
@@ -5968,118 +6080,6 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
-    },
-    "0125e4dc54f771bd31ecb8d5048c742c": {
-      "id": "0125e4dc54f771bd31ecb8d5048c742c",
-      "link": "http://arxiv.org/abs/2606.30569",
-      "title": "Revisiting crossed-correlated baths in open quantum systems simulated by HEOM or T-TEDOPA",
-      "abstract": "Excited-state dynamics of open quantum systems is analyzed by the hierarchical equations of motion (HEOM) or the thermalized time-evolving density operator with orthogonal polynomials algorithm (T-TEDOPA) method when a discrete $ab$ $initio$ linear vibronic model is parametrized by continuous temperature-dependent spectral densities leading to crossed correlation functions, i.e. correlated fluctuations of the energy gap collective modes. We focus on a conical intersection involving two collective modes tuning the energy of each excited state and we revisit the transformation of the initial correlated tuning baths to de-correlated shared baths in order to reduce the computational resources. While a completely frequency-dependent transformation poses problems for HEOM, we find that in some particular cases, an optimal approximate frequency-independent transformation may be derived. On the contrary, T-TEDOPA is very efficient and allows to use this frequency-dependent transformation at the price of managing long-range couplings in the tensor chain. An illustrative application is shown by using the linear vibronic coupling model of a planar symmetrical (phenylethynyl)benzene dimer.",
-      "pubdate": "Mon, 29 Jun 2026 17:11:04 +0000",
-      "authors": "Brieuc Le Dé, Etienne Mangaud, Alex W. Chin, Michèle Desouter-Lecomte"
-    },
-    "a3030c23f48a876b2d3c4cec68bb739b": {
-      "id": "a3030c23f48a876b2d3c4cec68bb739b",
-      "link": "http://arxiv.org/abs/2606.30466",
-      "title": "Holography and Kinematic Space for Gravitational Sub-regions in AdS",
-      "abstract": "It is well-known in integral geometry that a maximally symmetric Riemannian manifold, such as a static slice of vacuum AdS spacetime, can be perfectly covered by the geodesics in the Kinematic space, which we call the partial-entanglement-entropy (PEE) threads. In this context, the area of a codimension-one surface in the manifold can be computed by counting its intersections with the PEE threads, which is the celebrated Crofton formula. In this paper, we analyze the Kinematic space for a generic subregion in vacuum AdS space, and propose that the PEE threads emanate from a co-dimension one surface can perfectly cover a subregion in the manifold. Furthermore, we build holographic tensor network models on the network of the PEE threads confined in a subregion, thereby providing a concrete framework that realizes the surface-state correspondence and the generalized entanglement wedges for gravitational subregions.",
-      "pubdate": "Mon, 29 Jun 2026 15:29:53 +0000",
-      "authors": "Debarshi Basu, Qiang Wen"
-    },
-    "f5da323d9308a51b7352ff64252955bc": {
-      "id": "f5da323d9308a51b7352ff64252955bc",
-      "link": "http://arxiv.org/abs/2606.30465",
-      "title": "Heat rectification through a quantum two-level system",
-      "abstract": "We study heat rectification through a quantum two-level system asymmetrically coupled to two thermal baths, as described by the Ohmic spin-boson model. We evaluate the steady-state heat current using a tensor-network approach, which enables us to access the strongly correlated regime, and benchmark the results against analytical formulas in several limiting regimes, including the weak-coupling and incoherent-tunneling regimes. We identify a scaling regime where the studied system flows from an ultraviolet regime, at temperatures larger than the Kondo temperature, to an infrared regime, at temperatures lower than the Kondo temperature. By applying perturbation theory near the infrared fixed point, we find that the rectification ratio follows a universal power law. Our numerical results agree well with this analytical prediction. Our results provide a fundamental understanding of how dissipation-induced many-body physics affects heat transport.",
-      "pubdate": "Mon, 29 Jun 2026 15:28:50 +0000",
-      "authors": "Tsuyoshi Yamamoto, Manuel Houzet"
-    },
-    "d31ef210610dec36372c4f4954dfd093": {
-      "id": "d31ef210610dec36372c4f4954dfd093",
-      "link": "http://arxiv.org/abs/2606.30176",
-      "title": "Trimers in the Extended Hubbard Model",
-      "abstract": "The Lieb theorem is a cornerstone of quantum magnetism theory in condensed matter. In this work, we investigate the instability of the Lieb insulating ferrimagnetic phase in the extended Hubbard model on a trimer chain at half-filling, with one electron per site, under increasing the nearest-neighbor Coulomb coupling $V$. Our results show that despite a noticeable increase in doublon density with $V$, the ferrimagnetic insulating phase remains robust up to the phase separation (PS) line, which is observed at $V \\gtrsim U/4$, where $U$ is the local Coulomb repulsion. Above the PS line, one of the coexisting phases is primarily populated by doublons on one of the two sublattices of the chain. This phase coexists with a metallic, unsaturated ferromagnetic phase for $U \\gtrsim t$, and with a singlet phase for $U \\lesssim t$, where $t$ is the intra-trimer hopping amplitude. We estimate the PS and the crossover lines with the help of density matrix renormalization group calculations.",
-      "pubdate": "Mon, 29 Jun 2026 11:51:02 +0000",
-      "authors": "R. R. Montenegro-Filho, D. R. B. Silva, D. Cogollo, M. D. Coutinho-Filho"
-    },
-    "867c91d015b128562cbe271f19f2c606": {
-      "id": "867c91d015b128562cbe271f19f2c606",
-      "link": "http://arxiv.org/abs/2606.30173",
-      "title": "Low-Rank Tensor Completion using Tensor Train Decomposition via Riemannian Optimization on the Quotient Geometry",
-      "abstract": "Owing to the effectiveness of Tensor Train (TT) decomposition in managing high-order tensors, low-rank tensor completion within the TT-format has emerged as a prominent research focus. In this paper, we leverage the left-orthogonal property of the TT-decomposition to construct a novel quotient manifold and introduce a family of admissible Riemannian metrics. Within this geometric framework, we propose a new approach to constructing retractions compatible with the quotient structure, realized via two novel retractions based on recursive polar and QR decompositions that respect the recursive orthogonalization structure of the TT format. We then derive Riemannian gradient descent and conjugate gradient methods to solve the tensor completion problem. Theoretically, our approach streamlines the horizontal projection by reducing the number of unknowns per block from a quadratic dependence on the TT-ranks to a near-half scaling, thereby enhancing computational efficiency over conventional quotient-based methods. Numerical experiments demonstrate that the proposed algorithms achieve reconstruction accuracy comparable to state-of-the-art TT-based geometric methods.",
-      "pubdate": "Mon, 29 Jun 2026 11:49:44 +0000",
-      "authors": "Zhenlong Hu, Zhongming Chen, Defeng Sun, Liping Zhang"
-    },
-    "001b1b6aeacd10fffddff690763b6e33": {
-      "id": "001b1b6aeacd10fffddff690763b6e33",
-      "link": "http://arxiv.org/abs/2606.29662",
-      "title": "Fixed-parameter tractable computation of Reshetikhin--Turaev knot polynomials via tensor networks",
-      "abstract": "We give a thorough analysis of the time complexity of computing Reshetikhin--Turaev knot polynomials via tensor contractions on the associated tensor networks, showing that the computation is fixed-parameter tractable with respect to a parameter at most linear in the tree-width of the input knot diagram. When combined with existing approximation algorithms for tree decomposition, this recovers the sub-exponential bound $e^{O(\\sqrt{n})}$ for the time complexity of computing any Reshetikhin--Turaev knot polynomial. We accompany this paper with an implementation of such an algorithm in SnapPy, which computes any Reshetikhin--Turaev knot polynomial given its $R$-matrix and ribbon element.",
-      "pubdate": "Mon, 29 Jun 2026 00:12:48 +0000",
-      "authors": "Shana Yunsheng Li"
-    },
-    "6f55c53bc90a94a689c7b23c98c8ae1f": {
-      "id": "6f55c53bc90a94a689c7b23c98c8ae1f",
-      "link": "http://arxiv.org/abs/2606.29133",
-      "title": "Shadow tomography for classical tensor network simulations",
-      "abstract": "Shadow tomography has appeared as a powerful tool for estimating observables on quantum computers from a small number of samples. We show that shadow-tomography-inspired ideas can offer similarly improved sample scaling for estimating observables on tensor network states on classical computers after proper adaptation. We develop strategies for both spin (bosonic) and fermionic systems, tailored to the contraction requirements of tensor networks, and generate scaling improvements of factors of $O(N)$ to $O(N^{3})$ (where $N$ is system size), depending on the specific task and system type. For the important and difficult task of evaluating the expectation value of long-range interacting Hamiltonians, we achieve the optimal $O(1)$ overall scaling (up to logarithmic factors) for an arbitrarily fixed relative Monte Carlo error in both spin and fermionic systems. Additionally, we show that shadow estimators offer more stable gradients of observables in variational optimization tasks than standard Monte Carlo estimators. We demonstrate practical advantage by simulating systems with long-range interactions, including the 2D long-range Heisenberg model and an ab-initio quantum chemistry Hamiltonian.",
-      "pubdate": "Sun, 28 Jun 2026 00:43:06 +0000",
-      "authors": "Jiace Sun, Garnet Kin-Lic Chan"
-    },
-    "a9e3f2569535a3c9a730668f6efc0ec8": {
-      "id": "a9e3f2569535a3c9a730668f6efc0ec8",
-      "link": "http://arxiv.org/abs/2606.28855",
-      "title": "Nonequilibrium electron-phonon dynamics with high momentum resolution: Thermalization bottlenecks and the effects of phonon dispersion",
-      "abstract": "The nonequilibrium electron-phonon interplay is central to thermalization of solids, yet the microscopic picture of transient states and relaxation pathways remains incomplete. Previous nonequilibrium Green's function (NEGF) studies were restricted to local phonons and local self-energy approximations, leaving momentum-dependent dynamics largely unexplored. In this work, we demonstrate the power of the recently developed quantics-tensor-train (QTT) NEGF framework through large-scale lattice simulations with arbitrary phonon dispersions. QTTs provide a memory-efficient representation of two-time Green's functions, enabling momentum-resolved simulations with full electron-phonon feedback on lattices up to 256x256 sites. Comparing optical and acoustic phonon models, we reveal a hierarchy of relaxation bottlenecks that extends the well-known phonon-window bottleneck effect. For optical phonons, we confirm the main phonon-energy window and uncover a reduced window separating momentum-space regions of excess and deficit electronic population. We also identify a separate bottleneck in phonon thermalization, rooted in the momentum-dependent coupling to the particle-hole continuum. For acoustic phonons, the phonon-energy window acquires pronounced momentum dependence dictated by simultaneous energy-momentum conservation. The reduced window becomes asymmetric; directional scattering between Brillouin-zone regions creates a persistent bottleneck for low-momentum phonon modes. The high momentum and frequency resolution of our spectra further reveals a direct correspondence between phonon relaxation and charge response. Our results establish QTT-NEGF simulations as a scalable and controlled framework for quantitative nonequilibrium electron-phonon dynamics, overcoming previous lattice-size and propagation-time limitations and providing accurate reference data for time-resolved spectroscopies.",
-      "pubdate": "Sat, 27 Jun 2026 10:42:01 +0000",
-      "authors": "Maksymilian Środa, Philipp Werner"
-    },
-    "e730fd506ec80abbe9ccda0dcec9394c": {
-      "id": "e730fd506ec80abbe9ccda0dcec9394c",
-      "link": "http://arxiv.org/abs/2606.28521",
-      "title": "Mixed-spin Heisenberg ladders in a magnetic field",
-      "abstract": "In this work, we study alternating mixed-spin $(s,S)$ Heisenberg ladders in the magnetic field $h$ using density matrix renormalization group and linear spin-wave calculations. The $h$ \\textit{versus} interchain coupling $J_\\perp$ phase diagram for the $(1/2,1)$ case is investigated in detail. { In particular, we demonstrate the compatibility between the critical line estimates and magnetic ordering by analyzing chains with variable values of $J_\\perp$ and of $h$ along the chain, $J_\\perp$ and $h$ scans, and considering the usual case of chains with uniform couplings}. The magnetization plateau at 1/3 of saturation magnetization, 1/3 - plateau, is observed for $J_\\perp>0$ and in a limited range for $J_\\perp<0$. The critical Kosterlitz-Thouless transition point, where the 1/3 - plateau closes, is identified through a finite-size analysis of the transverse spin correlation functions.",
-      "pubdate": "Fri, 26 Jun 2026 18:17:49 +0000",
-      "authors": "D. S. Almeida, A. S. Bibiano, W. M. da Silva, R. R. Montenegro-Filho"
-    },
-    "186a083e96be70652d39a050601cfa70": {
-      "id": "186a083e96be70652d39a050601cfa70",
-      "link": "http://arxiv.org/abs/2606.28495",
-      "title": "Monotonic Impurity Entropy beyond Unitarity: the $\\mathscr{PT}-$Symmetric Quantum Impurity Model",
-      "abstract": "Quantum impurity models provide a paradigmatic setting for studying Kondo screening, boundary criticality, and impurity entropies. While these phenomena are well understood in unitary systems, their fate in non-Hermitian many-body settings remains largely unexplored. We study a $\\mathscr{PT}$-symmetric quantum impurity model consisting of a unitary $SU(2)_1$ Wess--Zumino--Witten bulk coupled to two impurity spins through complex-conjugate boundary Kondo interactions. Using an integrable lattice realization with $\\mathscr{PT}$-symmetric boundary impurities, solved by the Bethe Ansatz and benchmarked against finite-temperature matrix-product-state calculations, we determine the impurity contribution to the free energy and entropy. In the Kondo-screened regime, where the spectrum remains entirely real and the impurities are screened by many-body Kondo clouds, we find that the impurity entropy decreases monotonically from $\\ln 4$ in the ultraviolet to $0$ in the infrared. This monotonic flow persists despite the nonunitary nature of the boundary interaction, which places the system beyond the standard assumptions of the $g$-theorem.",
-      "pubdate": "Fri, 26 Jun 2026 18:00:03 +0000",
-      "authors": "Pradip Kattel, Abay Zhakenov, Natan Andrei"
-    },
-    "dc20e42c9e6d581baf0e459326c990f6": {
-      "id": "dc20e42c9e6d581baf0e459326c990f6",
-      "link": "http://arxiv.org/abs/2606.28484",
-      "title": "Subregion observer rules from generalized entanglement wedges",
-      "abstract": "We consider rules for modifying holographic tensor networks proposed in two independent contexts: by the Colorado (CO) group in 2503.09681 to incorporate observers in holographic maps, and by Kaya-Rath-Ritchie (KRR) in 2506.10064 to derive the Bousso-Penington generalized entanglement wedge proposal. Interestingly, these two sets of tensor network rules are exactly equivalent. This suggests a more general connection between these Abdalla-Antonini-Iliesiu-Levine (AAIL) inspired observer rules and generalized entanglement wedges. To pursue this connection, we first use KRR's analogous rules for the gravitational path integral (based on fixed geometry states) to generalize AAIL's path integral rules to include observers occupying a bulk subregion. Additionally, we leverage the connection in the opposite direction by using the AAIL rules to derive the Bousso-Penington proposal for pointlike bulk regions in JT gravity.",
-      "pubdate": "Fri, 26 Jun 2026 18:00:01 +0000",
-      "authors": "Lana Bozanic, Kenneth Higginbotham, Chris Waddell"
-    },
-    "298e7f3614be31f12b0f4c7352ae383a": {
-      "id": "298e7f3614be31f12b0f4c7352ae383a",
-      "link": "http://arxiv.org/abs/2606.28470",
-      "title": "Modelling Emotional Memory in Children with Tensor Networks",
-      "abstract": "We demonstrate how emotional valence influences the order-dependent structure of children's recognition memory: correct recall of a sequence of emotionally-valenced toys depended not just on the valence of a given toy itself, but also on the valence of the toys shown before and after it. Whilst standard psychological models confirm that order-dependence differs across an event (a set of toys shown in sequence), accuracy is low and the model does not reflect how memory for an emotional object influences others in the set. A classical tensor network model factoring in valence is able to achieve a 77.98\\% accuracy in modelling the results of the study. While not strictly a ``quantum cognition'' model, this massive increase in accuracy shows the value of quantum-inspired methods for modelling order-dependent phenomena, such as emotional memory. Further, the task protocol we introduce presents a novel, real-world tool for exploring emotional temporal memory in children for analysis using classical and quantum-like models of cognition.",
-      "pubdate": "Fri, 26 Jun 2026 14:31:09 +0000",
-      "authors": "Henry Groves, Lucia F. Jackson, Barbara-Anne Robertson, Jonte R. Hance"
-    },
-    "207de797795dcee17ad2790bf6c8d28e": {
-      "id": "207de797795dcee17ad2790bf6c8d28e",
-      "link": "http://arxiv.org/abs/2606.28000",
-      "title": "Ferrimagnetic and Haldane-type phases in a mixed-spin $1$-$\\tfrac{1}{2}$-$\\tfrac{1}{2}$ quantum trimer chain",
-      "abstract": "Bipartite Lieb-Mattis ferrimagnetism and the symmetry-protected Haldane phase are paradigmatic mechanisms in quasi-one-dimensional quantum magnets. Both emerge, in distinct regimes, in a mixed-spin $1$-$\\tfrac{1}{2}$-$\\tfrac{1}{2}$ Heisenberg trimer chain with antiferromagnetic backbone exchange $J$ and a side spin-$\\tfrac{1}{2}$ coupled to each backbone spin by an exchange $J_t$ of either sign. Using the density matrix renormalization group, we compute magnetization curves and the entanglement spectrum and entropy. For $J_t>0$ a robust ferrimagnetic plateau forms at magnetization per unit cell $m=1$, whose multiplet entropy reflects how the conserved magnetization splits between the halves. For $J_t<0$ an $m=0$ plateau opens and grows with $|J_t|$, while the $m=1$ plateau closes. As $J_t\\to-\\infty$ the chain maps onto a spin-$1$ Heisenberg chain with coupling $J/2$: the $m=0$ width $Δh\\simeq 0.196$ matches half the Haldane gap. Exponentially localized spin-$\\tfrac{1}{2}$ edge states and the even-fold degeneracy of the entanglement spectrum confirm the Haldane character of the $m=0$ phase.",
-      "pubdate": "Fri, 26 Jun 2026 11:55:15 +0000",
-      "authors": "A. Felinto, R. R. Montenegro-Filho"
-    },
-    "48a762cfb1846f0d75aabb66a0caedbd": {
-      "id": "48a762cfb1846f0d75aabb66a0caedbd",
-      "link": "http://arxiv.org/abs/2606.27991",
-      "title": "Competing spin-1 and spin-2 regimes in a frustrated four-leg spin-1/2 ladder",
-      "abstract": "We investigate a frustrated four-leg spin-$1/2$ ladder using density matrix renormalization group calculations. The uniform system displays three regimes: short-range antiferromagnetic legs, short-range ferromagnetic legs, and an effective spin-2 Heisenberg chain, separated by a crossover and a first-order transition. The spin-2 regime is confirmed through its finite string order parameter, edge-localized excitations, and excellent agreement with a projected $S_r=2$ effective Hamiltonian. Recasting the model as two frustrated two-leg ladders coupled by rung and diagonal interactions, we track how the trivial and Haldane phases of an isolated ladder evolve as interladder couplings are introduced. The resulting phase diagrams reveal crossover and first-order lines whose locations are captured by the spin-2 projection and show how singlet- and triplet-dominated regimes reorganize when two ladders merge into a four-leg structure, clarifying the emergence of effective spin-1 versus spin-2 behavior.",
-      "pubdate": "Fri, 26 Jun 2026 11:42:11 +0000",
-      "authors": "D. S. Almeida, R. R. Montenegro-Filho"
     }
   }
 }
