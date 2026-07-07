@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-07T00:51:53.163314+00:00",
+  "last_updated": "2026-07-07T12:55:49.205172+00:00",
   "entries": {
     "54adaf1beef262d2a3ae0a45599ad861": {
       "id": "54adaf1beef262d2a3ae0a45599ad861",
@@ -6248,6 +6248,54 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "4bdb4502f881f5b6ab38114159af3e77": {
+      "id": "4bdb4502f881f5b6ab38114159af3e77",
+      "link": "http://arxiv.org/abs/2607.05269",
+      "title": "Excitation spectra and rank tomography of linear matrix product tangent spaces",
+      "abstract": "We formulate a tangent-space method for algebraic varieties of matrix product states (MPS) to study excitation spectra of non-uniform quantum many-body systems with open boundary conditions. We further introduce a rank tomography of the MPS tangent space, which characterizes its expressivity in terms of particle-sector rank profiles of the underlying MPS variety. Using the Bose--Hubbard model as a benchmark, we illustrate that the method reproduces low-lying excitations and captures finite-size precursors of the Mott-insulator to superfluid transition.",
+      "pubdate": "Mon, 06 Jul 2026 16:19:20 +0000",
+      "authors": "Otto T. P. Schmidt, Iacopo Carusotto"
+    },
+    "548b32efd87ac20b82a0235521b5a8e0": {
+      "id": "548b32efd87ac20b82a0235521b5a8e0",
+      "link": "http://arxiv.org/abs/2607.05178",
+      "title": "Efficient classical simulation of two-dimensional long-range systems: Rydberg arrays and beyond",
+      "abstract": "In variational Monte Carlo (VMC) calculations of $N$-site quantum systems with arbitrary all-to-all two-body interactions, evaluating the local energy generally costs $O(N^3)$. We introduce a new framework that reduces this cost to $O(N)$ for tensor network states, capable of scalable and accurate computation of real-time dynamics and ground states. As a result, we obtain accurate simulations of the adiabatic real-time protocol of a $10\\times10$ dipolar XY model realized in a Rydberg simulator [C. Chen et al., Nature 616, 691 (2023)], which was previously beyond the reach of classical simulation. Going beyond quantum experiments, we also directly perform ground state VMC to compare with the adiabatic state preparation. Our work demonstrates tensor network VMC as a powerful classical simulator for long-range quantum platforms such as Rydberg and ion-trap simulators, which are currently in urgent need of scalable classical benchmarking tools. As a separate technical contribution, we resolve the pathology of evolving from product states within of tensor network VMC.",
+      "pubdate": "Mon, 06 Jul 2026 14:58:14 +0000",
+      "authors": "Jia-Lin Chan, Tao Xiang, Yantao Wu"
+    },
+    "60d279eba28e7e79ec90b810421f265c": {
+      "id": "60d279eba28e7e79ec90b810421f265c",
+      "link": "http://arxiv.org/abs/2607.03939",
+      "title": "Disentangling Haldane Phase by Generalized Clifford Circuits",
+      "abstract": "Disentangling transformations play a central role in the classical simulation of quantum many-body systems, yet their analytic structure and underlying mechanism remain largely unexplored. Here, we study the structure of the disentangler in the Haldane phase of spin-1 systems using generalized Clifford circuits. To this end, we extend the Clifford-circuit-augmented matrix product states (CAMPS)-based density-matrix renormalization group (DMRG) method to spin-1 systems. Within this framework, we find that the local disentanglers optimized for the Haldane phase implement the generalized Kramers--Wannier (KW) transformation, and we analytically verify its optimality for the Affleck--Kennedy--Lieb--Tasaki (AKLT) state. Beyond reducing entanglement, the KW transformation maps the Haldane phase to a phase with spontaneously broken $\\mathbb{Z}_{2}$ symmetry. This mapping is distinct from the Kennedy--Tasaki transformation and provides a new unitary route from symmetry-protected topological order to symmetry breaking.",
+      "pubdate": "Sat, 04 Jul 2026 16:16:45 +0000",
+      "authors": "Minsoo Kim, Changhun Oh, Donghoon Kim"
+    },
+    "8644f1de6504cdfb8d34c80359de2baa": {
+      "id": "8644f1de6504cdfb8d34c80359de2baa",
+      "link": "http://arxiv.org/abs/2607.03788",
+      "title": "Tensor-Train Joint Modeling for Few-Step Discrete Diffusion",
+      "abstract": "Discrete diffusion promises orders-of-magnitude faster generation than autoregressive (AR) models for sequential discrete data, yet its full potential of few-step generation has remained out of reach due to a fundamental structural limitation. The conditional-independence assumption underlying current discrete diffusion models introduces a systematic parallelization bias that compounds with the number of tokens unmasked per step, becoming severe in the few-step regime that fast generation requires. We address this with the first framework for explicit joint distribution modeling in discrete diffusion via tensor decomposition, which represents the conditional clean distribution as a low-rank tensor with controllable expressivity. The framework supports both Canonical Polyadic (CPD) and Tensor-Train (TTD) decompositions, and we identify a structural bias of TTD toward dependencies between nearby tokens, formalized through Oseledets' theorem relating TT-rank to unfolding-matrix rank, which is well-suited to sequential data such as natural language and line notations for molecular data. To enable efficient generation, we present an iterative marginal inference procedure with specialization for predetermined position schedules. Our framework integrates into pretrained MDMs through lightweight fine-tuning, yielding substantial improvements in few-step generation at a fraction of the cost of training from scratch.",
+      "pubdate": "Sat, 04 Jul 2026 09:32:12 +0000",
+      "authors": "Byoungkwon Kim, Minhyuk Sung"
+    },
+    "a38b674b71357a6bfec59267d7de584a": {
+      "id": "a38b674b71357a6bfec59267d7de584a",
+      "link": "http://arxiv.org/abs/2607.03534",
+      "title": "Fixed-point tensor network for compactified boson conformal field theory",
+      "abstract": "Fixed-point (FP) tensor networks provide a discrete spacetime representation of conformal field theories (CFTs), offering a new route toward understanding holographic duality, generalized symmetries, and even quantum gravity. In this work, we construct FP tensors for the 2D compactified boson theory at a generic compactification radius, an archetypal irrational CFT, using boundary (open-string) data with conformal boundary conditions. We show that the resulting tensors reproduce the closed-string spectrum with high accuracy and generate stable renormalization-group (RG) flows under the tensor complex renormalization algorithm. Moreover, we identify a controllable exactly marginal deformation at the level of a single tensor, enabling flows that move continuously along the $c=1$ moduli space. This framework establishes a concrete lattice-level route toward describing a broad class of 2D irrational CFTs.",
+      "pubdate": "Fri, 03 Jul 2026 18:00:02 +0000",
+      "authors": "Gong Cheng, Dong-Yu Bao, Zheng-Cheng Gu"
+    },
+    "445d9c49943b45264b5947f2784a0412": {
+      "id": "445d9c49943b45264b5947f2784a0412",
+      "link": "http://arxiv.org/abs/2607.02673",
+      "title": "Quench Spectroscopy of Magnetic Excitations on a Superconducting Quantum Processor",
+      "abstract": "The elementary excitation spectrum of a many-body quantum system encodes many key properties, including phenomena as diverse as transport, thermalisation and ground state structure. Excitation spectra of strongly correlated systems are typically encoded in dynamical structure factors, which are demanding to measure experimentally and challenging to compute classically. Here we use quench spectroscopy on a superconducting quantum processor to extract excitation spectra of spin chains of $L=101$ spins. By tailoring the combination of quench protocol and observable, we selectively access distinct excitation sectors across several phases of the spin-$1/2$ XXZ chain, resolving free magnons, multi-magnon bound states, and two-spinon continua. Notably, we demonstrate that the protocol does not rely on ground state preparation: in the classically challenging gapless regime, we extract spectra directly from the quench dynamics of easily prepared product states, a procedure that is natural and straightforward on quantum hardware. Our work establishes quench spectroscopy as a fast and flexible probe of many-body excitation spectra on digital quantum hardware, introduces a novel quench protocol that does not require costly state preparation routines, and provides a scalable route towards regimes where classical simulation may become intractable.",
+      "pubdate": "Thu, 02 Jul 2026 18:09:19 +0000",
+      "authors": "D. A. Millar, G. W. Pennington, N. T. M. Siow, S. Brandhofer, J. Crain, F. H. L. Essler, A. G. Green, S. J. Thomson"
     }
   }
 }
