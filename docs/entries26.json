@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-09T00:48:18.900005+00:00",
+  "last_updated": "2026-07-09T13:08:35.374800+00:00",
   "entries": {
     "6b0ecd8410cb22850a1ae2735a6cce1c": {
       "id": "6b0ecd8410cb22850a1ae2735a6cce1c",
@@ -6352,6 +6352,30 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "3c99616db5d4bb3847f48ac17d32da48": {
+      "id": "3c99616db5d4bb3847f48ac17d32da48",
+      "link": "http://arxiv.org/abs/2607.07501",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "f24c9834d30ec2426ca0e02817cbe45c": {
+      "id": "f24c9834d30ec2426ca0e02817cbe45c",
+      "link": "http://arxiv.org/abs/2607.06847",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "a0a11c54a267d80cbb30e89d3d2b64a7": {
+      "id": "a0a11c54a267d80cbb30e89d3d2b64a7",
+      "link": "http://arxiv.org/abs/2607.06841",
+      "title": "Tensor Train Diffusion: Leveraging Low-Rank Structures for High-Dimensional Score-Based Sampling",
+      "abstract": "Diffusion models offer a powerful framework for sampling from complex probability densities by learning to reverse a noising process. A common approach involves solving for the time-reversed stochastic differential equation (SDE), which requires the score function of the evolving sample distribution. The logarithm of this distribution's density is governed by a Hamilton-Jacobi-Bellman (HJB) type partial differential equation (PDE). However, current methods for solving this PDE, such as PINNs or trajectory-based techniques, often suffer from long training times and significant sensitivity to hyperparameter tuning. In this work, we introduce a novel and efficient solver for the underlying HJB equation based on the functional tensor train (FTT) format. The FTT representation leverages latent low-rank structures to efficiently approximate high-dimensional functions, enabling both model compression and rapid computation. By integrating this efficient representation with a backward-in-time iterative scheme derived from backward stochastic differential equations (BSDEs), we develop a fast, robust and accurate sampling method. Our approach overcomes primary bottlenecks of existing techniques, enabling high-fidelity sampling from challenging target distributions with improved efficiency.",
+      "pubdate": "Tue, 07 Jul 2026 22:24:10 +0000",
+      "authors": "Robert Gruhlke, Julius Berner, David Sommer, Lorenz Richter"
     }
   }
 }
