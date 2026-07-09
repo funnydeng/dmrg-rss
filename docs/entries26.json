@@ -1,6 +1,54 @@
 {
-  "last_updated": "2026-07-08T12:40:48.268964+00:00",
+  "last_updated": "2026-07-09T00:48:18.900005+00:00",
   "entries": {
+    "6b0ecd8410cb22850a1ae2735a6cce1c": {
+      "id": "6b0ecd8410cb22850a1ae2735a6cce1c",
+      "link": "http://arxiv.org/abs/2607.06511",
+      "title": "Static vacancies as parametrized conformal defects in the critical $J_1$--$J_2$ transverse-field Ising chain",
+      "abstract": "We revisit the problem of two static nonmagnetic vacancies in the transverse-field Ising chain with first- and second-neighbor couplings $J_1$ and $J_2$, now on the critical line, using density-matrix renormalization-group (DMRG) calculations in open chains of up to $N=300$ sites. In contrast to the gapped regime studied previously, where the vacancy-vacancy interaction decays exponentially, along the entire quantum critical line the interaction becomes algebraic, $|Δ_b(r)|\\sim r^{-α}$, with $α$ close to the universal Casimir value of unity and a weak but systematic dependence on the second-neighbor coupling, $α_\\infty \\simeq 1.070 + 0.091\\, J_2/J_1)$ across $J_2/J_1\\in[0.1,1.0]$. The transmission ratio of the spin correlator across a vacancy approaches a $J_2$-dependent plateau $T_\\infty(J_2)$ that grows from $0.11$ to $0.33$ over the same range, and the Affleck-Ludwig boundary entropy is small and approximately constant, $\\log g_\\infty \\approx -0.073$, well above the Ising fixed-BC value $-\\ln\\sqrt{2}$ and close to the free-boundary value. The three observables vary smoothly and monotonically with $J_2$, consistent with a one-parameter family of partially transmissive conformal defects controlled by $J_2$. Throughout, the critical line is located using the bulk spin-correlator exponent $η=1/4$, the order-parameter exponent of the Ising universality class, which provides a robust criterion in this open geometry.",
+      "pubdate": "Tue, 07 Jul 2026 17:14:29 +0000",
+      "authors": "R. L. Silva, R. C. Silva, R. J. C. Lopes, A. R. Pereira"
+    },
+    "4df235464e721d11680bd182234c292f": {
+      "id": "4df235464e721d11680bd182234c292f",
+      "link": "http://arxiv.org/abs/2607.06474",
+      "title": "Typical Entanglement of Superpositions",
+      "abstract": "We investigate universal entanglement properties inherent to superpositions of randomized states. We find that an $m$-fold superposition of typical states may be classified into two distinct entanglement classes via the 2nd Rényi entropy density $s_2$. The maximally entangled regime is defined by $s_2 \\sim \\ln (2)$, for which superposition adds no additional entanglement. The sub-maximally entangled regime, $s_2<\\ln 2$, instead constrains the reduced density matrices of independent components to be orthogonal in the thermodynamic limit, which fixes the entanglement of the superposition to a logarithmic enhancement $ΔS(m)=\\ln (m)$. As a consequence, an exponentially large number of superpositions is required to transition from the sub-maximally entangled class to maximal entanglement. We explicitly calculate $s_2$ and the logarithmic enhancement, and demonstrate orthogonality for two canonical examples of the sub-maximally entangled regime (superpositions of pure Gaussian states and of random matrix-product states). We also examine the entanglement of superpositions of random stabilizer states, and discuss their relaxation to the Haar limit.",
+      "pubdate": "Tue, 07 Jul 2026 16:30:33 +0000",
+      "authors": "Damien Quinn, Joshuah T. Heath, Graham Kells"
+    },
+    "929d3217f25c9d0803cc903ed4035013": {
+      "id": "929d3217f25c9d0803cc903ed4035013",
+      "link": "http://arxiv.org/abs/2607.06453",
+      "title": "On low-rank tensor train approximability for linear nearest neighbor systems",
+      "abstract": "Low-rank tensor methods are an important tool in the numerical treatment of equations with a high-dimensional state space. Nearest neighbor interaction systems like the Ising model or more general Markov jump processes, as well as 1D finite-state quantum systems are examples of such problems. While low-rank tensor train/matrix product state models have been shown to be highly efficient for the simulation of such systems, providing theoretical justification for this remains a challenging task. One approach for obtaining estimates on required ranks for certain accuracies is to investigate the rank increase in Krylov subspace methods for solving the problem at hand. In the context of area laws for ground states of 1D spin systems, nontrivial results on rank-increasing properties of nearest neighbor operator polynomials have been obtained in work of Arad et al. [arXiv:1301.1162] by studying the partial commutativity of local operators. In the present work, this technique is applied to polynomial methods for definite linear equations and dissipative linear ODEs with nearest neighbor structure. This allows to derive corresponding low-rank approximability statements for solutions of such problems which are independent of the system size. Numerical simulations of high-dimensional nearest neighbor systems illustrate the theoretical findings.",
+      "pubdate": "Tue, 07 Jul 2026 16:13:42 +0000",
+      "authors": "Patrick Gelß, Sebastian Matera, Reinhold Schneider, André Uschmajew"
+    },
+    "97246dd044f432b2bb74ee48bb150336": {
+      "id": "97246dd044f432b2bb74ee48bb150336",
+      "link": "http://arxiv.org/abs/2607.06271",
+      "title": "A Unique Normal Form for Tensor Trains over Arbitrary Fields",
+      "abstract": "Tensor trains (or Matrix-Product States) are a data structure used in many fields of computer science and physics. They were recently shown to generalise binary decision diagrams when used over the 2-element Galois field, prompting the question of their reducibility in such a context, when the standard approach, over real or complex number, is not amenable to finite fields. We provide here a unique normal form and associated polynomial-time reduction strategy for tensor trains over arbitrary fields. We also show how to directly extract a normal form out of a full tensor, how to get the leading index and value of a normal form, and an upper bound on the size of a fully-reduced tensor train relative to a naive storage of the full tensor. On the one hand, this work strengthens the use of tensor trains as a relevant formal tool. On the other hand, from the perspective of tensor networks, it extends the formalism to more general settings than the well-studied real and complex fields, and crucially provides the first tensor train form with the uniqueness property.",
+      "pubdate": "Tue, 07 Jul 2026 13:36:12 +0000",
+      "authors": "Renaud Vilmart"
+    },
+    "c7f25cd71d26bdedd137f4a3db0449be": {
+      "id": "c7f25cd71d26bdedd137f4a3db0449be",
+      "link": "http://arxiv.org/abs/2607.06267",
+      "title": "Chiral Graviton Modes in Non-Abelian lattice Fractional Quantum Hall states",
+      "abstract": "Synthetic quantum matter provides a highly tunable route to fractional quantum Hall physics beyond the constraints of conventional electronic materials. However, previous theoretical studies have mostly focused on their ground state properties. It remains unclear to what extent such platforms could reveal key excitation properties of fractional quantum Hall states. Here, we study charge-neutral collective excitations in a non-abelian lattice fractional quantum Hall state realized in the bosonic Harper-Hofstadter model at unity filling factior, realizing a Moore-Read ground state. Combining full exact diagonalization, band-projected exact diagonalization, and matrix-product-state simulations, we demonstrate the existence of a long-lived chiral graviton mode, probed by chiral 3-body correlators, for the first time on lattice non-Abelian states. The graviton signal is topological sector-independent and could be observed via geometric quenches in small open droplets directly relevant to current cold-atom experiments, while other neutral modes, such as the magnetoroton and neutral fermion, are less resolved at presently achievable volumes.",
+      "pubdate": "Tue, 07 Jul 2026 13:32:46 +0000",
+      "authors": "Zeno Bacciconi, Min Long, Hernan Xavier, Hongyu Lu, Marcello Dalmonte, Zi Yang Meng"
+    },
+    "ee073380f94fc9682d2ae11160956c55": {
+      "id": "ee073380f94fc9682d2ae11160956c55",
+      "link": "http://arxiv.org/abs/2607.06058",
+      "title": "SQGen: Structured Quantum Image Generation with Latent-Modulated Quantized Tensor Trains",
+      "abstract": "Generating images directly from quantum systems is an attractive but unresolved goal on NISQ hardware. Existing quantum generators face several coupled obstacles: barren plateaus that block trainability, expensive quantum circuit preparation, and hardware noise that erodes quantum information with depth. A further difficulty is producing image-scale output without a classical decoder, whose use would otherwise break the end-to-end quantum advantage. We propose SQGen, a full quantum generator built on a quantized tensor train (QTT) with a latent modulation architecture. Specifically, SQGen promotes the QTT bond index of the target pixel distribution to ancilla bond qubits, so that each circuit site operates locally on a bond register plus the two physical qubits that carry the row- and column-bit of one image scale. We further introduce latent modulation: each re-uploading rotation is factorized at the angle level into a trainable main path plus an additive latent term, reducing to the trainable main path when the latent term is disabled. During training, we create a differentiable model in the classical system under gate-compatibility constraints, with a torus prior as the latent distribution. After training, every operator maps one-to-one to a native quantum gate, yielding a compact, deployable quantum circuit with no classical decoder in the inference path. Together, these design choices address the obstacles raised above. Extensive experiments on image datasets and synthetic data demonstrate that SQGen trains stably, generates images end-to-end from a shallow circuit with no classical decoder, and shows promising feasibility on real quantum hardware.",
+      "pubdate": "Tue, 07 Jul 2026 09:33:18 +0000",
+      "authors": "Guang Lin, Qibin Zhao"
+    },
     "4bdb4502f881f5b6ab38114159af3e77": {
       "id": "4bdb4502f881f5b6ab38114159af3e77",
       "link": "http://arxiv.org/abs/2607.05269",
@@ -6304,54 +6352,6 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
-    },
-    "6b0ecd8410cb22850a1ae2735a6cce1c": {
-      "id": "6b0ecd8410cb22850a1ae2735a6cce1c",
-      "link": "http://arxiv.org/abs/2607.06511",
-      "title": "Static vacancies as parametrized conformal defects in the critical $J_1$--$J_2$ transverse-field Ising chain",
-      "abstract": "We revisit the problem of two static nonmagnetic vacancies in the transverse-field Ising chain with first- and second-neighbor couplings $J_1$ and $J_2$, now on the critical line, using density-matrix renormalization-group (DMRG) calculations in open chains of up to $N=300$ sites. In contrast to the gapped regime studied previously, where the vacancy-vacancy interaction decays exponentially, along the entire quantum critical line the interaction becomes algebraic, $|Δ_b(r)|\\sim r^{-α}$, with $α$ close to the universal Casimir value of unity and a weak but systematic dependence on the second-neighbor coupling, $α_\\infty \\simeq 1.070 + 0.091\\, J_2/J_1)$ across $J_2/J_1\\in[0.1,1.0]$. The transmission ratio of the spin correlator across a vacancy approaches a $J_2$-dependent plateau $T_\\infty(J_2)$ that grows from $0.11$ to $0.33$ over the same range, and the Affleck-Ludwig boundary entropy is small and approximately constant, $\\log g_\\infty \\approx -0.073$, well above the Ising fixed-BC value $-\\ln\\sqrt{2}$ and close to the free-boundary value. The three observables vary smoothly and monotonically with $J_2$, consistent with a one-parameter family of partially transmissive conformal defects controlled by $J_2$. Throughout, the critical line is located using the bulk spin-correlator exponent $η=1/4$, the order-parameter exponent of the Ising universality class, which provides a robust criterion in this open geometry.",
-      "pubdate": "Tue, 07 Jul 2026 17:14:29 +0000",
-      "authors": "R. L. Silva, R. C. Silva, R. J. C. Lopes, A. R. Pereira"
-    },
-    "4df235464e721d11680bd182234c292f": {
-      "id": "4df235464e721d11680bd182234c292f",
-      "link": "http://arxiv.org/abs/2607.06474",
-      "title": "Typical Entanglement of Superpositions",
-      "abstract": "We investigate universal entanglement properties inherent to superpositions of randomized states. We find that an $m$-fold superposition of typical states may be classified into two distinct entanglement classes via the 2nd Rényi entropy density $s_2$. The maximally entangled regime is defined by $s_2 \\sim \\ln (2)$, for which superposition adds no additional entanglement. The sub-maximally entangled regime, $s_2<\\ln 2$, instead constrains the reduced density matrices of independent components to be orthogonal in the thermodynamic limit, which fixes the entanglement of the superposition to a logarithmic enhancement $ΔS(m)=\\ln (m)$. As a consequence, an exponentially large number of superpositions is required to transition from the sub-maximally entangled class to maximal entanglement. We explicitly calculate $s_2$ and the logarithmic enhancement, and demonstrate orthogonality for two canonical examples of the sub-maximally entangled regime (superpositions of pure Gaussian states and of random matrix-product states). We also examine the entanglement of superpositions of random stabilizer states, and discuss their relaxation to the Haar limit.",
-      "pubdate": "Tue, 07 Jul 2026 16:30:33 +0000",
-      "authors": "Damien Quinn, Joshuah T. Heath, Graham Kells"
-    },
-    "929d3217f25c9d0803cc903ed4035013": {
-      "id": "929d3217f25c9d0803cc903ed4035013",
-      "link": "http://arxiv.org/abs/2607.06453",
-      "title": "On low-rank tensor train approximability for linear nearest neighbor systems",
-      "abstract": "Low-rank tensor methods are an important tool in the numerical treatment of equations with a high-dimensional state space. Nearest neighbor interaction systems like the Ising model or more general Markov jump processes, as well as 1D finite-state quantum systems are examples of such problems. While low-rank tensor train/matrix product state models have been shown to be highly efficient for the simulation of such systems, providing theoretical justification for this remains a challenging task. One approach for obtaining estimates on required ranks for certain accuracies is to investigate the rank increase in Krylov subspace methods for solving the problem at hand. In the context of area laws for ground states of 1D spin systems, nontrivial results on rank-increasing properties of nearest neighbor operator polynomials have been obtained in work of Arad et al. [arXiv:1301.1162] by studying the partial commutativity of local operators. In the present work, this technique is applied to polynomial methods for definite linear equations and dissipative linear ODEs with nearest neighbor structure. This allows to derive corresponding low-rank approximability statements for solutions of such problems which are independent of the system size. Numerical simulations of high-dimensional nearest neighbor systems illustrate the theoretical findings.",
-      "pubdate": "Tue, 07 Jul 2026 16:13:42 +0000",
-      "authors": "Patrick Gelß, Sebastian Matera, Reinhold Schneider, André Uschmajew"
-    },
-    "97246dd044f432b2bb74ee48bb150336": {
-      "id": "97246dd044f432b2bb74ee48bb150336",
-      "link": "http://arxiv.org/abs/2607.06271",
-      "title": "A Unique Normal Form for Tensor Trains over Arbitrary Fields",
-      "abstract": "Tensor trains (or Matrix-Product States) are a data structure used in many fields of computer science and physics. They were recently shown to generalise binary decision diagrams when used over the 2-element Galois field, prompting the question of their reducibility in such a context, when the standard approach, over real or complex number, is not amenable to finite fields. We provide here a unique normal form and associated polynomial-time reduction strategy for tensor trains over arbitrary fields. We also show how to directly extract a normal form out of a full tensor, how to get the leading index and value of a normal form, and an upper bound on the size of a fully-reduced tensor train relative to a naive storage of the full tensor. On the one hand, this work strengthens the use of tensor trains as a relevant formal tool. On the other hand, from the perspective of tensor networks, it extends the formalism to more general settings than the well-studied real and complex fields, and crucially provides the first tensor train form with the uniqueness property.",
-      "pubdate": "Tue, 07 Jul 2026 13:36:12 +0000",
-      "authors": "Renaud Vilmart"
-    },
-    "c7f25cd71d26bdedd137f4a3db0449be": {
-      "id": "c7f25cd71d26bdedd137f4a3db0449be",
-      "link": "http://arxiv.org/abs/2607.06267",
-      "title": "Chiral Graviton Modes in Non-Abelian lattice Fractional Quantum Hall states",
-      "abstract": "Synthetic quantum matter provides a highly tunable route to fractional quantum Hall physics beyond the constraints of conventional electronic materials. However, previous theoretical studies have mostly focused on their ground state properties. It remains unclear to what extent such platforms could reveal key excitation properties of fractional quantum Hall states. Here, we study charge-neutral collective excitations in a non-abelian lattice fractional quantum Hall state realized in the bosonic Harper-Hofstadter model at unity filling factior, realizing a Moore-Read ground state. Combining full exact diagonalization, band-projected exact diagonalization, and matrix-product-state simulations, we demonstrate the existence of a long-lived chiral graviton mode, probed by chiral 3-body correlators, for the first time on lattice non-Abelian states. The graviton signal is topological sector-independent and could be observed via geometric quenches in small open droplets directly relevant to current cold-atom experiments, while other neutral modes, such as the magnetoroton and neutral fermion, are less resolved at presently achievable volumes.",
-      "pubdate": "Tue, 07 Jul 2026 13:32:46 +0000",
-      "authors": "Zeno Bacciconi, Min Long, Hernan Xavier, Hongyu Lu, Marcello Dalmonte, Zi Yang Meng"
-    },
-    "ee073380f94fc9682d2ae11160956c55": {
-      "id": "ee073380f94fc9682d2ae11160956c55",
-      "link": "http://arxiv.org/abs/2607.06058",
-      "title": "SQGen: Structured Quantum Image Generation with Latent-Modulated Quantized Tensor Trains",
-      "abstract": "Generating images directly from quantum systems is an attractive but unresolved goal on NISQ hardware. Existing quantum generators face several coupled obstacles: barren plateaus that block trainability, expensive quantum circuit preparation, and hardware noise that erodes quantum information with depth. A further difficulty is producing image-scale output without a classical decoder, whose use would otherwise break the end-to-end quantum advantage. We propose SQGen, a full quantum generator built on a quantized tensor train (QTT) with a latent modulation architecture. Specifically, SQGen promotes the QTT bond index of the target pixel distribution to ancilla bond qubits, so that each circuit site operates locally on a bond register plus the two physical qubits that carry the row- and column-bit of one image scale. We further introduce latent modulation: each re-uploading rotation is factorized at the angle level into a trainable main path plus an additive latent term, reducing to the trainable main path when the latent term is disabled. During training, we create a differentiable model in the classical system under gate-compatibility constraints, with a torus prior as the latent distribution. After training, every operator maps one-to-one to a native quantum gate, yielding a compact, deployable quantum circuit with no classical decoder in the inference path. Together, these design choices address the obstacles raised above. Extensive experiments on image datasets and synthetic data demonstrate that SQGen trains stably, generates images end-to-end from a shallow circuit with no classical decoder, and shows promising feasibility on real quantum hardware.",
-      "pubdate": "Tue, 07 Jul 2026 09:33:18 +0000",
-      "authors": "Guang Lin, Qibin Zhao"
     }
   }
 }
