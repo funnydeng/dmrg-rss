@@ -1,6 +1,14 @@
 {
-  "last_updated": "2026-07-09T13:08:35.374800+00:00",
+  "last_updated": "2026-07-10T00:48:01.472416+00:00",
   "entries": {
+    "a0a11c54a267d80cbb30e89d3d2b64a7": {
+      "id": "a0a11c54a267d80cbb30e89d3d2b64a7",
+      "link": "http://arxiv.org/abs/2607.06841",
+      "title": "Tensor Train Diffusion: Leveraging Low-Rank Structures for High-Dimensional Score-Based Sampling",
+      "abstract": "Diffusion models offer a powerful framework for sampling from complex probability densities by learning to reverse a noising process. A common approach involves solving for the time-reversed stochastic differential equation (SDE), which requires the score function of the evolving sample distribution. The logarithm of this distribution's density is governed by a Hamilton-Jacobi-Bellman (HJB) type partial differential equation (PDE). However, current methods for solving this PDE, such as PINNs or trajectory-based techniques, often suffer from long training times and significant sensitivity to hyperparameter tuning. In this work, we introduce a novel and efficient solver for the underlying HJB equation based on the functional tensor train (FTT) format. The FTT representation leverages latent low-rank structures to efficiently approximate high-dimensional functions, enabling both model compression and rapid computation. By integrating this efficient representation with a backward-in-time iterative scheme derived from backward stochastic differential equations (BSDEs), we develop a fast, robust and accurate sampling method. Our approach overcomes primary bottlenecks of existing techniques, enabling high-fidelity sampling from challenging target distributions with improved efficiency.",
+      "pubdate": "Tue, 07 Jul 2026 22:24:10 +0000",
+      "authors": "Robert Gruhlke, Julius Berner, David Sommer, Lorenz Richter"
+    },
     "6b0ecd8410cb22850a1ae2735a6cce1c": {
       "id": "6b0ecd8410cb22850a1ae2735a6cce1c",
       "link": "http://arxiv.org/abs/2607.06511",
@@ -6356,26 +6364,18 @@
     "3c99616db5d4bb3847f48ac17d32da48": {
       "id": "3c99616db5d4bb3847f48ac17d32da48",
       "link": "http://arxiv.org/abs/2607.07501",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
+      "title": "Crossover and Changeover in Spin-1 Kitaev-$Γ$ Chain with Uniaxial Single-ion Anisotropy",
+      "abstract": "Recent advances in bond-directional spin chains have revealed extensive emergent phenomena and unconventional criticality. Here we investigate the spin-1 Kitaev-$Γ$ chain with uniaxial single-ion anisotropy (SIA) using large-scale density-matrix renormalization group calculations and bosonization analysis. Tuning the SIA strength reveals a crossover from the Kitaev phase to the large-$D$ phase, evidenced by the excitation gap changing from quadratic to linear, the coexistence and smooth evolution of spin-nematic and string order parameters, and the suppression of the double-peak specific heat. For negative SIA, we uncover a changeover from a first-order transition to a continuous one between the dimerized and Haldane phases. The continuous transition belongs to the \\textrm{SU(2)$_2$} Wess-Zumino-Witten universality class with central charge $c=3/2$, a rare instance in a system without continuous symmetry. Our results establish the Kitaev-$Γ$ chain as a minimal platform for controlling crossover and changeover phenomena.",
+      "pubdate": "Wed, 08 Jul 2026 14:58:11 +0000",
+      "authors": "Qiang Luo, Shijie Hu, Wang Yang, Yuhai Liu, Jinbin Li, Jize Zhao, Xiaoqun Wang"
     },
     "f24c9834d30ec2426ca0e02817cbe45c": {
       "id": "f24c9834d30ec2426ca0e02817cbe45c",
       "link": "http://arxiv.org/abs/2607.06847",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
-    },
-    "a0a11c54a267d80cbb30e89d3d2b64a7": {
-      "id": "a0a11c54a267d80cbb30e89d3d2b64a7",
-      "link": "http://arxiv.org/abs/2607.06841",
-      "title": "Tensor Train Diffusion: Leveraging Low-Rank Structures for High-Dimensional Score-Based Sampling",
-      "abstract": "Diffusion models offer a powerful framework for sampling from complex probability densities by learning to reverse a noising process. A common approach involves solving for the time-reversed stochastic differential equation (SDE), which requires the score function of the evolving sample distribution. The logarithm of this distribution's density is governed by a Hamilton-Jacobi-Bellman (HJB) type partial differential equation (PDE). However, current methods for solving this PDE, such as PINNs or trajectory-based techniques, often suffer from long training times and significant sensitivity to hyperparameter tuning. In this work, we introduce a novel and efficient solver for the underlying HJB equation based on the functional tensor train (FTT) format. The FTT representation leverages latent low-rank structures to efficiently approximate high-dimensional functions, enabling both model compression and rapid computation. By integrating this efficient representation with a backward-in-time iterative scheme derived from backward stochastic differential equations (BSDEs), we develop a fast, robust and accurate sampling method. Our approach overcomes primary bottlenecks of existing techniques, enabling high-fidelity sampling from challenging target distributions with improved efficiency.",
-      "pubdate": "Tue, 07 Jul 2026 22:24:10 +0000",
-      "authors": "Robert Gruhlke, Julius Berner, David Sommer, Lorenz Richter"
+      "title": "How thermal is a filtered state?",
+      "abstract": "Quantum many-body states with sufficiently low energy variance can serve as approximations to thermal states, and they may be prepared by energy filtering simple pure states. In this work, we examine how narrow the filter width must be to guarantee thermal behavior. To this end, we analyze the problem in the Floquet regime, where filtered states are found to be equivalent to time averages. This equivalence allows us to reproduce the distinct Rényi-$α$ entropy scalings as reported in [Morettini et al., Physical Review Letters 133, 240401 (2024)]. Crucially, we show that under the Floquet eigenstate thermalization hypothesis, the trace distance between Floquet-filtered states and thermal states is bounded by the square root of filter width. We further demonstrate that these results extend naturally to the conventional Hamiltonian setting by mapping Hamiltonian-filtered states to their Floquet counterparts.",
+      "pubdate": "Tue, 07 Jul 2026 22:50:46 +0000",
+      "authors": "Yilun Yang, J. Ignacio Cirac, Mari Carmen Bañuls"
     }
   }
 }
