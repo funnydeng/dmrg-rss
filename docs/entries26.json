@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-07-10T00:48:01.472416+00:00",
+  "last_updated": "2026-07-10T12:51:03.482526+00:00",
   "entries": {
+    "3c99616db5d4bb3847f48ac17d32da48": {
+      "id": "3c99616db5d4bb3847f48ac17d32da48",
+      "link": "http://arxiv.org/abs/2607.07501",
+      "title": "Crossover and Changeover in Spin-1 Kitaev-$Γ$ Chain with Uniaxial Single-ion Anisotropy",
+      "abstract": "Recent advances in bond-directional spin chains have revealed extensive emergent phenomena and unconventional criticality. Here we investigate the spin-1 Kitaev-$Γ$ chain with uniaxial single-ion anisotropy (SIA) using large-scale density-matrix renormalization group calculations and bosonization analysis. Tuning the SIA strength reveals a crossover from the Kitaev phase to the large-$D$ phase, evidenced by the excitation gap changing from quadratic to linear, the coexistence and smooth evolution of spin-nematic and string order parameters, and the suppression of the double-peak specific heat. For negative SIA, we uncover a changeover from a first-order transition to a continuous one between the dimerized and Haldane phases. The continuous transition belongs to the \\textrm{SU(2)$_2$} Wess-Zumino-Witten universality class with central charge $c=3/2$, a rare instance in a system without continuous symmetry. Our results establish the Kitaev-$Γ$ chain as a minimal platform for controlling crossover and changeover phenomena.",
+      "pubdate": "Wed, 08 Jul 2026 14:58:11 +0000",
+      "authors": "Qiang Luo, Shijie Hu, Wang Yang, Yuhai Liu, Jinbin Li, Jize Zhao, Xiaoqun Wang"
+    },
+    "f24c9834d30ec2426ca0e02817cbe45c": {
+      "id": "f24c9834d30ec2426ca0e02817cbe45c",
+      "link": "http://arxiv.org/abs/2607.06847",
+      "title": "How thermal is a filtered state?",
+      "abstract": "Quantum many-body states with sufficiently low energy variance can serve as approximations to thermal states, and they may be prepared by energy filtering simple pure states. In this work, we examine how narrow the filter width must be to guarantee thermal behavior. To this end, we analyze the problem in the Floquet regime, where filtered states are found to be equivalent to time averages. This equivalence allows us to reproduce the distinct Rényi-$α$ entropy scalings as reported in [Morettini et al., Physical Review Letters 133, 240401 (2024)]. Crucially, we show that under the Floquet eigenstate thermalization hypothesis, the trace distance between Floquet-filtered states and thermal states is bounded by the square root of filter width. We further demonstrate that these results extend naturally to the conventional Hamiltonian setting by mapping Hamiltonian-filtered states to their Floquet counterparts.",
+      "pubdate": "Tue, 07 Jul 2026 22:50:46 +0000",
+      "authors": "Yilun Yang, J. Ignacio Cirac, Mari Carmen Bañuls"
+    },
     "a0a11c54a267d80cbb30e89d3d2b64a7": {
       "id": "a0a11c54a267d80cbb30e89d3d2b64a7",
       "link": "http://arxiv.org/abs/2607.06841",
@@ -6361,21 +6377,85 @@
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
     },
-    "3c99616db5d4bb3847f48ac17d32da48": {
-      "id": "3c99616db5d4bb3847f48ac17d32da48",
-      "link": "http://arxiv.org/abs/2607.07501",
-      "title": "Crossover and Changeover in Spin-1 Kitaev-$Γ$ Chain with Uniaxial Single-ion Anisotropy",
-      "abstract": "Recent advances in bond-directional spin chains have revealed extensive emergent phenomena and unconventional criticality. Here we investigate the spin-1 Kitaev-$Γ$ chain with uniaxial single-ion anisotropy (SIA) using large-scale density-matrix renormalization group calculations and bosonization analysis. Tuning the SIA strength reveals a crossover from the Kitaev phase to the large-$D$ phase, evidenced by the excitation gap changing from quadratic to linear, the coexistence and smooth evolution of spin-nematic and string order parameters, and the suppression of the double-peak specific heat. For negative SIA, we uncover a changeover from a first-order transition to a continuous one between the dimerized and Haldane phases. The continuous transition belongs to the \\textrm{SU(2)$_2$} Wess-Zumino-Witten universality class with central charge $c=3/2$, a rare instance in a system without continuous symmetry. Our results establish the Kitaev-$Γ$ chain as a minimal platform for controlling crossover and changeover phenomena.",
-      "pubdate": "Wed, 08 Jul 2026 14:58:11 +0000",
-      "authors": "Qiang Luo, Shijie Hu, Wang Yang, Yuhai Liu, Jinbin Li, Jize Zhao, Xiaoqun Wang"
+    "b41a56b6037f9124967310cc593200b9": {
+      "id": "b41a56b6037f9124967310cc593200b9",
+      "link": "http://arxiv.org/abs/2607.08674",
+      "title": "Do Transformations Reveal the Truth? Generative Residual Learning for Generalized AI-Generated Image Detection",
+      "abstract": "The rapid advancement of generative AI has enabled the creation of highly realistic deepfake media, posing significant threats, including misinformation, digital identity theft, fraud, and manipulation of public opinion. AI-generated image (AIGI) detection is reliably challenging due to the diversity of generative methods and the subtle artifacts they leave behind. In this work, we propose GenRes, a novel framework for generative residual learning via a neural tensor network, which models fine-grained relational features between original and transformed samples to enhance generalization. To address scenarios involving multiple generative transformations, we introduce GenRes++, which employs a learnable attention mechanism to aggregate relational features across multiple transformed samples and enables the model to focus on the most informative cues. Both models leverage PE-Core as a feature extractor, providing generalized and semantically rich embeddings that improve cross-domain performance and enable the detection of AIGI generated by unseen methods. Comprehensive experiments on multiple benchmark datasets demonstrate that the proposed GenRes++ approach outperforms existing methods.",
+      "pubdate": "Thu, 09 Jul 2026 16:36:54 +0000",
+      "authors": "Kutub Uddin, Nusrat Tasnim, Awais Khan, Mohammad Umar Farooq, Khalid Malik"
     },
-    "f24c9834d30ec2426ca0e02817cbe45c": {
-      "id": "f24c9834d30ec2426ca0e02817cbe45c",
-      "link": "http://arxiv.org/abs/2607.06847",
-      "title": "How thermal is a filtered state?",
-      "abstract": "Quantum many-body states with sufficiently low energy variance can serve as approximations to thermal states, and they may be prepared by energy filtering simple pure states. In this work, we examine how narrow the filter width must be to guarantee thermal behavior. To this end, we analyze the problem in the Floquet regime, where filtered states are found to be equivalent to time averages. This equivalence allows us to reproduce the distinct Rényi-$α$ entropy scalings as reported in [Morettini et al., Physical Review Letters 133, 240401 (2024)]. Crucially, we show that under the Floquet eigenstate thermalization hypothesis, the trace distance between Floquet-filtered states and thermal states is bounded by the square root of filter width. We further demonstrate that these results extend naturally to the conventional Hamiltonian setting by mapping Hamiltonian-filtered states to their Floquet counterparts.",
-      "pubdate": "Tue, 07 Jul 2026 22:50:46 +0000",
-      "authors": "Yilun Yang, J. Ignacio Cirac, Mari Carmen Bañuls"
+    "80d0363aaff4b82a450d41b4e587de1b": {
+      "id": "80d0363aaff4b82a450d41b4e587de1b",
+      "link": "http://arxiv.org/abs/2607.08649",
+      "title": "Extracting conformal data from Loschmidt echoes after critical quenches",
+      "abstract": "Conformal field theory provides universal predictions for Loschmidt amplitudes following quenches from product states to critical Hamiltonians. Building on this observation, we develop a route to extracting conformal data from real-time dynamics without preparing critical low-energy states. After analytic continuation, the Loschmidt amplitude is described by a boundary-CFT partition function on a strip, whose transverse transfer matrix encodes both the boundary operator spectrum and the central charge. Local space-time perturbations of the amplitude are governed by equilibrium correlation functions, and therefore provide access to critical exponents. In parallel, generalized temporal entropies exhibit scaling with time analogous to the equilibrium scaling of spatial entanglement entropy. We show that the low-lying boundary spectrum can be reconstructed from the system-size dependence of finite-chain Loschmidt echoes, whose damped oscillations encode differences of boundary scaling dimensions. Finally, we propose a finite-size scaling protocol that can extract these quantities from simulations or experiments on state-of-the-art quantum platforms.",
+      "pubdate": "Thu, 09 Jul 2026 16:19:42 +0000",
+      "authors": "Aleix Bou-Comas, Stefano Carignano, Sergio Cerezo-Roquebrún, Esperanza Lopez, Luca Tagliacozzo"
+    },
+    "1897034058cd81e1991568c7f116d076": {
+      "id": "1897034058cd81e1991568c7f116d076",
+      "link": "http://arxiv.org/abs/2607.08589",
+      "title": "Universality of Measurement-Induced Criticality under Symmetry-Breaking Measurements",
+      "abstract": "We study the critical properties of random quantum circuits with a $U(1)$ symmetry subject to local projective measurements that explicitly break this symmetry. We find that, at the measurement-induced phase transition, symmetry-breaking measurements act as a relevant perturbation at large scales, leading to the same universal critical properties as the corresponding monitored random circuit with non-symmetric unitary dynamics. In particular, we consider monitored $U(1)$-symmetric Haar-random circuits in the limit of large local Hilbert-space dimension, where the trajectory-averaged entanglement entropy can be exactly obtained in terms of a classical statistical mechanics model. In this model, the charge associated with the conservation law follows a symmetric simple exclusion process, in which symmetry-breaking measurements correspond to disordered defects that create and destroy charges. We prove that the charge correlation length remains finite for any measurement rate, ruling out a charge-sharpening transition, in contrast to the case of symmetry-preserving measurements. We further support our predictions at finite local Hilbert-space dimension through numerical finite-size scaling analyses of the entanglement transition in monitored $U(1)$-symmetric Haar and stabilizer random circuits.",
+      "pubdate": "Thu, 09 Jul 2026 15:24:48 +0000",
+      "authors": "Angelo Russotto, Filiberto Ares, Pasquale Calabrese"
+    },
+    "760261fe580e19281299e9a338ee7dad": {
+      "id": "760261fe580e19281299e9a338ee7dad",
+      "link": "http://arxiv.org/abs/2607.08568",
+      "title": "Renormalization flows for 1D mixed states and a quantum Goursat lemma",
+      "abstract": "Renormalization provides a framework for relating microscopic models of physical systems to effective descriptions at larger length scales. This procedure is studied for the boundary states of non-chiral two-dimensional topologically ordered models. The initial data consist of renormalization fixed points built from representations of finite-dimensional $C^*$-Hopf algebras, which are then perturbed by uniform on-site noise quantum channels and repeatedly coarse-grained. The resulting flows admit an intrinsic algebraic description in terms of completely positive maps on the $C^*$-Hopf algebra or, equivalently, positive linear functionals on its enveloping $C^*$-Hopf algebra. Their iteration is governed by convolution powers, and convergent trajectories yield new matrix product density operator fixed points, described by finite $*$-quantum hypergroups. This provides a concrete physical interpretation of such structures. For finite group algebras and their duals, we provide explicit classifications via Goursat's lemma for groups. Finally, we formulate and prove a quantum generalization of Goursat's lemma for finite-dimensional $C^*$-Hopf algebras, a result of independent interest, which gives an explicit structural description of all convergent renormalization trajectories.",
+      "pubdate": "Thu, 09 Jul 2026 14:56:47 +0000",
+      "authors": "Léo Le-Nestour, David Pérez-García, Alberto Ruiz-de-Alarcón"
+    },
+    "497e55c0878ad81715c62c51baffd395": {
+      "id": "497e55c0878ad81715c62c51baffd395",
+      "link": "http://arxiv.org/abs/2607.08396",
+      "title": "Efficiently simulable quantum circuits with large entanglement, magic, and non-Gaussianity via code-compiled tensor networks",
+      "abstract": "We introduce a family of quantum circuits that possess standard indicators of classical simulation hardness including high entanglement entropy, magic, and non-Gaussianity, yet admit efficient classical simulation via matrix product states (MPS). Our construction uses logical circuits of high-rate Calderbank-Shor-Steane (CSS) codes with enhanced symmetries. Using code automorphisms and transversal diagonal gates from higher levels of the Clifford hierarchy, we realize nonlocal logical Clifford and non-Clifford gates, showing how error-correcting codes can compile complex logical circuits into simple physical operations. Simulation efficiency rests on two properties: (i) diagonal transversal gates do not increase bond dimension, and (ii) permutations are tracked classically via on-the-fly relabeling, avoiding costly SWAP networks. Unlike Clifford or matchgate simulation, our method accepts a broad class of initial states, including dense entangled, magic, and non-Gaussian inputs, provided the encoded state retains an efficient MPS representation. We also release an exact phase-polynomial backend for monomial subfamilies, whose cost is set by higher-degree phase terms rather than entanglement growth. We demonstrate the method on an infinite polar CSS code family, showing bond dimension stays bounded by the encoding cost regardless of circuit depth. These results show that for some circuit families, standard resource measures are individually insufficient to indicate simulation hardness. As a near-term application, we use the compiled MPS as a classical reference for direct fidelity estimation of a quantum device running nontrivial logical circuits. Pauli sampling on the encoded reference, with a Clifford pushback through the known encoder, provides the ideal expectation values, so the logical output fidelity can be estimated from local Pauli readout alone, without costly state tomography.",
+      "pubdate": "Thu, 09 Jul 2026 12:19:50 +0000",
+      "authors": "Aydin Deger, Stergios Koutsioumpas, Mark Webster, Hasan Sayginel, Joschka Roffe, Dan E. Browne"
+    },
+    "c6099ba59ecd88586dd0b13dd01e16ad": {
+      "id": "c6099ba59ecd88586dd0b13dd01e16ad",
+      "link": "http://arxiv.org/abs/2607.08178",
+      "title": "State-Averaged Density Matrix Embedding Theory for Local Excitations",
+      "abstract": "Density matrix embedding theory (DMET) provides an elegant framework in quantum chemistry to describe local properties of chemical systems that allows a high-level method being used to solve an embedded subsystem constructed based on a low-level treatment of the whole system, and therefore achieves a balance between efficiency and accuracy. However, because the embedded subspace in DMET is typically constructed from the mean-field ground state Slater determinant, the resulting bath orbitals inherently favor the ground state, leading to unbalanced descriptions of ground and excited states for local excitations. In this work, we first demonstrate the starting-point dependence of DMET in excitation energy calculations, and then generalize original ground-state based DMET by extending the starting point from the single Slater determinant to state-averaged (SA) complete active space self-consistent field (CASSCF), hence termed as SA-DMDT. In calculations of magnetic anisotropy and excitation energies of transition metal and lanthanide complexes, SA-DMET shows significant improvement in accuracy compared to the single-state DMET. Configuration-averaged Hartree-Fock (CAHF), which is equivalent to SA-CASSCF when all states in the chosen active space are equally averaged, is found to give comparable accuracy as a DMET starting point, thus offering a more efficient choice for state-averaged embedding. Finally, the recently proposed non-orthongal atomic-orbital-based DMET (AO-DMET) is tested on various systems and gives very promising results in all cases. These results establish SA-DMET, especially in combination with AO-DMET and CAHF, as a robust and efficient embedding framework for local excited states in strongly correlated metal complexes.",
+      "pubdate": "Thu, 09 Jul 2026 07:25:52 +0000",
+      "authors": "Zhe-Bin Guan, Hong Jiang"
+    },
+    "62b630a1eb96b614287e1b17386c4d56": {
+      "id": "62b630a1eb96b614287e1b17386c4d56",
+      "link": "http://arxiv.org/abs/2607.08176",
+      "title": "Scalable Simulation of Strongly Correlated Electron-Phonon Systems via Non-Gaussian Matrix Product States",
+      "abstract": "We investigate strongly correlated electron-phonon (e-ph) systems via a non-Gaussian matrix product state method. By combining non-Gaussian states with matrix product states, our method efficiently characterizes the intractable entanglement between strongly correlated electrons and phononic modes of unbounded Hilbert space, enabling scalable simulations across broad parameter regimes. In one-dimensional generalized Hubbard--Holstein (HH) models, we identify a pronounced tendency toward phase separation (PS), an instability relevant to recent angle-resolved photoemission spectroscopy observations on doped cuprate chain. In two-dimensional HH models, we construct the phase diagram at half-filling featuring a metallic phase emerging from the competition between non-local phonon-mediated attraction and local Hubbard repulsion. Upon doping, we elucidate the role of soft phonons in stabilizing stripe phases. In the antiferromagnet, the stabilization of the fully filled stripe is attributed to a local retardation effect, wherein the charge order is pinned by phonons, leading to a diminished response to spin fluctuations. In the doped charge-density-wave regime, a novel bipolaronic stripe phase with an enlarged unit cell is stabilized via a non-local retardation effect, where long-range phonon-mediated interactions suppress PS. Our work establishes a systematic route to decoding the e-ph interplay that is crucial for superconductivity.",
+      "pubdate": "Thu, 09 Jul 2026 07:21:49 +0000",
+      "authors": "Siyuan Jiang, Tao Shi"
+    },
+    "9f44d357aa8dc580580364a90e51b6b5": {
+      "id": "9f44d357aa8dc580580364a90e51b6b5",
+      "link": "http://arxiv.org/abs/2607.08166",
+      "title": "Efficient Pauli-decomposition and multistage state-refinement for tensor network based differential equation solver",
+      "abstract": "Classical numerical techniques for solving partial differential equations (PDEs) become computationally expensive as the dimension of the discretized differential operator increases. For PDEs giving rise to Sturm--Liouville problems, tensor network (TN) methods can be highly productive: an operator of dimension $N\\times N$ can be represented as a matrix product operator (MPO) using only $n=\\log_2(N)$ qubits, enabling computation of eigenvalues and eigenvectors via imaginary time evolution (ITE). However, this remains computationally challenging. First, most methods for generating MPOs of large operators without explicit tensor-product structure require prohibitively large memory. Second, the number of Trotterization steps for convergence in conventional ITE increases rapidly with $n$. We present techniques to mitigate both challenges for certain sparse, structured differential operators. To address the first, we construct the MPO by expanding the operator in the Pauli-string basis, enabled by an analytical expression for the Pauli basis coefficients that reduces the memory requirement from $\\mathcal{O}(2^{n+1})$ to $\\mathcal{O}(2n)$. To address the second, we propose a multistage state-refinement heuristic that accelerates ITE convergence, reducing convergence time by up to two orders of magnitude. Using this TN framework, we compute the first 32 eigenstates of a Laplacian of dimension exceeding $10^6$ with fidelity above $0.95$ using a 20-qubit MPO. We further validate the method on the 2D anharmonic oscillator and investigate disordered systems, where increasing random potential strength degrades accuracy and limits the approach.",
+      "pubdate": "Thu, 09 Jul 2026 07:10:01 +0000",
+      "authors": "Vishwabhushan Suresh Gholap, Himadri Shekhar Dhar, Siddhartha Santra"
+    },
+    "0af5cabe59ab91abc2ee2f7841b7c6b1": {
+      "id": "0af5cabe59ab91abc2ee2f7841b7c6b1",
+      "link": "http://arxiv.org/abs/2607.07857",
+      "title": "Multi-agent Autoformalization of Tensor Network Theory",
+      "abstract": "We build a team of specialized large language-model agents and present an agent-driven workflow for research-level formalization in theoretical physics, with the autoformalization of the fundamental theorem of matrix-product states as a demonstration. The agents, coordinated through a structured mathematical blueprint and periodic human review, orchestrated and executed the full formalization autonomously. For some statements, the agents were able to explore new proof routes that are not part of the standard literature. Along the way the agents produced extensive tensor-network and quantum-information libraries not previously available in Mathlib, Lean's mathematical library. As a physical application, the formalization also extends towards symmetry-protected topological phases in one dimension. We find that the main bottleneck in large-scale autoformalization is enforcing mathematical intent and we provide a detailed study of the full process and various subtleties involved. We release the codebase as the library \\href{https://github.com/LionSR/TNLean}{TNLean}, together with a \\nChapters{}-chapter \\href{https://lionsr.github.io/TNLean/blueprint/}{blueprint} of the formalization effort.",
+      "pubdate": "Wed, 08 Jul 2026 18:43:33 +0000",
+      "authors": "Sirui Lu, Erickson Tjoa, J. Ignacio Cirac"
+    },
+    "955e8564bed046ad3da128a190c19137": {
+      "id": "955e8564bed046ad3da128a190c19137",
+      "link": "http://arxiv.org/abs/2607.07807",
+      "title": "Parity Anomaly of Preformed Pairs Governs the Thermal Hall Effect above $T_c$",
+      "abstract": "A large negative thermal Hall signal has been reported across multiple cuprate families in the pseudogap phase where the superconducting order parameter has vanished, with a magnitude that no existing microscopic theory reproduces without free parameters. Competing proposals based on chiral phonons, spinons, or loop currents each require undetermined coupling constants and do not predict the temperature dependence in terms of an independently measured spectroscopic gap. We show that the parity anomaly of $(2+1)$-dimensional quantum field theory resolves this long-standing puzzle: the preformed-pair pseudogap $Δ_{\\rm pg}(T)$ enters the parity-odd fermion determinant identically to a condensate mass, yielding the exact parameter-free formula $κ_{xy}/T = (π^2 k_B^2/6h)\\,C\\,\\tanh[Δ_{\\rm pg}(T)/(2k_BT)]$, where $C$ is the Chern number of the chiral pairing channel and $Δ_{\\rm pg}(T)$ is directly measurable by ARPES or STM. Coleman-Hill non-renormalization protects the result against higher-loop corrections, and two independent numerical tests, Wilson-loop flux threading and DMRG on $p+ip$ cylinders, confirm the anomaly correlation length to $0.2\\%$ accuracy with no power-law finite-size corrections. The theory predicts thermal Hall onset at $T^*$ rather than $T_c$, provides a falsifiable logarithmic-derivative test against ARPES data, and yields a concrete quantitative target for magic-angle twisted bilayer graphene.",
+      "pubdate": "Wed, 08 Jul 2026 18:00:08 +0000",
+      "authors": "Kumar Ghosh"
     }
   }
 }
