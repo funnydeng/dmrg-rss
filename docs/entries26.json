@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-13T00:46:32.834472+00:00",
+  "last_updated": "2026-07-13T12:55:02.619323+00:00",
   "entries": {
     "b41a56b6037f9124967310cc593200b9": {
       "id": "b41a56b6037f9124967310cc593200b9",
@@ -6456,6 +6456,46 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "a5c83aeac6b857380f508f1cac11b77b": {
+      "id": "a5c83aeac6b857380f508f1cac11b77b",
+      "link": "http://arxiv.org/abs/2607.09599",
+      "title": "Generalized Nonlinear Imaginary-Time Evolution",
+      "abstract": "Imaginary-time evolution (ITE) is a powerful method for ground-state preparation of a given Hamiltonian. The normalized ITE can be viewed as a gradient flow of the energy expectation value with respect to the Fubini--Study metric. In this work, we propose a generalized nonlinear imaginary-time evolution (NITE) for more general quantum state-preparation tasks. We further present a hardware-efficient variational implementation of NITE and reveal its connection to quantum natural gradient descent. NITE is applied to several subroutine tasks, including variance minimization in variational eigensolvers, probe-state preparation in variational quantum sensing, and excited-state preparation using penalty terms. We prove that NITE achieves a local exponential convergence rate under reasonable assumptions. Our results show that NITE outperforms standard gradient descent and can serve as an efficient optimization method for variational tasks beyond ground-state preparation.",
+      "pubdate": "Fri, 10 Jul 2026 16:54:39 +0000",
+      "authors": "Chenyu Shi, Hao Wang, Jin-Fu Chen"
+    },
+    "4b59202c45ef44505e3866fd15730c4f": {
+      "id": "4b59202c45ef44505e3866fd15730c4f",
+      "link": "http://arxiv.org/abs/2607.09396",
+      "title": "Quantum phases in endofullerene zigzag chains",
+      "abstract": "We employ large-scale density matrix renormalization group calculations to study the quantum phases of dipolar molecules confined in bent (zigzag) endofullerene chains, as a function of the chain angle $γ$. For LiF, ferroelectric order persists across the full range $60^\\circ < γ180^\\circ$, with the critical effective dipole moment increasing as the chain bends and parallel alignment becomes less favorable. Near the equilateral configuration ($γ= 60^\\circ$), geometric frustration drives a transition to an antiferroelectric Néel-ordered phase in which neighboring dipoles anti-align along the chain axis. We show that capturing this reorientation requires including dipolar couplings beyond the nearest-neighbor approximation, since next-nearest-neighbor interactions become equally strong at $γ= 60^\\circ$. For confined water, o-D$_2$O reproduces both ordered phases, whereas p-H$_2$O -- owing to its large rotational constants -- develops no order at any chain angle despite the enhanced coordination of the bent geometry. Because a zigzag chain is the narrowest stripe of a two-dimensional lattice, these results suggest that engineered endofullerene layers could host a rich variety of dipole-ordered quantum phases beyond the ferroelectric ordering observed in previous work.",
+      "pubdate": "Fri, 10 Jul 2026 13:19:51 +0000",
+      "authors": "Tobias Serwatka, Muhammad Shaeer Moeed, Roger G. Melko, Pierre-Nicholas Roy"
+    },
+    "c66d7ef81936a6d708b49e664f5ee8c5": {
+      "id": "c66d7ef81936a6d708b49e664f5ee8c5",
+      "link": "http://arxiv.org/abs/2607.09140",
+      "title": "Quantum Hopfion rings in the cluster mean-field approximation",
+      "abstract": "We study the quantum properties of two- and three-dimensional spin textures -- $kπ$-skyrmions and hopfion rings -- within the cluster mean-field approximation (CMFA). By combining the CMFA with a symmetrization procedure, we achieve two key advances: the accurate computation of quantum fluctuations in large spin textures and reliable access to metastable states. These challenges are generally insurmountable using standard methods, which are severely limited by the curse of dimensionality and typically restricted to ground-state properties. Exploiting the cylindrical symmetry of the studied magnetic configurations, we construct one-dimensional chain-like clusters that can be efficiently simulated using the density matrix renormalization group method, while inter-cluster interactions are treated at the mean-field level. The resulting spatial profiles of quantum features such as the local variation of the magnetization length in hopfion rings reveal limitations of the classical micromagnetic model and indicate the necessity of its extension. We demonstrate that the recently proposed regularized micromagnetic equation provides a suitable framework for this purpose.",
+      "pubdate": "Fri, 10 Jul 2026 06:51:54 +0000",
+      "authors": "Vladyslav M. Kuchkin, Thomas L. Schmidt"
+    },
+    "c6507c133059c404d5c69d0f700382a3": {
+      "id": "c6507c133059c404d5c69d0f700382a3",
+      "link": "http://arxiv.org/abs/2607.08967",
+      "title": "Probing two-spin entanglement at quantum criticality on a quantum processor",
+      "abstract": "Quantum phase transitions in many-body systems give rise to highly entangled states, and understanding their quantum correlations is crucial for characterizing quantum materials. However, traditional entanglement measures such as entanglement entropy are difficult to interpret for noisy or mixed states and require complex circuits to evaluate. Therefore, we explore the Positive Partial Transpose (PPT) criterion, coupled with overlapping state tomography, as an efficient and scalable spin-spin entanglement witness. It detects pairwise entanglement from reduced density matrices, distinguishes quantum from classical correlations, and applies to both pure and mixed states. It is ideal for studying condensed matter systems prepared on noisy quantum devices as well as future extensions to finite temperatures. We demonstrate the approach on quantum hardware, using variational circuits to prepare quantum critical states with up to 20 qubits and completely map their two-spin entanglement across various quantum phase transitions.",
+      "pubdate": "Thu, 09 Jul 2026 22:04:26 +0000",
+      "authors": "Anshumitra Baul, Xiao Xiao, Phillip C. Lotshaw"
+    },
+    "477c52357c0fb5a659db2a5f4ca0ca17": {
+      "id": "477c52357c0fb5a659db2a5f4ca0ca17",
+      "link": "http://arxiv.org/abs/2607.08936",
+      "title": "A Tensor-Train Discontinuous Galerkin Method for the Vlasov-Maxwell System",
+      "abstract": "We present a tensor-train discontinuous Galerkin (TT-DG) formulation for the Vlasov--Maxwell system that combines a modal DG discretization with low-rank tensor representations of the phase-space solution and discrete operators. The formulation exploits the tensor-product structure of the DG discretization to perform quadrature, differentiation, nonlinear upwind flux evaluation, and time integration directly in compressed form. The method is evaluated on several standard 1D2V Vlasov--Maxwell benchmark problems, including the streaming Weibel instability, weak Landau damping, and two-stream instability problems. Across these problems, the TT formulation reproduces the accuracy and conservation behavior of the underlying full-grid DG discretization while substantially reducing memory usage and runtime. For weakly nonlinear problems, compression ratios exceeding $10^4$ are obtained together with significant speedups relative to the full-grid solver. For the strongly nonlinear two-stream instability problem, the TT formulation remains effective despite reduced compressibility caused by fine-scale phase-space filamentation. These results demonstrate that tensor-train representations provide an effective approach for reducing the computational cost of deterministic DG-based kinetic plasma simulations while retaining the favorable numerical properties of the underlying discretization.",
+      "pubdate": "Thu, 09 Jul 2026 21:06:10 +0000",
+      "authors": "Rujeko Chinomona, Dibyendu Adak, William J. Barham, Duc P. Truong, Nathan V. Roberts, Kim Ø. Rasmussen, Boian S. Alexandrov"
     }
   }
 }
