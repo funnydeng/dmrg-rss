@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-17T00:43:14.709458+00:00",
+  "last_updated": "2026-07-17T12:32:41.285279+00:00",
   "entries": {
     "9cec01d767dbfc88dde1a2b49cdc4dc1": {
       "id": "9cec01d767dbfc88dde1a2b49cdc4dc1",
@@ -6664,6 +6664,102 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "17f4dc0c7d0b50bb4ab664861a3d97a8": {
+      "id": "17f4dc0c7d0b50bb4ab664861a3d97a8",
+      "link": "http://arxiv.org/abs/2607.15158",
+      "title": "Fast two-dimensional tensor-network contraction via subspace iteration",
+      "abstract": "The corner transfer matrix renormalization group (CTMRG) is one of the standard contraction methods for infinite projected entangled-pair states (iPEPS), but its computational cost is dominated by repeated truncated singular value decompositions (SVDs). We introduce subspace-iteration CTMRG (SI-CTMRG), a QR-based projector construction that replaces each large-matrix SVD with an SVD of a much smaller matrix. The resulting algorithm shifts the dominant cost from decompositions to tensor contractions, making it highly suited to GPU acceleration and yielding speedups of up to two orders of magnitude over standard CTMRG. We demonstrate the efficiency and accuracy of the method for the triangular-lattice Heisenberg antiferromagnet, reaching state-of-the-art iPEPS results on a single H100 GPU in approximately 10 hours of computation.",
+      "pubdate": "Thu, 16 Jul 2026 16:00:54 +0000",
+      "authors": "Yining Zhang, Philippe Corboz"
+    },
+    "ed0b0326dfefad32d04c8d8c227e2955": {
+      "id": "ed0b0326dfefad32d04c8d8c227e2955",
+      "link": "http://arxiv.org/abs/2607.15132",
+      "title": "Periodic orbits and quantum many-body scars in integrable spin chains",
+      "abstract": "Quantum many-body scars provide an exception to generic thermalising dynamics, but their relation to integrability remains unclear. Here we apply the periodic-orbit framework to the integrable XYZ/XXZ spin-1/2 chain, developing an energy-resolved approach that enables us to locate and track periodic orbits across the spectrum. We identify families of scarred orbits and resolve their supporting eigenstates in terms of Bethe-ansatz quantum numbers, revealing a common string core dressed by zero-momentum magnon pairs. This allows us to reconstruct both the scarred eigenstates and the associated towers directly within the Bethe ansatz, and explain the equidistant tower spacing analytically from the decoupling of zero-momentum magnon pairs in the Bethe equations, providing a microscopic realisation of scar phenomenology in an integrable setting. We further show that this structure persists upon breaking integrability with a transverse field, with the periodic orbits continuing to govern the dynamics. Our results establish a direct connection between the periodic-orbit picture of quantum scarring and the algebraic structure of integrable models, showing that key features of scar dynamics can be understood analytically within the Bethe ansatz framework.",
+      "pubdate": "Thu, 16 Jul 2026 15:41:37 +0000",
+      "authors": "Elena Petrova, Maksym Serbyn, Marko Ljubotina"
+    },
+    "f16a592a0e1f43daeab5db06f92d3841": {
+      "id": "f16a592a0e1f43daeab5db06f92d3841",
+      "link": "http://arxiv.org/abs/2607.15124",
+      "title": "On the origin of finite entanglement scaling",
+      "abstract": "The concept of finite entanglement scaling forms one of the pillars on which the tensor network ecosystem is built. In this paper, we resolve the open problem of determining the actual perturbations induced by matrix product state approximations of critical systems, and we demonstrate that these can be quite different than the ones predicted by conformal field theory. To that aim, we develop a sparse linear solver to calculate the forward and backward derivatives of 2-dimensional tensor networks with respect to their defining parameters in an implicit way. This algorithm is of independent interest as it provides a primitive for the variational optimization of projected entangled pair states that circumvents the instabilities plaguing traditional automatic differentiation methods.",
+      "pubdate": "Thu, 16 Jul 2026 15:33:30 +0000",
+      "authors": "Luke Hodgkiss, Laurens Lootens, Atsushi Ueda, Bram Vanhecke, Frank Verstraete"
+    },
+    "9d2b8fd5504b19f3fce346f9b2486b0b": {
+      "id": "9d2b8fd5504b19f3fce346f9b2486b0b",
+      "link": "http://arxiv.org/abs/2607.15030",
+      "title": "Implicit differentiation of tensor network algorithms",
+      "abstract": "The current leading approach to the variational optimization of projected entangled-pair states (PEPS) is based on automatic differentiation, which allows for a convenient evaluation of the energy gradient with respect to the local variational degrees of freedom. However, evaluating the energy gradient not only remains a major computational bottleneck of the optimization procedure, but also suffers from frequent numerical instabilities. In this work, we adopt recent advances in implicit differentiation techniques to address these challenges in PEPS optimization. By reformulating the core step of the gradient computation in terms of a single characteristic equation for the contraction environment, we reduce the cost of the gradient computation and improve its scaling with the problem size. By choosing a suitable parametrization of this characteristic equation based on the intrinsic symmetries of the contraction environment, we can directly remove instabilities from the global gradient computation that would otherwise arise from the derivatives of subroutines of the contraction algorithm. Finally, we demonstrate how this approach drastically simplifies the practical implementation of stable gradient-based PEPS optimization.",
+      "pubdate": "Thu, 16 Jul 2026 14:13:33 +0000",
+      "authors": "Lander Burgelman, Anna Francuz, Paul Brehmer, Lukas Devos, Jutho Haegeman, Frank Verstraete, Bram Vanhecke"
+    },
+    "51b578d17d351146db3ebec9f29747ae": {
+      "id": "51b578d17d351146db3ebec9f29747ae",
+      "link": "http://arxiv.org/abs/2607.14917",
+      "title": "Star-triangle duality estimates for triangular and honeycomb permutation models",
+      "abstract": "We study a duality analysis in conjunction with the star-triangle transformation for symmetric-group permutation models on the triangular and honeycomb lattices. The calculation is motivated by the permutation-model description of random tensor networks and by earlier duality analyses of replicated spin glasses. The essential point is that the finite-basis unit is not a bare bond but a star-triangle block. Our analysis estimates the critical bond dimension for the honeycomb lattice to be 2.634929344884, and the associated single-bond duality relation yields the triangular-lattice estimate 1.475661534848.",
+      "pubdate": "Thu, 16 Jul 2026 12:35:35 +0000",
+      "authors": "Masayuki Ohzeki"
+    },
+    "35dfed107cd4517c17f8ef2e768328f0": {
+      "id": "35dfed107cd4517c17f8ef2e768328f0",
+      "link": "http://arxiv.org/abs/2607.14766",
+      "title": "Emergence of a monopole phase in the $J_1{-}J_2$ Heisenberg model on the triangular lattice for small magnetic fields",
+      "abstract": "We investigate the ground-state phase diagram of the $J_1{-}J_2$ Heisenberg model on the triangular lattice under an external Zeeman field $H$ by using the variational Monte Carlo approach. We span a region with $0 \\le J_2/J_1 \\le 0.2$ and $0 \\le H/J_1 \\le 2$, to assess the fate of the (putative) spin-liquid phase that has been detected for $J_2/J_1=1/8$ at zero magnetic field. Simple variational ansatze are proposed for a few candidate states, and their energetics are compared on large clusters to obtain the phase diagram. For $J_2/J_1 \\lesssim 1/6$, a continuous transition from a gapless \"Y'' phase to a gapped \"up-up-down'' phase is obtained, as predicted by spin-wave theory. Most importantly, around $J_2/J_1=1/8$, a condensate of monopoles (which are gapless gauge excitations of the spin liquid at $H=0$) is stabilized in a significant region of the phase diagram, for small Zeeman fields. Here, a finite scalar chirality is present, while no transverse magnetic order is detected. The stability of the monopole phase is confirmed by a field-theory approach that includes a self-consistent random-phase approximation of the low-lying spin fluctuations. The boundary between the monopole and \"Y'' phases is also obtained with no free parameters.",
+      "pubdate": "Thu, 16 Jul 2026 09:49:53 +0000",
+      "authors": "Sasank Budaraju, Shi Feng, Josef Willsher, Johannes Knolle, Frank Pollmann, Federico Becca"
+    },
+    "1e5cc3f41ccd3a713fac338148fae27a": {
+      "id": "1e5cc3f41ccd3a713fac338148fae27a",
+      "link": "http://arxiv.org/abs/2607.14518",
+      "title": "Structure-Aware Variational State Preparation for Quantum Basket Option Pricing",
+      "abstract": "Basket option pricing often relies on Monte Carlo estimation, for which quantum amplitude estimation (QAE) provides a quadratic speed-up. However, the practical benefit of QAE can be limited by the depth of the state-preparation circuit. We propose a structure-aware quantum state-preparation framework for QAE-based basket option pricing. The framework uses tensor-train (TT) rank information to design shallow variational state-preparation circuits. In the independent regime, TT ranks remove unnecessary entangling links from a hardware-efficient ansatz. In correlated basket settings, we instead prepare asset-wise marginals locally and train a compact latent block to match the basket cumulative distribution function. The Basket-CDF objective targets the basket pushforward distribution rather than the full joint state, directly aligning state preparation with basket-dependent payoffs. Numerical experiments show that the proposed circuits replace the exponential state-preparation depth scaling of exact amplitude loading with linear scaling, while maintaining low-percent basket-pricing errors. Additional sampling-based training experiments and an end-to-end QAE integration study support compatibility with sample-estimated training and standard QAE-based pricing workflows.",
+      "pubdate": "Thu, 16 Jul 2026 03:14:53 +0000",
+      "authors": "Dongwoo Kim, Zhenyu Cui, Daniel K. Park, Chihoon Lee"
+    },
+    "c65a1152ca79bb5b544720d3dd59f38d": {
+      "id": "c65a1152ca79bb5b544720d3dd59f38d",
+      "link": "http://arxiv.org/abs/2607.14402",
+      "title": "The two-particle density matrix of a Luttinger liquid",
+      "abstract": "Two-particle coherence is the first level of the reduced-density-matrix hierarchy that contains correlations inaccessible to single-particle observables, yet analytic two-particle density matrices are rare even in one dimension. We derive a closed, finite-size expression for the equal-time two-particle reduced density matrix of spinless fermions in a Tomonaga-Luttinger liquid using constructive bosonization with an explicit ultraviolet cutoff. In addition to the familiar Luttinger parameter $K$-dependent exponent $γ^2=(K+K^{-1}-2)/2$ which governs the spatial decay of matrix elements, the result exposes a second exponent, $λ=(K^{-1}-K)/2$, which encodes correlations between opposite chiralities and controls the off-diagonal structure. The diagonal limit of the two-particle reduced density matrix yields density correlations and the static structure factor, while its coherences resolve algebraic $2k_F$ charge-density-wave correlations for repulsion and odd-parity p-wave pairing correlations for attraction. After fixing the cutoff from the one-particle density matrix, the analytic result quantitatively reproduces density matrix renormalization group calculations of the interacting J-V chain within the Luttinger liquid regime. The result connects universal Luttinger liquid scaling with observables in finite microscopic systems.",
+      "pubdate": "Wed, 15 Jul 2026 22:37:42 +0000",
+      "authors": "Harini Radhakrishnan, Matthias Thamm, Hatem Barghathi, Bernd Rosenow, Adrian Del Maestro"
+    },
+    "1c623846b261629315bfb0c9d9e1a14b": {
+      "id": "1c623846b261629315bfb0c9d9e1a14b",
+      "link": "http://arxiv.org/abs/2607.14296",
+      "title": "Disorder-enhanced compressibility of Floquet random quantum circuits",
+      "abstract": "Current quantum hardware is limited by noise and decoherence, which restrict the depth of unitary circuits that can be implemented with high fidelity. We investigate how the compressibility of time-evolution operators depends on the dynamical regime of the underlying many-body system. As a testbed, we study a one-dimensional Floquet random circuit with a tunable competition between interactions and on-site disorder. Using tensor-network simulations, we characterize operator growth through the operator-entanglement entropy of the Floquet unitary as well as of out-of-time-ordered correlators (OTOCs). We find rapid operator scrambling at weak disorder, while strong disorder leads to slow OTOC-front propagation and logarithmic or near-logarithmic operator-entanglement growth over the accessible time window. We then optimize shallow brickwall circuits to approximate the Floquet evolution and show that strong-disorder circuits can be compressed to substantially smaller depths than weak-disorder circuits at fixed logarithmic fidelity density. These results suggest that localized or slowly scrambling dynamics provide a favorable regime for compressed quantum simulation on noisy devices.",
+      "pubdate": "Wed, 15 Jul 2026 18:59:51 +0000",
+      "authors": "Francesca De Franco, Dante M. Kennes, David J. Luitz, Matteo Rizzi, Markus Schmitt"
+    },
+    "3531574458321b332f19e4f519c58ae9": {
+      "id": "3531574458321b332f19e4f519c58ae9",
+      "link": "http://arxiv.org/abs/2607.14222",
+      "title": "Magic Without Entanglement: Exact Revivals and Their Fisher Information Origin",
+      "abstract": "Magic and entanglement are independent quantum resources, yet their exact relation in many-body dynamics has remained elusive. We uncover two structural principles. First, at any stabilizer state, the curvature of the second stabilizer Rényi entropy under an arbitrary Hermitian generator equals the quantum Fisher information up to a fixed normalization, creating a bidirectional bridge between computational and metrological resources. Second, for commuting Ising evolution on any forest graph, a Clifford pruning circuit yields the full stabilizer-Rényi family at arbitrary size and in any spatial embedding, thereby furnishing a graph-theoretic construction of families with finite magic density and vanishing entanglement density in the thermodynamic limit. We solve two paradigmatic one-dimensional realizations central to quantum simulation -- an Ising quench and a kicked Floquet chain -- exactly for arbitrary system size and directly in the thermodynamic limit, revealing finite magic density with vanishing entanglement density, distinct magic and entanglement revival periods, and Clifford points with zero magic but finite bipartite entanglement. The same tangent geometry fixes initial growth, perturbative revival lifting, and stability of thermodynamic magic minima. Large-scale Pauli-basis matrix-product-state calculations verify all predictions, and the tangent bridge yields a concrete protocol for detecting magic through established quantum-Fisher-information measurements.",
+      "pubdate": "Wed, 15 Jul 2026 18:00:28 +0000",
+      "authors": "Rishabh Jha, Karun Gadge"
+    },
+    "362fc7b2e0e0ed8310cc56edaf68b500": {
+      "id": "362fc7b2e0e0ed8310cc56edaf68b500",
+      "link": "http://arxiv.org/abs/2607.14221",
+      "title": "Spinless charged excitation at the interface between a conventional topological insulator and a topological Mott insulator",
+      "abstract": "We investigate the interface separating two topologically distinct insulating phases of matter using extensive density-matrix renormalization group calculations to study the triangular-lattice Hofstadter-Hubbard model with a spatially varying interaction strength, chosen to realize both integer quantum Hall and chiral spin liquid states in different spatial regions. We find that the integer quantum Hall-chiral spin liquid interface hosts a spinless charged excitation that is bound to the interface. This mode at the interface is identified through charge and spin pumping, and by direct calculations of low-lying excited states. We also characterize bulk excitations in both phases, finding evidence for fractionalization in the chiral spin liquid and for spin-triplet exciton formation in the integer quantum Hall phase.",
+      "pubdate": "Wed, 15 Jul 2026 18:00:27 +0000",
+      "authors": "Cesar A. Gallegos, Andrew J. Millis, Steven R. White"
+    },
+    "5bf3c58806c17800fdd75903535aac78": {
+      "id": "5bf3c58806c17800fdd75903535aac78",
+      "link": "http://arxiv.org/abs/2607.14150",
+      "title": "Tensor Network Methods for Advection-Diffusion-Reaction Systems Using Quantum-Inspired Representations",
+      "abstract": "We present a quantum-inspired tensor-network framework for solving advection-diffusion-reaction (ADR) partial differential equations. Discretized solution fields are encoded as matrix product states (MPS), while differential operators are represented as matrix product operators (MPOs). Time integration is performed entirely in tensor-network form using explicit Euler updates with controlled truncation. The method is evaluated on one- and two-dimensional ADR problems and compared with high-accuracy Runge-Kutta reference solutions. Numerical results show that the proposed representation remains compact, stable, and accurate across a range of dynamical regimes. The solver captures both local solution profiles and global observables while maintaining small bond dimensions throughout the simulation. These results highlight the potential of tensor networks as efficient structure-preserving tools for PDE simulation in multiple spatial dimensions.",
+      "pubdate": "Tue, 14 Jul 2026 14:06:02 +0000",
+      "authors": "Nahid Binandeh Dehaghani, Rafal Wisniewski, A. Pedro Aguiar"
     }
   }
 }
