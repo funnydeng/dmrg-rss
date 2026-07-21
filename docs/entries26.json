@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-21T00:43:04.203354+00:00",
+  "last_updated": "2026-07-21T12:37:23.216945+00:00",
   "entries": {
     "da337c2364dd0a3d6996d76c30a5297d": {
       "id": "da337c2364dd0a3d6996d76c30a5297d",
@@ -6784,6 +6784,62 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "8fb51f9f7ee9578dd95f2788dcf287dd": {
+      "id": "8fb51f9f7ee9578dd95f2788dcf287dd",
+      "link": "http://arxiv.org/abs/2607.17934",
+      "title": "Variational non-gaussian approach to interacting spin-boson models",
+      "abstract": "We apply a hybrid variational framework to interacting spin-boson Hamiltonians, targeting regimes where simulations are limited by the unbounded bosonic Hilbert space and strong many-body correlations. The bosonic sector and spin-boson correlations are captured within a compact non-Gaussian variational manifold, while the minimized spin sector is obtained as the solution to an effective spin Hamiltonian. Minimization is carried out inside a self-consistent energy-minimization loop, where variational parameters are minimized and the effective Hamiltonian is solved via DMRG. The results are obtained without eliminating or truncating the photonic field. We benchmark the method on the Dicke and Dicke-Ising models by comparison to converged spin-boson DMRG, finding accurate ground-state solutions with reduced bond dimension.",
+      "pubdate": "Mon, 20 Jul 2026 13:32:39 +0000",
+      "authors": "João Pedro Mendonça, Yao Wang, Krzysztof Jachymski"
+    },
+    "0600ab91dc242c8639b6738b14fec052": {
+      "id": "0600ab91dc242c8639b6738b14fec052",
+      "link": "http://arxiv.org/abs/2607.17872",
+      "title": "Entanglement geometry separates circuit cutting, classical hardness, and trainability",
+      "abstract": "Circuit cutting promises to scale quantum computations beyond current hardware, but variational quantum advantage also requires low cutting overhead, classical hardness, and trainability. We show that these properties are strongly constrained by entanglement geometry. Matrix product state (MPS) and tree tensor network (TTN) circuits with constant seam bond dimension can be cut with \\(O(1/\\varepsilon^2)\\) sampling overhead, but remain efficiently classically simulable, ruling out asymptotic quantum advantage within these families. By independently controlling seam and intra-block entanglement, we construct a two-block circuit family that remains cheaply cuttable while requiring a super-polynomial global MPS bond dimension, as supported numerically up to \\(n=100\\). However, MPS hardness and trainability require incompatible depth regimes, \\(d=ω(\\log n)\\) and \\(d=O(\\log n)\\), respectively. Using magic rather than entanglement as the hardness resource avoids this conflict: shallow Clifford+\\(T\\) circuits remain cuttable and trainable while their stabiliser-simulation cost grows exponentially with the \\(T\\)-count.",
+      "pubdate": "Mon, 20 Jul 2026 12:18:02 +0000",
+      "authors": "Maria Gragera Garces, Sabina Drăgoi, Lirandë Pira"
+    },
+    "3219da17a441379499929b5f8e94b44c": {
+      "id": "3219da17a441379499929b5f8e94b44c",
+      "link": "http://arxiv.org/abs/2607.17678",
+      "title": "Variance-Reduced Trajectory Unravelings for GPU Noisy Quantum-Circuit Simulation: Characterization and a Qiskit-Aer Integration Gap",
+      "abstract": "Monte-Carlo trajectory (quantum-jump) methods are the practical route to simulating noisy quantum circuits once the exact density-matrix method is precluded by its $4^n$ memory cost. Their bottleneck is estimator variance: resolving one expectation value can demand thousands of trajectories. Recent tensor-network work shows that \\emph{variance-reduced unravelings} -- projector and analog sampling -- sharply cut this variance, but only on CPU matrix-product-state backends, with no path into production tooling. We implement both unravelings on a \\emph{GPU dense-statevector} trajectory engine and validate them against the exact density matrix (ideal-circuit fidelity $1-2.2\\times10^{-16}$; $1/\\sqrt{N}$ convergence; all unravelings unbiased to trace distance $<0.01$). On a single consumer GPU, projector unraveling reaches a target standard error with $20.8\\times$ fewer trajectories than Qiskit-Aer's \\texttt{batched\\_shots\\_gpu} at $n=10$, a factor that holds at $19$--$26\\times$ across $n=8$--$20$. A regime map places analog sampling optimal at weak noise and projector at strong noise, crossing near $γt\\approx0.35$. We further report a systems finding: Qiskit-Aer applies noise at the \\emph{channel} level and reconstructs a canonical Kraus decomposition at apply time, discarding any user-supplied unraveling, so variance-reduced unravelings cannot be delivered through its public API. Because Aer's Born-rule collapse machinery already exists, we specify a minimal change that would unlock the technique in production.",
+      "pubdate": "Mon, 20 Jul 2026 08:28:31 +0000",
+      "authors": "Chun-Yeol You"
+    },
+    "8a1e85db586f0f7a90b3db734dcca00f": {
+      "id": "8a1e85db586f0f7a90b3db734dcca00f",
+      "link": "http://arxiv.org/abs/2607.17390",
+      "title": "Kernel Regression with Tensor Trains and Hadamard Overparameterization",
+      "abstract": "Kernel regression with tensor trains and Hadamard overparameterization (KReTTaH) is introduced as a training-data-free, interpretable, and nonparametric framework for multi-way data imputation. The imputation problem is reformulated as regression in reproducing kernel Hilbert spaces (RKHS), where the tensor regression coefficients are explicitly constrained to lie on fixed-rank tensor-train (TT) manifolds and structured via Hadamard overparameterization to promote sparsity and high representational efficiency. Rather than relying on costly cross-validation, KReTTaH jointly optimizes the TT coefficient tensors and the kernel covariance matrices within a Riemannian product-manifold framework -- the former on fixed-rank TT manifolds, the latter on the manifold of positive-definite matrices -- thereby enabling automated kernel-hyperparameter selection. Numerical tests on two challenging applications -- imputation of high-dimensional functional magnetic resonance imaging (fMRI) data and recovery of missing edge flows in dynamic graphs -- demonstrate that KReTTaH consistently outperforms state-of-the-art tensor-, Bayesian-, and neural-network-based baselines in terms of modeling accuracy.",
+      "pubdate": "Sun, 19 Jul 2026 19:43:31 +0000",
+      "authors": "Duc Thien Nguyen, Konstantinos Slavakis, Eleftherios Kofidis, Dimitris Pados"
+    },
+    "a43cb141efa67a63309f67b7b0505f88": {
+      "id": "a43cb141efa67a63309f67b7b0505f88",
+      "link": "http://arxiv.org/abs/2607.16857",
+      "title": "Universal Parent Hamiltonians for Adiabatic Warm Starts",
+      "abstract": "Computing the ground state properties of quantum systems is an important potential application of quantum computing. The success probability of quantum phase estimation approaches to ground state problems is proportional to the overlap of the input state with the ground state. Local ansatz state approaches suffer from the orthogonality catastrophe, whereas adiabatic state preparation (ASP) can prepare good approximations with a cost growing with the inverse square of the minimum spectral gap along the adiabatic path. When the initial and target Hamiltonians lie in quantum phases separated by a first order phase transition, the minimum spectral gap along the adiabatic path becomes exponentially small as a function of system size. We pursue a solution to this problem based on choosing an initial Hamiltonian for adiabatic state preparation whose ground state lies in the same quantum phase as the target ground state. We develop a protocol for universal adiabatic warm starts with universal parent Hamiltonians (UPHAWS) that can initialize ASP in any state whose preparation circuit is known. We use the Feynman--Kitaev clock Hamiltonian as a universal parent Hamiltonian, for preparation circuits with and without mid circuit measurement. We benchmark the framework on a $\\mathbb{Z}_2$-symmetric matrix product state (MPS) family interpolating to a target GHZ Hamiltonian, and on the linear $H_6$ chain under symmetric bond stretching. For the $H_6$ system a bond-dimension-$4$ matrix product state warm-start increases the minimum gap on the adiabatic path by a factor of two relative to the Hartree-Fock initialization. To perform these classical benchmark simulations we develop a momentum-space truncation of the adiabatic Hamiltonian that may be of independent interest.",
+      "pubdate": "Sat, 18 Jul 2026 15:44:14 +0000",
+      "authors": "Feng Qian, Peter J. Love"
+    },
+    "091376adf881221f85f41196b138ba0c": {
+      "id": "091376adf881221f85f41196b138ba0c",
+      "link": "http://arxiv.org/abs/2607.16515",
+      "title": "Stroboscopic stability of a Floquet chiral spin liquid beyond the folding frequency",
+      "abstract": "We study the two-step Floquet dynamics of the chiral $J_1$-$J_2$-$K$ Heisenberg model on the $4\\times4$ torus, alternating its non-chiral Heisenberg part $H_{\\rm AF}$ and its chiral plaquette part $H_K$, at the parameter point where the static model (recovered in the infinite frequency limit) hosts a quasi-degenerate, spectrally isolated chiral-spin-liquid (CSL) topological doublet. The one-period propagator is computed exactly in all momentum/rotation symmetry sectors. It is shown that, decreasing the frequency, the topological doublet survives the drive far beyond the frequency $ω_{\\mathrm{res}}\\simeq 11.5 J_1$ at which folded states first cross it in quasienergy: the time-averaged energy of the Floquet eigenstates, which orders the folded Floquet spectrum, shows that the doublet remains the isolated bottom of the spectrum down to $ω\\simeq6J_1$, while stroboscopic time evolution over thousands of periods shows no heating for $ω\\gtrsim ω_{\\mathrm{res}}$ and only slow absorption below. The quasienergy resonances that occur in the folded regime are invisible in the average energy, identifying them as parametrically weak avoided crossings. We argue that this mechanism -- stability controlled by local energy scales rather than by the extensive many-body bandwidth -- is precisely the one expected to survive in the thermodynamic limit, where a prethermal Floquet CSL should persist for $ω$ above a threshold set by local scales, with heating times exponentially long in $ω/J_1$. Consistently, the optimal $D=3$ chiral PEPS of the static problem still describes the driven doublet deep in the folded regime, with an essentially unchanged local tensor.",
+      "pubdate": "Fri, 17 Jul 2026 21:32:55 +0000",
+      "authors": "Didier Poilblanc"
+    },
+    "7784ff06c152c180c6baaa78423a5198": {
+      "id": "7784ff06c152c180c6baaa78423a5198",
+      "link": "http://arxiv.org/abs/2607.16411",
+      "title": "Multibath Influence Matrices: Universal Scaling from Real-Time Dynamics",
+      "abstract": "Diverging timescales are the hallmark of critical dynamics and the bottleneck to their classical and quantum simulation. To tame this, we compress a spacetime tensor network: temporally into semigroup influence matrices and spatially via matrix-product states. Benchmarking on the two-impurity Anderson model with its four fermionic species, we compute spectral functions to map the evolution from a Kondo resonance, across a non-Fermi-liquid quantum critical point, and into a gapped singlet phase. Resolving transient through asymptotic dynamics in sudden quenches and Kibble-Zurek ramps, we obtain the universal two-channel-Kondo exponent. Together, these results establish multibath influence matrices as a practical tool for real-time dynamics in strongly correlated multi-orbital systems.",
+      "pubdate": "Fri, 17 Jul 2026 18:04:36 +0000",
+      "authors": "Matan Lotem, Michael Sonner, Valentin Link, Alessio Lerose, Dmitry A. Abanin"
     }
   }
 }
