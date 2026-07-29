@@ -1,6 +1,78 @@
 {
-  "last_updated": "2026-07-29T00:41:23.602616+00:00",
+  "last_updated": "2026-07-29T12:47:17.108039+00:00",
   "entries": {
+    "95cec7423924c3f4563b73df6cac7811": {
+      "id": "95cec7423924c3f4563b73df6cac7811",
+      "link": "http://arxiv.org/abs/2607.24258",
+      "title": "MPStab: an hybrid stabilizers tensor-network quantum circuit simulator",
+      "abstract": "The development of techniques for simulating quantum systems using classical computers is a paramount task for two primary reasons: i) there exist configurations for which classical computers are remarkably effective and will continue to be so, and ii) exploring the limits of classical computation facilitates the identification of the regimes of competence for quantum computers. In this work, we present MPStab, a quantum circuit simulator based on a hybrid formalism combining stabilizers and tensor networks, recently introduced in Ref. [1]. We present the package, its core functionalities, and explore its performances in a few interesting simulation regimes.",
+      "pubdate": "Mon, 27 Jul 2026 10:47:55 +0000",
+      "authors": "Giulio Crognaletti, Mattia Robbiano, Michele Grossi, Matteo Robbiati"
+    },
+    "58b54c080464e6ba3db18208055fb8fc": {
+      "id": "58b54c080464e6ba3db18208055fb8fc",
+      "link": "http://arxiv.org/abs/2607.24127",
+      "title": "Tree Tensor Network Reservoir Computing: Hierarchical Ensemble with Invariant Phase Boundaries",
+      "abstract": "We propose Tree Tensor Network Reservoir Computing (TTN-RC), a quantum-inspired reservoir computing framework for time-series prediction that uses the hierarchical structure of Tree Tensor Networks as a random reservoir. To control the exponential concentration or divergence of TTN outputs, we introduce a hierarchical ensemble method that partitions a fixed-size reservoir into multiple independent sub-reservoirs. In the tested NARMA benchmarks, TTN-RC achieves competitive or improved performance compared with conventional Echo State Networks, especially for tasks requiring higher-order nonlinear processing and longer contextual dependence. We also derive an expected contraction rate based on the reservoir Jacobian and develop a mean-field description of the reservoir-state statistics. These analyses identify an asymptotic stability boundary at $σ_{T}=\\sqrt{2}$ in the large per-tree-size limit, where several theoretical indicators converge. Our results provide a design principle for tensor-network-based reservoir computing and clarify how hierarchical reservoir topology controls stability and nonlinear information processing.",
+      "pubdate": "Mon, 27 Jul 2026 08:09:43 +0000",
+      "authors": "Daiki Sasaki, Chih-Chieh Chen, Tomah Sogabe"
+    },
+    "fff93e0c50a513c974bffb686c1f4ff1": {
+      "id": "fff93e0c50a513c974bffb686c1f4ff1",
+      "link": "http://arxiv.org/abs/2607.24038",
+      "title": "Magnetic-texture winding controls fermion-parity switches in an interacting $p$-wave magnet wire",
+      "abstract": "Coplanar magnetic spirals map locally onto uniform spin--orbit-coupled wires, but on a ring the rotating spin frame can change the electronic boundary condition. We prove, level by level in every fixed-particle-number sector, that even and odd texture windings impose boundary phases separated by half the single-electron flux period. Changing the winding by one also changes the physical pitch in inverse proportion to the circumference; a symmetric comparison removes this leading pitch correction. In the number-conserving topological phase, a global parity constraint then reverses the fermion-parity assignment of neighboring phase-winding branches. Density-matrix renormalization-group simulations show this reversal, support an Ising transition coexisting with a gapless charge mode, and relate the finite-size parity splitting to an independently calculated charge stiffness. Magnetic-texture winding thus changes the many-body spectrum through a global boundary condition that is not determined by the local band dispersion, providing a closed-geometry, number-conserving probe of topological pairing.",
+      "pubdate": "Mon, 27 Jul 2026 06:23:57 +0000",
+      "authors": "Hyun-Yong Lee"
+    },
+    "452c71b8e041245ee287ef3dfded3d22": {
+      "id": "452c71b8e041245ee287ef3dfded3d22",
+      "link": "http://arxiv.org/abs/2607.23654",
+      "title": "Pair-Density Wave from Doping an Altermagnetic Mott Insulator",
+      "abstract": "Pair-density-wave (PDW) superconductivity is a state in which the superconducting order parameter modulates at a finite wavevector. Using large-scale density matrix renormalization group, we study the doped altermagnetic Mott insulator in the checkerboard $t$-$J$ model, where altermagnetic exchange anisotropy is encoded microscopically through anisotropic ferromagnetic next-nearest-neighbor exchange. By mapping the ground-state phase diagram as a function of doping and altermagnetic anisotropy, mainly on six-leg cylinders, we identify a transition from a uniform $d$-wave superconducting regime with charge modulation to a PDW regime coexisting with stripe order. In the PDW regime, we report an unconventional wave-vector locking $\\mathbf Q_{\\mathrm{PDW}}\\approx 2\\mathbf Q_{\\mathrm{Stripe}}$ along the cylinder direction, in contrast to the conventional relation. Pair correlations reveal a two-scale structure, consisting of short-distance local $d$-wave pairing and long-distance finite-momentum PDW correlations. A symmetry-based Ginzburg--Landau analysis is presented for the observed locking. Our results identify altermagnetism as a strong-coupling, microscopically grounded route to finite-momentum superconductivity in doped Mott insulators.",
+      "pubdate": "Sun, 26 Jul 2026 13:44:09 +0000",
+      "authors": "Shuai A. Chen, Qianqian Chen, Guangyu Yu, Zheng Zhu"
+    },
+    "eea5b8c75f93587e718f46e05b3fcd01": {
+      "id": "eea5b8c75f93587e718f46e05b3fcd01",
+      "link": "http://arxiv.org/abs/2607.23551",
+      "title": "A TQFT-based Platform for Efficient Computation of Knot Invariants",
+      "abstract": "We present an interactive web platform that unifies the construction Feynman ribbon diagrams (FRDs), the evaluation of higher-rank Chern--Simons knot invariants, and the identification of FRD-like knots at higher crossing numbers. These tree-structured diagrams naturally represent arborescent knots, which we refer to throughout as FRD-like knots. Within a single visual environment, users can construct an FRD as a tensor network, evaluate its associated Chern--Simons invariants, and use the resulting invariant data to distinguish and identify the corresponding knot. To our knowledge, this is the first platform to combine diagrammatic construction, tensor-network evaluation, invariant computation, and knot identification within a unified workflow.",
+      "pubdate": "Sun, 26 Jul 2026 09:09:41 +0000",
+      "authors": "Amena Al Rawi, Hisham Sati, Vivek Kumar Singh"
+    },
+    "c9072569d02296220ecb6e5c9cf319bf": {
+      "id": "c9072569d02296220ecb6e5c9cf319bf",
+      "link": "http://arxiv.org/abs/2607.23392",
+      "title": "Hyperdeterminant wavefunctions",
+      "abstract": "We systematically introduce hyperdeterminant wavefunctions as a variational-wavefunction-based theoretical framework for strongly correlated quantum states of matter, together with practical numerical simulation algorithms. This framework generalizes previously known fermionic parton constructions, yields reliable microscopics with intuitive physical pictures, and allows direct access to the fractionalized degrees of freedom together with associated microscopic effective field theories. We demonstrate the applications of this framework to fractional Chern insulators and quantum spin liquids. We comment that the hyperdeterminant states belong to a more general class of variational wavefunctions: the fused Gaussian states.",
+      "pubdate": "Sat, 25 Jul 2026 23:40:38 +0000",
+      "authors": "Guan-Lin Lin, Di Xiao, Ying Ran"
+    },
+    "c50ea1c6c5abad0481401d2d9cbeaf24": {
+      "id": "c50ea1c6c5abad0481401d2d9cbeaf24",
+      "link": "http://arxiv.org/abs/2607.22863",
+      "title": "Universal scaling framework for parameterized quantum evolutions at criticality",
+      "abstract": "Variational ansätze are a cornerstone of quantum many-body physics, providing compact approximations to complex ground states using finite resources. Recent quantum-technology advances have introduced a new class based on layered parameterized evolutions. Assessing whether they can represent critical ground states is challenging: correlations span all length scales, while finite circuit depth limits how far they extend. Building on finite-resource scaling from tensor networks, we assign each ansatz an emergent correlation length $ξ_D$, the longest range over which it faithfully captures critical correlations. Its growth with refinement parameter $D$, $ξ_D \\propto D^κ$, defines an exponent $κ$ measuring how efficiently an architecture converts resources into long-distance correlations. Applying this framework to the critical transverse-field Ising model, with $D$ the circuit depth of parameterized evolutions, we compare ansätze with nearest-neighbor and long-range generators, and layers where generators act separately or combined. All ansätze are compatible with algebraic growth, but fitted exponents range from $κ\\simeq1$ to $κ\\simeq3$. Exponential interactions give the largest exponents, while power-law interactions stay close to nearest-neighbor behavior, showing long-range support alone gives no scaling advantage. Combined-generator layers generally outperform separable ones, so layer organization matters alongside interaction range. Finally, a quasiparticle analysis shows finite depth leaves an unresolved window of width $ξ_D^{-1}$ around the low-energy modes responsible for long-distance correlations. The emergent correlation length thus acts as an infrared resolution scale, providing a benchmark for critical-state preparation and a guide for designing resource-efficient variational architectures.",
+      "pubdate": "Fri, 24 Jul 2026 19:09:19 +0000",
+      "authors": "Jan T. Schneider, Cristian Tabares, Alejandro González-Tudela, Luca Tagliacozzo"
+    },
+    "74280b81c0da0be2b56bea72d529266d": {
+      "id": "74280b81c0da0be2b56bea72d529266d",
+      "link": "http://arxiv.org/abs/2607.23814",
+      "title": "Implicit Tensor-Train Cross Integration of High-Dimensional Nonlinear PDEs via Fiber-Dependency Elimination",
+      "abstract": "Tensor-train (TT) representations have emerged as an effective framework for mitigating the curse of dimensionality in the numerical solution of high-dimensional tensor differential equations. Among existing approaches, TT-cross methods are particularly attractive because they require only pointwise evaluations of the governing equations, naturally accommodate arbitrary nonlinearities, and avoid tangent-space projections and the numerical difficulties associated with nearly singular low-rank factors. However, existing TT-cross rank-truncation methods have been restricted to explicit time integration. Extending TT-cross methods to implicit schemes presents an obstacle: the collocation equations associated with the cross-selected fibers depend on neighboring fibers that are not part of the unknown set. Consequently, the resulting nonlinear system is not closed, preventing the direct application of standard implicit solvers. In this work, we introduce a principled fiber-dependency elimination framework that resolves this obstacle by expressing neighboring fibers as linear combinations of the cross-selected fibers through cross interpolation identities. The resulting formulation produces a closed collocation system while preserving the principal advantages of TT-cross methods. The proposed framework applies to both linear and nonlinear high-dimensional partial differential equations and is naturally combined with Newton iterations and rank adaptivity. Numerical experiments demonstrate rapid convergence of the dependency-elimination iterations, preservation of the temporal accuracy of implicit multistep schemes, and efficient implicit integration of high-dimensional nonlinear problems with full-order discretizations containing up to $10^{55}$ degrees of freedom.",
+      "pubdate": "Sun, 26 Jul 2026 19:27:53 +0000",
+      "authors": "Behzad Ghahremani, Hessam Babaee"
+    },
+    "3ef17a706aa26cf92ee1a5919de9c16c": {
+      "id": "3ef17a706aa26cf92ee1a5919de9c16c",
+      "link": "http://arxiv.org/abs/2607.22827",
+      "title": "Tensor Network Simulation of the Heisenberg Model on Heavy-Hex Lattices",
+      "abstract": "We extend CppSim, a high-performance C++/HIP tensor network simulator, to the heavy-hex lattice geometry used in superconducting quantum processors. The heavy-hex graph -- a bipartite graph of degree-2 and degree-3 sites with a natural 3-color gate schedule -- is implemented as a drop-in grid class with no changes to the gate application or belief propagation (BP) kernels. We simulate the isotropic Heisenberg model on the heavy hex 3x3 graph (68 sites, 76 bonds) in the Heisenberg picture using Pauli transfer matrices (PTMs), and study the autocorrelation C(t) = <Zc (t)Zc (0)> and operator lightcone. We incorporate a fully parametric hardware noise model: per-bond, per-color-class 16 x 16 PTMs are loaded from device characterization data and interleaved with unitary gates, with noise scaling factor gamma in {1.0, 2.0, 3.0} for multi-product formula (MPF) extrapolation to zero noise. Chi convergence is demonstrated at chi = 200 (|error| < 10^-4, reference chi = 430) on a 32 GB GPU, with a ~10x wall-clock speedup over a Julia/AMDGPU.jl reference implementation at saturated bond dimension.",
+      "pubdate": "Fri, 24 Jul 2026 18:07:21 +0000",
+      "authors": "Paolo D'Alberto"
+    },
     "4b5566c84abcb10698f4512187b0fb6e": {
       "id": "4b5566c84abcb10698f4512187b0fb6e",
       "link": "http://arxiv.org/abs/2607.22522",
@@ -6985,77 +7057,45 @@
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
     },
-    "95cec7423924c3f4563b73df6cac7811": {
-      "id": "95cec7423924c3f4563b73df6cac7811",
-      "link": "http://arxiv.org/abs/2607.24258",
-      "title": "MPStab: an hybrid stabilizers tensor-network quantum circuit simulator",
-      "abstract": "The development of techniques for simulating quantum systems using classical computers is a paramount task for two primary reasons: i) there exist configurations for which classical computers are remarkably effective and will continue to be so, and ii) exploring the limits of classical computation facilitates the identification of the regimes of competence for quantum computers. In this work, we present MPStab, a quantum circuit simulator based on a hybrid formalism combining stabilizers and tensor networks, recently introduced in Ref. [1]. We present the package, its core functionalities, and explore its performances in a few interesting simulation regimes.",
-      "pubdate": "Mon, 27 Jul 2026 10:47:55 +0000",
-      "authors": "Giulio Crognaletti, Mattia Robbiano, Michele Grossi, Matteo Robbiati"
+    "ab053cbff0b74e6b94175df8fc72d994": {
+      "id": "ab053cbff0b74e6b94175df8fc72d994",
+      "link": "http://arxiv.org/abs/2607.25625",
+      "title": "Entanglement asymmetry in the gapped XYZ spin-$\\frac12$ chain",
+      "abstract": "The entanglement asymmetry measures how strongly a symmetry is broken inside a subsystem. Analytic results at equilibrium have so far covered free theories and, perturbatively, the critical XXZ chain. We compute the Rényi entanglement asymmetries of a large interval in the gapped, $U(1)$-breaking phase of the interacting XYZ chain. The calculation combines three ingredients. A charged-moment identity, which we prove for fermionic Gaussian and for injective matrix-product ground states, ties the asymmetry to the static susceptibility of the broken charge. A non-conservation sum rule then evaluates the susceptibility from sine-Gordon form factors, its two-kink and one-breather channels providing a lower bound on the universal amplitude. The Baxter--Johnson--Krinsky--McCoy solution supplies the kink mass for different couplings. Infinite-system density-matrix renormalization group simulations built on these masses reproduce the master formula.",
+      "pubdate": "Tue, 28 Jul 2026 12:06:28 +0000",
+      "authors": "Felipe Taha Sant'Ana"
     },
-    "58b54c080464e6ba3db18208055fb8fc": {
-      "id": "58b54c080464e6ba3db18208055fb8fc",
-      "link": "http://arxiv.org/abs/2607.24127",
-      "title": "Tree Tensor Network Reservoir Computing: Hierarchical Ensemble with Invariant Phase Boundaries",
-      "abstract": "We propose Tree Tensor Network Reservoir Computing (TTN-RC), a quantum-inspired reservoir computing framework for time-series prediction that uses the hierarchical structure of Tree Tensor Networks as a random reservoir. To control the exponential concentration or divergence of TTN outputs, we introduce a hierarchical ensemble method that partitions a fixed-size reservoir into multiple independent sub-reservoirs. In the tested NARMA benchmarks, TTN-RC achieves competitive or improved performance compared with conventional Echo State Networks, especially for tasks requiring higher-order nonlinear processing and longer contextual dependence. We also derive an expected contraction rate based on the reservoir Jacobian and develop a mean-field description of the reservoir-state statistics. These analyses identify an asymptotic stability boundary at $σ_{T}=\\sqrt{2}$ in the large per-tree-size limit, where several theoretical indicators converge. Our results provide a design principle for tensor-network-based reservoir computing and clarify how hierarchical reservoir topology controls stability and nonlinear information processing.",
-      "pubdate": "Mon, 27 Jul 2026 08:09:43 +0000",
-      "authors": "Daiki Sasaki, Chih-Chieh Chen, Tomah Sogabe"
+    "311e133f29de5d4e2012adda3931ed87": {
+      "id": "311e133f29de5d4e2012adda3931ed87",
+      "link": "http://arxiv.org/abs/2607.25508",
+      "title": "From weakly to strongly-interacting driven-dissipative bosons in one dimension",
+      "abstract": "We consider a one-dimensional driven-dissipative Bose-Hubbard model subjected to incoherent pump and one- and two-body losses, and analyze it by studying its two-point space-time correlations. By employing a combination of numerical methods, such as stochastic semi-classical simulations and tensor network methods, as well as perturbation theory within the Keldysh formalism, we characterize the system at varying filling and interaction strength. We present results for two complementary regimes: i) at large filling and weak interactions, where we show that Kardar-Parisi-Zhang scaling is visible in the linewidth of the spectral function and ii) at weak filling and strong interactions, where we analyze what remains of the mean field transition and identify a change of nature of the excitations. Our study covers two important regions of the phase diagram of such a system.",
+      "pubdate": "Tue, 28 Jul 2026 09:41:12 +0000",
+      "authors": "Martina Zündel, Loïc Herviou, Léonie Canet, Anna Minguzzi"
     },
-    "fff93e0c50a513c974bffb686c1f4ff1": {
-      "id": "fff93e0c50a513c974bffb686c1f4ff1",
-      "link": "http://arxiv.org/abs/2607.24038",
-      "title": "Magnetic-texture winding controls fermion-parity switches in an interacting $p$-wave magnet wire",
-      "abstract": "Coplanar magnetic spirals map locally onto uniform spin--orbit-coupled wires, but on a ring the rotating spin frame can change the electronic boundary condition. We prove, level by level in every fixed-particle-number sector, that even and odd texture windings impose boundary phases separated by half the single-electron flux period. Changing the winding by one also changes the physical pitch in inverse proportion to the circumference; a symmetric comparison removes this leading pitch correction. In the number-conserving topological phase, a global parity constraint then reverses the fermion-parity assignment of neighboring phase-winding branches. Density-matrix renormalization-group simulations show this reversal, support an Ising transition coexisting with a gapless charge mode, and relate the finite-size parity splitting to an independently calculated charge stiffness. Magnetic-texture winding thus changes the many-body spectrum through a global boundary condition that is not determined by the local band dispersion, providing a closed-geometry, number-conserving probe of topological pairing.",
-      "pubdate": "Mon, 27 Jul 2026 06:23:57 +0000",
-      "authors": "Hyun-Yong Lee"
+    "33556fa21e2c88c802da2626171cc9b6": {
+      "id": "33556fa21e2c88c802da2626171cc9b6",
+      "link": "http://arxiv.org/abs/2607.24947",
+      "title": "Realizing Error Suppression in Partially Fault-Tolerant Quantum Simulations with IBM Quantum Computers",
+      "abstract": "Quantum error-detecting codes offer a near-term path for improving the performance of quantum simulations on noisy hardware. Using IBM's superconducting quantum computer ibm_boston, we show that partially fault-tolerant encoded quantum simulations of the Ising model in 1+1D and 2+1D outperform their unencoded counterparts in estimating local observables. To represent 42 logical qubits on the heavy-hex quantum processor, 21 blocks of the [[4, 2, 2]] Iceberg code and up to 136 physical qubits are used. By pairing fault-tolerant syndrome extraction with non-fault-tolerant logical operations, this scheme preserves many of the benefits of error detection while avoiding the overhead typically required for a fully fault-tolerant logical gate set. The encoding's square logical connectivity, together with the freedom to place logical qubits within each block, enables simulations of a 2D spatial lattice with lower circuit depth than the unencoded implementation requires. We introduce Observable-Ranked Postselection, a selective-filtering technique based on syndrome correlations that recovers reliable results without the prohibitive shot loss of full syndrome postselection. Under the cumulative effect of device errors, this encoding improves local-observable accuracy over the unencoded baseline by 2-6% at intermediate times in 1+1D simulations, growing with circuit depth to over 200% in 2+1D at the latest times studied.",
+      "pubdate": "Mon, 27 Jul 2026 18:01:39 +0000",
+      "authors": "Henry Froland, Dorota M. Grabowska, Sebastian Grieninger, Jeremy Hartse, Anne L. Lashbrook, Zhiyao Li, Ziyuan Li, Sarah J. M. Powell, Martin J. Savage, Xiaojun Yao, Nikita A. Zemlevskiy"
     },
-    "452c71b8e041245ee287ef3dfded3d22": {
-      "id": "452c71b8e041245ee287ef3dfded3d22",
-      "link": "http://arxiv.org/abs/2607.23654",
-      "title": "Pair-Density Wave from Doping an Altermagnetic Mott Insulator",
-      "abstract": "Pair-density-wave (PDW) superconductivity is a state in which the superconducting order parameter modulates at a finite wavevector. Using large-scale density matrix renormalization group, we study the doped altermagnetic Mott insulator in the checkerboard $t$-$J$ model, where altermagnetic exchange anisotropy is encoded microscopically through anisotropic ferromagnetic next-nearest-neighbor exchange. By mapping the ground-state phase diagram as a function of doping and altermagnetic anisotropy, mainly on six-leg cylinders, we identify a transition from a uniform $d$-wave superconducting regime with charge modulation to a PDW regime coexisting with stripe order. In the PDW regime, we report an unconventional wave-vector locking $\\mathbf Q_{\\mathrm{PDW}}\\approx 2\\mathbf Q_{\\mathrm{Stripe}}$ along the cylinder direction, in contrast to the conventional relation. Pair correlations reveal a two-scale structure, consisting of short-distance local $d$-wave pairing and long-distance finite-momentum PDW correlations. A symmetry-based Ginzburg--Landau analysis is presented for the observed locking. Our results identify altermagnetism as a strong-coupling, microscopically grounded route to finite-momentum superconductivity in doped Mott insulators.",
-      "pubdate": "Sun, 26 Jul 2026 13:44:09 +0000",
-      "authors": "Shuai A. Chen, Qianqian Chen, Guangyu Yu, Zheng Zhu"
+    "5ef5e5ea07d0aed871d368a4501cd52d": {
+      "id": "5ef5e5ea07d0aed871d368a4501cd52d",
+      "link": "http://arxiv.org/abs/2607.24937",
+      "title": "Resolving Structure in Prethermal Floquet Dynamics with Precision Quantum Computation",
+      "abstract": "Periodically driven interacting quantum many-body systems can exhibit long-lived prethermal dynamics, where local observables retain coherent structure even as entanglement and operator complexity grow. Accessing this regime at the system sizes and times needed to determine physical properties of the prethermal state remains a central challenge: state-of-the-art classical methods become unreliable, while noise in quantum hardware degrades observable expectation values. Here we overcome these limitations for a Floquet Ising magnet realized on a heavy-hex lattice. Using the advanced error mitigation software QESEM on an IBM Heron r3 superconducting quantum processor, we measure magnetization dynamics with percent-level precision and resolve long-lived subharmonic prethermal oscillations in systems of up to 74 qubits. These experiments reach regimes for which leading tensor-network simulations fail to converge, while sparse Pauli-path simulations remain strongly truncation dependent despite extensive computations on advanced GPUs and the Fugaku supercomputer. Leveraging this quantum-accessible regime, we extend finite-size scaling to larger systems and find an unexpectedly slow decrease of the oscillation amplitude with system size, providing strong evidence that this oscillatory response persists in the thermodynamic limit of heavy-hex ladders. A hierarchy of mitigation and validation tests, including unbiased error mitigation, agreement between independent mitigation estimators, noise-model validation on the superconducting hardware, and cross-platform corroboration at selected Floquet cycles on Quantinuum System Model H2 and Quantinuum Helios trapped-ion hardware, supports the reliability of these findings. Our work establishes error-mitigated quantum processors as quantitative scientific instruments for discovering new physics in non-equilibrium quantum matter.",
+      "pubdate": "Mon, 27 Jul 2026 18:00:07 +0000",
+      "authors": "Eyal Leviatan, Tasneem Watad, Roy Perry, Lukas Broers, Mohammed Zuhair Mullath, Ori Alberton, Itai Arad, Yosi Atia, Eyal Bairey, Shaul Barkan, Matan Ben Dov, Asaf Berkovitch, Ewout van den Berg, Itsik Cohen, Omri Golan, Ilya Gurwich, Avieli Haber, Barak A. Katzir, Oded Kenneth, Roei Levi, Yotam Y. Lifshitz, Yaron Lukovsky, Ron Melcer, Adiel Meyer, Boris Muratov, Aviad Panahi, Gili Schul, Tali Shnaider, Maor Shutman, Alireza Seif, Tomonori Shirakawa, Asif Sinay, Vincent P. Su, Hayk Tepanyan, Omri Trebitch, Assaf Zubida, Dorit Aharonov, Hrant Gharibyan, Abhinav Kandala, Seiji Yunoki, Netanel H. Lindner"
     },
-    "eea5b8c75f93587e718f46e05b3fcd01": {
-      "id": "eea5b8c75f93587e718f46e05b3fcd01",
-      "link": "http://arxiv.org/abs/2607.23551",
-      "title": "A TQFT-based Platform for Efficient Computation of Knot Invariants",
-      "abstract": "We present an interactive web platform that unifies the construction Feynman ribbon diagrams (FRDs), the evaluation of higher-rank Chern--Simons knot invariants, and the identification of FRD-like knots at higher crossing numbers. These tree-structured diagrams naturally represent arborescent knots, which we refer to throughout as FRD-like knots. Within a single visual environment, users can construct an FRD as a tensor network, evaluate its associated Chern--Simons invariants, and use the resulting invariant data to distinguish and identify the corresponding knot. To our knowledge, this is the first platform to combine diagrammatic construction, tensor-network evaluation, invariant computation, and knot identification within a unified workflow.",
-      "pubdate": "Sun, 26 Jul 2026 09:09:41 +0000",
-      "authors": "Amena Al Rawi, Hisham Sati, Vivek Kumar Singh"
-    },
-    "c9072569d02296220ecb6e5c9cf319bf": {
-      "id": "c9072569d02296220ecb6e5c9cf319bf",
-      "link": "http://arxiv.org/abs/2607.23392",
-      "title": "Hyperdeterminant wavefunctions",
-      "abstract": "We systematically introduce hyperdeterminant wavefunctions as a variational-wavefunction-based theoretical framework for strongly correlated quantum states of matter, together with practical numerical simulation algorithms. This framework generalizes previously known fermionic parton constructions, yields reliable microscopics with intuitive physical pictures, and allows direct access to the fractionalized degrees of freedom together with associated microscopic effective field theories. We demonstrate the applications of this framework to fractional Chern insulators and quantum spin liquids. We comment that the hyperdeterminant states belong to a more general class of variational wavefunctions: the fused Gaussian states.",
-      "pubdate": "Sat, 25 Jul 2026 23:40:38 +0000",
-      "authors": "Guan-Lin Lin, Di Xiao, Ying Ran"
-    },
-    "c50ea1c6c5abad0481401d2d9cbeaf24": {
-      "id": "c50ea1c6c5abad0481401d2d9cbeaf24",
-      "link": "http://arxiv.org/abs/2607.22863",
-      "title": "Universal scaling framework for parameterized quantum evolutions at criticality",
-      "abstract": "Variational ansätze are a cornerstone of quantum many-body physics, providing compact approximations to complex ground states using finite resources. Recent quantum-technology advances have introduced a new class based on layered parameterized evolutions. Assessing whether they can represent critical ground states is challenging: correlations span all length scales, while finite circuit depth limits how far they extend. Building on finite-resource scaling from tensor networks, we assign each ansatz an emergent correlation length $ξ_D$, the longest range over which it faithfully captures critical correlations. Its growth with refinement parameter $D$, $ξ_D \\propto D^κ$, defines an exponent $κ$ measuring how efficiently an architecture converts resources into long-distance correlations. Applying this framework to the critical transverse-field Ising model, with $D$ the circuit depth of parameterized evolutions, we compare ansätze with nearest-neighbor and long-range generators, and layers where generators act separately or combined. All ansätze are compatible with algebraic growth, but fitted exponents range from $κ\\simeq1$ to $κ\\simeq3$. Exponential interactions give the largest exponents, while power-law interactions stay close to nearest-neighbor behavior, showing long-range support alone gives no scaling advantage. Combined-generator layers generally outperform separable ones, so layer organization matters alongside interaction range. Finally, a quasiparticle analysis shows finite depth leaves an unresolved window of width $ξ_D^{-1}$ around the low-energy modes responsible for long-distance correlations. The emergent correlation length thus acts as an infrared resolution scale, providing a benchmark for critical-state preparation and a guide for designing resource-efficient variational architectures.",
-      "pubdate": "Fri, 24 Jul 2026 19:09:19 +0000",
-      "authors": "Jan T. Schneider, Cristian Tabares, Alejandro González-Tudela, Luca Tagliacozzo"
-    },
-    "74280b81c0da0be2b56bea72d529266d": {
-      "id": "74280b81c0da0be2b56bea72d529266d",
-      "link": "http://arxiv.org/abs/2607.23814",
-      "title": "Implicit Tensor-Train Cross Integration of High-Dimensional Nonlinear PDEs via Fiber-Dependency Elimination",
-      "abstract": "Tensor-train (TT) representations have emerged as an effective framework for mitigating the curse of dimensionality in the numerical solution of high-dimensional tensor differential equations. Among existing approaches, TT-cross methods are particularly attractive because they require only pointwise evaluations of the governing equations, naturally accommodate arbitrary nonlinearities, and avoid tangent-space projections and the numerical difficulties associated with nearly singular low-rank factors. However, existing TT-cross rank-truncation methods have been restricted to explicit time integration. Extending TT-cross methods to implicit schemes presents an obstacle: the collocation equations associated with the cross-selected fibers depend on neighboring fibers that are not part of the unknown set. Consequently, the resulting nonlinear system is not closed, preventing the direct application of standard implicit solvers. In this work, we introduce a principled fiber-dependency elimination framework that resolves this obstacle by expressing neighboring fibers as linear combinations of the cross-selected fibers through cross interpolation identities. The resulting formulation produces a closed collocation system while preserving the principal advantages of TT-cross methods. The proposed framework applies to both linear and nonlinear high-dimensional partial differential equations and is naturally combined with Newton iterations and rank adaptivity. Numerical experiments demonstrate rapid convergence of the dependency-elimination iterations, preservation of the temporal accuracy of implicit multistep schemes, and efficient implicit integration of high-dimensional nonlinear problems with full-order discretizations containing up to $10^{55}$ degrees of freedom.",
-      "pubdate": "Sun, 26 Jul 2026 19:27:53 +0000",
-      "authors": "Behzad Ghahremani, Hessam Babaee"
-    },
-    "3ef17a706aa26cf92ee1a5919de9c16c": {
-      "id": "3ef17a706aa26cf92ee1a5919de9c16c",
-      "link": "http://arxiv.org/abs/2607.22827",
-      "title": "Tensor Network Simulation of the Heisenberg Model on Heavy-Hex Lattices",
-      "abstract": "We extend CppSim, a high-performance C++/HIP tensor network simulator, to the heavy-hex lattice geometry used in superconducting quantum processors. The heavy-hex graph -- a bipartite graph of degree-2 and degree-3 sites with a natural 3-color gate schedule -- is implemented as a drop-in grid class with no changes to the gate application or belief propagation (BP) kernels. We simulate the isotropic Heisenberg model on the heavy hex 3x3 graph (68 sites, 76 bonds) in the Heisenberg picture using Pauli transfer matrices (PTMs), and study the autocorrelation C(t) = <Zc (t)Zc (0)> and operator lightcone. We incorporate a fully parametric hardware noise model: per-bond, per-color-class 16 x 16 PTMs are loaded from device characterization data and interleaved with unitary gates, with noise scaling factor gamma in {1.0, 2.0, 3.0} for multi-product formula (MPF) extrapolation to zero noise. Chi convergence is demonstrated at chi = 200 (|error| < 10^-4, reference chi = 430) on a 32 GB GPU, with a ~10x wall-clock speedup over a Julia/AMDGPU.jl reference implementation at saturated bond dimension.",
-      "pubdate": "Fri, 24 Jul 2026 18:07:21 +0000",
-      "authors": "Paolo D'Alberto"
+    "3fb1fd60b28018e7fd74a9b68a27b59a": {
+      "id": "3fb1fd60b28018e7fd74a9b68a27b59a",
+      "link": "http://arxiv.org/abs/2505.23028",
+      "title": "Beyond mean-field dynamics of the Dicke model with non-Markovian dephasing",
+      "abstract": "We present a density matrix-based time dependent projection operator formalism to calculate the beyond mean-field dynamics of systems with non-Markovian local baths and one-to-all interactions. Such models encapsulate the physics of condensed phase systems immersed in optical cavities. We use this method, combined with tensor network influence functionals, to study the dynamics of the Dicke model coupled to non-Markovian local dephasing baths at zero temperature, which has a superradiant phase transition in the mean-field limit. The method corrects a spurious initial state dependence found in the mean-field dynamics and describes the emergence of new time scales which are absent in the mean-field dynamics. Our formalism, based on density matrices, is applicable to other quantum optical systems with one-to-all interactions at finite temperatures.",
+      "pubdate": "Thu, 29 May 2025 03:13:47 +0000",
+      "authors": "Anqi Mu, Nathan Ng, Andrew J. Millis, David R. Reichman"
     }
   }
 }
