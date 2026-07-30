@@ -536,10 +536,43 @@
         </div>
     </div>
     
-<p><em>Generated on 2026-07-30 00:40:16</em></p>
-<p>Total papers: 887
+<p><em>Generated on 2026-07-30 12:40:27</em></p>
+<p>Total papers: 890
 </p>
 <h2>Recent Papers</h2>
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2607.27075'>Adaptive Multi-Backend Simulation of Near-Clifford Quantum Circuits via Spatial Stabilizer-Frame Partitioning</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Héctor J. García</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2607.27075 | <strong>Date:</strong> 2026-07-29</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> We present an exact amplitude simulator for Clifford+T quantum circuits that combines a Feynman path sum across a balanced qubit bipartition with stabilizer-frame simulation on each half. The construction extends prior stabilizer-based Schrödinger-Feynman methods in three directions: recursive multilevel bipartition into a binary tree, automatic fallback to dense state-vector simulation when a leaf's stabilizer frame would exceed its memory ceiling, and a cost-model-driven partition selector that replaces the standard cut-count minimization heuristic. We show cut-count minimization is an unreliable proxy in practice: a globally cleaner partition can reduce cross-cut count yet increase wall-clock time, because it imbalances T-gate density across halves and inflates per-half stabilizer-frame size. Our cost model substitutes the stabilizer-frame bound 2w for the dense 2n ceiling per side and explicitly models per-amplitude readout cost; isolating that term uncovered a quadratic-asymptotic inefficiency in the leaf simulator's end-of-path amplitude extraction, fixed by replacing it with an existing O(F * s * n) single-amplitude inner product. On a structured hierarchical n=16 benchmark the recursive simulator beats monolithic stabilizer-frame simulation by 92x to 17,645x, wins by 79x per path against a dense half-state-vector baseline under an identical cut, and beats a production state-vector simulator end to end by up to 47.9x (median ~5x). On adversarial random Clifford+T circuits the dense state vector wins past a crossover near n/2 cross-cut gates -- the regime the cost model identifies. The dominant cost, the cross-cut Feynman sum, is embarrassingly parallel with constant inter-worker communication, unlike recent matrix-product-state stabilizer-tensor methods whose inner contraction loop is sequential.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2607.26771'>Hybrid quantum-classical end-to-end pipeline for solving MILPs: a vehicle routing case study</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Camille de Valk, Koen Reerink, Siert Sebus, Sébastian de Bon</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2607.26771 | <strong>Date:</strong> 2026-07-29</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> We demonstrate an end-to-end hybrid quantum-classical optimisation framework based on Benders decomposition, capable of solving mixed-integer linear programming (MILP) problems. The framework builds on a previously presented hybrid quantum-classical end-to-end pipeline based on Multiple Cuts via Multiple Solutions (MCMS) Benders decomposition where the cut selection step was performed on quantum annealing hardware. We extend this with gate-based QAOA implementations for both tensor network emulators and superconducting quantum hardware. The Vehicle Routing Problem (VRP) is used as a representative case study and we run the pipeline end-to-end on 10 permutations of a standardised benchmarking instance (20 customers and 4 vehicles from QOptLib) with a classical solver performing the cut selection step. We find that for our instances, only a small fraction of the compute in classical MCMS Benders decomposition is spent on the cut selection step. For a full hybrid end-to-end assessment, we run the pipeline for a toy problem with MPS-JuliQAOA, a powerful tensor network emulator, to execute QAOA. Here, the majority of the time is spent on the cut selection step, deeming quantum advantage of this framework unlikely at problems of this size. This highlights the need for more large-scale benchmarking research when more powerful (QPU) QUBO solvers are available.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2607.26142'>State preparation and detection for quantum simulation of particle collisions</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Federica Maria Surace, Sary Bseiso, John Preskill</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2607.26142 | <strong>Date:</strong> 2026-07-28</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> Simulating the real-time dynamics of particle collisions is a promising application of quantum simulators, because classical methods such as tensor networks struggle to capture the highly entangled states generated in high-energy scattering. Realizing such simulations requires both the preparation of incoming wave packets and the detection of the outgoing scattering products. In this work, we propose protocols that address both challenges on programmable analog and digital quantum simulation platforms. Our state-preparation scheme uses a weakly coupled auxiliary qubit - or, more generally, a customized local quench - to inject a single quasiparticle with well-defined momentum. Because it relies only on conservation of energy, this scheme requires no fine-tuning or prior knowledge about particle eigenstates, making it robust against errors in calibration and implementation. The momenta of scattering products are then extracted, using only local measurements, from the interference pattern that arises when particles are reflected at the system's boundary. We validate our protocols through numerical simulations, first in a simple single-particle model and subsequently in two interacting many-body systems: a Rydberg atom chain and an Ising chain in a mixed field. We demonstrate how high-energy regimes, necessary to access inelastic scattering processes, can be reached through an adiabatic ramp, and how the wave packet shape can be optimized by spatially modulating the Hamiltonian. Finally, we show how the protocol can be generalized to systems with more than one spatial dimension. Our proposal provides a versatile approach to the quantum simulation of scattering phenomena, and is compatible with several quantum simulation platforms that are already experimentally available.
+                    </div>
+                </article>
+                <hr>
+                
 
                 <article class='paper-entry'>
                     <h3><a href='http://arxiv.org/abs/2607.25625'>Entanglement asymmetry in the gapped XYZ spin-<span class="katex-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac12</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:1.1901em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="katex-sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="katex-sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span> chain</a></h3>
