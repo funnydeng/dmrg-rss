@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-03T00:45:30.013654+00:00",
+  "last_updated": "2026-08-03T13:11:09.922380+00:00",
   "entries": {
     "b875e5041ea188fa141f83f490e2dc5e": {
       "id": "b875e5041ea188fa141f83f490e2dc5e",
@@ -7200,6 +7200,30 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "cc5cb41d4aaf1a5bef56ef31c25b654e": {
+      "id": "cc5cb41d4aaf1a5bef56ef31c25b654e",
+      "link": "http://arxiv.org/abs/2607.28983",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "c1b229267f2db7f8d24e7a62344face8": {
+      "id": "c1b229267f2db7f8d24e7a62344face8",
+      "link": "http://arxiv.org/abs/2607.28964",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "210ffa27266927d0e6659a3a82035bf6": {
+      "id": "210ffa27266927d0e6659a3a82035bf6",
+      "link": "http://arxiv.org/abs/2607.28753",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
     }
   }
 }
