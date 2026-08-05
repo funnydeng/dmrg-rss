@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-05T00:40:31.472568+00:00",
+  "last_updated": "2026-08-05T14:16:48.191658+00:00",
   "entries": {
     "23e921ca9f2690d111d6c24f806e1ac0": {
       "id": "23e921ca9f2690d111d6c24f806e1ac0",
@@ -7264,6 +7264,110 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "d3511a4aa25c83bde7c0d96d21444017": {
+      "id": "d3511a4aa25c83bde7c0d96d21444017",
+      "link": "http://arxiv.org/abs/2608.03987",
+      "title": "Realified tensor networks: quantum circuit simulation on real-valued matrix accelerators",
+      "abstract": "Tensor-network contraction simulates quantum circuits, but modern matrix accelerators (NPUs, TPUs) expose only real GEMM pipelines, so the complex networks of quantum simulation must be reconstructed in software. We resolve the mismatch by a realification rewrite that maps any complex tensor network to a real one. At each merge of two complex tensors, a rank-3 structure tensor realizes Gauss's three-multiplication (3M) formula; contractions with one or no complex operand need only two or one real products. We prove a tight cost law: overhead $1 + 2m + r$ in real multiplications, where $m$ and $r$ are the volume fractions of two- and one-complex-operand contractions, never exceeding $3\\times$ relative to real contraction, with every intermediate at most doubled in size. On 67 circuits (random, Clifford+$T$, QAOA, VQE), the law holds across the real-to-complex range and complex-gate placement, not count, governs cost. Contraction orders transfer from the complex network with a relative arithmetic-cost gap below $5\\times 10^{-4}$ on 66 of 67 circuits; the exception closes under a few steps of low-temperature simulated annealing. On an Ascend 910 NPU the rewrite beat both the four-real-GEMM baseline and a per-GEMM Gauss lowering on all twelve random circuits and on 52 of 55 structured cells (three cells slower by at most 12\\%); the four-GEMM baseline was slower by a median $1.7\\times$ (random) and $1.4\\times$ (structured). Realification makes complex tensor-network contraction native to real-only matrix engines.",
+      "pubdate": "Tue, 04 Aug 2026 17:51:06 +0000",
+      "authors": "Yusheng Zhao, Xiwei Pan, Enji Xiong, Chengkai Zhu, Jinguo Liu"
+    },
+    "ccc2d265775d09ba530bbb135a3be4e4": {
+      "id": "ccc2d265775d09ba530bbb135a3be4e4",
+      "link": "http://arxiv.org/abs/2608.03861",
+      "title": "Geometric-Symmetry Logical Gate and Local-Probe Selectivity in the Three-Leg AKLT Ladder",
+      "abstract": "Symmetry-protected topological (SPT) phases provide a platform for encoding quantum information in protected boundary degrees of freedom. Here we study the three-leg Affleck-Kennedy-Lieb-Tasaki (AKLT) ladder as an exactly solvable SPT system with on-site symmetry $SO(3)\\times \\mathbb{Z}_2$. Using an exact matrix product state construction, we characterize the symmetry action on the edge encoding space and the accessibility of this space by local operators. We find that the continuous $SO(3)$ symmetry induces boundary rotations, while the leg-exchange symmetry generates a geometry-dependent logical permutation of edge qubits. Furthermore, by introducing a distinguishability measure motivated by the Knill--Laflamme condition, we derive a symmetry-resolved decay law for local accessibility. The decay is controlled by a selection rule raised from the Wigner--Eckart theorem, whereby a rank-$\\ell$ local operator couples only to the $\\mathcal L=\\ell$ transfer-matrix sector, with a decay length determined by the corresponding correlation length. We further identify a finite-size channel that is independent of the probe operator position. These results establish a quantitative connection between SPT symmetry, lattice geometry, and the protection of boundary-encoded quantum information.",
+      "pubdate": "Tue, 04 Aug 2026 16:04:13 +0000",
+      "authors": "Jingnuo Han, Youning Li"
+    },
+    "78e855f8464f4e4cad8810a3b46c1389": {
+      "id": "78e855f8464f4e4cad8810a3b46c1389",
+      "link": "http://arxiv.org/abs/2608.03472",
+      "title": "Matrix Product Evolution: A Method for Simulating Quantum Circuits Using Tensor Networks",
+      "abstract": "Classical simulation of quantum circuits is an essential tool in quantum information science, but its applicability is constrained by the exponential growth of the Hilbert space and the entanglement structure of quantum states. In this work, we introduce Matrix Product Evolution (MPE), a tensor-train representation of quantum circuits constructed along the circuit depth rather than along the qubit index. Within this formulation, the simulation of a quantum circuit is modeled as the contraction of multiple MPE tensors. We develop an efficient contraction strategy based on a zip-up procedure to carry out this contraction in practice. We investigate the numerical behavior of this MPE-based contraction framework through simulations of random quantum circuits and the time evolution of a quantum many-body state. Our results characterize the growth of temporal bond dimensions, clarify how post-selection modifies the contraction cost and approximation accuracy, and identify regimes in which depth-oriented tensor-network contractions provide a useful complement to standard MPS-based simulation approaches.",
+      "pubdate": "Tue, 04 Aug 2026 11:07:41 +0000",
+      "authors": "Haruyuki Kawabe, Minoru Nagai, Tsuyoshi Okubo, Synge Todo"
+    },
+    "019e74eef22f1215f6c0a553d0ad03a5": {
+      "id": "019e74eef22f1215f6c0a553d0ad03a5",
+      "link": "http://arxiv.org/abs/2608.03668",
+      "title": "DAMPyF: a Python implementation of the DAMPF method for the simulation of open-system dynamics",
+      "abstract": "DAMPyF is an open-source Python implementation of the dissipation-assisted matrix product factorization (DAMPF) method, a tensor-network-based approach for the numerically exact simulation of finite-dimensional quantum systems coupled to bosonic environments. The method relies on a pseudomode representation of structured reservoirs and a matrix-product-state representation of the density matrix of the extended system, comprising the system and the pseudomodes. DAMPyF currently provides two workflows. First, it supports excitation energy-transfer dynamics within the single-system-excitation manifold, in which a system excitation is propagated in time. Second, it provides a high-level workflow tailored to molecular spectroscopy, in which the system levels represent electronic states and optical coherences are propagated for the subsequent computation of linear spectra, including absorption and circular dichroism. This paper describes the physical model, the DAMPF algorithm, the user-facing code structure, installation and execution, input and output formats, and minimal examples.",
+      "pubdate": "Tue, 04 Aug 2026 13:44:43 +0000",
+      "authors": "Nicola Lorenzoni, Susana F. Huelga, Martin B. Plenio"
+    },
+    "bbb4495f9e426671e14f0b8bb0192b57": {
+      "id": "bbb4495f9e426671e14f0b8bb0192b57",
+      "link": "http://arxiv.org/abs/2608.03645",
+      "title": "TNASS: Tensor Network Active Space Selection with the Entanglement Feature",
+      "abstract": "The quality of multi-scale modelling techniques in molecular electronic structure calculations, such as embedding and subspace methods, relies upon the chosen active space. The automation of active space selection is vital for ensuring the accuracy, reproducibility, and scalability in such calculations. In this work, we introduce Tensor Network Active Space Selection using the Entanglement Feature. Through the isolation of strongly correlated electrons, this method provides a scalable foundation for embedding methods in multi-scale modelling. By representing the purities of all possible orbital partitions as a Matrix Product State, our method isolates regions of strong electron correlation without requiring manual preselection of target atoms or the calculation of expensive high-order density matrices. The results demonstrate that this approach leads to lower ground state energies and more accurate dipole moments than other fully automated selection schemes such as those based solely on single-orbital entropy or the selection of spatial orbitals around the HOMO/LUMO gap.",
+      "pubdate": "Tue, 04 Aug 2026 13:29:32 +0000",
+      "authors": "Angus Mingare, Isabelle Heuzé, Peter V. Coveney"
+    },
+    "e25fc6694604774d49246f72cea0731a": {
+      "id": "e25fc6694604774d49246f72cea0731a",
+      "link": "http://arxiv.org/abs/2608.03005",
+      "title": "Quantifying Pauli Errors in Single-Photon Resource-State Generation",
+      "abstract": "We propose a scheme to compute Pauli error rates in photonics-based quantum error correction using experimental observables of single photons produced from quantum emitters. We show that first-order coherence measurements and first-order cross correlations, which can be implemented using photon counting, can extract single-photon and entangled single-photon wavefunctions in the presence of imperfections due to photon distinguishability, laser noise, and photon loss. Leveraging this, we show that the wavefunction of any entangled state of noisy photons produced from a single quantum emitter can be expressed in matrix-product-state form and can be used to analytically compute the expectation value of the stabilizer generators of the corresponding entangled state. From this we obtain analytic expressions for the Pauli error probabilities in terms of the photon noise parameters. Furthermore, we calculate Pauli error maps for entangled photons after undergoing Bell- state measurements in terms of these parameters. Our work provides a method to use experimental measurements to determine the required quality of photons produced from quantum emitters for fault-tolerant fusion-based photonics quantum computing.",
+      "pubdate": "Tue, 04 Aug 2026 01:40:22 +0000",
+      "authors": "Yuktee Gupta, Andrew C. Doherty, Sahand Mahmoodian"
+    },
+    "23ed4d87f0118282628c775253521f08": {
+      "id": "23ed4d87f0118282628c775253521f08",
+      "link": "http://arxiv.org/abs/2608.02932",
+      "title": "Cooling down trees for finite-temperature quantum dynamics: Purification within ML-MCTDH",
+      "abstract": "Simulating multidimensional quantum systems at finite temperature is inherently challenging as the system is no longer described by a single, pure-state wavefunction but by a density operator, squaring an already exponential scaling of the Hilbert space. Building upon the compact wavefunction ansatz of the multi-layer multiconfiguration time-dependent Hartree (ML-MCTDH) method, we present a new scheme for simulating finite-temperature quantum dynamics based on purification. Here, a density operator is mapped to a single ML-MCTDH wavefunction in an enlarged Hilbert space, comprising physical and auxiliary degrees of freedom. In the key step, one obtains a pure-state representation of the canonical density operator via imaginary time-propagation of the infinite-temperature state. The most important observation is that this state can be exactly decomposed as a Hartree product of maximally entangled combined modes, each combined mode consisting of a physical degree of freedom and its auxiliary counterpart. Through dynamically pruning the node ranks of the ML-tree during the \"cool down\" stage yields a compact finite-temperature wavefunction, thus accelerating the real-time propagation and enabling finite-temperature simulations of multidimensional, correlated molecular systems. Our method circumvents both intensive statistical sampling and costly tensor-decomposition of the full density-operator, while being broadly applicable to model Hamiltonians and general ab initio potential energy surfaces alike. Two applications of the method are presented, benchmark results on the thermal ground-state of H2O as well as temperature-dependent infrared absorption spectra of the more challenging, floppy H3O2- anion.",
+      "pubdate": "Mon, 03 Aug 2026 22:33:59 +0000",
+      "authors": "Niclas Krupp, Oriol Vendrell"
+    },
+    "8c678390938cdfc23a43800db4c88f6a": {
+      "id": "8c678390938cdfc23a43800db4c88f6a",
+      "link": "http://arxiv.org/abs/2608.02849",
+      "title": "Computing with traceable tensor networks",
+      "abstract": "We introduce a new SVD-based tensor decomposition method for tensor networks with arbitrary graph topologies, extending classical hierarchical SVD-based techniques to networks with cycles and general connectivity. We also introduce addition and rounding procedures for traceable tensor graphs, enabling step-rounding time integration of high-dimensional PDEs directly in graph format, with rank truncation controlled to a prescribed tolerance at every time step. We demonstrate the new method on the decomposition of multivariate functions and on the numerical solution of the Fokker-Planck equation, and find that the graph-format representation attains comparable or better accuracy than the classical tensor train and hierarchical Tucker tensor formats, while using substantially fewer degrees of freedom at lower computational cost.",
+      "pubdate": "Mon, 03 Aug 2026 20:10:35 +0000",
+      "authors": "Sarah Ellwein, Daniele Venturi"
+    },
+    "1f64155686868025a3430b483926152e": {
+      "id": "1f64155686868025a3430b483926152e",
+      "link": "http://arxiv.org/abs/2608.02756",
+      "title": "Dynamic Induction of Lattice Gauge Theories on a Quantum Computer",
+      "abstract": "Gauge invariance is central to modern physics and underpins quantum simulations of lattice gauge theories (LGTs). Existing quantum simulation approaches employ Gauss's law either to energetically suppress gauge-violating processes in analog platforms or to detect and discard gauge-violating outcomes in digital devices. Here we introduce a third paradigm, in which Gauss's law is used to dynamically generate the gauge theory itself from a substantially simpler Hamiltonian. Starting from a readily programmable three-body XXX model, we employ experimentally efficient single-qubit U(1) gauge symmetry-generator terms that induce the dynamics of a U(1) LGT. We implement this approach using 101 qubits on a 156-qubit IBM quantum processor and observe real-time dynamics in quantitative agreement with the target LGT while reducing the entangling-gate depth per Trotter step by a factor of five compared with a direct implementation. Our results establish gauge protection as a resource for Hamiltonian engineering rather than merely symmetry preservation, opening a scalable resource-efficient route towards digital quantum simulations of increasingly complex gauge theories in higher spatial dimensions.",
+      "pubdate": "Mon, 03 Aug 2026 18:02:42 +0000",
+      "authors": "Barbara Andrade, Declan Millar, Lewis Anderson, Vincent R. Pascuzzi, Maciej Lewenstein, Ivano Tavernelli, Jad C. Halimeh, Tobias Grass"
+    },
+    "99d6719d02ce5f1eada9fabbae14518e": {
+      "id": "99d6719d02ce5f1eada9fabbae14518e",
+      "link": "http://arxiv.org/abs/2608.02741",
+      "title": "Fractal deconfinement and confinement in Sierpinski ice",
+      "abstract": "We study the six-vertex model on the Sierpinski gasket, a four-coordinated hierarchical fractal with Hausdorff dimension $d_f=\\log_23$. Given the importance of dimensionality for the long-wavelength behavior of such models, we specifically consider correlations and confinement as a function of the vertex weights, with the equal-weight point corresponding to the ice model. We calculate the partition function and correlators recursively to obtain a rich phase diagram hosting many different regimes. While the ice model shows entropic charge confinement, a particular four-vertex limit exhibits fractal deconfinement, with the string joining the deconfined charges itself a statistical fractal with fractal dimension $d_l=\\log_2(5/2)\\approx 1.3$. Finally, we propose a setup as an artificial spin ice to enable experimental study of the rich phenomenology of Sierpinski ice and its generalisations.",
+      "pubdate": "Mon, 03 Aug 2026 18:00:06 +0000",
+      "authors": "James Walkling, Roderich Moessner"
+    },
+    "ee45ca2b425b9160e3fb7ac2e1e7cb7f": {
+      "id": "ee45ca2b425b9160e3fb7ac2e1e7cb7f",
+      "link": "http://arxiv.org/abs/2608.02727",
+      "title": "Spin-charge separation in the triangular-lattice Hofstadter-Hubbard model",
+      "abstract": "Recent experiments in moiré materials have enabled the realization of a variety of exotic quantum phases. In this context, the Hofstadter-Hubbard model has been proposed as a possible setting for hosting chiral spin liquid. Concurrently, significant progress has been recently made in the computational methods for two-dimensional many-body fermion systems, which makes numerically studying this challenging model a real possibility in genuine 2D geometry. Motivated by these advances, we investigate the putative chiral spin liquid phase in the triangular-lattice Hofstadter-Hubbard model using variational Monte Carlo with neural quantum states (NQS) and projected entangled pair states (PEPS). We observe spin-charge separation directly in real space through numerical spin-pumping simulation and real-time spin and charge motion. In addition, in the context of anyonic superconductivity conjectured in this model, we find a positive two-electron binding energy on small systems, but it decreases below our numerical resolution as the system size increases. Our work demonstrates NQS and PEPS as powerful tools, capable of cross-checking each other, for diagnosing topological order and fractionalized excitations in strongly correlated electronic systems.",
+      "pubdate": "Mon, 03 Aug 2026 18:00:02 +0000",
+      "authors": "Yuntian Gu, Hui Yang, Zhehao Dai, Yantao Wu"
+    },
+    "9c03ff2018c24575a83a3edbaf666655": {
+      "id": "9c03ff2018c24575a83a3edbaf666655",
+      "link": "http://arxiv.org/abs/2608.02724",
+      "title": "Structure of matrix product locally purifiable density operators",
+      "abstract": "Tensor network methods provide powerful analytical and numerical tools for characterizing quantum phases of matter. While the mathematical structure of matrix product states (MPS) is well understood through the MPS fundamental theorem, an analogous understanding for mixed-state tensor networks remains largely absent: if two purification tensors generate the same density matrix, how are they related? In this work, we initiate the study of a fundamental theorem for matrix product locally purifiable density operators (LPDOs) and focus on sequentially generated LPDOs (sLPDOs), a broad subclass admitting an interpretation in terms of successive applications of quantum channels on an initial state. We prove that, under suitable invertibility or cyclic conditions, two sLPDO representations generate the same density matrix for arbitrary system sizes if and only if they are related by a matrix product isometry acting on the purification bonds. Beyond the sLPDO setting, we provide a counterexample that suggests an obstruction to a general fundamental theorem for LPDOs with periodic boundary conditions. Finally, we discuss implications for mixed-state symmetry-protected topological phases, including the possibility of nontrivial phases protected only by weak symmetry conditions.",
+      "pubdate": "Mon, 03 Aug 2026 18:00:02 +0000",
+      "authors": "Yale Yauk, Yuhan Liu, Ignacio Cirac"
+    },
+    "198d8fe8caebfa5226e6152f49b3c5c6": {
+      "id": "198d8fe8caebfa5226e6152f49b3c5c6",
+      "link": "http://arxiv.org/abs/2608.02716",
+      "title": "Universal crossovers in weakly-monitored quantum critical states",
+      "abstract": "We study post-measurement ensembles of ground states of tricritical and critical 1D quantum Ising Hamiltonians subjected, respectively, to weak energy and spin measurements without post-selection. These measurements act as relevant perturbations about the unmeasured critical ground states. Using finite-size renormalization group (RG) crossover analyses, we characterize their universal properties through the entanglement effective central charge, effective Affleck-Ludwig boundary entropy, and signatures of multifractality from moments of measurement-averaged correlation functions. In both cases, we find evidence for \"measurement-dominated\" or \"measurement-altered\" fixed points governed by the underlying Born-rule randomness. For critical Ising, we find a direct RG flow to a projective-measurement fixed point with area-law entanglement, whereas for the tricritical Ising model, we find evidence for a weak-measurement fixed point with logarithmic entanglement. These results clarify the RG-flow structure of weakly measured multicritical Ising ground states and show how intrinsic measurement-induced randomness can generate complex and rich universal long-distance scaling behavior in the post-measurement ensembles, accessible to controlled analytical RG and numerical finite-size RG crossover analyses.",
+      "pubdate": "Mon, 03 Aug 2026 18:00:00 +0000",
+      "authors": "Abhishek Kumar, Rushikesh A. Patil, Andreas W. W. Ludwig, Romain Vasseur"
     }
   }
 }
