@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-10T02:02:45.454145+00:00",
+  "last_updated": "2026-08-10T13:19:15.588441+00:00",
   "entries": {
     "3e62badd0b75b7fb3b9cdeb5e53ca60a": {
       "id": "3e62badd0b75b7fb3b9cdeb5e53ca60a",
@@ -7464,6 +7464,46 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "fb9200d36fb8bfe5dc107a8d7a805ff2": {
+      "id": "fb9200d36fb8bfe5dc107a8d7a805ff2",
+      "link": "http://arxiv.org/abs/2608.07211",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "28324b71c20c93ad0ec0fb726fef724b": {
+      "id": "28324b71c20c93ad0ec0fb726fef724b",
+      "link": "http://arxiv.org/abs/2608.07178",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "683314edbb2f5fcb5e5f0ceee6d1a094": {
+      "id": "683314edbb2f5fcb5e5f0ceee6d1a094",
+      "link": "http://arxiv.org/abs/2608.07043",
+      "title": "Tensor Network Kernel Machines: A JAX Framework for Machine Learning and Nonlinear System Identification",
+      "abstract": "Developing nonlinear models that are both expressive and computationally efficient remains a challenge in machine learning and nonlinear system identification. Tensor network kernel machines (TNKM) address this challenge by combining nonlinear feature representations with compact low-rank tensor-network parameterizations. However, practical and extensible software frameworks for developing TNKM models remain limited. In this work, we introduce \"tnkm\", an open-source Python library for constructing and training TNKM models using JAX. The library provides a unified interface for combining different feature maps, tensor-network architectures, and optimization strategies, including alternating least squares and gradient-based methods. We demonstrate the capabilities of \"tnkm\" on nonlinear benchmark problems, showing that the implemented models achieve competitive prediction accuracy while retaining compact parameterizations and efficient training. The proposed framework facilitates reproducible development and application of tensor-network-based learning methods.",
+      "pubdate": "Fri, 07 Aug 2026 09:52:05 +0000",
+      "authors": "Albert Saiapin, Kim Batselier"
+    },
+    "90acbb713d01a0353bbe6b3b6effb332": {
+      "id": "90acbb713d01a0353bbe6b3b6effb332",
+      "link": "http://arxiv.org/abs/2608.06590",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "58ee8861e9e41655bc8a1cde115193a5": {
+      "id": "58ee8861e9e41655bc8a1cde115193a5",
+      "link": "http://arxiv.org/abs/2608.06459",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
     }
   }
 }
