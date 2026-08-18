@@ -1,6 +1,38 @@
 {
-  "last_updated": "2026-08-17T12:49:50.832914+00:00",
+  "last_updated": "2026-08-18T01:22:33.502002+00:00",
   "entries": {
+    "e01e2ac51c7c3bce9ace9e5940824eb2": {
+      "id": "e01e2ac51c7c3bce9ace9e5940824eb2",
+      "link": "http://arxiv.org/abs/2608.14503",
+      "title": "Chiral spin liquid and chiral antiferromagnetism in half-filled moiré Hubbard model: possible applications to twisted bilayer TMDs",
+      "abstract": "Twisted transition metal dichalcogenides offer an exceptionally tunable moiré platform for studying correlation physics beyond conventional condensed matter systems. In particular, the intriguing interplay between the displacement field and the twist angle remains to be fully resolved. In this paper, we use large-scale density matrix renormalization group simulations to study the minimal moiré Hubbard model on a triangular lattice at half-filling, where the displacement field effect is captured by a spin-dependent staggered flux. We find that the displacement field significantly enriches the triangular Hubbard phase diagram in several qualitative ways. It rapidly destabilizes the chiral spin liquid phase beyond a narrow weak-field regime, induces pronounced chiral correlations in the strong-coupling $120^\\circ$-antiferromagnetic phase, and stabilizes incommensurate spin-density wave phases at weaker coupling. We further find signatures of a continuous transition between the chiral spin liquid and chiral antiferromagnetic phases at a finite displacement field, potentially driven by spinon condensation. Our results uncover rich displacement-field-driven many-body physics and provide useful guidance for future experiments in moiré superlattice systems.",
+      "pubdate": "Fri, 14 Aug 2026 17:17:33 +0000",
+      "authors": "Chuyi Tuo, Hong Yao"
+    },
+    "c581276c5a4f798ed762b3b4cbfc75b9": {
+      "id": "c581276c5a4f798ed762b3b4cbfc75b9",
+      "link": "http://arxiv.org/abs/2608.14296",
+      "title": "Entanglement spectrum ordering and flavor polarization in the two-flavor Schwinger model at vacuum angle $θ= π$",
+      "abstract": "Entanglement spectra in gauge theories can encode both symmetry breaking and the organization of gauge sectors. In the two-flavor Schwinger model at vacuum angle $θ=π$, we find that the joint Schmidt distribution $p_{Q_A,F_A}$, labeled by the subsystem gauge charge $Q_A$ and flavor imbalance $F_A$, reveals a cut-dependent gauge-sector hierarchy and a mass-induced flavor asymmetry: changing the staggered cut reorganizes the gauge-charge distribution $p_{Q_A}$, while mass imbalance breaks the $F_A\\leftrightarrow-F_A$ symmetry of the conditional flavor distribution $p_{F_A|Q_A}$. Defining the combined weight $W_F^{(q)}=p_{q,+1}+p_{q,-1}$ and conditional polarization $\\mathcal P_F^{(q)}=(p_{q,+1}-p_{q,-1})/W_F^{(q)}$, we find that changing the cut reverses the weight hierarchy, $W_F^{(-1)}>W_F^{(+1)}$ at unit-cell boundaries but $W_F^{(+1)}>W_F^{(-1)}$ at intra-cell cuts, while mass imbalance drives $\\mathcal P_F^{(q)}$ away from zero with a $q$-dependent cut response. Symmetry resolution therefore separates gauge-sector ordering, sector weight, and flavor polarization that are mixed in the globally ordered entanglement spectrum.",
+      "pubdate": "Fri, 14 Aug 2026 13:27:44 +0000",
+      "authors": "Boliang Yu, Ruixin Zhou, Meisen Gao"
+    },
+    "7fa2ac87cd03a5bf52239695b2cba2db": {
+      "id": "7fa2ac87cd03a5bf52239695b2cba2db",
+      "link": "http://arxiv.org/abs/2608.13805",
+      "title": "Fast classical simulation of `Fast, accurate, high-resolution simulation of large-scale Fermi-Hubbard models on a digital quantum processor'",
+      "abstract": "We study the Néel quench dynamics of a 1D Fermi-Hubbard model which has recently been simulated on quantum hardware. We demonstrate that the set of 7260 observable trajectories measured in the quantum experiment can be obtained more quickly and accurately through classical tensor network simulation using modest computation. Our result relies on transverse tensor network contraction, where a bond dimension of 32 is already sufficient to reproduce the quantum experiment. We further extend the converged observable trajectories to longer times than in the hardware simulation and in other recent classical simulations.",
+      "pubdate": "Thu, 13 Aug 2026 22:31:30 +0000",
+      "authors": "Xiao-Yu Ouyang, Runze Chi, Garnet Kin-Lic Chan"
+    },
+    "7db360bd591da64bb6ab34c2bb9c816c": {
+      "id": "7db360bd591da64bb6ab34c2bb9c816c",
+      "link": "http://arxiv.org/abs/2608.13744",
+      "title": "Designing robust molecular spins for quantum technologies with theoretical chemistry",
+      "abstract": "Molecular spins represent a versatile platform for quantum information science, with the potential to offer chemically tunable, addressable qubits. However, achieving this requires understanding and mitigating quantum decoherence. This Chapter provides a theoretical overview of current state-of-the-art chemical theory connecting ab initio electronic structure with open quantum system dynamics to guide the rational design of long-lived molecular qubits. Beginning at the electronic level, multi-reference and relativistic electronic structure methods to parameterize effective spin Hamiltonians are discussed, with a primary focus on accurately capturing $g$-tensors, zero-field splitting, and hyperfine interactions. These parameters feed into models of spin-phonon and spin-spin coupling to quantify $T_1$ and $T_2$ relaxation across various environmental regimes. This Chapter evaluates a hierarchy of dynamical methods, ranging from factorization to matrix product state approaches, balancing computational cost against accuracy and generalizability. Ultimately, mapping these theoretical models to molecular architecture can establish design principles, such as isotopic substitution and spatial spin delocalization, to understand and extend coherence lifetimes.",
+      "pubdate": "Thu, 13 Aug 2026 19:58:05 +0000",
+      "authors": "Timothy J. Krogmeier, Pranay Venkatesh, Mikayla Z. Fahrenbruch, Anthony W. Schlimgen, Andres Montoya-Castillo, Kade Head-Marsden"
+    },
     "2c5059e91fb4525dc809825bae63a580": {
       "id": "2c5059e91fb4525dc809825bae63a580",
       "link": "http://arxiv.org/abs/2608.13146",
@@ -7688,38 +7720,6 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
-    },
-    "e01e2ac51c7c3bce9ace9e5940824eb2": {
-      "id": "e01e2ac51c7c3bce9ace9e5940824eb2",
-      "link": "http://arxiv.org/abs/2608.14503",
-      "title": "Chiral spin liquid and chiral antiferromagnetism in half-filled moiré Hubbard model: possible applications to twisted bilayer TMDs",
-      "abstract": "Twisted transition metal dichalcogenides offer an exceptionally tunable moiré platform for studying correlation physics beyond conventional condensed matter systems. In particular, the intriguing interplay between the displacement field and the twist angle remains to be fully resolved. In this paper, we use large-scale density matrix renormalization group simulations to study the minimal moiré Hubbard model on a triangular lattice at half-filling, where the displacement field effect is captured by a spin-dependent staggered flux. We find that the displacement field significantly enriches the triangular Hubbard phase diagram in several qualitative ways. It rapidly destabilizes the chiral spin liquid phase beyond a narrow weak-field regime, induces pronounced chiral correlations in the strong-coupling $120^\\circ$-antiferromagnetic phase, and stabilizes incommensurate spin-density wave phases at weaker coupling. We further find signatures of a continuous transition between the chiral spin liquid and chiral antiferromagnetic phases at a finite displacement field, potentially driven by spinon condensation. Our results uncover rich displacement-field-driven many-body physics and provide useful guidance for future experiments in moiré superlattice systems.",
-      "pubdate": "Fri, 14 Aug 2026 17:17:33 +0000",
-      "authors": "Chuyi Tuo, Hong Yao"
-    },
-    "c581276c5a4f798ed762b3b4cbfc75b9": {
-      "id": "c581276c5a4f798ed762b3b4cbfc75b9",
-      "link": "http://arxiv.org/abs/2608.14296",
-      "title": "Entanglement spectrum ordering and flavor polarization in the two-flavor Schwinger model at vacuum angle $θ= π$",
-      "abstract": "Entanglement spectra in gauge theories can encode both symmetry breaking and the organization of gauge sectors. In the two-flavor Schwinger model at vacuum angle $θ=π$, we find that the joint Schmidt distribution $p_{Q_A,F_A}$, labeled by the subsystem gauge charge $Q_A$ and flavor imbalance $F_A$, reveals a cut-dependent gauge-sector hierarchy and a mass-induced flavor asymmetry: changing the staggered cut reorganizes the gauge-charge distribution $p_{Q_A}$, while mass imbalance breaks the $F_A\\leftrightarrow-F_A$ symmetry of the conditional flavor distribution $p_{F_A|Q_A}$. Defining the combined weight $W_F^{(q)}=p_{q,+1}+p_{q,-1}$ and conditional polarization $\\mathcal P_F^{(q)}=(p_{q,+1}-p_{q,-1})/W_F^{(q)}$, we find that changing the cut reverses the weight hierarchy, $W_F^{(-1)}>W_F^{(+1)}$ at unit-cell boundaries but $W_F^{(+1)}>W_F^{(-1)}$ at intra-cell cuts, while mass imbalance drives $\\mathcal P_F^{(q)}$ away from zero with a $q$-dependent cut response. Symmetry resolution therefore separates gauge-sector ordering, sector weight, and flavor polarization that are mixed in the globally ordered entanglement spectrum.",
-      "pubdate": "Fri, 14 Aug 2026 13:27:44 +0000",
-      "authors": "Boliang Yu, Ruixin Zhou, Meisen Gao"
-    },
-    "7fa2ac87cd03a5bf52239695b2cba2db": {
-      "id": "7fa2ac87cd03a5bf52239695b2cba2db",
-      "link": "http://arxiv.org/abs/2608.13805",
-      "title": "Fast classical simulation of `Fast, accurate, high-resolution simulation of large-scale Fermi-Hubbard models on a digital quantum processor'",
-      "abstract": "We study the Néel quench dynamics of a 1D Fermi-Hubbard model which has recently been simulated on quantum hardware. We demonstrate that the set of 7260 observable trajectories measured in the quantum experiment can be obtained more quickly and accurately through classical tensor network simulation using modest computation. Our result relies on transverse tensor network contraction, where a bond dimension of 32 is already sufficient to reproduce the quantum experiment. We further extend the converged observable trajectories to longer times than in the hardware simulation and in other recent classical simulations.",
-      "pubdate": "Thu, 13 Aug 2026 22:31:30 +0000",
-      "authors": "Xiao-Yu Ouyang, Runze Chi, Garnet Kin-Lic Chan"
-    },
-    "7db360bd591da64bb6ab34c2bb9c816c": {
-      "id": "7db360bd591da64bb6ab34c2bb9c816c",
-      "link": "http://arxiv.org/abs/2608.13744",
-      "title": "Designing robust molecular spins for quantum technologies with theoretical chemistry",
-      "abstract": "Molecular spins represent a versatile platform for quantum information science, with the potential to offer chemically tunable, addressable qubits. However, achieving this requires understanding and mitigating quantum decoherence. This Chapter provides a theoretical overview of current state-of-the-art chemical theory connecting ab initio electronic structure with open quantum system dynamics to guide the rational design of long-lived molecular qubits. Beginning at the electronic level, multi-reference and relativistic electronic structure methods to parameterize effective spin Hamiltonians are discussed, with a primary focus on accurately capturing $g$-tensors, zero-field splitting, and hyperfine interactions. These parameters feed into models of spin-phonon and spin-spin coupling to quantify $T_1$ and $T_2$ relaxation across various environmental regimes. This Chapter evaluates a hierarchy of dynamical methods, ranging from factorization to matrix product state approaches, balancing computational cost against accuracy and generalizability. Ultimately, mapping these theoretical models to molecular architecture can establish design principles, such as isotopic substitution and spatial spin delocalization, to understand and extend coherence lifetimes.",
-      "pubdate": "Thu, 13 Aug 2026 19:58:05 +0000",
-      "authors": "Timothy J. Krogmeier, Pranay Venkatesh, Mikayla Z. Fahrenbruch, Anthony W. Schlimgen, Andres Montoya-Castillo, Kade Head-Marsden"
     }
   }
 }
