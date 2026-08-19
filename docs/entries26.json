@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-19T01:24:31.417588+00:00",
+  "last_updated": "2026-08-19T12:52:56.497046+00:00",
   "entries": {
     "d520118a566d8e02feda930dab79aab2": {
       "id": "d520118a566d8e02feda930dab79aab2",
@@ -7752,6 +7752,62 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "de859ba1f719af7f3817d2996f778b9b": {
+      "id": "de859ba1f719af7f3817d2996f778b9b",
+      "link": "http://arxiv.org/abs/2608.17980",
+      "title": "Dressed magnon dynamics in a Bose-Hubbard bath: retardation, pairing, entanglement and two-magnon scattering",
+      "abstract": "We study one- and two-magnon dynamics in a spin-$1/2$ XX chain coupled to a tunable Bose-Hubbard bath. The XX Hamiltonian transports the magnons, while the bath dresses their motion and mediates an effective attraction. A single magnon forms a mobile polaron whose retarded bosonic cloud reduces its velocity below the static Lang-Firsov prediction and generates magnon-boson entanglement. In the weak-dressing, off-resonant mobile regime, the residual velocity deficit and entanglement are governed by the excitation weight of the cloud, as captured by perturbation theory and tensor network-based real-time simulations. Transport therefore provides a model-calibrated proxy for entanglement without joint-state reconstruction. When two clouds overlap, the bath mediates a finite-range attraction, yielding finite-size evidence for a compact two-magnon bound state and a transient post-scattering signature. On-site bath interactions suppress local boson number fluctuations and stiffen the bath response, reducing entanglement and weakening ground-state binding. Bath deformability thus emerges as a common control parameter for magnon transport, entanglement, and bath-mediated pairing.",
+      "pubdate": "Tue, 18 Aug 2026 16:30:03 +0000",
+      "authors": "Andrés N. Cáliz, Arnau Riera, Enrique Rico, João Barata, Marcin Płodzień"
+    },
+    "c16036bc7739ec1d5054e916546c3042": {
+      "id": "c16036bc7739ec1d5054e916546c3042",
+      "link": "http://arxiv.org/abs/2608.17885",
+      "title": "Benchmarking Least-Squares Tensor Hypercontraction Techniques for Molecular Systems",
+      "abstract": "Finding a low-rank approximation for the two-electron integral (ERI) tensor is a crucial step towards reducing the computational cost of many-body electronic structure methods. In recent years, a range of new tensor factorization techniques, like the so-called tensor-hypercontraction (THC) approach, have been developed to achieve this goal. Unfortunately, a systematic comparison of accuracy and efficiency of different THC construction algorithms is missing. In this work, we address this gap by benchmarking these techniques across a wide range of molecular systems. In addition to offering useful insights into the advantages and disadvantages of the different techniques, we provide reference implementations in the newly developed open-source library, PyTHC.",
+      "pubdate": "Tue, 18 Aug 2026 15:19:28 +0000",
+      "authors": "Niklas Paulicks, Johannes Tölle"
+    },
+    "9788c51b9a082ef2ef6b62b66b2b72d5": {
+      "id": "9788c51b9a082ef2ef6b62b66b2b72d5",
+      "link": "http://arxiv.org/abs/2608.17636",
+      "title": "COS-TT-CHF: A Tensor-Train Characteristic-Function COS Method for Multi-Asset Option Pricing",
+      "abstract": "This paper considers European multi-asset option pricing under Lévy and affine characteristic-function models. The main obstruction is the curse of dimensionality: direct multidimensional COS pricing forms tensor-product coefficient arrays whose size grows exponentially with the number of assets. We study and extend COS-TT-CHF, a low-rank construction that uses TT-cross to compress sampled characteristic-function tensors into tensor-train COS coefficients for arithmetic basket and min/max option pricing. Once built, the compressed representation gives fast post-setup strike-grid and selected component Delta/Vega calculations. The numerical study compares with adaptive-quadrature Fourier benchmarks, direct COS, a tensor-Fourier min-option benchmark, and quasi-Monte Carlo (QMC) references based on randomized Sobol points. The reported timings show a low-dimensional crossover against direct COS as the benchmark moves from $d=2$ to $d=4$, favorable timings against the tensor-Fourier min-option benchmark from $d=3$ onward, and favorable timings against the QMC common-Heston reference already at $d=2$. The reported tests reach $d=30$ for GBM and $d=20$ for VG, NIG, and common-Heston benchmark families, with accuracy, rank, runtime, control-sensitivity, and component Delta/Vega diagnostics reported throughout.",
+      "pubdate": "Tue, 18 Aug 2026 10:54:51 +0000",
+      "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "acec6907ce103e80ac9915cc5a500975": {
+      "id": "acec6907ce103e80ac9915cc5a500975",
+      "link": "http://arxiv.org/abs/2608.17249",
+      "title": "Low-Depth and Noise-Resilient Quantum State Preparation for Partial Differential Equations via Virtual Rz",
+      "abstract": "Preparing smooth real-amplitude quantum states is a key subroutine in quantum solvers for dissipative PDEs, such as LCHS, where discretized positive weights must be encoded into amplitudes. Exact state-preparation decompositions can reach unit fidelity ideally, but their two-qubit depth grows quickly and causes severe fidelity loss on NISQ hardware. We propose a low-depth, hardware-aware variational ansatz tailored to smooth, weakly entangled, near-real target distributions typical of damped PDE dynamics. The circuit uses one layer of local Ry rotations to generate real amplitudes, a nearest-neighbor CZ entangling layer to introduce limited entanglement, and additional Rz rotations implemented virtually as frame updates. Virtual Rz operations add no physical pulses and do not increase circuit duration, providing extra degrees of freedom without enlarging the gate footprint; in simulation they are treated as ideal to isolate their benefit. From a tensor-network viewpoint, the alternating structure restricts the state to a low-bond-dimension MPS, matching the target smoothness (for 3 qubits, bond dimension <= 2). We optimize parameters with COBYLA to minimize infidelity and benchmark against exact state preparation (Qiskit) and a RealAmplitudes (CZ) baseline. Under depolarizing noise representative of NISQ and early fault-tolerant regimes, the proposed single-layer circuit achieves high ideal fidelity with O(n) depth and substantially higher noisy fidelity than deeper exact constructions. In coherent-noise sweeps, virtual Rz parameters absorb systematic phase errors and axis mismatch, maintaining near-unity fidelity over a wide error range. These results indicate that virtual-Rz-enabled, low-depth circuits provide a practical, noise-resilient state-preparation primitive for PDE solvers on NISQ and early FTQC hardware.",
+      "pubdate": "Tue, 18 Aug 2026 01:11:10 +0000",
+      "authors": "Toru Fujii"
+    },
+    "6773e3e1793e2fe91d29789373290e63": {
+      "id": "6773e3e1793e2fe91d29789373290e63",
+      "link": "http://arxiv.org/abs/2608.17135",
+      "title": "Iterative tensor network transformations for element-wise evaluation of elementary and filtering functions",
+      "abstract": "Tensor networks are powerful formats for compressing large-scale data. However, their application to general data processing has been limited by the difficulty of performing nonlinear operations. Here, we introduce iterative tensor network transformations (ITNTs), a general algorithmic framework for the element-wise evaluation of elementary and nonlinear filtering functions on data encoded as tensor trains (TTs), a class of tensor networks. Our approach operates entirely in the compressed domain, enabling efficient computation on exponentially large datasets while maintaining a controlled computational cost. We demonstrate its power in two key areas: (I) evaluating highly nonlinear elementary and filtering functions on a 3D reactive flow field, enabling high-fidelity reaction rate computation and region filtering, and (II) finding extrema in complex optimization problems, such as solving Max-SAT instances on spaces up to $2^{70}$ configurations. These results establish ITNT as a foundational tool that provides tensor network methods with the capability for general-purpose data science and large-scale optimization.",
+      "pubdate": "Mon, 17 Aug 2026 21:08:34 +0000",
+      "authors": "Xiao Wang, Tomohiro Hashizume, Pia Siegl, Dieter Jaksch"
+    },
+    "c8934759c2fc03d0a562f4999a1f3ed7": {
+      "id": "c8934759c2fc03d0a562f4999a1f3ed7",
+      "link": "http://arxiv.org/abs/2608.16994",
+      "title": "Basis-update and Galerkin time integration in canonical matrix-product-state form",
+      "abstract": "Matrix product state algorithms must enlarge their bond spaces as entanglement grows and compress them to control cost. We formulate basis-update and Galerkin (BUG) time integration as a sequence of canonical MPS sweeps for Hamiltonians represented as matrix product operators. We show when two natural basis updates produce the same trial space and when transporting coefficients between successive bases preserves the represented state. Under these conditions, the existing first-order error bound for uncompressed tree-tensor-network BUG also applies to the alternating-endpoint MPS schedule. We verify the uncompressed implementation against an independent six-site calculation. We then compare BUG with two-site TDVP for 16-site transverse-field Ising and Haldane-Shastry dynamics. At matched timestep and truncation settings, BUG performs fewer local exponential actions and has lower runtime. These settings do not produce equal accuracy. The runtime versus accuracy curves cross for the Ising model and are close for the Haldane-Shastry model. The comparison therefore identifies model-dependent trade-offs rather than a general advantage for either method.",
+      "pubdate": "Mon, 17 Aug 2026 18:00:16 +0000",
+      "authors": "Maximilian Fröhlich, Richard M. Milbradt, Martin Eigel, Aaron Sander, Robert Wille, Christian B. Mendl"
+    },
+    "2cb9af1ea4958d0609a0e729e2b3b74a": {
+      "id": "2cb9af1ea4958d0609a0e729e2b3b74a",
+      "link": "http://arxiv.org/abs/2608.16992",
+      "title": "Bulk Criticality and Boundary Spectra in AdS from Matrix Product States",
+      "abstract": "We study interacting scalar quantum field theories in anti-de Sitter (AdS) space using a tensor-network approach based on matrix product states. We develop methods for extracting low-lying boundary spectra from global-AdS energy levels, probing bulk criticality through finite-size scaling in the AdS radius, and identifying conformal boundary conditions. Applying these methods to scalar $φ^4$ theory in $\\mathrm{AdS}_2$, we compute the lowest non-trivial $\\mathbb{Z}_2$-odd and even boundary scaling dimensions non-perturbatively. We then locate the bulk $\\mathbb{Z}_2$ symmetry-breaking transition and extract critical exponents and central charge consistent with the 2D Ising universality class. At the critical point, we determine the low-lying boundary spectrum and use it to identify the $\\mathbb{Z}_2$-preserving free/ordinary Ising conformal boundary condition, thereby characterising both the bulk and boundary universality classes.",
+      "pubdate": "Mon, 17 Aug 2026 18:00:11 +0000",
+      "authors": "Faizan Bhat"
     }
   }
 }
