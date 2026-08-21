@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-21T01:27:29.059333+00:00",
+  "last_updated": "2026-08-21T12:53:40.964774+00:00",
   "entries": {
     "3a40861dfcc8dbc900dc5a6cb16558c6": {
       "id": "3a40861dfcc8dbc900dc5a6cb16558c6",
@@ -7856,6 +7856,38 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "66558a58d7eaeb790728a85dfdfb8c07": {
+      "id": "66558a58d7eaeb790728a85dfdfb8c07",
+      "link": "http://arxiv.org/abs/2608.20221",
+      "title": "Universal meson spectra near $(1+1)$-dimensional Ising criticality",
+      "abstract": "Near $(1+1)$-dimensional [$(1+1)$D] Ising criticality, a magnetic perturbation induces confinement and produces a cascade of bound-state excitations known as mesons. Here we show these mesons share a universal mass scaling after independently rescaling the model-dependent microscopic couplings. The number of stable mesons is controlled by the lightest two-meson threshold, while the lightest-meson mass follows a continuous trajectory characterized by a single scaling parameter. Using Hamiltonian truncation method, we obtain the trajectory numerically in both Ising field theory and the near-critical mixed-field Ising chain (MFIC). Under the rescaling, the trajectory and stable-meson-count crossover windows of MFIC both collapse onto the field-theory results. To further demonstrate the above universal organization of the meson spectra, we consider a class of four-periodic spin-$1/2$ Heisenberg-Ising chains under transverse fields, whose parameter space contains a family of quantum Ising critical points. The Hamiltonian family includes effective spin models for the quasi-one-dimensional antiferromagnets Ba(Sr)Co$_2$V$_2$O$_8$. Using tensor-network calculations, we obtain the corresponding lightest-meson mass trajectory for BaCo$_2$V$_2$O$_8$ and find that it also collapse onto the same universal curve given by field-theory result. Our results suggest that the universal scaling structure of quantum Ising criticality extends into the nearby confining regime, governing the organization of the meson spectrum. They thereby provide a practical criterion for interpreting excitations of quasi-1D Ising-like magnets in mixed fields beyond $E_8$ integrability.",
+      "pubdate": "Thu, 20 Aug 2026 16:18:51 +0000",
+      "authors": "Xiao Wang, Jianda Wu"
+    },
+    "2e9204af139bd6816bc6f22418a82f75": {
+      "id": "2e9204af139bd6816bc6f22418a82f75",
+      "link": "http://arxiv.org/abs/2608.19789",
+      "title": "TT-net: Quantum Inspired Tensor Network Denoising in Conditional GANs",
+      "abstract": "Developed as a workhorse for classical simulations of quantum algorithms and quantum many-body systems, Tensor Network methods have entered the scientific mainstream in quantum physics. Among various types of tensor networks, Tensor Trains (commonly know as Matrix Product States in the quantum computing community) have already found applications in machine learning. These methods often rely on a powerful linear algebra tool called the Singular Value Decomposition (SVD). Several conditional GAN architectures for image denoising incorporate SVD as a single-cut decomposition step applied to generator feature maps. In this work we introduce TT-Net, which replaces the per-channel SVD denoising block with a two-cut tensor-train decomposition capable of accessing cross-channel information directly, a capability absent from contemporary alternatives. In a controlled comparison differing only in this decomposition mechanism, TT-Net outperforms SVD-Net on PSNR and SSIM across all three noise types tested (Gaussian, motion blur, and salt-and-pepper), supporting the hypothesis that cross-channel access improves denoising quality. Training-dynamics analysis further shows that TT-Net's adversarial loss term consistently saturates to a stagnant state across all three noise types, more so than SVD-Net's, while reconstruction quality continues to improve regardless, raising an open question about the adversarial component's contribution that this work identifies but does not resolve. Furthermore, for Gaussian noise our method outperforms both the EigenGAN and the state of the art Pix2pix method which does not assume any linear algebra decompositions and does not retain any linear algebra information. Our manuscript shows how quantum inspired tools can be used as practical real world feature filters for deep learning applications.",
+      "pubdate": "Thu, 20 Aug 2026 08:34:40 +0000",
+      "authors": "Michal A. Sterzel, Marko J. Rančić"
+    },
+    "1987c75eb0655049bca064f62e74785d": {
+      "id": "1987c75eb0655049bca064f62e74785d",
+      "link": "http://arxiv.org/abs/2608.19428",
+      "title": "Holographic Bit Threads from String-Diagrammatic Quantum Information Flow",
+      "abstract": "Bit threads, arising as the convex dual of the minimal-surface formula for holographic entanglement entropy, are line-like structures with nontrivial bulk trajectories. Their physical picture has long been associated with Bell-pair interpretations, yet the meaning of their detailed trajectories, particularly their nonuniqueness, remains unclear. We propose to apply Coecke's notion of quantum information flow (QIF) in protocol-network geometry, developed within categorical quantum mechanics, to a holographic setup, and show that its trajectories within the discrete holographic bulk---the tensor network---obey the divergence-free and density-bound conditions of bit threads. From this process-centered perspective, bit-thread nonuniqueness becomes natural: for a given resource state, different protocols realizing the same distillation task can give rise to different QIF trajectories. We further analyze stabilizer-type holographic tensor networks using ZX string diagrams and show that QIF trajectories can probe finer entanglement structure beyond the level captured by entanglement entropy.",
+      "pubdate": "Wed, 19 Aug 2026 20:26:00 +0000",
+      "authors": "Yi-Yu Lin, Song Cheng"
+    },
+    "449aa70911d67bf8de3723a8b0423621": {
+      "id": "449aa70911d67bf8de3723a8b0423621",
+      "link": "http://arxiv.org/abs/2608.19368",
+      "title": "A High-Order Rank-Adaptive Implicit Algorithm for Solving High Dimensional Diffusion Equations using the Hierarchical Tucker Decomposition",
+      "abstract": "This paper presents a high-order rank-adaptive implicit integrator for the tensor solution of high-dimensional diffusion equations. We extend the 3D version of this method from the Tucker decomposition to higher dimensions using the hierarchical Tucker (HT) decomposition, since the storage complexity for the Tucker decomposition increases exponentially with the number of dimensions $d>3$. The HT format avoids this issue by decomposing the solution according to a binary tree consisting of bases for each dimension and core tensors which connect the bases. Spectral methods are considered for spatial discretization, and diagonally implicit Runge-Kutta methods are considered for time discretization. At each stage of the Runge-Kutta method, the bases computed at the previous stages are augmented to predict the upcoming basis and construct projection subspaces. By projecting onto these enriched subspaces, the bases and cores can be updated in a sequential manner going up the tree from leaf-to-root. Unlike the 3D Tucker method which has a single core tensor, the HT method also updates the intermediate core tensors. Numerical experiments demonstrate that the method observes high-order accuracy, and test how well the integrator captures the solution rank for various sets of time-dependent diffusion coefficients.",
+      "pubdate": "Wed, 19 Aug 2026 18:36:46 +0000",
+      "authors": "Paolo Bosques-Paulet"
     }
   }
 }
