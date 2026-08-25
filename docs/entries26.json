@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-08-24T12:55:45.431682+00:00",
+  "last_updated": "2026-08-25T01:24:38.206968+00:00",
   "entries": {
+    "144dbceefa61c2154073ff0d5084bc6e": {
+      "id": "144dbceefa61c2154073ff0d5084bc6e",
+      "link": "http://arxiv.org/abs/2608.21109",
+      "title": "Axiomatization of the Levin--Wen Wave Function",
+      "abstract": "The Levin--Wen model provides a lattice realization of topological orders associated with a given unitary fusion category. A longstanding open problem is to characterize Levin--Wen ground-state wave functions intrinsically, without assuming a priori categorical symmetry data or a Hamiltonian. We address this by proposing six axioms on a family of wave functions defined on lattices at multiple scales. These axioms allow us to reconstruct the underlying unitary fusion category and prove that the resulting wave functions map to nonzero Levin--Wen ground-state vectors of the emergent category.",
+      "pubdate": "Fri, 21 Aug 2026 13:55:40 +0000",
+      "authors": "Zhengwei Liu, Zishuo Zhao"
+    },
+    "03d3da459e861f84150da334d5c091a0": {
+      "id": "03d3da459e861f84150da334d5c091a0",
+      "link": "http://arxiv.org/abs/2608.20849",
+      "title": "Spin models with critical ground space degeneracy from Lie algebra relations",
+      "abstract": "We introduce an $\\mathrm{SO}(3)$-symmetric spin model derived from the algebraic structure of $\\mathfrak{so}(3)$: It is obtained as the nearest-neighbor parent Hamiltonian of a Matrix Product State (MPS) built from the generators of the Lie algebra $\\mathfrak{so}(3)$ and the identity matrix, and therefore encodes the quadratic relations of the Lie algebra. We characterize the ground space structure of the resulting model and show that for open boundary conditions (OBC), it exhibits a quadratic ground space degeneracy, given by one irreducible representation (irrep) of each odd dimension (integer spin). For periodic boundary conditions (PBC), it has a linear ground space degeneracy, consisting of a singlet --- namely, the MPS underlying the model --- and a ferromagnet (the irrep with maximal spin), and thus exhibits gapless excitations. We also generalize the construction and the analysis of the OBC ground space to $\\mathrm{SO}(d)$ and other compact simple Lie groups. The MPS on which the model is based is an injective MPS, and therefore, its 3-site parent Hamiltonian has a unique ground space and is gapped. The observed critical behavior thus has its origin in the small parent Hamiltonian considered. The model's algebraic ground space scaling thus provides an example distinct from that reported in (Schuch et al., 2025, arXiv:2503.10767), where it was shown that small parent Hamiltonians of injective MPS generically have unique ground states, and examples with an exponential ground space degeneracy were given.",
+      "pubdate": "Fri, 21 Aug 2026 08:12:01 +0000",
+      "authors": "Andras Molnar, Efekan Kökcü, Norbert Schuch, Bojko N. Bakalov"
+    },
+    "1ec6b465a9e09ec5865efdb93c876880": {
+      "id": "1ec6b465a9e09ec5865efdb93c876880",
+      "link": "http://arxiv.org/abs/2608.20501",
+      "title": "Quantum critical behavior in chains of hindered dipolar planar rotors",
+      "abstract": "We study the ground-state properties of linear chains of dipolar planar rotors hindered by a six-fold on-site potential, a model motivated by water molecules confined in the hexagonal cavities of beryl. Using density matrix renormalization group (DMRG) calculations, we locate the quantum phase transition between the disordered and ferroelectrically ordered phases using the von Neumann entanglement entropy and the Binder ratio of the polarization. A sweep of the six-fold pinning strength shows that increasing hindrance shifts the critical dipolar coupling gc to smaller values. These results suggest that crystal-field hindrance can promote, rather than suppress, dipolar ordering. This work has implications for ferroelectricity and quantum-device tuning in confined molecular rotors",
+      "pubdate": "Thu, 20 Aug 2026 18:38:53 +0000",
+      "authors": "Wenxue Zhang, Muhammad Shaeer Moeed, Estevao De Oliveira, Hui Li, Pierre-Nicholas Roy"
+    },
     "66558a58d7eaeb790728a85dfdfb8c07": {
       "id": "66558a58d7eaeb790728a85dfdfb8c07",
       "link": "http://arxiv.org/abs/2608.20221",
@@ -7888,30 +7912,6 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
-    },
-    "144dbceefa61c2154073ff0d5084bc6e": {
-      "id": "144dbceefa61c2154073ff0d5084bc6e",
-      "link": "http://arxiv.org/abs/2608.21109",
-      "title": "Axiomatization of the Levin--Wen Wave Function",
-      "abstract": "The Levin--Wen model provides a lattice realization of topological orders associated with a given unitary fusion category. A longstanding open problem is to characterize Levin--Wen ground-state wave functions intrinsically, without assuming a priori categorical symmetry data or a Hamiltonian. We address this by proposing six axioms on a family of wave functions defined on lattices at multiple scales. These axioms allow us to reconstruct the underlying unitary fusion category and prove that the resulting wave functions map to nonzero Levin--Wen ground-state vectors of the emergent category.",
-      "pubdate": "Fri, 21 Aug 2026 13:55:40 +0000",
-      "authors": "Zhengwei Liu, Zishuo Zhao"
-    },
-    "03d3da459e861f84150da334d5c091a0": {
-      "id": "03d3da459e861f84150da334d5c091a0",
-      "link": "http://arxiv.org/abs/2608.20849",
-      "title": "Spin models with critical ground space degeneracy from Lie algebra relations",
-      "abstract": "We introduce an $\\mathrm{SO}(3)$-symmetric spin model derived from the algebraic structure of $\\mathfrak{so}(3)$: It is obtained as the nearest-neighbor parent Hamiltonian of a Matrix Product State (MPS) built from the generators of the Lie algebra $\\mathfrak{so}(3)$ and the identity matrix, and therefore encodes the quadratic relations of the Lie algebra. We characterize the ground space structure of the resulting model and show that for open boundary conditions (OBC), it exhibits a quadratic ground space degeneracy, given by one irreducible representation (irrep) of each odd dimension (integer spin). For periodic boundary conditions (PBC), it has a linear ground space degeneracy, consisting of a singlet --- namely, the MPS underlying the model --- and a ferromagnet (the irrep with maximal spin), and thus exhibits gapless excitations. We also generalize the construction and the analysis of the OBC ground space to $\\mathrm{SO}(d)$ and other compact simple Lie groups. The MPS on which the model is based is an injective MPS, and therefore, its 3-site parent Hamiltonian has a unique ground space and is gapped. The observed critical behavior thus has its origin in the small parent Hamiltonian considered. The model's algebraic ground space scaling thus provides an example distinct from that reported in (Schuch et al., 2025, arXiv:2503.10767), where it was shown that small parent Hamiltonians of injective MPS generically have unique ground states, and examples with an exponential ground space degeneracy were given.",
-      "pubdate": "Fri, 21 Aug 2026 08:12:01 +0000",
-      "authors": "Andras Molnar, Efekan Kökcü, Norbert Schuch, Bojko N. Bakalov"
-    },
-    "1ec6b465a9e09ec5865efdb93c876880": {
-      "id": "1ec6b465a9e09ec5865efdb93c876880",
-      "link": "http://arxiv.org/abs/2608.20501",
-      "title": "Quantum critical behavior in chains of hindered dipolar planar rotors",
-      "abstract": "We study the ground-state properties of linear chains of dipolar planar rotors hindered by a six-fold on-site potential, a model motivated by water molecules confined in the hexagonal cavities of beryl. Using density matrix renormalization group (DMRG) calculations, we locate the quantum phase transition between the disordered and ferroelectrically ordered phases using the von Neumann entanglement entropy and the Binder ratio of the polarization. A sweep of the six-fold pinning strength shows that increasing hindrance shifts the critical dipolar coupling gc to smaller values. These results suggest that crystal-field hindrance can promote, rather than suppress, dipolar ordering. This work has implications for ferroelectricity and quantum-device tuning in confined molecular rotors",
-      "pubdate": "Thu, 20 Aug 2026 18:38:53 +0000",
-      "authors": "Wenxue Zhang, Muhammad Shaeer Moeed, Estevao De Oliveira, Hui Li, Pierre-Nicholas Roy"
     }
   }
 }
