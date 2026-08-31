@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-31T04:35:40.434956+00:00",
+  "last_updated": "2026-08-31T18:57:50.431197+00:00",
   "entries": {
     "bf49357a762dbcc3d7bbd4c0735d56dc": {
       "id": "bf49357a762dbcc3d7bbd4c0735d56dc",
@@ -8128,6 +8128,62 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "dcf46f011757aab624b0e45df121939c": {
+      "id": "dcf46f011757aab624b0e45df121939c",
+      "link": "http://arxiv.org/abs/2608.28563",
+      "title": "Exact quantification of nonlocal magic",
+      "abstract": "Magic, or nonstabilizerness, is the resource that lifts Clifford circuits to universal quantum computation and has become a standard diagnostic of many-body states. For a state shared between two parties, however, a basic question has remained open: how much of the magic resides in the correlations between the parties rather than in their local bases? Isolating this nonlocal magic requires minimizing over all local bases, an optimization that has so far resisted exact solution. Here we solve it for the stabilizer fidelity: the nonlocal magic of every pure multiqubit state is the distance of its entanglement spectrum from the closest spectrum of Bell pairs. The same quantity governs an apparently unrelated task: a family of states universally embezzles entanglement under local operations and classical communication if and only if its nonlocal magic diverges. The deciding property is not the amount of entanglement but the way the entanglement spectrum spreads its weight across factor-of-two windows of rank, so that critical chains and random-singlet states, with identical logarithmic entanglement scaling, carry unbounded and vanishing nonlocal magic, respectively. Nonlocal magic thereby becomes an operationally meaningful property of quantum correlations, directly accessible to tensor-network simulations and, through entanglement spectroscopy, to experiments.",
+      "pubdate": "Fri, 28 Aug 2026 17:40:56 +0000",
+      "authors": "Piotr Sierant"
+    },
+    "623ecd269d1b0b7d1e8181ad0776c95a": {
+      "id": "623ecd269d1b0b7d1e8181ad0776c95a",
+      "link": "http://arxiv.org/abs/2608.27861",
+      "title": "Vectorized Symmetric and Fermionic Tensor Network Implementations for GPU-Accelerated Variational Monte Carlo",
+      "abstract": "Variational Monte Carlo (VMC) calculations based on tensor networks (TN) have recently achieved competitive accuracy in ground-state calculations of strongly correlated spin and fermionic systems. However, existing tensor network VMC (TN-VMC) algorithms have not been formulated in a manner that can fully utilize GPU acceleration. We tackle the key missing ingredient, namely, the vectorized evaluation of tensor network amplitudes and tensor network operations. This ensures high GPU utilization by batching over computations with identical structure. In particular, we show how to achieve vectorization for the practically relevant case of abelian symmetric tensor networks (which includes fermionic tensor networks) by developing a ``flat'' tensor network formalism for block-sparse tensor representation and contraction. Using this, we construct a GPU-adapted symmetric TN-VMC workflow with batched tensor network computation. In the two-dimensional Fermi--Hubbard model, we demonstrate a GPU speedup of up to $300 \\times$ over single core CPU implementations, for fermionic TN variational wavefunctions.",
+      "pubdate": "Fri, 28 Aug 2026 03:10:41 +0000",
+      "authors": "Si-Jing Du, Johnnie Gray, Ao Chen, Garnet Kin-Lic Chan"
+    },
+    "24fe0087950fa623468a5024c9d04aba": {
+      "id": "24fe0087950fa623468a5024c9d04aba",
+      "link": "http://arxiv.org/abs/2608.28035",
+      "title": "Physics-Constrained Conditional Generative Learning for Quantum State and Process Tomography",
+      "abstract": "Quantum state and process tomography constitute essential diagnostic tools in quantum information science, yet their standard formulations suffer from prohibitive computational scaling as the number of qubits grows. In this work, we introduce a physics-constrained conditional generative adversarial network that bypasses iterative constrained inversion by directly learning a forward generative mapping conditioned on Pauli expectation values. The generator embeds a differentiable Cholesky layer at its output, which enforces Hermiticity, positive semidefiniteness, and unit trace by construction. Our experiments reveal that the strength of the $L^1$ penalty critically governs the emergence of GHZ coherence during training: an excessively large penalty postpones the coherence onset and yields a prolonged low-fidelity plateau, whereas an intermediate value enables the fastest stable convergence. Moreover, for high-temperature thermal states, an over-complete measurement basis proves necessary to prevent sustained late-stage fluctuations. By extending the same Cholesky constraint to the Choi-matrix representation, the framework naturally accommodates quantum process tomography. For systems with $n \\ge 6$ qubits, the exponential growth of the underlying $2^n \\times 2^n$ density matrix remains the fundamental bottleneck; we discuss how integrating tensor-network structures can contain the per-iteration cost while preserving reconstruction fidelity. Altogether, these results suggest that physically constrained generative learning offers a scalable and amortizable pathway toward data-driven tomography for noisy intermediate-scale quantum devices.",
+      "pubdate": "Fri, 28 Aug 2026 07:50:30 +0000",
+      "authors": "Daming Li"
+    },
+    "7970c647d1e5af4b96a8b1cf9f1709ca": {
+      "id": "7970c647d1e5af4b96a8b1cf9f1709ca",
+      "link": "http://arxiv.org/abs/2608.28005",
+      "title": "Projected q-Shells for Nested Gausslet Bases",
+      "abstract": "Electronic-structure calculations require a finite representation of both the electronic wave functions and their Coulomb interaction. Conventional compact basis sets lead to a four-index interaction. Gausslet basis sets are one of a very small number of approaches that allow a much smaller two-index interaction, similar to a real-space grid, but with far fewer points. The continuing challenge in their development is reducing further the number of functions needed while maintaining high accuracy. Here we introduce projected q-shells (PQS), an improvement to the nested Cartesian gausslets of White and Lindsey. Their standard nesting construction divides a joining shell into disjoint faces, edges, and corners, reducing its polynomial completeness from order q to order q-2. PQS approximately restores the two lost orders. In terms of completeness, we prove that for an ideal, undistorted parent, the span of the PQS basis is equivalent to an overcomplete basis of overlapping patches. Coordinate distortions, which are always used in practice, harm this equivalence only slightly. The moment properties that allow two-index interactions also become inexact, even without distortion, but we show that the improvement in order more than makes up for this loss. For similar basis sizes, PQS gives smaller one-electron and interaction errors on small molecules, such as H2+, H2, and C2, than standard nesting. The improvement is largest for more compact bases with smaller q.",
+      "pubdate": "Fri, 28 Aug 2026 07:15:15 +0000",
+      "authors": "Steven R. White"
+    },
+    "d1206b306b2ac96e8421f1e41646e14e": {
+      "id": "d1206b306b2ac96e8421f1e41646e14e",
+      "link": "http://arxiv.org/abs/2608.27767",
+      "title": "Fractional Hall Conductance of Laughlin States from a Topological Index",
+      "abstract": "We provide a rigorous Laughlin-pump argument that establishes the fractional quantization of the Hall conductance directly from the Laughlin state as a topological index. Our proof uses a recently defined index of a pair of pure states together with an infinite matrix product state analysis that is rigorous on a sufficiently thin cylinder. By virtue of the connection to an index, our result implies, in particular, that Laughlin states are representatives of topologically stable fractional quantum Hall phases.",
+      "pubdate": "Thu, 27 Aug 2026 22:59:54 +0000",
+      "authors": "Sven Bachmann, Severin Schraven, Jacob Shapiro, Simone Warzel"
+    },
+    "109f4ef5ff1c9bea385bb4a175e3ac3f": {
+      "id": "109f4ef5ff1c9bea385bb4a175e3ac3f",
+      "link": "http://arxiv.org/abs/2608.27564",
+      "title": "An Algebraic Obstruction to Ising Criticality for Finite-BCH Entanglers in Wavelet MERA",
+      "abstract": "The computational treatment of non-Gaussian entanglers could pose a significant challenge when extending the Multi-Scale Entanglement Renormalization Ansatz (MERA) to interacting quantum field theories. A natural strategy is therefore to consider polynomial entanglers for which the Baker-Campbell-Hausdorff (BCH) expansion terminates at finite order. In this work, we identify an algebraic obstruction that limits the universality classes accessible to this family of entanglers. Working within the wavelet MERA (wMERA) framework applied to the interacting $φ^4$ theory in two dimensions, we show analytically that the effective potential generated by any finite-BCH polynomial entangler is necessarily of Landau form in the generic case, establishing mean-field universality for the full class; in non-generic, degenerate cases the resulting exponent departs from mean-field but still fails to reproduce the Ising value. As a numerical illustration, the critical exponent $β$ remains consistent with its mean-field value $β= 1/2$ across all ansätze considered, with no drift toward the Ising value $β= 1/8$ as the nonlocality range or variational complexity increases. Reproducing non-mean-field criticality therefore might require non-polynomial or infinite-BCH constructions.",
+      "pubdate": "Thu, 27 Aug 2026 18:00:03 +0000",
+      "authors": "Enrico Bertuzzo, Olindo Corradini, Claudia Frugiuele"
+    },
+    "3f465ccbd551603f5589acafe23fabab": {
+      "id": "3f465ccbd551603f5589acafe23fabab",
+      "link": "http://arxiv.org/abs/2608.27561",
+      "title": "Pulling strings in real time: flux tube dynamics in (2+1)-d $\\mathbb{Z}_2$-Higgs Gauge Theories",
+      "abstract": "Understanding real-time flux-tube dynamics in more than one spatial dimension is key to unlocking the non-perturbative physics of confinement, and is now actively pursued by quantum computing and simulation experiments. However, describing such dynamics has proven to be extremely challenging with both experiments and state-of-the-art numerical simulations limited to small volumes and short timescales. Here we investigate flux tube statics and real-time evolution in a genuine two-dimensional $\\mathbb{Z}_2$ Higgs gauge theory at system sizes and timescales order of magnitude beyond present experiments and numerics. The key enabling element is the recently introduced Clifford-augmented matrix product states (CAMPS) framework, which we demonstrate to parametrically reduce the entanglement that must be represented in the matrix product state; both in the pure-gauge limit and in the presence of dynamical matter. We benchmark this capability through stringent tests of effective string theory, including universal spectral features and flux tube roughening properties in presence of matter. We then introduce a string-pull protocol that selectively excites transverse modes and reconstructs their finite-size spectrum in real time. In the rough regime, the response is collective, and our simulations show that this is also well captured by universal effective string theory predictions. Strong confinement instead produces long-lived, lattice-locked local dynamics persisting to times $tJ \\gtrsim 100$. These results provide ab initio evidence that effective string theory captures nonequilibrium string dynamics and reveal a hitherto unexplored long-lived prethermal regime of strongly confined flux tubes, providing a novel angle on how confinement dictates dynamics in more than one spatial dimension.",
+      "pubdate": "Thu, 27 Aug 2026 18:00:02 +0000",
+      "authors": "Zeno Bacciconi, Martina Frau, Luca Tagliacozzo, Michele Caselle, Marcello Dalmonte"
     }
   }
 }
