@@ -8,7 +8,35 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Sep 2026 03:40:12 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 16:14:33 +0000</lastBuildDate>
+    <item>
+      <title>Regulating Free-scalar and Yang--Lee 5d CFTs on the Fuzzy Four Sphere</title>
+      <link>http://arxiv.org/abs/2609.00148</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Jiangyuan Qian&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; Non-commutative sphere regularization of CFT has become a powerful tool for computing conformal data of 3d CFTs and was recently extended to 4d CFTs. In this work we further construct 5d free-scalar CFT and Yang-Lee CFT on a fuzzy 4-sphere. We observe a continuous phase transition and conformal towers in these examples. We obtain the first three scalar primaries of the 5d free-scalar CFT, furthermore, we compute the 5d Yang-Lee $Δ_φ,Δ_{φ^3}$ with $N_e=10$ fermions using exact diagonalization (ED) and $N_e=20$ fermions using density matrix renormalization group (DMRG), obtaining relatively good agreement with both $ε$-expansion and the Gliozzi truncated bootstrap result.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2609.00148'&gt;arXiv:2609.00148&lt;/a&gt;] Published Mon, 31 Aug 2026 18:00:06 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2609.00148</guid>
+      <pubDate>Mon, 31 Aug 2026 18:00:06 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <title>Nonlinear Fluctuating Hydrodynamics from Interacting Noisy Quantum Matter</title>
+      <link>http://arxiv.org/abs/2609.00159</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Alexios Christopoulos, João Costa, Stefano Scopa, Jacopo De Nardis, Zala Lenarčič, Denis Bernard, Tony Jin&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; A universal characterization of non-equilibrium steady states in interacting quantum many-body systems remains one of the central challenges of statistical physics. Here, we address this problem for a paradigmatic model of diffusive interacting quantum matter---the boundary-driven XXZ spin chain with bulk dephasing---and derive, directly from its microscopic Lindblad dynamics, an emergent classical Macroscopic Fluctuation Theory (MFT) governing its large-scale fluctuations. Crucially, the resulting hydrodynamics carries a density-dependent diffusivity and mobility as the fingerprint of interactions. This effective description enables the exact computation of the stationary density profile, long-range correlations, and the full counting statistics of the current, in excellent agreement with tensor-network simulations. Our work demonstrates that noisy quantum many-body systems can realize the universality class of genuinely interacting diffusive matter, beyond the constant-diffusivity class of the symmetric simple exclusion process, and establishes MFT as a powerful universal framework for interacting diffusive quantum systems.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2609.00159'&gt;arXiv:2609.00159&lt;/a&gt;] Published Mon, 31 Aug 2026 18:00:17 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2609.00159</guid>
+      <pubDate>Mon, 31 Aug 2026 18:00:17 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <title>Exact learning of quantum noise with tensor networks</title>
+      <link>http://arxiv.org/abs/2609.00169</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Nicola Pancotti, Vedika Saravanan, Krysta Svore&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; Accurate noise models are essential for high-performance quantum error correction, yet characterizing the noise of a quantum device typically requires dedicated experiments. We present a variational framework that learns the noise model directly from quantum-error-correction syndrome and logical-observable data collected during error-corrected memory experiments. The fault-event probabilities are treated as variational parameters and optimized via gradient descent to minimize the binary cross-entropy between the decoder's predictions and experimental logical-observable outcomes. We prove that this objective is principled rather than ad hoc: a sufficiently expressive noise ansatz attains the information-theoretic minimum logical error rate. We instantiate this framework using a tensor-network decoder, which provides exact maximum-likelihood decoding and analytically differentiable gradients with respect to all noise parameters. Using circuit-level data from Google's Sycamore processor, and starting from an uninformed prior, the optimization recovers noise models whose logical error rates agree to within $2\%$ with those of Google's independently characterized detector error model. The mean squared error between the learned and reference noise parameters shows a clear overall decrease throughout training, confirming that the method recovers physically meaningful noise structure, not merely parameters that happen to decode well. We further demonstrate that the optimization can track device drifts in real time via warm-started updates, maintaining near-optimal decoding performance under synthetically evolving noise without the need for re-characterization. The approach is decoder-agnostic in its formulation and naturally extends to correlated noise models.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2609.00169'&gt;arXiv:2609.00169&lt;/a&gt;] Published Mon, 31 Aug 2026 18:01:16 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2609.00169</guid>
+      <pubDate>Mon, 31 Aug 2026 18:01:16 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <title>Stochastic Optimization of Tree Tensor Networks</title>
+      <link>http://arxiv.org/abs/2609.00870</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Marius Willner, Maximilian Scharf, André Uschmajew, Timo Felser, Marco Trenti&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; Tensor networks, originally developed for quantum many-body physics, are promising models for machine learning. We derive stochastic Riemannian optimizers for tree tensor networks (TTNs) on both their parameter and quotient manifolds, including adaptive and learning-rate-free schemes suitable for minibatch training. Using a hybrid CNN-TTN architecture, we evaluate the methods on Fashion-MNIST, CIFAR10, and Imagenette. The proposed optimizers achieve predictive performance comparable to unconstrained optimization while enabling numerically stable downstream compression.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2609.00870'&gt;arXiv:2609.00870&lt;/a&gt;] Published Tue, 01 Sep 2026 08:03:33 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2609.00870</guid>
+      <pubDate>Tue, 01 Sep 2026 08:03:33 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
     <item>
       <title>Full grid solution for multi-asset options pricing with tensor networks</title>
       <link>http://arxiv.org/abs/2601.00009</link>
