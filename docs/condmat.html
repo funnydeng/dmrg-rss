@@ -536,10 +536,76 @@
         </div>
     </div>
     
-<p><em>Generated on 2026-09-03 03:39:36</em></p>
-<p>Total papers: 1035
+<p><em>Generated on 2026-09-03 16:04:38</em></p>
+<p>Total papers: 1041
 </p>
 <h2>Recent Papers</h2>
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.02394'>A Recursive Module-Coupling Algorithm for Computing Low-Energy Eigenstates</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Dihang Sun, Nannan Ma, Ching Hua Lee, Tianqi Chen, Jiangbin Gong</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.02394 | <strong>Date:</strong> 2026-09-02</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> Finding the eigenstates of a many-body Hamiltonian is a fundamental challenge in physics and computational science. Since the search space grows exponentially with system size, numerous classical and quantum algorithms have been developed to address this problem. A practical strategy is to identify a physics-informed low-dimensional subspace that effectively accommodates the low-lying eigenstates, thereby reducing the computational complexity. In this paper, we propose a recursive module-coupling algorithm, which iteratively treats a system as a composition of locally-coupled smaller modules, with low-energy subspace estimated successively according to the same recursive structure. Unlike the density matrix renormalization group (DMRG) approach that optimizes a global matrix product state through repeated local sweeps and obtains excited states sequentially, our algorithm constructs a physically tailored variational basis from module eigenstates and obtains several low-energy states on an equal footing, leading to substantial speedups if targeting moderate accuracy. Our proposed method further leads naturally to a recursive quantum variational algorithm, providing a systematic and modular circuit-construction framework compatible with contemporary gate-based quantum architectures. At each recursive level, block encoders are trained to map logical basis states onto the retained physical subspace, within which a variational circuit is subsequently optimized.Such a quantum-circuit implementation provides not only a quantum multistate eigensolver, but also a systematic prescription for hierarchically constructing quantum state-preparation circuits. Classical simulations demonstrate the accuracy and efficiency of the proposed method, whereas experiments on IBM quantum processors show that eigenstate preparation with reasonable fidelities is achievable even in the current NISQ era.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.02361'>DMRG using Belief Propagation</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Hendrik Kühne, Christian B. Mendl</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.02361 | <strong>Date:</strong> 2026-09-02</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> Tensor networks have attracted much attention as a powerful tool for modeling quantum many-body systems. Their contraction is a significant challenge, however, especially in highly connected networks, as memory requirements become prohibitive and the optimal contraction order is increasingly hard to find. The belief propagation (BP) algorithm has emerged as an alternative to exact contraction. Being formulated in a graph-agnostic way, it offers great flexibility, but its accuracy suffers in the presence of loops. In this work, we combine BP with the DMRG algorithm to solve ground-state problems, thereby extending DMRG to higher dimensions and arbitrary lattices. We demonstrate the viability of BP-DMRG on the transverse-field Ising model on a $2\times 2$ hexagonal lattice, finding that it produces states with a fidelity between $0.9$ and $0.99$ to the true ground state, and energy estimates with a relative error between $10^{-2}$ and $10^{-3}$. Additionally, BP-DMRG can find ground states on randomly generated lattices, with fidelity improving as the transverse field increases. We conclude with a discussion of the limitations we encounter when using belief propagation, highlighting that the TFI tensor network operators lead to larger errors during BP iterations in BP-DMRG.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.02141'>Renormalization group and long-range conditional mutual information in hierarchical models</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Yu-Hsueh Chen</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.02141 | <strong>Date:</strong> 2026-09-02</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> A departure of a mixed quantum state from a local Gibbs description is generally invisible to local observables but can be detected by the conditional mutual information (CMI). Here we study the relationship between the renormalization group (RG) and CMI, and in particular, how RG constrains CMI. We first show that the CMI between nonadjacent regions $A$ and $C$, conditioned on the buffer region $B$, is UV-finite whenever the state admits a locally reversible RG with a fixed on-site Hilbert space dimension. We then study two hierarchical models that have long-range CMI and yet admit a simple RG description. The first model has a divergent Markov length at every temperature $0<T<\infty$ but nevertheless flows to an infinite-temperature product state under RG. The second model satisfies the local Markov condition while violating the global one and is stable against weak noise. At the critical noise strength, the two-point CMI decays only polynomially as a function of the system size, while the two-point mutual information vanishes.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.01904'>Quantum Circuit and Tensor Network Implementation of the 2D Acoustic Wave Equation</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Tamas Nemeth, Gabor Vattay</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.01904 | <strong>Date:</strong> 2026-09-01</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> We present a cohesive framework for simulating seismic wave propagation utilizing quantum computing paradigms and their classical tensor network equivalents. We detail a quantum circuit-based formulation for the explicit finite-difference time-domain (FDTD) solution of the two-dimensional acoustic wave equation and map this quantum architecture onto a tensor train representation, namely for Matrix Product State (MPS). The MPS solver enables deterministic simulation of large-scale wavefield dynamics on classical high-performance computing systems. We demonstrate the MPS representation by computing 2D seismic wavefields on the Marmousi model. Our results indicate that the MPS representation is a viable direction for computing and scaling wavefield propagation.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.01724'>Bilinear correlations in Fluctuating Gaussian States with anti-unitary symmetries</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Xu Zhang</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.01724 | <strong>Date:</strong> 2026-09-01</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> We study bilinear order-parameter correlations in a general class of sign problem-free systems that are described by what we call Fluctuating Gaussian States (FGS) with anti-unitary symmetries, where the weight of each Gaussian measurement in the space-time path integral is positive-definite. Supported by Monte Carlo simulations on fluctuating Gaussian fermionic and bosonic examples, we argue that such systems generally exhibit two types of broken-symmetry phases: a \emph{saddle point phase} and a \emph{non-local contraction phase}, with the competition between the two determined by the stability of the fluctuation saddle point of FGS. Due to the Fermi liquid instability in fermionic FGS with anti-unitary symmetries, we also discuss the possibility of representing fermionic FGS with a particular Projected Entangled-Pair State (PEPS) ansatz, which we argue a certain construction provides an efficient description for the saddle point phase, but not for the non-local contraction phase. Finally, we discuss the potential implication of our result in non-equilibrium systems and stabilizing a target bilinear order.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.01719'>Numerical simulation of D-Wave's quantum advantage experiment with time-dependent variational Monte Carlo</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Roeland Wiersema</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.01719 | <strong>Date:</strong> 2026-09-01</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> Programmable quantum annealers can realize real-time dynamics of frustrated transverse-field Ising models on large, nontrivial graphs. Recent work by King et al. argued that the classical simulation of such experiments would require exponential computational resources for classical methods such as tensor networks and neural quantum states. Here, we numerically simulate the D-Wave spin-glass annealing protocol with time-dependent variational Monte Carlo (t-VMC) using a correlator state tailored to spin-glass dynamics. For the two-dimensional cylinder, three-dimensional dimer, diamond, and biclique instances considered, at annealing times of 7 and 20 ns, we show that systematically increasing the variational ansatz size enables t-VMC to approximate the final two-spin correlation errors of the quantum processing unit (QPU). We also perform an accurate large-scale simulation of a challenging biclique instance for which no other variational method is known to work, and we find close agreement with the quantum annealer. Through ablation studies, we identify poor Markov-chain mixing, high-variance local-energy estimators, and stochastic Runge-Kutta error estimates as the principal numerical failure modes. We address these numerical issues by using parallel tempering, blurred sampling and an importance-weighted differential equation solver, thereby clarifying the numerical requirements for stable, large-scale t-VMC simulations. Our results extend the frontier of classical simulation while providing a realistic assessment of the computational costs of simulating quantum dynamics at this scale.
+                    </div>
+                </article>
+                <hr>
+                
 
                 <article class='paper-entry'>
                     <h3><a href='http://arxiv.org/abs/2609.00870'>Stochastic Optimization of Tree Tensor Networks</a></h3>
