@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-04T03:40:40.564754+00:00",
+  "last_updated": "2026-09-04T16:00:33.133752+00:00",
   "entries": {
     "bf45981a514c3ab474a7fc370e1c1138": {
       "id": "bf45981a514c3ab474a7fc370e1c1138",
@@ -8328,6 +8328,54 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "417a7ad262f6b56362a13ef6e7b30a03": {
+      "id": "417a7ad262f6b56362a13ef6e7b30a03",
+      "link": "http://arxiv.org/abs/2609.04165",
+      "title": "Parameterised graph theory for tensor networks: entanglement rerouting, structural simplification, and agnostic tomography",
+      "abstract": "Parameterised graph theory studies how the complexity of graph-theoretic problems depends on structural parameters of the input graph. This perspective has proved useful in analysing tensor-network simulation (Markov and Shi, 2008). Its implications for tensor-network representations and tomography are less well understood. In particular, which graph parameters determine whether a tensor-network state (TNS) admits a tractable matrix product state (MPS) or tree tensor network (TTN) representation, and which control the complexity of learning the state? We address these questions using parameterised graph theory. First, we show that cutwidth and tree-cutwidth bound the bond dimension overhead required to represent a TNS as an MPS or TTN. In the TTN case, tree-cutwidth also bounds the local dimension of the grouped subsystems. The proofs are based on entanglement rerouting, a tensor-network analogue of rerouting information in a classical network. Second, we derive graph-dependent upper bounds on the sample and computational complexity of realisable TNS tomography, with exponents that depend on cutwidth, tree-cutwidth, and a new graph parameter, learning complexity, which we bound in terms of degree and treewidth. We obtain these results by extending the disentangling MPS learner of (Cramer et al., 2010), as analysed further in (Bakshi et al., 2025; Lin et al., 2025), to TTNs and to tensor networks on arbitrary known graphs. Finally, we extend the framework beyond the realisable setting. For an arbitrary input state, our agnostic learner outputs a pure state whose fidelity is within additive error $ε$ of the optimum over tensor-network states on the given graph with a given bond dimension, with explicit graph-dependent bounds on sample and computational complexity.",
+      "pubdate": "Thu, 03 Sep 2026 17:50:38 +0000",
+      "authors": "Matthias C. Caro, Natalie McHugh, Sergii Strelchuk"
+    },
+    "44354877eed723caddaa075fe258dc63": {
+      "id": "44354877eed723caddaa075fe258dc63",
+      "link": "http://arxiv.org/abs/2609.04117",
+      "title": "Non-Abelian string melting and thermalization in an open lattice gauge theory",
+      "abstract": "Open-system lattice gauge theory (LGT) has so far been developed predominantly in Abelian settings, leaving open how genuinely non-Abelian gauge structure reshapes dissipative real-time dynamics. Here, we study a $1+1$D SU(2) Yang--Mills LGT with dynamical matter coupled to a thermal scalar environment through a gauge-preserving Lindblad evolution, which we solve using tensor networks. Starting from a quark--antiquark pair connected by a chromoelectric flux string, we find that the thermal medium melts the string by delocalizing the color charges and screening the flux; on resonance, this dissipative melting competes with and delays coherent string breaking. The thermalization time is non-monotonic in the environment coupling, decreasing through environment-assisted transport at weak dissipation before increasing in a quantum-Zeno regime. In the strong-dephasing limit, a Schrieffer--Wolff expansion maps the dynamics to a classical exclusion process and yields the Liouvillian thermalization time analytically. Beyond these generic open-system effects, the non-Abelian matter structure produces a systematic mesonic bias in the steady state, while the thermalization time decreases with temperature, in contrast to the Abelian Schwinger model trend and in qualitative agreement with pNRQCD studies of the quark--gluon plasma. These results establish a gauge-preserving framework for thermalization and string dynamics in open non-Abelian lattice gauge theories.",
+      "pubdate": "Thu, 03 Sep 2026 17:19:56 +0000",
+      "authors": "Erick Parra Verde, Giovanni Cataldi, Stefan Kühn, Giuseppe Magnifico, Jad C. Halimeh"
+    },
+    "24f3b4259e375b074457bc27d82a02a7": {
+      "id": "24f3b4259e375b074457bc27d82a02a7",
+      "link": "http://arxiv.org/abs/2609.04114",
+      "title": "Real-Time String Dynamics in $3+1$D Lattice Quantum Electrodynamics",
+      "abstract": "Understanding real-time string dynamics in three spatial dimensions is essential for connecting quantum simulations of lattice gauge theories (LGTs) to the physical dimensionality of QED and QCD, where transverse fluctuations and competing local processes proliferate. We present the first real-time simulations of string breaking in $3+1$D lattice quantum electrodynamics. Using tree tensor networks, we simulate the quench dynamics of electric flux strings in a $3\\!+\\!1$D U(1) LGT with dynamical matter. At strong coupling, the string breaks resonantly at a sharp resonance condition of mass and gauge couplings, converting electric energy into matter--antimatter pairs that screen the static charges. Off resonance, we classify all competing channels---pair production, string deformations and extensions, and flux loops---whose multiplicity, extensive for pair production and flux loops, depletes the string sector even far from resonance. A channel-resolved perturbation theory quantitatively reproduces these dynamics and their Fourier spectrum. Our results establish diagnostics and benchmarks for upcoming quantum simulators of higher-dimensional LGTs.",
+      "pubdate": "Thu, 03 Sep 2026 17:18:01 +0000",
+      "authors": "Helen Zwölfer, Giovanni Cataldi, Umberto Borla, Jad C. Halimeh"
+    },
+    "b60fed5f41bcfa69186b5a15426a2e47": {
+      "id": "b60fed5f41bcfa69186b5a15426a2e47",
+      "link": "http://arxiv.org/abs/2609.04037",
+      "title": "Discrete time crystals in disordered anisotropic Heisenberg chains",
+      "abstract": "A discrete time crystal is an out-of-equilibrium phase of matter characterized by the spontaneous breaking of discrete time-translation symmetry. Using extensive numerical simulations based on matrix-product-state methods, we provide evidence for discrete time-crystalline behavior in strongly disordered spin chains with Heisenberg interactions, including the isotropic point, subject to periodic driving. Starting from a many-body localized regime, we observe that rotations induced by delta kicks produce a pronounced subharmonic response at half the drive frequency in spin observables. We investigate the stability of this response against rotation-angle errors through entanglement entropy, quantum Fisher information, short-range spin correlations, and restricted-control ergotropy. Increasing the rotation error reveals an intermediate dynamical regime separating the time-crystalline and Floquet-localized responses. In this regime, most observables exhibit signatures of weakly correlated dynamics reminiscent of Anderson localization.",
+      "pubdate": "Thu, 03 Sep 2026 16:12:09 +0000",
+      "authors": "Francesco Formicola, Grazia Di Bello, Antonio De Candia, Giulio De Filippis, Carmine Antonio Perroni"
+    },
+    "d0f3a435c7599605b33d93f277c45a77": {
+      "id": "d0f3a435c7599605b33d93f277c45a77",
+      "link": "http://arxiv.org/abs/2609.03459",
+      "title": "FlowTT: Exploiting Computation Flow Reuse in Irregular Tensor-Train Embedding",
+      "abstract": "Tensor-Train (TT) decomposition effectively compresses large embedding tables in recommendation models, but TT-based embedding lookup remains inefficient because partially shared computation flows across input indices are not fully reused and intermediate results are repeatedly materialized off-chip between sequential TT-core contractions. We present FlowTT, a flow-aware GPU execution framework that reformulates TT gather as a set of prefix-shared irregular computation flows. FlowTT combines flow-aligned prefix-based index grouping, a fused TT-embedding execution path with on-chip intermediate retention, and persistent-thread scheduling with chunk-based work stealing and L2 checkpointing to preserve reuse under skewed workloads. By co-designing task formation, data buffering, and scheduling with the structure of TT gather, FlowTT reduces redundant TT-core operations, global-memory traffic, and load imbalance. On Meta's synthetic recommendation benchmarks (Meta-240, Meta-480, and Meta-788), FlowTT consistently achieves the lowest latency compared to existing methods. At batch size 32,768, it reduces latency by up to 42.2% in inference and 49.2% in training relative to EcoRec, while also achieving the lowest inference peak memory usage. These results show that exposing prefix-shared computation is key to efficient TT-based embedding execution.",
+      "pubdate": "Thu, 03 Sep 2026 07:17:33 +0000",
+      "authors": "Jongmin Seok, Chae Eun Rhee"
+    },
+    "55e2978d336b864b6929d87c64e5945d": {
+      "id": "55e2978d336b864b6929d87c64e5945d",
+      "link": "http://arxiv.org/abs/2609.03073",
+      "title": "Optimized Matrix-Product State Simulations of Quantum Error Correction Circuits",
+      "abstract": "Simulating quantum error correction (QEC) circuits including non-Clifford gates at scale is important to accelerate progress toward fault-tolerant quantum computing. Here we demonstrate that matrix product state (MPS) techniques can handle many QEC circuits exactly and without restriction on gate types. Crucially, we find that MPS efficiency depends sensitively on implementation choices, and we introduce a series of targeted optimizations that reduce bond dimensions and simulation time by several orders of magnitude compared to naive approaches. We illustrate this with examples including: (a) a rotated surface code quantum memory up to distance 11, (b) logical Bell-state preparation up to distance 9, (c) a 15-to-1 magic-state distillation circuit including hundreds of QEC rounds that we optimize to be simulated with only 11 logical qubits (187 physical qubits) and a maximal bond dimension of 64 in under 40 seconds, and (d) a narrow, deep random circuit that scales linearly with the number of T gates. These results demonstrate the importance of circuit-level optimizations and position MPS as a valuable complement to near-Clifford simulators for QEC circuits.",
+      "pubdate": "Wed, 02 Sep 2026 18:42:47 +0000",
+      "authors": "Asier Piñeiro Orioli, Chen Zhao, Guido Masella, Tommaso Macrì, Hengyun Zhou, Shannon Whitlock"
     }
   }
 }
