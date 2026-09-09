@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-09T03:51:18.687714+00:00",
+  "last_updated": "2026-09-09T16:14:22.748347+00:00",
   "entries": {
     "b499cc5cdb824fb6890eea0c64536e4b": {
       "id": "b499cc5cdb824fb6890eea0c64536e4b",
@@ -8416,6 +8416,142 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "683100b4cadc49d2fff81b4bb6bb625c": {
+      "id": "683100b4cadc49d2fff81b4bb6bb625c",
+      "link": "http://arxiv.org/abs/2609.08925",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "8798b8485ed5743e4b2f83084b2400ef": {
+      "id": "8798b8485ed5743e4b2f83084b2400ef",
+      "link": "http://arxiv.org/abs/2609.08414",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "53c8fca4b775d1130482800607e3856b": {
+      "id": "53c8fca4b775d1130482800607e3856b",
+      "link": "http://arxiv.org/abs/2609.08134",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "9e2d4d4884a88badbdb9597b4910c455": {
+      "id": "9e2d4d4884a88badbdb9597b4910c455",
+      "link": "http://arxiv.org/abs/2609.08120",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "65a977ba04f45e2fd0872996848cc54b": {
+      "id": "65a977ba04f45e2fd0872996848cc54b",
+      "link": "http://arxiv.org/abs/2609.08058",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "83e36929fd07e94002eb2a0251959b72": {
+      "id": "83e36929fd07e94002eb2a0251959b72",
+      "link": "http://arxiv.org/abs/2609.07899",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "ff2a48565df3b304ae03fb2372596a91": {
+      "id": "ff2a48565df3b304ae03fb2372596a91",
+      "link": "http://arxiv.org/abs/2609.07830",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "695f70a91c34a75b6f158fc16fab92e6": {
+      "id": "695f70a91c34a75b6f158fc16fab92e6",
+      "link": "http://arxiv.org/abs/2609.07674",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "761c818223adbe4ab2f046af9efe6f64": {
+      "id": "761c818223adbe4ab2f046af9efe6f64",
+      "link": "http://arxiv.org/abs/2609.07645",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "6640a2f968b657d0dd8ef2cf145a15fe": {
+      "id": "6640a2f968b657d0dd8ef2cf145a15fe",
+      "link": "http://arxiv.org/abs/2609.07372",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "663cca56b557324d1d97d38f9d28f4e5": {
+      "id": "663cca56b557324d1d97d38f9d28f4e5",
+      "link": "http://arxiv.org/abs/2609.07319",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "f0d48c36d6ab01ed61dcacc35d974ec3": {
+      "id": "f0d48c36d6ab01ed61dcacc35d974ec3",
+      "link": "http://arxiv.org/abs/2609.07184",
+      "title": "Tensor network representations of discrete maximum entropy distributions via mean polytopes",
+      "abstract": "We present tensor network representations for discrete maximum entropy distributions under expectation constraints. To this end, we introduce Computation-Activation Networks (CompActNets), a tensor network architecture that subsumes exponential families. By leveraging the geometry of the convex polytope of realizable expectation vectors, we represent any maximum entropy distribution in the same architecture. We exploit the fact that proper faces of this polytope correspond to the boundary closure of exponential families, which restricts the distribution's support. We then derive explicit representations for the support within the CompActNet architecture. The proposed framework suggests tensor network ranks as complexity measures for faces. Finally, a case study on Boolean statistics links the geometry of 0/1-polytopes directly to propositional formulas.",
+      "pubdate": "Mon, 07 Sep 2026 08:14:54 +0000",
+      "authors": "Alex Goessmann, Martin Eigel"
+    },
+    "3a0ef8b5a7b74229e889fd63674ca3cf": {
+      "id": "3a0ef8b5a7b74229e889fd63674ca3cf",
+      "link": "http://arxiv.org/abs/2609.06684",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "f2e48e5fe0ae680849803da0df7face3": {
+      "id": "f2e48e5fe0ae680849803da0df7face3",
+      "link": "http://arxiv.org/abs/2609.06446",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "d0b79903a7dc513baef6cb1e34b6b416": {
+      "id": "d0b79903a7dc513baef6cb1e34b6b416",
+      "link": "http://arxiv.org/abs/2609.06214",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "bc542da9d1dab7fb01b861957fe86010": {
+      "id": "bc542da9d1dab7fb01b861957fe86010",
+      "link": "http://arxiv.org/abs/2609.06040",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "99513489bc4e773f1030feed2931db43": {
+      "id": "99513489bc4e773f1030feed2931db43",
+      "link": "http://arxiv.org/abs/2609.05598",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
     }
   }
 }
