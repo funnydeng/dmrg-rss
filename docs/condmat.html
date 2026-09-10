@@ -536,10 +536,98 @@
         </div>
     </div>
     
-<p><em>Generated on 2026-09-10 03:50:56</em></p>
-<p>Total papers: 1069
+<p><em>Generated on 2026-09-10 16:04:35</em></p>
+<p>Total papers: 1077
 </p>
 <h2>Recent Papers</h2>
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.10408'>Constant-depth global shadow estimation</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Qingyue Zhang, Zhou You, Dayue Qin, Xiaopeng Li, Jens Eisert, You Zhou</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.10408 | <strong>Date:</strong> 2026-09-09</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> Reliable and scalable readout strategies are essential for quantum technologies. As quantum processors grow, extracting useful information must remain feasible without measurement circuits becoming a dominant bottleneck. Randomized measurements and classical shadows provide a powerful route, but global estimation is conventionally associated with highly random ensembles that require increasing circuit depth and hence substantial experimental overhead. In this work, we show that substantially less randomness suffices when the readout is meaningfully adapted to the quantities being estimated. We introduce shallow phase shadows, based on a sparse Clifford-IQP ensemble, and prove efficient global estimation of stabilizer-state fidelities despite the ensemble not forming an approximate relative-error design. On all-to-all architectures, the protocol admits a constant-depth implementation using mid-circuit measurements and classical feedforward, or logarithmic depth without auxiliary systems. The protocol requires only controlled-phase entangling gates and offers a tunable trade-off between circuit resources and estimation accuracy, making it particularly amenable to experimentally relevant architectures with long-range connectivity. Our results show that scalable quantum readout need not reproduce generic randomness: task-adapted randomization can enable substantially shallower global characterization protocols.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.09718'>Enhancing Pauli Correlation Encoding for quantum optimization via systematic expressivity analysis</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Riku Usuki, Don Arai, Ken N. Okada, Keisuke Fujii</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.09718 | <strong>Date:</strong> 2026-09-09</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> Quantum approaches for combinatorial optimization problems have attracted considerable attention in recent years. Among these approaches, Pauli Correlation Encoding (PCE) has emerged as a promising framework for quantum devices with limited qubit resources because it embeds optimization variables in expectation values of Pauli strings. However, the mechanisms underlying its performance and the reasons for its saturation remain unclear. In this work, we investigate these questions through a systematic analysis of expressivity and trainability. First, we compare PCE with classical surrogate models based on tensor networks whose structures progressively approach the topology of the PCE circuit. The results show that PCE attains comparable solution quality with substantially fewer trainable parameters, indicating strong parameter efficiency. Second, to determine whether the performance saturation of conventional PCE is caused by insufficient expressivity or by optimization difficulty, we perform a diagnostic expressivity test in which the circuit is trained toward reference configurations for Max-Cut. The results show that even shallow PCE circuits can represent strong solutions, indicating that the main bottleneck is not the representational power of the ansatz, but the trainability under the relaxed objective function. Motivated by this finding, we propose a multistage continuation framework that gradually transforms a smooth relaxed objective into a sharper objective that more closely approximates the target discrete problem. Numerical experiments on G-set instances with 800 vertices show that the proposed method consistently outperforms conventional PCE and is competitive with representative graph neural network (GNN) methods. These results clarify the main factors behind PCE performance and provide a practical strategy for improving PCE on quantum devices with limited qubit resources.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.09463'>Temperature-induced effective topology in many-body ultracold atomic quantum systems</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Nitya Cuzzuol, Michele Miotto, Arianna Montorsi, Giacomo Valtolina, Luca Barbiero</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.09463 | <strong>Date:</strong> 2026-09-08</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> Ultracold atomic quantum systems offer an unprecedentedly powerful platform for exploring interacting symmetry-protected topological phases. Here, we show that their characteristic control over temperature provides a resource for engineering effective topological regimes with no zero-temperature counterpart. Employing finite-temperature matrix-product-state calculations, we investigate experimentally accessible Hamiltonians - the interacting bosonic Su-Schrieffer-Heeger and spin-1 XXZ chains - that host a topological phase at zero temperature, as well as a fermionic dipolar ladder model whose ground state exhibits no topological order. By tracking complementary topological markers, we identify an intriguing mechanism rooted in the structure of the zero-temperature phase diagrams: in finite-size systems, excitation gaps with different magnitudes define an intermediate-temperature window where the correlations associated with the lower gap are suppressed, while those protected by the larger gap persist. This enables the emergence of effective finite-temperature regimes exhibiting topological features that are either absent or qualitatively different from those at zero temperature. Our results establish a novel route toward exploring effective topological phases in ultracold atomic quantum systems.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.09457'>A Block Tensor Train Burer-Monteiro Framework for Low-Rank Quantum State Tomography</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Shakir Showkat Sofi, Charlotte Vermeylen, Fatemeh Mohammadi, Lieven De Lathauwer</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.09457 | <strong>Date:</strong> 2026-09-08</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> Quantum state tomography is a fundamental technique for estimating the state of a quantum system from measured data and plays a crucial role in evaluating the performance of quantum devices. However, standard estimation methods become computationally prohibitive as the system size increases due to the exponential growth of the density matrix, describing a quantum state, with the number of qubits. We propose a low-rank tensor-network framework for mixed-state quantum state tomography based on a block tensor train (Block-TT) factorization. Specifically, the density matrix is represented as the contraction of a Block-TT with its Hermitian transpose, yielding a TT analogue of the Burer-Monteiro factorization. This parameterization guarantees Hermiticity and positive semidefiniteness by construction while compressing the number of optimization variables from exponential to linear in the number of qubits. Building on this representation, we develop single-site and two-site density matrix renormalization group (DMRG) algorithms for estimating quantum states from compressed measurements. The resulting methods operate directly on the compressed parameterization, support adaptive rank refinement, and exploit efficient tensor-network contractions for expectation-value evaluation. The framework is applicable to a broad class of low-rank quantum states, including pure states, nearly pure states, and ground states that admit accurate tensor-network approximations. Numerical experiments demonstrate accurate state reconstruction from limited measurements together with substantial reductions in memory requirements and computational cost compared with conventional low-rank tomography methods.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.09434'>Tensor-Train Weak SINDy: Identifying High-Dimensional Nonlinear Dynamics</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Will Houser, Vanja Dukic, David M. Bortz</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.09434 | <strong>Date:</strong> 2026-09-08</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> In recent years, weak-form methods have made significant advances in data-driven discovery of dynamical systems. However, in high-dimensional settings, current techniques can prove expensive in both computation and memory. In this work, we introduce TT-WSINDy, which combines techniques of the Multidimensional Approximation of Nonlinear Dynamics (MANDy) and Weak Sparse Identification of Nonlinear Dynamics (WSINDy) methods, implementing requisite computations in the tensor-train (TT) format. We demonstrate that this method is able to search an exponentially-growing space of candidate functions -- performing weak-form transformation, regression, and sparsification -- without suffering from the curse of dimensionality.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.09370'>Constraint-Aware Discrete Black-Box Optimization Using Tensor Decomposition</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Keisuke Onoue, Ryosuke Kojima</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.09370 | <strong>Date:</strong> 2026-09-08</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> Discrete black-box optimization is often addressed using approaches such as Sequential Model-Based Optimization (SMBO), which aims to improve sample efficiency by fitting surrogate models that approximate a costly objective function over a discrete search space. In many real-world problems, the set of feasible inputs is often given by logical constraints known in advance. However, existing surrogate modeling techniques generally fail to capture the symbolic rules governing feasibility in discrete input spaces. In this paper, we propose a surrogate modeling approach based on tensor decomposition that captures the structure of discrete search spaces while directly integrating feasibility information. To implement this approach, we formulate surrogate model training as a constrained polynomial optimization problem and solve a relaxed formulation using a differentiable penalty term derived from T-norms. Our experiments on both synthetic and real-world benchmarks, including a pressure vessel design task, demonstrate that the proposed method improves sample efficiency by effectively guiding the search away from infeasible regions.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.09304'>Multivariate quantum state preparation with optimized tensor networks</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Matthew L. Sims-Goh, Lukasz Cincio, Annina Z. Lieberherr, Mekena McGrew, Thomas R. Bromley</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.09304 | <strong>Date:</strong> 2026-09-08</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> Quantics tensor trains are attracting intense interest for quantum-inspired computing and quantum state preparation. These methods, which approximate continuum functions by representing their amplitude encoding as a matrix product state (MPS), are exceedingly powerful for univariate functions but rapidly become challenging when handling multivariate functions, since the linear chain topology leads to a large distance between highly-entangled qubits. We overcome this limitation by introducing SCENT (Spectral Clustering for Entanglement miNimizing Trees). SCENT is a protocol that utilizes efficiently-computable pairwise entanglement metrics to determine a suitable tree tensor network (TTN) structure, which can then be efficiently approximated using tensor cross-interpolation (TCI); we find that it substantially outperforms MPS methods and improves upon previous TTN methods. We then apply these optimized TTNs to state preparation, introducing an approximate circuit compilation method based on environment-tensor methods without significantly conceding overall accuracy. Importantly, the inherent gauge freedom of TTNs can be directly exploited in this method, resulting in higher fidelity at a given circuit depth. We demonstrate this quantum state-preparation pipeline on archetypal state-preparation problems in quantum chemistry and financial portfolio optimization. In our flagship demonstration, we encode a 20-variable probability distribution with long-ranged, non-nearest neighbor inter-variable correlations in a 200-qubit state-preparation circuit with infidelity $7.44\times 10^{-9}$ using only 43284 CNOTs; depth and fidelity can be traded, allowing the same distribution to be prepared to infidelity $10^{-3}$ with as few as 5584 CNOTs.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.09258'>Tensor Network Moral Graph Recovery of Discrete Probability Distributions</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Á. Troyano Olivas, Chi-Hang Fred Fung, Hans H. Brunner, Momtchil Peev, Vicente Martin</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.09258 | <strong>Date:</strong> 2026-09-08</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> We present a method for recovering the moral graph of a causal DAG from a probability distribution over discrete variables, using fully connected tensor networks (FCTNs) with nuclear-norm-regularized bond corrections. Each bond matrix is parameterized as a baseline all-ones matrix plus a low-rank correction $C_{ij} = U_{ij}V_{ij}^\top$, and the nuclear norm of the correction implemented via the variational Frobenius norm penalty on the factors drives unnecessary bonds to zero. We prove that under faithfulness, positivity, and a no-implicit-rerouting assumption on the local tensor architecture, \textbf{every} optimal FCTN with zero reconstruction error $\varepsilon = 0$ has effective graph exactly equal to the moral graph. For the approximate regime ($\varepsilon > 0$), we provide explicit recovery bounds using the Fannes-Audenaert continuity of conditional mutual information, and derive a sufficient condition on the regularization parameter $β$. The effective graph is read directly from the optimized bond matrices.
+                    </div>
+                </article>
+                <hr>
+                
 
                 <article class='paper-entry'>
                     <h3><a href='http://arxiv.org/abs/2609.08925'>Resilience Beyond the Light Cone: Error-Detected Primitives for Practical Dynamic Circuits</a></h3>
