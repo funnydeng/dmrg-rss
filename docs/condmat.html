@@ -536,11 +536,131 @@
         </div>
     </div>
     
-<p><em>Generated on 2026-09-09 16:14:24</em></p>
-<p>Total papers: 1053
- (16 entries with incomplete data not shown)
+<p><em>Generated on 2026-09-10 03:50:56</em></p>
+<p>Total papers: 1069
 </p>
 <h2>Recent Papers</h2>
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.08925'>Resilience Beyond the Light Cone: Error-Detected Primitives for Practical Dynamic Circuits</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Kevin C. Smith, Bibek Pokharel, Satvik Maurya, Maika Takita</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.08925 | <strong>Date:</strong> 2026-09-08</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> Dynamic circuits, which augment unitary operations with mid-circuit measurements and classical feedforward, can generate long-range entanglement in constant depth, enabling low-depth primitives ranging from nontrivial state preparation to many-qubit entangling gates. Escaping the light-cone constraints of unitary circuits, however, comes at a cost: these primitives typically require a number of mid-circuit measurements that scales with system size and that, together with feedforward latency, can introduce errors that degrade the long-range entanglement they rely on. Here, we alleviate this tension by showing that many such primitives, when cast into a common framework, admit an error-detection scheme that trades infidelity for postselection overhead with no additional ancillas. Our framework thus unifies and upgrades a broad class of primitives including fan-out gates, multi-qubit Pauli rotations, the preparation of W and higher-weight Dicke states, and certain non-normal matrix product states. We also introduce a reduced-depth, error-detected implementation of the Hadamard test, extending the use cases of dynamic circuits to a key algorithmic primitive. Finally, we establish the practical utility of our scheme through experiments on a superconducting quantum processor. We demonstrate the error-detected preparation of a long-range entangled Bell pair spanning a 100-qubit chain with fidelity $F=0.59\pm0.02$, surpassing the entanglement-certification threshold $F>0.5$ that the baseline dynamic-circuit implementation fails to reach ($0.39\pm0.01$). Separately, we demonstrate constant-depth preparation of W states of up to 20 qubits by consuming GHZ states of up to 40 qubits, finding absolute fidelity improvements of $ΔF\approx 0.2$ across the largest sizes studied. Altogether, these results bring low-depth dynamic-circuit primitives within practical reach on present-day hardware.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.08414'>Efficient quantum state preparation on Quantinuum hardware</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Archie Butterworth, Josh Green, Yusen Wu, Jie Pan, Jingbo Wang</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.08414 | <strong>Date:</strong> 2026-09-08</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> Preparation and verification of specific quantum states is an important capability for quantum devices to realise advantages over classical computations and algorithms. In this work, we have demonstrated an end-to-end framework that combines resource-efficient quantum state preparation with rapid, robust fidelity verification on near-term quantum hardware. By experimentally preparing and validating a structured complex quantum state encoding a digitized acoustic signal on the Quantinuum H2-1 trapped-ion platform, we achieved a high hardware fidelity of $F_{\mathrm{hw}} = 0.929$. Crucially, this milestone was realized without relying on idealized assumptions or deep fault-tolerant overhead, but rather through resource-minimal circuits optimized for NISQ-era and early fault-tolerant devices. Furthermore, we addressed a key limitation in current quantum state certification. While validation methods like shadow overlap work well for random states, their sample complexity can become prohibitively high for the structured states used in practical algorithms. We mitigate this by introducing a pre-measurement basis-change technique that reduces the verification parameter, $τ$, by over 10 orders of magnitude for structured targets. This approach tightens the theoretical certification guarantees of the shadow overlap method and integrates tensor-network preparation and shadow validation into a unified workflow. These results shift the paradigm of how structured classical data can be mapped to and verified on quantum hardware under realistic noise and measurement budgets. By compressing a robust verification procedure to just 1,000 measurement shots, this framework offers an immediate, scalable benchmarking standard.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.08134'>Observation of multipartite spin entanglement in a cuprate chain</a></h3>
+                    <p class='meta'><strong>Authors:</strong> S. F. R. TenHuisen, Z. Shen, V. Bhartiya, V. Menon, P. Sharma, H. Padma, Z. Guan, W. He, M. K. Lajer, J. Li, D. Banerjee, J. Pelliciari, I. A. Zaliznyak, G. D. Gu, M. D. Lukin, S. Johnston, M. P. M. Dean, V. Bisogni, Y. Wang, M. Mitrano</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.08134 | <strong>Date:</strong> 2026-09-08</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> Quantum materials are believed to host highly entangled states of matter, but probing and quantifying such entanglement has long remained experimentally elusive. Here, we use resonant inelastic X-ray scattering (RIXS) as a probe of multipartite spin entanglement. By projecting the RIXS cross section onto the appropriate spin excitation channel, we show that the Quantum Fisher Information can be extracted directly from the measured spin fluctuation spectrum. We detect at least 7-partite spin entanglement in the model one-dimensional cuprate Sr$_2$CuO$_3$, revealing one of the largest entanglement depths yet reported in a solid. The observed entanglement depth agrees with Hubbard-model expectations and persists to elevated temperatures. Our results establish RIXS as an experimental probe of many-body spin entanglement and provide a platform for extensions to charge and orbital sectors and nonequilibrium settings.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.08120'>Textures as a phase-transition probe for quantum spin chains</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Heitor P. Casagrande, Isaac M. Carvalho, William J. Munro, Krissia Zawadzki</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.08120 | <strong>Date:</strong> 2026-09-08</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> The idea of quantum texture has been recently proposed and used as a tool for quantifying coherences and for quantum gate identification. In this work we offer a study on its usage to quantum phase transitions, demonstrating the rugosity metric as a simple tool for effective phase-transition probing. We establish the link between rugosity in the computational basis and the hierarchy of spin correlators, and analyze rugosities defined in the global ground-state and in ground-states belonging to different magnetization sectors (to which we refer to as global vs symmetry-resolved rugosities) to study the phase diagram of the Heisenberg XXZ model. We find distinct rugosity signatures at both transition points. In particular, a sharp feature appears at $Δ=1$ already for small systems, revealing a pronounced sensitivity of the correlation hierarchy encoded by the texture to this point. Since the BKT transition coincides with the isotropic $SU(2)$ point of the XXZ model, this behavior may reflect a particular sensitivity of rugosity to the structure of the spin-correlation hierarchy at isotropy.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.08058'>From Bits to Qubits: The Theory and Practice of Quantum Data Encoding</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Xiao-Ming Zhang, Arthur G. Rattew, Bujiao Wu, Georgios Styliaris, Xiaoming Sun, Bálint Koczor, Xiao Yuan</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.08058 | <strong>Date:</strong> 2026-09-07</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> Encoding classical data into quantum systems is a foundational step in the execution of nearly all quantum algorithms, and a critical bottleneck in realizing practical quantum advantage. This review provides a comprehensive account of the concepts, algorithms, and practical considerations associated with quantum data encoding. We trace the development from its early conceptual foundations to recent advances, considering commonly used access models, such as quantum state preparation, unitary synthesis, QRAM and block encoding. We survey the circuit size, depth, space-time tradeoffs, as well as non-Clifford resources required for fault-tolerant implementation. We also discuss the roles of different access models in quantum algorithms. Special attention is given to structured data, such as sparse data, Boolean functions and data represented by tensor networks. This review bridges theory and applications, serving both as a pedagogical guide for newcomers and as a reference for active researchers. We also highlight the pivotal role of quantum data encoding in quantum computing and provide insights into future directions that will enable quantum advantage.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.07899'>Tensor network investigation of the monomer-dimer model on the honeycomb lattice</a></h3>
+                    <p class='meta'><strong>Authors:</strong> De-Zhang Li, Jie Liu, Xin Wang</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.07899 | <strong>Date:</strong> 2026-09-07</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> The monomer-dimer model is one of the most well-known unsolved lattice models. In this paper we study the monomer-dimer model on the honeycomb lattice using the tensor network method, in the case that the dimer and monomer activities are 1. The monomer-dimer configurations are exactly mapped into the ground states of the antiferromagnetic Ising model on the Kagomé lattice in the critical field $H_{\rm{ex}}=4J$, and the tensor network is constructed based on the local ground states of each Ising triangle. The VUMPS approach is employed to contract the tensor network, providing a high-precision result of the monomer-dimer problem. We also revisit the edge coloring problem on the honeycomb lattice and discuss its relationship to the monomer-dimer model. Finally we formulate the monomer-dimer problem in the language of the sixteen-vertex model, and discuss the non-integrability of the general monomer-dimer model and the integrability of the pure dimer model.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.07830'>Exact fermionic dual of the Bose-Hubbard model</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Lei Su, Ivar Martin, Aashish A. Clerk</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.07830 | <strong>Date:</strong> 2026-09-07</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> Recent developments have established exact bosonization and fermionization with a $\mathbb{Z}_2$ symmetry as dualities through gauging. In this work, we apply fermionic gauging, which realizes generalized Jordan-Wigner transformations, to the Bose-Hubbard (BH) model with a global $U(1)$ symmetry and derive an exact dual description in terms of fermionic composites, built from bosons and fermions. In 1D, this duality generalizes the exact mapping between the extended hard-core BH model and the spinless Fermi-Hubbard model to now cover soft-core interactions. At low energies, the mapping reduces to the well-known equivalence between the sine-Gordon model and the Thirring model. The oscillation wave vector of the fermionic composite correlation function in the gapless phase is fixed by their density, providing a novel manifestation of Luttinger's theorem. We verify the exact duality using density matrix renormalization group (DMRG) calculations and demonstrate that the gapless phase and the phase transition are governed by the compact boson conformal field theory. Our construction naturally extends to generic bosonic systems and higher dimensions, opening new avenues for studying Bose-Fermi mixtures in optical lattices and other strongly correlated quantum systems.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.07674'>Dynamical Crossover of the Quantum Fisher Information in the Spin-Boson Model</a></h3>
+                    <p class='meta'><strong>Authors:</strong> D. Parlato, G. Di Bello, F. Pavan, G. De Filippis, C. A. Perroni</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.07674 | <strong>Date:</strong> 2026-09-07</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> We investigate the dynamical quantum Fisher information of a two-level system coupled to a bosonic environment, focusing on the estimation of the qubit gap. We combine analytical calculations with numerically controlled matrix-product-state simulations. In the exactly solvable pure-dephasing Ohmic regime at zero temperature, the long-time quantum Fisher information displays a coupling-dependent algebraic behavior, leading to a dynamical crossover: it grows without bound at weak coupling, approaches a finite asymptotic value at the crossover coupling, and vanishes at strong coupling. At finite temperature, thermal fluctuations suppress the long-time growth and generate a finite-time maximum, whose dependence on the dephasing coupling retains a clear signa- ture of the zero-temperature crossover. We show that this crossover is absent at zero temperature in non-Ohmic baths: the long-time quantum Fisher information vanishes in the sub-Ohmic and diverges in the super-Ohmic regimes. At non-zero temperature instead, the crossover appears for a super-Ohmic quadratic bath and the crossover coupling becomes temperature-dependent. Moreover, in the zero-temperature Ohmic regime, we introduce an additional amplitude-damping system-bath coupling that induces energy relaxation. This relaxation channel replaces the unbounded long-time growth with a finite asymptotic quantum Fisher information associated with the reduced interacting ground state, while a signature of the pure-dephasing crossover persists in the early-time dynamics. These results establish a direct connection between the low-frequency structure of the bath and the asymptotic metrological behavior of dynamical gap sensing, and show how thermal fluctuations and energy relaxation regularize the ideal pure-dephasing dynamical crossover of the quantum Fisher information.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.07645'>Geometric inflation of deviations challenges neural quantum states in dynamics of quantum Ising models</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Wladislaw Krinitsin, Jonas B. Rigo, Mohammad Abedi, Markus Schmitt</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.07645 | <strong>Date:</strong> 2026-09-07</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> Neural quantum states (NQS) have emerged as a powerful framework for simulating non-equilibrium dynamics in strongly correlated quantum systems, offering scalable variational representations of highly entangled states. Yet, accurate NQS simulations have been found to be surprisingly challenging in some physical regimes of limited complexity. Here, we address paradigmatic quench dynamics of a one-dimensional quantum Ising model as a controlled benchmark. Through supervised state reconstruction we establish substantially tighter empirical upper bounds on the required parameter count than previous estimates, ruling out representational limitations as the key obstruction. Instead, we uncover a geometric inflation of small deviations as a hitherto overlooked challenge for accurate solutions of the infinitesimal time-dependent variational principle (TDVP): the dynamical rotation of the kernel of the quantum geometric tensor (QGT) can suddenly lend physical significance to previously irrelevant parameter deviations. The stability of matrix product state solutions of the same TDVP suggests that the non-linearity of the neural network ansatz is the origin of the sensitivity. These results identify QGT-null-space rotation as a geometric diagnostic of sensitive NQS dynamics and as a concrete target for improving TDVP algorithms
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.07372'>Low-rank approximation of Moment Tensor Potential enables reducing training set size without loss of accuracy</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Anna Bondarenko, Nikita Rybin, Maxim Rakhuba, Ivan S. Novikov</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.07372 | <strong>Date:</strong> 2026-09-07</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> In this study, we implement a low-rank approximation of Moment Tensor Potential (MTP) based on the tensor train (TT) decomposition. The implemented tensor-factorized MTP (TFMTP) and the original MTP model are actively trained via a MaxVol-based algorithm during molecular dynamics simulations of a four-component molten salt mixture, LiF-NaF-KF (FLiNaK), and geometry optimizations of a five-component equiatomic MoNbTaWV random alloy. We demonstrate that under a 1.5-fold compression, TFMTP requires two times fewer configurations for fitting than the original MTP model, while maintaining an indistinguishable level of accuracy. These actively trained MTP and TFMTP models are further used to evaluate the density and viscosity of FLiNaK at temperatures ranging from 600 to 1200 K, as well as the elastic constants and bulk modulus of the MoNbTaWV alloy at zero temperature. For both atomic systems, the differences in physical properties predicted by MTP and TFMTP are negligible.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.07319'>Symmetry-resolved tree tensor network analysis of Bell-state discrimination with ancilla-assisted passive linear optics</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Anand Kumar, Wojciech Roga, Devendra Kumar Mishra, Masahiro Takeoka</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.07319 | <strong>Date:</strong> 2026-09-07</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> Ancillary photons allow passive linear-optical Bell-state discrimination to exceed the one-half probability of success limit achievable with vacuum auxiliary modes. For a fixed analyzer and ancillary resource, the discrimination probability is determined by the photon-counting patterns that occur uniquely for each Bell input. We develop a photon-number-resolved tree tensor network method for evaluating these detector supports in recursively structured analyzers. Photon-number conservation and mode symmetries separate most of the Bell-state outputs before the remaining detector support is examined. We establish a tree tensor network based construction to evaluate the remaining support without need of recalling all relevant photon detector patterns separately. We apply the method to recursive, product, and asymmetric ancillary states with up to $32$ optical modes and reproduce known analytical and literature benchmarks. For factorized ancillary resources with fixed photon numbers in halves of the analyzer and the symmetry property used in our analysis, we also derive an exact composition relation; for reflected asymmetric pairings the success probability is the arithmetic mean of the corresponding symmetric configurations. The complete enumeration for smaller systems, permanent-based amplitude calculations, and independent evaluations provide additional checks of the numerical results.
+                    </div>
+                </article>
+                <hr>
+                
 
                 <article class='paper-entry'>
                     <h3><a href='http://arxiv.org/abs/2609.07184'>Tensor network representations of discrete maximum entropy distributions via mean polytopes</a></h3>
@@ -548,6 +668,61 @@
                     <p class='meta'><strong>arXiv ID:</strong> 2609.07184 | <strong>Date:</strong> 2026-09-07</p>
                     <div class='abstract'>
                         <strong>Abstract:</strong> We present tensor network representations for discrete maximum entropy distributions under expectation constraints. To this end, we introduce Computation-Activation Networks (CompActNets), a tensor network architecture that subsumes exponential families. By leveraging the geometry of the convex polytope of realizable expectation vectors, we represent any maximum entropy distribution in the same architecture. We exploit the fact that proper faces of this polytope correspond to the boundary closure of exponential families, which restricts the distribution's support. We then derive explicit representations for the support within the CompActNet architecture. The proposed framework suggests tensor network ranks as complexity measures for faces. Finally, a case study on Boolean statistics links the geometry of 0/1-polytopes directly to propositional formulas.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.06684'>Evidence of Haldane-Chain Physics in an Fe-Dehydroindigo Coordination Polymer</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Ritam Chakraborty, T. V. Ramakrishnan</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.06684 | <strong>Date:</strong> 2026-09-06</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> We investigate whether an Fe--dehydroindigo coordination polymer can support Haldane-chain physics in its intrinsic, substrate-free limit. Spin-orbit-coupled density-functional-theory calculations and magnetic energy mapping yield a nearly isotropic antiferromagnetic coupling, together with much weaker single-ion anisotropy. Using these parameters, exact diagonalization and density-matrix renormalization group calculations give a nondegenerate ground state separated from the lowest triplet-derived excitations by a gap of about $13$--$14$~meV, on the scale expected for the spin-1 Haldane gap. The anisotropy produces only a small splitting of the low-energy modes. The dynamical spin structure factor places the lowest spectral weight near the antiferromagnetic wave vector $q=π$. These results identify the isolated cis-dehydroindigo chain as a material-specific coordination-polymer platform whose microscopic interactions place it in a gapped regime consistent with Haldane-chain physics.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.06446'>Tensor-based Approximation of Molecular Kinetics: Generator Learning, Reaction Coordinates and Incremental Updating</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Minakshi Verma, Peter Benner, Feliks Nüske</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.06446 | <strong>Date:</strong> 2026-09-06</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> We present an approach to analyze long-timescale kinetics of molecular dynamics simulations - meta-stable states and transition timescales - by a tensor-based approximation of the infinitesimal generator. We start from the variational approximation of low-lying generator eigenvalues, and discretize the associated eigenvalue problem using a tensor-product basis. We derive analytical expressions for the resulting tensor operators in tensor train (TT) format, and provide efficient algorithms to solve the corresponding linear problems. We also treat the case of a state-dependent diffusion field, which is relevant when working in reaction coordinates. We show how the number of reaction coordinates can be gradually increased without having to solve the variational problem from scratch. Using MD simulations of fast-folding proteins and TICA coordinates as reaction coordinates, we demonstrate the effectiveness of the proposed method at identifying long-timescale transitions and meta-stable states.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.06214'>Fourier-cosine Tensor Trains for Density Recovery and Expectation Calculation</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Auke Schaap, Fang Fang</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.06214 | <strong>Date:</strong> 2026-09-05</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> The Fourier-cosine (COS) method of Fang and Oosterlee (2008) recovers densities and computes expectations semi-analytically from characteristic functions (ch.f.s). In higher dimensions, both expansion synthesis and COS coefficient-tensor construction scale exponentially with dimension. We address this curse of dimensionality with two tensor-train (TT) methods. A straightforward TT decomposition of the COS coefficient tensor gives COS-TT, which removes the exponential cost of online synthesis but not of offline decomposition. Our main contribution, COS-TT-CHF, instead compresses a ch.f. sample tensor and maps it to the original Fourier--cosine coefficient tensor through an alternative COS representation. Apart from the model-dependent cost of one ch.f. evaluation, both offline and online costs scale linearly with dimension, while error grows only algebraically. COS-TT-CHF introduces two additional errors: frequency-domain truncation and discretization errors. Both are controlled by parameter-selection rules from theoretical error analysis. We further propose an approach for expectations of nonseparable functions of additive scalar aggregates by computing the ch.f.s of the aggregates using tensorized COS methods, reducing the original multidimensional problem to a one-dimensional COS calculation. Closed-form formulas are derived for the TT-contraction integrals arising when the aggregate is a weighted sum, as in European basket option pricing. Experiments under geometric Brownian motion (GBM) and variance gamma (VG) show that, with the parameter-selection rules, COS-TT-CHF remains accurate through 150 dimensions for GBM and 100 for VG within a 30-minute offline computation budget on a laptop. As a by-product, our Fourier-cosine TT constructions yield cosine-basis functional TTs (FTTs) under weaker assumptions than in spectral FTT literature.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.06040'>One-dimensional quasicrystals with tensor-network finite-state automata</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Milla Kolehmainen, Jose L. Lado, Anouar Moustaj</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.06040 | <strong>Date:</strong> 2026-09-05</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> Quasicrystals occupy a distinctive position between the translational order of crystals and the disordered amorphous matter. Simulating this physics has remained challenging, since quasiperiodic structures lack the translational symmetry exploited for crystals and generally require costly diagonalization of large finite approximants. Quasicrystalline order admits two equivalent descriptions, a cut-and-project scheme from a higher-dimensional periodic crystal, and a discrete set of substitution rules acting on a finite alphabet. We show that the latter, written in a numeration system adapted to the substitution, defines a deterministic finite automaton with output, the digits of a site index are fed, and the automaton returns the letter occupying that site. We further exploit another equivalence to a different construction, the transition matrices are exactly the tensors of a matrix product state, whose bond dimension is the number of automaton states and is independent of system size. This allows efficient representation of extremely large tight-binding Hamiltonians in the tensor-train language, thereby yielding an exact matrix product operator for the quasicrystal Hamiltonian at any system size. We show how this framework works for two families of one-dimensional quasicrystals, the metallic-mean and $k$-bonacci families and we explicitly construct the Fibonacci, silver-mean, and Tribonacci quasicrystals. By leveraging efficient tensor-network compression and the kernel polynomial method, we compute spectral densities for chains with more than $10^9$ sites and directly resolve the hierarchical structure of the spectrum.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.05598'>Matrix Product Belief Propagation</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Gabriel Woolls, Shahin Jahanbani, Adarsh Pashikanti, Matthew T. Fishman, Joseph Tindall, Michael P. Zaletel</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.05598 | <strong>Date:</strong> 2026-09-04</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> We introduce "matrix product belief propagation" (MP-BP) as a controlled method for the approximate contraction of two-dimensional tensor networks and graphical models, which generically leads to a quadratic reduction of errors relative to existing methods: at similar computational effort, the number of accurate digits is asymptotically doubled. For infinite systems, MP-BP can be understood as a practical implementation of Baxter's corner-transfer-matrix method; for reflection-symmetric networks, it further coincides with the boundary matrix-product-state and corner-transfer-matrix renormalization group algorithms as conventionally implemented. In the limit of unit matrix-product rank, MP-BP is equivalent to belief propagation, and more generally, can be understood as a generalization of BP in which the "messages" live on surfaces and are assumed to have a matrix-product factorization. We further extend the quadratic improvement to the computation of expectation values, and numerically demonstrate the qualitatively improved convergence for a variety of classical and quantum 2D tensor network problems.
                     </div>
                 </article>
                 <hr>
