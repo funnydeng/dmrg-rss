@@ -8,7 +8,44 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 14 Sep 2026 04:05:53 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 17:59:31 +0000</lastBuildDate>
+    <item>
+      <link>http://arxiv.org/abs/2609.12466</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2609.12466'&gt;arXiv:2609.12466&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2609.12466</guid>
+      <pubDate>Mon, 14 Sep 2026 17:59:32 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <link>http://arxiv.org/abs/2609.12616</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2609.12616'&gt;arXiv:2609.12616&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2609.12616</guid>
+      <pubDate>Mon, 14 Sep 2026 17:59:32 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <title>Diversifying time evolution of matrix product states using BUGs</title>
+      <link>http://arxiv.org/abs/2609.12848</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Kornél Kapás, Dominik Sulz, Charlotte Verhoeven, Miklós Antal Werner, Örs Legeza, Christian Lubich&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; Time evolution of tensor-network states is a central tool for studying nonequilibrium dynamics in strongly correlated quantum systems. In the past decade, using the time-dependent variational principle (TDVP) discretized by projector-splitting has become the gold standard for evolving matrix product states (MPS) with long-range Hamiltonians. More recently, a conceptually different class of discretizations of the TDVP, the class of Basis Update and Galerkin (BUG) integrators, has been developed within the framework of dynamical low-rank approximation, offering an alternative, more flexible approach. In this work, we formulate two BUG integrators explicitly for MPS. The BUG integrators result in "single-site" MPS integrators that are robust with respect to small singular values, avoid backward-in-time substeps, and naturally allow for the adaptive choice of bond dimensions. We consider the augmented BUG integrator of first order and the midpoint BUG integrator of second order and clarify their relation to the projector-splitting discretization of the TDVP. Using representative models of strongly correlated quantum systems, like the XY spin model with long-range interaction and two-dimensional lattice models of fermions and spins of various lengths, we perform a systematic numerical comparison between BUG and projector-splitting time discretizations of the continuous-time TDVP, focusing on scalability, numerical complexity, and accuracy. We find that BUG integrators, due to their reduced numerical cost and the flexibility of the concept, provide a competitive and, in certain regimes, advantageous alternative to the well-established time-stepping by projector-splitting in TDVP, especially in models with large local dimensions, and in cases where observables are extracted with high temporal resolution.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2609.12848'&gt;arXiv:2609.12848&lt;/a&gt;] Published Fri, 11 Sep 2026 13:40:16 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2609.12848</guid>
+      <pubDate>Fri, 11 Sep 2026 13:40:16 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <link>http://arxiv.org/abs/2609.13057</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2609.13057'&gt;arXiv:2609.13057&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2609.13057</guid>
+      <pubDate>Mon, 14 Sep 2026 17:59:32 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <link>http://arxiv.org/abs/2609.13110</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2609.13110'&gt;arXiv:2609.13110&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2609.13110</guid>
+      <pubDate>Mon, 14 Sep 2026 17:59:32 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
+    <item>
+      <link>http://arxiv.org/abs/2609.13132</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2609.13132'&gt;arXiv:2609.13132&lt;/a&gt;] Published Unknown UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2609.13132</guid>
+      <pubDate>Mon, 14 Sep 2026 17:59:32 +0000</pubDate>
+    <dc:creator>Unknown</dc:creator></item>
     <item>
       <title>Full grid solution for multi-asset options pricing with tensor networks</title>
       <link>http://arxiv.org/abs/2601.00009</link>
