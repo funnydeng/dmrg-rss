@@ -1,6 +1,14 @@
 {
-  "last_updated": "2026-09-14T17:59:31.121840+00:00",
+  "last_updated": "2026-09-15T04:07:19.683053+00:00",
   "entries": {
+    "5c7170f71937b4189f881501f2217c22": {
+      "id": "5c7170f71937b4189f881501f2217c22",
+      "link": "http://arxiv.org/abs/2609.12848",
+      "title": "Diversifying time evolution of matrix product states using BUGs",
+      "abstract": "Time evolution of tensor-network states is a central tool for studying nonequilibrium dynamics in strongly correlated quantum systems. In the past decade, using the time-dependent variational principle (TDVP) discretized by projector-splitting has become the gold standard for evolving matrix product states (MPS) with long-range Hamiltonians. More recently, a conceptually different class of discretizations of the TDVP, the class of Basis Update and Galerkin (BUG) integrators, has been developed within the framework of dynamical low-rank approximation, offering an alternative, more flexible approach. In this work, we formulate two BUG integrators explicitly for MPS. The BUG integrators result in \"single-site\" MPS integrators that are robust with respect to small singular values, avoid backward-in-time substeps, and naturally allow for the adaptive choice of bond dimensions. We consider the augmented BUG integrator of first order and the midpoint BUG integrator of second order and clarify their relation to the projector-splitting discretization of the TDVP. Using representative models of strongly correlated quantum systems, like the XY spin model with long-range interaction and two-dimensional lattice models of fermions and spins of various lengths, we perform a systematic numerical comparison between BUG and projector-splitting time discretizations of the continuous-time TDVP, focusing on scalability, numerical complexity, and accuracy. We find that BUG integrators, due to their reduced numerical cost and the flexibility of the concept, provide a competitive and, in certain regimes, advantageous alternative to the well-established time-stepping by projector-splitting in TDVP, especially in models with large local dimensions, and in cases where observables are extracted with high temporal resolution.",
+      "pubdate": "Fri, 11 Sep 2026 13:40:16 +0000",
+      "authors": "Kornél Kapás, Dominik Sulz, Charlotte Verhoeven, Miklós Antal Werner, Örs Legeza, Christian Lubich"
+    },
     "6503323e8eb965f3c0e978fa831563e7": {
       "id": "6503323e8eb965f3c0e978fa831563e7",
       "link": "http://arxiv.org/abs/2609.11811",
@@ -8744,14 +8752,6 @@
       "abstract": "",
       "pubdate": null,
       "authors": ""
-    },
-    "5c7170f71937b4189f881501f2217c22": {
-      "id": "5c7170f71937b4189f881501f2217c22",
-      "link": "http://arxiv.org/abs/2609.12848",
-      "title": "Diversifying time evolution of matrix product states using BUGs",
-      "abstract": "Time evolution of tensor-network states is a central tool for studying nonequilibrium dynamics in strongly correlated quantum systems. In the past decade, using the time-dependent variational principle (TDVP) discretized by projector-splitting has become the gold standard for evolving matrix product states (MPS) with long-range Hamiltonians. More recently, a conceptually different class of discretizations of the TDVP, the class of Basis Update and Galerkin (BUG) integrators, has been developed within the framework of dynamical low-rank approximation, offering an alternative, more flexible approach. In this work, we formulate two BUG integrators explicitly for MPS. The BUG integrators result in \"single-site\" MPS integrators that are robust with respect to small singular values, avoid backward-in-time substeps, and naturally allow for the adaptive choice of bond dimensions. We consider the augmented BUG integrator of first order and the midpoint BUG integrator of second order and clarify their relation to the projector-splitting discretization of the TDVP. Using representative models of strongly correlated quantum systems, like the XY spin model with long-range interaction and two-dimensional lattice models of fermions and spins of various lengths, we perform a systematic numerical comparison between BUG and projector-splitting time discretizations of the continuous-time TDVP, focusing on scalability, numerical complexity, and accuracy. We find that BUG integrators, due to their reduced numerical cost and the flexibility of the concept, provide a competitive and, in certain regimes, advantageous alternative to the well-established time-stepping by projector-splitting in TDVP, especially in models with large local dimensions, and in cases where observables are extracted with high temporal resolution.",
-      "pubdate": "Fri, 11 Sep 2026 13:40:16 +0000",
-      "authors": "Kornél Kapás, Dominik Sulz, Charlotte Verhoeven, Miklós Antal Werner, Örs Legeza, Christian Lubich"
     },
     "f6cd9b6df7bdaa3819c26fbecd04bb49": {
       "id": "f6cd9b6df7bdaa3819c26fbecd04bb49",
