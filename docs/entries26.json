@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-15T16:40:37.369809+00:00",
+  "last_updated": "2026-09-16T04:03:42.506005+00:00",
   "entries": {
     "5c7170f71937b4189f881501f2217c22": {
       "id": "5c7170f71937b4189f881501f2217c22",
@@ -8732,106 +8732,106 @@
     "643717eaa03f80447b80cf8ec0311299": {
       "id": "643717eaa03f80447b80cf8ec0311299",
       "link": "http://arxiv.org/abs/2609.15764",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
+      "title": "Low-Depth Initial-State Preparation for Ground-State Energy Estimation of Two-Dimensional Strongly Correlated Systems",
+      "abstract": "Quantum algorithms for ground-state energy estimation require initial states with non-negligible fidelity to the ground state. Guided by classical simulations, we design shallow circuits for the two-dimensional half-filled Hubbard model by first preparing an approximate Heisenberg ground state and then applying charge-fluctuation gates derived directly from the Schrieffer-Wolff (SW) generator. For the Heisenberg model, we demonstrate effective parameter transfer from a $4\\times4$ lattice to lattices up to $10\\times10$ without further optimization. We obtain promising lower bounds on the ground-state fidelity using tensor-network simulations, variational Monte Carlo reference states, and estimates of the ground-state energy and singlet gap. Exact $4\\times4$ calculations show that the SW gates substantially improve the Hubbard ground-state fidelity of the embedded Heisenberg state. The successful Heisenberg parameter transfer supports the use of these small-lattice results to design shallow Hubbard circuits on larger lattices beyond the reach of classical simulations. For a $10\\times10$ lattice, the estimated preparation cost is on the order of $10^5$ $T$ gates, including Clifford+$T$ synthesis, which is well within the megaquop regime. These results offer a route to low-cost initial-state preparation for ground-starongly correlated systems.",
+      "pubdate": "Mon, 14 Sep 2026 15:48:39 +0000",
+      "authors": "Ryo Watanabe, Keisuke Fujii"
     },
     "b814f9bb189f6da830045fd7e700c6b8": {
       "id": "b814f9bb189f6da830045fd7e700c6b8",
       "link": "http://arxiv.org/abs/2609.15738",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
+      "title": "Disentangling QAOA: From Weakly Entangled Circuits to a Classical QUBO Solver",
+      "abstract": "The role of entanglement in quantum optimization remains actively debated. To address this question, we focus on the fixed-parameter expanding-depth regime of the quantum approximate optimization algorithm (QAOA), where a compact two-parameter schedule is trained once on small instances and then applied as the problem size and circuit depth increase. To probe this regime beyond full state-vector simulation, we perform approximate matrix product state simulations for up to 50 qubits and 100 layers and quantify entanglement by the bond dimension. We observe an entangle--disentangle profile, with the peak bond dimension decreasing with depth and eventually saturating. This observation motivates an extreme approximation: projecting the state onto the product-state manifold (bond dimension one) after every two-qubit interaction. Based on this approximation, we introduce BOND-1, a quantum-inspired classical solver. Despite the drastic simplification, BOND-1 achieves cut ratios above 0.95 relative to the best known values on standard GSet MaxCut benchmarks with up to 20000 variables, and in some cases it matches those values. It achieves these results without per-instance optimization and has linear memory cost, while per-instance tuning can provide further improvement. These results show that, in this regime, a substantial fraction of the optimization power of QAOA survives even in the complete absence of entanglement. Our conclusions, however, are specific to this setting and do not imply that entanglement is unnecessary for quantum optimization in general.",
+      "pubdate": "Mon, 14 Sep 2026 15:31:09 +0000",
+      "authors": "Boris I. Bantysh, Andrey Yu. Chernyavskiy, Denis A. Kulikov, Maksim A. Gavreev, Evgeniy O. Kiktenko"
     },
     "c6151460abadade62b97893c27ecbd5c": {
       "id": "c6151460abadade62b97893c27ecbd5c",
       "link": "http://arxiv.org/abs/2609.15099",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
+      "title": "Biorthogonal Time-Dependent Variational Principle for Non-Hermitian Systems",
+      "abstract": "We develop a biorthogonal time-dependent variational principle for real-time dynamics of non-Hermitian quantum many-body systems. Independent left and right matrix-product states obey coupled bivariational tangent-space equations whose cross-Gram matrix defines an oblique projection. A matrix-free scaled Taylor action propagates the resulting non-normal local generators without assembling dense matrices or storing a Krylov basis. We distinguish the fully coupled algorithm, which solves the cross-pairing problem and truncates the two bond bases jointly, from an efficient independently propagated approximation used for large systems. Independent truncation can make the retained left-right pairing nearly singular; overlap drift and the smallest singular value of the bond cross matrix expose this failure, while coupled truncation substantially delays it. Exact benchmarks and convergence tests validate the method. Applied to an interacting long-range non-Hermitian Ising chain, it resolves a biorthogonal dynamical quantum phase transition and shows that a weak imaginary field shifts the leading critical time from $t^{\\ast}|J|=1.84$ to $1.04$.",
+      "pubdate": "Mon, 14 Sep 2026 06:24:19 +0000",
+      "authors": "Younes Javanmard, Sina Kazemian"
     },
     "0bebc276fd085bca4bd43471c83f47ae": {
       "id": "0bebc276fd085bca4bd43471c83f47ae",
       "link": "http://arxiv.org/abs/2609.15061",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
+      "title": "Non-Abelian chiral spin liquid in a spin-$1$ antiferromagnet on the square lattice",
+      "abstract": "Non-Abelian chiral spin liquids (CSLs) host non-Abelian anyon excitations and are promising platforms for topological quantum computation. However, realizing non-Abelian CSLs in short-range interacting spin systems remains elusive. Here, we study a spin-$1$ square-lattice model with the first- and second-neighbor bilinear ($J_1,J_2$) and biquadratic interactions ($K_1,K_2$), as well as the three-spin scalar chiral coupling $J_χ$. Inspired by the evidence of the Moore-Read state in exact diagonalization and infinite Projected Entangled Pair States calculations, we fix $J_1=1.0$, $J_2/J_1=0.623$, $K_1/J_1=-0.176$, and obtain a quantum phase diagram for $0 \\leq K_2/J_1 \\leq 0.4$ and $0.3 \\leq J_χ/J_1 \\leq 0.6$ by using the density matrix renormalization group (DMRG) calculations. We identify a stripe antiferromagnetic phase, a Néel antiferromagnetic phase, a magnetically ordered chiral spin state phase, and a non-Abelian CSL phase emerging near the boundaries of the ordered phases. The unbiased DMRG results provide strong evidence for the Moore-Read state, including the three topological sectors, the quantized spin Chern number $C=1$, and the level counting of low-lying entanglement spectra which is consistent with the chiral SU(2)$_2$ conformal field theory. Our results may shed new light on searching for non-Abelian CSLs in other higher-spin ($S > 1/2$) systems with short-range couplings.",
+      "pubdate": "Mon, 14 Sep 2026 05:27:31 +0000",
+      "authors": "Xiao-Tian Zhang, Yuan Yang, D. N. Sheng, Shou-Shu Gong"
     },
     "fded5659eb52c5f7dcccef7521eb666e": {
       "id": "fded5659eb52c5f7dcccef7521eb666e",
       "link": "http://arxiv.org/abs/2609.14838",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
+      "title": "Quantum Hall Ferromagnetism in a Cavity Vacuum",
+      "abstract": "We uncover a continuous phase transition in a quantum Hall ferromagnet (QHF) at filling factor $ν=1$, driven by vacuum fluctuations of a cavity. Our analysis starts with a Landau level projection in dipole gauge, where we find the states to be well-represented by a tensor product of the electronic and photonic degrees of freedom. Through analytic spin wave calculations, mean-field theory and density matrix renormalization group (DMRG) simulations, we show that for a spatially antisymmetric cavity field, the uniform QHF state is stable only for weak light-matter coupling and gives way to states of inhomogeneous electron density above a critical coupling. These states involve \"flanks\" of uniform QHF fluids, separated by a \"compact core\" of doubly occupied orbitals with the core size being the order parameter, which we dub as \"compact-core phases\". While the fully spin polarized electronic states are product states, entanglement builds up between the uniform QHF flanks across the compact core in the $S_z=0$ magnetic sector, motivating an ansatz for the compact-core electronic states. The transition boundary is exactly derived for product electronic states in terms of matter and cavity parameters, and numerically confirmed by DMRG. We also study the thin-cylinder limit near the critical point where quantum fluctuations are enhanced, and the many-body excited states in both phases by focusing on the entanglement spectrum degeneracies. Remarkably, the photon number is found to probe the order parameter of the transition, providing a possible experimental signature of the electronic transition and the compact-core states. Our study offers a rare example of a phase of electrons stabilized solely by coupling to the enhanced vacuum fluctuations of a cavity mode.",
+      "pubdate": "Sun, 13 Sep 2026 23:16:59 +0000",
+      "authors": "Ceren B. Dag, Luis Brey, Ganpathy Murthy, H. A. Fertig"
     },
     "4d7f2032033fd52281954aaffe64c261": {
       "id": "4d7f2032033fd52281954aaffe64c261",
       "link": "http://arxiv.org/abs/2609.14682",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
+      "title": "Counting Paths and Trees via Exterior Algebra",
+      "abstract": "We give randomized approximation algorithms for counting k-paths and k-forests in a host graph. Here k denotes the number of pattern vertices, n and m denote the numbers of host vertices and edges or arcs, ε is the relative error, and δ is the failure probability. Our main results are: 1. Paths: We approximate the number of directed paths on $k$ vertices in $2^k k^{O(1)}(n+m)\\varepsilon^{-2}\\log(2/δ)$ arithmetic operations. 2. Trees and forests: For every fixed $η>0$, we approximate the number of non-induced copies of a given forest on $k$ vertices in $(2+η)^k n^{O_η(1)}\\varepsilon^{-2}\\log(2/δ)$ arithmetic operations. Our path algorithm resolves a conjecture of Koutis and Williams~[CACM 2016] and answers an open question of Lokshtanov, Saurabh, and Zehavi~[SODA 2021] by giving a $2^k poly(n,\\varepsilon^{-1})$-time approximation scheme. Our algorithms combine exterior algebra with random matrix estimators, using the tensor-train moment bound of Rakhshan and Rabusseau~[AISTATS 2020]. For forests, we use a small-component separator to evaluate the estimator efficiently.",
+      "pubdate": "Sun, 13 Sep 2026 17:28:21 +0000",
+      "authors": "Fahad Panolan, Saket Saurabh, Meirav Zehavi, Jie Xue"
     },
     "418c30349ccdd1bf2779c63c57f54cb7": {
       "id": "418c30349ccdd1bf2779c63c57f54cb7",
       "link": "http://arxiv.org/abs/2609.14424",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
+      "title": "Certification cost of quantum models: measurement correlation, not parameter count",
+      "abstract": "Reporting the Fisher geometry of a trained variational quantum model is routine; quoting the shot budget that would establish it is not. Certifying an empirical Fisher matrix to relative Frobenius error $\\varepsilon$ under coordinate-wise parameter shift costs $Θ(B p^{2} V/(\\varepsilon^{2} G))$ circuit executions, where $V$ is the measured readout variance and $G$ the measured squared gradient norm, with uniform allocation optimal in that class. One constant reproduces the cost of two circuit families whose exponents differ by a full power of $p$. The exponent is an identity in how $nV$ and $nG$ scale with the register, holding family by family to $0.001$ across 624 matrix-product-state cells once the finite-$p$ prefactor is removed. The cubic cost is therefore a finite-size window, set by whether the readout light cone grows with the register. A product family to 256 qubits gives $1.966$ (95% CI $1.934$--$1.997$); a brickwork entangler falls from $2.853$ below ten qubits to $1.715$ beyond sixty-four; a blocked entangler gives $1.984$ at a fixed cone width against $3.034$ at a proportional one. Fixed device connectivity fixes the cone, so a cubic budget from a small simulation overestimates a large machine, on top of hardware multipliers $2.07\\times$ ($1.41$--$3.02$), $2.38\\times$ and $1.91\\times$ on ibm_marrakesh, ibm_fez and ibm_kingston. Cost-optimal readout weights cut the measured shot budget by $2.67\\times$ ($1.33$--$4.00$) on hardware, flat from four to twelve qubits. A discrepancy model fitted on cheap circuits transfers its mean inside the calibration grid and, at six larger sizes named before the data, does not: nominal 90% intervals cover 36%, and split conformal is the only rung that stays near nominal.",
+      "pubdate": "Sun, 13 Sep 2026 10:47:03 +0000",
+      "authors": "Pavel Sulimov, Claude Lehmann"
     },
     "aa9fe5e0835ae522e5adf1720f59cd02": {
       "id": "aa9fe5e0835ae522e5adf1720f59cd02",
       "link": "http://arxiv.org/abs/2609.14266",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
+      "title": "Sharp Norms from Finite Structure: Graph Matrices and Structured Chaoses",
+      "abstract": "Graph matrices encode dependencies in random matrices built from shared random variables and arise in spectral algorithms, sum-of-squares (SoS), and high-dimensional statistics. We determine how finite graph structure controls their sharp spectral growth. For every fixed simple graph shape in the dense Rademacher model, including overlapping or empty matrix boundaries, we prove $\\mathbb E\\|M_α\\|=Θ_α(n^{(v+h-s)/2}(\\log n)^{a_*/2})$, where $v$ counts vertices, $h$ isolated summation vertices, $s$ the minimum boundary-separator size, and $a_*$ maximizes an active-component count over minimum separators. Thus two finite cut optimizations determine both the polynomial and logarithmic exponents. The formula closes the polylogarithmic gap in separator bounds, and an infinite family with identical coarse parameters but different norms shows that the logarithmic exponent records genuinely new structure. The proof controls all defect layers in growing trace moments by converting label loss into separator excess; conditional flattening and synchronized fluctuations yield matching lower bounds. We extend the analysis to specified independent-factor chaoses, local weights, unequal dimensions, bounded asymmetric noise, Gaussian inputs, and fixed-degree Hermite inputs. Applications include degree-four clique SoS feasibility for $9\\le k\\le c\\sqrt n$ without an asymptotic logarithmic loss, and Gaussian random tensor networks: deviation thresholds, sharp expected scales, entropy estimates, and, for connected loopless equal-dimensional networks, convergence of the rescaled largest output eigenvalue to the exact right edge of the limiting law. These results connect finite structure to sharp growth scales, and additional algebraic and spectral structure to full feasibility and exact limiting constants.",
+      "pubdate": "Sun, 13 Sep 2026 03:57:15 +0000",
+      "authors": "Huibo Xu, Shi Fu, Youming Qiao, Dacheng Tao"
     },
     "6a6f6077378351793f914793ff620793": {
       "id": "6a6f6077378351793f914793ff620793",
       "link": "http://arxiv.org/abs/2609.13132",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
+      "title": "A Dichotomy for Boolean Complex Holant Problems with Conjugate-Closed Signature Sets",
+      "abstract": "We study Boolean Holant problems with complex-valued signature sets closed under conjugation. Such sets arise naturally in tensor-network expressions for classical strong simulation of quantum circuits. We prove a complexity dichotomy for such problems with an explicit tractability criterion. This extends the dichotomy for real-valued Holant problems, with the same four tractability conditions. Our proofs use Xia's projective binary group framework and quantum entanglement theory. The conjugate closure assumption precisely makes $k$-uniformity, directly applicable to the classification of Holant problems, by realizing reduced density matrices via Holant gadgets. We also use the classification of absolutely maximally entangled states to resolve a particular $6$-ary obstruction in our inductive proof of the \\#P-hardness.",
+      "pubdate": "Fri, 11 Sep 2026 17:55:17 +0000",
+      "authors": "Jincheng Guan, Shuai Shao, Zhuxiao Tang"
     },
     "2917b17d3baba0ba198e90830031c903": {
       "id": "2917b17d3baba0ba198e90830031c903",
       "link": "http://arxiv.org/abs/2609.13110",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
+      "title": "An on-lattice model for two-dimensional melting",
+      "abstract": "We introduce an on-lattice minimal model of two-dimensional melting, a clock model with vacancies with control parameters temperature, chemical potential and external field. We study the full phase diagram using cluster Monte Carlo, Tensor Network Renormalisation Group and selfconsistent mean field methods. A non-universal ensemble of melting scenarios is observed including the KTHNY scenario of two Berezinskii-Kosterlitz-Thouless phase transitions delimiting a quasilong-range ordered phase. The upper transition evolves into first-order transition in analogy with simulations on hard and soft discs and at low chemical potential there is a single transition between ordered high density and disordered low density phases. The evolution is via a special tricritical point that is accessed in detail. This work therefore provides a framework for understanding the crossover between 2D melting scenarios and offers insights into the behavior of realistic systems.",
+      "pubdate": "Fri, 11 Sep 2026 17:41:42 +0000",
+      "authors": "Antonin Rogé, Peter Holdsworth, Alexis Poncet"
     },
     "314083d1cec9aa8fe46571c720dea096": {
       "id": "314083d1cec9aa8fe46571c720dea096",
       "link": "http://arxiv.org/abs/2609.13057",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
+      "title": "Benign Loss Landscapes Can Coexist with Worst-Case Hardness",
+      "abstract": "Deep neural networks are expressive enough to contain worst-case targets that can be evaluated in polynomial time but cannot be learned in polynomial time by gradient descent. For practical tasks they nonetheless learn well, raising the question of what non-generic structure of real-world targets enables this. Existing surrogate models cannot pose this question because they either lack hard-to-learn targets entirely (deep linear networks) or cannot evaluate such targets efficiently (kernel methods, infinite-width limits). We study tree tensor networks (TTNs), a model class that generalizes deep linear networks and Tucker decompositions. We show they embed arbitrary read-once Boolean formulas, and thus contain polynomial-size targets that cannot be learned by gradient descent in polynomial time under the same mechanism as neural networks. Despite this, we prove that their loss landscapes are conditionally benign for every realizable target: every local minimum that is minimum-norm is global. Thus, surprisingly, bad local minima are not what distinguishes between typical and worst-case problems in TTNs. Instead, learning difficulty in TTNs can arise from high-order degenerate saddle points, which we show are caused by rank-deficiency. This is explored through a case study of the parity function, illustrating the potential for TTNs to relate landscape geometry to computational hardness.",
+      "pubdate": "Fri, 11 Sep 2026 16:57:02 +0000",
+      "authors": "Zach Furman, Stephan Wäldchen, Yangda Bei, Liam Hodgkinson"
     },
     "f6cd9b6df7bdaa3819c26fbecd04bb49": {
       "id": "f6cd9b6df7bdaa3819c26fbecd04bb49",
       "link": "http://arxiv.org/abs/2609.12616",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
+      "title": "Fast and Accurate Excitation Energies from Density Matrix Renormalization Group Calculations Improved by Machine Learning",
+      "abstract": "An estimation of optoelectronic properties is a crucial necessity and an ongoing challenge in modern functional material science. This involves accurate accessing of ground and excited states in systems with complex electronic structure that are often too computationally expensive for accurate many-body methods. Building on our previous work on ground states [J. Phys. Chem. Lett. 2025, 16, 3295-3301], we present an efficient and cost-effective approach for evaluating electronic excitations in functional materials, combining the density matrix renormalization group method as a complete active space solver with machine learning techniques. We demonstrate its performance on π-electron-correlated systems, namely polycyclic aromatic compounds. The transferability and effectiveness of the derived machine learning model are demonstrated on a number of challenging examples with up to 34 π-electrons.",
+      "pubdate": "Fri, 11 Sep 2026 09:14:07 +0000",
+      "authors": "Pavlo Golub, Libor Veis"
     },
     "03271b0fbfeeb50541d104c027e0b7fa": {
       "id": "03271b0fbfeeb50541d104c027e0b7fa",
       "link": "http://arxiv.org/abs/2609.12466",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
+      "title": "Tensor-network Monte Carlo approach based on time-evolving block decimation",
+      "abstract": "We propose a tensor-network Monte Carlo (TNMC) approach for unitary evolution following the compression sequence of the time-evolving block decimation (TEBD) algorithm. In the TNMC approach, the obtained results contain evaluable statistical errors rather than truncation errors, unlike ordinary singular-value-decomposition-based methods such as the TEBD algorithm. Consequently, one can estimate unbiased expectation values within statistical errors even with a finite bond dimension. Since the sampling scheme is introduced in the simulations of unitary evolution, the proposed Monte Carlo scheme may suffer from a sign problem. We observe that the sign problem can be mitigated by increasing the bond dimension. We apply the proposed TNMC approach to the Hamiltonian and the Floquet dynamics. Numerical experiments show that the TNMC approach can estimate accurate expectation values of observables even when the TEBD method with the same bond dimension cannot. The proposed approach can be a new direction for improving the classical simulatability of unitary evolution.",
+      "pubdate": "Fri, 11 Sep 2026 05:56:37 +0000",
+      "authors": "Shimpei Goto, Hidemaro Suwa, Synge Todo"
     }
   }
 }
