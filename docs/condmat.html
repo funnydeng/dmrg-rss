@@ -536,10 +536,76 @@
         </div>
     </div>
     
-<p><em>Generated on 2026-09-17 04:09:07</em></p>
-<p>Total papers: 1109
+<p><em>Generated on 2026-09-17 16:33:51</em></p>
+<p>Total papers: 1118
 </p>
 <h2>Recent Papers</h2>
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.19116'>Comparing magic state cultivation methods using matrix product states</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Tom Hartweg, Asier Piñeiro Orioli</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.19116 | <strong>Date:</strong> 2026-09-16</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> Magic state cultivation prepares high-fidelity magic states at low expected space-time costs; however, the exact performance of some schemes is unsettled due to the difficulty in simulating non-Clifford circuits. Here, we use matrix-product states (MPS) based methods to compute the exact performance of two types of fold-transversal cultivation schemes: (i) the Sahay et al method based on the regular surface code S gate, and (ii) a method we propose based on a partially fault-tolerant fold-transversal S gate. We show that for the former protocol at $d=5$, the $|T\rangle$ output reaches similar logical error rates to the $|S\rangle$ output, traditionally used as a cheap full Clifford proxy. This contrasts with the $\sim10\times$ discrepancy reported for the $d=5$ colour-code scheme of Gidney et al. We also find that our new $d=5$ scheme has $\sim1.3\times$ lower expected space-time cost while still reaching $10^{-9}$ logical error rate. We show that MPS and Clifford-augmented MPS (CAMPS) perform on par with or even better than the recently introduced near-Clifford simulator Clifft on the hardest $d=5$ regular surface code scheme. Additionally, to speed up simulation, we propose a new pre-screening method based on simple Pauli propagation, lowering by up to three orders of magnitude the required number of exact simulations, and use several simulator-agnostic sampling methods such as subset sampling.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.18918'>Graph lattice sums and graph zeta functions for long-range interacting quantum lattice models</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Andreas Alexander Buchheit, Andreas Rupp</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.18918 | <strong>Date:</strong> 2026-09-16</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> Taming the exponential increase of the Hilbert space dimension with system size in the simulation of gapped quantum lattice models is of the highest relevance for understanding and designing exotic quantum materials, where nonlocal interactions are of particular interest. High-order linked-cluster expansions provide access the solution of the eigenvalue problem for the infinite system, yet rely on the computation of high-dimensional oscillatory lattice sums with a graph structure, only approachable with Monte Carlo methods so far. This work resolves this issue, rendering all required graph lattice sums, referred to as graph zeta functions for kernels involving power-laws, computable. The resulting method reduces the evaluation time for state-of-the art series expansions from tenthousands of core-hours to minutes. After factorizing the lattice sum over blocks, each block is evaluated by the cheapest available strategy depending on its treewidth $\mathrm{tw}$. Basic blocks admit analytic forms in terms of generalized zeta functions. Series-parallel blocks with $\mathrm{tw}\le 2$ can be computed at linear cost in the number of graph nodes and in the size of the momentum grid using a semi-analytical algebra based on Epstein zeta functions and rapidly decaying Fourier series. Finally, for $\mathrm{tw}>2$, the method is combined with tensor-network bucket elimination yielding polynomial scaling of numerical work and memory in momentum grid size with exponents only growing with $\mathrm{tw}$ rather than with the number of vertices. Through use of FFT, the full momentum grid is recovered at the cost of a single momentum evaluation. We provide a detailed analysis of the precision and runtime of our method against analytic and numerical benchmarks. We further reproduce published Monte Carlo data for the transverse-field Ising model on different 1D, 2D, and 3D lattices, obtaining full agreement.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.18841'>A first introduction to Matrix Product State algorithms for the integration of Lindblad equation</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Christophe Chatelain</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.18841 | <strong>Date:</strong> 2026-09-16</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> In this introductory review, we present and compare four algorithms for the numerical integration of the Lindblad equation for one-dimensional quantum lattice systems. All four methods are based on Matrix Product State representations and can be viewed as extensions of the Time-Evolving Block Decimation (TEBD) algorithm to open quantum systems. Two approaches directly integrate the vectorized Lindblad equation, one of them explicitly enforcing the positivity of the density matrix. The other two rely on stochastic unravelings of the Lindblad equation, namely the quantum trajectory and quantum state diffusion approaches. We discuss the principles, numerical implementation, accuracy, and computational efficiency of the different methods, and benchmark them against an exactly solvable free fermion model.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.18761'>Exact and fast series expansions for quantum models with long-range interactions</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Antonia Duft, Patrick Adelhardt, Jan Alexander Koziol, Andreas A. Buchheit, Kai Phillip Schmidt</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.18761 | <strong>Date:</strong> 2026-09-16</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> Over the past decade, high-order series expansions based on linked-cluster methods have become an important tool for studying low-energy properties of gapped quantum systems with long-range interactions. We introduce a deterministic framework that removes a central computational bottleneck of this method. Our graph zeta method replaces the costly and statistically noisy Monte Carlo (MC) evaluation of high-dimensional lattice sums by a systematic, high-precision computation that delivers series coefficients within minutes on standard desktop hardware. The full momentum-dependent series is obtained in a single calculation, enabling high-resolution excitation spectra throughout the Brillouin zone. Building on the companion paper [1], the method reformulates graph-embedding sums as graph zeta functions and decomposes them into blocks classified by their treewidth tw. Low-treewidth blocks (tw$\leq2$) admit closed expressions based on Epstein zeta functions, while higher-treewidth blocks (tw$>2$) are evaluated using tensor-network bucket elimination. We benchmark the approach for transverse-field Ising models with power-law interactions in 1d, 2d, and 3d, reproducing previous MC results at a fraction of the computational cost while enabling substantially denser parameter sampling. An open-source implementation makes the method directly applicable to general interactions and large parameter scans. As an application, we compare microscopic interaction models for the stacked quasi-2d transverse-field Ising triangular-lattice antiferromagnet KTmSe$_2$ and find that a model including dipolar interactions best describes existing experimental data. The graph zeta method thus turns high-order linked-cluster expansions into a practical and deterministic tool for fast quantitative momentum-resolved modeling of short- and long-range quantum matter.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.18755'>A Highly Scalable Quantized Tensor-Train FDTD Framework for the Simulation of Three-Dimensional Electromagnetic Scattering Problems</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Daan Vanhaecke, Emile Vanderstraeten, Dries Vande Ginste</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.18755 | <strong>Date:</strong> 2026-09-16</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> In this letter, a novel 3-D Finite-Difference Time-Domain (FDTD) framework is proposed that circumvents the costly volumetric scaling of conventional FDTD methods. By representing the electromagnetic fields as low-rank Quantized Tensor Trains (QTT), the memory requirements scale logarithmically with system size. Moreover, the various numerical operations that constitute the FDTD scheme can be efficiently implemented in this format, with their computational cost also exhibiting a logarithmic complexity. The simulation of systems in open space is enabled by the inclusion of a uniaxial PML. A validation example demonstrates that the method achieves excellent accuracy compared to the traditional full-grid (FG) FDTD method, while significantly reducing the required computational resources. Memory savings of several orders of magnitude are obtained, highlighting the potential of the proposed framework for the simulation of large multiscale electromagnetic systems.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.17664'>Collider Detector Observables from Lattice Spin Systems</a></h3>
+                    <p class='meta'><strong>Authors:</strong> João Barata, Ying-Ying Li, Bo Wang, Hua Xing Zhu</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.17664 | <strong>Date:</strong> 2026-09-15</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> Detector observables pose a fundamental challenge for nonperturbative lattice methods due to their intrinsically real-time and asymptotic nature. We propose quantum simulation platforms as an ideal setting for studying these observables. Using quantum spin systems as a demonstration, we construct lattice detector operators and establish their connection to continuum energy-flow observables. We demonstrate this framework in the $1+1$-dimensional quantum Ising model, where finite lattice calculations show quantitative agreement with conformal field theory expectations at criticality. These results support the interpretation of the lattice flow operators as regulated counterparts of continuum detectors in the scaling and asymptotic limits, providing a concrete route toward realizing high-energy collider physics on table-top quantum platforms.
+                    </div>
+                </article>
+                <hr>
+                
 
                 <article class='paper-entry'>
                     <h3><a href='http://arxiv.org/abs/2609.17298'>Quantum-Inspired Trainable and Parameter-Efficient Tensor Networks for Image Inpainting</a></h3>
@@ -3259,6 +3325,17 @@
                 
 
                 <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.19051'>Field-driven quantum phase transitions in a spin-1/2 Heisenberg antiferromagnet on an extended Lieb lattice</a></h3>
+                    <p class='meta'><strong>Authors:</strong> David Sivy, Jozef Strecka</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.19051 | <strong>Date:</strong> 2026-07-21</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> The magnetic behavior of the spin-1/2 Heisenberg antiferromagnet on the extended Lieb lattice is examined in the presence of an external magnetic field. Using density matrix renormalization group calculations, we determine the zero-temperature magnetization curves and construct the ground-state phase diagram in the magnetic field vs. the interaction ratio plane. Depending on the interaction ratio, the zero-temperature magnetization curves exhibit field-driven quantum phase transitions between the gapped phases manifested as the intermediate plateaus at $1/5$ and $3/5$ of the saturation magnetization and a gapless spin-canted phase, in which the magnetization varies continuously with the applied magnetic field. Quantum Monte Carlo simulations reveal clear finite-temperatures signatures of the field-induced quantum phase transitions and the intermediate magnetization plateaus, while they provide no evidence for either continuous or discontinuous thermal phase transitions.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
                     <h3><a href='http://arxiv.org/abs/2607.18938'>Coherent-disorder-driven complexity transitions in a quantum-advantage architecture</a></h3>
                     <p class='meta'><strong>Authors:</strong> Sung-Bin B. Lee, Chae-Yeun Park, Changhun Oh, Seung-Sup B. Lee</p>
                     <p class='meta'><strong>arXiv ID:</strong> 2607.18938 | <strong>Date:</strong> 2026-07-21</p>
@@ -3479,6 +3556,17 @@
                 
 
                 <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.18969'>A Gauge Sign Rule for Quantum Rotor Networks</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Swagata Acharya</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.18969 | <strong>Date:</strong> 2026-07-16</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> The sign problem is the non-positive path-integral weight that makes a quantum system hard to simulate classically. It shows up in problems that look unrelated, from fermion antisymmetry and geometric frustration to real-time evolution, topological angles, and finite density. We study it here for compact continuous variables, modeled as networks of quantum rotors, $\hat H=\sum_i 4E_C(\hat n_i-n_{g,i})^2-\sum_{\langle ij\rangle} E_{ij}\cos(\hatφ_i-\hatφ_j-θ_{ij})$. For these, a single gauge-invariant quantity controls the obstruction, the frustration flux through the independent loops of the interaction graph. We prove a sign rule, the rotor analogue of Marshall's. The charge-basis Hamiltonian is sign-free if and only if every loop flux vanishes modulo $2π$. Exact diagonalization and density-matrix renormalization then show that the sign cost is a gauge-invariant function of the flux. For a single loop it vanishes at zero flux, peaks at $π$, and is exponentially small in the loop's perimeter. Summed over many loops it is extensive, growing with system size. The same loop flux generates the sign of three problems usually treated apart, namely the Mott transition (through the slave-rotor mapping), compact $U(1)$ lattice gauge theory, and frustrated continuous optimization. A superconducting rotor array realizes both the model and its sign natively.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
                     <h3><a href='http://arxiv.org/abs/2607.14766'>Emergence of a monopole phase in the $J_1{-}J_2$ Heisenberg model on the triangular lattice for small magnetic fields</a></h3>
                     <p class='meta'><strong>Authors:</strong> Sasank Budaraju, Shi Feng, Josef Willsher, Johannes Knolle, Frank Pollmann, Federico Becca</p>
                     <p class='meta'><strong>arXiv ID:</strong> 2607.14766 | <strong>Date:</strong> 2026-07-16</p>
@@ -3517,6 +3605,17 @@
                     <p class='meta'><strong>arXiv ID:</strong> 2607.14296 | <strong>Date:</strong> 2026-07-15</p>
                     <div class='abstract'>
                         <strong>Abstract:</strong> Current quantum hardware is limited by noise and decoherence, which restrict the depth of unitary circuits that can be implemented with high fidelity. We investigate how the compressibility of time-evolution operators depends on the dynamical regime of the underlying many-body system. As a testbed, we study a one-dimensional Floquet random circuit with a tunable competition between interactions and on-site disorder. Using tensor-network simulations, we characterize operator growth through the operator-entanglement entropy of the Floquet unitary as well as of out-of-time-ordered correlators (OTOCs). We find rapid operator scrambling at weak disorder, while strong disorder leads to slow OTOC-front propagation and logarithmic or near-logarithmic operator-entanglement growth over the accessible time window. We then optimize shallow brickwall circuits to approximate the Floquet evolution and show that strong-disorder circuits can be compressed to substantially smaller depths than weak-disorder circuits at fixed logarithmic fidelity density. These results suggest that localized or slowly scrambling dynamics provide a favorable regime for compressed quantum simulation on noisy devices.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.18954'>Parity anomaly governs the thermal Hall response of chiral superconductivity in rhombohedral graphene above and below $T_c$</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Kumar Ghosh</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.18954 | <strong>Date:</strong> 2026-07-15</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> Chiral superconductivity has recently been confirmed in rhombohedral tetra- and pentalayer graphene near the BCS--BEC crossover, but no theory tells the experimentalist what thermal Hall response to expect, or why any signal should persist above the phase-coherence temperature $T_c$. We show that the parity anomaly of $(2{+}1)$-dimensional field theory fixes the answer exactly, at all temperatures, with no free parameters: $κ_{xy}/T = (π^2 k_B^2/6h)\,C_{\rm BdG}\,\tanh[Δ(T)/(2k_BT)]$, where $C_{\rm BdG}$ is the BdG Chern number and $Δ(T)$ is the fermionic excitation gap. The BCS--BEC two-gap relation $Δ^2 = Δ_{\rm sc}^2 + Δ_{\rm pg}^2$ makes the same formula govern both the condensate and pseudogap regimes, so the signal onsets at the pair-formation temperature $T^{*}$ rather than at $T_c$. Coleman--Hill non-renormalization and the $c_1 = 0$ theorem protect this result against interactions and finite-size artefacts. Three independent numerical validations confirm the topological input at machine precision (FHS Chern numbers, Wilson-loop $c_1 = 0$ test) and at the many-body level (DMRG on 28 converged ground states, including the real-space $p+ip$ signature $\arg\mathcal{A}_y - \arg\mathcal{A}_x = -π/2$ recovered to $10^{-14}$). The theory delivers an immediate falsifiable test that requires no new experimental apparatus: the sign of $κ_{xy}/T$ below $T_c$ must equal the sign of the anomalous Hall resistance $R_{xy}$ already measured above $T_c$, and four further predictions accessible by dilution-refrigerator nano-calorimetry on existing devices.
                     </div>
                 </article>
                 <hr>
