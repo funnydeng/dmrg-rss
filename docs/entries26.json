@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-09-16T16:27:36.014275+00:00",
+  "last_updated": "2026-09-17T04:09:05.506316+00:00",
   "entries": {
+    "910808efc13e0757c40df41a0f180f03": {
+      "id": "910808efc13e0757c40df41a0f180f03",
+      "link": "http://arxiv.org/abs/2609.17298",
+      "title": "Quantum-Inspired Trainable and Parameter-Efficient Tensor Networks for Image Inpainting",
+      "abstract": "This work introduces quantum-inspired tensor-network circuits as trainable transforms for image inpainting. Among the proposed architectures, the diagonal quantum Fourier transform (QFT) relaxation is invertible with $O(N^2 \\log N)$ computational cost for $N\\times N$ images, inherently preserving minimum coherence throughout training via its circuit structure and eliminating the need for explicit coherence penalties. Unconstrained gradient-based phase optimization (Riemannian-optimization free) enables efficient learning from randomly sampled training data, allowing the learned transform to generalize to test images observed through fixed sampling masks. Numerical tests show that the learned models outperform fixed transforms and per-image optimization while matching the performance of much larger unitary architectures, yet with far fewer parameters.",
+      "pubdate": "Tue, 15 Sep 2026 15:09:01 +0000",
+      "authors": "Shiwen An, Konstantinos Slavakis"
+    },
+    "8ebabe6a6a0fc40ae9c338d6cfaf71a7": {
+      "id": "8ebabe6a6a0fc40ae9c338d6cfaf71a7",
+      "link": "http://arxiv.org/abs/2609.16609",
+      "title": "Floquet Dressing and Bath Spectral Effects on the Geometric Phase of a Driven Dissipative Qubit",
+      "abstract": "Building on recent work by Wang et al. on the dissipative geometric phase (GP) in the spin-boson model (SBM), the GP dynamics of a periodically driven symmetric SBM are investigated using the numerically exact process-tensor time-evolving matrix product operator (PT-TEMPO) method. A symmetric two-level system subjected to a longitudinal monochromatic drive along the same system coordinate that couples to an Ohmic bosonic environment exhibits rich GP dynamics arising from the interplay between driving and dissipation. To isolate cooperative drive-bath effects, a non-additive GP contribution is introduced that separates the driven dissipative response from its driven-unitary and undriven-dissipative components. Periodic driving is found to either suppress or enhance bath-induced GP deformation depending on the interplay between drive and bath timescales. These trends are interpreted through Floquet spectral steering, whereby the drive redistributes the coherent dynamics among quasienergy sidebands whose transition frequencies and Fourier-resolved system-bath matrix elements determine their coupling to the environmental spectrum. Floquet analysis shows that the dominant dissipative pathways are governed jointly by Floquet matrix-element weights and bath spectral overlap, rather than by either alone. These results connect Floquet engineering, quantum dissipation, and GP dynamics and establish periodic driving as a means of controlling the GP of open quantum systems (OQSs).",
+      "pubdate": "Tue, 15 Sep 2026 04:12:21 +0000",
+      "authors": "Chirag Arora"
+    },
+    "05f23d6db4ee845403e3aaa82872a1ff": {
+      "id": "05f23d6db4ee845403e3aaa82872a1ff",
+      "link": "http://arxiv.org/abs/2609.16587",
+      "title": "Hartree-Fock Density-Matrix Renormalization Group for Very Long Chains",
+      "abstract": "We formulate Hartree--Fock as a density-matrix renormalization group (DMRG) sweep of a single Slater determinant, assuming a density--density electron--electron interaction. We compress the occupied state and long-range interaction separately, reducing each sweep step to a small local Fock problem. Exchange is retained throughout. Uniform antiferromagnetic hydrogen chains provide an almost ideal setting for this approach, while retaining the Coulomb interaction and its $1/r$ tail. We initialize and converge a chain of 100,000 electrons in 1.8 million spatial basis functions in about two hours on a 64-GB Mac mini, using less than a third of its memory. The work per sweep is nearly proportional to chain length, and the number of sweeps needed for convergence changes little from 1000 to 100,000 atoms. DMRG's compression of states and environments thus makes large HF calculations with long-range Hartree and exchange practical on an ordinary desktop computer.",
+      "pubdate": "Tue, 15 Sep 2026 03:32:15 +0000",
+      "authors": "Steven R. White"
+    },
+    "804c65bc9c42c9eebf2b5eca6e3cc991": {
+      "id": "804c65bc9c42c9eebf2b5eca6e3cc991",
+      "link": "http://arxiv.org/abs/2609.16520",
+      "title": "Truncated hybrid tensor networks for distributed quantum simulation",
+      "abstract": "Simulation of quantum many-body systems is a principal application of quantum computing, but available devices remain limited by the number of qubits and cannot accommodate systems of the desired size. One approach is to host a large evolution across several modest distributed systems that exchange classical information alone. Current protocols such as circuit knitting incur a quasi-probability sampling cost that grows exponentially with the number of remote gates across the cut, even when physical correlations across the cut are actually bounded. In this work, we present a truncated hybrid tensor network (THTN) framework in which a remote two-body gate is applied as a sum of local unitaries on the subsystems, linked by a classical connecting tensor, and an interface truncation retains Schmidt modes across the cut. Remote gates between the same subsystems can be merged on one connector, so non-one-dimensional models, such as layered partitions with strong intra-layer and weaker interlayer couplings, may be cast onto a one-dimensional cut. The retained non-negative Schmidt coefficients also define a sampling rule for local observables. We validate this distributed protocol by classical simulation against time-evolving block decimation (TEBD) at the same bond dimension. The truncated dynamics track the TEBD references on chains and ladders, with the clearest gain on a layered model.",
+      "pubdate": "Tue, 15 Sep 2026 02:09:46 +0000",
+      "authors": "Yong Liu, Guangyao Huang, Weixu Shi, Yizhi Wang, Jiandong Ouyang, Zeqian Chen, Junjie Wu"
+    },
+    "79001252a7121d6f273504ddc8187a8f": {
+      "id": "79001252a7121d6f273504ddc8187a8f",
+      "link": "http://arxiv.org/abs/2609.16160",
+      "title": "Noise-induced classical phases in optimally-unraveled random quantum circuits",
+      "abstract": "We study the classical simulability of open quantum dynamics using random Clifford circuits doped with non-Clifford phase rotations and subject to local noise. We unravel the dynamics into stochastic quantum trajectories simulated with Clifford-augmented matrix product states, and introduce a simulation cost that quantifies the classical resources required. Optimizing this cost over stochastic unravelings, we identify noise-induced classical phases: extended parameter regions in which the dynamics can be fully disentangled by Clifford operations at arbitrary circuit depth. Their existence depends on both the noise model \\emph{and} the unraveling. Using a geometric representation of quantum channels, we analytically determine optimal unravelings for a broad class of noise models, with numerical simulations confirming the predicted phase boundaries. We further relate the optimal cost to the unraveling-independent nonstabilizerness of the channel and show that, together with trajectory-resolved entanglement and nonstabilizerness, it classifies distinct dynamical regimes. Finally, we show that these classical phases disappear in the averaged density-matrix description, where no unraveling freedom remains. Our results show that the emergence of classicality in noisy random circuits depends on the measurement scheme adopted to probe it, and paves the way to further studies on the classical simulability of driven-dissipative dynamics.",
+      "pubdate": "Mon, 14 Sep 2026 18:04:11 +0000",
+      "authors": "Lorenzo Fioroni, Filippo Ferrari, Emanuele Tirrito"
+    },
     "643717eaa03f80447b80cf8ec0311299": {
       "id": "643717eaa03f80447b80cf8ec0311299",
       "link": "http://arxiv.org/abs/2609.15764",
@@ -8832,46 +8872,6 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
-    },
-    "910808efc13e0757c40df41a0f180f03": {
-      "id": "910808efc13e0757c40df41a0f180f03",
-      "link": "http://arxiv.org/abs/2609.17298",
-      "title": "Quantum-Inspired Trainable and Parameter-Efficient Tensor Networks for Image Inpainting",
-      "abstract": "This work introduces quantum-inspired tensor-network circuits as trainable transforms for image inpainting. Among the proposed architectures, the diagonal quantum Fourier transform (QFT) relaxation is invertible with $O(N^2 \\log N)$ computational cost for $N\\times N$ images, inherently preserving minimum coherence throughout training via its circuit structure and eliminating the need for explicit coherence penalties. Unconstrained gradient-based phase optimization (Riemannian-optimization free) enables efficient learning from randomly sampled training data, allowing the learned transform to generalize to test images observed through fixed sampling masks. Numerical tests show that the learned models outperform fixed transforms and per-image optimization while matching the performance of much larger unitary architectures, yet with far fewer parameters.",
-      "pubdate": "Tue, 15 Sep 2026 15:09:01 +0000",
-      "authors": "Shiwen An, Konstantinos Slavakis"
-    },
-    "8ebabe6a6a0fc40ae9c338d6cfaf71a7": {
-      "id": "8ebabe6a6a0fc40ae9c338d6cfaf71a7",
-      "link": "http://arxiv.org/abs/2609.16609",
-      "title": "Floquet Dressing and Bath Spectral Effects on the Geometric Phase of a Driven Dissipative Qubit",
-      "abstract": "Building on recent work by Wang et al. on the dissipative geometric phase (GP) in the spin-boson model (SBM), the GP dynamics of a periodically driven symmetric SBM are investigated using the numerically exact process-tensor time-evolving matrix product operator (PT-TEMPO) method. A symmetric two-level system subjected to a longitudinal monochromatic drive along the same system coordinate that couples to an Ohmic bosonic environment exhibits rich GP dynamics arising from the interplay between driving and dissipation. To isolate cooperative drive-bath effects, a non-additive GP contribution is introduced that separates the driven dissipative response from its driven-unitary and undriven-dissipative components. Periodic driving is found to either suppress or enhance bath-induced GP deformation depending on the interplay between drive and bath timescales. These trends are interpreted through Floquet spectral steering, whereby the drive redistributes the coherent dynamics among quasienergy sidebands whose transition frequencies and Fourier-resolved system-bath matrix elements determine their coupling to the environmental spectrum. Floquet analysis shows that the dominant dissipative pathways are governed jointly by Floquet matrix-element weights and bath spectral overlap, rather than by either alone. These results connect Floquet engineering, quantum dissipation, and GP dynamics and establish periodic driving as a means of controlling the GP of open quantum systems (OQSs).",
-      "pubdate": "Tue, 15 Sep 2026 04:12:21 +0000",
-      "authors": "Chirag Arora"
-    },
-    "05f23d6db4ee845403e3aaa82872a1ff": {
-      "id": "05f23d6db4ee845403e3aaa82872a1ff",
-      "link": "http://arxiv.org/abs/2609.16587",
-      "title": "Hartree-Fock Density-Matrix Renormalization Group for Very Long Chains",
-      "abstract": "We formulate Hartree--Fock as a density-matrix renormalization group (DMRG) sweep of a single Slater determinant, assuming a density--density electron--electron interaction. We compress the occupied state and long-range interaction separately, reducing each sweep step to a small local Fock problem. Exchange is retained throughout. Uniform antiferromagnetic hydrogen chains provide an almost ideal setting for this approach, while retaining the Coulomb interaction and its $1/r$ tail. We initialize and converge a chain of 100,000 electrons in 1.8 million spatial basis functions in about two hours on a 64-GB Mac mini, using less than a third of its memory. The work per sweep is nearly proportional to chain length, and the number of sweeps needed for convergence changes little from 1000 to 100,000 atoms. DMRG's compression of states and environments thus makes large HF calculations with long-range Hartree and exchange practical on an ordinary desktop computer.",
-      "pubdate": "Tue, 15 Sep 2026 03:32:15 +0000",
-      "authors": "Steven R. White"
-    },
-    "804c65bc9c42c9eebf2b5eca6e3cc991": {
-      "id": "804c65bc9c42c9eebf2b5eca6e3cc991",
-      "link": "http://arxiv.org/abs/2609.16520",
-      "title": "Truncated hybrid tensor networks for distributed quantum simulation",
-      "abstract": "Simulation of quantum many-body systems is a principal application of quantum computing, but available devices remain limited by the number of qubits and cannot accommodate systems of the desired size. One approach is to host a large evolution across several modest distributed systems that exchange classical information alone. Current protocols such as circuit knitting incur a quasi-probability sampling cost that grows exponentially with the number of remote gates across the cut, even when physical correlations across the cut are actually bounded. In this work, we present a truncated hybrid tensor network (THTN) framework in which a remote two-body gate is applied as a sum of local unitaries on the subsystems, linked by a classical connecting tensor, and an interface truncation retains Schmidt modes across the cut. Remote gates between the same subsystems can be merged on one connector, so non-one-dimensional models, such as layered partitions with strong intra-layer and weaker interlayer couplings, may be cast onto a one-dimensional cut. The retained non-negative Schmidt coefficients also define a sampling rule for local observables. We validate this distributed protocol by classical simulation against time-evolving block decimation (TEBD) at the same bond dimension. The truncated dynamics track the TEBD references on chains and ladders, with the clearest gain on a layered model.",
-      "pubdate": "Tue, 15 Sep 2026 02:09:46 +0000",
-      "authors": "Yong Liu, Guangyao Huang, Weixu Shi, Yizhi Wang, Jiandong Ouyang, Zeqian Chen, Junjie Wu"
-    },
-    "79001252a7121d6f273504ddc8187a8f": {
-      "id": "79001252a7121d6f273504ddc8187a8f",
-      "link": "http://arxiv.org/abs/2609.16160",
-      "title": "Noise-induced classical phases in optimally-unraveled random quantum circuits",
-      "abstract": "We study the classical simulability of open quantum dynamics using random Clifford circuits doped with non-Clifford phase rotations and subject to local noise. We unravel the dynamics into stochastic quantum trajectories simulated with Clifford-augmented matrix product states, and introduce a simulation cost that quantifies the classical resources required. Optimizing this cost over stochastic unravelings, we identify noise-induced classical phases: extended parameter regions in which the dynamics can be fully disentangled by Clifford operations at arbitrary circuit depth. Their existence depends on both the noise model \\emph{and} the unraveling. Using a geometric representation of quantum channels, we analytically determine optimal unravelings for a broad class of noise models, with numerical simulations confirming the predicted phase boundaries. We further relate the optimal cost to the unraveling-independent nonstabilizerness of the channel and show that, together with trajectory-resolved entanglement and nonstabilizerness, it classifies distinct dynamical regimes. Finally, we show that these classical phases disappear in the averaged density-matrix description, where no unraveling freedom remains. Our results show that the emergence of classicality in noisy random circuits depends on the measurement scheme adopted to probe it, and paves the way to further studies on the classical simulability of driven-dissipative dynamics.",
-      "pubdate": "Mon, 14 Sep 2026 18:04:11 +0000",
-      "authors": "Lorenzo Fioroni, Filippo Ferrari, Emanuele Tirrito"
     }
   }
 }
