@@ -1,6 +1,38 @@
 {
-  "last_updated": "2026-09-21T18:02:17.193167+00:00",
+  "last_updated": "2026-09-22T04:02:21.695246+00:00",
   "entries": {
+    "560168b6ffe9a0001e9f7ed0a679c8d7": {
+      "id": "560168b6ffe9a0001e9f7ed0a679c8d7",
+      "link": "http://arxiv.org/abs/2609.21846",
+      "title": "Sine-Gordon Model with Bosonic Tensor Networks: Continuum Matching and Soliton Scattering",
+      "abstract": "We use bosonic tensor networks to connect the lattice sine-Gordon model in the Hamiltonian formulation quantitatively to its continuum theory. Matching the lattice vertex operator to its conformal normalization at the free-boson ultraviolet fixed point yields the exact relation between the bare lattice coupling and the renormalized continuum mass parameter. The soliton mass then approaches Zamolodchikov's exact continuum prediction throughout the studied parameter range, without adjustable parameters. Using uniform matrix product states and a quasiparticle ansatz, we also recover the relativistic soliton dispersion and the two lightest breather masses at the percent level. We simulate real-time collisions of Gaussian soliton-antisoliton wave packets near a reflectionless point and extract the Wigner spatial displacement. We compare this displacement with the exact continuum prediction obtained from the momentum derivative of the transmission phase, recovering its characteristic rapidity dependence. Our bosonic simulations provide a foundation for nonintegrable extensions, offer lessons for renormalization in other Hamiltonian lattice field theories, including gauge theories, and provide benchmarks for continuous-variable quantum simulations.",
+      "pubdate": "Fri, 18 Sep 2026 14:42:14 +0000",
+      "authors": "Florian Hechenberger, Tommaso Rainaldi, Felix Ringer"
+    },
+    "2edf129b109a51b342b8d3c07a5b233d": {
+      "id": "2edf129b109a51b342b8d3c07a5b233d",
+      "link": "http://arxiv.org/abs/2609.21731",
+      "title": "Universal Dzyaloshinski-Moriya interaction dictates pairing in unconventional superconductor families",
+      "abstract": "The collinear-antiferromagnetic spin-fluctuation paradigm has long guided unconventional superconductivity research, yet fails to reconcile the noncollinear spin phenomena observed across cuprates, iron-based superconductors, and nickelates. Using extensive first-principles calculations and unbiased large-scale DMRG simulations, we show that Dzyaloshinski-Moriya interaction (DMI)-arising from local inversion-symmetry breaking-is a common ingredient across these families. This DMI unifies hallmark observations in parent compounds-incommensurate orders, spin-wave gaps, and noncollinear textures. Under hole doping, strong DMI drives spin vortices to merge with pi-shifted hole stripes, forming hybrid vortex-hole stripe phases. These phases stabilize charge order while supporting, not suppressing, superconductivity. By contrast, under electron doping, these vortices pin holes and suppress long-range superconductivity. Our results establish DMI as a unifying link between noncollinear magnetism and superconductivity, identifying hole-strip-vortex coupling as a microscopic pairing engine. Given that DMI is common across major superconductor families, these findings challenge the prevailing pairing mechanism and offer an experimentally testable roadmap for materials optimization.",
+      "pubdate": "Fri, 18 Sep 2026 13:08:36 +0000",
+      "authors": "Baishun Yang, Yida Chu, Xuelei Sui, Haiqing Lin, Shijie Hu, Bing Huang"
+    },
+    "c2855a3d06b8a3e3ab120951ac17ee63": {
+      "id": "c2855a3d06b8a3e3ab120951ac17ee63",
+      "link": "http://arxiv.org/abs/2609.21471",
+      "title": "A Geodesic Route toward Holography beyond AdS: Tessellating the Schwarzschild Black Hole",
+      "abstract": "In vacuum anti-de Sitter (AdS) space, the geometry admits a perfect tessellation by a geodesic network. This tessellation characterizes the background exactly, and a partial entanglement entropy (PEE) tensor-network toy model of AdS/CFT can be defined on it. It has so far been unclear whether this construction can be extended beyond vacuum AdS. In this paper we take the first step in this direction. We show that the exterior region of the Schwarzschild black hole and its Einstein--Rosen bridge are perfectly tessellated by a specific geodesic gas emitted from the boundary, so that Crofton reconstruction holds in these regions. We then prove that such a geodesic tessellation and the Crofton reconstruction it defines extend to more generic Riemannian manifolds. This allows us to construct a PEE tensor-network model of holographic duality on more generic geometric backgrounds. In the case of the PEE tensor-network model for the Schwarzschild background, we can concretely realize the Bekenstein--Hawking entropy, the Ryu--Takayanagi formula and the ER=EPR proposal. Our approach opens a new route towards holographic toy models beyond AdS/CFT.",
+      "pubdate": "Fri, 18 Sep 2026 08:18:27 +0000",
+      "authors": "Shi Gu, Qiang Wen, Haocheng Zhong, Yiwei Zhong"
+    },
+    "599ef5d0cc4b2bd1e81dd757a263ffc8": {
+      "id": "599ef5d0cc4b2bd1e81dd757a263ffc8",
+      "link": "http://arxiv.org/abs/2609.21290",
+      "title": "Efficient MPO Construction for Long-Range Hamiltonians with Periodic Boundary Conditions: Application to Many-Body Dynamics",
+      "abstract": "Matrix product operator (MPO) serves as a fundamental component in tensor network simulations of quantum many-body dynamics. We employ an MPO construction that introduces additional propagation channels to embed both periodic boundary conditions and finite-range couplings directly into an open boundary MPO. We apply this construction within the time-dependent variational principle (TDVP) framework to simulate quench dynamics in a spin-1/2 chain with finite-range interactions, and benchmark the results numerically against the fourth-order Runge-Kutta method, finding excellent agreement for both single-body and two-body observables. The approach offers a practical route for tensor network simulations of many-body dynamics in periodic finite-range systems.",
+      "pubdate": "Fri, 18 Sep 2026 04:00:23 +0000",
+      "authors": "Xin Wang, Bo Xiong"
+    },
     "0abf815cf28ac7b3ef101a6df33a24b7": {
       "id": "0abf815cf28ac7b3ef101a6df33a24b7",
       "link": "http://arxiv.org/abs/2609.20802",
@@ -9016,38 +9048,6 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
-    },
-    "560168b6ffe9a0001e9f7ed0a679c8d7": {
-      "id": "560168b6ffe9a0001e9f7ed0a679c8d7",
-      "link": "http://arxiv.org/abs/2609.21846",
-      "title": "Sine-Gordon Model with Bosonic Tensor Networks: Continuum Matching and Soliton Scattering",
-      "abstract": "We use bosonic tensor networks to connect the lattice sine-Gordon model in the Hamiltonian formulation quantitatively to its continuum theory. Matching the lattice vertex operator to its conformal normalization at the free-boson ultraviolet fixed point yields the exact relation between the bare lattice coupling and the renormalized continuum mass parameter. The soliton mass then approaches Zamolodchikov's exact continuum prediction throughout the studied parameter range, without adjustable parameters. Using uniform matrix product states and a quasiparticle ansatz, we also recover the relativistic soliton dispersion and the two lightest breather masses at the percent level. We simulate real-time collisions of Gaussian soliton-antisoliton wave packets near a reflectionless point and extract the Wigner spatial displacement. We compare this displacement with the exact continuum prediction obtained from the momentum derivative of the transmission phase, recovering its characteristic rapidity dependence. Our bosonic simulations provide a foundation for nonintegrable extensions, offer lessons for renormalization in other Hamiltonian lattice field theories, including gauge theories, and provide benchmarks for continuous-variable quantum simulations.",
-      "pubdate": "Fri, 18 Sep 2026 14:42:14 +0000",
-      "authors": "Florian Hechenberger, Tommaso Rainaldi, Felix Ringer"
-    },
-    "2edf129b109a51b342b8d3c07a5b233d": {
-      "id": "2edf129b109a51b342b8d3c07a5b233d",
-      "link": "http://arxiv.org/abs/2609.21731",
-      "title": "Universal Dzyaloshinski-Moriya interaction dictates pairing in unconventional superconductor families",
-      "abstract": "The collinear-antiferromagnetic spin-fluctuation paradigm has long guided unconventional superconductivity research, yet fails to reconcile the noncollinear spin phenomena observed across cuprates, iron-based superconductors, and nickelates. Using extensive first-principles calculations and unbiased large-scale DMRG simulations, we show that Dzyaloshinski-Moriya interaction (DMI)-arising from local inversion-symmetry breaking-is a common ingredient across these families. This DMI unifies hallmark observations in parent compounds-incommensurate orders, spin-wave gaps, and noncollinear textures. Under hole doping, strong DMI drives spin vortices to merge with pi-shifted hole stripes, forming hybrid vortex-hole stripe phases. These phases stabilize charge order while supporting, not suppressing, superconductivity. By contrast, under electron doping, these vortices pin holes and suppress long-range superconductivity. Our results establish DMI as a unifying link between noncollinear magnetism and superconductivity, identifying hole-strip-vortex coupling as a microscopic pairing engine. Given that DMI is common across major superconductor families, these findings challenge the prevailing pairing mechanism and offer an experimentally testable roadmap for materials optimization.",
-      "pubdate": "Fri, 18 Sep 2026 13:08:36 +0000",
-      "authors": "Baishun Yang, Yida Chu, Xuelei Sui, Haiqing Lin, Shijie Hu, Bing Huang"
-    },
-    "c2855a3d06b8a3e3ab120951ac17ee63": {
-      "id": "c2855a3d06b8a3e3ab120951ac17ee63",
-      "link": "http://arxiv.org/abs/2609.21471",
-      "title": "A Geodesic Route toward Holography beyond AdS: Tessellating the Schwarzschild Black Hole",
-      "abstract": "In vacuum anti-de Sitter (AdS) space, the geometry admits a perfect tessellation by a geodesic network. This tessellation characterizes the background exactly, and a partial entanglement entropy (PEE) tensor-network toy model of AdS/CFT can be defined on it. It has so far been unclear whether this construction can be extended beyond vacuum AdS. In this paper we take the first step in this direction. We show that the exterior region of the Schwarzschild black hole and its Einstein--Rosen bridge are perfectly tessellated by a specific geodesic gas emitted from the boundary, so that Crofton reconstruction holds in these regions. We then prove that such a geodesic tessellation and the Crofton reconstruction it defines extend to more generic Riemannian manifolds. This allows us to construct a PEE tensor-network model of holographic duality on more generic geometric backgrounds. In the case of the PEE tensor-network model for the Schwarzschild background, we can concretely realize the Bekenstein--Hawking entropy, the Ryu--Takayanagi formula and the ER=EPR proposal. Our approach opens a new route towards holographic toy models beyond AdS/CFT.",
-      "pubdate": "Fri, 18 Sep 2026 08:18:27 +0000",
-      "authors": "Shi Gu, Qiang Wen, Haocheng Zhong, Yiwei Zhong"
-    },
-    "599ef5d0cc4b2bd1e81dd757a263ffc8": {
-      "id": "599ef5d0cc4b2bd1e81dd757a263ffc8",
-      "link": "http://arxiv.org/abs/2609.21290",
-      "title": "Efficient MPO Construction for Long-Range Hamiltonians with Periodic Boundary Conditions: Application to Many-Body Dynamics",
-      "abstract": "Matrix product operator (MPO) serves as a fundamental component in tensor network simulations of quantum many-body dynamics. We employ an MPO construction that introduces additional propagation channels to embed both periodic boundary conditions and finite-range couplings directly into an open boundary MPO. We apply this construction within the time-dependent variational principle (TDVP) framework to simulate quench dynamics in a spin-1/2 chain with finite-range interactions, and benchmark the results numerically against the fourth-order Runge-Kutta method, finding excellent agreement for both single-body and two-body observables. The approach offers a practical route for tensor network simulations of many-body dynamics in periodic finite-range systems.",
-      "pubdate": "Fri, 18 Sep 2026 04:00:23 +0000",
-      "authors": "Xin Wang, Bo Xiong"
     }
   }
 }
