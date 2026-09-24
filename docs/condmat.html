@@ -536,10 +536,120 @@
         </div>
     </div>
     
-<p><em>Generated on 2026-09-24 03:53:55</em></p>
-<p>Total papers: 1146
+<p><em>Generated on 2026-09-24 16:47:32</em></p>
+<p>Total papers: 1157
 </p>
 <h2>Recent Papers</h2>
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.28229'>Distilling Datasets into Shallow Circuits for Quantum Machine Learning</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Guang Lin, Qibin Zhao</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.28229 | <strong>Date:</strong> 2026-09-23</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> In quantum machine learning, training a quantum model requires each sample to be prepared as a quantum state by a loading circuit that must be re-executed for every shot at every training step. The total burden therefore scales with both the number of samples and the cost of preparation. Existing approaches reduce the loading cost of individual inputs or distill data and compress their representations before applying a separate quantum encoding. This separation can leave resulting samples costly to prepare or cause additional loss of the information during subsequent compilation into shallow circuits. We propose quantum dataset distillation (QDD), which distills the full dataset directly into a small set of shallow circuits. Each synthetic sample is parameterized as a staircase circuit corresponding to a low-rank tensor network, making the sample and its loading circuit the same object. The circuit parameters are optimized classically with exact gradients using distribution matching under an explicit loading budget, without post-hoc state-preparation synthesis. On MNIST and Fashion-MNIST, only 10 circuits per class ($0.0017\times$ the full dataset size) achieve accuracy comparable to full-data training and outperform selection baselines under matched sample and loading budgets. In finite-shot training, QDD reaches 95\% of the full-data accuracy with more than $100\times$ fewer cumulative shots. Additionally, we validate QDD on real quantum hardware, demonstrating its practical deployment potential.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.28029'>Tensor Decomposition of Transformer Key-Value Caches: Spectral Structure and Format Comparison</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Rahul Krishnan, Volker Schulz</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.28029 | <strong>Date:</strong> 2026-09-23</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> The key-value (KV) cache of autoregressive transformers can be viewed as a fourth-order tensor spanning attention heads, tokens, features, and grouped layers. We measure the singular-value spectra of all four mode unfoldings on Mistral-7B-v0.3 and LLaMA-2-13B and compare four standard tensor decompositions: Tucker, CP, tensor train, and t-SVD, at matched storage. The spectra partition the four axes into two classes. The token and feature modes carry low-rank structure, particularly for keys. The head and layer modes are nearly full-rank and resist compression at any practical error level. Among the four decompositions, Tucker achieves the lowest reconstruction error at every compression ratio from $2\times$ to $5\times$, because it can leave the full-rank modes untouched. Comparisons with two-dimensional unfolding baselines show that the preferred representation differs between keys and values: 2D methods achieve lower key error, while four-way Tucker achieves lower value error at matched storage. A mode-pinning theorem certifies the full-rank preservation from the measured spectra alone. Two further spectral properties affect the compressible modes without touching the full-rank ones: values reach a higher error floor than keys at every ratio, and post-RoPE keys lose $41\%$ - $64\%$ of their pre-RoPE compressibility on both models.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.27993'>Spectral Gap of the Hexagonal AKLT Model via Boundary-State Factorization</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Michael J. Kastoryano</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.27993 | <strong>Date:</strong> 2026-09-23</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> We establish a sufficient condition under which overlapping PEPS boundary states satisfy the approximate factorization criterion for a spectral gap. The condition is formulated in terms of the boundary response induced by cutting bonds through the center of a rectangular region. We decompose this response into a contribution common to all four associated regions and a remainder measured in the instantaneous boundary metric. A single linear transport absorbs the common contribution and yields compatible factorization operators, with an error controlled solely by the remainder. We apply this framework to Ising PEPS and to the spin-3/2 AKLT model on the hexagonal lattice. For Ising PEPS, the required boundary-response estimate reduces to a Dobrushin-Shlosman-type condition. For the hexagonal AKLT model, a rooted expansion in paths and loops isolates the common response, while a local comparison of boundary states together with a scalar Kotecký-Preiss estimate controls the remaining terms. In both cases, the factorization error decays exponentially with the overlap width, up to a prefactor proportional to the cut length. For AKLT, we establish the corresponding physical projector estimate and obtain a uniform spectral gap. For Ising PEPS, the gap implication additionally requires compatible injective regional contractions, as specified in the paper. More generally, the method provides a systematic route from locality of PEPS boundary response to spectral gaps of two-dimensional parent Hamiltonians.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.27648'>Charge and spin qubits in interacting quantum dots coupled to Rashba-active leads</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Grazia Di Bello, Fabrizio Pavan, Mattia Trama, Roberta Citro, Giulio De Filippis, Carmine Antonio Perroni</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.27648 | <strong>Date:</strong> 2026-09-23</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> We present a unified study of charge and spin qubits encoded in a single interacting quantum dot tunnel-coupled to Rashba fermionic leads. The dot is described by an Anderson impurity Hamiltonian with either repulsive or attractive local interactions and a magnetic field of arbitrary orientation. In the repulsive regime, a spin qubit is encoded in the singly occupied spin sector, whereas in the attractive regime, close to the degeneracy between the empty and doubly occupied configurations, these two states define a charge-qubit subspace. We combine a weak-coupling Lindblad master equation in the Markovian secular limit with numerically controlled matrix-product-state simulations of the full dot-reservoir system. In equilibrium, we identify magnetic pair breaking in the attractive regime and a weak Rashba-induced magnetic anisotropy when the magnetic field is rotated relative to the spin-orbit axis. In the dynamical regime, relaxation and decoherence are controlled by the energetic gap between the logical manifold and nearby leakage states, and are further enhanced by Rashba-dependent tunneling. These findings show that even a minimal Anderson-impurity description captures key ingredients for coherent spin and charge qubits: the energetic structure of leakage states and spin-orbit-dependent dot-lead hybridization.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.27530'>Fate of average symmetry-protected topological states under symmetry-preserving quantum operations</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Yoshihito Kuno, Takahiro Orito</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.27530 | <strong>Date:</strong> 2026-09-23</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> The fate of average symmetry-protected topological (ASPT) states based on the one-dimensional cluster state is investigated by using the Choi mapping, namely, the doubled Hilbert-space formalism. By introducing two effective spins, $τ$ and $η$, on each doubled rung, we obtain a transparent representation of the ASPT parent Hamiltonian and systematically identify the conserved stabilizers and the corresponding orders. We further study symmetry-preserving operations that deform the ASPT by combining qualitative effective-Hamiltonian and systematic parent-Hamiltonian analyses with numerical matrix-product-state filtering calculations. We find that although the ASPT remains robust over a broad range of decoherence strengths, strong-to-weak spontaneous symmetry breaking (SWSSB) becomes exact in the maximal-decoherence limit. In addition, we consider symmetry preserving no-click postselection, which removes the exact conservation law supporting the Rényi-2 string order of the ASPT and drives the system toward weak-symmetry spontaneous symmetry breaking (WSSB). Again, the ASPT remains robust over a broad range of postselection strengths, with WSSB becoming pronounced only near the projective limit and exact at the limit itself.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.27497'>Optimal low-rank compression of quantum dynamics</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Hugo Mackay, Donghoon Kim, Tan Van Vu, Tomotaka Kuwahara</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.27497 | <strong>Date:</strong> 2026-09-23</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> Local quantum interactions generate dynamics in an exponentially large Hilbert space, yet locality and entanglement restrict the information that can spread and accumulate. Bounds on propagation and entanglement growth, together with tensor networks, exploit these restrictions to discard information unnecessary for describing the evolution. This leads to a sharper question: how much information must any low-rank representation retain? Here we determine these limits, up to logarithmic factors, for short-range interactions. For time-independent evolution, the optimal rank obeys $\log D=\widetilde O(t+\sqrt{\log(1/ε)})$, with matching lower bounds fixing the accuracy exponent $1/2$; for arbitrary driving, matching fixed-time bounds instead give $2/3$. Correspondingly, the corresponding dynamical entanglement spectra exhibit distinct small-$α$ Rényi laws, $α^{-1}$ and $α^{-2}$. In one dimension, the static limit is constructively attained by an explicit MPO algorithm, with an analogous extension to Liouvillian dynamics. Together, these results determine the irreducible information required to represent local quantum evolution and uncover distinct entanglement structures in static and driven dynamics.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.27390'>Higher-order Spatially Separated Correlations and Quantum Magic in the Long-range Transverse Field Ising Model</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Paweł Cieśliński, Wiesław Laskowski</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.27390 | <strong>Date:</strong> 2026-09-23</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> Long-range interacting quantum systems exhibit interesting phenomena beyond the nearest-neighbours regime. Such interactions can reach further separated particles and change the behaviour of many-body correlations. Here, we analyse their structure in the antiferromagnetic long-range interaction transverse field Ising model with power-law interactions decaying as $1/r^α$. We examine the spatial behaviour of basis-independent total multipartite correlations, called sector lengths $S_k$, of its ground state in the vicinity of critical points for different interaction exponents $α$ and fixed system size. These correlation functions were shown to indicate entanglement and the existence of local realistic models, allowing us to make claims about the Bell nonlocality and entanglement in the system. We further investigate them in the context of non-stabiliserness, often referred to as quantum magic, which holds information on their classical simulability and usefulness for quantum computation. We evaluate R{é}nyi stabiliser entropy near and outside the criticality and show that cumulative magic, up to the critical point, increases with $α$ for all of the examined system sizes. Our results provide new insights into the interplay between the long-range interactions, observable non-classical phenomena and their classical simulability.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.27306'>Discrete Diffusion Models via Evolving Variational Autoregressive Networks</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Kewen Pan, Ying Tang</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.27306 | <strong>Date:</strong> 2026-09-23</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> Conventional score-based diffusion models learn scores without representing normalized densities, whereas tractable normalized models support both sampling and direct likelihood evaluation. A recent tensor-network approach provides such a representation but is largely restricted to low-dimensional lattices. Here we introduce a discrete diffusion model that parameterizes normalized probability distributions using variational autoregressive networks. Explicit Markov jump operators govern the forward noising and reverse denoising dynamics, extending discrete diffusion models with normalized distributions to spin systems on higher-dimensional lattices. We apply this framework to the two- and three-dimensional Ising models across ordered, critical, and disordered regimes, accurately computing thermodynamic quantities including free energy, energy, and magnetization. We further integrate the framework with Monte Carlo sampling, using adaptive diffusion steps to maintain high acceptance rates even at low temperatures while enhancing sample diversity. These results establish a neural-network framework for the discrete diffusion model with normalized probability distributions.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.27128'>Efficient Learning of Clifford-Scrambled Product States</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Tobias Haug</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.27128 | <strong>Date:</strong> 2026-09-22</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> Clifford circuits acting on product magic states provide a compact ansatz exhibiting extensive magic, volume-law entanglement, and even classically hard sampling under standard complexity assumptions. Here, we efficiently recover its hidden product subsystems from two-copy Bell sampling. Quadratic relations between Bell samples determine the irreducible blocks after removing Pauli stabilizers, and binary linear algebra constructs a Clifford disentangler. For logarithmic-size blocks, approximate learning of the full state is efficient whenever the state remains inverse-polynomially separated from acquiring additional Pauli stabilizers. We efficiently learn $n$-qubit states prepared by random $T$-doped Clifford circuits with $T$-gate density below one via $O(n^2)$ Bell samples, and disentangle hidden product blocks in Clifford-augmented matrix product states. For unitary learning, we exactly learn $T$-depth-one circuits using $O(n^2)$ queries. Finally, we rule out pseudorandom states and unitaries with a product bipartition hidden by Clifford circuits.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.26941'>Measurement-Only Dynamical Phase Transitions in Spin-1 Chains</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Kemal Aziz, Haining Pan, J. H. Pixley</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.26941 | <strong>Date:</strong> 2026-09-22</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> We study measurement-only dynamics in an interacting spin-1 chain, using forced, normalized local projections rather than Born-rule-sampled measurement outcomes. Starting from the nearest-neighbor (NN) Affleck-Kennedy-Lieb-Tasaki (AKLT) Haldane symmetry-protected topological state, we show that competing local projectors drive this order toward three distinct dynamical phases: a featureless topologically trivial product state, an explicitly dimerized valence-bond-solid state, and a topologically trivial next-nearest-neighbor (NNN) AKLT state consisting of two interwoven Haldane chains. Using matrix product state and exact statevector simulations, we identify continuous transitions among these phases and characterize them using nonlocal string order parameters, local dimer order, and entanglement scaling. For the NN-NNN AKLT model, finite-size signatures are consistent with an intervening extended critical regime rather than a single direct transition. These results extend studies of monitored topology to a bosonic SPT and show that local projections can control both topological and valence-bond-solid order.
+                    </div>
+                </article>
+                <hr>
+                
 
                 <article class='paper-entry'>
                     <h3><a href='http://arxiv.org/abs/2609.26516'>Tensor Network Simulation of Dynamic Circuits</a></h3>
@@ -2120,6 +2230,17 @@
                     <p class='meta'><strong>arXiv ID:</strong> 2608.23707 | <strong>Date:</strong> 2026-08-24</p>
                     <div class='abstract'>
                         <strong>Abstract:</strong> Learning a quantum system's Hamiltonian is crucial for understanding and controlling its dynamics and has recently become a topic of widespread interest. To understand the learning protocol's error tolerances, i.e. its stability in the presence of inevitable errors, this work utilizes tensor network techniques to emulate Hamiltonian learning workflows at scale and with noise. Specifically, we employed a Hamiltonian learning technique based on approximate stationary states which are constructed using matrix product tools. We provide analytic bounds on the Hamiltonian learning estimation errors and perform numerical simulations that highlight learning error's stability under two families of errors. Using our workflow, we are able to scale up the protocol and learn mixed-field Ising model Hamiltonians of an $N=300$ site spin chain. By simulating the protocol at large scale, and empirically studying its practical limitations, our analysis of how errors affect the Hamiltonian learning process provides valuable lessons for future experiments. We conclude by discussing the avenues our work opens as well as future work that can support Hamiltonian learning experiments.
+                    </div>
+                </article>
+                <hr>
+                
+
+                <article class='paper-entry'>
+                    <h3><a href='http://arxiv.org/abs/2609.27940'>Movable seams in root-of-unity XXZ chains: Relative flux classes and antiunitary spectral pairing</a></h3>
+                    <p class='meta'><strong>Authors:</strong> Boliang Yu, Ruixin Zhou, Meisen Gao</p>
+                    <p class='meta'><strong>arXiv ID:</strong> 2609.27940 | <strong>Date:</strong> 2026-08-24</p>
+                    <div class='abstract'>
+                        <strong>Abstract:</strong> Starting from the cyclic duality tensors introduced by Vernier, Miao, and Yamazaki (VMY), whose endpoint-traced matrix-product operators obey $\mathbb Z_N$ Tambara--Yamagami fusion and realize topological defect lines of the compactified-boson conformal field theory, we retain the virtual endpoint as an $N$-state dynamical degree of freedom and construct an exactly movable seam in the spin-$\tfrac12$ XXZ chain at $q=\mathrm e^{\mathrm iπM/N}$ with $\gcd(M,N)=1$. The local movement identity holds for any unitary $q$-Weyl pair; in the finite cyclic realization, all output phases are locally gauge equivalent and share the same four seam eigenvalues. On a ring, the output gauge becomes a directed twist on a single bond, while endpoint conjugacy reduces the $2N$ labels to two relative $\mathbb Z_2$ flux classes. An explicit antiunitary symmetry protects the class $η\equiv M-1\pmod 2$: for even $N$ it pairs distinct charge sectors isospectrally, whereas for odd $N$ it fixes one sector and squares to $-I$ there. Hence every many-body energy eigenspace in the protected class has even multiplicity. The source value $η_{\rm VMY}=1-M$ satisfies this condition for every coprime root, whereas the ungauged value $η=0$ does so only for odd $M$. Exact finite-size controls show that the opposite class can contain simple levels, so a global flux invisible to local gauge equivalence distinguishes the two classes spectrally.
                     </div>
                 </article>
                 <hr>
