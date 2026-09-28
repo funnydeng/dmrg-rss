@@ -3,7 +3,10 @@
 LaTeX rendering module using KaTeX CLI.
 Handles preprocessing and safe rendering of LaTeX formulas.
 """
+import os
 import re
+import json
+import shutil
 import subprocess
 import logging
 
@@ -59,139 +62,200 @@ class LaTeXRenderer:
         
         return processed
     
-    def render_formula(self, formula, display_mode=False):
-        """Render a formula, reusing the result for formulas seen before."""
-        key = (formula, display_mode)
-        if key not in self._cache:
-            self._cache[key] = self._render_formula(formula, display_mode)
-        return self._cache[key]
+    def render_formula(self, formula, display_mode=False, output="html"):
+        """
+        Render one formula (cached). Returns KaTeX markup, or the original
+        $...$ / $$...$$ text if it cannot be rendered.
+        """
+        self.prerender([(formula, display_mode)], output)
+        return self._cache[(formula, display_mode, output)]
 
-    def _render_formula(self, formula, display_mode=False):
+    def prerender(self, formulas, output="html"):
         """
-        Safely render a single LaTeX formula using KaTeX CLI.
-        
-        Args:
-            formula (str): LaTeX formula to render
-            display_mode (bool): Whether to render in display mode
-            
+        Render all given (formula, display_mode) pairs that are not cached yet,
+        in as few node processes as possible.
+        """
+        pending = {}
+        for formula, display_mode in formulas:
+            key = (formula, display_mode, output)
+            if key in self._cache or key in pending:
+                continue
+            fallback = f"$${formula}$$" if display_mode else f"${formula}$"
+            if not formula or (self.skip_numeric_prices and len(formula.strip()) <= 10
+                               and re.match(r'^[\d.,\s]+$', formula.strip())):
+                # Empty, or price-like ($99.99) when configured to skip those
+                self._cache[key] = fallback
+                continue
+            pending[key] = {"tex": self.preprocess_formula(formula).strip(), "macros": {}, "fallback": fallback}
+
+        # Formulas using an author's own macros (\order, \ZZ, ...) fail with
+        # "Undefined control sequence"; define the macro and try again.
+        for _ in range(MAX_MACRO_ROUNDS):
+            if not pending:
+                break
+            keys = list(pending)
+            results = self._katex_many(
+                [(pending[k]["tex"], k[1], KATEX_FORMATS[output], pending[k]["macros"]) for k in keys])
+            retry = {}
+            for key, (ok, result) in zip(keys, results):
+                item = pending[key]
+                if ok and result and ('<span' in result or '<math' in result):
+                    self._cache[key] = self._postprocess(result, output)
+                    continue
+                match = re.search(r'Undefined control sequence: (\\[A-Za-z]+)', result or "")
+                if match and match.group(1) not in item["macros"]:
+                    item["macros"][match.group(1)] = fallback_macro(match.group(1))
+                    retry[key] = item
+                else:
+                    logging.warning(f"[KaTeX Error] Failed to render formula: {key[0]} ({(result or '').splitlines()[0] if result else 'no output'})")
+                    self._cache[key] = item["fallback"]
+            pending = retry
+        for key, item in pending.items():
+            logging.warning(f"[KaTeX Error] Too many undefined macros in formula: {key[0]}")
+            self._cache[key] = item["fallback"]
+
+    @staticmethod
+    def _postprocess(rendered, output):
+        if output == "mathml":
+            # Drop the TeX source annotation: feed readers that strip <math>
+            # tags would otherwise show every formula twice.
+            rendered = re.sub(r'<annotation encoding="application/x-tex">.*?</annotation>', '', rendered, flags=re.S)
+        return rendered
+
+    def _katex_many(self, items):
+        """
+        Render [(tex, display_mode, output, macros)] with KaTeX.
+
         Returns:
-            str: Rendered HTML or fallback LaTeX string
+            list: [(ok, html_or_error_message)]
         """
+        katex_dir = _katex_package_dir()
+        if katex_dir and len(items) > 1:
+            try:
+                result = subprocess.run(
+                    ["node", BATCH_SCRIPT, katex_dir],
+                    input=json.dumps(items).encode("utf-8"),
+                    capture_output=True, check=True,
+                    timeout=self.timeout * len(items) + 60,
+                )
+                return [(r["ok"], r["html"] if r["ok"] else r["error"]) for r in json.loads(result.stdout)]
+            except Exception as e:
+                logging.warning(f"[KaTeX] Batch rendering failed ({e}); rendering one formula at a time")
+        return [self._katex_cli(*item) for item in items]
+
+    def _katex_cli(self, tex, display_mode, output, macros):
+        """Render one formula with the katex CLI. Returns (ok, html_or_error)."""
+        cmd = ["katex", "--format", output]
+        if display_mode:
+            cmd.append("--display-mode")
+        for name, expansion in macros.items():
+            cmd += ["--macro", f"{name}:{expansion}"]
         try:
-            # Skip empty formulas
-            if not formula:
-                return f"${formula}$" if not display_mode else f"$${formula}$$"
-            
-            # Optionally skip price-like patterns (e.g., $99.99, $10)
-            # Only skip if skip_numeric_prices is True
-            if self.skip_numeric_prices:
-                formula_stripped = formula.strip()
-                if len(formula_stripped) <= 10 and re.match(r'^[\d.,\s]+$', formula_stripped):
-                    # This looks like a price, not a formula
-                    return f"${formula}$" if not display_mode else f"$${formula}$$"
-            
-            # Preprocess formula (now just returns original)
-            processed_formula = self.preprocess_formula(formula)
-            
-            cmd = ["katex"]
-            if display_mode:
-                cmd.append("--display-mode")
-            
-            result = subprocess.run(
-                cmd,
-                input=processed_formula.strip().encode("utf-8"),
-                capture_output=True,
-                check=True,
-                timeout=self.timeout
-            )
-            
-            rendered = result.stdout.decode("utf-8").strip()
-            
-            if rendered and ('<span' in rendered or '<div' in rendered):
-                return rendered
-            else:
-                logging.warning(f"[KaTeX Warning] Unexpected output for formula: {formula}")
-                return f"${formula}$" if not display_mode else f"$${formula}$$"
-                
-        except subprocess.TimeoutExpired:
-            logging.warning(f"[KaTeX Error] Timeout rendering formula: {formula}")
-            return f"${formula}$" if not display_mode else f"$${formula}$$"
+            result = subprocess.run(cmd, input=tex.encode("utf-8"), capture_output=True,
+                                    check=True, timeout=self.timeout)
+            return True, result.stdout.decode("utf-8").strip()
         except subprocess.CalledProcessError as e:
-            logging.warning(f"[KaTeX Error] Failed to render formula: {formula}")
-            if e.stderr:
-                error_msg = e.stderr.decode('utf-8')
-                logging.warning(f"Error details: {error_msg}")
-            # Try to provide a fallback with plain text representation
-            fallback = self.preprocess_formula(formula)
-            if fallback != formula:
-                logging.info(f"[KaTeX Fallback] Falling back to plain text: {fallback}")
-            return f"${formula}$" if not display_mode else f"$${formula}$$"
+            return False, e.stderr.decode("utf-8", "replace") if e.stderr else str(e)
         except FileNotFoundError:
-            # KaTeX CLI not available, return original formula
-            logging.info("KaTeX CLI not found, LaTeX formulas will not be rendered")
-            return f"${formula}$" if not display_mode else f"$${formula}$$"
+            return False, "KaTeX CLI not found"
         except Exception as e:
-            logging.warning(f"[KaTeX Error] Unexpected error rendering formula: {formula}")
-            logging.warning(f"Error: {str(e)}")
-            return f"${formula}$" if not display_mode else f"$${formula}$$"
-    
-    def render_in_html(self, html_content):
+            return False, str(e)
+
+    @staticmethod
+    def split_math(text):
+        """
+        Split text into ("text" | "inline" | "display", content) segments.
+
+        Scans left to right so adjacent formulas such as $\\sim$$10^{22}$ are
+        read as two inline formulas rather than around a "$$".
+        """
+        segments = []
+        plain = []
+        i, n = 0, len(text)
+        while i < n:
+            if text.startswith("$$", i):
+                end = text.find("$$", i + 2)
+                content = text[i + 2:end]
+                if end != -1 and content and "$" not in content:
+                    segments.append(("text", "".join(plain))); plain = []
+                    segments.append(("display", content))
+                    i = end + 2
+                    continue
+            if text[i] == "$":
+                end = text.find("$", i + 1)
+                content = text[i + 1:end]
+                if end != -1 and content and "\n" not in content:
+                    segments.append(("text", "".join(plain))); plain = []
+                    segments.append(("inline", content))
+                    i = end + 1
+                    continue
+            plain.append(text[i])
+            i += 1
+        segments.append(("text", "".join(plain)))
+        return [s for s in segments if s[0] != "text" or s[1]]
+
+    def prerender_texts(self, texts, output="html"):
+        """Render every formula appearing in texts in one batch."""
+        self.prerender([(content, kind == "display")
+                        for text in texts if text
+                        for kind, content in self.split_math(text) if kind != "text"], output)
+
+    def render_in_html(self, html_content, output="html"):
         """
         Render LaTeX formulas in HTML content using KaTeX.
         
         Args:
             html_content (str): HTML content containing LaTeX formulas
+            output (str): "html" (needs the KaTeX stylesheet) or "mathml" (for feeds)
             
         Returns:
             str: HTML content with rendered LaTeX formulas
         """
         if not html_content:
             return html_content
-        
-        processed_formulas = {}
-        placeholder_counter = 0
-        
-        def create_placeholder():
-            nonlocal placeholder_counter
-            placeholder = f"__KATEX_PLACEHOLDER_{placeholder_counter}__"
-            placeholder_counter += 1
-            return placeholder
-        
-        def process_display_math(match):
-            formula = match.group(1)
-            placeholder = create_placeholder()
-            rendered = self.render_formula(formula, display_mode=True)
-            # Check if rendering was successful (contains KaTeX HTML) or is fallback
-            if '<span' in rendered or '<div' in rendered:
-                processed_formulas[placeholder] = f'<div class="katex-display" style="margin: 1.5em 0; text-align: center;">{rendered}</div>'
+
+        parts = []
+        for kind, content in self.split_math(html_content):
+            if kind == "text":
+                parts.append(content)
+            elif kind == "display":
+                rendered = self.render_formula(content, display_mode=True, output=output)
+                if output == "html":
+                    rendered = f'<div class="katex-display" style="margin: 1.5em 0; text-align: center;">{rendered}</div>'
+                parts.append(rendered)
             else:
-                # Fallback case, rendered is already in $$formula$$ format
-                processed_formulas[placeholder] = f'<div class="katex-display" style="margin: 1.5em 0; text-align: center;">{rendered}</div>'
-            return placeholder
-        
-        def process_inline_math(match):
-            formula = match.group(1)
-            if '$$' in match.group(0):
-                return match.group(0)
-            placeholder = create_placeholder()
-            rendered = self.render_formula(formula, display_mode=False)
-            # Check if rendering was successful (contains KaTeX HTML) or is fallback
-            if '<span' in rendered or '<div' in rendered:
-                # Successfully rendered, wrap in katex-inline
-                processed_formulas[placeholder] = f'<span class="katex-inline">{rendered}</span>'
-            else:
-                # Fallback case, rendered is already in $formula$ format, don't double-wrap
-                processed_formulas[placeholder] = rendered
-            return placeholder
-        
-        # Process display math formulas $$...$$
-        html_content = re.sub(r'\$\$([^$]+?)\$\$', process_display_math, html_content, flags=re.DOTALL)
-        
-        # Process inline math formulas $...$
-        html_content = re.sub(r'(?<!\$)\$([^$\n]+?)\$(?!\$)', process_inline_math, html_content)
-        
-        # Replace all placeholders
-        for placeholder, rendered in processed_formulas.items():
-            html_content = html_content.replace(placeholder, rendered)
-        
-        return html_content
+                rendered = self.render_formula(content, display_mode=False, output=output)
+                if output == "html" and '<span' in rendered:
+                    rendered = f'<span class="katex-inline">{rendered}</span>'
+                parts.append(rendered)
+        return "".join(parts)
+
+
+# Commonly used author macros; anything else unknown falls back to upright text
+KNOWN_MACROS = {
+    "\\order": "\\mathcal{O}\\left(#1\\right)",
+    "\\ZZ": "\\mathbb{Z}",
+    "\\RR": "\\mathbb{R}",
+    "\\CC": "\\mathbb{C}",
+    "\\NN": "\\mathbb{N}",
+    "\\QQ": "\\mathbb{Q}",
+}
+# KaTeX output formats: pages keep the CLI default (visible HTML + hidden MathML
+# for screen readers and copy/paste); feeds get MathML only
+KATEX_FORMATS = {"html": "htmlAndMathml", "mathml": "mathml"}
+MAX_MACRO_ROUNDS = 5
+BATCH_SCRIPT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "katex_batch.js")
+
+
+def fallback_macro(name):
+    """Expansion used for an undefined control sequence such as \\Var."""
+    return KNOWN_MACROS.get(name, "\\mathrm{" + name[1:] + "}")
+
+
+def _katex_package_dir():
+    """Directory of the installed katex package (found via the katex CLI), or None."""
+    cli = shutil.which("katex")
+    if not cli or not shutil.which("node"):
+        return None
+    package_dir = os.path.dirname(os.path.realpath(cli))
+    return package_dir if os.path.exists(os.path.join(package_dir, "package.json")) else None

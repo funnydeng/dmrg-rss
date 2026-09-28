@@ -11,6 +11,7 @@ from email.utils import parsedate_to_datetime
 from bs4 import BeautifulSoup
 
 from ..utils.text_utils import format_date_for_rss, latex_to_unicode, generate_entry_id, is_entry_complete, entry_sort_date
+from .latex_renderer import LaTeXRenderer
 from ..config import RSS_TITLE, RSS_DESCRIPTION, RSS_LANGUAGE, TARGET_URL
 
 
@@ -121,6 +122,12 @@ class RSSGenerator:
         entries = sorted((e for e in entries if is_entry_complete(e)), key=entry_sort_date, reverse=True)
         logging.info(f"Generating RSS with {len(entries)} entries (newest first)")
         
+        # Formulas become MathML: feed readers do not load the KaTeX stylesheet
+        # the HTML output needs, and readers without MathML support still show
+        # the formula's text.
+        latex_renderer = LaTeXRenderer()
+        latex_renderer.prerender_texts([latex_to_unicode(e.get("abstract", "")) for e in entries], output="mathml")
+
         fg = FeedGenerator()
         fg.title(RSS_TITLE)
         fg.link(href=TARGET_URL, rel="alternate")
@@ -135,7 +142,8 @@ class RSSGenerator:
                 # Convert LaTeX accents to Unicode
                 title = latex_to_unicode(entry.get("title", "Untitled"))
                 authors = latex_to_unicode(entry.get("authors", "Unknown"))
-                abstract = latex_to_unicode(entry.get("abstract", "No abstract available"))
+                abstract = latex_renderer.render_in_html(
+                    latex_to_unicode(entry.get("abstract", "No abstract available")), output="mathml")
                 
                 fe = fg.add_entry(order='append')
                 fe.title(title)

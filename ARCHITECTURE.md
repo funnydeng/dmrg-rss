@@ -238,15 +238,18 @@ src/
 
 ### **generators/latex_renderer.py** - LaTeX Rendering
 
-**Purpose:** Convert LaTeX math to HTML using KaTeX
+**Purpose:** Convert `$...$` / `$$...$$` in titles and abstracts with KaTeX
 
-**Key Class:** `LaTeXRenderer`
-
-#### `render_latex(text)`
-- Converts LaTeX expressions to HTML
-- Supports: `$...$` (inline) and `$$...$$` (display)
-- Uses KaTeX for rendering
-- Falls back gracefully on errors
+- `split_math(text)` - Left-to-right scan into text / inline / display segments
+  (adjacent formulas like `$\sim$$10^{22}$` are two inline formulas)
+- `prerender_texts(texts, output)` - Renders every formula in one node process
+  (`katex_batch.js`, same options as the katex CLI); falls back to one CLI call per
+  formula if that fails, and to the raw `$...$` text if KaTeX is unavailable
+- Author-defined macros (`\order`, `\ZZ`, `\Var`, ...) that KaTeX reports as
+  undefined are retried with a definition (known ones mapped, others as upright text)
+- `output="html"` for the pages (HTML + hidden MathML, needs the KaTeX CSS);
+  `output="mathml"` for RSS descriptions (renders in MathML-capable readers,
+  degrades to readable text elsewhere)
 
 ---
 

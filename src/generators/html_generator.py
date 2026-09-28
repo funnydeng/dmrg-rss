@@ -592,6 +592,10 @@ class HTMLGenerator:
         sorted_entries = sorted(complete_entries, key=entry_sort_date, reverse=True)
         logging.info(f"Sorted {len(sorted_entries)} entries by publication date for HTML display")
         
+        # Render every formula up front in one KaTeX batch
+        self.latex_renderer.prerender_texts(
+            [latex_to_unicode(e.get(field, "")) for e in sorted_entries for field in ("title", "abstract")])
+
         # Process each entry
         for entry in sorted_entries:
             try:
