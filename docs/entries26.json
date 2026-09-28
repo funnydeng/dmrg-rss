@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-28T04:29:58.208392+00:00",
+  "last_updated": "2026-09-28T19:25:45.802272+00:00",
   "entries": {
     "4c938e8c867d2b9533af237eea663b15": {
       "id": "4c938e8c867d2b9533af237eea663b15",
@@ -9344,6 +9344,62 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "09d9765b5cb7d6a4b5973baa57b834de": {
+      "id": "09d9765b5cb7d6a4b5973baa57b834de",
+      "link": "http://arxiv.org/abs/2609.31459",
+      "title": "Nonstabilizerness of quantum tensor network states is intractable in two dimensions",
+      "abstract": "Nonstabilizerness is a necessary resource for quantum systems to lie beyond the classically simulable regime. With the advent of stabilizer $α$-Rényi entropies, nonstabilizerness has also become a many-body diagnostic, complementary to entanglement. While deciding whether an arbitrary quantum state has nonstabilizerness is provably hard, such states already require a description exponentially large in the number of qubits and are thus out of reach for many-body physics. Here we instead consider 2D tensor network (TN) states, which compactly capture states obeying an entanglement area law, and ask whether they admit a simpler algorithm for the same task. In contrast to the 1D case, we prove that, even at small, constant bond dimension, computing the stabilizer entropy of 2D TN states is $\\# P$ hard for any integer $α\\ge 2$, and deciding stabilizer membership is $\\rm C_{=} P $ complete. Hence, under standard complexity assumptions, no classical or quantum algorithm with polynomial resources can solve either problem in the worst case. Both hardness results persist even when the problems are formulated up to constant additive accuracy.",
+      "pubdate": "Fri, 25 Sep 2026 16:11:37 +0000",
+      "authors": "Gianluca Esposito, Georgios Styliaris"
+    },
+    "930574c6ee4926269b2565435bde9bac": {
+      "id": "930574c6ee4926269b2565435bde9bac",
+      "link": "http://arxiv.org/abs/2609.31365",
+      "title": "Categorical spin-networks: state-sum invariants of 4-manifolds from higher-gauge theory",
+      "abstract": "In this work, we define $(3+1)$-dimensional topological quantum field theories (TQFTs) and their lattice realizations with input data given by a pivotal fusion 2-category; more precisely, our framework applies in wider generality to presemisimple locally fusion pivotal tensor $2$-categories, which are equipped with a so-called \\textit{shadow trace}. We introduce a decoration of triangulated manifolds by the input data, and develop a $20j$-symbol formalism for computing 4-simplex scattering amplitudes. We verify the topological invariance of 20$j$-symbol summations under the 4-dimensional Pachner moves. Furthermore, we also construct explicitly a 3-dimensional Levin-Wen-type lattice Hamiltonian model realizing the state-sum invariant. Our construction can be understood as a higher-dimensional analogue of the spin-networks construction for the Turaev-Viro invariant. Examples arising from $2$-groups are discussed from the perspective of higher gauge theory.",
+      "pubdate": "Fri, 25 Sep 2026 15:01:07 +0000",
+      "authors": "Hank Chen, Zhian Jia, Ran Luo, Wei Cui"
+    },
+    "8e5c5f392733fb5dff250debfbe15988": {
+      "id": "8e5c5f392733fb5dff250debfbe15988",
+      "link": "http://arxiv.org/abs/2609.31319",
+      "title": "Criticality enabled long-range order in a U(1)-symmetric spin-1 Heisenberg chain with biquadratic interactions",
+      "abstract": "In a recent paper Nahum argued on the basis of a renormalization-group analysis that, contrary to standard lore, ground states of 1D spin chains with short-range interactions can spontaneously break U(1) ``easy-plane'' spin rotation symmetry. True long-range order of $(S^x,S^y)$ arises at the phase transition between two quasi-long-range-ordered phases. Here we present detailed numerical results for an anisotropic spin-1 chain model. We find a magnetization exponent $β\\approx0.29$, consistent with the $ε$-expansion prediction $β\\approx0.28$, a divergence of the Luttinger parameter on approaching the transition from both sides with an exponent that we relate to Nahum's transition, and finite-size spectra consistent with a dynamical critical exponent $z\\approx2$. Our results support the critical behavior predicted by Nahum's field theory.",
+      "pubdate": "Fri, 25 Sep 2026 14:26:20 +0000",
+      "authors": "Natalia Chepiga, Fabian H. L. Essler"
+    },
+    "1f2de305f7c84f2b5d3948a44feca825": {
+      "id": "1f2de305f7c84f2b5d3948a44feca825",
+      "link": "http://arxiv.org/abs/2609.30596",
+      "title": "Emergent Wigner magnon crystals in a fully frustrated Heisenberg four-leg tube",
+      "abstract": "The ground state, magnetization curves, low-temperature thermodynamics, and heat-engine performance of the fully frustrated spin-$1/2$ Heisenberg four-leg tube with antiferromagnetic inter- and intra-plaquette coupling constants J1 and J2 are examined using exact diagonalization, density matrix renormalization group, and localized-magnon theory. In the unfrustrated to weakly frustrated regime J2/J1 << 2, the system exhibits a continuous field-driven quantum phase transition between the gapped Haldane phase and a gapless Tomonaga-Luttinger quantum spin liquid. In the highly frustrated regime J2/J1 > 2, the system contrarily displays discontinuous field-driven quantum phase transitions between the Wigner magnon crystals, which are manifested in zero-temperature magnetization curves as intermediate plateaus at zero, one-quarter, one-half, and three-quarters of the saturation magnetization. The low-temperature magnetic and thermodynamic properties in this regime are accurately captured by an effective interacting lattice-gas model of two monomer quasi-particle species constructed from localized one- and two-magnon states. Finally, we explore a quantum Stirling heat engine using the fully frustrated four-leg tube as the working medium. The work output and efficiency are strongly suppressed near discontinuous field-induced transitions and reach pronounced local maxima well inside the stability regions of the Wigner magnon crystals.",
+      "pubdate": "Thu, 24 Sep 2026 22:19:45 +0000",
+      "authors": "Azam Zoshki, Hamid Arian Zad, Jozef Strecka"
+    },
+    "878d632e24191b4e300f4b0a329cc7b4": {
+      "id": "878d632e24191b4e300f4b0a329cc7b4",
+      "link": "http://arxiv.org/abs/2609.30365",
+      "title": "Repulsion-Driven $p - i p$ Superconductivity in a Single Valley Revealed by DMRG",
+      "abstract": "We demonstrate repulsion-driven topological superconductivity of a single species of Dirac fermions, motivated by valley-polarized phases observed in two-dimensional materials such as rhombohedral graphene. Using density-matrix renormalization group calculations on the Qi-Wu-Zhang lattice model on cylinders of width up to eight, we find a robust phase of spinless chiral $p$-wave superconductivity. Pairing already starts at low doping and thus occurs on a small, nearly isotropic Fermi pocket, and is therefore not tied to the particular details or anisotropy of the dispersion but instead seems tied to the non-trivial quantum geometry of the bands. In fact, the winding of the superconductor order parameter is opposite (\"$p-ip$\") to that of the anomalous Hall metal which forms the parent state, in agreement with expectations recently derived from weak coupling calculations. At larger doping, we find that a pair-density-wave component develops alongside zero-momentum pairing. Our work shows that the combination of strong repulsion, absence of time-reversal in the parent state, and non-trivial quantum geometry form a promising platform to realize topological superconductivity.",
+      "pubdate": "Thu, 24 Sep 2026 18:00:00 +0000",
+      "authors": "Cesar A. Gallegos, Omid Tavakol, Christopher Yang, Steven R. White, Thomas Scaffidi"
+    },
+    "986001ff2f8e880db86deaf31fa289d9": {
+      "id": "986001ff2f8e880db86deaf31fa289d9",
+      "link": "http://arxiv.org/abs/2609.30386",
+      "title": "Rényi Phase Transitions and Analytic Continuation to the von Neumann Entropy",
+      "abstract": "Extracting operationally meaningful quantities such as von Neumann entropy and mutual information is central to characterizing many-body quantum systems, yet experiments and numerics often provide direct access only to integer Rényi entropies. Whereas conventional extrapolation relies on a prescribed fitting ansatz, in PRL 137, 100202 we introduced an alternative approach based on stabilized analytic continuation (SAC), which avoids such an ansatz and is inherently robust to noise. Here, we further develop this framework in the noiseless setting and benchmark its performance across several nontrivial many-body problems. We first show that, besides the intrinsic ambiguity of reconstructing the von Neumann entropy from finitely many Rényi samples, analytic continuation can also fail because of genuine nonanalyticities in the Rényi function arising from zeros of $\\text{Tr}ρ^z$. We derive universal zero-free domains for $\\text{Tr}ρ^z$ and systematically sharpen these bounds using additional spectral information about $ρ$. We then benchmark the performance of SAC in three settings: ($i$) extracting topological entanglement entropy from DMRG Rényi data for the toric code and Kagome Heisenberg models; ($ii$) reconstructing the mutual information between disjoint intervals in a $(1+1)d$ compact-boson CFT; and ($iii$) recovering finite-time ballistic growth of the von Neumann entropy from integer Rényi entropies that cross over toward subballistic growth in diffusive quantum dynamics. In the latter setting, analytic continuation is expected to fail in the long time limit. We illustrate this mechanism with a physically motivated two-sector model, where the asymptotic separation between von Neumann and higher-Rényi growth is accompanied by a zero of $\\text{Tr}ρ^z$ pinching the real axis at $z=1$, thereby producing a first-order Rényi phase transition.",
+      "pubdate": "Thu, 24 Sep 2026 18:00:43 +0000",
+      "authors": "Ayush Raj, Akash Vijay, Hong-Chen Jiang, Laimei Nie"
+    },
+    "c014da239bc8498e209b79f7396740bc": {
+      "id": "c014da239bc8498e209b79f7396740bc",
+      "link": "http://arxiv.org/abs/2609.30362",
+      "title": "Informational and algebraic renormalization group",
+      "abstract": "Renormalization group (RG) is a core concept in physics from statistical mechanics to quantum field theory, yet its schemes differ widely between field theory and many-body physics. We formulate the Wilsonian RG as a quantum channel, whose Kraus representation yields pure conditional trajectories for pure inputs and recovers mixed-state flows upon averaging. We then develop an algebraic extension applicable beyond the usual momentum-space, factorized setting: the low-energy algebra is constructed from the one-particle spectrum, and coarse graining is a conditional expectation onto it. We further construct a resource theory of RG whose free states are fixed points. Under stated assumptions, the resulting relative-entropy monotone is proportional to $c-c_{\\rm IR}$ to quadratic order along a single stable RG direction near a two-dimensional IR fixed point. We also introduce a complementary measure of the UV information discarded by coarse graining, establish its monotonicity for successive coarse-graining maps, and discuss its holographic realization.",
+      "pubdate": "Thu, 24 Sep 2026 18:00:00 +0000",
+      "authors": "Takato Mori, Teruaki Nagasawa"
     }
   }
 }
