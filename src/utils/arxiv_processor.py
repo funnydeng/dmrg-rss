@@ -2,6 +2,7 @@
 """
 ArXiv data processor for fetching and parsing paper details.
 """
+import re
 import time
 import logging
 import requests
@@ -10,7 +11,17 @@ from datetime import datetime, timezone
 from bs4 import BeautifulSoup
 
 from .text_utils import clean_text, generate_entry_id
-from ..config import ARXIV_API_TIMEOUT, ARXIV_RETRY_COUNT, ARXIV_DELAY_SECONDS
+from ..config import ARXIV_API_TIMEOUT, ARXIV_RETRY_COUNT, ARXIV_DELAY_SECONDS, ARXIV_BATCH_SIZE
+
+
+ATOM_NS = "{http://www.w3.org/2005/Atom}"
+ARXIV_API_URL = "https://export.arxiv.org/api/query"
+
+
+def arxiv_id_from_url(url):
+    """Return the bare arXiv ID (no version suffix) from an abs URL or ID."""
+    arxiv_id = url.rstrip("/").split("/abs/")[-1]
+    return re.sub(r"v\d+$", "", arxiv_id)
 
 
 class ArXivProcessor:
@@ -24,7 +35,78 @@ class ArXivProcessor:
             session (requests.Session): HTTP session for requests
         """
         self.session = session
-    
+
+    def _query(self, params):
+        """GET the arXiv API, backing off on rate limiting (429/503)."""
+        r = self.session.get(ARXIV_API_URL, params=params, timeout=ARXIV_API_TIMEOUT)
+        if r.status_code in (429, 503):
+            raise requests.HTTPError(f"arXiv API returned {r.status_code} (rate limited)", response=r)
+        r.raise_for_status()
+        return ET.fromstring(r.content)
+
+    @staticmethod
+    def _parse_entry(entry):
+        """Parse an Atom <entry> into (title, abstract, pubdate, authors)."""
+        title_el = entry.find(f"{ATOM_NS}title")
+        title = clean_text(title_el.text if title_el is not None else "")
+
+        # Use itertext() so LaTeX formulas like $1<c<2$ survive intact
+        abstract_el = entry.find(f"{ATOM_NS}summary")
+        abstract = clean_text(''.join(abstract_el.itertext())) if abstract_el is not None else ""
+
+        published_el = entry.find(f"{ATOM_NS}published")
+        pubdate = None
+        if published_el is not None and published_el.text:
+            try:
+                # Convert to RFC-2822 format for RSS
+                dt = datetime.strptime(published_el.text, "%Y-%m-%dT%H:%M:%SZ")
+                pubdate = dt.replace(tzinfo=timezone.utc).strftime("%a, %d %b %Y %H:%M:%S %z")
+            except Exception as e:
+                logging.warning(f"Failed to parse pubdate {published_el.text}: {e}")
+
+        authors = ", ".join(
+            clean_text(a.findtext(f"{ATOM_NS}name", ""))
+            for a in entry.findall(f"{ATOM_NS}author")
+        )
+        return title, abstract, pubdate, authors
+
+    def fetch_papers_batch(self, arxiv_urls, batch_size=ARXIV_BATCH_SIZE, retry_count=ARXIV_RETRY_COUNT):
+        """
+        Fetch details for many papers using few API calls (id_list batching).
+
+        Args:
+            arxiv_urls (list): arXiv abs URLs
+
+        Returns:
+            dict: {arxiv_id (no version): (title, abstract, pubdate, authors)}
+                  Papers that could not be fetched are absent.
+        """
+        results = {}
+        ids = list(dict.fromkeys(arxiv_id_from_url(u) for u in arxiv_urls))
+        for start in range(0, len(ids), batch_size):
+            chunk = ids[start:start + batch_size]
+            params = {"id_list": ",".join(chunk), "max_results": len(chunk)}
+            for attempt in range(retry_count):
+                try:
+                    logging.info(f"Fetching arXiv batch {start // batch_size + 1} "
+                                 f"({len(chunk)} ids, attempt {attempt + 1})")
+                    root = self._query(params)
+                    for entry in root.findall(f"{ATOM_NS}entry"):
+                        entry_id = arxiv_id_from_url(entry.findtext(f"{ATOM_NS}id", ""))
+                        details = self._parse_entry(entry)
+                        # arXiv reports unknown IDs as an entry titled "Error"
+                        if entry_id in chunk and details[0] and details[0] != "Error":
+                            results[entry_id] = details
+                    break
+                except Exception as e:
+                    wait = ARXIV_DELAY_SECONDS * (2 ** attempt)
+                    logging.warning(f"arXiv batch request failed: {e}; retrying in {wait}s")
+                    time.sleep(wait)
+            if start + batch_size < len(ids):
+                time.sleep(ARXIV_DELAY_SECONDS)
+        logging.info(f"arXiv batch fetch: {len(results)}/{len(ids)} papers retrieved")
+        return results
+
     def fetch_paper_details(self, arxiv_url, retry_count=ARXIV_RETRY_COUNT):
         """
         Fetch paper details from arXiv API with retry mechanism.
@@ -36,73 +118,24 @@ class ArXivProcessor:
         Returns:
             tuple: (title, abstract, pubdate, authors)
         """
+        arxiv_id = arxiv_id_from_url(arxiv_url)
         for attempt in range(retry_count):
             try:
-                arxiv_id = arxiv_url.rstrip("/").split("/")[-1]
-                api_url = f"http://export.arxiv.org/api/query?id_list={arxiv_id}"
-                
                 logging.info(f"Fetching arXiv details (attempt {attempt + 1}): {arxiv_id}")
-                r = self.session.get(api_url, timeout=ARXIV_API_TIMEOUT)
-                r.raise_for_status()
-                
-                root = ET.fromstring(r.content)
-    
-                # Check for errors
-                entries = root.findall(".//{http://www.w3.org/2005/Atom}entry")
-                if not entries:
-                    logging.warning(f"No entry found for {arxiv_id}")
-                    if attempt < retry_count - 1:
-                        time.sleep(ARXIV_DELAY_SECONDS)
-                        continue
-                    return "", "", None, ""
-    
-                entry = entries[0]
-    
-                # Extract title
-                title_el = entry.find(".//{http://www.w3.org/2005/Atom}title")
-                title = clean_text(title_el.text if title_el is not None else "")
-    
-                # Extract abstract - need to handle LaTeX with < and > properly
-                abstract_el = entry.find(".//{http://www.w3.org/2005/Atom}summary")
-                if abstract_el is not None:
-                    # Use itertext() to get all text including nested elements
-                    # This handles cases where LaTeX formulas like $1<c<2$ are present
-                    abstract_text = ''.join(abstract_el.itertext())
-                    abstract = clean_text(abstract_text)
-                else:
-                    abstract = ""
-    
-                # Extract publication date
-                published_el = entry.find(".//{http://www.w3.org/2005/Atom}published")
-                pubdate = None
-                if published_el is not None:
-                    try:
-                        # Validate date format and convert to RFC-2822 format for RSS
-                        dt = datetime.strptime(published_el.text, "%Y-%m-%dT%H:%M:%SZ")
-                        dt = dt.replace(tzinfo=timezone.utc)
-                        pubdate = dt.strftime("%a, %d %b %Y %H:%M:%S %z")
-                        logging.debug(f"Parsed pubdate: {pubdate}")
-                    except Exception as e:
-                        logging.warning(f"Failed to parse pubdate {published_el.text}: {e}")
-                        pubdate = None
-    
-                # Extract authors
-                authors_list = entry.findall(".//{http://www.w3.org/2005/Atom}author")
-                authors = ", ".join([
-                    clean_text(a.findtext("{http://www.w3.org/2005/Atom}name", ""))
-                    for a in authors_list
-                ])
-    
-                logging.info(f"Successfully fetched details for {arxiv_id}: '{title[:50]}...'")
-                return title, abstract, pubdate, authors
-    
+                root = self._query({"id_list": arxiv_id})
+                entries = root.findall(f"{ATOM_NS}entry")
+                if entries:
+                    title, abstract, pubdate, authors = self._parse_entry(entries[0])
+                    if title and title != "Error":
+                        logging.info(f"Successfully fetched details for {arxiv_id}: '{title[:50]}...'")
+                        return title, abstract, pubdate, authors
+                logging.warning(f"No entry found for {arxiv_id}")
             except Exception as e:
                 logging.warning(f"Attempt {attempt + 1} failed for {arxiv_url}: {e}")
-                if attempt < retry_count - 1:
-                    time.sleep(ARXIV_DELAY_SECONDS)
-                else:
-                    logging.error(f"All attempts failed for {arxiv_url}")
-                    return "", "", None, ""
+            if attempt < retry_count - 1:
+                time.sleep(ARXIV_DELAY_SECONDS * (2 ** attempt))
+        logging.error(f"All attempts failed for {arxiv_url}")
+        return "", "", None, ""
 
 
 class DMRGPageParser:

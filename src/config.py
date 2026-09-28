@@ -6,15 +6,17 @@ Contains all configuration constants and settings.
 File naming strategy:
   ALL internal files (JSON/XML/HTML) use year suffix for versioning.
   Publishing layer uses canonical copies for clean URLs (no symlinks).
+  Every year keeps its own entries{YY}.json / condmat{YY}.xml / condmat{YY}.html
+  archive; docs/condmat.{xml,html} always hold the latest year.
 
 Dynamic path generation from TARGET_URL:
 - TARGET_URL = "http://quattro.phys.sci.kobe-u.ac.jp/dmrg/condmat.html"
-  → All files use current year: entries25.json, condmat25.xml, condmat25.html
-  → Canonical published copies: docs/condmat.xml -> docs/condmat25.xml
+  → Year detected from the page's arXiv IDs, e.g. 26: entries26.json, condmat26.xml, condmat26.html
+  → Canonical published copies: docs/condmat.xml <- docs/condmat26.xml
 
 - TARGET_URL = "http://quattro.phys.sci.kobe-u.ac.jp/dmrg/condmat24.html"
   → Files use 24: entries24.json, condmat24.xml, condmat24.html
-  → Canonical published copies: docs/condmat.xml -> docs/condmat24.xml
+  → Canonical copies only updated if 24 is the latest archived year
 """
 import os
 import re
@@ -53,30 +55,46 @@ def _extract_year_from_url(url):
     return None
 
 # Extract base name and year from URL
-_base_name = _extract_base_name_from_url(TARGET_URL)
-_url_year = _extract_year_from_url(TARGET_URL)
+BASE_NAME = _extract_base_name_from_url(TARGET_URL)
 
-# Determine the year to use for file suffixes
-_year = _url_year if _url_year else current_year_2digit
+# Year of the source page if the URL pins one (e.g. condmat24.html → "24").
+# For the rolling page (condmat.html) this is None and the year is detected
+# from the arXiv IDs listed on the page at run time (see detect_page_year):
+# the source page keeps showing last year's papers for a few days after
+# New Year, so the system clock is not a reliable indicator.
+URL_YEAR = _extract_year_from_url(TARGET_URL)
 
-# Internal storage paths (always with year suffix for versioning)
-OUTPUT_RSS_PATH = f"docs/{_base_name}{_year}.xml"
-OUTPUT_HTML_PATH = f"docs/{_base_name}{_year}.html"
-CACHE_PATH = f"docs/entries{_year}.json"
+DOCS_DIR = "docs"
 
-# Publishing behavior: generator will create canonical copies of the latest
-# versioned files for publishing (e.g., docs/condmat.xml -> docs/condmat25.xml).
-# Symlink-related settings have been removed; copies are always used.
+# Where docs/ is served (GitHub Pages)
+PUBLIC_BASE_URL = "https://funnydeng.github.io/dmrg-rss/"
 
-# Clean up temporary variables
-del _base_name, _url_year, _year
+# Canonical publishing paths (clean URLs, always the latest year)
+CANONICAL_RSS_PATH = f"{DOCS_DIR}/{BASE_NAME}.xml"
+CANONICAL_HTML_PATH = f"{DOCS_DIR}/{BASE_NAME}.html"
+
+
+def year_paths(year):
+    """Return the versioned (rss, html, cache) paths for a 2-digit year."""
+    return (
+        f"{DOCS_DIR}/{BASE_NAME}{year}.xml",
+        f"{DOCS_DIR}/{BASE_NAME}{year}.html",
+        f"{DOCS_DIR}/entries{year}.json",
+    )
+
+
+# Internal storage paths for the configured/current year (kept for compatibility)
+_year = URL_YEAR if URL_YEAR else current_year_2digit
+OUTPUT_RSS_PATH, OUTPUT_HTML_PATH, CACHE_PATH = year_paths(_year)
+del _year
 
 # HTTP settings
 USER_AGENT = "dmrg-rss-fullsync/1.4"
 REQUEST_TIMEOUT = 30
 ARXIV_API_TIMEOUT = 20
 ARXIV_RETRY_COUNT = 3
-ARXIV_DELAY_SECONDS = 2
+ARXIV_DELAY_SECONDS = 3  # arXiv API terms ask for >= 3s between requests
+ARXIV_BATCH_SIZE = 50
 
 # Maximum number of entries to process (None = all entries)
 # Set to a small number (e.g., 5) for quick testing

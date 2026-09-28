@@ -94,13 +94,18 @@ src/
 #### `run_full_sync()` - Main Pipeline
 **Steps:**
 1. **Fetch DMRG Page** - Get HTML from TARGET_URL
-2. **Parse Entries** - Extract arXiv IDs and titles
-3. **Load Cache** - Read existing cached entries
-4. **Sync Entries** - Compare new vs cached, fetch missing metadata
-5. **Save Cache** - Update entries{YY}.json file
-6. **Generate RSS** - Create condmat{YY}.xml
-7. **Generate HTML** - Create condmat{YY}.html
-8. **Create canonical copies** - Create clean URLs by copying latest versioned files
+2. **Parse Entries** - Extract arXiv links
+3. **Resolve year** - Most common arXiv ID year on the page (`detect_page_year`); the
+   source page lags the calendar by a few days at New Year, so the clock is not used
+4. **Load Cache** - Read that year's entries{YY}.json
+5. **Sync Entries** - Compare new vs cached, fetch missing metadata (batched arXiv queries);
+   archived entries are never dropped
+6. **Save Cache** - Update entries{YY}.json file
+7. **Generate outputs** - condmat{YY}.xml/html; if {YY} is the latest archived year also the
+   canonical condmat.xml/html (each page links to the feed published next to it).
+   When a new year's cache is created, every year is rebuilt so archive navigation stays current.
+
+`python generate_rss.py --rebuild` regenerates all years from the caches without network access.
 
 #### `log_sync_statistics(all_entries, updated_cache, execution_time)`
 - Logs summary: total entries, new entries, cache size, execution time
@@ -138,27 +143,12 @@ src/
 
 **Purpose:** Manage JSON cache with year-aware detection
 
-**Key Class:** `CacheManager`
+**Key Class:** `CacheManager` (one instance per year file)
 
-**Key Methods:**
-
-#### `__init__(cache_path)`
-- Parses year from filename (e.g., `entries24.json` → year 24)
-- Detects if in "latest" mode or "year-specific" mode
-- `is_year_specific = True` when year != current_year_2digit
-
-#### `load_cache()`
-- Loads from year-specific file (e.g., entries24.json)
-- Falls back to current-year file if not found
-- Returns dict: `{arxiv_id: entry_dict}`
-
-#### `save_cache(entries_dict)`
-- Writes to versioned file (e.g., entries24.json)
-- Creates file if doesn't exist
-- Preserves formatting for readability
-
-#### `get_cache_stats()`
-- Returns size info for logging
+- `load_cache()` - Reads `entries{YY}.json`; returns `{}` if missing, raises if unreadable
+  (never silently falls back to another year's file)
+- `save_cache(entries_dict)` - Writes the file
+- `list_cache_years()` - Years that have a cache, used for archive navigation
 
 **Design:** Year extracted from filename, not hardcoded. Supports historical data storage.
 
