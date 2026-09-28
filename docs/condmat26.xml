@@ -2,13 +2,13 @@
 <rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>DMRG cond-mat</title>
-    <link>https://funnydeng.github.io/dmrg-rss/condmat.xml</link>
+    <link>https://funnydeng.github.io/dmrg-rss/condmat26.xml</link>
     <description>Aggregated feed from DMRG cond-mat page, includes abstracts and authors from arXiv (sorted by publication date, newest first)</description>
-    <ns0:link href="https://funnydeng.github.io/dmrg-rss/condmat.xml" rel="self" />
+    <ns0:link href="https://funnydeng.github.io/dmrg-rss/condmat26.xml" rel="self" />
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 28 Sep 2026 04:18:13 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 04:18:11 +0000</lastBuildDate>
     <item>
       <title>From dimensional reduction to tetramerization in mixed ferro-antiferro breathing pyrochlores</title>
       <link>http://arxiv.org/abs/2609.30162</link>
