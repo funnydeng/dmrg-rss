@@ -22,7 +22,17 @@ RSS feed and HTML pages for DMRG cond-mat articles.
 The script `generate_rss.py` fetches papers from the DMRG cond-mat page, enriches them with metadata from arXiv API, and generates both:
 - `docs/condmat.xml` - RSS 2.0 feed with paper metadata (published canonical copy of the latest versioned file)
 - `docs/condmat.html` - Responsive HTML webpage with paper listings (published canonical copy of the latest versioned file)
-- `docs/condmat{YY}.xml/html` - Year-versioned files for historical data
-- `docs/entries{YY}.json` - Cached metadata for incremental updates
+- `docs/condmat{YY}.xml/html` - Per-year archives (e.g. `condmat25.html`), linked from each page's "Archive" row
+- `docs/entries{YY}.json` - Cached metadata for incremental updates (append-only per year)
+
+The archive year is taken from the arXiv IDs listed on the source page, not from the clock: the
+source page keeps showing last year's papers for a few days into January, and those papers belong
+to last year's archive.
+
+To regenerate every year's XML/HTML from the JSON caches without fetching anything:
+
+```bash
+python generate_rss.py --rebuild
+```
 
 Both files are automatically deployed to GitHub Pages for easy access.

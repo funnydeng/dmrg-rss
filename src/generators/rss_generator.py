@@ -10,21 +10,23 @@ from feedgen.feed import FeedGenerator
 from email.utils import parsedate_to_datetime
 from bs4 import BeautifulSoup
 
-from ..utils.text_utils import format_date_for_rss, latex_to_unicode, generate_entry_id
+from ..utils.text_utils import format_date_for_rss, latex_to_unicode, generate_entry_id, is_entry_complete, entry_sort_date
 from ..config import RSS_TITLE, RSS_DESCRIPTION, RSS_LANGUAGE, TARGET_URL
 
 
 class RSSGenerator:
     """Generator for RSS feed from entry data."""
     
-    def __init__(self, output_path):
+    def __init__(self, output_path, feed_url=None):
         """
         Initialize RSS generator.
         
         Args:
             output_path (str): Path where RSS file will be saved
+            feed_url (str): Public URL of the feed (for the rel="self" link)
         """
         self.output_path = output_path
+        self.feed_url = feed_url
     
     def load_existing_entries(self):
         """
@@ -110,12 +112,19 @@ class RSSGenerator:
         Returns:
             bool: True if successful, False otherwise
         """
+        # Items without metadata would show up in feed readers as blank posts
+        # (and readers keep the first version they see of a guid), so wait
+        # until the next run has fetched them.
+        skipped = [e for e in entries if not is_entry_complete(e)]
+        if skipped:
+            logging.warning(f"RSS: skipping {len(skipped)} entries with incomplete metadata")
+        entries = sorted((e for e in entries if is_entry_complete(e)), key=entry_sort_date, reverse=True)
         logging.info(f"Generating RSS with {len(entries)} entries (newest first)")
         
         fg = FeedGenerator()
         fg.title(RSS_TITLE)
         fg.link(href=TARGET_URL, rel="alternate")
-        fg.link(href=TARGET_URL, rel="self")
+        fg.link(href=self.feed_url or TARGET_URL, rel="self")
         fg.description(RSS_DESCRIPTION)
         fg.language(RSS_LANGUAGE)
         fg.lastBuildDate(datetime.now(timezone.utc))
@@ -128,7 +137,7 @@ class RSSGenerator:
                 authors = latex_to_unicode(entry.get("authors", "Unknown"))
                 abstract = latex_to_unicode(entry.get("abstract", "No abstract available"))
                 
-                fe = fg.add_entry()
+                fe = fg.add_entry(order='append')
                 fe.title(title)
                 fe.link(href=entry["link"])
                 

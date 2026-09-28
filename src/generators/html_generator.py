@@ -8,22 +8,26 @@ from datetime import datetime
 from html import escape
 
 from .latex_renderer import LaTeXRenderer
-from ..utils.text_utils import is_entry_complete, latex_to_unicode
+from ..utils.text_utils import is_entry_complete, latex_to_unicode, entry_sort_date
 from ..config import HTML_TITLE, HTML_DESCRIPTION
 
 
 class HTMLGenerator:
     """Generator for mobile-responsive HTML paper listings."""
     
-    def __init__(self, output_path, skip_numeric_prices=False, rss_path=None):
+    def __init__(self, output_path, skip_numeric_prices=False, rss_path=None, archive_links=None, archive_current=None):
         """
         Initialize HTML generator.
         
         Args:
             output_path (str): Path where HTML file will be saved
             rss_path (str): Path to corresponding RSS file (if None, auto-derived from output_path)
+            archive_links (list): [(label, html_filename)] for the year-archive navigation
+            archive_current (str): label of the year this page shows
         """
         self.output_path = output_path
+        self.archive_links = archive_links or []
+        self.archive_current = archive_current
         
         # Auto-derive RSS path if not provided
         if rss_path is None:
@@ -537,14 +541,27 @@ class HTMLGenerator:
                 font-size: 20px;
             }
         }
+
+        /* Year archive navigation */
+        .header .archive-links {
+            margin-top: 1em;
+            gap: 0.6em;
+            align-items: center;
+        }
+
+        .header .archive-links a {
+            padding: 0.2em 0.7em;
+        }
         """
     
-    def generate_html(self, entries):
+    def generate_html(self, entries, outputs=None):
         """
         Generate HTML file with mobile-responsive design and LaTeX rendering.
         
         Args:
             entries (list): List of entry dictionaries
+            outputs (list): [(html_path, rss_filename)] pages to write with the
+                same content; defaults to [(output_path, rss_filename)]
             
         Returns:
             bool: True if successful, False otherwise
@@ -572,20 +589,7 @@ class HTMLGenerator:
         html_content.append("<h2>Recent Papers</h2>")
         
         # Sort entries by publication date (newest first) for better HTML presentation
-        def get_sort_date(entry):
-            pubdate = entry.get("pubdate", "")
-            if not pubdate:
-                return datetime.min
-            try:
-                if 'T' in pubdate and pubdate.endswith('Z'):
-                    return datetime.strptime(pubdate, "%Y-%m-%dT%H:%M:%SZ")
-                else:
-                    from email.utils import parsedate_to_datetime
-                    return parsedate_to_datetime(pubdate)
-            except:
-                return datetime.min
-        
-        sorted_entries = sorted(complete_entries, key=get_sort_date, reverse=True)
+        sorted_entries = sorted(complete_entries, key=entry_sort_date, reverse=True)
         logging.info(f"Sorted {len(sorted_entries)} entries by publication date for HTML display")
         
         # Process each entry
@@ -637,7 +641,45 @@ class HTMLGenerator:
                 logging.error(f"Failed to add HTML entry {entry.get('link', 'unknown')}: {e}")
         
         # Create complete HTML document
-        html_template = f"""<!DOCTYPE html>
+        body = chr(10).join(html_content)
+        if outputs is None:
+            outputs = [(self.output_path, self.rss_filename)]
+
+        # Write HTML file(s)
+        try:
+            for output_path, rss_filename in outputs:
+                page = self._render_page(body, rss_filename, output_path)
+                os.makedirs(os.path.dirname(output_path) or ".", exist_ok=True)
+                with open(output_path, 'w', encoding='utf-8') as f:
+                    f.write(page)
+                logging.info(f"HTML successfully written to {output_path} ({os.path.getsize(output_path)} bytes, RSS link: {rss_filename})")
+            logging.info(f"HTML entries processed: {len(sorted_entries)} (with LaTeX rendering)")
+            return True
+
+        except Exception as e:
+            logging.error(f"Error writing HTML file: {e}")
+            return False
+
+    def _archive_nav(self, output_path):
+        """Build the year-archive navigation row (empty if only one year exists)."""
+        if len(self.archive_links) < 2:
+            return ""
+        current = os.path.basename(output_path)
+        links = []
+        for label, href in self.archive_links:
+            if href == current or label == self.archive_current:
+                links.append(f'<strong>{label}</strong>')
+            else:
+                links.append(f'<a href="{href}">{label}</a>')
+        return f"""
+        <div class="nav-links archive-links">
+            <i class="fa-solid fa-box-archive"></i> Archive: {' · '.join(links)}
+        </div>"""
+
+    def _render_page(self, body, rss_filename, output_path):
+        """Wrap the rendered paper list in the full page template."""
+        archive_nav = self._archive_nav(output_path)
+        return f"""<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -680,12 +722,12 @@ class HTMLGenerator:
         </p>
         <div class="nav-links">
             <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
-            <a href="{self.rss_filename}"><i class="fas fa-rss"></i> RSS Feed</a>
+            <a href="{rss_filename}"><i class="fas fa-rss"></i> RSS Feed</a>
             <a href="https://github.com/funnydeng/dmrg-rss"><i class="fa-brands fa-github"></i> GitHub</a>
-        </div>
+        </div>{archive_nav}
     </div>
     
-{chr(10).join(html_content)}
+{body}
 
     <div class="footer">
         <p>
@@ -740,23 +782,3 @@ class HTMLGenerator:
     </script>
 </body>
 </html>"""
-        
-        # Write HTML file
-        try:
-            os.makedirs(os.path.dirname(self.output_path), exist_ok=True)
-            with open(self.output_path, 'w', encoding='utf-8') as f:
-                f.write(html_template)
-            
-            if os.path.exists(self.output_path):
-                file_size = os.path.getsize(self.output_path)
-                logging.info(f"HTML successfully written to {self.output_path}")
-                logging.info(f"HTML file size: {file_size} bytes")
-                logging.info(f"HTML entries processed: {len(sorted_entries)} (with LaTeX rendering)")
-                return True
-            else:
-                logging.error(f"Failed to create HTML file at {self.output_path}")
-                return False
-        
-        except Exception as e:
-            logging.error(f"Error writing HTML file: {e}")
-            return False

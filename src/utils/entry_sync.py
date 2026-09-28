@@ -6,6 +6,8 @@ import time
 import logging
 
 from .text_utils import is_entry_complete
+from .arxiv_processor import arxiv_id_from_url
+from ..config import ARXIV_DELAY_SECONDS
 
 
 class EntrySync:
@@ -40,6 +42,9 @@ class EntrySync:
             dmrg_entries = dmrg_entries[:self.max_entries]
             logging.info(f"LIMITED entries from {original_count} to {self.max_entries} (MAX_ENTRIES={self.max_entries})")
         
+        # The source page occasionally lists a paper twice
+        dmrg_entries = list({e["id"]: e for e in reversed(dmrg_entries)}.values())[::-1]
+
         logging.info(f"DMRG page entries: {len(dmrg_entries)}")
         logging.info(f"JSON cache entries: {len(cached_entries)}")
 
@@ -71,16 +76,20 @@ class EntrySync:
         if len(new_or_incomplete) == 0:
             logging.info("All entries are complete, no fetching needed")
 
-        # Fetch detailed information for new or incomplete entries
+        # Fetch details for new or incomplete entries: batched first, then
+        # one-by-one for anything the batch query did not return
+        batch = self.arxiv_processor.fetch_papers_batch([e["link"] for e in new_or_incomplete]) if new_or_incomplete else {}
         detailed_new_entries = []
         total_to_fetch = len(new_or_incomplete)
-        
+
         for i, entry in enumerate(new_or_incomplete):
-            progress = f"{i+1}/{total_to_fetch}"
-            logging.info(f"Fetching details [{progress}]: {entry['link']}")
-            
-            title, abstract, pubdate, authors = self.arxiv_processor.fetch_paper_details(entry["link"])
-            
+            details = batch.get(arxiv_id_from_url(entry["link"]))
+            if details is None:
+                logging.info(f"Fetching details individually [{i+1}/{total_to_fetch}]: {entry['link']}")
+                details = self.arxiv_processor.fetch_paper_details(entry["link"])
+                time.sleep(ARXIV_DELAY_SECONDS)
+            title, abstract, pubdate, authors = details
+
             detailed_entry = {
                 "id": entry["id"],
                 "link": entry["link"],
@@ -89,21 +98,31 @@ class EntrySync:
                 "pubdate": pubdate,
                 "authors": authors
             }
-            
-            detailed_new_entries.append(detailed_entry)
-            
-            # Add delay for API requests
-            if i < total_to_fetch - 1:
-                time.sleep(2)
+            if not is_entry_complete(detailed_entry) and entry["id"] in cached_entries:
+                # Keep whatever we already had rather than a blank record
+                detailed_entry = {**cached_entries[entry["id"]], **{k: v for k, v in detailed_entry.items() if v}}
+            if not is_entry_complete(detailed_entry):
+                logging.warning(f"Could not fetch complete metadata for {entry['link']}; will retry next run")
 
-        # Merge all entries: keep DMRG page order, complete existing first, then new entries
+            detailed_new_entries.append(detailed_entry)
+
+        # Merge all entries: complete existing first, then new entries
         all_entries = complete_existing + detailed_new_entries
-        
+
+        # The cache is an append-only archive for its year: entries that have
+        # dropped off the source page (or a temporarily truncated page) must not
+        # erase already-archived papers.
+        page_ids = {e["id"] for e in all_entries}
+        retained = [v for k, v in cached_entries.items() if k not in page_ids]
+        if retained and not self.max_entries:
+            logging.info(f"Keeping {len(retained)} archived entries no longer listed on the source page")
+            all_entries += retained
+
         # Create updated cache dictionary for saving
         updated_cache = {}
         for entry in all_entries:
             updated_cache[entry["id"]] = entry
-        
+
         logging.info(f"Final sync result: {len(all_entries)} total entries")
         logging.info(f"- {len(complete_existing)} existing complete entries")
         logging.info(f"- {len(detailed_new_entries)} newly fetched/updated entries")

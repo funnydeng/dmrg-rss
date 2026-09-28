@@ -23,6 +23,8 @@ class LaTeXRenderer:
         # (e.g. $99.99, $2) because these are usually not math to render.
         # Set to False to attempt to render all $...$ content.
         self.skip_numeric_prices = False
+        # Rendered output per (formula, display_mode); each KaTeX call spawns a node process
+        self._cache = {}
     
     def preprocess_formula(self, formula):
         """
@@ -58,6 +60,13 @@ class LaTeXRenderer:
         return processed
     
     def render_formula(self, formula, display_mode=False):
+        """Render a formula, reusing the result for formulas seen before."""
+        key = (formula, display_mode)
+        if key not in self._cache:
+            self._cache[key] = self._render_formula(formula, display_mode)
+        return self._cache[key]
+
+    def _render_formula(self, formula, display_mode=False):
         """
         Safely render a single LaTeX formula using KaTeX CLI.
         

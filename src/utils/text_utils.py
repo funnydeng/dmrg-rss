@@ -186,3 +186,47 @@ def is_entry_complete(entry):
     """
     required_fields = ["title", "abstract", "authors", "pubdate"]
     return all(entry.get(field) and entry.get(field).strip() for field in required_fields)
+
+
+def arxiv_year_from_link(link):
+    """
+    Return the 2-digit submission year encoded in an arXiv ID, or None.
+
+    Examples:
+        http://arxiv.org/abs/2601.01234   -> "26"
+        http://arxiv.org/abs/cond-mat/0601001 -> "06"
+    """
+    arxiv_id = (link or "").rstrip("/").split("/abs/")[-1]
+    match = re.match(r"(?:[a-z\-]+(?:\.[A-Z]{2})?/)?(\d{2})\d{2}", arxiv_id)
+    return match.group(1) if match else None
+
+
+def detect_page_year(entries):
+    """
+    Detect which year a DMRG listing page belongs to.
+
+    The page lists papers of one year; older IDs (revised versions) appear only
+    occasionally, so the most common arXiv ID year is the page's year.
+
+    Args:
+        entries (list): Entries with a "link" key
+
+    Returns:
+        str or None: 2-digit year
+    """
+    from collections import Counter
+    years = Counter(y for y in (arxiv_year_from_link(e.get("link")) for e in entries) if y)
+    if not years:
+        return None
+    return years.most_common(1)[0][0]
+
+
+def entry_sort_date(entry):
+    """Sort key for entries by publication date (unknown dates sort oldest)."""
+    pubdate = entry.get("pubdate") or ""
+    try:
+        if 'T' in pubdate and pubdate.endswith('Z'):
+            return datetime.strptime(pubdate, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
+        return parsedate_to_datetime(pubdate)
+    except Exception:
+        return datetime.min.replace(tzinfo=timezone.utc)
