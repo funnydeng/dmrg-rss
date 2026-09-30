@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-30T04:45:46.497851+00:00",
+  "last_updated": "2026-09-30T17:57:20.642336+00:00",
   "entries": {
     "a19ac4a9979180a64e58a21b063a80ca": {
       "id": "a19ac4a9979180a64e58a21b063a80ca",
@@ -9488,6 +9488,86 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "9b2e69860849bb7d7d640da90bc46d5d": {
+      "id": "9b2e69860849bb7d7d640da90bc46d5d",
+      "link": "http://arxiv.org/abs/2609.38150",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "68e460131eefe8beb1a72f796dc00a7f": {
+      "id": "68e460131eefe8beb1a72f796dc00a7f",
+      "link": "http://arxiv.org/abs/2609.37512",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "9629bc1b3eb82050e16dea83f0db618e": {
+      "id": "9629bc1b3eb82050e16dea83f0db618e",
+      "link": "http://arxiv.org/abs/2609.37191",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "18ae63f593adefe55f79c1fa60275ab5": {
+      "id": "18ae63f593adefe55f79c1fa60275ab5",
+      "link": "http://arxiv.org/abs/2609.37174",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "f84fa81e36ca94335b8c5609fc086dc3": {
+      "id": "f84fa81e36ca94335b8c5609fc086dc3",
+      "link": "http://arxiv.org/abs/2609.37103",
+      "title": "Riemannian optimization on low-rank tensor train manifolds for the Gross-Pitaevskii equation",
+      "abstract": "This work is concerned with the numerical computation of Gross-Pitaevskii ground states using the tensor train (TT) format. We regard the problem as the minimization of the Gross-Pitaevskii energy functional under a unit mass constraint, and propose a first-order Riemannian optimization scheme that preserves both the mass constraint and the low-rank representation throughout the optimization, by operating on the manifold of unit-norm functions of fixed TT-rank. On this manifold, we derive the energy-adaptive Riemannian gradient and show how to compute it efficiently in the TT format. Spatial discretization is performed using a spectral method with numerical integration, which allows the required computations to be carried out efficiently while preserving the low-rank format. The method is shown to substantially reduce computational time compared to full-rank computations, while maintaining accuracy for both single- and multicomponent Gross-Pitaevskii equations.",
+      "pubdate": "Tue, 29 Sep 2026 09:22:52 +0000",
+      "authors": "Ivan Bioli, Carlo Marcati, Maxim Rakhuba"
+    },
+    "011b3e50f4855a6eaa3cd0af01ce05f9": {
+      "id": "011b3e50f4855a6eaa3cd0af01ce05f9",
+      "link": "http://arxiv.org/abs/2609.36506",
+      "title": "Compressed Sensing with Quantized Tensor Trains (QTTs)",
+      "abstract": "The storage and recovery of a vector of length \\(2^d\\) can become prohibitively expensive as \\(d\\) grows, a manifestation of the curse of dimensionality. For certain structured functions and multiscale quantities, the resulting discretized vectors admit compact quantized tensor train (QTT) representations after binary tensorization: a length-\\(2^d\\) vector is reshaped into a \\(d\\)-way binary tensor with low tensor-train (TT) rank. Motivated by this construction, we study compressed sensing of tensorized signals that combine bounded TT rank with sparse low-order interaction structure, using randomly sampled Walsh--Hadamard measurements. For this structured model class, we establish a uniform restricted isometry property and derive a measurement condition guaranteeing uniqueness of noiseless recovery. We also propose a structure-aware initializer for the alternating linear scheme (ALS), obtained by projecting the adjoint backprojection onto the low-order interaction space before applying TT-SVD. We prove a uniform initialization error bound whose measurement requirement, for fixed structural parameters, grows polynomially with the tensor order \\(d\\) rather than with the ambient dimension \\(2^d\\). Numerical experiments support the predicted RIP and initialization scaling and demonstrate more reliable ALS recovery.",
+      "pubdate": "Tue, 29 Sep 2026 01:59:19 +0000",
+      "authors": "Jingchun Shao"
+    },
+    "acca703999b29265f91f44e4701dba36": {
+      "id": "acca703999b29265f91f44e4701dba36",
+      "link": "http://arxiv.org/abs/2609.36487",
+      "title": "TT-FDTD: Tensor Train Accelerated Three-Dimensional FDTD With Logarithmic Cost of Spatial Operators",
+      "abstract": "Quantized tensor-train (QTT) compression is incorporated into a full-vector three-dimensional scattered-field finite-difference time-domain (FDTD) formulation on uniform Yee grids. All six electromagnetic-field components, material-dependent update coefficients, equivalent-current sources, and staggered finite-difference operators are represented in compatible QTT form. Gaussian regularization of voxelized material interfaces is used to reduce the coefficient ranks generated by abrupt dielectric and conductivity transitions. The formulation is evaluated for an anatomically heterogeneous human-head model and a homogeneous dielectric sphere on grids containing up to $512^3$ spatial cells. The reported results show that interface smoothing substantially reduces material-coefficient ranks and that the TT--FDTD solution reproduces the full-grid transient fields with pointwise absolute errors on the order of $10^{-4}$ in the examined slices. Compared with conventional FDTD, the tensor representation greatly reduces storage at fine discretizations, although tensor contractions and recompression introduce additional per-step computational cost. These results demonstrate the feasibility and memory--time tradeoff of QTT-accelerated three-dimensional FDTD for large structured-grid simulations.",
+      "pubdate": "Tue, 29 Sep 2026 01:46:31 +0000",
+      "authors": "Chris Nguyen, Vladimir Okhmatovski"
+    },
+    "fdc47262ab7e70bb8c10633ee54a98ae": {
+      "id": "fdc47262ab7e70bb8c10633ee54a98ae",
+      "link": "http://arxiv.org/abs/2609.36165",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "3d2adb157b0b0a8a98f281a0cecb8cf1": {
+      "id": "3d2adb157b0b0a8a98f281a0cecb8cf1",
+      "link": "http://arxiv.org/abs/2609.36140",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "66b2ac19949d3bde386fdf2849aeca89": {
+      "id": "66b2ac19949d3bde386fdf2849aeca89",
+      "link": "http://arxiv.org/abs/2609.36027",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
     }
   }
 }
