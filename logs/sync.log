@@ -1,56 +1,57 @@
-2026-10-06 05:35:09,672 [INFO] === DMRG RSS Application Initialized ===
-2026-10-06 05:35:09,672 [INFO] HTTP session initialized with User-Agent: dmrg-rss-fullsync/1.4
-2026-10-06 05:35:09,673 [INFO] All application components initialized successfully
-2026-10-06 05:35:09,673 [INFO] === DMRG RSS Full Sync Started ===
-2026-10-06 05:35:09,673 [INFO] Fetching page: http://quattro.phys.sci.kobe-u.ac.jp/dmrg/condmat.html
-2026-10-06 05:35:10,849 [INFO] Successfully fetched page, size: 315759 bytes
-2026-10-06 05:35:11,059 [INFO] Found 1242 bold tags to check
-2026-10-06 05:35:11,061 [INFO] Processed 200 bold tags, found 192 arXiv links so far
-2026-10-06 05:35:11,062 [INFO] Processed 400 bold tags, found 392 arXiv links so far
-2026-10-06 05:35:11,064 [INFO] Processed 600 bold tags, found 592 arXiv links so far
-2026-10-06 05:35:11,066 [INFO] Processed 800 bold tags, found 792 arXiv links so far
-2026-10-06 05:35:11,067 [INFO] Processed 1000 bold tags, found 992 arXiv links so far
-2026-10-06 05:35:11,069 [INFO] Processed 1200 bold tags, found 1192 arXiv links so far
-2026-10-06 05:35:11,069 [INFO] Total arXiv entries found: 1233
-2026-10-06 05:35:11,070 [INFO] Source page detected as year 2026
-2026-10-06 05:35:11,079 [INFO] Loaded 1233 entries from cache: docs/entries26.json (last updated: 2026-10-05T20:23:30.383600+00:00)
-2026-10-06 05:35:11,079 [INFO] DMRG page entries: 1233
-2026-10-06 05:35:11,079 [INFO] JSON cache entries: 1233
-2026-10-06 05:35:11,080 [INFO] Entries analysis: 1233 complete, 0 need fetching
-2026-10-06 05:35:11,080 [INFO] All entries are complete, no fetching needed
-2026-10-06 05:35:11,080 [INFO] Final sync result: 1233 total entries
-2026-10-06 05:35:11,080 [INFO] - 1233 existing complete entries
-2026-10-06 05:35:11,080 [INFO] - 0 newly fetched/updated entries
-2026-10-06 05:35:11,095 [INFO] Saved 1233 entries to cache: docs/entries26.json
-2026-10-06 05:35:11,099 [INFO] Generating RSS with 1233 entries (newest first)
-2026-10-06 05:35:11,990 [WARNING] [KaTeX Error] Failed to render formula: p(\bx|\by)=|\bra{\bx}U(T)\ket{\by}|^2 (/opt/hostedtoolcache/node/18.20.8/x64/lib/node_modules/katex/cli.js:23)
-2026-10-06 05:35:11,991 [INFO] Entry 1 date: Fri, 02 Oct 2026 17:41:29
-2026-10-06 05:35:11,992 [INFO] Entry 2 date: Fri, 02 Oct 2026 17:34:20
-2026-10-06 05:35:11,993 [INFO] Entry 3 date: Fri, 02 Oct 2026 16:15:52
-2026-10-06 05:35:13,435 [INFO] RSS successfully written to docs/condmat26.xml
-2026-10-06 05:35:13,435 [INFO] File size: 3134229 bytes, entries added: 1233
-2026-10-06 05:35:13,435 [INFO] RSS entries are ordered from newest to oldest publication date
-2026-10-06 05:35:13,441 [INFO] Generating RSS with 1233 entries (newest first)
-2026-10-06 05:35:14,327 [WARNING] [KaTeX Error] Failed to render formula: p(\bx|\by)=|\bra{\bx}U(T)\ket{\by}|^2 (/opt/hostedtoolcache/node/18.20.8/x64/lib/node_modules/katex/cli.js:23)
-2026-10-06 05:35:14,329 [INFO] Entry 1 date: Fri, 02 Oct 2026 17:41:29
-2026-10-06 05:35:14,330 [INFO] Entry 2 date: Fri, 02 Oct 2026 17:34:20
-2026-10-06 05:35:14,331 [INFO] Entry 3 date: Fri, 02 Oct 2026 16:15:52
-2026-10-06 05:35:15,724 [INFO] RSS successfully written to docs/condmat.xml
-2026-10-06 05:35:15,724 [INFO] File size: 3134225 bytes, entries added: 1233
-2026-10-06 05:35:15,724 [INFO] RSS entries are ordered from newest to oldest publication date
-2026-10-06 05:35:15,726 [INFO] Generating HTML with 1233 entries
-2026-10-06 05:35:15,729 [INFO] Sorted 1233 entries by publication date for HTML display
-2026-10-06 05:35:16,791 [WARNING] [KaTeX Error] Failed to render formula: p(\bx|\by)=|\bra{\bx}U(T)\ket{\by}|^2 (/opt/hostedtoolcache/node/18.20.8/x64/lib/node_modules/katex/cli.js:23)
-2026-10-06 05:35:17,712 [INFO] HTML successfully written to docs/condmat26.html (4965292 bytes, RSS link: condmat26.xml)
-2026-10-06 05:35:17,732 [INFO] HTML successfully written to docs/condmat.html (4965290 bytes, RSS link: condmat.xml)
-2026-10-06 05:35:17,732 [INFO] HTML entries processed: 1233 (with LaTeX rendering)
-2026-10-06 05:35:17,733 [INFO] === Sync Statistics ===
-2026-10-06 05:35:17,733 [INFO] Total execution time: 8.06 seconds
-2026-10-06 05:35:17,733 [INFO] Archive year: 2026
-2026-10-06 05:35:17,733 [INFO] Total entries: 1233
-2026-10-06 05:35:17,733 [INFO] Cache entries: 1233
-2026-10-06 05:35:17,733 [INFO] === Full Sync Complete ===
-2026-10-06 05:35:17,733 [INFO] Generated versioned files:
-2026-10-06 05:35:17,733 [INFO]   RSS: docs/condmat26.xml
-2026-10-06 05:35:17,733 [INFO]   HTML: docs/condmat26.html
-2026-10-06 05:35:17,733 [INFO]   Cache: docs/entries26.json
+2026-10-06 18:06:27,630 [INFO] === DMRG RSS Application Initialized ===
+2026-10-06 18:06:27,630 [INFO] HTTP session initialized with User-Agent: dmrg-rss-fullsync/1.4
+2026-10-06 18:06:27,630 [INFO] All application components initialized successfully
+2026-10-06 18:06:27,630 [INFO] === DMRG RSS Full Sync Started ===
+2026-10-06 18:06:27,630 [INFO] Fetching page: http://quattro.phys.sci.kobe-u.ac.jp/dmrg/condmat.html
+2026-10-06 18:06:29,125 [INFO] Successfully fetched page, size: 318861 bytes
+2026-10-06 18:06:29,238 [INFO] Found 1254 bold tags to check
+2026-10-06 18:06:29,240 [INFO] Processed 200 bold tags, found 192 arXiv links so far
+2026-10-06 18:06:29,242 [INFO] Processed 400 bold tags, found 392 arXiv links so far
+2026-10-06 18:06:29,243 [INFO] Processed 600 bold tags, found 592 arXiv links so far
+2026-10-06 18:06:29,245 [INFO] Processed 800 bold tags, found 792 arXiv links so far
+2026-10-06 18:06:29,246 [INFO] Processed 1000 bold tags, found 992 arXiv links so far
+2026-10-06 18:06:29,248 [INFO] Processed 1200 bold tags, found 1192 arXiv links so far
+2026-10-06 18:06:29,248 [INFO] Total arXiv entries found: 1245
+2026-10-06 18:06:29,249 [INFO] Source page detected as year 2026
+2026-10-06 18:06:29,258 [INFO] Loaded 1233 entries from cache: docs/entries26.json (last updated: 2026-10-06T05:35:11.080636+00:00)
+2026-10-06 18:06:29,258 [INFO] DMRG page entries: 1245
+2026-10-06 18:06:29,258 [INFO] JSON cache entries: 1233
+2026-10-06 18:06:29,259 [INFO] Entries analysis: 1233 complete, 12 need fetching
+2026-10-06 18:06:29,259 [INFO] Fetching arXiv batch 1 (12 ids, attempt 1)
+2026-10-06 18:06:29,588 [INFO] arXiv batch fetch: 12/12 papers retrieved
+2026-10-06 18:06:29,588 [INFO] Final sync result: 1245 total entries
+2026-10-06 18:06:29,588 [INFO] - 1233 existing complete entries
+2026-10-06 18:06:29,588 [INFO] - 12 newly fetched/updated entries
+2026-10-06 18:06:29,603 [INFO] Saved 1245 entries to cache: docs/entries26.json
+2026-10-06 18:06:29,608 [INFO] Generating RSS with 1245 entries (newest first)
+2026-10-06 18:06:30,612 [WARNING] [KaTeX Error] Failed to render formula: p(\bx|\by)=|\bra{\bx}U(T)\ket{\by}|^2 (/opt/hostedtoolcache/node/18.20.8/x64/lib/node_modules/katex/cli.js:23)
+2026-10-06 18:06:30,614 [INFO] Entry 1 date: Mon, 05 Oct 2026 16:54:00
+2026-10-06 18:06:30,615 [INFO] Entry 2 date: Mon, 05 Oct 2026 15:53:29
+2026-10-06 18:06:30,616 [INFO] Entry 3 date: Mon, 05 Oct 2026 15:31:57
+2026-10-06 18:06:31,963 [INFO] RSS successfully written to docs/condmat26.xml
+2026-10-06 18:06:31,963 [INFO] File size: 3167187 bytes, entries added: 1245
+2026-10-06 18:06:31,963 [INFO] RSS entries are ordered from newest to oldest publication date
+2026-10-06 18:06:31,969 [INFO] Generating RSS with 1245 entries (newest first)
+2026-10-06 18:06:32,860 [WARNING] [KaTeX Error] Failed to render formula: p(\bx|\by)=|\bra{\bx}U(T)\ket{\by}|^2 (/opt/hostedtoolcache/node/18.20.8/x64/lib/node_modules/katex/cli.js:23)
+2026-10-06 18:06:32,861 [INFO] Entry 1 date: Mon, 05 Oct 2026 16:54:00
+2026-10-06 18:06:32,862 [INFO] Entry 2 date: Mon, 05 Oct 2026 15:53:29
+2026-10-06 18:06:32,863 [INFO] Entry 3 date: Mon, 05 Oct 2026 15:31:57
+2026-10-06 18:06:34,242 [INFO] RSS successfully written to docs/condmat.xml
+2026-10-06 18:06:34,242 [INFO] File size: 3167183 bytes, entries added: 1245
+2026-10-06 18:06:34,242 [INFO] RSS entries are ordered from newest to oldest publication date
+2026-10-06 18:06:34,244 [INFO] Generating HTML with 1245 entries
+2026-10-06 18:06:34,249 [INFO] Sorted 1245 entries by publication date for HTML display
+2026-10-06 18:06:35,311 [WARNING] [KaTeX Error] Failed to render formula: p(\bx|\by)=|\bra{\bx}U(T)\ket{\by}|^2 (/opt/hostedtoolcache/node/18.20.8/x64/lib/node_modules/katex/cli.js:23)
+2026-10-06 18:06:36,318 [INFO] HTML successfully written to docs/condmat26.html (5017687 bytes, RSS link: condmat26.xml)
+2026-10-06 18:06:36,418 [INFO] HTML successfully written to docs/condmat.html (5017685 bytes, RSS link: condmat.xml)
+2026-10-06 18:06:36,418 [INFO] HTML entries processed: 1245 (with LaTeX rendering)
+2026-10-06 18:06:36,419 [INFO] === Sync Statistics ===
+2026-10-06 18:06:36,419 [INFO] Total execution time: 8.79 seconds
+2026-10-06 18:06:36,419 [INFO] Archive year: 2026
+2026-10-06 18:06:36,419 [INFO] Total entries: 1245
+2026-10-06 18:06:36,419 [INFO] Cache entries: 1245
+2026-10-06 18:06:36,419 [INFO] === Full Sync Complete ===
+2026-10-06 18:06:36,419 [INFO] Generated versioned files:
+2026-10-06 18:06:36,419 [INFO]   RSS: docs/condmat26.xml
+2026-10-06 18:06:36,419 [INFO]   HTML: docs/condmat26.html
+2026-10-06 18:06:36,419 [INFO]   Cache: docs/entries26.json
