@@ -203,31 +203,13 @@ class RSSGenerator:
             logging.error(f"Failed to parse generated RSS string: {e}")
             return False
             
-        # Add dc:creator elements
+        # Add dc:creator elements (shown as the item's author by feed readers)
+        creators = {e["link"]: format_creator(latex_to_unicode(e.get("authors", ""))) for e in entries}
         for item in root.findall(".//item"):
-            try:
-                description = item.findtext("description", "")
-                # Extract authors from description using simple string splitting
-                authors = ""
-                if "Author(s):" in description:
-                    # Extract text between "Author(s):" and "Abstract:"
-                    try:
-                        soup = BeautifulSoup(description, "html.parser")
-                        text = soup.get_text()
-                        start = text.find("Author(s):") + len("Author(s):")
-                        end = text.find("Abstract:")
-                        if start > 10 and end > start:  # Valid indices
-                            authors = text[start:end].strip()
-                    except Exception:
-                        pass
-                
-                # Add dc:creator element
-                creator = ET.Element("{http://purl.org/dc/elements/1.1/}creator")
-                creator.text = authors or "Unknown"
-                item.append(creator)
-            except Exception as e:
-                logging.warning(f"Failed to add dc:creator: {e}")
-            
+            creator = ET.Element("{http://purl.org/dc/elements/1.1/}creator")
+            creator.text = creators.get(item.findtext("link", "").strip()) or "Unknown"
+            item.append(creator)
+
         # Create output directory and write file
         try:
             tree = ET.ElementTree(root)
@@ -248,3 +230,14 @@ class RSSGenerator:
         except Exception as e:
             logging.error(f"Error writing RSS file: {e}")
             return False
+
+
+def format_creator(authors, max_listed=3):
+    """
+    Short author line for dc:creator: everyone for up to max_listed authors,
+    otherwise "First Author et al." (the full list stays in the description).
+    """
+    names = [n.strip() for n in (authors or "").split(",") if n.strip()]
+    if len(names) <= max_listed:
+        return ", ".join(names)
+    return f"{names[0]} et al."
