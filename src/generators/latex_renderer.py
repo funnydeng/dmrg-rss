@@ -130,7 +130,7 @@ class LaTeXRenderer:
             list: [(ok, html_or_error_message)]
         """
         katex_dir = _katex_package_dir()
-        if katex_dir and len(items) > 1:
+        if katex_dir:
             try:
                 result = subprocess.run(
                     ["node", BATCH_SCRIPT, katex_dir],
