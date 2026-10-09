@@ -1,53 +1,107 @@
-2026-10-09 05:18:57,586 [INFO] === DMRG RSS Application Initialized ===
-2026-10-09 05:18:57,586 [INFO] HTTP session initialized with User-Agent: dmrg-rss-fullsync/1.4
-2026-10-09 05:18:57,586 [INFO] All application components initialized successfully
-2026-10-09 05:18:57,586 [INFO] === DMRG RSS Full Sync Started ===
-2026-10-09 05:18:57,586 [INFO] Fetching page: http://quattro.phys.sci.kobe-u.ac.jp/dmrg/condmat.html
-2026-10-09 05:18:59,332 [INFO] Successfully fetched page, size: 320983 bytes
-2026-10-09 05:18:59,559 [INFO] Found 1263 bold tags to check
-2026-10-09 05:18:59,563 [INFO] Processed 200 bold tags, found 192 arXiv links so far
-2026-10-09 05:18:59,566 [INFO] Processed 400 bold tags, found 392 arXiv links so far
-2026-10-09 05:18:59,569 [INFO] Processed 600 bold tags, found 592 arXiv links so far
-2026-10-09 05:18:59,572 [INFO] Processed 800 bold tags, found 792 arXiv links so far
-2026-10-09 05:18:59,575 [INFO] Processed 1000 bold tags, found 992 arXiv links so far
-2026-10-09 05:18:59,579 [INFO] Processed 1200 bold tags, found 1192 arXiv links so far
-2026-10-09 05:18:59,580 [INFO] Total arXiv entries found: 1254
-2026-10-09 05:18:59,581 [INFO] Source page detected as year 2026
-2026-10-09 05:18:59,598 [INFO] Loaded 1254 entries from cache: docs/entries26.json (last updated: 2026-10-08T18:38:00.039966+00:00)
-2026-10-09 05:18:59,598 [INFO] DMRG page entries: 1254
-2026-10-09 05:18:59,598 [INFO] JSON cache entries: 1254
-2026-10-09 05:18:59,600 [INFO] Entries analysis: 1254 complete, 0 need fetching
-2026-10-09 05:18:59,600 [INFO] All entries are complete, no fetching needed
-2026-10-09 05:18:59,600 [INFO] Final sync result: 1254 total entries
-2026-10-09 05:18:59,600 [INFO] - 1254 existing complete entries
-2026-10-09 05:18:59,601 [INFO] - 0 newly fetched/updated entries
-2026-10-09 05:18:59,622 [INFO] Saved 1254 entries to cache: docs/entries26.json
-2026-10-09 05:18:59,629 [INFO] Generating RSS with 1254 entries (newest first)
-2026-10-09 05:19:01,287 [INFO] Entry 1 date: Wed, 07 Oct 2026 15:33:59
-2026-10-09 05:19:01,289 [INFO] Entry 2 date: Wed, 07 Oct 2026 13:48:04
-2026-10-09 05:19:01,291 [INFO] Entry 3 date: Wed, 07 Oct 2026 13:12:36
-2026-10-09 05:19:03,318 [INFO] RSS successfully written to docs/condmat26.xml
-2026-10-09 05:19:03,318 [INFO] File size: 3217810 bytes, entries added: 1254
-2026-10-09 05:19:03,318 [INFO] RSS entries are ordered from newest to oldest publication date
-2026-10-09 05:19:03,328 [INFO] Generating RSS with 1254 entries (newest first)
-2026-10-09 05:19:04,966 [INFO] Entry 1 date: Wed, 07 Oct 2026 15:33:59
-2026-10-09 05:19:04,968 [INFO] Entry 2 date: Wed, 07 Oct 2026 13:48:04
-2026-10-09 05:19:04,970 [INFO] Entry 3 date: Wed, 07 Oct 2026 13:12:36
-2026-10-09 05:19:06,991 [INFO] RSS successfully written to docs/condmat.xml
-2026-10-09 05:19:06,992 [INFO] File size: 3217806 bytes, entries added: 1254
-2026-10-09 05:19:06,992 [INFO] RSS entries are ordered from newest to oldest publication date
-2026-10-09 05:19:06,994 [INFO] Generating HTML with 1254 entries
-2026-10-09 05:19:07,001 [INFO] Sorted 1254 entries by publication date for HTML display
-2026-10-09 05:19:10,637 [INFO] HTML successfully written to docs/condmat26.html (5057097 bytes, RSS link: condmat26.xml)
-2026-10-09 05:19:10,645 [INFO] HTML successfully written to docs/condmat.html (5057095 bytes, RSS link: condmat.xml)
-2026-10-09 05:19:10,645 [INFO] HTML entries processed: 1254 (with LaTeX rendering)
-2026-10-09 05:19:10,646 [INFO] === Sync Statistics ===
-2026-10-09 05:19:10,646 [INFO] Total execution time: 13.06 seconds
-2026-10-09 05:19:10,646 [INFO] Archive year: 2026
-2026-10-09 05:19:10,646 [INFO] Total entries: 1254
-2026-10-09 05:19:10,646 [INFO] Cache entries: 1254
-2026-10-09 05:19:10,646 [INFO] === Full Sync Complete ===
-2026-10-09 05:19:10,646 [INFO] Generated versioned files:
-2026-10-09 05:19:10,646 [INFO]   RSS: docs/condmat26.xml
-2026-10-09 05:19:10,646 [INFO]   HTML: docs/condmat26.html
-2026-10-09 05:19:10,646 [INFO]   Cache: docs/entries26.json
+2026-10-09 18:08:39,342 [INFO] === DMRG RSS Application Initialized ===
+2026-10-09 18:08:39,342 [INFO] HTTP session initialized with User-Agent: dmrg-rss-fullsync/1.4
+2026-10-09 18:08:39,342 [INFO] All application components initialized successfully
+2026-10-09 18:08:39,342 [INFO] === DMRG RSS Full Sync Started ===
+2026-10-09 18:08:39,342 [INFO] Fetching page: http://quattro.phys.sci.kobe-u.ac.jp/dmrg/condmat.html
+2026-10-09 18:08:40,705 [INFO] Successfully fetched page, size: 322226 bytes
+2026-10-09 18:08:40,919 [INFO] Found 1268 bold tags to check
+2026-10-09 18:08:40,922 [INFO] Processed 200 bold tags, found 192 arXiv links so far
+2026-10-09 18:08:40,926 [INFO] Processed 400 bold tags, found 392 arXiv links so far
+2026-10-09 18:08:40,929 [INFO] Processed 600 bold tags, found 592 arXiv links so far
+2026-10-09 18:08:40,932 [INFO] Processed 800 bold tags, found 792 arXiv links so far
+2026-10-09 18:08:40,935 [INFO] Processed 1000 bold tags, found 992 arXiv links so far
+2026-10-09 18:08:40,938 [INFO] Processed 1200 bold tags, found 1192 arXiv links so far
+2026-10-09 18:08:40,939 [INFO] Total arXiv entries found: 1259
+2026-10-09 18:08:40,941 [INFO] Source page detected as year 2026
+2026-10-09 18:08:40,956 [INFO] Loaded 1254 entries from cache: docs/entries26.json (last updated: 2026-10-09T05:18:59.601138+00:00)
+2026-10-09 18:08:40,957 [INFO] DMRG page entries: 1259
+2026-10-09 18:08:40,957 [INFO] JSON cache entries: 1254
+2026-10-09 18:08:40,959 [INFO] Entries analysis: 1254 complete, 5 need fetching
+2026-10-09 18:08:40,959 [INFO] Fetching arXiv batch 1 (5 ids, attempt 1)
+2026-10-09 18:09:01,068 [WARNING] arXiv batch request failed: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=20); retrying in 3s
+2026-10-09 18:09:04,068 [INFO] Fetching arXiv batch 1 (5 ids, attempt 2)
+2026-10-09 18:09:11,695 [WARNING] arXiv batch request failed: arXiv API returned 429 (rate limited); retrying in 6s
+2026-10-09 18:09:17,695 [INFO] Fetching arXiv batch 1 (5 ids, attempt 3)
+2026-10-09 18:09:37,717 [WARNING] arXiv batch request failed: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=20); retrying in 12s
+2026-10-09 18:09:49,718 [INFO] arXiv batch fetch: 0/5 papers retrieved
+2026-10-09 18:09:49,718 [INFO] Fetching details individually [1/5]: http://arxiv.org/abs/2610.12271
+2026-10-09 18:09:49,718 [INFO] Fetching arXiv details (attempt 1): 2610.12271
+2026-10-09 18:09:49,894 [WARNING] Attempt 1 failed for http://arxiv.org/abs/2610.12271: arXiv API returned 429 (rate limited)
+2026-10-09 18:09:52,895 [INFO] Fetching arXiv details (attempt 2): 2610.12271
+2026-10-09 18:10:08,581 [WARNING] Attempt 2 failed for http://arxiv.org/abs/2610.12271: arXiv API returned 429 (rate limited)
+2026-10-09 18:10:14,581 [INFO] Fetching arXiv details (attempt 3): 2610.12271
+2026-10-09 18:10:14,674 [WARNING] Attempt 3 failed for http://arxiv.org/abs/2610.12271: arXiv API returned 429 (rate limited)
+2026-10-09 18:10:14,674 [ERROR] All attempts failed for http://arxiv.org/abs/2610.12271
+2026-10-09 18:10:17,674 [WARNING] Could not fetch complete metadata for http://arxiv.org/abs/2610.12271; will retry next run
+2026-10-09 18:10:17,674 [INFO] Fetching details individually [2/5]: http://arxiv.org/abs/2610.12348
+2026-10-09 18:10:17,674 [INFO] Fetching arXiv details (attempt 1): 2610.12348
+2026-10-09 18:10:17,766 [WARNING] Attempt 1 failed for http://arxiv.org/abs/2610.12348: arXiv API returned 429 (rate limited)
+2026-10-09 18:10:20,766 [INFO] Fetching arXiv details (attempt 2): 2610.12348
+2026-10-09 18:10:40,783 [WARNING] Attempt 2 failed for http://arxiv.org/abs/2610.12348: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=20)
+2026-10-09 18:10:46,783 [INFO] Fetching arXiv details (attempt 3): 2610.12348
+2026-10-09 18:11:06,833 [WARNING] Attempt 3 failed for http://arxiv.org/abs/2610.12348: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=20)
+2026-10-09 18:11:06,833 [ERROR] All attempts failed for http://arxiv.org/abs/2610.12348
+2026-10-09 18:11:09,833 [WARNING] Could not fetch complete metadata for http://arxiv.org/abs/2610.12348; will retry next run
+2026-10-09 18:11:09,833 [INFO] Fetching details individually [3/5]: http://arxiv.org/abs/2610.11747
+2026-10-09 18:11:09,834 [INFO] Fetching arXiv details (attempt 1): 2610.11747
+2026-10-09 18:11:09,937 [WARNING] Attempt 1 failed for http://arxiv.org/abs/2610.11747: arXiv API returned 429 (rate limited)
+2026-10-09 18:11:12,937 [INFO] Fetching arXiv details (attempt 2): 2610.11747
+2026-10-09 18:11:13,011 [WARNING] Attempt 2 failed for http://arxiv.org/abs/2610.11747: arXiv API returned 429 (rate limited)
+2026-10-09 18:11:19,011 [INFO] Fetching arXiv details (attempt 3): 2610.11747
+2026-10-09 18:11:34,534 [WARNING] Attempt 3 failed for http://arxiv.org/abs/2610.11747: arXiv API returned 429 (rate limited)
+2026-10-09 18:11:34,534 [ERROR] All attempts failed for http://arxiv.org/abs/2610.11747
+2026-10-09 18:11:37,535 [WARNING] Could not fetch complete metadata for http://arxiv.org/abs/2610.11747; will retry next run
+2026-10-09 18:11:37,535 [INFO] Fetching details individually [4/5]: http://arxiv.org/abs/2610.10772
+2026-10-09 18:11:37,535 [INFO] Fetching arXiv details (attempt 1): 2610.10772
+2026-10-09 18:11:37,627 [WARNING] Attempt 1 failed for http://arxiv.org/abs/2610.10772: arXiv API returned 429 (rate limited)
+2026-10-09 18:11:40,627 [INFO] Fetching arXiv details (attempt 2): 2610.10772
+2026-10-09 18:11:56,179 [WARNING] Attempt 2 failed for http://arxiv.org/abs/2610.10772: arXiv API returned 429 (rate limited)
+2026-10-09 18:12:02,179 [INFO] Fetching arXiv details (attempt 3): 2610.10772
+2026-10-09 18:12:22,200 [WARNING] Attempt 3 failed for http://arxiv.org/abs/2610.10772: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=20)
+2026-10-09 18:12:22,201 [ERROR] All attempts failed for http://arxiv.org/abs/2610.10772
+2026-10-09 18:12:25,201 [WARNING] Could not fetch complete metadata for http://arxiv.org/abs/2610.10772; will retry next run
+2026-10-09 18:12:25,201 [INFO] Fetching details individually [5/5]: http://arxiv.org/abs/2610.10694
+2026-10-09 18:12:25,201 [INFO] Fetching arXiv details (attempt 1): 2610.10694
+2026-10-09 18:12:45,253 [WARNING] Attempt 1 failed for http://arxiv.org/abs/2610.10694: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=20)
+2026-10-09 18:12:48,253 [INFO] Fetching arXiv details (attempt 2): 2610.10694
+2026-10-09 18:13:08,304 [WARNING] Attempt 2 failed for http://arxiv.org/abs/2610.10694: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=20)
+2026-10-09 18:13:14,304 [INFO] Fetching arXiv details (attempt 3): 2610.10694
+2026-10-09 18:13:14,459 [WARNING] Attempt 3 failed for http://arxiv.org/abs/2610.10694: arXiv API returned 429 (rate limited)
+2026-10-09 18:13:14,459 [ERROR] All attempts failed for http://arxiv.org/abs/2610.10694
+2026-10-09 18:13:17,459 [WARNING] Could not fetch complete metadata for http://arxiv.org/abs/2610.10694; will retry next run
+2026-10-09 18:13:17,460 [INFO] Final sync result: 1259 total entries
+2026-10-09 18:13:17,460 [INFO] - 1254 existing complete entries
+2026-10-09 18:13:17,460 [INFO] - 5 newly fetched/updated entries
+2026-10-09 18:13:17,484 [INFO] Saved 1259 entries to cache: docs/entries26.json
+2026-10-09 18:13:17,485 [WARNING] RSS: skipping 5 entries with incomplete metadata
+2026-10-09 18:13:17,491 [INFO] Generating RSS with 1254 entries (newest first)
+2026-10-09 18:13:19,158 [INFO] Entry 1 date: Wed, 07 Oct 2026 15:33:59
+2026-10-09 18:13:19,160 [INFO] Entry 2 date: Wed, 07 Oct 2026 13:48:04
+2026-10-09 18:13:19,162 [INFO] Entry 3 date: Wed, 07 Oct 2026 13:12:36
+2026-10-09 18:13:21,222 [INFO] RSS successfully written to docs/condmat26.xml
+2026-10-09 18:13:21,222 [INFO] File size: 3217810 bytes, entries added: 1254
+2026-10-09 18:13:21,222 [INFO] RSS entries are ordered from newest to oldest publication date
+2026-10-09 18:13:21,226 [WARNING] RSS: skipping 5 entries with incomplete metadata
+2026-10-09 18:13:21,231 [INFO] Generating RSS with 1254 entries (newest first)
+2026-10-09 18:13:22,881 [INFO] Entry 1 date: Wed, 07 Oct 2026 15:33:59
+2026-10-09 18:13:22,883 [INFO] Entry 2 date: Wed, 07 Oct 2026 13:48:04
+2026-10-09 18:13:22,885 [INFO] Entry 3 date: Wed, 07 Oct 2026 13:12:36
+2026-10-09 18:13:24,908 [INFO] RSS successfully written to docs/condmat.xml
+2026-10-09 18:13:24,909 [INFO] File size: 3217806 bytes, entries added: 1254
+2026-10-09 18:13:24,909 [INFO] RSS entries are ordered from newest to oldest publication date
+2026-10-09 18:13:24,912 [INFO] Generating HTML with 1259 entries
+2026-10-09 18:13:24,914 [WARNING] HTML generation using 1254 complete entries, skipping 5 incomplete entries
+2026-10-09 18:13:24,919 [INFO] Sorted 1254 entries by publication date for HTML display
+2026-10-09 18:13:28,570 [INFO] HTML successfully written to docs/condmat26.html (5057141 bytes, RSS link: condmat26.xml)
+2026-10-09 18:13:28,579 [INFO] HTML successfully written to docs/condmat.html (5057139 bytes, RSS link: condmat.xml)
+2026-10-09 18:13:28,579 [INFO] HTML entries processed: 1254 (with LaTeX rendering)
+2026-10-09 18:13:28,580 [INFO] === Sync Statistics ===
+2026-10-09 18:13:28,580 [INFO] Total execution time: 289.24 seconds
+2026-10-09 18:13:28,580 [INFO] Archive year: 2026
+2026-10-09 18:13:28,580 [INFO] Total entries: 1259
+2026-10-09 18:13:28,580 [INFO] Cache entries: 1259
+2026-10-09 18:13:28,580 [INFO] === Full Sync Complete ===
+2026-10-09 18:13:28,580 [INFO] Generated versioned files:
+2026-10-09 18:13:28,580 [INFO]   RSS: docs/condmat26.xml
+2026-10-09 18:13:28,580 [INFO]   HTML: docs/condmat26.html
+2026-10-09 18:13:28,580 [INFO]   Cache: docs/entries26.json

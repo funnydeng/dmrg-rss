@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-09T05:18:59.601138+00:00",
+  "last_updated": "2026-10-09T18:13:17.460527+00:00",
   "entries": {
     "852e2d0106d6525187e4fc9a9e5e5fef": {
       "id": "852e2d0106d6525187e4fc9a9e5e5fef",
@@ -10032,6 +10032,46 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "4d8e2e3929e4856f406ea809c05bc4c9": {
+      "id": "4d8e2e3929e4856f406ea809c05bc4c9",
+      "link": "http://arxiv.org/abs/2610.12271",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "203c0ecc8918acf72ee48bd4e7d5b3b5": {
+      "id": "203c0ecc8918acf72ee48bd4e7d5b3b5",
+      "link": "http://arxiv.org/abs/2610.12348",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "1c630b2dd410bb4a8a4a03da69289737": {
+      "id": "1c630b2dd410bb4a8a4a03da69289737",
+      "link": "http://arxiv.org/abs/2610.11747",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "ed7016b8c715dbb2a3c30cf8a4c46d47": {
+      "id": "ed7016b8c715dbb2a3c30cf8a4c46d47",
+      "link": "http://arxiv.org/abs/2610.10772",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
+    },
+    "73df57787755df57465cb9cc285c8a5c": {
+      "id": "73df57787755df57465cb9cc285c8a5c",
+      "link": "http://arxiv.org/abs/2610.10694",
+      "title": "",
+      "abstract": "",
+      "pubdate": null,
+      "authors": ""
     }
   }
 }
