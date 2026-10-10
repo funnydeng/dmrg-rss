@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-09T18:13:17.460527+00:00",
+  "last_updated": "2026-10-10T05:03:28.839982+00:00",
   "entries": {
     "852e2d0106d6525187e4fc9a9e5e5fef": {
       "id": "852e2d0106d6525187e4fc9a9e5e5fef",
@@ -10036,42 +10036,42 @@
     "4d8e2e3929e4856f406ea809c05bc4c9": {
       "id": "4d8e2e3929e4856f406ea809c05bc4c9",
       "link": "http://arxiv.org/abs/2610.12271",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
+      "title": "Multipartite entanglement spreads",
+      "abstract": "The entanglement structure of a bipartite pure state is characterized by its entanglement spectrum, or equivalently, by the family of Rényi-$k$ entanglement entropies with integer $k$. Taking the difference of two such entropies defines a quantity known as an entanglement spread, that is monotonous under local operations, and that vanishes if and only if the entanglement spectrum of the state is flat. We introduce a multipartite generalization of this notion which, for a fixed number $D\\geq 3$ of parties, results in a collection of maps indexed by pairs of $D$-edge-colored graphs (obeying some condition). Each member of this collection takes the form of a difference of two multipartite Rényi entanglement entropies, each associated to a local unitary polynomial invariant (known in this context as a trace-invariant), and is shown to be monotonous under local operations. We then argue that a previously introduced family of so-called hypergraph-tensor (HT) states can be understood as a multipartite counterpart to the family of flat bipartite states. Indeed, we first prove that, when $D=3$, a tripartite pure state is HT if and only if it minimizes a particular (infinite) family of entanglement spreads. Second, we embed the set of HT states into the much larger family of spectral hypergraph-tensor (SHT) states, defined by a new Ansatz we introduce. We then prove that HT states can be uniquely characterized as the minimizers of some fixed entanglement spread among SHT states, for arbitrary $D\\geq 3$. We also investigate SHT states in their own right: in particular, we characterize their orbits under local unitary transformations. Finally, along the way, the asymptotic large-$N$ expectation values of a number of entanglement spreads are computed in the Haar-random state of local dimension $N$.",
+      "pubdate": "Thu, 08 Oct 2026 16:34:25 +0000",
+      "authors": "Sylvain Carrozza, Johann Chevrier, Luca Lionni"
     },
     "203c0ecc8918acf72ee48bd4e7d5b3b5": {
       "id": "203c0ecc8918acf72ee48bd4e7d5b3b5",
       "link": "http://arxiv.org/abs/2610.12348",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
+      "title": "Constructing Large and Structured Decoherence-Free Subspaces in Hybrid Quantum Systems",
+      "abstract": "We develop a framework to construct large decoherence-free subspaces with a non-trivial structure. The construction is based on hybrid quantum systems in which quantum matter is coupled to a dissipative bosonic mode. Dissipation imposes a global constraint on the matter by selecting the matter null states in the long-time limit. The decoherence-free subspaces spanned by matter null states can exhibit exotic quantum properties and emergent symmetries that do not characterize the full Liouvillian dynamics. We show how to construct many-body operators with physically interesting null states by employing representation theory of Lie algebras. This approach allows us to choose models based on their underlying algebraic structure. We consider explicitly the example of coupling a lossy optical cavity to the directed tunneling operator of quantum particles in one-dimension. In this case, the symmetries of the decoherence-free subspace originate in an $\\mathfrak{sl}(2,\\mathbb{C})$ algebra, leading to an exponentially large number of steady states. We characterize the null states for both fermionic and bosonic particles, employing analytical and numerical methods. The states exhibit several properties that underline their complex quantum nature: long-range kinetic correlations and volume-law entanglement. The nonreciprocal nature of the directed tunneling dynamics leads to the emergence in the many-body regime of a symmetry-constrained Liouvillian skin effect. The open light-matter system exhibits a strong symmetry stemming from spinless $η$-pairing algebras. We show how the non-trivial properties of the long-times states emerge in the dissipative dynamics from generic initial states, by performing time-dependent matrix product state simulations. Our framework opens avenues for dissipatively engineering complex quantum correlations and harnessing nonreciprocity in a controlled manner.",
+      "pubdate": "Thu, 08 Oct 2026 17:18:30 +0000",
+      "authors": "Catalin-Mihai Halati, Tony Jin, Roderich Moessner"
     },
     "1c630b2dd410bb4a8a4a03da69289737": {
       "id": "1c630b2dd410bb4a8a4a03da69289737",
       "link": "http://arxiv.org/abs/2610.11747",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
+      "title": "Robust second-order time integration of tree tensor networks",
+      "abstract": "We propose and analyze two second-order basis-update \\& Galerkin (BUG) time integration methods for dynamical low-rank approximation on Tucker tensors and tree tensor networks. Both are built from a sequential pre-computation sweep, after which the differential equations for all basis matrices and connecting tensors are evolved by a Galerkin method. Further, the proposed methods are rank-adaptive by construction. The first, the second-order parallel BUG integrator, solves all these differential equations fully in parallel, which is favorable on parallel architectures, followed by a sequential augmentation and truncation step. The second, the second-order augmented BUG integrator, gives up full parallelism but conserves norm and energy for Schrödinger equations and dissipates energy for gradient flows up to the truncation tolerance. For both integrators, we prove a second-order error bound that is robust with respect to small singular values of the matricization of connecting tensors. Numerical experiments for radiative transfer and quantum spin systems validate the theoretical findings.",
+      "pubdate": "Thu, 08 Oct 2026 11:38:10 +0000",
+      "authors": "Jonas Kusch, Dominik Sulz"
     },
     "ed7016b8c715dbb2a3c30cf8a4c46d47": {
       "id": "ed7016b8c715dbb2a3c30cf8a4c46d47",
       "link": "http://arxiv.org/abs/2610.10772",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
+      "title": "Scaling Quantum Optimization to the Thousand-Qubit Scale with Distributed Quantum Sampling",
+      "abstract": "The Minimum Birkhoff Decomposition (MBD) seeks a sparse weighted sum of matchings and is a challenging optimization problem with applications in network scheduling and energy trading. We scale a quantum-assisted decomposition method by combining single-layer QAOA sampling with Extended Fully-Corrective Frank-Wolfe (E-FCFW) optimization, spectral graph partitioning, and greedy feasibility repair. We demonstrate the pipeline on the 1,354-node PEGASE bus test case (representing a 1,354-bus transmission grid with 1,710 transmission lines), whose 1,710 edges define a native 1,710-variable matching optimization problem requiring 1,710 qubits in the unpartitioned encoding. Partitioning enables distributed execution on IBM superconducting quantum processors. The best reported hardware result uses a 50-qubit partition bound, while reducing partitions to 20 qubits degrades convergence in the partition-size comparison. Larger partitions are more demanding for matrix product state (MPS) simulation, and bond-dimension tests show that truncating quantum correlations reduces candidate quality. The results therefore motivate retaining a substantive quantum sampling task within each partition as the overall problem scales. On the PEGASE-1354 benchmark, repaired QAOA samples achieve lower residual decomposition error than both simulated annealing and uniform random sampling baselines, while spatial circuit packing reduces hardware execution time by approximately a factor of three. These results demonstrate that combining spectral partitioning, spatial circuit packing, and classical feasibility repair provides an executable path for deploying gate-based quantum sampling on thousand-variable constrained optimization problems on current hardware.",
+      "pubdate": "Wed, 07 Oct 2026 18:31:06 +0000",
+      "authors": "Amana Liaqat, Ahmed Darwish, Stephen DiAdamo, Dan Holme, Kieran McDowall, Emre Sahin, Naeimeh Mohseni, Giorgio Cortiana, Corey O'Meara"
     },
     "73df57787755df57465cb9cc285c8a5c": {
       "id": "73df57787755df57465cb9cc285c8a5c",
       "link": "http://arxiv.org/abs/2610.10694",
-      "title": "",
-      "abstract": "",
-      "pubdate": null,
-      "authors": ""
+      "title": "Competing symmetry breaking and topology in quantum spin chains",
+      "abstract": "We investigate how spontaneous symmetry breaking and symmetry-protected topology compete and cooperate in one-dimensional quantum spin-1/2 systems. We introduce two families of local Hamiltonians with $\\mathbb{Z}^{\\,}_{2}\\times\\mathbb{Z}^{\\,}_{2}\\times\\mathbb{Z}^{T}_{2}$ symmetry which host a zoo of broken-symmetry phases with and without gapless boundary spins, namely, six long-range-ordered gapped phases that differ by their $\\mathbb{Z}^{\\,}_{2}$-symmetry-breaking patterns (FM$^{\\,}_{x,y,z}$ and Neel$^{\\,}_{x,y,z}$), their partner symmetry-protected topological phases (FM$^{\\mathrm{SPT}}_{x,y}$ and Neel$^{\\mathrm{SPT}}_{x,y}$), and two gapless phases (gFM$^{\\,}_{z}$ and gNeel$^{\\,}_{z}$) with incommensurate $\\mathbb{Z}^{T}_{2}$-breaking magnetic long-range order and central charge $\\mathsf{c}=1$. Direct transitions between competing gapped phases can be continuous or weakly first order. We demonstrate that continuous phase transition lines have exotic critical properties. For example, a line of deconfined quantum critical points (between the Neel$^{\\,}_{x}$ and Neel$^{\\,}_{y}$ phases) described by Tomonaga-Luttinger liquid theory is terminated by the gFM$^{\\,}_{z}$ phase at a Lifshitz tricritical point which exhibits spontaneous breaking of the continuous U(1) symmetry despite the locality and one-dimensionality of the Hamiltonian, contrary to a naive expectation from the Hohenberg-Mermin-Wagner-Coleman theorem. Furthermore, critical lines between symmetry-protected topological phases with different $\\mathbb{Z}^{\\,}_{2}$-symmetry breaking (e.g., Neel$^{\\mathrm{SPT}}_{x}$ and Neel$^{\\mathrm{SPT}}_{y}$) additionally retain low-energy boundary degrees of freedom, realizing symmetry-enriched criticality (or a gapless SPT phase). Our results reveal unconventional mechanisms by which competing symmetry breaking and topology generate ordered critical phases and multicriticality.",
+      "pubdate": "Wed, 07 Oct 2026 18:00:04 +0000",
+      "authors": "Anthony Rey, Ömer M. Aksoy, Claudio Chamon, Akira Furusaki, Christopher Mudry"
     }
   }
 }
