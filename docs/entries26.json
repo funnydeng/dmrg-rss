@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-10-19T18:31:17.686449+00:00",
+  "last_updated": "2026-10-20T04:06:14.096002+00:00",
   "entries": {
+    "41f41c36c4deedc3f1407dc63fe94156": {
+      "id": "41f41c36c4deedc3f1407dc63fe94156",
+      "link": "http://arxiv.org/abs/2610.23451",
+      "title": "Fast matrix-vector products in tensor-train format via structured sketching",
+      "abstract": "We propose a randomized, streamable algorithm that computes a tensor-train approximation of a matrix-vector product without ever forming the full intermediate tensor. We develop three contraction strategies for streaming tensor-train approximation (STTA): sequential, fused, and pre-sketched. We focus on the regime of large operator mode sizes and show that pre-sketching can provide significant speed-ups when a lower-rank approximation of the input is sought, by pre-computing all sketch-related contractions with the operator. The pre-sketched strategy can also accelerate successive randomized compression (SRC), although to a lesser extent since its second sweep depends on the input vector and cannot be pre-computed. We compare the three strategies in terms of computational cost and memory, and demonstrate their performance on synthetic and application-driven examples where rank reduction is relevant.",
+      "pubdate": "Fri, 16 Oct 2026 13:31:53 +0000",
+      "authors": "Alberto Bucci, Stefan Güttel, John W. Pearson"
+    },
+    "5299ccf2b7e5ab0e4a68511fe3d572c7": {
+      "id": "5299ccf2b7e5ab0e4a68511fe3d572c7",
+      "link": "http://arxiv.org/abs/2610.23366",
+      "title": "Statistics-controlled topological phases in a Su-Schrieffer-Heeger ladder",
+      "abstract": "In strictly one-dimensional lattices, free fermions and hard-core bosons exhibit equivalent physical properties in many-particle systems. However, this statistical equivalence generally breaks down upon moving to higher dimensions. Our work investigates the significant effects of this difference on the topological phase transition in a minimal system lying away from one dimension: the two-leg Su-Schrieffer-Heeger (SSH) ladder. Starting in the limit of two decoupled SSH chains having opposite hopping dimerization patterns (staggered dimerization), we demonstrate that introducing inter-leg coupling drives a transition from a topological to a trivial phase for both spinless fermions and hard-core bosons. However, the topological to trivial phase transition boundary is strongly sensitive to the underlying particle statistics. We find that this intriguing effect favors a trivial phase sandwiched between the two topological phases with opposite characters for the case of hard-core bosons, resulting in a reentrant topological phase transition. In contrast, this reentrant phenomenon is absent for spinless fermions, with the topological phases being separated by a gapless line instead of an intervening trivial phase. This study demonstrates the interplay between particle statistics and topological features, revealing fundamentally different properties in an experimentally accessible set-up.",
+      "pubdate": "Fri, 16 Oct 2026 12:17:09 +0000",
+      "authors": "Rajashri Parida, Biswajit Paul, Smitha Vishveshwara, Diptiman Sen, Tapan Mishra"
+    },
+    "b91e951bd4af46eef9d5619bdf9c860d": {
+      "id": "b91e951bd4af46eef9d5619bdf9c860d",
+      "link": "http://arxiv.org/abs/2610.23034",
+      "title": "Permutationally Invariant Polynomial Descriptors as Colored Multigraphs",
+      "abstract": "The combinatorial explosion in monomial counts limits the extension of global permutationally invariant polynomial (PIP) potential energy surfaces to larger molecular systems. We use graph-theoretic language to reformulate PIPs as colored multigraphs and develop a series of theoretical and computational tools. First, we introduce an offline PIP generation algorithm whose cost has an upper bound independent of atom count for a fixed degree cutoff and number of element types. Second, we introduce a new online PIP evaluation algorithm, termed tensor-network descent. For the full PIP set through degree $d$ in a system of $M$ atoms, the evaluation complexity for $1\\le d\\le14$ is $O\\!\\left(f(d)M^{\\left\\lfloor(\\sqrt{1+8d}+1)/2\\right\\rfloor}\\right)$. At the commonly used cutoff of $d=5$, the online evaluation complexity decreases from the $M^{10}$ scaling of conventional explicit term-by-term computation to $M^3$. Numerical tests using the full PIP set through degree 5 show that our method achieves speedups of several orders of magnitude on most MD17 systems and remains computationally affordable for systems containing more than one thousand atoms. The method has a native tensor form, supports automatic differentiation, and provides a unified theoretical construction of four classes of PIP descriptors defined consistently across systems---global, atom-centered, bond-centered, and cluster-centered---establishing a representation and computational foundation for PIP potentials for large systems and for transfer across systems. Together, these results show that PIPs are neither inherently restricted to small systems nor intrinsically nontransferable.",
+      "pubdate": "Fri, 16 Oct 2026 07:12:33 +0000",
+      "authors": "Yiping Hao, Bina Fu, Dong H. Zhang"
+    },
+    "56823db628dff7bed964f01d7d34c191": {
+      "id": "56823db628dff7bed964f01d7d34c191",
+      "link": "http://arxiv.org/abs/2610.22498",
+      "title": "Attraction from repulsion in an interacting Chern band: chiral superconductivity, generalized Hall crystals, and competing fractional Chern insulators",
+      "abstract": "Experiments realizing strong interactions in partially filled Chern bands have observed fractional Chern insulators (FCIs), superconductors, and topological crystals in close proximity. Yet the microscopic relation between them remains poorly understood. Here, we use tensor network simulations to study repulsively interacting spinless fermions in a tunable topological band of the checkerboard lattice. We characterize the competing phases and identify key features of the experimental phenomenology. FCIs from the Jain sequence transition into chiral p-wave superconductivity both below and above half filling as the band dispersion is enhanced. By contrast, at half filling, a generalized Hall crystal with quantized Hall conductance and a doubled unit cell forms for sufficiently strong coupling. Surprisingly, a weak-coupling approach starting from a metallic parent state captures the nature of both ordered phases at intermediate coupling. We find that fluctuations in the metal generate longer-range attraction, which we analyze within the random-phase approximation. This approach captures the pairing symmetry as well as the radial form factors of the Cooper pairs, and incorporating this attraction into Hartree-Fock selects the observed Hall crystal. Together, these results identify fluctuation-induced attraction from repulsion as a common microscopic ingredient of ordering, while our tensor network computations establish the direct competition of both phases with FCIs.",
+      "pubdate": "Thu, 15 Oct 2026 18:00:33 +0000",
+      "authors": "Fabian Pichler, Clemens Kuhlenkamp, Ashvin Vishwanath, Michael Knap"
+    },
+    "23e450dad7390446ed88eff17036c46c": {
+      "id": "23e450dad7390446ed88eff17036c46c",
+      "link": "http://arxiv.org/abs/2610.22482",
+      "title": "Exploring Quantum Phase Transitions Beyond Landau Theory on a Quantum Processor",
+      "abstract": "Direct continuous quantum phase transitions between phases that break distinct symmetries challenge the conventional Landau-Ginzburg-Wilson paradigm and provide a framework for deconfined quantum criticality. Here, we investigate a Landau-forbidden ferromagnetic-to-valence-bond-solid (FM-VBS) transition in a frustrated one-dimensional spin chain using superconducting quantum processors. Combining matrix-product-state-assisted circuit preparation with quantum-hardware measurements, we resolve the suppression of long-range ferromagnetic correlations and the redistribution of competing-order fluctuations across the transition. Distance-resolved correlations and finite-size analyses reveal signatures consistent with critical behavior. We further extend our investigation to nonequilibrium dynamics, directly preparing dimerized states and tracking the evolution of VBS order and joint FM-VBS fluctuations under local unitary interactions. Our results establish a versatile quantum-hardware framework for probing competing orders, critical correlations, and many-body dynamics beyond conventional Landau theory.",
+      "pubdate": "Thu, 15 Oct 2026 18:00:11 +0000",
+      "authors": "Ruizhe Shen, Yin Zhong, Ching Hua Lee"
+    },
     "2a12447c470353498691877ac21faffa": {
       "id": "2a12447c470353498691877ac21faffa",
       "link": "http://arxiv.org/abs/2610.22318",
@@ -10368,46 +10408,6 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
-    },
-    "41f41c36c4deedc3f1407dc63fe94156": {
-      "id": "41f41c36c4deedc3f1407dc63fe94156",
-      "link": "http://arxiv.org/abs/2610.23451",
-      "title": "Fast matrix-vector products in tensor-train format via structured sketching",
-      "abstract": "We propose a randomized, streamable algorithm that computes a tensor-train approximation of a matrix-vector product without ever forming the full intermediate tensor. We develop three contraction strategies for streaming tensor-train approximation (STTA): sequential, fused, and pre-sketched. We focus on the regime of large operator mode sizes and show that pre-sketching can provide significant speed-ups when a lower-rank approximation of the input is sought, by pre-computing all sketch-related contractions with the operator. The pre-sketched strategy can also accelerate successive randomized compression (SRC), although to a lesser extent since its second sweep depends on the input vector and cannot be pre-computed. We compare the three strategies in terms of computational cost and memory, and demonstrate their performance on synthetic and application-driven examples where rank reduction is relevant.",
-      "pubdate": "Fri, 16 Oct 2026 13:31:53 +0000",
-      "authors": "Alberto Bucci, Stefan Güttel, John W. Pearson"
-    },
-    "5299ccf2b7e5ab0e4a68511fe3d572c7": {
-      "id": "5299ccf2b7e5ab0e4a68511fe3d572c7",
-      "link": "http://arxiv.org/abs/2610.23366",
-      "title": "Statistics-controlled topological phases in a Su-Schrieffer-Heeger ladder",
-      "abstract": "In strictly one-dimensional lattices, free fermions and hard-core bosons exhibit equivalent physical properties in many-particle systems. However, this statistical equivalence generally breaks down upon moving to higher dimensions. Our work investigates the significant effects of this difference on the topological phase transition in a minimal system lying away from one dimension: the two-leg Su-Schrieffer-Heeger (SSH) ladder. Starting in the limit of two decoupled SSH chains having opposite hopping dimerization patterns (staggered dimerization), we demonstrate that introducing inter-leg coupling drives a transition from a topological to a trivial phase for both spinless fermions and hard-core bosons. However, the topological to trivial phase transition boundary is strongly sensitive to the underlying particle statistics. We find that this intriguing effect favors a trivial phase sandwiched between the two topological phases with opposite characters for the case of hard-core bosons, resulting in a reentrant topological phase transition. In contrast, this reentrant phenomenon is absent for spinless fermions, with the topological phases being separated by a gapless line instead of an intervening trivial phase. This study demonstrates the interplay between particle statistics and topological features, revealing fundamentally different properties in an experimentally accessible set-up.",
-      "pubdate": "Fri, 16 Oct 2026 12:17:09 +0000",
-      "authors": "Rajashri Parida, Biswajit Paul, Smitha Vishveshwara, Diptiman Sen, Tapan Mishra"
-    },
-    "b91e951bd4af46eef9d5619bdf9c860d": {
-      "id": "b91e951bd4af46eef9d5619bdf9c860d",
-      "link": "http://arxiv.org/abs/2610.23034",
-      "title": "Permutationally Invariant Polynomial Descriptors as Colored Multigraphs",
-      "abstract": "The combinatorial explosion in monomial counts limits the extension of global permutationally invariant polynomial (PIP) potential energy surfaces to larger molecular systems. We use graph-theoretic language to reformulate PIPs as colored multigraphs and develop a series of theoretical and computational tools. First, we introduce an offline PIP generation algorithm whose cost has an upper bound independent of atom count for a fixed degree cutoff and number of element types. Second, we introduce a new online PIP evaluation algorithm, termed tensor-network descent. For the full PIP set through degree $d$ in a system of $M$ atoms, the evaluation complexity for $1\\le d\\le14$ is $O\\!\\left(f(d)M^{\\left\\lfloor(\\sqrt{1+8d}+1)/2\\right\\rfloor}\\right)$. At the commonly used cutoff of $d=5$, the online evaluation complexity decreases from the $M^{10}$ scaling of conventional explicit term-by-term computation to $M^3$. Numerical tests using the full PIP set through degree 5 show that our method achieves speedups of several orders of magnitude on most MD17 systems and remains computationally affordable for systems containing more than one thousand atoms. The method has a native tensor form, supports automatic differentiation, and provides a unified theoretical construction of four classes of PIP descriptors defined consistently across systems---global, atom-centered, bond-centered, and cluster-centered---establishing a representation and computational foundation for PIP potentials for large systems and for transfer across systems. Together, these results show that PIPs are neither inherently restricted to small systems nor intrinsically nontransferable.",
-      "pubdate": "Fri, 16 Oct 2026 07:12:33 +0000",
-      "authors": "Yiping Hao, Bina Fu, Dong H. Zhang"
-    },
-    "56823db628dff7bed964f01d7d34c191": {
-      "id": "56823db628dff7bed964f01d7d34c191",
-      "link": "http://arxiv.org/abs/2610.22498",
-      "title": "Attraction from repulsion in an interacting Chern band: chiral superconductivity, generalized Hall crystals, and competing fractional Chern insulators",
-      "abstract": "Experiments realizing strong interactions in partially filled Chern bands have observed fractional Chern insulators (FCIs), superconductors, and topological crystals in close proximity. Yet the microscopic relation between them remains poorly understood. Here, we use tensor network simulations to study repulsively interacting spinless fermions in a tunable topological band of the checkerboard lattice. We characterize the competing phases and identify key features of the experimental phenomenology. FCIs from the Jain sequence transition into chiral p-wave superconductivity both below and above half filling as the band dispersion is enhanced. By contrast, at half filling, a generalized Hall crystal with quantized Hall conductance and a doubled unit cell forms for sufficiently strong coupling. Surprisingly, a weak-coupling approach starting from a metallic parent state captures the nature of both ordered phases at intermediate coupling. We find that fluctuations in the metal generate longer-range attraction, which we analyze within the random-phase approximation. This approach captures the pairing symmetry as well as the radial form factors of the Cooper pairs, and incorporating this attraction into Hartree-Fock selects the observed Hall crystal. Together, these results identify fluctuation-induced attraction from repulsion as a common microscopic ingredient of ordering, while our tensor network computations establish the direct competition of both phases with FCIs.",
-      "pubdate": "Thu, 15 Oct 2026 18:00:33 +0000",
-      "authors": "Fabian Pichler, Clemens Kuhlenkamp, Ashvin Vishwanath, Michael Knap"
-    },
-    "23e450dad7390446ed88eff17036c46c": {
-      "id": "23e450dad7390446ed88eff17036c46c",
-      "link": "http://arxiv.org/abs/2610.22482",
-      "title": "Exploring Quantum Phase Transitions Beyond Landau Theory on a Quantum Processor",
-      "abstract": "Direct continuous quantum phase transitions between phases that break distinct symmetries challenge the conventional Landau-Ginzburg-Wilson paradigm and provide a framework for deconfined quantum criticality. Here, we investigate a Landau-forbidden ferromagnetic-to-valence-bond-solid (FM-VBS) transition in a frustrated one-dimensional spin chain using superconducting quantum processors. Combining matrix-product-state-assisted circuit preparation with quantum-hardware measurements, we resolve the suppression of long-range ferromagnetic correlations and the redistribution of competing-order fluctuations across the transition. Distance-resolved correlations and finite-size analyses reveal signatures consistent with critical behavior. We further extend our investigation to nonequilibrium dynamics, directly preparing dimerized states and tracking the evolution of VBS order and joint FM-VBS fluctuations under local unitary interactions. Our results establish a versatile quantum-hardware framework for probing competing orders, critical correlations, and many-body dynamics beyond conventional Landau theory.",
-      "pubdate": "Thu, 15 Oct 2026 18:00:11 +0000",
-      "authors": "Ruizhe Shen, Yin Zhong, Ching Hua Lee"
     }
   }
 }

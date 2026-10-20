@@ -1,54 +1,53 @@
-2026-10-19 18:31:15,671 [INFO] === DMRG RSS Application Initialized ===
-2026-10-19 18:31:15,671 [INFO] HTTP session initialized with User-Agent: dmrg-rss-fullsync/1.4
-2026-10-19 18:31:15,671 [INFO] All application components initialized successfully
-2026-10-19 18:31:15,671 [INFO] === DMRG RSS Full Sync Started ===
-2026-10-19 18:31:15,671 [INFO] Fetching page: http://quattro.phys.sci.kobe-u.ac.jp/dmrg/condmat.html
-2026-10-19 18:31:17,007 [INFO] Successfully fetched page, size: 333672 bytes
-2026-10-19 18:31:17,227 [INFO] Found 1310 bold tags to check
-2026-10-19 18:31:17,231 [INFO] Processed 200 bold tags, found 192 arXiv links so far
-2026-10-19 18:31:17,234 [INFO] Processed 400 bold tags, found 392 arXiv links so far
-2026-10-19 18:31:17,237 [INFO] Processed 600 bold tags, found 592 arXiv links so far
-2026-10-19 18:31:17,240 [INFO] Processed 800 bold tags, found 792 arXiv links so far
-2026-10-19 18:31:17,243 [INFO] Processed 1000 bold tags, found 992 arXiv links so far
-2026-10-19 18:31:17,246 [INFO] Processed 1200 bold tags, found 1192 arXiv links so far
-2026-10-19 18:31:17,248 [INFO] Total arXiv entries found: 1301
-2026-10-19 18:31:17,250 [INFO] Source page detected as year 2026
-2026-10-19 18:31:17,266 [INFO] Loaded 1296 entries from cache: docs/entries26.json (last updated: 2026-10-19T03:54:24.226713+00:00)
-2026-10-19 18:31:17,267 [INFO] DMRG page entries: 1301
-2026-10-19 18:31:17,267 [INFO] JSON cache entries: 1296
-2026-10-19 18:31:17,269 [INFO] Entries analysis: 1296 complete, 5 need fetching
-2026-10-19 18:31:17,269 [INFO] Fetching arXiv batch 1 (5 ids, attempt 1)
-2026-10-19 18:31:17,685 [INFO] arXiv batch fetch: 5/5 papers retrieved
-2026-10-19 18:31:17,686 [INFO] Final sync result: 1301 total entries
-2026-10-19 18:31:17,686 [INFO] - 1296 existing complete entries
-2026-10-19 18:31:17,686 [INFO] - 5 newly fetched/updated entries
-2026-10-19 18:31:17,708 [INFO] Saved 1301 entries to cache: docs/entries26.json
-2026-10-19 18:31:17,715 [INFO] Generating RSS with 1301 entries (newest first)
-2026-10-19 18:31:19,412 [INFO] Entry 1 date: Fri, 16 Oct 2026 13:31:53
-2026-10-19 18:31:19,414 [INFO] Entry 2 date: Fri, 16 Oct 2026 12:17:09
-2026-10-19 18:31:19,416 [INFO] Entry 3 date: Fri, 16 Oct 2026 07:12:33
-2026-10-19 18:31:21,518 [INFO] RSS successfully written to docs/condmat26.xml
-2026-10-19 18:31:21,518 [INFO] File size: 3370604 bytes, entries added: 1301
-2026-10-19 18:31:21,518 [INFO] RSS entries are ordered from newest to oldest publication date
-2026-10-19 18:31:21,528 [INFO] Generating RSS with 1301 entries (newest first)
-2026-10-19 18:31:23,219 [INFO] Entry 1 date: Fri, 16 Oct 2026 13:31:53
-2026-10-19 18:31:23,221 [INFO] Entry 2 date: Fri, 16 Oct 2026 12:17:09
-2026-10-19 18:31:23,223 [INFO] Entry 3 date: Fri, 16 Oct 2026 07:12:33
-2026-10-19 18:31:25,327 [INFO] RSS successfully written to docs/condmat.xml
-2026-10-19 18:31:25,327 [INFO] File size: 3370600 bytes, entries added: 1301
-2026-10-19 18:31:25,327 [INFO] RSS entries are ordered from newest to oldest publication date
-2026-10-19 18:31:25,330 [INFO] Generating HTML with 1301 entries
-2026-10-19 18:31:25,337 [INFO] Sorted 1301 entries by publication date for HTML display
-2026-10-19 18:31:29,111 [INFO] HTML successfully written to docs/condmat26.html (5341290 bytes, RSS link: condmat26.xml)
-2026-10-19 18:31:29,119 [INFO] HTML successfully written to docs/condmat.html (5341288 bytes, RSS link: condmat.xml)
-2026-10-19 18:31:29,119 [INFO] HTML entries processed: 1301 (with LaTeX rendering)
-2026-10-19 18:31:29,121 [INFO] === Sync Statistics ===
-2026-10-19 18:31:29,121 [INFO] Total execution time: 13.45 seconds
-2026-10-19 18:31:29,121 [INFO] Archive year: 2026
-2026-10-19 18:31:29,121 [INFO] Total entries: 1301
-2026-10-19 18:31:29,121 [INFO] Cache entries: 1301
-2026-10-19 18:31:29,121 [INFO] === Full Sync Complete ===
-2026-10-19 18:31:29,121 [INFO] Generated versioned files:
-2026-10-19 18:31:29,121 [INFO]   RSS: docs/condmat26.xml
-2026-10-19 18:31:29,121 [INFO]   HTML: docs/condmat26.html
-2026-10-19 18:31:29,121 [INFO]   Cache: docs/entries26.json
+2026-10-20 04:06:12,748 [INFO] === DMRG RSS Application Initialized ===
+2026-10-20 04:06:12,748 [INFO] HTTP session initialized with User-Agent: dmrg-rss-fullsync/1.4
+2026-10-20 04:06:12,748 [INFO] All application components initialized successfully
+2026-10-20 04:06:12,748 [INFO] === DMRG RSS Full Sync Started ===
+2026-10-20 04:06:12,748 [INFO] Fetching page: http://quattro.phys.sci.kobe-u.ac.jp/dmrg/condmat.html
+2026-10-20 04:06:13,932 [INFO] Successfully fetched page, size: 333672 bytes
+2026-10-20 04:06:14,070 [INFO] Found 1310 bold tags to check
+2026-10-20 04:06:14,072 [INFO] Processed 200 bold tags, found 192 arXiv links so far
+2026-10-20 04:06:14,074 [INFO] Processed 400 bold tags, found 392 arXiv links so far
+2026-10-20 04:06:14,076 [INFO] Processed 600 bold tags, found 592 arXiv links so far
+2026-10-20 04:06:14,078 [INFO] Processed 800 bold tags, found 792 arXiv links so far
+2026-10-20 04:06:14,080 [INFO] Processed 1000 bold tags, found 992 arXiv links so far
+2026-10-20 04:06:14,081 [INFO] Processed 1200 bold tags, found 1192 arXiv links so far
+2026-10-20 04:06:14,082 [INFO] Total arXiv entries found: 1301
+2026-10-20 04:06:14,083 [INFO] Source page detected as year 2026
+2026-10-20 04:06:14,094 [INFO] Loaded 1301 entries from cache: docs/entries26.json (last updated: 2026-10-19T18:31:17.686449+00:00)
+2026-10-20 04:06:14,094 [INFO] DMRG page entries: 1301
+2026-10-20 04:06:14,094 [INFO] JSON cache entries: 1301
+2026-10-20 04:06:14,095 [INFO] Entries analysis: 1301 complete, 0 need fetching
+2026-10-20 04:06:14,095 [INFO] All entries are complete, no fetching needed
+2026-10-20 04:06:14,095 [INFO] Final sync result: 1301 total entries
+2026-10-20 04:06:14,095 [INFO] - 1301 existing complete entries
+2026-10-20 04:06:14,095 [INFO] - 0 newly fetched/updated entries
+2026-10-20 04:06:14,112 [INFO] Saved 1301 entries to cache: docs/entries26.json
+2026-10-20 04:06:14,116 [INFO] Generating RSS with 1301 entries (newest first)
+2026-10-20 04:06:15,152 [INFO] Entry 1 date: Fri, 16 Oct 2026 13:31:53
+2026-10-20 04:06:15,153 [INFO] Entry 2 date: Fri, 16 Oct 2026 12:17:09
+2026-10-20 04:06:15,154 [INFO] Entry 3 date: Fri, 16 Oct 2026 07:12:33
+2026-10-20 04:06:16,416 [INFO] RSS successfully written to docs/condmat26.xml
+2026-10-20 04:06:16,416 [INFO] File size: 3370604 bytes, entries added: 1301
+2026-10-20 04:06:16,416 [INFO] RSS entries are ordered from newest to oldest publication date
+2026-10-20 04:06:16,423 [INFO] Generating RSS with 1301 entries (newest first)
+2026-10-20 04:06:17,452 [INFO] Entry 1 date: Fri, 16 Oct 2026 13:31:53
+2026-10-20 04:06:17,454 [INFO] Entry 2 date: Fri, 16 Oct 2026 12:17:09
+2026-10-20 04:06:17,455 [INFO] Entry 3 date: Fri, 16 Oct 2026 07:12:33
+2026-10-20 04:06:18,758 [INFO] RSS successfully written to docs/condmat.xml
+2026-10-20 04:06:18,758 [INFO] File size: 3370600 bytes, entries added: 1301
+2026-10-20 04:06:18,759 [INFO] RSS entries are ordered from newest to oldest publication date
+2026-10-20 04:06:18,761 [INFO] Generating HTML with 1301 entries
+2026-10-20 04:06:18,765 [INFO] Sorted 1301 entries by publication date for HTML display
+2026-10-20 04:06:21,198 [INFO] HTML successfully written to docs/condmat26.html (5341290 bytes, RSS link: condmat26.xml)
+2026-10-20 04:06:21,318 [INFO] HTML successfully written to docs/condmat.html (5341288 bytes, RSS link: condmat.xml)
+2026-10-20 04:06:21,318 [INFO] HTML entries processed: 1301 (with LaTeX rendering)
+2026-10-20 04:06:21,319 [INFO] === Sync Statistics ===
+2026-10-20 04:06:21,319 [INFO] Total execution time: 8.57 seconds
+2026-10-20 04:06:21,319 [INFO] Archive year: 2026
+2026-10-20 04:06:21,319 [INFO] Total entries: 1301
+2026-10-20 04:06:21,319 [INFO] Cache entries: 1301
+2026-10-20 04:06:21,319 [INFO] === Full Sync Complete ===
+2026-10-20 04:06:21,319 [INFO] Generated versioned files:
+2026-10-20 04:06:21,319 [INFO]   RSS: docs/condmat26.xml
+2026-10-20 04:06:21,319 [INFO]   HTML: docs/condmat26.html
+2026-10-20 04:06:21,319 [INFO]   Cache: docs/entries26.json
