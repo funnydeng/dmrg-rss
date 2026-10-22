@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-22T03:55:12.602463+00:00",
+  "last_updated": "2026-10-22T16:52:01.496255+00:00",
   "entries": {
     "f8aa0c2de70bd7d4f90611f8e934f2f3": {
       "id": "f8aa0c2de70bd7d4f90611f8e934f2f3",
@@ -10560,6 +10560,38 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "9248152af08cea2fa17dba4ec611864e": {
+      "id": "9248152af08cea2fa17dba4ec611864e",
+      "link": "http://arxiv.org/abs/2610.30012",
+      "title": "DiffVortex: A quantum-inspired fast solver for incompressible flows",
+      "abstract": "Matrix-product-state (MPS) and quantized tensor-train (QTT) representations offer a promising framework for computational fluid dynamics, with logarithmic run time and memory scaling in mesh size when bond dimensions remain bounded. Existing MPS-based solvers are Eulerian: they compress velocity fields and enforce immersed-body boundary conditions through static masks or body-fitted coordinates. Moving or flexible bodies complicate this approach: deformation requires updating MPS masks every time step, while filamentary vorticity in high-Reynolds-number flows may resist low-rank compression. We propose a complementary approach: compress the Biot--Savart kernel rather than the flow state, evolve vorticity using Lagrangian vortex particles, and represent immersed bodies by bound vortex sheets on Lagrangian surface points. Our main theoretical result is a lifting theorem: QTT rank $r$ of the kernel implies matrix-product-operator (MPO) rank at most $2^d r$ for the corresponding convolution operator in $d$ dimensions, independent of grid resolution. This bound is sharp for our interleaved ordering. With quantics tensor cross interpolation, the moment-to-local stage of a single-level fast multipole method becomes a precomputed tensor-network contraction with quasi-linear complexity, retaining Lagrangian flexibility for immersed bodies. Our PyTorch implementation (\\texttt{DiffVortex}) is end-to-end differentiable, runs on GPUs, and handles $6.7\\times10^{7}$ particles on a single device. We validate against reference vortex-method results for an impulsively started cylinder and exact and reference solutions for inviscid elliptical vortices. We also demonstrate two-dimensional flows past rigidly moving, multiple, and deforming bodies, including gradients propagated through the full time integration.",
+      "pubdate": "Wed, 21 Oct 2026 16:43:52 +0000",
+      "authors": "Yu Jun Loo, Silas Alben, Shravan Veerapaneni"
+    },
+    "78d5ae55891b2332995989e84ab254ae": {
+      "id": "78d5ae55891b2332995989e84ab254ae",
+      "link": "http://arxiv.org/abs/2610.29341",
+      "title": "Quantics tensor trains for multiloop functional renormalization group in multiorbital impurity models",
+      "abstract": "The full frequency dependence of electronic interactions is central to dynamical correlations, but its numerical cost restricts multiorbital calculations. We formulate the multiloop functional renormalization group directly in the quantics tensor train representation, retaining all three independent vertex frequencies over broad ranges without an explicit high-frequency parametrization. Analytical tensor operators perform frequency transformations and internal summations without dense vertex intermediates. Multiloop corrections improve agreement of vertices and responses with independent references and reproduce the low-energy numerical renormalization group self-energy. Lower-temperature calculations resolve a quadratic frequency contribution to the analytically continued scattering rate. A degenerate two-orbital impurity exhibits distinct spin, orbital, and charge responses at fixed Hund coupling. In a compensated altermagnetic environment, an orbital-level splitting induces a local spin response despite zero magnetization of the unperturbed impurity. Increasing Hund coupling suppresses the orbital response while increasing its spin polarization. Renormalized one-particle propagation alone does not reproduce this strong polarization dependence. These results extend compressed multiloop calculations to dynamical correlations in multiorbital environments.",
+      "pubdate": "Wed, 21 Oct 2026 07:36:41 +0000",
+      "authors": "Hyun-Yong Lee, Naoki Kawashima"
+    },
+    "137c5aa25cf406f595020c24e57a126d": {
+      "id": "137c5aa25cf406f595020c24e57a126d",
+      "link": "http://arxiv.org/abs/2610.29278",
+      "title": "Chirality, Klein duality, and the stability of Kitaev spin liquids on the star lattice",
+      "abstract": "The star lattice hosts the Yao-Kivelson chiral spin liquid, an exactly solvable Kitaev spin liquid that breaks time reversal spontaneously and is non-Abelian or Abelian depending on the ratio of its two couplings. A density-matrix renormalization group study found that an added Heisenberg exchange leaves it a wide stability window for ferromagnetic but only a narrow one for antiferromagnetic Kitaev coupling. Using projective symmetry groups (PSGs) of fermionic partons, we show that the chirality is not a peculiarity of the solvable point: whenever the $π$ spin rotations act on the partons as in the exact solution (spin-gauge locking), a time-reversal-symmetric mean-field state has no amplitude on the triangles, at any range, so a Kitaev-type spin liquid on this lattice must break time reversal. The Abelian and non-Abelian liquids of both signs share a single chiral PSG, within which their transition is a band inversion. The Klein duality, which reverses the Heisenberg coupling, permutes the PSGs and leaves exactly the locked ones unchanged; a $Z_2$ spin-liquid phase mapped onto itself is therefore locked and, if it spans a connected range of couplings, contains a Kitaev point. Unprojected mean-field theory in Kitaev's Majorana representation treats both signs alike. Exact second-order perturbation theory about the Kitaev points locates the asymmetry: the triangles respond identically for both signs, whereas on the bonds between triangles the two off-diagonal Heisenberg terms create the same four visons and interfere constructively for antiferromagnetic and almost destructively for ferromagnetic coupling, admixing a low-energy four-vison state $82$ times more strongly on the antiferromagnetic side. The PSG results rest on a classification of $352$ $Z_2$ PSGs with spin-orbit-coupled amplitudes, which also identifies the fermionic partners of the known Schwinger-boson spin liquids.",
+      "pubdate": "Wed, 21 Oct 2026 06:32:14 +0000",
+      "authors": "Harsh Raj, Yasir Iqbal"
+    },
+    "3e8fd2997c60a810727a09f28c7892db": {
+      "id": "3e8fd2997c60a810727a09f28c7892db",
+      "link": "http://arxiv.org/abs/2610.28854",
+      "title": "Two quantum skyrmions form a magnon Josephson junction",
+      "abstract": "Two quantum skyrmions in a frustrated spin-$1/2$ magnet bind into a molecule, and the molecule acts as a magnon Josephson junction: the relative helicity $θ$ and the number $n$ of magnons transferred between them obey $H=E_Cn^2-W\\cosθ$. DMRG on the $J_1$--$J_2$ triangular lattice gives $E_C$ as the curvature of the skyrmion energy at its natural size of seven flipped spins, and the measured helicity coherence fixes $W\\simeq0.02J_1$, half the skyrmion--antiskyrmion tunnel splitting and independent of the anisotropy. Two helicity qubits side by side are thus strongly coupled by their own interaction.",
+      "pubdate": "Tue, 20 Oct 2026 19:28:08 +0000",
+      "authors": "R. L. Silva"
     }
   }
 }
