@@ -1,6 +1,70 @@
 {
-  "last_updated": "2026-11-02T21:35:04.958286+00:00",
+  "last_updated": "2026-11-03T05:56:08.477069+00:00",
   "entries": {
+    "dad3f3e743b65d7214cdcc60977254e6": {
+      "id": "dad3f3e743b65d7214cdcc60977254e6",
+      "link": "http://arxiv.org/abs/2610.42119",
+      "title": "Functional Tensor Trains for High-Order Greeks and Exposure Tails of Multi-Asset Structured Products",
+      "abstract": "Risk management of worst-of autocallables needs price sensitivities (Greeks) up to third order and the potential future exposure, a tail quantile of the note's future value. In Monte Carlo, each order of differentiation multiplies the sampling noise by a factor that grows with the observation frequency, and nested simulation turns the noise of its inner paths into a bias of the quantile. We instead solve the backward pricing recursion, storing the continuation value as an $hp$ functional tensor train (hp-FTT) whose piecewise-polynomial cores are split at the barriers, so that worst-of barrier events act exactly, with rank one. For Gaussian transitions we show that the polynomial degree sufficient for an error $\\varepsilon$ grows only as $\\sqrt{\\log(1/\\varepsilon)}$. One solve then gives every Greek at any spot without sampling noise, by integrating the likelihood-ratio weight against the stored value, and the values it stores at future dates replace inner simulation. Against the strongest Monte Carlo estimators we could build or find published, on worst-of autocallables observed monthly on three to five assets, the order of the Greek and the accuracy decide which method is cheaper. At $1\\%$ accuracy Monte Carlo is more than an order of magnitude cheaper for deltas, second-order Greeks go either way, and hp-FTT is cheaper for every third-order Greek, by up to two orders of magnitude. At $0.1\\%$ hp-FTT is cheaper for every Greek we could check, under geometric Brownian motion and local volatility alike. For the exposure alone Monte Carlo is cheaper at $1\\%$ and hp-FTT at $0.1\\%$, and a solve run for the Greeks yields it for little more than scenario sampling. Sampling pays in variance for each derivative and hp-FTT in rank for each asset, so Monte Carlo keeps low-order Greeks at percent accuracy, rarely observed contracts and many assets.",
+      "pubdate": "Fri, 30 Oct 2026 17:52:14 +0000",
+      "authors": "Javier Lopez-Piqueres, Atithi Acharya, Yue Sun, Niraj Kumar"
+    },
+    "f451cb2b6466070dbe7ba0a13710ddf2": {
+      "id": "f451cb2b6466070dbe7ba0a13710ddf2",
+      "link": "http://arxiv.org/abs/2610.41848",
+      "title": "Engineered Learning Problems on Noisy Quantum Processors",
+      "abstract": "Despite quantum machine learning being an active topic of research, demonstrations of algorithms run on quantum hardware beating classical methods remain rare. In this work, we demonstrate a significant performance gap using a projected quantum kernel for $n=15,30$ and $45$ qubits over classical methods on an engineered classification problem, and show reproducibility of the results over different quantum processor units. We also demonstrate how error mitigation can widen this gap, both by improving hardware performance but also by increasing the classical difficulty, with different techniques contributing unequally to these phenomena. This work provides strong evidence that superior empirical performance of quantum hardware over all classical techniques is an achievable goal in quantum machine learning, albeit for an artificial problem. However, as with any application relying on observables, beating state-of-the-art simulation methods remains the primary challenge, as our matrix product state results here show.",
+      "pubdate": "Fri, 30 Oct 2026 15:03:38 +0000",
+      "authors": "Esteban Payares, Nadia Milazzo, Ghada Ben Slama, Thomas Cope"
+    },
+    "79f3e51d8e3af68bb9784f946de1b130": {
+      "id": "79f3e51d8e3af68bb9784f946de1b130",
+      "link": "http://arxiv.org/abs/2610.41687",
+      "title": "Pair density waves via interband pairing --- a perspective from superfluid weight",
+      "abstract": "Pair density waves (PDW) are superconducting states that exhibit a spatially modulated pairing order parameter, corresponding to Cooper pairs carrying finite center-of-mass momentum. While some recent studies have emphasized the role of quantum geometry in stabilizing PDW order in certain multiband systems, we here present a systematic investigation of an alternative, geometry-independent mechanism: PDW order driven purely by interband Cooper pairing. Using the superfluid weight (SW) as a diagnostic, we study two canonical models. The first is the classic Fulde-Ferrell model of an $s$-wave superconductor subject to a Zeeman splitting field, which realizes pure interband pairing between two rigidly shifted bands; the second is a spinless honeycomb-lattice model with nearest-neighbor $f$-wave pairing, a modified version of which was recently found to exhibit PDW instability in density-matrix renormalization-group simulations. In both models the SW receives no quantum geometric contribution at the mean-field level, yet it can be greatly suppressed or even turn negative, signaling a tendency toward pairing with spatial phase modulations. For the first model, we establish that the SW is increasingly suppressed as the Zeeman field grows, drastically turning negative upon the emergence of extensive gapless excitations, i.e., the Bogoliubov Fermi surfaces. For the honeycomb $f$-wave model, we demonstrate, both analytically and numerically, vanishing quantum-geometric SW and an invariably negative total SW. Our results thus establish the SW as a qualitative indicator of the tendency toward PDW order, and provide a microscopic rationale for the interband-pairing-driven PDW instability.",
+      "pubdate": "Fri, 30 Oct 2026 12:52:05 +0000",
+      "authors": "Yi-Jian Hu, Yi-Fan Jiang, Wen Huang"
+    },
+    "b14e394a48cfe44a89d074f5840f1684": {
+      "id": "b14e394a48cfe44a89d074f5840f1684",
+      "link": "http://arxiv.org/abs/2610.41554",
+      "title": "An Efficient Randomized Hierarchical Tucker Decomposition",
+      "abstract": "We introduce randomized algorithms for computing the hierarchical Tucker decomposition of high-order tensors. Unlike traditional algorithms performed in a sequential leaves-to-root direction, our algorithms traverse the dimension tree in a root-to-leaves direction, leveraging randomized sequential projections to accelerate the computation of intermediate subspaces. This strategy can reduce the computation time by an order of magnitude relative to prior randomized algorithms using the leaves-to-root direction, while guaranteeing quasi-optimal approximation. Although the theoretical error bound is slightly larger than for leaves-to-root methods, in all our experiments the practical error adheres to the classic bound. Our results highlight the method's potential for scalable tensor decompositions in high-dimensional data analysis.",
+      "pubdate": "Fri, 30 Oct 2026 10:50:41 +0000",
+      "authors": "Bram Leys, Karl Meerbergen, Nick Vannieuwenhoven, Mathijs Vivet"
+    },
+    "ec5f285bf68703058cdbc573bb52fd33": {
+      "id": "ec5f285bf68703058cdbc573bb52fd33",
+      "link": "http://arxiv.org/abs/2610.41161",
+      "title": "Frustration-Induced $1/6$-Vortex-Paired Phase in a Kagome XY Model",
+      "abstract": "Geometric frustration can fractionalize vortices in two-dimensional XY systems, but a given frustrated model usually hosts only a single type of fractional vortex. Here we study a kagome XY model in which an antiferromagnetic coupling $J_1$ and a second-harmonic coupling $K$ favor two competing frustrated ground-state manifolds. For $K/J_1<1/9$, the ground states map onto those of the kagome three-state Potts antiferromagnet and support $1/3$ vortices; for $K/J_1>1/9$, they map onto those of the kagome Ising antiferromagnet and support $1/2$ vortices. At $K/J_1=1/9$, the two manifolds become degenerate, and bends in the domain walls between them carry $1/6$-vortex excitations. Tensor-network calculations show that a finite-temperature phase with quasi-long-range order only in $e^{6iθ}$ emerges from this degenerate point, separating the $1/3$- and $1/2$-vortex-paired phases. This $1/6$-vortex-paired phase has no counterpart in either parent manifold, showing that competing frustrated manifolds provide a route to new fractional-vortex-paired phases.",
+      "pubdate": "Fri, 30 Oct 2026 02:36:50 +0000",
+      "authors": "Tong-Yu Lin, Guang-Ming Zhang"
+    },
+    "765240b0e077762f0ed962b2088f59f4": {
+      "id": "765240b0e077762f0ed962b2088f59f4",
+      "link": "http://arxiv.org/abs/2610.40910",
+      "title": "Triplon thermal Hall response in a honeycomb-lattice $J_1$-$J_2$ Heisenberg antiferromagnet with Dzyaloshinskii--Moriya interactions",
+      "abstract": "We investigate triplon topology and the thermal Hall transport in a columnar valence-bond solid of a spin-$1/2$ honeycomb-lattice $J_1$-$J_2$ Heisenberg antiferromagnet. Inequivalent triangular sublattices, modeled by $J_2Â\\neq J_2^B$, remove inversion symmetry at nearest-neighbor bond centers and allow in-plane Dzyaloshinskii--Moriya (DM) interactions. We identify the two symmetry-allowed in-plane DM vector patterns and present detailed results for the pattern parallel to the bonds including an out-of-plane magnetic field. Within a harmonic bond-operator treatment, we determine the triplon bands, their Berry curvatures and Chern numbers, and the triplon thermal Hall conductivity. The DM interaction and magnetic field generate nonzero Berry curvatures, but the numerically integrated Chern number of every isolated triplon band vanishes. Nevertheless, the energy-dependent Bose weighting of positive and negative Berry-curvature regions produces a finite thermal Hall response at nonzero low temperatures. We delimit the dilute-triplon regime in which the harmonic transport calculation is expected to be reliable. These results show that a vanishing Chern number band does not directly constrain the triplon response of a valence-bond solid. We also comment on the effects on the columnar valence-bond solid phase of a DM interaction between next-nearest-neighbor spins characterized by an out-of-plane vector pattern.",
+      "pubdate": "Thu, 29 Oct 2026 19:28:51 +0000",
+      "authors": "Guilherme F. Figueiredo, E. Miranda, R. L. Doretto"
+    },
+    "6fbf37dbca3ffdad30a02391474b8183": {
+      "id": "6fbf37dbca3ffdad30a02391474b8183",
+      "link": "http://arxiv.org/abs/2610.40776",
+      "title": "A Universal Approach to Hydrodynamics in Higher Dimensions via Tensor Networks",
+      "abstract": "Extracting late-time hydrodynamic transport properties directly from microscopic quantum models, especially in dimensions beyond one, is believed to be classically intractable. This owes, in part, to the extensive growth of entanglement in higher dimensions and often a mismatch between geometric and tensor network locality. Here, we extend the Density Matrix Truncation (DMT) algorithm to accurately and quantitatively predict high-temperature transport coefficients (e.g. diffusion constants) in up to three dimensions. Additionally, we demonstrate the ability to capture the slow crossover dynamics characteristic of weakly broken integrability. The intuition underlying our approach is to preserve the geometrically local information crucial for hydrodynamics throughout the time evolution, despite using a one-dimensional matrix product state ansatz for higher-dimensional calculations. Our work pushes the boundary of classical computability and opens the door to benchmarking the high-temperature, late-time dynamics of generic quantum simulators.",
+      "pubdate": "Thu, 29 Oct 2026 18:00:09 +0000",
+      "authors": "Sajant Anand, Christopher D. White, Jack Kemp, Julia Wei, Norman Y. Yao, Michael P. Zaletel"
+    },
+    "c7f20ed42beb0611a15d7f8c7c4a42e8": {
+      "id": "c7f20ed42beb0611a15d7f8c7c4a42e8",
+      "link": "http://arxiv.org/abs/2610.40771",
+      "title": "Gapless and Non-Equilibrium Topology in Blockaded Ladders",
+      "abstract": "We propose a multi-leg PXYP model as a minimal setting to explore constraint-induced intertwinement between itinerant and internal degrees of freedom. We argue that the Rydberg-like blockade induces correlations in squeezed space, providing a unified mechanism for nontrivial string order both in and out of equilibrium. In a two-leg geometry, this leads to an intrinsically gapless topological ground state, which can terminate at a supersymmetric multicritical point. This mechanism also leads to the preservation of string order for parametrically long times after a quench, which we verify using tensor network simulations and a classical stochastic approximation to the dynamics. In a three-leg geometry, the blockade leads to an additional emergent $U(1)$ symmetry, resulting in a multicomponent Luttinger liquid where both itinerant and internal degrees of freedom are critical. This family of models arises naturally in a range of quantum simulator platforms such as Rydberg tweezer arrays and dipolar atoms in optical lattices.",
+      "pubdate": "Thu, 29 Oct 2026 18:00:08 +0000",
+      "authors": "Ramanjit Sohal, Hannes Bernien, Ruben Verresen"
+    },
     "aec17b0b84f0b17f8ef6b8f279b3da67": {
       "id": "aec17b0b84f0b17f8ef6b8f279b3da67",
       "link": "http://arxiv.org/abs/2610.40450",
@@ -10929,14 +10993,6 @@
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
     },
-    "dad3f3e743b65d7214cdcc60977254e6": {
-      "id": "dad3f3e743b65d7214cdcc60977254e6",
-      "link": "http://arxiv.org/abs/2610.42119",
-      "title": "Functional Tensor Trains for High-Order Greeks and Exposure Tails of Multi-Asset Structured Products",
-      "abstract": "Risk management of worst-of autocallables needs price sensitivities (Greeks) up to third order and the potential future exposure, a tail quantile of the note's future value. In Monte Carlo, each order of differentiation multiplies the sampling noise by a factor that grows with the observation frequency, and nested simulation turns the noise of its inner paths into a bias of the quantile. We instead solve the backward pricing recursion, storing the continuation value as an $hp$ functional tensor train (hp-FTT) whose piecewise-polynomial cores are split at the barriers, so that worst-of barrier events act exactly, with rank one. For Gaussian transitions we show that the polynomial degree sufficient for an error $\\varepsilon$ grows only as $\\sqrt{\\log(1/\\varepsilon)}$. One solve then gives every Greek at any spot without sampling noise, by integrating the likelihood-ratio weight against the stored value, and the values it stores at future dates replace inner simulation. Against the strongest Monte Carlo estimators we could build or find published, on worst-of autocallables observed monthly on three to five assets, the order of the Greek and the accuracy decide which method is cheaper. At $1\\%$ accuracy Monte Carlo is more than an order of magnitude cheaper for deltas, second-order Greeks go either way, and hp-FTT is cheaper for every third-order Greek, by up to two orders of magnitude. At $0.1\\%$ hp-FTT is cheaper for every Greek we could check, under geometric Brownian motion and local volatility alike. For the exposure alone Monte Carlo is cheaper at $1\\%$ and hp-FTT at $0.1\\%$, and a solve run for the Greeks yields it for little more than scenario sampling. Sampling pays in variance for each derivative and hp-FTT in rank for each asset, so Monte Carlo keeps low-order Greeks at percent accuracy, rarely observed contracts and many assets.",
-      "pubdate": "Fri, 30 Oct 2026 17:52:14 +0000",
-      "authors": "Javier Lopez-Piqueres, Atithi Acharya, Yue Sun, Niraj Kumar"
-    },
     "fc751d3690bc74db96402da98d66ffd9": {
       "id": "fc751d3690bc74db96402da98d66ffd9",
       "link": "http://arxiv.org/abs/2610.42103",
@@ -10944,62 +11000,6 @@
       "abstract": "",
       "pubdate": null,
       "authors": ""
-    },
-    "f451cb2b6466070dbe7ba0a13710ddf2": {
-      "id": "f451cb2b6466070dbe7ba0a13710ddf2",
-      "link": "http://arxiv.org/abs/2610.41848",
-      "title": "Engineered Learning Problems on Noisy Quantum Processors",
-      "abstract": "Despite quantum machine learning being an active topic of research, demonstrations of algorithms run on quantum hardware beating classical methods remain rare. In this work, we demonstrate a significant performance gap using a projected quantum kernel for $n=15,30$ and $45$ qubits over classical methods on an engineered classification problem, and show reproducibility of the results over different quantum processor units. We also demonstrate how error mitigation can widen this gap, both by improving hardware performance but also by increasing the classical difficulty, with different techniques contributing unequally to these phenomena. This work provides strong evidence that superior empirical performance of quantum hardware over all classical techniques is an achievable goal in quantum machine learning, albeit for an artificial problem. However, as with any application relying on observables, beating state-of-the-art simulation methods remains the primary challenge, as our matrix product state results here show.",
-      "pubdate": "Fri, 30 Oct 2026 15:03:38 +0000",
-      "authors": "Esteban Payares, Nadia Milazzo, Ghada Ben Slama, Thomas Cope"
-    },
-    "79f3e51d8e3af68bb9784f946de1b130": {
-      "id": "79f3e51d8e3af68bb9784f946de1b130",
-      "link": "http://arxiv.org/abs/2610.41687",
-      "title": "Pair density waves via interband pairing --- a perspective from superfluid weight",
-      "abstract": "Pair density waves (PDW) are superconducting states that exhibit a spatially modulated pairing order parameter, corresponding to Cooper pairs carrying finite center-of-mass momentum. While some recent studies have emphasized the role of quantum geometry in stabilizing PDW order in certain multiband systems, we here present a systematic investigation of an alternative, geometry-independent mechanism: PDW order driven purely by interband Cooper pairing. Using the superfluid weight (SW) as a diagnostic, we study two canonical models. The first is the classic Fulde-Ferrell model of an $s$-wave superconductor subject to a Zeeman splitting field, which realizes pure interband pairing between two rigidly shifted bands; the second is a spinless honeycomb-lattice model with nearest-neighbor $f$-wave pairing, a modified version of which was recently found to exhibit PDW instability in density-matrix renormalization-group simulations. In both models the SW receives no quantum geometric contribution at the mean-field level, yet it can be greatly suppressed or even turn negative, signaling a tendency toward pairing with spatial phase modulations. For the first model, we establish that the SW is increasingly suppressed as the Zeeman field grows, drastically turning negative upon the emergence of extensive gapless excitations, i.e., the Bogoliubov Fermi surfaces. For the honeycomb $f$-wave model, we demonstrate, both analytically and numerically, vanishing quantum-geometric SW and an invariably negative total SW. Our results thus establish the SW as a qualitative indicator of the tendency toward PDW order, and provide a microscopic rationale for the interband-pairing-driven PDW instability.",
-      "pubdate": "Fri, 30 Oct 2026 12:52:05 +0000",
-      "authors": "Yi-Jian Hu, Yi-Fan Jiang, Wen Huang"
-    },
-    "b14e394a48cfe44a89d074f5840f1684": {
-      "id": "b14e394a48cfe44a89d074f5840f1684",
-      "link": "http://arxiv.org/abs/2610.41554",
-      "title": "An Efficient Randomized Hierarchical Tucker Decomposition",
-      "abstract": "We introduce randomized algorithms for computing the hierarchical Tucker decomposition of high-order tensors. Unlike traditional algorithms performed in a sequential leaves-to-root direction, our algorithms traverse the dimension tree in a root-to-leaves direction, leveraging randomized sequential projections to accelerate the computation of intermediate subspaces. This strategy can reduce the computation time by an order of magnitude relative to prior randomized algorithms using the leaves-to-root direction, while guaranteeing quasi-optimal approximation. Although the theoretical error bound is slightly larger than for leaves-to-root methods, in all our experiments the practical error adheres to the classic bound. Our results highlight the method's potential for scalable tensor decompositions in high-dimensional data analysis.",
-      "pubdate": "Fri, 30 Oct 2026 10:50:41 +0000",
-      "authors": "Bram Leys, Karl Meerbergen, Nick Vannieuwenhoven, Mathijs Vivet"
-    },
-    "ec5f285bf68703058cdbc573bb52fd33": {
-      "id": "ec5f285bf68703058cdbc573bb52fd33",
-      "link": "http://arxiv.org/abs/2610.41161",
-      "title": "Frustration-Induced $1/6$-Vortex-Paired Phase in a Kagome XY Model",
-      "abstract": "Geometric frustration can fractionalize vortices in two-dimensional XY systems, but a given frustrated model usually hosts only a single type of fractional vortex. Here we study a kagome XY model in which an antiferromagnetic coupling $J_1$ and a second-harmonic coupling $K$ favor two competing frustrated ground-state manifolds. For $K/J_1<1/9$, the ground states map onto those of the kagome three-state Potts antiferromagnet and support $1/3$ vortices; for $K/J_1>1/9$, they map onto those of the kagome Ising antiferromagnet and support $1/2$ vortices. At $K/J_1=1/9$, the two manifolds become degenerate, and bends in the domain walls between them carry $1/6$-vortex excitations. Tensor-network calculations show that a finite-temperature phase with quasi-long-range order only in $e^{6iθ}$ emerges from this degenerate point, separating the $1/3$- and $1/2$-vortex-paired phases. This $1/6$-vortex-paired phase has no counterpart in either parent manifold, showing that competing frustrated manifolds provide a route to new fractional-vortex-paired phases.",
-      "pubdate": "Fri, 30 Oct 2026 02:36:50 +0000",
-      "authors": "Tong-Yu Lin, Guang-Ming Zhang"
-    },
-    "765240b0e077762f0ed962b2088f59f4": {
-      "id": "765240b0e077762f0ed962b2088f59f4",
-      "link": "http://arxiv.org/abs/2610.40910",
-      "title": "Triplon thermal Hall response in a honeycomb-lattice $J_1$-$J_2$ Heisenberg antiferromagnet with Dzyaloshinskii--Moriya interactions",
-      "abstract": "We investigate triplon topology and the thermal Hall transport in a columnar valence-bond solid of a spin-$1/2$ honeycomb-lattice $J_1$-$J_2$ Heisenberg antiferromagnet. Inequivalent triangular sublattices, modeled by $J_2Â\\neq J_2^B$, remove inversion symmetry at nearest-neighbor bond centers and allow in-plane Dzyaloshinskii--Moriya (DM) interactions. We identify the two symmetry-allowed in-plane DM vector patterns and present detailed results for the pattern parallel to the bonds including an out-of-plane magnetic field. Within a harmonic bond-operator treatment, we determine the triplon bands, their Berry curvatures and Chern numbers, and the triplon thermal Hall conductivity. The DM interaction and magnetic field generate nonzero Berry curvatures, but the numerically integrated Chern number of every isolated triplon band vanishes. Nevertheless, the energy-dependent Bose weighting of positive and negative Berry-curvature regions produces a finite thermal Hall response at nonzero low temperatures. We delimit the dilute-triplon regime in which the harmonic transport calculation is expected to be reliable. These results show that a vanishing Chern number band does not directly constrain the triplon response of a valence-bond solid. We also comment on the effects on the columnar valence-bond solid phase of a DM interaction between next-nearest-neighbor spins characterized by an out-of-plane vector pattern.",
-      "pubdate": "Thu, 29 Oct 2026 19:28:51 +0000",
-      "authors": "Guilherme F. Figueiredo, E. Miranda, R. L. Doretto"
-    },
-    "6fbf37dbca3ffdad30a02391474b8183": {
-      "id": "6fbf37dbca3ffdad30a02391474b8183",
-      "link": "http://arxiv.org/abs/2610.40776",
-      "title": "A Universal Approach to Hydrodynamics in Higher Dimensions via Tensor Networks",
-      "abstract": "Extracting late-time hydrodynamic transport properties directly from microscopic quantum models, especially in dimensions beyond one, is believed to be classically intractable. This owes, in part, to the extensive growth of entanglement in higher dimensions and often a mismatch between geometric and tensor network locality. Here, we extend the Density Matrix Truncation (DMT) algorithm to accurately and quantitatively predict high-temperature transport coefficients (e.g. diffusion constants) in up to three dimensions. Additionally, we demonstrate the ability to capture the slow crossover dynamics characteristic of weakly broken integrability. The intuition underlying our approach is to preserve the geometrically local information crucial for hydrodynamics throughout the time evolution, despite using a one-dimensional matrix product state ansatz for higher-dimensional calculations. Our work pushes the boundary of classical computability and opens the door to benchmarking the high-temperature, late-time dynamics of generic quantum simulators.",
-      "pubdate": "Thu, 29 Oct 2026 18:00:09 +0000",
-      "authors": "Sajant Anand, Christopher D. White, Jack Kemp, Julia Wei, Norman Y. Yao, Michael P. Zaletel"
-    },
-    "c7f20ed42beb0611a15d7f8c7c4a42e8": {
-      "id": "c7f20ed42beb0611a15d7f8c7c4a42e8",
-      "link": "http://arxiv.org/abs/2610.40771",
-      "title": "Gapless and Non-Equilibrium Topology in Blockaded Ladders",
-      "abstract": "We propose a multi-leg PXYP model as a minimal setting to explore constraint-induced intertwinement between itinerant and internal degrees of freedom. We argue that the Rydberg-like blockade induces correlations in squeezed space, providing a unified mechanism for nontrivial string order both in and out of equilibrium. In a two-leg geometry, this leads to an intrinsically gapless topological ground state, which can terminate at a supersymmetric multicritical point. This mechanism also leads to the preservation of string order for parametrically long times after a quench, which we verify using tensor network simulations and a classical stochastic approximation to the dynamics. In a three-leg geometry, the blockade leads to an additional emergent $U(1)$ symmetry, resulting in a multicomponent Luttinger liquid where both itinerant and internal degrees of freedom are critical. This family of models arises naturally in a range of quantum simulator platforms such as Rydberg tweezer arrays and dipolar atoms in optical lattices.",
-      "pubdate": "Thu, 29 Oct 2026 18:00:08 +0000",
-      "authors": "Ramanjit Sohal, Hannes Bernien, Ruben Verresen"
     }
   }
 }
