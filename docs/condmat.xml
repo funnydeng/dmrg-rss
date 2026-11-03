@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Nov 2026 05:56:13 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 19:16:41 +0000</lastBuildDate>
     <item>
       <title>Functional Tensor Trains for High-Order Greeks and Exposure Tails of Multi-Asset Structured Products</title>
       <link>http://arxiv.org/abs/2610.42119</link>
@@ -16,6 +16,13 @@
       <guid isPermaLink="false">http://arxiv.org/abs/2610.42119</guid>
       <pubDate>Fri, 30 Oct 2026 17:52:14 +0000</pubDate>
     <dc:creator>Javier Lopez-Piqueres et al.</dc:creator></item>
+    <item>
+      <title>Charge Pumping Leptogenesis from the Symmetric Mass Generation Phase on a Four-Leg Ladder Lattice</title>
+      <link>http://arxiv.org/abs/2610.42103</link>
+      <description>&lt;b&gt;Author(s):&lt;/b&gt; Runze Chi, Meng Zeng, Tao Xiang, Yi-Zhuang You, Bertrand I. Halperin, Juven Wang&lt;br&gt;&lt;br&gt;&lt;b&gt;Abstract:&lt;/b&gt; Quantized charge pumping in quantum Hall systems is a bulk topological property, typically manifesting on gapless boundaries as spectral flow through chiral edge modes upon flux insertion. When the boundary is anomaly-free, it can be symmetrically gapped by symmetric mass generation (SMG) interactions. However, the effects on quantized charge pumping at an interacting gapped boundary are unclear. We address this using density-matrix renormalization group simulations of a four-leg ladder quasi-(2+1)d realization of the (1+1)d 3-4-5-0 lattice chiral fermion model with six-fermion interactions at one edge. We find gapless modes near the interacting edge for both weak and strong couplings, but the edge can be in a fully gapped SMG phase at intermediate coupling. We also identify spontaneous breaking of the model's &lt;span class="katex"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi mathvariant="double-struck"&gt;Z&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt; symmetry above a critical interaction strength. Across all three boundary phases, we find quantized charge pumping with the same pumped charge per flux quantum. The spatial distribution of the pumped charge varies between phases. Besides charge pumping, we study how a single injected fermion propagates under open boundary conditions. In the SMG phase, an interaction-induced flavor-mixing current develops at the endpoints of the gapped edge, which is absent in the weak- and strong-coupling limits. This current reveals a charge-redistribution mechanism unique to the SMG phase. Additionally, we propose an analogy between charge pumping in this model and a topological leptogenesis scenario in the (3+1)d Standard Model. The anomaly-free chiral U(1) symmetries of the 3-4-5-0 model play a role analogous to the baryon-minus-lepton symmetry of the Standard Model. In both settings, charge pumping can be associated with a continuous deformation along a classically defined but quantum-anomalous direction, while a discrete subgroup remains an exact quantum symmetry.&lt;br&gt;&lt;br&gt;&lt;b&gt;[&lt;a href='http://arxiv.org/abs/2610.42103'&gt;arXiv:2610.42103&lt;/a&gt;] Published Fri, 30 Oct 2026 17:44:53 UTC&lt;/b&gt;</description>
+      <guid isPermaLink="false">http://arxiv.org/abs/2610.42103</guid>
+      <pubDate>Fri, 30 Oct 2026 17:44:53 +0000</pubDate>
+    <dc:creator>Runze Chi et al.</dc:creator></item>
     <item>
       <title>Engineered Learning Problems on Noisy Quantum Processors</title>
       <link>http://arxiv.org/abs/2610.41848</link>
