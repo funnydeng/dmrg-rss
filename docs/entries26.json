@@ -1,6 +1,54 @@
 {
-  "last_updated": "2026-11-05T19:41:41.412471+00:00",
+  "last_updated": "2026-11-06T05:45:50.056028+00:00",
   "entries": {
+    "6ef2ce118d63db860ff4cb2f214f3d2b": {
+      "id": "6ef2ce118d63db860ff4cb2f214f3d2b",
+      "link": "http://arxiv.org/abs/2611.06880",
+      "title": "Simulating a chiral gauge theory",
+      "abstract": "Chiral gauge theories underlie the Standard Model, yet none has been simulated nonperturbatively. Lattice constructions that evade the Nielsen-Ninomiya obstruction entail complex fermion measures or infinite-dimensional local Hilbert spaces. Here we provide a gauge-invariant Hamiltonian lattice regularization of 1+1-dimensional abelian chiral gauge theories built from clock-and-shift qudits with $\\mathbb{Z}_N$ gauge fields, in which the global chiral symmetry and its 't Hooft anomaly survive exactly mod $N$. Anomaly cancellation on the lattice lets the Gauss laws be imposed and solved exactly, reducing the theory to an unconstrained qudit chain. Using infinite matrix product states, we simulate the canonical 1+1-dimensional chiral gauge theory, the 34-50 model, and find excellent agreement with analytic predictions, showing that a finite-dimensional local Hilbert space at $N=6$ reproduces the expected infrared physics of the continuum 34-50 model. This provides an efficient and practical solution to the problem of simulating general abelian chiral gauge theories in 1+1 dimensions, both on classical and quantum computers.",
+      "pubdate": "Wed, 04 Nov 2026 18:36:32 +0000",
+      "authors": "Laurens Lootens, Hersh Singh"
+    },
+    "b76cdf777be57f29c38ebb6a96a74277": {
+      "id": "b76cdf777be57f29c38ebb6a96a74277",
+      "link": "http://arxiv.org/abs/2611.06552",
+      "title": "A Tensor-Network Chebyshev--Galerkin Method for Boundary-Value Problems in Computational Mechanics",
+      "abstract": "Quantum-inspired numerical methods for partial differential equations represent discretized fields and operators as quantics tensor trains (QTT), so that their cost depends on how compressible the problem is rather than on the number of unknowns. Global spectral formulations in this setting have so far relied on Fourier bases, restricted to periodic problems, or on collocation, which does not preserve the variational structure exploited by tensor-network solvers. We introduce a QTT Chebyshev--Galerkin method that assembles and solves global spectral systems directly in compressed form, without forming the underlying arrays. Starting from the weak formulation, the method handles coupled elliptic systems with variable coefficients, smoothly mapped geometries, and mixed Dirichlet--Robin boundary conditions, and yields symmetric positive-definite systems suited to variational tensor-network solvers. Parameters and random inputs enter as additional coordinates, so the same construction returns the solution over an entire parameter space in a single solve. In linear elasticity, the method retains spectral convergence and reaches errors below $10^{-8}$ on a three-dimensional benchmark, beyond those attained by QTT finite differences and Q2/Q4 FEniCSx finite elements over the tested range. A six-parameter cantilever design study covering $1.7\\times10^{7}$ designs is solved in a single 92~s run, and a stochastic problem with ten random coordinates is represented with $2.4\\times10^{6}$ times less memory than its full coefficient array.",
+      "pubdate": "Wed, 04 Nov 2026 14:16:51 +0000",
+      "authors": "Juan José Rodríguez-Aldavero, Ángel de la Rosa Velasco, Juan José García-Ripoll"
+    },
+    "94ded803280b97a8ee3ed956de0ea288": {
+      "id": "94ded803280b97a8ee3ed956de0ea288",
+      "link": "http://arxiv.org/abs/2611.06473",
+      "title": "Quasi-Normal Modes and thermalization in integrable Quantum Field Theories from the Thermodynamic Bethe Ansatz",
+      "abstract": "We propose a Thermodynamic Bethe Ansatz (TBA) approach for describing thermalization in integrable quantum field theories. The exponential damping and oscillations when approaching thermal equilibrium can be understood as the analogs of quasi-normal mode (QNM) frequencies of black hole perturbations within the framework of holography. Holographic intuitions and some general properties of thermal Green's functions motivate the existence of such a TBA formulation, as well as lead to the imposition of a nonstandard analytical structure on the QNM TBA, while comparison with integrable form-factor expansions fixes the remaining ingredients. We conjecture the QNM TBA to be equivalent to performing an all-order resummation of secular terms in a thermal form factor expansion of retarded 2-point correlation functions. We compare the predictions with tensor network simulations of the E8 deformation of Ising CFT at nonzero temperature. We conjecture that the QNM TBA framework should also be applicable for describing out-of-equilibrium approach to Generalized Hydrodynamics (GHD).",
+      "pubdate": "Wed, 04 Nov 2026 13:14:56 +0000",
+      "authors": "Zoltan Bajnok, Romuald A. Janik"
+    },
+    "4fa5c1b72db0e36ea16777bcd6a443a9": {
+      "id": "4fa5c1b72db0e36ea16777bcd6a443a9",
+      "link": "http://arxiv.org/abs/2611.06435",
+      "title": "Marginal Operator Deformations and Pseudocriticality in Baxter--Wu Models",
+      "abstract": "Weak first-order transitions can exhibit extended pseudocritical scaling regimes that mimic genuine criticality. We show that the long-debated apparent criticality of the dilute Baxter--Wu model arises from a marginally relevant renormalization-group flow, which ultimately drives the system into a first-order regime with phase coexistence. By integrating conformal perturbation theory with symmetry-resolved tensor-network level spectroscopy, we parameterize a slowly running coupling in a numerically accessible form and construct a generic flow-based diagnostic. The renormalization-group trajectories of the dilute and self-dual Baxter--Wu models under marginal operator deformations collapse onto the multicritical phase diagram of the dilute four-state Potts model, exposing the flow structure on both the marginally relevant and irrelevant sides of the Potts point.",
+      "pubdate": "Wed, 04 Nov 2026 12:35:38 +0000",
+      "authors": "Hyun-Yong Lee, Naoki Kawashima, Nikolaos G. Fytas, Dong-Hee Kim"
+    },
+    "e50247cf4ed02653ed11a3f436809685": {
+      "id": "e50247cf4ed02653ed11a3f436809685",
+      "link": "http://arxiv.org/abs/2611.05975",
+      "title": "Sample-based Quantum Diagonalization via Density Matrix Renormalization Group",
+      "abstract": "We introduce SqDMRG, which combines sample-based quantum diagonalization (SQD) with the density matrix renormalization group (DMRG). SqDMRG expands the sampled determinant space into a product of fragment spaces constructed from the samples, and solves the Hamiltonian in this product space using DMRG. We demonstrate the method on benzene pentamer and decamer clusters using classical reference samples, and on the pentamer using quantum samples obtained from the IBM Quantum Nighthawk r2 processor ibm phoenix. It achieves sub-kcal/mol accuracy with far fewer configurations than direct diagonalization.",
+      "pubdate": "Wed, 04 Nov 2026 05:08:44 +0000",
+      "authors": "Yuto Sugimoto, Tomonori Shirakawa, Yukio Kawashima, Toshinari Itoko, Seiji Yunoki"
+    },
+    "5fb965776bc0540327c7834fddace64f": {
+      "id": "5fb965776bc0540327c7834fddace64f",
+      "link": "http://arxiv.org/abs/2611.05627",
+      "title": "Tensor-network simulation of strongly coupled multi-fluxonium circuits",
+      "abstract": "Designing a superconducting quantum processor rests on predicting the low-lying spectrum of its coupled circuit. The Hilbert-space dimension of the circuit's lumped-element model grows exponentially with the number of circuit nodes. The usual methods split the circuit into subsystems, but that split is hard to choose when the elements are strongly coupled. We present a tensor-network method that chooses no subsystems and whose memory and run time per solve are set by the number of modes and two truncations, the Fock cutoff of each normal mode and the bond dimension of a matrix product state (MPS), not by the Hilbert-space dimension. From the capacitance matrix, the inverse-inductance matrix and the junction list alone, the linear circuit is diagonalized into normal modes. Each junction cosine is then a sum of two products of single-mode operators, so the complete lumped-element Hamiltonian is a matrix product operator (MPO) of small bond dimension with one site per mode, solved by the density matrix renormalization group (DMRG). The normal modes make the method generic, and the tensor network makes it affordable. For two fluxonia joined by a tunable coupler, the method agrees with exact diagonalization of the same truncated space to within 1 MHz. Our circuit of three fluxonia joined by two couplers has 11 normal modes and a truncated space of $10^9$ states, out of reach of exact diagonalization in dense or sparse storage. At a bond dimension of 32, its lowest eight levels are converged to within 1 MHz in both truncations, and each state is stored in a small fraction of the numbers a dense vector needs. One solve at that bond dimension takes 81 min and 1.3 GB of memory on one CPU node.",
+      "pubdate": "Tue, 03 Nov 2026 21:15:51 +0000",
+      "authors": "Christian Hensel, Andrés N. Cáliz, Pau Torrente, María Hita-Pérez, Arnau Riera"
+    },
     "ae4f542aaad5009dda2ac11f114edf53": {
       "id": "ae4f542aaad5009dda2ac11f114edf53",
       "link": "http://arxiv.org/abs/2611.05284",
@@ -11168,54 +11216,6 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
-    },
-    "6ef2ce118d63db860ff4cb2f214f3d2b": {
-      "id": "6ef2ce118d63db860ff4cb2f214f3d2b",
-      "link": "http://arxiv.org/abs/2611.06880",
-      "title": "Simulating a chiral gauge theory",
-      "abstract": "Chiral gauge theories underlie the Standard Model, yet none has been simulated nonperturbatively. Lattice constructions that evade the Nielsen-Ninomiya obstruction entail complex fermion measures or infinite-dimensional local Hilbert spaces. Here we provide a gauge-invariant Hamiltonian lattice regularization of 1+1-dimensional abelian chiral gauge theories built from clock-and-shift qudits with $\\mathbb{Z}_N$ gauge fields, in which the global chiral symmetry and its 't Hooft anomaly survive exactly mod $N$. Anomaly cancellation on the lattice lets the Gauss laws be imposed and solved exactly, reducing the theory to an unconstrained qudit chain. Using infinite matrix product states, we simulate the canonical 1+1-dimensional chiral gauge theory, the 34-50 model, and find excellent agreement with analytic predictions, showing that a finite-dimensional local Hilbert space at $N=6$ reproduces the expected infrared physics of the continuum 34-50 model. This provides an efficient and practical solution to the problem of simulating general abelian chiral gauge theories in 1+1 dimensions, both on classical and quantum computers.",
-      "pubdate": "Wed, 04 Nov 2026 18:36:32 +0000",
-      "authors": "Laurens Lootens, Hersh Singh"
-    },
-    "b76cdf777be57f29c38ebb6a96a74277": {
-      "id": "b76cdf777be57f29c38ebb6a96a74277",
-      "link": "http://arxiv.org/abs/2611.06552",
-      "title": "A Tensor-Network Chebyshev--Galerkin Method for Boundary-Value Problems in Computational Mechanics",
-      "abstract": "Quantum-inspired numerical methods for partial differential equations represent discretized fields and operators as quantics tensor trains (QTT), so that their cost depends on how compressible the problem is rather than on the number of unknowns. Global spectral formulations in this setting have so far relied on Fourier bases, restricted to periodic problems, or on collocation, which does not preserve the variational structure exploited by tensor-network solvers. We introduce a QTT Chebyshev--Galerkin method that assembles and solves global spectral systems directly in compressed form, without forming the underlying arrays. Starting from the weak formulation, the method handles coupled elliptic systems with variable coefficients, smoothly mapped geometries, and mixed Dirichlet--Robin boundary conditions, and yields symmetric positive-definite systems suited to variational tensor-network solvers. Parameters and random inputs enter as additional coordinates, so the same construction returns the solution over an entire parameter space in a single solve. In linear elasticity, the method retains spectral convergence and reaches errors below $10^{-8}$ on a three-dimensional benchmark, beyond those attained by QTT finite differences and Q2/Q4 FEniCSx finite elements over the tested range. A six-parameter cantilever design study covering $1.7\\times10^{7}$ designs is solved in a single 92~s run, and a stochastic problem with ten random coordinates is represented with $2.4\\times10^{6}$ times less memory than its full coefficient array.",
-      "pubdate": "Wed, 04 Nov 2026 14:16:51 +0000",
-      "authors": "Juan José Rodríguez-Aldavero, Ángel de la Rosa Velasco, Juan José García-Ripoll"
-    },
-    "94ded803280b97a8ee3ed956de0ea288": {
-      "id": "94ded803280b97a8ee3ed956de0ea288",
-      "link": "http://arxiv.org/abs/2611.06473",
-      "title": "Quasi-Normal Modes and thermalization in integrable Quantum Field Theories from the Thermodynamic Bethe Ansatz",
-      "abstract": "We propose a Thermodynamic Bethe Ansatz (TBA) approach for describing thermalization in integrable quantum field theories. The exponential damping and oscillations when approaching thermal equilibrium can be understood as the analogs of quasi-normal mode (QNM) frequencies of black hole perturbations within the framework of holography. Holographic intuitions and some general properties of thermal Green's functions motivate the existence of such a TBA formulation, as well as lead to the imposition of a nonstandard analytical structure on the QNM TBA, while comparison with integrable form-factor expansions fixes the remaining ingredients. We conjecture the QNM TBA to be equivalent to performing an all-order resummation of secular terms in a thermal form factor expansion of retarded 2-point correlation functions. We compare the predictions with tensor network simulations of the E8 deformation of Ising CFT at nonzero temperature. We conjecture that the QNM TBA framework should also be applicable for describing out-of-equilibrium approach to Generalized Hydrodynamics (GHD).",
-      "pubdate": "Wed, 04 Nov 2026 13:14:56 +0000",
-      "authors": "Zoltan Bajnok, Romuald A. Janik"
-    },
-    "4fa5c1b72db0e36ea16777bcd6a443a9": {
-      "id": "4fa5c1b72db0e36ea16777bcd6a443a9",
-      "link": "http://arxiv.org/abs/2611.06435",
-      "title": "Marginal Operator Deformations and Pseudocriticality in Baxter--Wu Models",
-      "abstract": "Weak first-order transitions can exhibit extended pseudocritical scaling regimes that mimic genuine criticality. We show that the long-debated apparent criticality of the dilute Baxter--Wu model arises from a marginally relevant renormalization-group flow, which ultimately drives the system into a first-order regime with phase coexistence. By integrating conformal perturbation theory with symmetry-resolved tensor-network level spectroscopy, we parameterize a slowly running coupling in a numerically accessible form and construct a generic flow-based diagnostic. The renormalization-group trajectories of the dilute and self-dual Baxter--Wu models under marginal operator deformations collapse onto the multicritical phase diagram of the dilute four-state Potts model, exposing the flow structure on both the marginally relevant and irrelevant sides of the Potts point.",
-      "pubdate": "Wed, 04 Nov 2026 12:35:38 +0000",
-      "authors": "Hyun-Yong Lee, Naoki Kawashima, Nikolaos G. Fytas, Dong-Hee Kim"
-    },
-    "e50247cf4ed02653ed11a3f436809685": {
-      "id": "e50247cf4ed02653ed11a3f436809685",
-      "link": "http://arxiv.org/abs/2611.05975",
-      "title": "Sample-based Quantum Diagonalization via Density Matrix Renormalization Group",
-      "abstract": "We introduce SqDMRG, which combines sample-based quantum diagonalization (SQD) with the density matrix renormalization group (DMRG). SqDMRG expands the sampled determinant space into a product of fragment spaces constructed from the samples, and solves the Hamiltonian in this product space using DMRG. We demonstrate the method on benzene pentamer and decamer clusters using classical reference samples, and on the pentamer using quantum samples obtained from the IBM Quantum Nighthawk r2 processor ibm phoenix. It achieves sub-kcal/mol accuracy with far fewer configurations than direct diagonalization.",
-      "pubdate": "Wed, 04 Nov 2026 05:08:44 +0000",
-      "authors": "Yuto Sugimoto, Tomonori Shirakawa, Yukio Kawashima, Toshinari Itoko, Seiji Yunoki"
-    },
-    "5fb965776bc0540327c7834fddace64f": {
-      "id": "5fb965776bc0540327c7834fddace64f",
-      "link": "http://arxiv.org/abs/2611.05627",
-      "title": "Tensor-network simulation of strongly coupled multi-fluxonium circuits",
-      "abstract": "Designing a superconducting quantum processor rests on predicting the low-lying spectrum of its coupled circuit. The Hilbert-space dimension of the circuit's lumped-element model grows exponentially with the number of circuit nodes. The usual methods split the circuit into subsystems, but that split is hard to choose when the elements are strongly coupled. We present a tensor-network method that chooses no subsystems and whose memory and run time per solve are set by the number of modes and two truncations, the Fock cutoff of each normal mode and the bond dimension of a matrix product state (MPS), not by the Hilbert-space dimension. From the capacitance matrix, the inverse-inductance matrix and the junction list alone, the linear circuit is diagonalized into normal modes. Each junction cosine is then a sum of two products of single-mode operators, so the complete lumped-element Hamiltonian is a matrix product operator (MPO) of small bond dimension with one site per mode, solved by the density matrix renormalization group (DMRG). The normal modes make the method generic, and the tensor network makes it affordable. For two fluxonia joined by a tunable coupler, the method agrees with exact diagonalization of the same truncated space to within 1 MHz. Our circuit of three fluxonia joined by two couplers has 11 normal modes and a truncated space of $10^9$ states, out of reach of exact diagonalization in dense or sparse storage. At a bond dimension of 32, its lowest eight levels are converged to within 1 MHz in both truncations, and each state is stored in a small fraction of the numbers a dense vector needs. One solve at that bond dimension takes 81 min and 1.3 GB of memory on one CPU node.",
-      "pubdate": "Tue, 03 Nov 2026 21:15:51 +0000",
-      "authors": "Christian Hensel, Andrés N. Cáliz, Pau Torrente, María Hita-Pérez, Arnau Riera"
     }
   }
 }
