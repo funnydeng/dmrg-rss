@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-19T06:37:48.667941+00:00",
+  "last_updated": "2026-11-19T20:14:05.581254+00:00",
   "entries": {
     "0484c85a04692aec45aed43af7a55bf2": {
       "id": "0484c85a04692aec45aed43af7a55bf2",
@@ -11848,6 +11848,78 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "00a51bc0201cecc4300cfe60de1983e0": {
+      "id": "00a51bc0201cecc4300cfe60de1983e0",
+      "link": "http://arxiv.org/abs/2611.24710",
+      "title": "The magical memory cost of entanglement spectrum compression",
+      "abstract": "How much quantum memory is needed to faithfully retain the entanglement spectrum of a bipartite pure state after separating out Bell pairs through local unitaries? We derive the exact tradeoff between Bell-pair yield, residual memory, and reconstruction fidelity under local unitaries, defining an operational measure of entanglement-spectrum complexity. Smoothed entanglement spread bounds this memory cost from below, while diverging nonlocal magic forces unbounded memory at any fixed positive fidelity. Chaotic circuit dynamics exhibit a transient memory peak whose height increases with system size, followed by declining cost despite continued entropy growth. A large typical Haar-random state requires only an accuracy-dependent memory, whereas stationary fermionic Gaussian states retain a growing cost with size. In the circuits studied, the multiscale spectral structure associated with entanglement catalysis also has a practical consequence for matrix product state compression, yielding a multiplicative overhead not captured by the conventional entropy-based bond dimension estimate.",
+      "pubdate": "Wed, 18 Nov 2026 16:34:57 +0000",
+      "authors": "Matias Karjula, Vilma Nieminen, Teemu Ojanen, Tapio Ala-Nissila, Moein N. Ivaki"
+    },
+    "7bba5a774ad701822ec10d712fb55edd": {
+      "id": "7bba5a774ad701822ec10d712fb55edd",
+      "link": "http://arxiv.org/abs/2611.24624",
+      "title": "Instanton tunnelling as a verifiable benchmark for digital quantum simulation: circuit structure, classical simulability and hardware reproducibility",
+      "abstract": "We use instanton-mediated tunnelling in the quartic double well as a benchmark for digital quantum simulation that is checkable against an exact answer at every step. The instanton enters through the classical analysis; the hardware tests the dynamics of the lattice model. A unary (single-excitation) encoding maps N lattice sites to N qubits, with the single-excitation dynamics as a reference that remains classically cheap at any N. For a second-order Trotter circuit with adjacent, equal-angle XX/YY pairs on each bond, we prove that the Schmidt rank across any cut is at most four at every gate boundary and at most two after each pair, independently of N. Matrix-product-state simulations of this gate list reproduce the exact splitting up to N = 48. For this bond-wise formula the admissible Trotter step shrinks roughly as N^-2, so one tunnelling period costs about N^3.3 two-qubit gates; a kinetic/potential splitting keeps the step near 0.065 up to N=128, so this scaling belongs to splitting the kinetic term bond by bond. At a coarser, separately bounded step we measure the full transfer at N=8 on two superconducting processors, recovering the lattice splitting to a few percent and its dependence on the barrier height, which at this resolution is set by the lattice rather than by the instanton. Over 9 repetitions, runs taken minutes apart agree to shot noise, while runs hours to weeks apart differ by up to 6.1%, also on a fixed set of qubits; with sessions as the sampling unit, the processors differ in the damping, while a difference in the splitting is not established. Normalising by the measured single-excitation population extends the usable depth about 4-fold but does not improve the splitting. A Gaussian start state, which needs no diagonalisation, reproduces the splitting of the eigenvector-based start to within 1.6 percentage points.",
+      "pubdate": "Wed, 18 Nov 2026 15:38:37 +0000",
+      "authors": "Gerhard Hellstern, Marc Maussner"
+    },
+    "5eb2bc14471f4cf669b9da450284e577": {
+      "id": "5eb2bc14471f4cf669b9da450284e577",
+      "link": "http://arxiv.org/abs/2611.24448",
+      "title": "Virtual Autopurification in Translationally Invariant Quantum States",
+      "abstract": "We introduce virtual autopurification (VAP), a protocol for virtual purification that operates entirely within a single translationally invariant system. Virtual purification suppresses thermal fluctuations and decoherence noise by amplifying the dominant pure component of a mixed state, but its standard implementation requires multiple copies of the state and global entangled measurements. VAP avoids the multiple-copy overhead by constructing virtual copies from spatially separated subregions and performing entangled measurements only between them. Assuming clustering of correlations, we show that VAP reproduces the expectation values of the standard virtual purification protocol, with discrepancies that decay exponentially in both the buffer length and the inter-subregion distance. Numerical simulations support the theoretical predictions and demonstrate accurate implementation of virtual cooling with reduced resource requirements. Our results establish VAP as a resource-efficient and scalable approach to quantum-state purification in near-term devices.",
+      "pubdate": "Wed, 18 Nov 2026 13:58:35 +0000",
+      "authors": "Atsushi Iwaki, Hideaki Hakoshima, Nobuyuki Yoshioka"
+    },
+    "b25c883f22c688f1c967736b149fa49c": {
+      "id": "b25c883f22c688f1c967736b149fa49c",
+      "link": "http://arxiv.org/abs/2611.24444",
+      "title": "Efficient simulation of variational quantum circuits: representation, accuracy and CPU/GPU allocation",
+      "abstract": "Classical circuit simulation supports quantum software development and verification and provides a baseline for assessing quantum advantage. We compare gate-based statevector simulation, direct Pauli evolution and matrix product states for molecular and spin Variational Hamiltonian Ansatze and hardware-efficient ansatze on CPU/GPU systems, varying width, depth, precision and resource allocation. In the tested implementations, direct Pauli evolution benefits complex molecular VHA, whereas GPUs accelerate wider spin and hardware efficient circuits. Matrix product state is useful when limited entanglement permits accurate compression; corrected CPU FP32 can meet the tested tolerance while costing more than FP64. Workload size, startup, worker memory and task-specific profiling can change the preferred allocation. Matched NumPy Pauli updates accelerate two-layer full LiH by 3.45-fold; the GPU gives approximately 30-fold acceleration over 18-thread Aer for 28-qubit, four-layer TFIM, both in FP64. We provide a procedure for choosing representation, precision and worker allocation jointly, comparing the cost of complete energy evaluations under accuracy, memory and core constraints.",
+      "pubdate": "Wed, 18 Nov 2026 13:56:37 +0000",
+      "authors": "Vojtěch Novák, Radovan Rečka, Ondřej Knebl, Ivan Zelinka"
+    },
+    "d0065c9bc68129e51e1239881781bcd1": {
+      "id": "d0065c9bc68129e51e1239881781bcd1",
+      "link": "http://arxiv.org/abs/2611.24147",
+      "title": "Quantum Parallel Algorithm for Multivariate Trace Estimation with Applications",
+      "abstract": "Estimating multivariate traces Tr(A1A2......Ak) is a fundamental task arising across diverse fields. In this paper, We develop a quantum algorithm for this problem tailored to near-term quantum devices. We access matrices by preparing their vectorized states. This access mode yields a tensor-network representation of the multivariate trace, which in turn guides the design of a parallel algorithm. The resulting circuit has depth dominated solely by that of the input oracle and independent of the number of matrices k, at the cost of a qubit count scaling as Θ(k)-a trade-off between circuit depth and circuit size. Moreover, the circuit exhibits a simple modular structure that allows explicit distribution over O(k) devices. We further establish efficient preparation circuits for a broad range of matrix classes, demonstrating the wide applicability of our approach. we present two applications: spectral sum estimation and a quantum implementation of the classical Lanczos method. Both reduce the target problem to sums of multivariate traces, thereby avoiding the construction of matrix polynomial transformations and achieving two levels of parallelism. For certain matrix classes, the resulting algorithms reduce circuit depth by a factor equal to the degree of the approximating polynomial. The shallow circuit depth and distributed implementation make our algorithms particularly suitable for near-term devices.",
+      "pubdate": "Wed, 18 Nov 2026 09:53:45 +0000",
+      "authors": "Honghong Lin, Yun Shang"
+    },
+    "e649d56c567ab1198ee64a82067f7d47": {
+      "id": "e649d56c567ab1198ee64a82067f7d47",
+      "link": "http://arxiv.org/abs/2611.24044",
+      "title": "Accelerating Quantum Error Correction Simulations under Coherent Noise with Compiled Clifford-Augmented Matrix Product States",
+      "abstract": "Reliable assessment of quantum error correction requires understanding how coherent errors affect logical performance. Although tensor networks naturally capture coherent interference, entanglement growth and large qubit counts make repeated sampling costly. Here we develop a compiled Clifford-Augmented Matrix Product State (CAMPS) framework that reuses Clifford transformations across shots, recycles qubits released by measurements, evolves a compressed residual state, and accelerates sampling through rotation fusion and compilation tailored to the MPS layout. Surface-code benchmarks under fixed-sign coherent noise yield accurate logical error estimates at small bond dimensions, while random-sign simulations up to distance $d=9$ and on the $[[72,12,6]]$ bivariate bicycle code match the Pauli-twirling approximation results. Compared with uncompiled CAMPS, compiled CAMPS converges at smaller bond dimensions and achieves order-of-magnitude sampling speedups at equal bond dimension, opening a scalable route to studying coherent error propagation in larger fault-tolerant circuits.",
+      "pubdate": "Wed, 18 Nov 2026 08:31:41 +0000",
+      "authors": "Jiale Huang, Yaojian Chen, Ke Liu, Dingshun Lv, Mingpu Qin"
+    },
+    "831781a50f0fbdf6ef98ee80143812b4": {
+      "id": "831781a50f0fbdf6ef98ee80143812b4",
+      "link": "http://arxiv.org/abs/2611.24041",
+      "title": "An Isogeometric Collocation Solver Based on the Quantized Tensor Train Representation",
+      "abstract": "We introduce an isogeometric collocation framework based on the quan tized tensor train (QTT) representation to solve partial differential equa tions. The proposed method constructs isogeometric collocation operators directly in the QTT format using only a few sampled entries, enabling ef ficient compression and computation. The vectors of the geometry-derived coefficients at the collocation points are represented in the QTT format using the TT-cross approximation. We conduct numerical experiments using the proposed QTT-based isogeometric collocation framework for the convection diffusion-reaction problems in different spatial dimensions and for the Poisson problems on three-dimensional nontrivial geometries, showing significant re ductions in memory usage and computational cost while preserving solution accuracy.",
+      "pubdate": "Wed, 18 Nov 2026 08:30:07 +0000",
+      "authors": "Jun Song, Hua Xiang"
+    },
+    "fa958f4a0ef1762c81b6b3f21a9c7d8c": {
+      "id": "fa958f4a0ef1762c81b6b3f21a9c7d8c",
+      "link": "http://arxiv.org/abs/2611.23975",
+      "title": "Efficient Spectra and Dynamics with Tangent-Space Chebyshev Tree Tensor Networks",
+      "abstract": "We present a tangent-space Chebyshev method (TaChe), which combines tree tensor network states with Chebyshev recursion and maximum entropy spectral analysis in a tree tensor network tangent space, for quantum many-body spectra and dynamics. Implemented tensor network state calculations in the tangent space of the ground state, the core advantage of TaChe is that it can substantially reduce the computational complexity, memory usage, and numerical instability associated with tensor network state compression. Implemented on the GPU platform, it produces accurate spectra with speedups of up to $46.8$ over the previous Chebyshev tensor network method and $13.7$ over one-site time-dependent variational principle propagation in the reported benchmarks. Applications to acetonitrile, thermal aggregate emission, finite-temperature charge transport on a \\(6\\times6\\) lattice, and internal conversion in aggregates of up to 100 molecules demonstrate the efficiency and versatility of TaChe in simulating complex molecular systems.",
+      "pubdate": "Wed, 18 Nov 2026 07:13:44 +0000",
+      "authors": "Zhangyu Yang, Xingyao Wu, Shuo Sun, Yu Wang, Weitang Li, Jan von Delft, Christian B. Mendl, Zhigang Shuai"
+    },
+    "5eec0f54b3f803c0c333cc7b83449b0b": {
+      "id": "5eec0f54b3f803c0c333cc7b83449b0b",
+      "link": "http://arxiv.org/abs/2611.23514",
+      "title": "Quantum resources and the onset of the quantum Monte Carlo sign problem",
+      "abstract": "The Monte Carlo sign problem poses a fundamental obstacle to classical simulation of quantum many-body systems, yet its connection to quantum resources remains poorly understood. We probe this connection by systematically tuning the degree of nonstoquasticity in random k-local Hamiltonians. In numerical tensor-network studies, we find the sign complexity and the quantum resources of entanglement and nonstabilizerness of the ground state to be strongly suppressed in a broad regime up to substantial nonstoquasticity. As nonstoquasticity is further increased, the considered quantum resources experience sharp crossovers into a regime where they are strongly enhanced. Surprisingly, numerical quantum Monte Carlo (QMC) simulations drastically deteriorate in the same region, even though the Hamiltonian is already considerably nonstoquastic well before it, indicating that the failure of ground-state QMC is correlated more with the resource content of the state than the sign structure of the Hamiltonian. We corroborate these findings analytically by constructing an approximate ground state of k-local Hamiltonians in the stoquastic limit. Moreover, we identify a distinct behaviour in graph states. Their nonstabilizerness always vanishes, but, as we demonstrate analytically, on bipartite graphs the sign can be easily cured while in multipartite graph states it cannot. Our results thus shed light on the highly subtle interplay between quantum resources and the computational difficulty encountered by QMC methods.",
+      "pubdate": "Tue, 17 Nov 2026 21:06:30 +0000",
+      "authors": "Naga Dileep Varikuti, Leela Ganesh Chandra Lakkaraju, Philipp Hauke"
     }
   }
 }
