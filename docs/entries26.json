@@ -1,6 +1,78 @@
 {
-  "last_updated": "2026-11-20T19:46:24.331471+00:00",
+  "last_updated": "2026-11-21T06:15:51.002031+00:00",
   "entries": {
+    "21f061878abe2253f926731b57f27436": {
+      "id": "21f061878abe2253f926731b57f27436",
+      "link": "http://arxiv.org/abs/2611.26610",
+      "title": "Field theory and the biquadratic spin-1 chain",
+      "abstract": "The antiferromagnetic biquadratic spin-1 chain is gapped, $SU(3)$ symmetric, and integrable. Standard arguments suggest that its low-energy physics is described by the $\\mathbb{CP}^2$ nonlinear sigma model at $θ=π$. Using the Bethe ansatz, we show that its low-energy excitations can be interpreted as deconfined domain walls, just as in the sigma model. However, the lattice model is integrable, whereas the field theory is generally believed not to be. We propose a solution to this mystery by finding an integrable field theory with the same low-energy limit but which is not Lorentz invariant. The integrability-preserving scaling limit is obtained by adding a higher conserved charge and tuning the chain to criticality. The gap closes quadratically, so that the limit must be described by some nonrelativistic field theory rather than the relativistic sigma model. We describe the two-particle scattering matrix of this field theory.",
+      "pubdate": "Thu, 19 Nov 2026 18:57:09 +0000",
+      "authors": "Luisa Eck, Paul Fendley"
+    },
+    "8c7ee0f49ba05967d7532aea0718b31d": {
+      "id": "8c7ee0f49ba05967d7532aea0718b31d",
+      "link": "http://arxiv.org/abs/2611.26604",
+      "title": "Scalable Simulation of Strongly Correlated Fermions with Neural Gaussian Tensor Networks",
+      "abstract": "Accurate simulations of strongly correlated electrons remain a central challenge in computational physics. We introduce neural-network Gaussian projected entangled-pair states (NN-GPEPS), which exploit the locally-entangled subspace of Gaussian states to give an architecture more compatible with modern neural networks and an exact contraction cost of $O(N^{3/2})$ on two-dimensional lattices. For the Hubbard model at $U/t=8$ and $1/8$ hole doping, we obtain state-of-the-art variational energies in large lattices of up to 1024 sites. These results demonstrate an accurate approach to strongly correlated fermions by connecting neural networks with Gaussian tensor networks.",
+      "pubdate": "Thu, 19 Nov 2026 18:55:44 +0000",
+      "authors": "Runze Chi, Ao Chen, Garnet Kin-Lic Chan"
+    },
+    "77935c3abbbc3a531d403de8204dc3e5": {
+      "id": "77935c3abbbc3a531d403de8204dc3e5",
+      "link": "http://arxiv.org/abs/2611.26430",
+      "title": "Tunable Ground-State Entanglement in Fully Connected Quantum Systems: From Logarithmic to Volume-Law Scaling",
+      "abstract": "Entanglement scaling is a central probe of the complexity of quantum many-body ground states, yet once geometric locality is absent, it can depend sensitively on the structure and normalization of interactions. For fully connected Hamiltonians with the natural Kac normalization, nondegenerate gapped ground states are known to obey a logarithmic entanglement bound. Here we ask how the ground-state entanglement changes when this interaction normalization is continuously relaxed away from the Kac scale. We answer this question by constructing an explicit all-to-all bipartite Hamiltonian of $n$ qubits with Fourier pairing amplitudes and pairwise interaction strength proportional to $n^{-κ}$. For sufficiently small fixed coupling, we prove that every pure ground state has entanglement entropy $Θ(n^{2-2κ} \\log n)$ for $1/2<κ\\leq1$ and $Θ(n)$ at $κ=1/2$. We further show that the ground state is unique and separated from the rest of the spectrum by a system-size-independent gap for $3/4 \\leq κ\\leq 1$, while weak-coupling analysis and numerical calculations suggest that the gap remains open also for $1/2 \\leq κ< 3/4$. Thus, varying only the interaction normalization yields a controlled hierarchy from logarithmic scaling at the natural Kac normalization $κ=1$ to increasingly strong subextensive entanglement and ultimately to a volume law, showing that even an arbitrarily weak relaxation of this normalization precludes a universal logarithmic entanglement bound.",
+      "pubdate": "Thu, 19 Nov 2026 17:08:10 +0000",
+      "authors": "Donghoon Kim, Tomotaka Kuwahara"
+    },
+    "cd978c183777454d63f551cc3c68ff43": {
+      "id": "cd978c183777454d63f551cc3c68ff43",
+      "link": "http://arxiv.org/abs/2611.26327",
+      "title": "Quantum Metric Control of Topological Superconductivity and Incommensurate Charge Density Wave in an Interacting Lieb-Kitaev Chain Model",
+      "abstract": "We study an interacting spinless Lieb-Kitaev chain model in the nearly flat-band regime, motivated by the recent observation that Majorana zero modes in the noninteracting Lieb-Kitaev system inherit two decay modes: an ordinary Bogoliubov-de Gennes (BdG) length and a longer geometric length controlled by the quantum metric. By tuning both the interaction strength and quantum metric, we identify a topological superconducting (TSC) phase, an incommensurate charge-density-wave (ICDW)phase, and a commensurate charge-density-wave (CDW) phase. Inside the TSC phase, the QML is enhanced when increasing the interactions. In the ICDW phase, the interactions are modulated by quantum metric to generate an effective chemical potential, leading to a discontinuous incommensurate-to-commensurate (IC-C) transition. We verify these phases and conclusions using low energy effective theory and density-matrix renormalization group (DMRG) calculations.",
+      "pubdate": "Thu, 19 Nov 2026 16:10:28 +0000",
+      "authors": "Jiale Xuan, Grant Z. X. Yang, K. T. Law, Xiao Yan Xu"
+    },
+    "c19f4bd9663f99e134063679768cf8fc": {
+      "id": "c19f4bd9663f99e134063679768cf8fc",
+      "link": "http://arxiv.org/abs/2611.26257",
+      "title": "Fast extraction of universal data from temporal spectrum: Applications to Haagerup CFT and monopole scattering",
+      "abstract": "Extracting precise universal data on conformal field theory (CFT) on the lattice traditionally requires large-scale simulations of the ground states and excitations of critical systems. Here, we propose an alternative accurate and fast algorithm, where we read off the CFT spectrum from the transfer matrix spectrum of an infinite matrix product state after a short imaginary-time evolution. We apply this method to extract the charge-resolved spectrum of a Haagerup CFT to higher levels and obtain a central charge $c = 2.137(27)$. Moreover, we show that the Maldacena--Ludwig monopole boundary can be realized as the ground state of the Fidkowski--Kitaev Hamiltonian after space-time rotation.",
+      "pubdate": "Thu, 19 Nov 2026 15:30:45 +0000",
+      "authors": "Tokiro Numasawa, Boris De Vos, Masataka Watanabe, Atsushi Ueda"
+    },
+    "0169e5bece2cfcc9d0c7fbff2bcd7e5a": {
+      "id": "0169e5bece2cfcc9d0c7fbff2bcd7e5a",
+      "link": "http://arxiv.org/abs/2611.25993",
+      "title": "Holographic Tessellations Tensor Networks $\\{p,q\\}$ from Entangled Quantum Tetrahedron in Loop Quantum Gravity",
+      "abstract": "The relationship between spin network states in loop quantum gravity and bulk--boundary duality is further explored using the tessellated holographic tensor network. We develop a holographic tensor network construction based on quantum entanglement between tetrahedra in loop quantum gravity (LQG). This construction relates four-valent intertwiner spaces and Bell states dressed with $SU(2)$ holonomies to effective tensors on hyperbolic $\\{p,q\\}$ tessellations. For the $\\{5,4\\}$ tessellation, six tetrahedra are assembled into a single effective cell with five network legs and one logical index. Provided that the microscopic transfer map has full row rank, a right inverse and a completion on the kernel space are employed to construct an isometric embedding, yielding an effective tensor proportional to a perfect tensor. The construction is generalized to the $p=2n-1$ family, with local dimensions supporting absolutely maximally entangled states. On finite networks satisfying a radial orientation condition, an appropriate normalization produces an isometric bulk--boundary map. For cuts satisfying the isometry condition on both sides, the boundary entropy decomposes into a link contribution $\\sum_{\\ell}\\log(2j_{\\ell}+1)$ and the bulk entropy, thereby providing a discrete realization of the quantum Ryu--Takayanagi structure. Applications to the black hole interior are formulated via postselection-based non-isometric encoding. Assuming additional Haar statistics, this framework is used to analyze the preservation of overlaps on average and the competition between entropy branches underlying the Page Curve. These results establish a constructive link between the geometric degrees of freedom of LQG and holographic codes, while clarifying the conditions required to connect them to geometric area in LQG, the location of the quantum extremal surface, and evaporation of black hole.",
+      "pubdate": "Thu, 19 Nov 2026 12:14:12 +0000",
+      "authors": "Deden M. Akbar, Freddy P. Zen, Jusak S. Kosasih"
+    },
+    "5a12e21454f95ef9046188a30fbbf747": {
+      "id": "5a12e21454f95ef9046188a30fbbf747",
+      "link": "http://arxiv.org/abs/2611.25633",
+      "title": "Interaction-driven phase transition between bosonic Moore-Read and Laughlin states in a multiple flat-band model",
+      "abstract": "Lattice models with multiple nearly flat bands provide additional degrees of freedom for realizing fractional Chern insulators and studying competition between distinct topological orders. Here we report numerical evidence for the interaction-driven phase transition between the non-Abelian and Abelian topologically ordered states at fixed filling factor in a multiple flat-band lattice model. We construct a six-site Kekulé lattice model with two low-energy nearly flat bands whose Chern numbers are $1$ and $0$, respectively. At one boson per unit cell (a site filling of $\\frac{1}{6}$), the weak two-body repulsion favors a Moore-Read state predominantly occupying the lowest band, whereas stronger repulsion favors a Laughlin-like state with substantial occupations of both lower bands. We identify the two states by the low-energy spectra, particle entanglement spectra, and many-body Chern numbers, using the real-space and band-projected exact diagonalization, supplemented by infinite density-matrix renormalization group calculations. Our results provide alternative platform to study the quantum phase transition of distinct topological orders beyond the conventional multilayer systems.",
+      "pubdate": "Thu, 19 Nov 2026 07:19:30 +0000",
+      "authors": "Licheng Wang, Jia-Yuan Wu, Dong-Hao Guan, Ai-Lei He, Yuan Zhou"
+    },
+    "5a6a5599e9aeddd0d5775243cee25996": {
+      "id": "5a6a5599e9aeddd0d5775243cee25996",
+      "link": "http://arxiv.org/abs/2611.25322",
+      "title": "Symmetry-resolved spectroscopy of truncation-induced perturbations in loop tensor network renormalization of the six-vertex model",
+      "abstract": "Tensor network renormalization at finite bond dimension $χ$ introduces truncation errors that are amplified by the renormalization-group (RG) flow. For loop tensor network renormalization (LoopTNR) on the $c=1$ critical line of the six-vertex model, with Luttinger parameter $K$, we identify these errors operator by operator from symmetry-resolved transfer-matrix spectra and conformal perturbation theory. With $O(2)$ symmetry imposed, the dominant error is the dimerization operator, which is allowed because LoopTNR breaks one-site translation. With less symmetry it is the $U(1)$ current or a charge-two vertex operator. The growth of the dimerization per RG step and a parameter-free ratio of its amplitudes agree with conformal perturbation theory to within a few percent. The parameter $K$ drifts slowly, owing to a weak marginal error and to the running induced by the dimerization. A larger $χ$ lowers the initial amplitude of the error for $0.75\\le K\\le 1.5$ but changes neither the operator nor its growth rate.",
+      "pubdate": "Thu, 19 Nov 2026 00:51:47 +0000",
+      "authors": "Akira Otsuki, Yuta Yamamoto, Kokin Cho, Rikuto Fushio, Masahito Yamazaki"
+    },
+    "68571b5bff2cc67961f5a80538828f1d": {
+      "id": "68571b5bff2cc67961f5a80538828f1d",
+      "link": "http://arxiv.org/abs/2611.25019",
+      "title": "Entanglement Geometry Beyond Polygons: Graph-Theoretic Entanglement Inequalities",
+      "abstract": "Entanglement entropies of pure multipartite states can be constrained by organizing subsystem cuts as edges (hyperedges) of graphs (hypergraphs). Starting from the one-party entanglement polygon inequality, we derive these constraints from strong subadditivity and pure-state complementarity, with optimal coefficients and explicit equality conditions. Our central result determines, for a distinguished two-party cut and an arbitrary weighted family of cuts, the optimal polygon coefficient: the smallest total weight of the cuts separating a member of the distinguished pair from a remaining party. A refinement involving three mutual information terms gives the exact minimum of the weighted sum at fixed entropies of the two parties and of their union, attained by at most three independent bipartite pure states. This criterion recovers the cycle and complete-graph inequalities and shows that uniform incidence parity, which we prove sufficient for polygon inequalities on hypergraphs, is not necessary. Averaging strong subadditivity over both sides of a bipartition gives a sharp $k$-marginal inequality with coefficient $2\\binom{n-2}{k-1}$, and we determine uniformly optimal coefficients for collective hyperstar inequalities. For paths and overlapping hyperchains, the deficits are exact sums of conditional mutual information terms; genuinely multipartite entangled cluster states saturate the hyperchain inequality while the chain inequality remains strict. We characterize pure chain equality states, bound the trace distance to cycle equality states independently of the number of parties and local dimensions, and obtain bond-dimension bounds for matrix product states and sequential-recovery error estimates.",
+      "pubdate": "Wed, 18 Nov 2026 19:00:01 +0000",
+      "authors": "Masoud Gharahi"
+    },
     "00a51bc0201cecc4300cfe60de1983e0": {
       "id": "00a51bc0201cecc4300cfe60de1983e0",
       "link": "http://arxiv.org/abs/2611.24710",
@@ -11920,78 +11992,6 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
-    },
-    "21f061878abe2253f926731b57f27436": {
-      "id": "21f061878abe2253f926731b57f27436",
-      "link": "http://arxiv.org/abs/2611.26610",
-      "title": "Field theory and the biquadratic spin-1 chain",
-      "abstract": "The antiferromagnetic biquadratic spin-1 chain is gapped, $SU(3)$ symmetric, and integrable. Standard arguments suggest that its low-energy physics is described by the $\\mathbb{CP}^2$ nonlinear sigma model at $θ=π$. Using the Bethe ansatz, we show that its low-energy excitations can be interpreted as deconfined domain walls, just as in the sigma model. However, the lattice model is integrable, whereas the field theory is generally believed not to be. We propose a solution to this mystery by finding an integrable field theory with the same low-energy limit but which is not Lorentz invariant. The integrability-preserving scaling limit is obtained by adding a higher conserved charge and tuning the chain to criticality. The gap closes quadratically, so that the limit must be described by some nonrelativistic field theory rather than the relativistic sigma model. We describe the two-particle scattering matrix of this field theory.",
-      "pubdate": "Thu, 19 Nov 2026 18:57:09 +0000",
-      "authors": "Luisa Eck, Paul Fendley"
-    },
-    "8c7ee0f49ba05967d7532aea0718b31d": {
-      "id": "8c7ee0f49ba05967d7532aea0718b31d",
-      "link": "http://arxiv.org/abs/2611.26604",
-      "title": "Scalable Simulation of Strongly Correlated Fermions with Neural Gaussian Tensor Networks",
-      "abstract": "Accurate simulations of strongly correlated electrons remain a central challenge in computational physics. We introduce neural-network Gaussian projected entangled-pair states (NN-GPEPS), which exploit the locally-entangled subspace of Gaussian states to give an architecture more compatible with modern neural networks and an exact contraction cost of $O(N^{3/2})$ on two-dimensional lattices. For the Hubbard model at $U/t=8$ and $1/8$ hole doping, we obtain state-of-the-art variational energies in large lattices of up to 1024 sites. These results demonstrate an accurate approach to strongly correlated fermions by connecting neural networks with Gaussian tensor networks.",
-      "pubdate": "Thu, 19 Nov 2026 18:55:44 +0000",
-      "authors": "Runze Chi, Ao Chen, Garnet Kin-Lic Chan"
-    },
-    "77935c3abbbc3a531d403de8204dc3e5": {
-      "id": "77935c3abbbc3a531d403de8204dc3e5",
-      "link": "http://arxiv.org/abs/2611.26430",
-      "title": "Tunable Ground-State Entanglement in Fully Connected Quantum Systems: From Logarithmic to Volume-Law Scaling",
-      "abstract": "Entanglement scaling is a central probe of the complexity of quantum many-body ground states, yet once geometric locality is absent, it can depend sensitively on the structure and normalization of interactions. For fully connected Hamiltonians with the natural Kac normalization, nondegenerate gapped ground states are known to obey a logarithmic entanglement bound. Here we ask how the ground-state entanglement changes when this interaction normalization is continuously relaxed away from the Kac scale. We answer this question by constructing an explicit all-to-all bipartite Hamiltonian of $n$ qubits with Fourier pairing amplitudes and pairwise interaction strength proportional to $n^{-κ}$. For sufficiently small fixed coupling, we prove that every pure ground state has entanglement entropy $Θ(n^{2-2κ} \\log n)$ for $1/2<κ\\leq1$ and $Θ(n)$ at $κ=1/2$. We further show that the ground state is unique and separated from the rest of the spectrum by a system-size-independent gap for $3/4 \\leq κ\\leq 1$, while weak-coupling analysis and numerical calculations suggest that the gap remains open also for $1/2 \\leq κ< 3/4$. Thus, varying only the interaction normalization yields a controlled hierarchy from logarithmic scaling at the natural Kac normalization $κ=1$ to increasingly strong subextensive entanglement and ultimately to a volume law, showing that even an arbitrarily weak relaxation of this normalization precludes a universal logarithmic entanglement bound.",
-      "pubdate": "Thu, 19 Nov 2026 17:08:10 +0000",
-      "authors": "Donghoon Kim, Tomotaka Kuwahara"
-    },
-    "cd978c183777454d63f551cc3c68ff43": {
-      "id": "cd978c183777454d63f551cc3c68ff43",
-      "link": "http://arxiv.org/abs/2611.26327",
-      "title": "Quantum Metric Control of Topological Superconductivity and Incommensurate Charge Density Wave in an Interacting Lieb-Kitaev Chain Model",
-      "abstract": "We study an interacting spinless Lieb-Kitaev chain model in the nearly flat-band regime, motivated by the recent observation that Majorana zero modes in the noninteracting Lieb-Kitaev system inherit two decay modes: an ordinary Bogoliubov-de Gennes (BdG) length and a longer geometric length controlled by the quantum metric. By tuning both the interaction strength and quantum metric, we identify a topological superconducting (TSC) phase, an incommensurate charge-density-wave (ICDW)phase, and a commensurate charge-density-wave (CDW) phase. Inside the TSC phase, the QML is enhanced when increasing the interactions. In the ICDW phase, the interactions are modulated by quantum metric to generate an effective chemical potential, leading to a discontinuous incommensurate-to-commensurate (IC-C) transition. We verify these phases and conclusions using low energy effective theory and density-matrix renormalization group (DMRG) calculations.",
-      "pubdate": "Thu, 19 Nov 2026 16:10:28 +0000",
-      "authors": "Jiale Xuan, Grant Z. X. Yang, K. T. Law, Xiao Yan Xu"
-    },
-    "c19f4bd9663f99e134063679768cf8fc": {
-      "id": "c19f4bd9663f99e134063679768cf8fc",
-      "link": "http://arxiv.org/abs/2611.26257",
-      "title": "Fast extraction of universal data from temporal spectrum: Applications to Haagerup CFT and monopole scattering",
-      "abstract": "Extracting precise universal data on conformal field theory (CFT) on the lattice traditionally requires large-scale simulations of the ground states and excitations of critical systems. Here, we propose an alternative accurate and fast algorithm, where we read off the CFT spectrum from the transfer matrix spectrum of an infinite matrix product state after a short imaginary-time evolution. We apply this method to extract the charge-resolved spectrum of a Haagerup CFT to higher levels and obtain a central charge $c = 2.137(27)$. Moreover, we show that the Maldacena--Ludwig monopole boundary can be realized as the ground state of the Fidkowski--Kitaev Hamiltonian after space-time rotation.",
-      "pubdate": "Thu, 19 Nov 2026 15:30:45 +0000",
-      "authors": "Tokiro Numasawa, Boris De Vos, Masataka Watanabe, Atsushi Ueda"
-    },
-    "0169e5bece2cfcc9d0c7fbff2bcd7e5a": {
-      "id": "0169e5bece2cfcc9d0c7fbff2bcd7e5a",
-      "link": "http://arxiv.org/abs/2611.25993",
-      "title": "Holographic Tessellations Tensor Networks $\\{p,q\\}$ from Entangled Quantum Tetrahedron in Loop Quantum Gravity",
-      "abstract": "The relationship between spin network states in loop quantum gravity and bulk--boundary duality is further explored using the tessellated holographic tensor network. We develop a holographic tensor network construction based on quantum entanglement between tetrahedra in loop quantum gravity (LQG). This construction relates four-valent intertwiner spaces and Bell states dressed with $SU(2)$ holonomies to effective tensors on hyperbolic $\\{p,q\\}$ tessellations. For the $\\{5,4\\}$ tessellation, six tetrahedra are assembled into a single effective cell with five network legs and one logical index. Provided that the microscopic transfer map has full row rank, a right inverse and a completion on the kernel space are employed to construct an isometric embedding, yielding an effective tensor proportional to a perfect tensor. The construction is generalized to the $p=2n-1$ family, with local dimensions supporting absolutely maximally entangled states. On finite networks satisfying a radial orientation condition, an appropriate normalization produces an isometric bulk--boundary map. For cuts satisfying the isometry condition on both sides, the boundary entropy decomposes into a link contribution $\\sum_{\\ell}\\log(2j_{\\ell}+1)$ and the bulk entropy, thereby providing a discrete realization of the quantum Ryu--Takayanagi structure. Applications to the black hole interior are formulated via postselection-based non-isometric encoding. Assuming additional Haar statistics, this framework is used to analyze the preservation of overlaps on average and the competition between entropy branches underlying the Page Curve. These results establish a constructive link between the geometric degrees of freedom of LQG and holographic codes, while clarifying the conditions required to connect them to geometric area in LQG, the location of the quantum extremal surface, and evaporation of black hole.",
-      "pubdate": "Thu, 19 Nov 2026 12:14:12 +0000",
-      "authors": "Deden M. Akbar, Freddy P. Zen, Jusak S. Kosasih"
-    },
-    "5a12e21454f95ef9046188a30fbbf747": {
-      "id": "5a12e21454f95ef9046188a30fbbf747",
-      "link": "http://arxiv.org/abs/2611.25633",
-      "title": "Interaction-driven phase transition between bosonic Moore-Read and Laughlin states in a multiple flat-band model",
-      "abstract": "Lattice models with multiple nearly flat bands provide additional degrees of freedom for realizing fractional Chern insulators and studying competition between distinct topological orders. Here we report numerical evidence for the interaction-driven phase transition between the non-Abelian and Abelian topologically ordered states at fixed filling factor in a multiple flat-band lattice model. We construct a six-site Kekulé lattice model with two low-energy nearly flat bands whose Chern numbers are $1$ and $0$, respectively. At one boson per unit cell (a site filling of $\\frac{1}{6}$), the weak two-body repulsion favors a Moore-Read state predominantly occupying the lowest band, whereas stronger repulsion favors a Laughlin-like state with substantial occupations of both lower bands. We identify the two states by the low-energy spectra, particle entanglement spectra, and many-body Chern numbers, using the real-space and band-projected exact diagonalization, supplemented by infinite density-matrix renormalization group calculations. Our results provide alternative platform to study the quantum phase transition of distinct topological orders beyond the conventional multilayer systems.",
-      "pubdate": "Thu, 19 Nov 2026 07:19:30 +0000",
-      "authors": "Licheng Wang, Jia-Yuan Wu, Dong-Hao Guan, Ai-Lei He, Yuan Zhou"
-    },
-    "5a6a5599e9aeddd0d5775243cee25996": {
-      "id": "5a6a5599e9aeddd0d5775243cee25996",
-      "link": "http://arxiv.org/abs/2611.25322",
-      "title": "Symmetry-resolved spectroscopy of truncation-induced perturbations in loop tensor network renormalization of the six-vertex model",
-      "abstract": "Tensor network renormalization at finite bond dimension $χ$ introduces truncation errors that are amplified by the renormalization-group (RG) flow. For loop tensor network renormalization (LoopTNR) on the $c=1$ critical line of the six-vertex model, with Luttinger parameter $K$, we identify these errors operator by operator from symmetry-resolved transfer-matrix spectra and conformal perturbation theory. With $O(2)$ symmetry imposed, the dominant error is the dimerization operator, which is allowed because LoopTNR breaks one-site translation. With less symmetry it is the $U(1)$ current or a charge-two vertex operator. The growth of the dimerization per RG step and a parameter-free ratio of its amplitudes agree with conformal perturbation theory to within a few percent. The parameter $K$ drifts slowly, owing to a weak marginal error and to the running induced by the dimerization. A larger $χ$ lowers the initial amplitude of the error for $0.75\\le K\\le 1.5$ but changes neither the operator nor its growth rate.",
-      "pubdate": "Thu, 19 Nov 2026 00:51:47 +0000",
-      "authors": "Akira Otsuki, Yuta Yamamoto, Kokin Cho, Rikuto Fushio, Masahito Yamazaki"
-    },
-    "68571b5bff2cc67961f5a80538828f1d": {
-      "id": "68571b5bff2cc67961f5a80538828f1d",
-      "link": "http://arxiv.org/abs/2611.25019",
-      "title": "Entanglement Geometry Beyond Polygons: Graph-Theoretic Entanglement Inequalities",
-      "abstract": "Entanglement entropies of pure multipartite states can be constrained by organizing subsystem cuts as edges (hyperedges) of graphs (hypergraphs). Starting from the one-party entanglement polygon inequality, we derive these constraints from strong subadditivity and pure-state complementarity, with optimal coefficients and explicit equality conditions. Our central result determines, for a distinguished two-party cut and an arbitrary weighted family of cuts, the optimal polygon coefficient: the smallest total weight of the cuts separating a member of the distinguished pair from a remaining party. A refinement involving three mutual information terms gives the exact minimum of the weighted sum at fixed entropies of the two parties and of their union, attained by at most three independent bipartite pure states. This criterion recovers the cycle and complete-graph inequalities and shows that uniform incidence parity, which we prove sufficient for polygon inequalities on hypergraphs, is not necessary. Averaging strong subadditivity over both sides of a bipartition gives a sharp $k$-marginal inequality with coefficient $2\\binom{n-2}{k-1}$, and we determine uniformly optimal coefficients for collective hyperstar inequalities. For paths and overlapping hyperchains, the deficits are exact sums of conditional mutual information terms; genuinely multipartite entangled cluster states saturate the hyperchain inequality while the chain inequality remains strict. We characterize pure chain equality states, bound the trace distance to cycle equality states independently of the number of parties and local dimensions, and obtain bond-dimension bounds for matrix product states and sequential-recovery error estimates.",
-      "pubdate": "Wed, 18 Nov 2026 19:00:01 +0000",
-      "authors": "Masoud Gharahi"
     }
   }
 }
