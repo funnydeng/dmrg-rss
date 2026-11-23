@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-23T06:35:30.653087+00:00",
+  "last_updated": "2026-11-23T23:36:01.990583+00:00",
   "entries": {
     "21f061878abe2253f926731b57f27436": {
       "id": "21f061878abe2253f926731b57f27436",
@@ -11992,6 +11992,62 @@
       "abstract": "Pricing multi-asset options via the Black-Scholes PDE is limited by the curse of dimensionality: classical full-grid solvers scale exponentially in the number of underlyings and are effectively restricted to three assets. Practitioners typically rely on Monte Carlo methods for computing complex instrument involving multiple correlated underlyings. We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options. We compute full-grid prices and Greeks for correlated basket and max-min options in three to five dimensions with high accuracy. The methods introduced can comfortably be pushed to full-grid solutions on 10-15 underlyings, with further algorithmic optimization and more compute power.",
       "pubdate": "Sat, 20 Dec 2025 17:24:57 +0000",
       "authors": "Lucas Arenstein, Michael Kastoryano"
+    },
+    "50c36a6523302c86754725c74ead6737": {
+      "id": "50c36a6523302c86754725c74ead6737",
+      "link": "http://arxiv.org/abs/2611.27819",
+      "title": "Magnetic-Field Response of a Hyperbolic Kitaev Spin Liquid",
+      "abstract": "Hyperbolic geometry can give rise to Kitaev spin liquids with distinct flux structures and Majorana spectra, raising the question of how these fractionalized states respond beyond exactly solvable limits. We address this question on the Kekulé-colored hyperbolic {8,3} lattice by developing an infinite projected entangled-pair-state approach with flux-resolved loop-gas initialization and geometry-adapted tensor-network contraction. Under uniform and staggered [111] magnetic fields, we find markedly different many-body responses. The uniform field induces a sharp change between competing variational branches at weak field, whereas the polarization and mean plaquette flux evolve over a much broader field range under the staggered field. Exchange-energy competition helps explain the different response scales, while third-order effective Majorana models in a fixed-flux background exhibit contrasting low-energy spectra. Our results connect the geometry-dependent fractionalized structure of a solvable hyperbolic spin liquid to its many-body response under physical perturbations that break flux conservation.",
+      "pubdate": "Fri, 20 Nov 2026 16:45:23 +0000",
+      "authors": "Tao Yang, Baigeng Wang, Rui Wang, Z. Y. Xie"
+    },
+    "f5f663f7603e545146caea1973fd6a0c": {
+      "id": "f5f663f7603e545146caea1973fd6a0c",
+      "link": "http://arxiv.org/abs/2611.27749",
+      "title": "Lattice-geometry dependence of Type-I and Type-II magnetic flux responses in strongly correlated bosons",
+      "abstract": "Superfluids and superconductors are classified into Type-I and Type-II according to their response to a magnetic flux, but this classification has hardly been addressed for lattice bosons under magnetic flux, where the Meissner and vortex phases have been studied mostly in ladder geometries. Here, we study the flux response of the extended Bose-Hubbard model with nearest-neighbor interaction $V$ at half filling on square and triangular ladders with two to four legs by using the density-matrix renormalization group. On the square ladders, the vortex phase is confined to a region near $V=0$. At finite $V$, a magnetic flux-induced charge-density-wave (CDW) order replaces it, and the response becomes Type-I-like. In contrast, on the triangular ladders, the vortex phase persists over the whole range of $V$ studied, and the response remains Type-II-like. By extrapolating the ladder results to two dimensions, we argue that the Type-I or Type-II character of the flux response depends on the lattice geometry, which suggests a role of geometric frustration.",
+      "pubdate": "Fri, 20 Nov 2026 15:41:05 +0000",
+      "authors": "Takayuki Yokoyama, Yasuhiro Tada"
+    },
+    "927dd48e6ab5871aa268575743ff67c2": {
+      "id": "927dd48e6ab5871aa268575743ff67c2",
+      "link": "http://arxiv.org/abs/2611.27408",
+      "title": "Structure-preserving compression of Matrix Product States",
+      "abstract": "Matrix product state time evolution relies on compression to control the growth of bond dimensions, but compression can break the conservation laws of the equation being solved. A truncation is not the flow of a Hermitian generator, so even a small truncation error can violate exact algebraic identities of the Schrödinger equation. For any matrix product state integrator that leaves the state in canonical form with an orthogonality center, a scalar correction restores an admissible global invariant after compression whenever the resulting scalar quadratic constraint equation admits a real root, without enlarging any bond dimension. Rank-preserving recovery searches other canonical centers when that correction fails. The geometry of the low-rank manifold provides sufficient conditions for conservation by the fixed-rank projected flow and bounds what corrections within a frozen center frame can achieve. Numerical experiments demonstrate that recovery can be required even along accurate truncated trajectories.",
+      "pubdate": "Fri, 20 Nov 2026 10:14:47 +0000",
+      "authors": "Pouriya Ghadimi, Maximilian Fröhlich, Aaron Sander, Martin Eigel, Richard M. Milbradt"
+    },
+    "6780905eb9bc77f51cc907fef1760b25": {
+      "id": "6780905eb9bc77f51cc907fef1760b25",
+      "link": "http://arxiv.org/abs/2611.27134",
+      "title": "String breaking in a (1+1)-dimensional $e^+e^-$ collider",
+      "abstract": "In this paper, we develop a framework for studying solitons in $(1+1)$-dimensional gauge theories using tensor networks, and we apply it to simulate $e^+e^-$ collisions in the massive Schwinger model. We work at $θ= π$ and at a bare fermion mass exceeding the critical value; in this regime, there are two degenerate vacua, and the $e^+$ and $e^-$ particles are realized as soliton states interpolating between them. We carefully explain how to find and characterize such soliton states using infinite tensor network methods, and then exhibit real-time simulations of their collisions. These collisions involve the formation of an energetic flux string, and we demonstrate that our final states are superpositions of elastic and string-breaking trajectories.",
+      "pubdate": "Fri, 20 Nov 2026 05:08:04 +0000",
+      "authors": "Ross Dempsey, Anna-Maria E. Glück, Silviu S. Pufu, Benjamin T. Søgaard"
+    },
+    "ede1322c5c2fb673690b7d787f5a7e14": {
+      "id": "ede1322c5c2fb673690b7d787f5a7e14",
+      "link": "http://arxiv.org/abs/2611.26741",
+      "title": "Emergent Long-Range Entanglement in the XXZ Quantum Spin Chain with Competing Orders",
+      "abstract": "Competition between short-range and long-range interactions is a largely unexplored route to one-dimensional quantum matter. We introduce a spin-1/2 XXZ chain with ferromagnetic nearest-neighbour and antiferromagnetic power-law couplings. Using DMRG and spin-wave theory, we show this competition stabilises a gapless phase with central charge $c=0.997(17)$, a twofold-degenerate ground state and entanglement spectrum, absent in nearest-neighbour models, and is long-range entangled as diagnosed by finite quantum conditional mutual information. The model also generates a unique gapped quantum phase and gapless antiphase with non-decaying correlations.",
+      "pubdate": "Thu, 19 Nov 2026 19:37:23 +0000",
+      "authors": "Anthony Balchin, Eytan Grosfeld, Eran Ginossar"
+    },
+    "3783799040288c35b38cdcd032d726b7": {
+      "id": "3783799040288c35b38cdcd032d726b7",
+      "link": "http://arxiv.org/abs/2611.26720",
+      "title": "Improved Digitization Bounds for U(1) Lattice Gauge Theory via Semiclassical Analysis",
+      "abstract": "Simulating lattice gauge theories on a digital quantum computer or using tensor network methods requires a finite-dimensional approximation of the gauge field, a process often called digitization. Controlling the resulting error is essential for assessing the accuracy and resource requirements of these simulations. In this work, we derive a digitization error bound for low-lying eigenstates of the Kogut--Susskind Hamiltonian for pure U(1) gauge theory and translate it into a bound on time-evolution error. Compared with existing bounds, our result achieves exponentially improved dependence on the inverse lattice spacing $1/a$ and evolution time $T$, together with improved dependence on the inverse coupling $1/g$. The key idea is to identify a small parameter in the Kogut--Susskind Hamiltonian and apply tools from semiclassical analysis. Specifically, we adapt Agmon's method to establish exponential decay of the error with the truncation threshold. These results sharpen estimates of the local Hilbert space dimension and qubit resources needed to simulate gauge theories near the continuum limit, at weak coupling, and over long times.",
+      "pubdate": "Thu, 19 Nov 2026 19:19:44 +0000",
+      "authors": "Di Fang, Yu Tong"
+    },
+    "d5dcd3f4203fa1287e6959c8cc4ae82d": {
+      "id": "d5dcd3f4203fa1287e6959c8cc4ae82d",
+      "link": "http://arxiv.org/abs/2611.26690",
+      "title": "Off-diagonal long-range order and $p$-wave pairing in one dimension from critical density fluctuations",
+      "abstract": "A central theme in the theory of unconventional superconductivity is that Cooper pairing can be mediated by bosonic collective modes other than lattice vibrations. However, collective fluctuations in reduced dimensions can also have a destabilizing effect on superconductivity, by suppressing long-range order or by destroying Fermi-liquid quasiparticles in the normal state. In this work, we study a one-dimensional (1D) model of spinless fermions with local interactions that exhibits a continuous quantum phase transition from a Luttinger liquid to a phase-separated state. Combining field-theoretic arguments with numerical exact diagonalization and matrix-product-state methods, we find that the quantum critical point exhibits two-particle off-diagonal long-range order and $p$-wave pairing. Our work shows that critical density fluctuations at a phase-separation instability can act as pairing glue for unconventional superconductivity in 1D, overcoming the disordering effect of phase fluctuations and the absence of long-lived fermionic quasiparticles in the normal state.",
+      "pubdate": "Thu, 19 Nov 2026 19:00:05 +0000",
+      "authors": "Matthew D. Thomson, Simon M. Martin, Frank Marsiglio, Joseph Maciejko"
     }
   }
 }
